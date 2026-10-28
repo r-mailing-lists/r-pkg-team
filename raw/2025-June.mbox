@@ -1,0 +1,1263 @@
+From doko at debian.org  Sun Jun  1 10:52:28 2025
+From: doko at debian.org (Matthias Klose)
+Date: Sun, 1 Jun 2025 11:52:28 +0200
+Subject: [R-pkg-team] Bug#1107076: r-cran-xml2 fails autopkg tests with
+ libxml 2.14.x from experimental
+Message-ID: <581b3134-51e0-47da-91c6-52d4446c41dc@debian.org>
+
+Package: src:r-cran-xml2
+Version: 1.3.8-1
+Tags: ftbfs sid forky
+User: debian-xml-sgml-pkgs at lists.alioth.debian.org
+Usertags: libxml2.14
+
+[this bug is NOT targeted to the upcoming trixie release]
+
+most likely needs an adjustment of the test case.
+
+[...]
+199s autopkgtest [03:51:02]: test run-unit-test: [-----------------------
+199s BEGIN TEST testthat.R
+199s
+199s R version 4.5.0 (2025-04-11) -- "How About a Twenty-Six"
+199s Copyright (C) 2025 The R Foundation for Statistical Computing
+199s Platform: x86_64-pc-linux-gnu
+199s
+199s R is free software and comes with ABSOLUTELY NO WARRANTY.
+199s You are welcome to redistribute it under certain conditions.
+199s Type 'license()' or 'licence()' for distribution details.
+199s
+199s R is a collaborative project with many contributors.
+199s Type 'contributors()' for more information and
+199s 'citation()' on how to cite R or R packages in publications.
+199s
+199s Type 'demo()' for some demos, 'help()' for on-line help, or
+199s 'help.start()' for an HTML browser interface to help.
+199s Type 'q()' to quit R.
+199s
+199s > # This file is part of the standard setup for testthat.
+199s > # It is recommended that you do not modify it.
+199s > #
+199s > # Where should you do additional test configuration?
+199s > # Learn more about the roles of various files in:
+199s > # * https://r-pkgs.org/testing-design.html#sec-tests-files-overview
+199s > # * https://testthat.r-lib.org/articles/special-files.html
+199s >
+199s > library(testthat)
+199s > library(xml2)
+199s >
+199s > is_solaris <- tolower(Sys.info()[["sysname"]]) == "sunos"
+199s >
+199s > if (!is_solaris) {
+199s +   test_check("xml2")
+199s + }
+199s This is libxml2 version 2.14.3
+202s [ FAIL 1 | WARN 0 | SKIP 21 | PASS 372 ]
+202s
+202s ?? Skipped tests (21) 
+??????????????????????????????????????????????????????????
+203s ? how to test error with `check_installed()`? (1): 
+'test-xml_parse.R:2:3'
+203s ? httpbin is unreliable (2): 'test-xml_parse.R:68:3', 
+'test-xml_parse.R:77:3'
+203s ? libxml2-dependent (1): 'test-xml_url.R:15:3'
+203s ? On CRAN (17): 'test-xml_attr.R:103:3', 'test-xml_children.R:14:3',
+203s   'test-xml_document.R:4:3', 'test-xml_find.R:65:3', 
+'test-xml_find.R:91:3',
+203s   'test-xml_find.R:109:3', 'test-xml_find.R:137:3', 
+'test-xml_name.R:32:3',
+203s   'test-xml_node.R:4:3', 'test-xml_nodeset.R:79:3', 
+'test-xml_parse.R:12:3',
+203s   'test-xml_parse.R:34:3', 'test-xml_parse.R:109:3',
+203s   'test-xml_structure.R:35:3', 'test-xml_write.R:6:3', 
+'test-xml_write.R:78:3',
+203s   'test-xml_write.R:96:3'
+203s
+203s ?? Failed tests 
+????????????????????????????????????????????????????????????????
+203s ?? Failure ('test-xml_parse.R:54:3'): read_html properly passes 
+parser arguments ??
+203s as_list(blanks)$html$body$catalog$cd[[1]] (`actual`) not equal to 
+"\r\n    " (`expected`).
+203s
+203s `lines(actual)`:   ""   "    "
+203s `lines(expected)`: "\r" "    "
+203s
+203s [ FAIL 1 | WARN 0 | SKIP 21 | PASS 372 ]
+203s Error: Test failures
+203s Execution halted
+203s autopkgtest [03:51:06]: test run-unit-test: -----------------------]
+
+
+From jspricke at debian.org  Sun Jun  1 17:08:17 2025
+From: jspricke at debian.org (Jochen Sprickerhof)
+Date: Sun, 1 Jun 2025 18:08:17 +0200
+Subject: [R-pkg-team] Bug#1089197: dh-r fails without an apt cache
+In-Reply-To: <Z8QKd_OCxemeldrq@vis>
+References: <20200520160747.y47gepkvp42k4tbl@elgar.kardiogramm.net>
+ <YXuKtl51ih4C9u2N@an3as.eu>
+ <20200520160747.y47gepkvp42k4tbl@elgar.kardiogramm.net>
+ <YXvu3hH/YvdmY63q@debian.org> <Z8N0b2nvMhUxOoxj@fenchel>
+ <Z8N-dvVqaxygouzf@an3as.eu> <5cdb0d7f-6c3c-47e6-8ecc-69d2d1103ab0@svario.it>
+ <Z8QKd_OCxemeldrq@vis> <5cdb0d7f-6c3c-47e6-8ecc-69d2d1103ab0@svario.it>
+Message-ID: <aDx68cDeGZ3Fkain@fenchel>
+
+Hi,
+
+I plan to clean the apt cache by default for forky and implement that 
+already in the trixie sbuild. This would make a number of R packages 
+(via dh-r) and autodep8 FTBFS. For autodep8 there is an open MR linked 
+already and for dh-r a fix has been committed in git:
+
+https://salsa.debian.org/r-pkg-team/dh-r/-/commit/144893ae70c2be8ce403b048b095aabaf6865fd8
+
+Please speak up if there is any problem with this plan. You can test the 
+new behaviour with:
+
+sbuild --starting-build-commands='apt-get distclean' -d unstable <pkg>
+
+Note that you may still want to apply more fixes as outlined in my mail 
+below.
+
+Cheers Jochen
+
+* Jochen Sprickerhof <jspricke at debian.org> [2025-03-02 08:36]:
+>Hi Andreas,
+>
+>* Andreas Tille <tille at debian.org> [2025-03-01 22:39]:
+>>if you can provide a patch / MR I'm fine to apply it but currently
+>>I have no more free spoons to work on this.
+>
+>The real question here is how to solve #1089197, i.e. how to encode 
+>the package relationships without depending on the apt cache 
+>(grep-aptavail or rmadison or anything else that is network related). 
+>I have no experience with R packages so I would need some input here. 
+>Possible ways I see are:
+>
+>1. Don't add relations automatically and let the maintainer do it.
+>
+>2. Always add all package names from the DISCRIPTION file to Suggest:
+>   From my understanding this would need some mapping from the R 
+>   package name to the Debian package name and maybe a rename of the 
+>   Debian packages to simplify the mapping.
+>
+>3. Add the list of R package in Debian to dh-r and use it to convert 
+>   the package name. Note that this needs to be updated whenever a R 
+>   packages is added or removed in Debian. (This is what dh-python has, 
+>   afair).
+>
+>Cheers Jochen
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250601/b16165bc/attachment.sig>
+
+From noreply at release.debian.org  Mon Jun  2 05:39:45 2025
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 02 Jun 2025 04:39:45 +0000
+Subject: [R-pkg-team] r-cran-m2r is marked for autoremoval from testing
+Message-ID: <E1uLwxd-002u1v-0W@respighi.debian.org>
+
+r-cran-m2r 1.0.2+dfsg-4 is marked for autoremoval from testing on 2025-07-07
+
+It (build-)depends on packages with these RC bugs:
+1106429: node-finalhandler: FTBFS: test "should encode bad pathname characters" fails
+ https://bugs.debian.org/1106429
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From ftpmaster at ftp-master.debian.org  Fri Jun  6 04:18:36 2025
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 06 Jun 2025 03:18:36 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-partitions_1.10-9+ds-1_source.changes
+Message-ID: <E1uNNbI-006QY4-LP@usper.debian.org>
+
+r-cran-partitions_1.10-9+ds-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-partitions_1.10-9+ds-1.dsc
+  r-cran-partitions_1.10-9+ds.orig.tar.xz
+  r-cran-partitions_1.10-9+ds-1.debian.tar.xz
+  r-cran-partitions_1.10-9+ds-1_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Jun  6 04:22:53 2025
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 06 Jun 2025 03:22:53 +0000
+Subject: [R-pkg-team] r-cran-partitions_1.10-9+ds-1_source.changes ACCEPTED
+ into experimental
+Message-ID: <E1uNNfR-00Blmx-Kz@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 05 Jun 2025 23:07:20 -0400
+Source: r-cran-partitions
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.10-9+ds-1
+Distribution: experimental
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Doug Torrance <dtorrance at debian.org>
+Changes:
+ r-cran-partitions (1.10-9+ds-1) experimental; urgency=medium
+ .
+   * New upstream release.
+   * Upload to experimental due to trixie freeze.
+   * debian/control
+     - Bump Standards-Version to 4.7.2.
+   * debian/copyright
+     - Update my copyright years
+   * debian/patches/generate-scrabble-answers.patch
+     - Refresh for new upstream release.
+Checksums-Sha1:
+ fd6d42e98b9648e455558f92176389fafb69ab48 2414 r-cran-partitions_1.10-9+ds-1.dsc
+ 61057ad97fbc360a80d7e193d90bc5d129bdaf9b 67160 r-cran-partitions_1.10-9+ds.orig.tar.xz
+ 2d076306b3624594e71e07523459a85099419121 3860 r-cran-partitions_1.10-9+ds-1.debian.tar.xz
+ 2ecb073a9632902b7a721b022a687bdcc37a7b53 18171 r-cran-partitions_1.10-9+ds-1_source.buildinfo
+Checksums-Sha256:
+ a33f22e6200e7cb56a21cb7598d3d6e52f2b1023056491969784145a2c42af45 2414 r-cran-partitions_1.10-9+ds-1.dsc
+ 7d80c60932db02ea0b7e8abe9b4d34f1b6cd2b3ad9f8a150ced0a7d047d8f428 67160 r-cran-partitions_1.10-9+ds.orig.tar.xz
+ d54ab5b6ce94016dff305218bdd25fb66b005d5980b79a6d4d3b550592ec65f7 3860 r-cran-partitions_1.10-9+ds-1.debian.tar.xz
+ dc03489b50ac231c2c2401dd2276913dafb4407cb1b8d824618cf219d37c2bda 18171 r-cran-partitions_1.10-9+ds-1_source.buildinfo
+Files:
+ 284baa93af5099adaf1cc887079706b2 2414 gnu-r optional r-cran-partitions_1.10-9+ds-1.dsc
+ 7d0de2d3b11108cdb4b4fea4f8de6b41 67160 gnu-r optional r-cran-partitions_1.10-9+ds.orig.tar.xz
+ 7a68ce15380f0b5da8a3bfc3027e70fe 3860 gnu-r optional r-cran-partitions_1.10-9+ds-1.debian.tar.xz
+ e0c56627a2f048fbc7cc97218c2e437e 18171 gnu-r optional r-cran-partitions_1.10-9+ds-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEupghwS4HiU+y5K0AkdxKd57FyRAFAmhCW4oVHGR0b3JyYW5j
+ZUBkZWJpYW4ub3JnAAoJEJHcSneexckQ7YEP/iU7J7vcgsup2xmOuIxD2oyYjq7E
+soRr3zpvVc5EkMaFRzH7XbkcI/qjXGdNEb7TcYprp4bydFJU4dVri+cMnMRIzN8v
+VwZTdNysMSZYB9cBUMrQIlD9YuqAjlgM6GEmdAYvKJ7LC8Q+nbAMfl2rnNHWCKwp
+Y+CMEgQym4LgBfc/c4eUbtFNefsJadq6KAn9CVAe0zYHtF53aPHmM1dtsapsSt//
+vMWz+E0jBFq61+P2HKqqjuQ37OkH7npVOcqidw9Em41ab3c36rMlLfeXrSol4BZh
+xVLA8H6Q0QKOKL3108GN43yhoshLrW0NgXkVAtq3mO3m9djEfMIPXYodmyNtQyEW
+jy041pW8rHa5ulns3WXlYn3mnImByPAgji9Q+W+ZqCQbKMv/0jfheIU0DP1y6T6d
+GpsdH5abGegdlInX5qwnnx7Dzb4LSzD2WIWLPlEPMdlzf6cPw53HZQcGVU63fNOj
+rq5WnWV6ANRiLvau47eiZDzNrHQlqYmiWQe/dWGvTu3nzWqLMlQeARCjd46O89kH
+kqJmsdq2/LUnlTENzDqij0kujRyDyONLLBZS8RZGxzDQh/uSrLmv6okn5eDxF9X/
+pur4+imXc0iDXHF7AbIH1SJ1Yq6Y+Xy72pjxQY3KumWHiy37LROcm41BWU41uGoE
+WgXtyt7KtFSYAYXv
+=s1rl
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250606/891e68b1/attachment.sig>
+
+From 593 at 9pz.org  Sun Jun  8 03:23:48 2025
+From: 593 at 9pz.org (Nelda)
+Date: Sun, 08 Jun 2025 10:23:48 +0800
+Subject: [R-pkg-team] Moulding Services in China
+Message-ID: <40f644620d3e3e05b72000b6235068e1@9pz.org>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250608/382b6729/attachment.htm>
+
+From doko at debian.org  Mon Jun  9 08:33:37 2025
+From: doko at debian.org (Matthias Klose)
+Date: Mon, 9 Jun 2025 09:33:37 +0200
+Subject: [R-pkg-team] Bug#1107542: r-cran-rvest autopkg test fails with
+ libxml 2.14.x from experimental
+Message-ID: <1e7ea2c0-3059-4342-bbe1-5bc600c02664@debian.org>
+
+Package: src:r-cran-rvest
+Version: 1.0.4-1
+Tags: ftbfs sid forky
+User: debian-xml-sgml-pkgs at lists.alioth.debian.org
+Usertags: libxml2.14
+
+[this bug is NOT targeted to the upcoming trixie release]
+
+r-cran-rvest autopkg test fails with libxml 2.14.x from experimental, 
+and all its dependencies built using the libxml2 version.
+
+[...]
+
+117s == Failed tests 
+================================================================
+117s -- Error ('test-form.R:44:3'): select options are named character 
+vector -------
+117s Error in `UseMethod("html_form")`: no applicable method for 
+'html_form' applied to an object of class "xml_missing"
+117s Backtrace:
+117s     x
+117s  1. +-select %>% html_element("form") %>% html_form() at 
+test-form.R:44:3
+117s  2. \-rvest::html_form(.)
+117s -- Failure ('test-form.R:57:3'): select values are inherited from 
+names --------
+117s opts$options (`actual`) not equal to c(x = "1", y = "y") (`expected`).
+117s
+117s `names(actual)`:
+117s `names(expected)`: "x" "y"
+117s
+117s `actual`:
+117s `expected`: "1" "y"
+117s -- Error ('test-form.R:67:3'): parse_fields gets the button 
+--------------------
+117s Error in `UseMethod("html_form")`: no applicable method for 
+'html_form' applied to an object of class "xml_missing"
+117s Backtrace:
+117s     x
+117s  1. +-select %>% html_element("form") %>% html_form() at 
+test-form.R:67:3
+117s  2. \-rvest::html_form(.)
+117s
+117s [ FAIL 3 | WARN 0 | SKIP 43 | PASS 100 ]
+117s Error: Test failures
+117s Execution halted
+
+
+From mrsirishboudreau910 at gmail.com  Tue Jun 10 12:41:14 2025
+From: mrsirishboudreau910 at gmail.com (mrsirishboudreau910)
+Date: Tue, 10 Jun 2025 11:41:14 +0000
+Subject: [R-pkg-team] hi
+Message-ID: <CAPW8DRGwG-N20f_Ed-25noD8Q-xgvUF3aFBUSz9a4XcLn4K3vg@mail.gmail.com>
+
+If u can, pls kndly rspond quik
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250610/e8df18cc/attachment.htm>
+
+From payment at j48jxt.com  Fri Jun 13 11:51:56 2025
+From: payment at j48jxt.com (InteractiveBrokers)
+Date: Fri, 13 Jun 2025 10:51:56 +0000
+Subject: [R-pkg-team] Credit Contact Missing
+Message-ID: <174981191618.9630.5690984961622469096@127.0.0.1>
+
+This email requires an HTML-compatible viewer.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250613/93fda836/attachment.htm>
+
+From info at tramitesfec.es  Sat Jun 14 06:39:46 2025
+From: info at tramitesfec.es (=?utf-8?q?Lara_Mart=C3=ADnez?=)
+Date: Sat, 14 Jun 2025 07:39:46 +0200
+Subject: [R-pkg-team] =?utf-8?q?FEC_informaci=C3=B3n?=
+Message-ID: <c083518d894ebeb7a05fe42305ed3390@None>
+
+Buenos d?as  
+  
+
+
+?
+
+Desde FOESCO (Formaci?n Estatal Continua), queremos informaros que se encuentra abierto el plazo de inscripci?n de junio para los cursos 100% bonificables con cargo al cr?dito de formaci?n 2025 (Coste 0)
+
+?
+
+Si necesit?is informaci?n acerca de los cursos disponibles, as? como los requisitos y el proceso de inscripci?n para vuestros empleados, pod?is solicitarlo respondiendo a este correo.?  
+  
+Quedamos a vuestra disposici?n para cualquier consulta.
+
+?
+
+?
+
+Un cordial saludo.
+
+  
+  
+
+
+Natalia P.
+
+Departamento de formaci?n bonificable
+
+?
+
+FOESCO - Formaci?n Estatal Continua  
+Empresa inscrita en el Registro de empresas de Formaci?n
+
+?
+
+FOESCO ofrece formaci?n a empresas y trabajadores en activo a trav?s de cursos bonificados por la Fundaci?n Estatal para la Formaci?n en el Empleo (antiguo FORCEM) que gestiona las acciones formativas de FORMACI?N CONTINUA para trabajadores y se rige por la ley 30/2015 de 9 de septiembre. 
+
+?
+
+Darme de baja
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250614/87fb2a25/attachment.htm>
+
+From auth at lzyglsb888.com  Mon Jun 16 11:47:07 2025
+From: auth at lzyglsb888.com (InteractiveBrokers)
+Date: Mon, 16 Jun 2025 10:47:07 +0000
+Subject: [R-pkg-team] Credit Contact Missing
+Message-ID: <175007082796.2367.3634040751618776716@127.0.0.1>
+
+This email requires an HTML-compatible viewer.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250616/f5dacd64/attachment.htm>
+
+From owner at bugs.debian.org  Mon Jun 16 23:25:01 2025
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 16 Jun 2025 22:25:01 +0000
+Subject: [R-pkg-team] Bug#1072631: marked as done (r-cran-mockr: autopkgtest
+ regression in testing)
+References: <7827dadd-ee1c-41b1-ae5b-5d3a2b3749e5@oist.jp>
+ <CAM8zJQup-zFJjkXhscLAXD+=D5nz1EUw0s69jNiyYKp_OVCv_w@mail.gmail.com>
+Message-ID: <handler.1072631.D1072631.17501126122998565.ackdone@bugs.debian.org>
+
+Your message dated Tue, 17 Jun 2025 07:23:20 +0900
+with message-id <7827dadd-ee1c-41b1-ae5b-5d3a2b3749e5 at oist.jp>
+and subject line Re: r-cran-mockr: autopkgtest regression in testing
+has caused the Debian Bug report #1072631,
+regarding r-cran-mockr: autopkgtest regression in testing
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1072631: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1072631
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Graham Inggs <ginggs at debian.org>
+Subject: r-cran-mockr: autopkgtest regression in testing
+Date: Wed, 5 Jun 2024 11:51:26 +0000
+Size: 4413
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250616/796d6d48/attachment.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Charles Plessy <charles.plessy at oist.jp>
+Subject: Re: r-cran-mockr: autopkgtest regression in testing
+Date: Tue, 17 Jun 2025 07:23:20 +0900
+Size: 11729
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250616/796d6d48/attachment-0001.eml>
+
+From owner at bugs.debian.org  Mon Jun 16 23:27:03 2025
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 16 Jun 2025 22:27:03 +0000
+Subject: [R-pkg-team] Bug#1102544: marked as done (r-cran-patrick:
+ autopkgtest failure)
+References: <3e5eb1e8-7d1e-4c73-a717-67dab3409d7f@oist.jp>
+ <174427885274.841927.6947745474634828532.reportbug@localhost>
+Message-ID: <handler.1102544.D1102544.17501127263000540.ackdone@bugs.debian.org>
+
+Your message dated Tue, 17 Jun 2025 07:25:21 +0900
+with message-id <3e5eb1e8-7d1e-4c73-a717-67dab3409d7f at oist.jp>
+and subject line Re: r-cran-patrick: autopkgtest failure
+has caused the Debian Bug report #1102544,
+regarding r-cran-patrick: autopkgtest failure
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1102544: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1102544
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Adrian Bunk <bunk at debian.org>
+Subject: r-cran-patrick: autopkgtest failure
+Date: Thu, 10 Apr 2025 12:54:12 +0300
+Size: 11579
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250616/9592ac4c/attachment-0002.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Charles Plessy <charles.plessy at oist.jp>
+Subject: Re: r-cran-patrick: autopkgtest failure
+Date: Tue, 17 Jun 2025 07:25:21 +0900
+Size: 11954
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250616/9592ac4c/attachment-0003.eml>
+
+From ssl5 at auction4.gmobb.jp  Tue Jun 17 08:07:59 2025
+From: ssl5 at auction4.gmobb.jp (=?utf-8?q?Klarna=C2=A9?=)
+Date: Tue, 17 Jun 2025 16:07:59 +0900 (JST)
+Subject: [R-pkg-team] =?utf-8?q?Der_Zugriff_auf_dein_Konto_wurde_vor?=
+ =?utf-8?b?w7xiZXJnZWhlbmQgZWluZ2VzY2hyw6Rua3Qu?=
+Message-ID: <20250617070759.88D9631DDF@smtp4.gmobb.jp>
+
+bo
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250617/27484362/attachment.htm>
+
+From info at tramitesfec.es  Wed Jun 18 04:00:01 2025
+From: info at tramitesfec.es (=?utf-8?q?Lara_Mart=C3=ADnez?=)
+Date: Wed, 18 Jun 2025 05:00:01 +0200
+Subject: [R-pkg-team] =?utf-8?q?FEC_informaci=C3=B3n?=
+Message-ID: <ec0dd8e9d98f81069fd99920678ab3b5@None>
+
+Buenos d?as  
+  
+
+
+?
+
+Os informaros que se encuentra abierto el plazo de inscripci?n de junio para los cursos 100% bonificables con cargo al cr?dito de formaci?n 2025 (Coste 0) 
+
+?
+
+En vuestro caso, necesit?is informaci?n acerca de los cursos bonificables disponibles, as? como los requisitos y el proceso de inscripci?n para vuestros empleados?  
+  
+
+
+Recordamos que el cr?dito de formaci?n disponible ?nicamente podr? utilizarse en formaciones iniciadas y finalizadas en 2025.
+
+?
+
+?
+
+Un cordial saludo.
+
+  
+  
+
+
+Natalia P.
+
+Departamento de formaci?n bonificable
+
+?
+
+FOESCO - Formaci?n Estatal Continua  
+Empresa inscrita en el Registro de empresas de Formaci?n
+
+?
+
+FOESCO ofrece formaci?n a empresas y trabajadores en activo a trav?s de cursos bonificados por la Fundaci?n Estatal para la Formaci?n en el Empleo (antiguo FORCEM) que gestiona las acciones formativas de FORMACI?N CONTINUA para trabajadores y se rige por la ley 30/2015 de 9 de septiembre. 
+
+?
+
+Darme de baja
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250618/c7ee0757/attachment.htm>
+
+From support at bainland.co.uk  Thu Jun 19 05:43:05 2025
+From: support at bainland.co.uk (Alex Reynolds Sales Manager)
+Date: 19 Jun 2025 04:43:05 +0000
+Subject: [R-pkg-team] Enquiry About Product Availability and Pricing
+Message-ID: <20250619044305.004BDE85FE0FA541@bainland.co.uk>
+
+Hello,
+
+I hope you're well.
+
+My name is Alex Reynolds from BrandMancer, a global sourcing company. We're interested in your product line and would appreciate your catalog, pricing, minimum order quantities, and lead times.
+
+Looking forward to your response and a potential partnership.
+
+Kind regards,
+Alex Reynolds
+Purchasing Manager
+
+
+From info at fectramites.es  Fri Jun 20 02:34:02 2025
+From: info at fectramites.es (Natalia)
+Date: Fri, 20 Jun 2025 03:34:02 +0200
+Subject: [R-pkg-team] =?utf-8?q?Foesco_FEC?=
+Message-ID: <540855f9cfa1e7c75aa56bd4e5f60e0c@None>
+
+Buenos d?as
+
+?
+
+?
+
+Os informaros que se encuentra abierto el plazo de inscripci?n de junio para los cursos 100% bonificables con cargo al cr?dito de formaci?n 2025 (Coste 0).
+
+?
+
+?Necesit?is informaci?n acerca de los cursos disponibles, as? como los requisitos y el proceso de inscripci?n para vuestros empleados?
+
+?
+
+Si prefer?s inscribir a vuestros empleados en la pr?xima convocatoria de septiembre, por favor indic?rnoslo para que os hagamos llegar la informaci?n llegado el momento.
+
+?
+
+Recordamos que el cr?dito de formaci?n ?nicamente podr? utilizarse en formaciones iniciadas y finalizadas en 2025.
+
+?
+
+?
+
+Un cordial saludo.
+
+?
+
+?
+
+Natalia P.
+
+Departamento de formaci?n bonificable
+
+?
+
+FOESCO - Formaci?n Estatal Continua  
+Empresa inscrita en el Registro de empresas de Formaci?n
+
+?
+
+FOESCO ofrece formaci?n a empresas y trabajadores en activo a trav?s de cursos bonificados por la Fundaci?n Estatal para la Formaci?n en el Empleo (antiguo FORCEM) que gestiona las acciones formativas de FORMACI?N CONTINUA para trabajadores y se rige por la ley 30/2015 de 9 de septiembre.
+
+?
+
+Darme de baja?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250620/4d4afdda/attachment.htm>
+
+From owner at bugs.debian.org  Fri Jun 20 11:39:04 2025
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 20 Jun 2025 10:39:04 +0000
+Subject: [R-pkg-team] Processed: Re: Bug#1108078: r-cran-bh: fails hard with
+ 'Boost not found'
+References: <26709.14844.975764.882695@rob.eddelbuettel.com>
+Message-ID: <handler.s.C.17504158742313412.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> reassign 1108078 r-cran-rstan
+Bug #1108078 [r-cran-bh] r-cran-bh: fails hard with 'Boost not found'
+Bug reassigned from package 'r-cran-bh' to 'r-cran-rstan'.
+No longer marked as found in versions r-cran-bh/1.74.0-2.
+Ignoring request to alter fixed versions of bug #1108078 to the same values previously set
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+1108078: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1108078
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ukpabimberi04 at gmail.com  Fri Jun 20 15:47:36 2025
+From: ukpabimberi04 at gmail.com (Ukpabi Mberi)
+Date: Fri, 20 Jun 2025 14:47:36 +0000
+Subject: [R-pkg-team] hi
+Message-ID: <CA+en-tiE1xBL6KeDjr7U7rvzRigPe=_PZEJTkWFpNZbFHqoQ8A@mail.gmail.com>
+
+I ask fr yr urgt rpl
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250620/d21195c9/attachment.htm>
+
+From mika at debian.org  Fri Jun 20 18:51:17 2025
+From: mika at debian.org (Michael Prokop)
+Date: Fri, 20 Jun 2025 19:51:17 +0200
+Subject: [R-pkg-team] Bug#1108078: r-cran-bh: fails hard with 'Boost not
+ found'
+In-Reply-To: <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+References: <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+ <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+Message-ID: <2025-06-20T19-39-01@devnull.michael-prokop.at>
+
+Hi,
+
+* Michael Prokop [Fri Jun 20, 2025 at 10:00:37AM +0200]:
+
+> it feels like r-cran-bh on Debian/bookworm seems to be broken hard?
+> At least it's always failing hard for me, with:
+> 
+> | Error in stan_model(model_code = stancode, verbose = TRUE) :
+> |   Boost not found; call install.packages('BH')
+> 
+> Minimal steps to reproduce:
+> 
+> % cat > demo.r << EOF
+> example(stan_model, package = "rstan", run.dontrun = TRUE, verbose = TRUE)
+> EOF
+> % podman run --pull=always --rm -i -t -v $(pwd)/:/code:rw debian:bookworm bash
+> 
+> Inside the podman container (or on any Debian/bookworm system of course):
+> 
+>   apt update
+>   apt install -y dpkg-dev  # dpkg-architecture is needed
+>   apt install -y r-cran-rstan --no-install-recommends
+> 
+> Executing `r /code/demo.r` then triggers the failure mentioned above.
+> 
+> FTR: There's no change, if one drops the `--no-install-recommends`
+> from the package installation of `r-cran-rstan` above, but disabling
+> recommends reduces the package installation from ~2GB to ~450MB.
+> 
+> FYI: r-cran-rstan v2.32.7-1 with r-cran-bh v1.84.0-1 on current
+> Debian/testing AKA trixie seems to work fine and doesn't behave like
+> that.
+
+Thanks to the wonderful feedback from Dirk Eddelbuettel (thanks
+again!), we managed to find a workaround for this issue, see
+attached patch file.
+
+Note: this fix is relevant for stable/bookworm only (not relevant
+nor necessary for Debian/testing AKA trixie!). There might be even
+better ways to fix this, but a) it's working, b) minimal change and
+c) still follows the initial idea, that we already have libboost-dev
+available and want to have rstan cooperate with an "empty" BH
+package.
+
+Given that r-cran-bh doesn't seem to be working in Debian/bookworm
+at all, this might possibly even warrant a fix via proposed-updates
+to reach the next bookworm Debian point release?
+
+regards
+-mika-
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 0001-Workaround-for-1108078.patch
+Type: text/x-diff
+Size: 2496 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250620/54ce2d86/attachment.patch>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250620/54ce2d86/attachment.sig>
+
+From chelmy.hoppe at ufpr.br  Fri Jun 20 16:41:45 2025
+From: chelmy.hoppe at ufpr.br (Chelmy Victoria Mazieiro Hoppe)
+Date: Fri, 20 Jun 2025 15:41:45 +0000
+Subject: [R-pkg-team] Supplier Needed
+Message-ID: <CPUP152MB8034F42245A163CABC579CBE8F7CA@CPUP152MB8034.LAMP152.PROD.OUTLOOK.COM>
+
+Hello,
+ I'm Keith Anthony, a Research Assistant at Pharma CURE Laboratory Ltd, a bio-pharmaceutical company based in the U.K. I'm reaching out to find a trustworthy business partner or individual in your area who can help us source some essential raw materials for producing high-quality anti-viral vaccines, cancer treatment medications, and other life-saving pharmaceutical products.
+
+Once I hear back from you, I?d be happy to share more about my intentions for your consideration.
+Best wishes,
+Keith Anthony.
+Research & Development Department
+Pharmacure Laboratory Ltd, UK
+
+
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250620/fdd1c74c/attachment.htm>
+
+From plessy at debian.org  Fri Jun 20 23:26:38 2025
+From: plessy at debian.org (Charles Plessy)
+Date: Sat, 21 Jun 2025 07:26:38 +0900
+Subject: [R-pkg-team] Bug#1108078: Bug#1108078: r-cran-bh: fails hard with
+ 'Boost not found'
+In-Reply-To: <2025-06-20T19-39-01@devnull.michael-prokop.at>
+References: <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+ <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+ <2025-06-20T19-39-01@devnull.michael-prokop.at>
+ <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+Message-ID: <aFXgAvRpsnLv0G0d@bubu.igloo>
+
+Control: retitle -1  r-cran-rstan: fails hard with 'Boost not found'
+Control: tag -1 + patch
+
+Thanks Michael and Dirk for the fix,
+
+Just a quick comment for users who might be impacted before the stable
+update:
+
+Le Fri, Jun 20, 2025 at 07:51:17PM +0200, Michael Prokop a ?crit :
+>+-  if (!file.exists(rstan_options("boost_lib")))
+>+-    stop("Boost not found; call install.packages('BH')")
+>++# if (!file.exists(rstan_options("boost_lib")))
+>++#   stop("Boost not found; call install.packages('BH')")
+
+So setting `boost_lib` at runtime to an arbitrary existing file or path
+also prevents rstan from stopping, like with:
+
+     rstan_options("boost_lib" = '.')
+
+It is surprising that rstan never worked and we never noticed until this
+week.  It is possible that we ship it merly because it is listed in the
+Suggest field of the DESCRIPTION file of other R packages.  Often this
+is because it is needed in the other package's unit tests, which makes
+it strictly required for us, but sometimes it is only because some
+optional support for it is provided by the other package, leading to
+cases like this one.
+
+Have a nice day,
+
+Charles
+
+-- 
+Charles Plessy                         Nagahama, Yomitan, Okinawa, Japan
+Debian Med packaging team         http://www.debian.org/devel/debian-med
+Tooting from work,               https://fediscience.org/@charles_plessy
+Tooting from home,                 https://framapiaf.org/@charles_plessy
+
+
+From owner at bugs.debian.org  Fri Jun 20 23:37:02 2025
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 20 Jun 2025 22:37:02 +0000
+Subject: [R-pkg-team] Processed: Re: Bug#1108078: r-cran-bh: fails hard with
+ 'Boost not found'
+References: <aFXgAvRpsnLv0G0d@bubu.igloo>
+ <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+Message-ID: <handler.s.B1108078.17504589102892766.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> retitle -1  r-cran-rstan: fails hard with 'Boost not found'
+Bug #1108078 [r-cran-rstan] r-cran-bh: fails hard with 'Boost not found'
+Changed Bug title to 'r-cran-rstan: fails hard with 'Boost not found'' from 'r-cran-bh: fails hard with 'Boost not found''.
+> tag -1 + patch
+Bug #1108078 [r-cran-rstan] r-cran-rstan: fails hard with 'Boost not found'
+Added tag(s) patch.
+
+-- 
+1108078: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1108078
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From edd at debian.org  Fri Jun 20 23:59:36 2025
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Fri, 20 Jun 2025 17:59:36 -0500
+Subject: [R-pkg-team] Bug#1108078: Bug#1108078: r-cran-bh: fails hard with
+ 'Boost not found'
+In-Reply-To: <aFXgAvRpsnLv0G0d@bubu.igloo>
+References: <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+ <2025-06-20T19-39-01@devnull.michael-prokop.at> <aFXgAvRpsnLv0G0d@bubu.igloo>
+ <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+Message-ID: <26709.59352.717581.828800@rob.eddelbuettel.com>
+
+
+On 21 June 2025 at 07:26, Charles Plessy wrote:
+| Control: retitle -1  r-cran-rstan: fails hard with 'Boost not found'
+| Control: tag -1 + patch
+| 
+| Thanks Michael and Dirk for the fix,
+| 
+| Just a quick comment for users who might be impacted before the stable
+| update:
+| 
+| Le Fri, Jun 20, 2025 at 07:51:17PM +0200, Michael Prokop a ?crit :
+| >+-  if (!file.exists(rstan_options("boost_lib")))
+| >+-    stop("Boost not found; call install.packages('BH')")
+| >++# if (!file.exists(rstan_options("boost_lib")))
+| >++#   stop("Boost not found; call install.packages('BH')")
+| 
+| So setting `boost_lib` at runtime to an arbitrary existing file or path
+| also prevents rstan from stopping, like with:
+| 
+|      rstan_options("boost_lib" = '.')
+| 
+| It is surprising that rstan never worked and we never noticed until this
+| week.  It is possible that we ship it merly because it is listed in the
+| Suggest field of the DESCRIPTION file of other R packages.  Often this
+| is because it is needed in the other package's unit tests, which makes
+| it strictly required for us, but sometimes it is only because some
+| optional support for it is provided by the other package, leading to
+| cases like this one.
+
+The key issue here, I suspect, is a really a mismatch between 'Build-Depends'
+and 'Depends' (which we have, but CRAN doesn't) and actual run-time
+dependencies. 
+
+rstan builds compiled programs for its MCMC etc use, that is different from
+eg my package anytime needing Boost headers only at _build-time_ and not
+thereafter.
+
+What Mika found here (in the original bug report) is that only Debian stable
+has a failing rstan. The newer ones work. We (ie Debian) "trick" rstan via
+our r-cran-bh, it thinks it has a full BH (120+ mb on disk...) and constructs
+and _explicit_ include path via system.file(). I think I could soften the
+blow by adding an (empty) includes/ dir in the (virtual) package r-cran-bh.
+In any event, the little patch avoids the failure seen on Debian stable where
+
+   system.file("include", package="BH")
+
+otherwise fails due our r-cran-bh actually relying on our libboost-dev.
+
+Makes sense?
+
+Dirk
+
+-- 
+dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From ginggs at debian.org  Sat Jun 21 10:38:39 2025
+From: ginggs at debian.org (Graham Inggs)
+Date: Sat, 21 Jun 2025 09:38:39 +0000
+Subject: [R-pkg-team] Bug#1108078: r-cran-rstan: fails hard with 'Boost not
+ found'
+References: <175040643782.102800.15018898536168423063.reportbug@odysseus.grml.info>
+Message-ID: <CAM8zJQusjSJZ-CTDy-CxzvGGAutc=NJVaNj_BbZXwpC8bntmpA@mail.gmail.com>
+
+Hi Everyone
+
+I would have hoped that r-cran-rstan's autopkgtests would have caught
+this, but looking at the output of a recent test in trixie [1] below,
+it seems the autopkgtest is missing a dependency on at least gcc, and
+despite the large WARNING, the test is not considered a FAIL.
+
+Regards
+Graham
+
+
+[1] https://ci.debian.net/packages/r/r-cran-rstan/testing/amd64/
+
+
+64s rstan version 2.32.7 (Stan version 2.32.2)
+64s
+64s For execution on a local, multicore CPU with excess RAM we recommend calling
+64s options(mc.cores = parallel::detectCores()).
+64s To avoid recompilation of unchanged Stan programs, we recommend calling
+64s rstan_options(auto_write = TRUE)
+64s For within-chain threading using `reduce_sum()` or `map_rect()`
+Stan functions,
+64s change `threads_per_chain` option:
+64s rstan_options(threads_per_chain = 1)
+64s
+64s >
+64s > test_check("rstan")
+64s Read 34 items
+64s Read 34 items
+65s Trying to compile a simple C file
+65s Running /usr/lib/R/bin/R CMD SHLIB foo.c
+65s sh: 1: gcc: not found
+65s gcc -std=gnu23 -I"/usr/share/R/include" -DNDEBUG -fpic -g -O2
+-ffile-prefix-map=/build/reproducible-path/r-base-4.5.0=.
+-fstack-protector-strong -fstack-clash-protection -Wformat
+-Werror=format-security -fcf-protection -Wdate-time
+-D_FORTIFY_SOURCE=2 -c foo.c -o foo.o
+65s /bin/bash: line 1: gcc: command not found
+65s make: *** [/usr/lib/R/etc/Makeconf:202: foo.o] Error 127
+66s
+66s WARNING: The tools required to build C++ code for R were not found.
+66s
+66s Please install GNU development tools including a C++ compiler.
+66s
+66s Loading required namespace: Matrix
+68s [ FAIL 0 | WARN 0 | SKIP 25 | PASS 149 ]
+
+
+From boudreaumrsirish1 at gmail.com  Sun Jun 22 13:07:04 2025
+From: boudreaumrsirish1 at gmail.com (Mrs Irish Boudreau)
+Date: Sun, 22 Jun 2025 12:07:04 +0000
+Subject: [R-pkg-team] hi
+Message-ID: <CA+kiF3SARwuLJ0kzLLisRnYuBR8ic_NXJ8Trb6nX_M=PfcGonA@mail.gmail.com>
+
+Happy weekend, am waiting for your reply
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250622/b5ef7530/attachment.htm>
+
+From danielflitz at bofasguard.org  Tue Jun 24 05:24:17 2025
+From: danielflitz at bofasguard.org (Daniel Flitz)
+Date: 23 Jun 2025 21:24:17 -0700
+Subject: [R-pkg-team] Purchasing new goods
+Message-ID: <20250623212417.F6AB4D9DF8CEAFEC@bofasguard.org>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250623/93d46ebd/attachment.htm>
+
+From ftpmaster at ftp-master.debian.org  Wed Jun 25 09:10:15 2025
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 25 Jun 2025 08:10:15 +0000
+Subject: [R-pkg-team] r-cran-mixturefitting_0.6.1-1_amd64.changes ACCEPTED
+ into experimental
+Message-ID: <E1uULCx-00DWoa-JL@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 26 May 2025 08:07:22 -0400
+Source: r-cran-mixturefitting
+Binary: r-cran-mixturefitting r-cran-mixturefitting-dbgsym
+Architecture: source amd64
+Version: 0.6.1-1
+Distribution: experimental
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andrius Merkys <merkys at debian.org>
+Description:
+ r-cran-mixturefitting - Fitting of Univariate Mixture Distributions to Data
+Closes: 1106359
+Changes:
+ r-cran-mixturefitting (0.6.1-1) experimental; urgency=medium
+ .
+   * Initial release (Closes: #1106359)
+Checksums-Sha1:
+ 1173d266ea7f39f412122f55b22f58c6ac70e8c5 2137 r-cran-mixturefitting_0.6.1-1.dsc
+ ce58e39b35ba5647fb87a3507246e6ebd2e29262 31731 r-cran-mixturefitting_0.6.1.orig.tar.gz
+ 51f3a7b072085a9cecd00ad504e107e7c3c898ec 2028 r-cran-mixturefitting_0.6.1-1.debian.tar.xz
+ 512d1e9350b2190d8902f37f359cbf30a660182c 17712 r-cran-mixturefitting-dbgsym_0.6.1-1_amd64.deb
+ 5067d219d44a284a6383b1d6bdd2094174bbc77b 13368 r-cran-mixturefitting_0.6.1-1_amd64.buildinfo
+ 81a560d0df932d8eaaa40533148008a3ce766fe4 259496 r-cran-mixturefitting_0.6.1-1_amd64.deb
+Checksums-Sha256:
+ 5b43f0c4a15dcb18c7122be617da7892cd84eea03cd65abaa502db44c47d4fb9 2137 r-cran-mixturefitting_0.6.1-1.dsc
+ 4246f8107e71b680935a953ab40a4dc58bec1aadccdf4c9d6abeaa42e3b15543 31731 r-cran-mixturefitting_0.6.1.orig.tar.gz
+ 913f6aed763fb03df0ba01aada0261006336e9958c82d6cc8780c69498bb5a38 2028 r-cran-mixturefitting_0.6.1-1.debian.tar.xz
+ 6d759faef527e1f3deb32e05d1ae066605abc080dcdc98a34516fb42add61950 17712 r-cran-mixturefitting-dbgsym_0.6.1-1_amd64.deb
+ 76857e0d09fc3216fee4678a7ebfd8f024b6dc6fe5fdcf722ff20309af1a0c5c 13368 r-cran-mixturefitting_0.6.1-1_amd64.buildinfo
+ 1ced07eef313c78e9f564ef8e3fdf80e803e8ca2ef36875f80346236e11bf60c 259496 r-cran-mixturefitting_0.6.1-1_amd64.deb
+Files:
+ 5b0815a4e66f013cc2421f6dbc62598e 2137 gnu-r optional r-cran-mixturefitting_0.6.1-1.dsc
+ 4058ddd66b8b251a9d01cc3f15f9a21d 31731 gnu-r optional r-cran-mixturefitting_0.6.1.orig.tar.gz
+ a7ca2aa3879b037e5c583bb29695008c 2028 gnu-r optional r-cran-mixturefitting_0.6.1-1.debian.tar.xz
+ e4959484daf121b347f87416e429b391 17712 debug optional r-cran-mixturefitting-dbgsym_0.6.1-1_amd64.deb
+ 5d1b0463291fb483b0e1078f9eb8b329 13368 gnu-r optional r-cran-mixturefitting_0.6.1-1_amd64.buildinfo
+ 264216e5aa0e6c6c5ffd1b673b909744 259496 gnu-r optional r-cran-mixturefitting_0.6.1-1_amd64.deb
+
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEdyKS9veshfrgQdQe5fQ/nCc08ocFAmg0WcoSHG1lcmt5c0Bk
+ZWJpYW4ub3JnAAoJEOX0P5wnNPKHnhwP/jeczqTxUIJMnC4AkFTUQWf3Z/Sm1Mfi
+8kQqQd+KOvq1XTYh5/Ivmmr01Su9fOCqykB0mxo+CNv4W2wiURLsO6OhRYcb0sOe
+XIQmAlyt6zUCKD8iESNiAD6ZpfL84IJGmxjmugyFI5BXqYAPtuJ1R5DFOiFtdu0X
+ly0ueg53E13/MA5kQsGRWOTgXnQVvR3aBqaJSaJqp1Egj4pcdh1juQ2UNv9tVubd
+8QZzlL52NaprzV+5ETRTuQIEZwPaZkLPGhjk86nKuHN1leUoDbq2PMfJTnuES4XP
+Y2DaLT0tOgwbbMkTtE6jyloZ/xGSueMjfctE3MS4vRHrfr2y0uDDMk4cs4+U0/zD
+B/8c2A8S3PkcLRnG8RQkWBvaiE4uSTpxPmJ2Q1AMFhUDR+2Y58x8aENAo0LJSag8
+Srkz2kw8D2Ii3UyWEY7QHb/9cJEqpgQHdXkUl6DXtTuX4QGy38aoTPmwdEP2u3K2
+Fi/i+teEW9DsUeu1Fm5IrVEmREhL5U9I1sKuYF/RRsAWVctqKbV5AVp0HCslEGQF
+c75ydehu+4+nS/2DrcTwz6Qiu1eEUfbClZMIXUjPNLNpCTlG7nZd73qqm22J9gQ4
+XnWYZOCzD9s/Dx8686P8neCca2h20IeHBBo5F8oBvsFWjoXaFEWuhfo5UzD9vOaM
+IcpLsSp4tV03
+=WSFf
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250625/452fbe15/attachment.sig>
+
+From lotus at stormoff.com  Wed Jun 25 11:12:57 2025
+From: lotus at stormoff.com (Diplomatic Fuel Service B.V)
+Date: Wed, 25 Jun 2025 10:12:57 +0000
+Subject: [R-pkg-team] Fuel Service B.V
+Message-ID: <OF7222D1C1.C8209A40-ON43258CB4.00382DEE@stormoff.com>
+
+Warm greetings from Diplomatic Fuel Service B.V. We are pleased to announce the availability of product allocations for Jet fuel, EN590 and D6 for sale, supported by our proven past performance.
+
+Please feel free to contact us for the Soft Corporate Offer (SCO) and SGS validation.
+
+Andrian Russell
+Diplomatic Fuel Service B.V
+
+
+From mrsirishboudreau at gmail.com  Wed Jun 25 14:13:39 2025
+From: mrsirishboudreau at gmail.com (Mrs Irish Boudreau)
+Date: Wed, 25 Jun 2025 13:13:39 +0000
+Subject: [R-pkg-team] hi
+Message-ID: <CANdmrnrHseJxbQEtdG3XtagQRP0D68=sayE==nVgmzQPo5rhGg@mail.gmail.com>
+
+If u can, pls kndly rspond quik
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250625/effd8225/attachment.htm>
+
+From donghaishen0683 at gmail.com  Fri Jun 27 06:43:04 2025
+From: donghaishen0683 at gmail.com (Shen Donghai)
+Date: Fri, 27 Jun 2025 12:43:04 +0700
+Subject: [R-pkg-team] =?utf-8?b?5Zad6YW45aW25oiW6IO96ZmN5L2O54m55a6a57G7?=
+ =?utf-8?b?5Z6L55qE57uT6IKg55mM6aOO6Zmp?=
+Message-ID: <CAOABw7y6w8V_Y2OkudC9yWfCr=7+RK8_3jnMHHUDGmJA__Uyqg@mail.gmail.com>
+
+??!
+
+???????13???????????????????????????????????????20%
+
+????????????????????????????????????
+
+???????????????????
+
+https://tinyurl.com/suannai-keyi-yufang-aizheng
+
+??????????
+
+---
+
+??????????????
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250627/a60c2279/attachment.htm>
+
+From ftpmaster at ftp-master.debian.org  Sun Jun 29 18:00:14 2025
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 29 Jun 2025 17:00:14 +0000
+Subject: [R-pkg-team] r-cran-rhub_2.0.1-1_amd64.changes ACCEPTED into
+ experimental
+Message-ID: <E1uVvO2-00HKj8-N2@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 16 May 2025 03:19:39 -0400
+Source: r-cran-rhub
+Binary: r-cran-rhub
+Architecture: source all
+Version: 2.0.1-1
+Distribution: experimental
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andrius Merkys <merkys at debian.org>
+Description:
+ r-cran-rhub - Tools for R Package Developers
+Closes: 1105824
+Changes:
+ r-cran-rhub (2.0.1-1) experimental; urgency=medium
+ .
+   * Initial release (closes: #1105824)
+Checksums-Sha1:
+ 67bd92902b86903f766eb91b8ee7557a2ae6a637 2243 r-cran-rhub_2.0.1-1.dsc
+ ed4e308a1efbe7f070ed58b70d53833a1dc19629 160432 r-cran-rhub_2.0.1.orig.tar.gz
+ 732c2cef06f42d14edfc2db1ade2c3eada8e4949 2104 r-cran-rhub_2.0.1-1.debian.tar.xz
+ 502b2d47f6fa784c627b644f0598d9ab92b30101 568580 r-cran-rhub_2.0.1-1_all.deb
+ 75ca0380baf6c85d07b4fcc563e97873f08af265 13794 r-cran-rhub_2.0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ b4ceea0a205d12dea5665201e9501f120186d96cb2376a0346f73936f7ec8332 2243 r-cran-rhub_2.0.1-1.dsc
+ 3854b130b1d6a45f39afc158033fecf478d2ab94ba70775935fdfee35f488239 160432 r-cran-rhub_2.0.1.orig.tar.gz
+ 8d14d7ac9b3922879980a0801d7fd0887225dc05e4cd8cfd41be52793624c0e8 2104 r-cran-rhub_2.0.1-1.debian.tar.xz
+ 86e41996110ae18a374163cc679688f84cdaeb981d04a2dcf402fcd534a69cae 568580 r-cran-rhub_2.0.1-1_all.deb
+ 536114216fea51e448fe5a84acbcec7c63818f4e52fdcb2c07b2fe4669e43966 13794 r-cran-rhub_2.0.1-1_amd64.buildinfo
+Files:
+ 3784f73c9af8b34c2acac1665b3642db 2243 gnu-r optional r-cran-rhub_2.0.1-1.dsc
+ b757f3f08dd945c460c6f77312e94da1 160432 gnu-r optional r-cran-rhub_2.0.1.orig.tar.gz
+ c91767d41ed408beca426a64ee676e3f 2104 gnu-r optional r-cran-rhub_2.0.1-1.debian.tar.xz
+ d8872cae48f66cd80913e828849ed59e 568580 gnu-r optional r-cran-rhub_2.0.1-1_all.deb
+ 4b585144cd75aba52ede769f8a29d073 13794 gnu-r optional r-cran-rhub_2.0.1-1_amd64.buildinfo
+
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEdyKS9veshfrgQdQe5fQ/nCc08ocFAmgm6loSHG1lcmt5c0Bk
+ZWJpYW4ub3JnAAoJEOX0P5wnNPKHW0MQAImi68RT4sRIjoo31FzFi/6qgHDezO3q
+/sWAH3RRTBEndUP7tuKay3hLHBEqYJpC3IGzr7tuspLIiPlCTcM+Vo8/HnSSvu0W
+O2wsCIH02OStw2rqbqy1c0pHLRcGk6atpEY4F/4KFVyMR0YAf9eosnrdaTpQGK2k
+BSyc4EZWBMqWoH3njY+AMvKvPyrO40UjyWzMZhcNIqnygCic6A6wLZ6PTmml/4Mn
+QIKPA9tG3StJaa9Szns7B6eFXV5i6a+XaZ7wyNnWFCDRoosMLK9FvK8I7pHRBnAD
+3SSt2d8gwBjON0kj6N0WhHjZ5UvAXLFfFFdDU3yQD2S3iJ/1+v4mN6bVdQ0EZgUF
+eEC59EgHn+nUVw6xuyun/p4UD+Ne75CA7bdYGYo3GUA+G/MaAOeMj+DzyZTVQwfY
++5V2HWvA9CVaRncFxyYgsFErSJ+Vw6BWdnaniGwb8q3jk6x8GSIK+ndo4GVKTubZ
+BAub+owoYH/cwmbzLZiRZUD34gqdeKYqWZOwRImgxJotv0xXPfvKcexkr1weZhXH
+aFxa1zHy9UY1p5qkg5ihNWhWAjFY1PlYFrgLYr+v62xgY23MYDUWmpJassWArb88
+5zUT4FpGPb6fOmQfZOeF0HgTqJfcHb2Ux2+XPiDMV/KB9Opzupnusvxp6HrC2htS
+2X3ixgleWnj4
+=h+Te
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250629/404bc2ab/attachment.sig>
+
+From info at fectramites.es  Mon Jun 30 23:43:29 2025
+From: info at fectramites.es (Natalia P.)
+Date: Tue, 01 Jul 2025 00:43:29 +0200
+Subject: [R-pkg-team] =?utf-8?q?FEC_julio?=
+Message-ID: <7c4fa79a1ebd2fdaa08e84bfa784abe6@acumbamail.com>
+
+Buenos d?as
+
+?
+
+Os informamos que se encuentra abierto el plazo de inscripci?n de JULIO para los cursos 100% bonificables con cargo al cr?dito de formaci?n 2025. 
+
+?Precis?is que os hagamos llegar el listado de los cursos disponibles e impreso de solicitud para poder inscribir a vuestros empleados?
+
+?
+
+Quedamos a la espera de vuestra respuesta.
+
+?
+
+Un cordial saludo.
+
+?
+
+Natalia P.
+
+Departamento de formaci?n bonificable
+
+FOESCO - Formaci?n Estatal Continua  
+Empresa inscrita en el Registro de empresas de Formaci?n  
+Tel. 910-323-794  
+Horario de Lunes a Viernes de 9h a 14h y de 15h a 20h
+
+?
+
+FOESCO ofrece formaci?n a empresas y trabajadores en activo a trav?s de cursos bonificados por la Fundaci?n Estatal para la Formaci?n en el Empleo (antiguo FORCEM) que gestiona las acciones formativas de FORMACI?N CONTINUA para trabajadores y se rige por la ley 30/2015 de 9 de septiembre.
+
+Darme de baja?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20250701/b3d970fa/attachment.htm>
+

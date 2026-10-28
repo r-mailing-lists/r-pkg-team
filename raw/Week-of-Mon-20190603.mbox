@@ -1,0 +1,43 @@
+From video at mostcom.ru  Fri Jun  7 00:04:06 2019
+From: video at mostcom.ru (Stanley Ankama)
+Date: 06 Jun 2019 16:04:06 -0700
+Subject: [R-pkg-team] Business Proposal Funds Manager Required
+Message-ID: <20190606160406.AA02D1CA8E388D75@mostcom.ru>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190606/7ca7fcc3/attachment.html>
+
+From gartnerc at carthagetigers.org  Fri Jun  7 13:52:38 2019
+From: gartnerc at carthagetigers.org (Christine Gartner)
+Date: Fri, 7 Jun 2019 12:52:38 +0000
+Subject: [R-pkg-team] A cry from Saudi
+Message-ID: <7affd051cf664358ba5dbd614ad78679@carthagetigers.org>
+
+Hello,
+I require an associate for a business relationship. If interested please reply this email.
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190607/0d380fa5/attachment.html>
+
+From jeroen at berkeley.edu  Sun Jun  9 13:39:33 2019
+From: jeroen at berkeley.edu (Jeroen Ooms)
+Date: Sun, 9 Jun 2019 14:39:33 +0200
+Subject: [R-pkg-team] updating r-cran-v8 in experimental
+Message-ID: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+
+Debian 'experimental' now has nodeJS v12.x which ships with a new
+version of the v8 engine. In order to build r-cran-v8 against this
+libnode, you need the latest version of the R package:
+https://cran.r-project.org/web/packages/V8/index.html
+
+Perhaps r-cran-v8 2.2 should be uploaded to experimental?
+
+Also the description of the package has changed (a long time ago) so
+perhaps this can be updated as well :)
+
+Thanks!
+
+Jeroen
+
+

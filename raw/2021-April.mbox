@@ -1,0 +1,3512 @@
+From crusoe at debian.org  Thu Apr  1 11:41:38 2021
+From: crusoe at debian.org (Michael R. Crusoe)
+Date: Thu, 01 Apr 2021 12:41:38 +0200
+Subject: [R-pkg-team] Bug#986236: ITP: r-cran-visnetwork -- Network
+ Visualization using 'vis.js' Library
+Message-ID: <161727369888.364807.12685888058759501070.reportbug@mrc-tux>
+
+Package: wnpp
+Severity: wishlist
+X-Debbugs-Cc: crusoe at debian.org
+
+Subject: ITP: r-cran-visnetwork -- Network Visualization using 'vis.js' Library
+Package: wnpp
+Owner: Michael R. Crusoe <crusoe at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-visnetwork
+  Version         : 2.0.9+ds
+  Upstream Author : Almende B.V. (vis.js library in htmlwidgets/lib,
+* URL             : https://cran.r-project.org/package=visNetwork
+* License         : MIT
+  Programming Lang: GNU R
+  Description     : Network Visualization using 'vis.js' Library
+ Provides an R interface to the 'vis.js' JavaScript charting
+ library. It allows an interactive visualization of networks.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-visnetwork
+
+This package is a precondition for r-cran-diagrammer
+
+
+From crusoe at debian.org  Thu Apr  1 11:41:54 2021
+From: crusoe at debian.org (Michael R. Crusoe)
+Date: Thu, 01 Apr 2021 12:41:54 +0200
+Subject: [R-pkg-team] Bug#986237: ITP: r-cran-influencer -- Software Tools
+ to Quantify Structural Importance of Nodes in a
+Message-ID: <161727371433.372833.14429850637832955111.reportbug@mrc-tux>
+
+Package: wnpp
+Severity: wishlist
+X-Debbugs-Cc: crusoe at debian.org
+
+Subject: ITP: r-cran-influencer -- Software Tools to Quantify Structural Importance of Nodes in a
+Package: wnpp
+Owner: Michael R. Crusoe <crusoe at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-influencer
+  Version         : 0.1.0
+  Upstream Author : Jacobs Simon,
+* URL             : https://cran.r-project.org/package=influenceR
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : Software Tools to Quantify Structural Importance of Nodes in a
+       Network Provides functionality to compute various node centrality
+       measures on networks. Included are functions to compute
+       betweenness centrality (by utilizing Madduri and Bader's SNAP
+       library), implementations of Burt's constraint and effective
+       network size (ENS) metrics, Borgatti's algorithm to identify key
+       players, and Valente's bridging metric. On Unix systems, the
+       betweenness, Key Players, and bridging implementations are
+       parallelized with OpenMP, which may run faster on systems which
+       have OpenMP configured.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-influencer
+
+This package is a precondition for r-cran-diagrammer
+
+
+From crusoe at debian.org  Thu Apr  1 12:35:01 2021
+From: crusoe at debian.org (Michael R. Crusoe)
+Date: Thu, 01 Apr 2021 13:35:01 +0200
+Subject: [R-pkg-team] Bug#986241: ITP: r-cran-diagrammer -- Graph/Network
+ Visualization
+Message-ID: <161727690195.473420.3303189326906620961.reportbug@mrc-tux>
+
+Package: wnpp
+Severity: wishlist
+X-Debbugs-Cc: crusoe at debian.org
+
+Subject: ITP: r-cran-diagrammer -- Graph/Network Visualization
+Package: wnpp
+Owner: Michael R. Crusoe <crusoe at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-diagrammer
+  Version         : 1.0.6.1+ds
+  Upstream Author : Richard Iannone
+* URL             : https://cran.r-project.org/package=DiagrammeR
+* License         : MIT
+  Programming Lang: GNU R
+  Description     : Graph/Network Visualization
+ Build graph/network structures using functions for stepwise addition and
+ deletion of nodes and edges. Work with data available in tables for bulk
+ addition of nodes, edges, and associated metadata. Use graph selections
+ and traversals to apply changes to specific nodes or edges. A wide
+ selection of graph algorithms allow for the analysis of graphs. Visualize
+ the graphs and take advantage of any aesthetic properties assigned to
+ nodes and edges.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-diagrammer
+
+
+From barrbubamuza at hotmail.fr  Thu Apr  1 19:45:26 2021
+From: barrbubamuza at hotmail.fr (Jorge Mentus)
+Date: Thu, 1 Apr 2021 18:45:26 +0000
+Subject: [R-pkg-team] BEACHTEN
+Message-ID: <DBAPR05MB69039A54E853B1B68F04B718AE7B9@DBAPR05MB6903.eurprd05.prod.outlook.com>
+
+Attn,
+
+
+Ich beziehe mich auf den Brief, den ich an Ihre Adresse geschickt habe, aber nicht von Ihnen geh?rt habe, und habe beschlossen, Ihnen erneut eine E-Mail zu senden. Wir freuen uns, Ihnen mitteilen zu k?nnen, dass Ihre direkte, preisgekr?nte Zuweisung im Wert von 1.500.000,00 USD von der Wirtschaftskommission der Vereinten Nationen genehmigt wurde. Die Genehmigung der Mittel erfolgte in Zusammenarbeit mit der Kommission f?r Vertrags- und Erbschaftszahlungen. Ihr Fonds ist zur Zahlung an Sie bereit. F?r weitere Informationen wenden Sie sich bitte an unseren Zonenkoordinator, Herrn Martin Bello, E-Mail. ( deliveryunit13 at gmail.com ) zur Freigabe Ihres Fonds.
+
+
+Gr??e,
+Jorge Mentus (Zahlungsausschuss - Europ?ische Kommission)
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210401/1fea5774/attachment.htm>
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  2 17:20:32 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 02 Apr 2021 16:20:32 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-ballgown_2.22.0+dfsg-1_amd64.changes
+Message-ID: <E1lSMXB-0002aA-1N@usper.debian.org>
+
+r-bioc-ballgown_2.22.0+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-ballgown_2.22.0+dfsg-1.dsc
+  r-bioc-ballgown_2.22.0+dfsg.orig.tar.xz
+  r-bioc-ballgown_2.22.0+dfsg-1.debian.tar.xz
+  r-bioc-ballgown_2.22.0+dfsg-1_all.deb
+  r-bioc-ballgown_2.22.0+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  2 17:33:35 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 02 Apr 2021 16:33:35 +0000
+Subject: [R-pkg-team] r-bioc-ballgown_2.22.0+dfsg-1_amd64.changes is NEW
+Message-ID: <E1lSMjn-0006b9-Oo@fasolo.debian.org>
+
+binary:r-bioc-ballgown is NEW.
+binary:r-bioc-ballgown is NEW.
+source:r-bioc-ballgown is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From hello at shayandoust.me  Sun Apr  4 22:31:04 2021
+From: hello at shayandoust.me (Shayan Doust)
+Date: Sun, 04 Apr 2021 22:31:04 +0100
+Subject: [R-pkg-team] Bug#986386: ITP: r-cran-performanceanalytics -- GNU R
+ Econometric Tools for Performance and Risk Analysis
+Message-ID: <161757186410.1393754.17813072030026787327.reportbug@DESKTOP-7MS7DD2.lan>
+
+Package: wnpp
+Severity: wishlist
+X-Debbugs-Cc: hello at shayandoust.me
+
+Subject: ITP: r-cran-performanceanalytics -- GNU R Econometric Tools for Performance and Risk Analysis
+Package: wnpp
+Owner: Shayan Doust <hello at shayandoust.me>
+Severity: wishlist
+
+* Package name    : r-cran-performanceanalytics
+  Version         : 2.0.4
+  Upstream Author : Brian G. Peterson,
+* URL             : https://cran.r-project.org/package=PerformanceAnalytics
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : GNU R Econometric Tools for Performance and Risk Analysis
+ Collection of econometric functions for performance and risk
+ analysis. In addition to standard risk and performance metrics, this
+ package aims to aid practitioners and researchers in utilizing the latest
+ research in analysis of non-normal return streams.  In general, it is most
+ tested on return (rather than price) data on a regular scale, but most
+ functions will work with irregular return data as well, and increasing
+ numbers of functions will work with P&L or price data where possible.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-performanceanalytics
+
+
+From ftpmaster at ftp-master.debian.org  Mon Apr  5 12:05:53 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 05 Apr 2021 11:05:53 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.changes
+Message-ID: <E1lTN3J-0004Dy-RQ@usper.debian.org>
+
+r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-rhdf5lib_1.12.1+dfsg-3.dsc
+  r-bioc-rhdf5lib_1.12.1+dfsg-3.debian.tar.xz
+  r-bioc-rhdf5lib-dbgsym_1.12.1+dfsg-3_amd64.deb
+  r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.buildinfo
+  r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Apr  5 12:19:29 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 05 Apr 2021 11:19:29 +0000
+Subject: [R-pkg-team] r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.changes ACCEPTED
+ into unstable
+Message-ID: <E1lTNGT-0001lB-CS@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 05 Apr 2021 06:57:37 +0200
+Source: r-bioc-rhdf5lib
+Binary: r-bioc-rhdf5lib r-bioc-rhdf5lib-dbgsym
+Architecture: source amd64
+Version: 1.12.1+dfsg-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-bioc-rhdf5lib - GNU R hdf5 library
+Closes: 986077
+Changes:
+ r-bioc-rhdf5lib (1.12.1+dfsg-3) unstable; urgency=medium
+ .
+   * Depends: libhdf5-dev
+     Closes: #986077
+Checksums-Sha1:
+ 372496388c4da5362bb44cd638c61db93e54c0b7 2216 r-bioc-rhdf5lib_1.12.1+dfsg-3.dsc
+ 2a89a6f6aa567cf378657db5cf18cf4ba8f7834f 6488 r-bioc-rhdf5lib_1.12.1+dfsg-3.debian.tar.xz
+ 9716127080c966e1479dec2dadffdc7874d5d99f 4272 r-bioc-rhdf5lib-dbgsym_1.12.1+dfsg-3_amd64.deb
+ 5d9fa14a3dafd6c4e02a4df792d92a51e46873d6 10915 r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.buildinfo
+ 73d23df8ec7ac66c6f8860dccf134ae5a5bf567f 27840 r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.deb
+Checksums-Sha256:
+ 85d787c3ba2ae7cf0a99ef8014042986f8ed521138e1e1a940ffae40a4a4e355 2216 r-bioc-rhdf5lib_1.12.1+dfsg-3.dsc
+ 1ea1469d84c8cab342a5b234c1ec6b2688f8cebff3af875cc9f18d1b5b1af416 6488 r-bioc-rhdf5lib_1.12.1+dfsg-3.debian.tar.xz
+ d48aff8eb6972a427b136ea261bac651a6b8780d8a273fee72d95e8cd8bee56c 4272 r-bioc-rhdf5lib-dbgsym_1.12.1+dfsg-3_amd64.deb
+ 5c5b4a362027bd055a8d95c04f3112691eb5f005f33bf82290af98de70828bf7 10915 r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.buildinfo
+ b0b62f4d37b53de64c168a22cd94e53723ddb05e063e3fcc082b83ecee203772 27840 r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.deb
+Files:
+ 1778bfc069a722ab403dfd1d7865b179 2216 gnu-r optional r-bioc-rhdf5lib_1.12.1+dfsg-3.dsc
+ 6f8a0cb0021d19e0c0665bb807dd2ab9 6488 gnu-r optional r-bioc-rhdf5lib_1.12.1+dfsg-3.debian.tar.xz
+ 84e85bf3891aa76278555f2f00518dfd 4272 debug optional r-bioc-rhdf5lib-dbgsym_1.12.1+dfsg-3_amd64.deb
+ bfe3e8e818b3919db31c16d081cf4f3f 10915 gnu-r optional r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.buildinfo
+ 604fde3d5f4772e01e2c7529c8198732 27840 gnu-r optional r-bioc-rhdf5lib_1.12.1+dfsg-3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmBq7MQRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFfow/+MYHXH7YpL9G6p34HEHSn1rrffxF9AexN
+k9QFvHKk/K6U/Jnbuacaz2HFA/IRy1KaEpk3tQ8H7fONTNXQqgVnVSmsxprVTgXB
+Zb1Jgc6haZpaaa2eIrV+RgOyUUFFFyGjmPv65u2JEKASouodAahrUJnVZyIHyvnn
+rD2DfcbRUB6ngTD/sYtBZNyiocBJQNj5kI3YTed1YQV0W/z6+neMAL0q3C7X9MPH
+aH45WYAVb0Oe+dKfNAJro+VzKaAUQRU9RjE9b7Nrxz0Xf4vJOadzZgr/QvP0D9TV
+9XwWGwqD+YhvGkSVyyM44+xlNGn1xtz//uZWkvNBgXDC1eOqu54ou++i6pG6swxK
+ri+GyZYa54Q0c+eU6pbWjA8wZdmAY+2QDr29SoePwvRIbuglt1oz/2+RYBA7FG7e
+QkgcT6JFCVfihzpVYWYcKOYYQODoB1I41ex9YDyqF5LIBDpv8Ie1NHlRy8C27G4i
+VeC/2wOyzcjj/4MW8b07M/DcpR7BjnraY/YYpWBpLBzeXHCMPuQSP40s9ET7e0DX
+Y7YYHOdg85FCRXOan0trBFIQgQu8AevJrJhCaL/HQAn5aLnIT8QI79oN9+PdQsEX
+dQOxLCAyG765a0GvmxCQMpvOoixgOKniDE30neSQGV98fEe7qrLaN5tRXyUsJ/DT
+nApXYV9Ky30=
+=Xe0a
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Mon Apr  5 12:21:06 2021
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 05 Apr 2021 11:21:06 +0000
+Subject: [R-pkg-team] Bug#986077: marked as done (r-bioc-rhdf5lib: broken
+ symlink: /usr/lib/R/site-library/Rhdf5lib/include ->
+ ../../../../include/hdf5/serial)
+References: <E1lTNGT-0001lJ-E0@fasolo.debian.org>
+ <161701589644.28806.12440512847501141403.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <handler.986077.D986077.161762158215669.ackdone@bugs.debian.org>
+
+Your message dated Mon, 05 Apr 2021 11:19:29 +0000
+with message-id <E1lTNGT-0001lJ-E0 at fasolo.debian.org>
+and subject line Bug#986077: fixed in r-bioc-rhdf5lib 1.12.1+dfsg-3
+has caused the Debian Bug report #986077,
+regarding r-bioc-rhdf5lib: broken symlink: /usr/lib/R/site-library/Rhdf5lib/include -> ../../../../include/hdf5/serial
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+986077: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=986077
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-bioc-rhdf5lib: broken symlink: /usr/lib/R/site-library/Rhdf5lib/include -> ../../../../include/hdf5/serial
+Date: Mon, 29 Mar 2021 13:04:56 +0200
+Size: 63419
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210405/1d7434bf/attachment-0002.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#986077: fixed in r-bioc-rhdf5lib 1.12.1+dfsg-3
+Date: Mon, 05 Apr 2021 11:19:29 +0000
+Size: 6074
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210405/1d7434bf/attachment-0003.eml>
+
+From joy at zsfearless.com  Tue Apr  6 07:30:46 2021
+From: joy at zsfearless.com (Joy Chen)
+Date: Tue, 6 Apr 2021 14:30:46 +0800
+Subject: [R-pkg-team] Electric wine opener
+Message-ID: <mailman.53.1617691255.816.r-pkg-team@alioth-lists.debian.net>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210406/81c6177c/attachment.htm>
+
+From anbe at debian.org  Tue Apr  6 15:00:35 2021
+From: anbe at debian.org (Andreas Beckmann)
+Date: Tue, 06 Apr 2021 16:00:35 +0200
+Subject: [R-pkg-team] Bug#986467: r-cran-rcdklibs: broken symlinks:
+ /usr/lib/R/site-library/rcdklibs/cont/*.jar ->
+ ../../../../../share/java/*.jar
+Message-ID: <161771763564.29110.12050010761839725464.reportbug@zam504.zam.kfa-juelich.de>
+
+Package: r-cran-rcdklibs
+Version: 2.3+dfsg-5
+Severity: serious
+User: debian-qa at lists.debian.org
+Usertags: piuparts
+
+Hi,
+
+during a test with piuparts I noticed your package ships (or creates)
+a broken symlink.
+
+>From the attached log (scroll to the bottom...):
+
+1m2.5s ERROR: FAIL: Broken symlinks:
+  /usr/lib/R/site-library/rcdklibs/cont/xz.jar -> ../../../../../share/java/xz.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xom.jar -> ../../../../../share/java/xom.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xmlgraphics-commons.jar -> ../../../../../share/java/xmlgraphics-commons.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xmlParserAPIs.jar -> ../../../../../share/java/xmlParserAPIs.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xml-resolver.jar -> ../../../../../share/java/xml-resolver.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xml-commons-external.jar -> ../../../../../share/java/xml-commons-external.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xml-apis.jar -> ../../../../../share/java/xml-apis.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xml-apis-ext.jar -> ../../../../../share/java/xml-apis-ext.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/xercesSamples.jar -> ../../../../../share/java/xercesSamples.jar (r-cran-rcdklibs)
+...
+  /usr/lib/R/site-library/rcdklibs/cont/asm-analysis.jar -> ../../../../../share/java/asm-analysis.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/asm-all.jar -> ../../../../../share/java/asm-all.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/aopalliance.jar -> ../../../../../share/java/aopalliance.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/ant.jar -> ../../../../../share/java/ant.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/ant-launcher.jar -> ../../../../../share/java/ant-launcher.jar (r-cran-rcdklibs)
+  /usr/lib/R/site-library/rcdklibs/cont/ant-bootstrap.jar -> ../../../../../share/java/ant-bootstrap.jar (r-cran-rcdklibs)
+
+
+I assume the package is not functional with all these .jars missing, thus the severity.
+
+
+cheers,
+
+Andreas
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: r-cran-rcdklibs_2.3+dfsg-5.log.gz
+Type: application/gzip
+Size: 34112 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210406/94f17d8d/attachment-0001.gz>
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 08:20:07 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 07:20:07 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.changes
+Message-ID: <E1lUOxT-00058N-Br@usper.debian.org>
+
+r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-coarsedatatools_0.6-5-2~bpo10+1.dsc
+  r-cran-coarsedatatools_0.6-5-2~bpo10+1.debian.tar.xz
+  r-cran-coarsedatatools_0.6-5-2~bpo10+1_all.deb
+  r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 08:33:27 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 07:33:27 +0000
+Subject: [R-pkg-team] r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.changes
+ is NEW
+Message-ID: <E1lUPAN-000291-UR@fasolo.debian.org>
+
+binary:r-cran-coarsedatatools is NEW.
+binary:r-cran-coarsedatatools is NEW.
+source:r-cran-coarsedatatools is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 08:35:07 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 07:35:07 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.changes
+Message-ID: <E1lUPBz-00066q-SS@usper.debian.org>
+
+r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-fitdistrplus_1.1-3-1~bpo10+1.dsc
+  r-cran-fitdistrplus_1.1-3-1~bpo10+1.debian.tar.xz
+  r-cran-fitdistrplus_1.1-3-1~bpo10+1_all.deb
+  r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 08:48:50 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 07:48:50 +0000
+Subject: [R-pkg-team] r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.changes is
+ NEW
+Message-ID: <E1lUPPG-0004AX-7W@fasolo.debian.org>
+
+binary:r-cran-fitdistrplus is NEW.
+binary:r-cran-fitdistrplus is NEW.
+source:r-cran-fitdistrplus is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 08:50:10 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 07:50:10 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-aweek_1.0.2-1~bpo10+1_amd64.changes
+Message-ID: <E1lUPQY-0006tf-4F@usper.debian.org>
+
+r-cran-aweek_1.0.2-1~bpo10+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-aweek_1.0.2-1~bpo10+1.dsc
+  r-cran-aweek_1.0.2-1~bpo10+1.debian.tar.xz
+  r-cran-aweek_1.0.2-1~bpo10+1_all.deb
+  r-cran-aweek_1.0.2-1~bpo10+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 08:55:11 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 07:55:11 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-incidence_1.7.3-1~bpo10+1_amd64.changes
+Message-ID: <E1lUPVP-0007F0-J7@usper.debian.org>
+
+r-cran-incidence_1.7.3-1~bpo10+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-incidence_1.7.3-1~bpo10+1.dsc
+  r-cran-incidence_1.7.3-1~bpo10+1.debian.tar.xz
+  r-cran-incidence_1.7.3-1~bpo10+1_all.deb
+  r-cran-incidence_1.7.3-1~bpo10+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 09:00:12 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 08:00:12 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.changes
+Message-ID: <E1lUPaG-0007Ur-1Q@usper.debian.org>
+
+r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.dsc
+  r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.debian.tar.xz
+  r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_all.deb
+  r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From crusoe at debian.org  Thu Apr  8 09:05:39 2021
+From: crusoe at debian.org (Michael R. Crusoe)
+Date: Thu, 08 Apr 2021 10:05:39 +0200
+Subject: [R-pkg-team] Bug#986621: ITP: r-bioc-rcwl -- An R interface to the
+ Common Workflow Language
+Message-ID: <161786913952.800818.8971630344715659735.reportbug@mrc-tux>
+
+Package: wnpp
+Severity: wishlist
+X-Debbugs-Cc: crusoe at debian.org
+
+Subject: ITP: r-bioc-rcwl -- An R interface to the Common Workflow Language
+Package: wnpp
+Owner: Michael R. Crusoe <crusoe at debian.org>
+Severity: wishlist
+
+* Package name    : r-bioc-rcwl
+  Version         : 1.6.0+ds
+  Upstream Author : Qiang Hu,
+* URL             : https://bioconductor.org/packages/Rcwl/
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : An R interface to the Common Workflow Language
+ The Common Workflow Language (CWL) is an open standard for development
+ of data analysis workflows that is portable and scalable across
+ different tools and working environments. Rcwl provides a simple way to
+ wrap command line tools and build CWL data analysis pipelines
+ programmatically within R. It increases the ease of usage, development,
+ and maintenance of CWL pipelines.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-bioc-rcwl
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 09:17:35 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 08:17:35 +0000
+Subject: [R-pkg-team] r-cran-aweek_1.0.2-1~bpo10+1_amd64.changes is NEW
+Message-ID: <E1lUPr5-000IpW-1t@fasolo.debian.org>
+
+binary:r-cran-aweek is NEW.
+binary:r-cran-aweek is NEW.
+source:r-cran-aweek is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 09:17:39 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 08:17:39 +0000
+Subject: [R-pkg-team] r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.changes is
+ NEW
+Message-ID: <E1lUPr9-000Ipo-Pj@fasolo.debian.org>
+
+binary:r-cran-epiestim is NEW.
+binary:r-cran-epiestim is NEW.
+source:r-cran-epiestim is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 09:17:44 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 08:17:44 +0000
+Subject: [R-pkg-team] r-cran-incidence_1.7.3-1~bpo10+1_amd64.changes is NEW
+Message-ID: <E1lUPrE-000IqF-EO@fasolo.debian.org>
+
+binary:r-cran-incidence is NEW.
+binary:r-cran-incidence is NEW.
+source:r-cran-incidence is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 09:55:18 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 08:55:18 +0000
+Subject: [R-pkg-team] Processing of r-cran-rcdklibs_2.3+dfsg-6_amd64.changes
+Message-ID: <E1lUQRa-0001rL-Fe@usper.debian.org>
+
+r-cran-rcdklibs_2.3+dfsg-6_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rcdklibs_2.3+dfsg-6.dsc
+  r-cran-rcdklibs_2.3+dfsg-6.debian.tar.xz
+  r-cran-rcdklibs_2.3+dfsg-6_all.deb
+  r-cran-rcdklibs_2.3+dfsg-6_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 10:04:04 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 09:04:04 +0000
+Subject: [R-pkg-team] r-cran-rcdklibs_2.3+dfsg-6_amd64.changes ACCEPTED into
+ unstable
+Message-ID: <E1lUQa4-0006Bg-15@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 10:46:24 +0200
+Source: r-cran-rcdklibs
+Binary: r-cran-rcdklibs
+Architecture: source all
+Version: 2.3+dfsg-6
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-rcdklibs - Chemistry Development Kit (CDK) libraries packaged for GNU R
+Closes: 986467
+Changes:
+ r-cran-rcdklibs (2.3+dfsg-6) unstable; urgency=medium
+ .
+   * Add missing Depends libcdk-java
+     Closes: #986467
+Checksums-Sha1:
+ a1791ccbe65a3a2ab969685a462377b28eca26f0 2132 r-cran-rcdklibs_2.3+dfsg-6.dsc
+ 12823f722949ee43057db0533db1465def9ed40c 2436 r-cran-rcdklibs_2.3+dfsg-6.debian.tar.xz
+ e96d5096f66135dc0787a1caca9bd75eee974702 15048 r-cran-rcdklibs_2.3+dfsg-6_all.deb
+ 24e161c4bbc9033515cc91c17eafd8332784b746 15835 r-cran-rcdklibs_2.3+dfsg-6_amd64.buildinfo
+Checksums-Sha256:
+ fdc703588a5fd4d18c48cdb9c0d6acc988b060097cc1ea829a010794ffa7f9df 2132 r-cran-rcdklibs_2.3+dfsg-6.dsc
+ a078e361466d7b17b783db62c4e0842911dc59d46e69d79cf38d796ba6733bb9 2436 r-cran-rcdklibs_2.3+dfsg-6.debian.tar.xz
+ c9bc06f3c2ad012985de2b644d415e3ce71e97ec5b96090d0e63db6b5d248ea2 15048 r-cran-rcdklibs_2.3+dfsg-6_all.deb
+ 136cb44fc56a88d9227bc56476320a045145d598187b94c38965bf7da7f21424 15835 r-cran-rcdklibs_2.3+dfsg-6_amd64.buildinfo
+Files:
+ e1db61b749231c0fd2782cf9e3ef6c98 2132 gnu-r optional r-cran-rcdklibs_2.3+dfsg-6.dsc
+ 508919a89c9228c9e34cae71becaafbc 2436 gnu-r optional r-cran-rcdklibs_2.3+dfsg-6.debian.tar.xz
+ 765d6c196eadd0afc57e5ecf9f65d5f8 15048 gnu-r optional r-cran-rcdklibs_2.3+dfsg-6_all.deb
+ b2d3c4aa57f9b03303c79294ec79689e 15835 gnu-r optional r-cran-rcdklibs_2.3+dfsg-6_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmBuw5kRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtGsAA/+OaPcMMfxVU/DPWqrEE+Y5NEpSNvgiULf
+n5wzTttreAqNDOscETuhQ0GZ31wQiZpouWTypV+5Dfm+duhMh/G2SE+GBeieE40G
+S9XoUPuL6FqH9I4hdXut39hAKs1EcoL4GiEAxWO5k4RWFayFV4bN347yP7Jyts8M
+JPzuTkNOx95FtxtTcS8nln18Y5oSNMW1gyc1ZYuiilZuDlDGxOqiuXISGgGLbSwn
+pB+lk1v6kmnAyqPdgu+aEP5I+63X7CdO7oMv+WbUBrQIYXD6F/yXNodMW2bWhJeV
+3IGqTLJSCJQY/GdUVuiliB+wwFtvuSwWSZYvymf4KD7KcFns0g0fV56+/fT7uHEq
+jnMKEC69SnW+wghLwMcUjb05W2EHgynq/VVucchHSrOR03I2QZgABfciAD9wvpFN
+9Hkti4KgjLqfiTWcNMipjMRf3Z+DYxmQpFoiS6l+XUMyyZdd6kKtuktb0sJhRlIS
+Ji6eJqlBj2/rHohRaDSauFOnR+SmLCTazYAb0jlUh8ixb86jLJzxxc7zLQvjcgmh
+ce34gxzqjZsLydRKFT1r57ughfu91pEVKlz0jPu7MoWGPXuWkuVvsc3OMNG2zKbv
+5gbYZdeGW0yF9i10y0Rjutx8Up5N3MmNwMaSRhZGo534ORuSkLWwsvahOmOfUYG5
+oGMSgoG8y2s=
+=I5Ci
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Thu Apr  8 10:09:03 2021
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 08 Apr 2021 09:09:03 +0000
+Subject: [R-pkg-team] Bug#986467: marked as done (r-cran-rcdklibs: broken
+ symlinks: /usr/lib/R/site-library/rcdklibs/cont/*.jar ->
+ ../../../../../share/java/*.jar)
+References: <E1lUQa4-0006Bo-2f@fasolo.debian.org>
+ <161771763564.29110.12050010761839725464.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <handler.986467.D986467.16178726456134.ackdone@bugs.debian.org>
+
+Your message dated Thu, 08 Apr 2021 09:04:04 +0000
+with message-id <E1lUQa4-0006Bo-2f at fasolo.debian.org>
+and subject line Bug#986467: fixed in r-cran-rcdklibs 2.3+dfsg-6
+has caused the Debian Bug report #986467,
+regarding r-cran-rcdklibs: broken symlinks: /usr/lib/R/site-library/rcdklibs/cont/*.jar -> ../../../../../share/java/*.jar
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+986467: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=986467
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-cran-rcdklibs: broken symlinks: /usr/lib/R/site-library/rcdklibs/cont/*.jar -> ../../../../../share/java/*.jar
+Date: Tue, 06 Apr 2021 16:00:35 +0200
+Size: 50649
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210408/67a5fba2/attachment-0002.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#986467: fixed in r-cran-rcdklibs 2.3+dfsg-6
+Date: Thu, 08 Apr 2021 09:04:04 +0000
+Size: 5722
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210408/67a5fba2/attachment-0003.eml>
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 21:04:58 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 20:04:58 +0000
+Subject: [R-pkg-team] Processing of r-cran-rcdklibs_2.3+dfsg-7_source.changes
+Message-ID: <E1lUate-00030C-FG@usper.debian.org>
+
+r-cran-rcdklibs_2.3+dfsg-7_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rcdklibs_2.3+dfsg-7.dsc
+  r-cran-rcdklibs_2.3+dfsg-7.debian.tar.xz
+  r-cran-rcdklibs_2.3+dfsg-7_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr  8 21:19:42 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 08 Apr 2021 20:19:42 +0000
+Subject: [R-pkg-team] r-cran-rcdklibs_2.3+dfsg-7_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1lUb7u-0009GJ-7M@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 20:44:29 +0200
+Source: r-cran-rcdklibs
+Architecture: source
+Version: 2.3+dfsg-7
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-cran-rcdklibs (2.3+dfsg-7) unstable; urgency=medium
+ .
+   * Source-only upload.
+Checksums-Sha1:
+ 235cdba5619f23addcf66abbd02f65de8143dbbe 2132 r-cran-rcdklibs_2.3+dfsg-7.dsc
+ 4699329d76a396ea7e1acfe014b3c9f36a05ac76 2456 r-cran-rcdklibs_2.3+dfsg-7.debian.tar.xz
+ bbebe000f67593092bddefe30ebea029da2db855 15835 r-cran-rcdklibs_2.3+dfsg-7_amd64.buildinfo
+Checksums-Sha256:
+ a37b2edb065255f8df8ed875e655870970227f48b5777c0a22311775f8ff5a21 2132 r-cran-rcdklibs_2.3+dfsg-7.dsc
+ 0c858341c504b580c80033d530e4b69e4f255735c33167042ffc93d0907e4bef 2456 r-cran-rcdklibs_2.3+dfsg-7.debian.tar.xz
+ 0a6aa470fa8aae114f333312b53176cb718fe78924296c6caffe5240311b2577 15835 r-cran-rcdklibs_2.3+dfsg-7_amd64.buildinfo
+Files:
+ 3b40a071f2185799650ec16c8ac9d0a4 2132 gnu-r optional r-cran-rcdklibs_2.3+dfsg-7.dsc
+ 8aa615143bd28034926e7b7ad9fbdba4 2456 gnu-r optional r-cran-rcdklibs_2.3+dfsg-7.debian.tar.xz
+ 19e71d47fab60cf15d39f2dddb53e2e8 15835 gnu-r optional r-cran-rcdklibs_2.3+dfsg-7_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmBvXn8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFV8A/+IP57dD3lSymuIfnyJ3Vu13gwVx0Z4CmP
+X2a/HWY70ykfBzg2L4aVIX3gBYzzGcU99NFO0B0NHvGfkUoLYvgjqWYJmrt/Jy8w
+GSyRHj24mhx8lZg/VWBMA15TzmgWJ9vvPz98LdrreuKIA2cA6HDk13yNlC2KVA93
+HUnV0bAFTaEIm/Sr0MHSpTuRCD0howGI92KJAB5YGm2kIHTiLTXVBKlNbA2MYWfn
+aX8Z61DSWBDoxCwMsON6/etEoJ5hb/ojZFQawJW8e5QSMnlNX1HIbecSGNV+tnXf
+6SpBkOkRQgXpfveAN8Z4uvyL19XOw4CfOlhX0hh7Rimj+n7vyf9DN6gqvc7h7SJz
+cS2AYIg1mQjIZOfzR1w36eQ4b6i3FE3UqrMVYOUdOLP+vzBcHEWxuaacCqJdDCvw
+4xYla0xm6q+LabhJzYxIY0MPU8fDXyKV7cWpUCBOU2NelsVewSuMSJjJtqxgnKDc
+cav+HpeVyTkUlTTRbFKp7mmea4wcOMVWB/p2CJ2hq9gishoi0d4bbTmFmDZs5/18
+ZhGslu9b/OEWS9/cCzVCotsfDr+2e/3EoquKT3AVf3rRY0zfAQNjeS4/AgYAiE2O
+3csGZ5C79g0+qaIbtakaIsi+dHfZeVuMku+g11jKZnPcZByle5cHYuf3e+O88xTZ
+lBTKQGzezUc=
+=lyyg
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  9 11:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 09 Apr 2021 10:00:08 +0000
+Subject: [R-pkg-team] r-bioc-qtlizer_1.4.0+dfsg-1_amd64.changes ACCEPTED
+ into unstable, unstable
+Message-ID: <E1lUnvs-000DiC-GN@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 28 Mar 2021 22:26:38 +0530
+Source: r-bioc-qtlizer
+Binary: r-bioc-qtlizer
+Architecture: source all
+Version: 1.4.0+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Description:
+ r-bioc-qtlizer - Comprehensive QTL annotation of GWAS results
+Closes: 986052
+Changes:
+ r-bioc-qtlizer (1.4.0+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #986052)
+Checksums-Sha1:
+ 731af89ef96c1298a59cbb68f1cc4b8b50466eec 2181 r-bioc-qtlizer_1.4.0+dfsg-1.dsc
+ 2ac51453307519a68ad84a70312c1f5f74433e84 7156 r-bioc-qtlizer_1.4.0+dfsg.orig.tar.xz
+ 9ee4eb3a4a9bd60a370b1c64b623a27b3c5ea468 2040 r-bioc-qtlizer_1.4.0+dfsg-1.debian.tar.xz
+ 87a309df8c5fe14dc42c26df31c6af5bc4df3c17 25624 r-bioc-qtlizer_1.4.0+dfsg-1_all.deb
+ 988ea660c711af12a6209afe51bfda911252288d 11545 r-bioc-qtlizer_1.4.0+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 8f19951fa89945dfe7208dcaec20e308c3bbe80d3e5212637ff0ec03c3b9b758 2181 r-bioc-qtlizer_1.4.0+dfsg-1.dsc
+ 96564065ac1018beeb69accb1066d7d630174e7290deeab5f7653defd8bbe31f 7156 r-bioc-qtlizer_1.4.0+dfsg.orig.tar.xz
+ 8b593167ba285c637cb7ede8bbe1b7059eba3699339c3fe7f2764f9bdc9b07c9 2040 r-bioc-qtlizer_1.4.0+dfsg-1.debian.tar.xz
+ 07aaa26a4b143b3b7cc6b5b1e64ece035dcdaf36c0a894664d61d2b73ff29e1a 25624 r-bioc-qtlizer_1.4.0+dfsg-1_all.deb
+ d0fb1a30a97ec1df10061ecc29ac645f160348203f3cd6ccb374821b10ebaced 11545 r-bioc-qtlizer_1.4.0+dfsg-1_amd64.buildinfo
+Files:
+ 5e23e884a26fe12c6c5fc843875f37f8 2181 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-1.dsc
+ 07494258498883e197959f3bcb8ba916 7156 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg.orig.tar.xz
+ 960bd0566a7ca08f7e918507f136bf9c 2040 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-1.debian.tar.xz
+ c9c0a374a75e640f98565f04f282df0f 25624 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-1_all.deb
+ 538e7925f5d5cedc26265f0a31e8799c 11545 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmBgy6AUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafFccQ//bc3XOlnq5as+SyOhQPmHAM0FZiQI
+ihLah51wkuwi4KSuL1Mir4P8IuEdT3/kAlkhyPG8BF8li7ddx24nyH0oYKArQdHT
+lK5JbRYkme9f/AkqbtjRGMgW706JHyr15w1uAyFCht8/TZOcrUqyFNvMCzgQo1m8
+cSnCQsHHctgwWxYWyqahmoKSK3rs/cUhuTmssWcdqq2R/dztkdasm4ife7s6s2GX
+feky0NBPOwIurKOXcS50vCBwjse1RXJy8jLvan+HjoRcMY5Mj0Lhs0UKAaH2MuDk
+YyPlqvBqCQctVB0yPsKan6iIq6CJXpyCNcLx0doyLtdnAt4eFE5actKCrNho1RuE
+WC9/RgjviWfJKBiFgSyYbUAaTiK6Jg2ifl4UNvWM8+jeqnGDjJU2nkdJXr9idHL6
+4AQc/DETsPltz8gdMAsf5ZfLc1MGem/f18AqBsp/tJwe4Z7k5S9PYPANvFjusgJm
+cQJsOg/0gdm3jGowe1hoGiFXUouLVqeDuYAdwElZg67KytS23UfUYtkH5mqwvI35
+e6iH744WpYF8XwqbrfpTt8uXzKRsF0Pjhak6ydbsRGilOTbjyiJDN+sHSSc1Ek53
+73AsG94PubflsGoVGht+T2Lk2a5nzi4vlHmLQs7WjiPNhfvvfoip2jFMYWnk7/9M
+t81Fv/7CT4WOTlg=
+=hB+1
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  9 11:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 09 Apr 2021 10:00:08 +0000
+Subject: [R-pkg-team] r-cran-uniqtag_1.0-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1lUnvs-000DiY-PF@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 29 Mar 2021 19:44:33 +0530
+Source: r-cran-uniqtag
+Binary: r-cran-uniqtag
+Architecture: source all
+Version: 1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Description:
+ r-cran-uniqtag - Abbreviate Strings to Short, Unique Identifiers
+Closes: 986102
+Changes:
+ r-cran-uniqtag (1.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #986102)
+Checksums-Sha1:
+ dafb1f98af844382356be43367681bdbad438293 2086 r-cran-uniqtag_1.0-1.dsc
+ 8e9de5445c73a500ead64782fa40b14c04afd384 5111 r-cran-uniqtag_1.0.orig.tar.gz
+ a535e29d8c138385427d00c52ace7ee7c8cc7b40 2488 r-cran-uniqtag_1.0-1.debian.tar.xz
+ 3092080885f6875f2e74102e6a6d59d5ffd560fb 22668 r-cran-uniqtag_1.0-1_all.deb
+ 93a3064d8af0c660bb7e62e468c540e94c834400 10195 r-cran-uniqtag_1.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 2133d92813134edcf06d065c46812b1bae58ffb8713ad9602b9561377b980068 2086 r-cran-uniqtag_1.0-1.dsc
+ a88c021901511383c20d4045f69dd5d58480f85a672817b80c76ecf66b38b808 5111 r-cran-uniqtag_1.0.orig.tar.gz
+ b23e9a8f53743a8dfa4ffe2bf44538df8e2aacc59785d3738605be6696a6d721 2488 r-cran-uniqtag_1.0-1.debian.tar.xz
+ f5e8f305d99e6755d7011b4f14ac7bc67e090119da533ba05883ac3464594ddb 22668 r-cran-uniqtag_1.0-1_all.deb
+ 514ed856eb35f43dbfd0d1de2eb713cecb3331058405c564597a833e7157b97e 10195 r-cran-uniqtag_1.0-1_amd64.buildinfo
+Files:
+ 15399462d451975c47f8107394438137 2086 gnu-r optional r-cran-uniqtag_1.0-1.dsc
+ d8c587e6681a8ee93fd2ffe73c6ecd2f 5111 gnu-r optional r-cran-uniqtag_1.0.orig.tar.gz
+ b5ff0b865f4dc3a64d9023e5051906b0 2488 gnu-r optional r-cran-uniqtag_1.0-1.debian.tar.xz
+ 3e29a89a473b4a2dd2b249fd61b56b8b 22668 gnu-r optional r-cran-uniqtag_1.0-1_all.deb
+ 688f560c56bc4dfd80bfbd0f30ffd481 10195 gnu-r optional r-cran-uniqtag_1.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmBh5qYUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafGjdQ//ZlPp9VNG1zuhuuWzQGVl5opia6uZ
+xREP9yXKSVVHzGn0q8WFPm+fMaoJuRaYiYwQGv7/Wwj23SvG4lqd0Vx5Pk/SwjUm
+/mWaDNgA1wDpoSuCb1TbJh4aWe8FPCurww8UBKa6OFzsnd8/XFE4PTo6aB44i4p/
+3oaS2l9HXIZ6ncbT+hDjscc6Qp392sGXbCGwte7Bl2k3btbeM+NWmua5zjYH0JLv
+YQdZTjea2CTHkjIbVP+di/SCfNsS/4H//IKPWRLf9IbTLdGzBG14U9EI6PoJ2tKP
+bL8VAYxIBeDRc++nvxwViYfeUbwyNSwyrno63479suuP53UPT4Mxv9mWWDTtv8eJ
+uT+VyknKnOQyJEEtvvibh25n49wYzic9WjIid4345BTA2VF+mtT9xXO3miefQj+w
+CtKHHyylfug1RSbsBNaMWMO4uDBY2ltshFdKTekcwJHpBiq4o8fivhaXcfm0wew9
+0rTZU29IJZHdVWp+YQIPSjZqIk54CfCoyqpgkn1Yz2SLLuQ0dHwmZ2+nX9BCbXOn
+WDsT8s9KtBbbC0omCmtVPxHR1qyn1BNU/XUjwc2UCH1+whElJ85Y28zxXx+hqJ3L
+5g4LZuVmpjmnNcS9eki+BStRUoPOdWNzyk5iPvgazL0yuWFdPLOVzcw0vsEUiSx4
+rA10rIlGEmA+tcw=
+=l9OI
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  9 11:48:03 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 09 Apr 2021 10:48:03 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-qtlizer_1.4.0+dfsg-2_source.changes
+Message-ID: <E1lUogF-00085w-4S@usper.debian.org>
+
+r-bioc-qtlizer_1.4.0+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-qtlizer_1.4.0+dfsg-2.dsc
+  r-bioc-qtlizer_1.4.0+dfsg-2.debian.tar.xz
+  r-bioc-qtlizer_1.4.0+dfsg-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  9 11:48:41 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 09 Apr 2021 10:48:41 +0000
+Subject: [R-pkg-team] r-bioc-qtlizer_1.4.0+dfsg-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1lUogr-00017t-Nv@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 09 Apr 2021 16:00:44 +0530
+Source: r-bioc-qtlizer
+Architecture: source
+Version: 1.4.0+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-bioc-qtlizer (1.4.0+dfsg-2) unstable; urgency=medium
+ .
+   * Source-only upload for testing migration.
+Checksums-Sha1:
+ 84e6510713c3b369235f267ff04dbaf8f7490c03 2181 r-bioc-qtlizer_1.4.0+dfsg-2.dsc
+ 5f5bfd1f88347a7211902931856b04942d08cfc1 2104 r-bioc-qtlizer_1.4.0+dfsg-2.debian.tar.xz
+ b0af20c81b47b91117e1ce2e4620a2306c1d8cac 11307 r-bioc-qtlizer_1.4.0+dfsg-2_amd64.buildinfo
+Checksums-Sha256:
+ 5421f96b63ea4b8f96771cca8d8c84eb33c7877e3325caba9621762f8d8e9a70 2181 r-bioc-qtlizer_1.4.0+dfsg-2.dsc
+ 31095bf46697b63adcd54800c24e6f5061338501960a875bc2b95cfcf163a9f8 2104 r-bioc-qtlizer_1.4.0+dfsg-2.debian.tar.xz
+ 4273408caa9f935dfd38003168be5bce3df69b3b56438ca1c40155cc2b5254fc 11307 r-bioc-qtlizer_1.4.0+dfsg-2_amd64.buildinfo
+Files:
+ f19905f1d678b3bfe73224359f242397 2181 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-2.dsc
+ dd123e5c82fa7e3ba2f7aa966686fc14 2104 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-2.debian.tar.xz
+ 5f3e7507e1bfc25fbe8eab7958a74e44 11307 gnu-r optional r-bioc-qtlizer_1.4.0+dfsg-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmBwLhAUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafHxPA/+NPD65nNzCmvPd2KVq9V/m0d+Kl6N
+agSwxowJQrY71i1vbdfqPMShrhCHees75JidfS9lpgqAS0P2oHhRaOmgA/QGX+yB
+J+Mc0l9oo1+mtKh2KKNtTrYNaiKjuseIccYyxRcBtMEE/h5Dz1h8gLGNIMljpioz
+s6QbKRBjoy9c+TZir34JaM4GOadc1ipz+1rtkt80d0RuYWwmk1tAECY7jcJHqpJD
+bUADaheu0rJXQHZPd6gVKmCf14zxCUBFa4sKV2k1Yrs1er71Uim1OTAAdBU4TcDx
+Xh036wGfiHnNGQEvLjY8tO+G6e9rPlFAujOOe6lUQjRniJ976bBtb+u6+r8cg8+n
+sgohtYkEyk1ICRtYfGCX+cKT5x9R/aLGGNBeqaJNyI3lo9BJTwtg/6D90dp+fP5k
+r0vYfzjVy2obeOm4/UGaR4QmA2cFmKO8T+rF2AMmUxVYj4bZHCRXHtPsJPRAODvZ
+ISB1xsMDmBjJEeeY0X98aGqHAkNywhSmlwD/GSRMJcQwG7yqcIuSJeXQb+5VDAsq
+CjjhNfPhIVKsNIFTEf2Grms3LgyWqW2iN07/pV3a5lZ/gbz7KjgwQ2zZochdTM2W
+ueM6tP3c+iezb7QaBJpKWqX7c4zNsQadysSGB/CIZO7FYELyj8iOsICuwel3f3Lj
+wxKJImyLsnDqkcc=
+=IgUj
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  9 11:58:03 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 09 Apr 2021 10:58:03 +0000
+Subject: [R-pkg-team] Processing of r-cran-uniqtag_1.0-2_source.changes
+Message-ID: <E1lUopv-00006C-Hn@usper.debian.org>
+
+r-cran-uniqtag_1.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-uniqtag_1.0-2.dsc
+  r-cran-uniqtag_1.0-2.debian.tar.xz
+  r-cran-uniqtag_1.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr  9 12:04:00 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 09 Apr 2021 11:04:00 +0000
+Subject: [R-pkg-team] r-cran-uniqtag_1.0-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1lUovg-0003Ma-67@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 09 Apr 2021 16:08:27 +0530
+Source: r-cran-uniqtag
+Architecture: source
+Version: 1.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-cran-uniqtag (1.0-2) unstable; urgency=medium
+ .
+   * Source-only upload for testing migration.
+Checksums-Sha1:
+ 80bb20396ce61c8c615daa36ac7d5d08532b0caf 2086 r-cran-uniqtag_1.0-2.dsc
+ 9914aca302085e1f9730d61e989c48e729b57e87 2556 r-cran-uniqtag_1.0-2.debian.tar.xz
+ eef0f1c8a7df42ac0f84ca6025301172064281dd 9978 r-cran-uniqtag_1.0-2_amd64.buildinfo
+Checksums-Sha256:
+ c1b2482f6eaafd2ae84f4a3ee2af845acd235191170f5f0b8ae1da06f0104e1d 2086 r-cran-uniqtag_1.0-2.dsc
+ dc6d99360e4c7ed2c72ccd666af1c4723d3edca29e7949bc340b49cf86a5e8b8 2556 r-cran-uniqtag_1.0-2.debian.tar.xz
+ ecea96f235851945eccfef162301dae40542f4758a719e3462a3bd13e842eff3 9978 r-cran-uniqtag_1.0-2_amd64.buildinfo
+Files:
+ 650d08cd3c2cc1e6059bf4d481daafcc 2086 gnu-r optional r-cran-uniqtag_1.0-2.dsc
+ 50880b373920e0b6526a29a64ffa5c1b 2556 gnu-r optional r-cran-uniqtag_1.0-2.debian.tar.xz
+ 2c83ebe6d50396016767b52cec8401cf 9978 gnu-r optional r-cran-uniqtag_1.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmBwMH8UHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafGEsQ/6Az3Y9phyBMQDtLfmcKH2zNqjEfqf
+gaH5OodiWL5L5JzgEoeqPy54hX1aoio8+nlcxKMpy7FsD1TiJGw/aBlk33ZAkBaS
+8WtLtNWwBwPpWn7THeiHp6XWN4TlGhoBcn2U6JAb3BLb4dUk6kpMnz5fsUbzuHFg
++vUw+QXEK+ktYSywDWqSTXPKQZQNMzmTAQDLISleOdk92/dNqsfW+HacbLidEOml
+0LM9mhTVSpmcLCmBm8mn2ql9tQPlhMkbTCaFkK8IYbsypyUuBPcICxeFza2NAUiW
+fTjnWc5I7O8/AR30Ofc6Eb8zYfbo6E9BrPYt0zVYQmjmKrzNsDD/ucinqYJNlTaV
+95BuyD4yrpDxO5n+N3fvTTcZFjhUVuH79PaWYt+PHtp+6WchATEWNud3eR+TtbAf
+l+E6xSzDfGCaYzYQY0vpQPk7HsEbi2904jWECOUCV/AZCuPQTON1FItLt0tzp7sy
+2FlQY0Mq6gcvZzuEmhvcjAnsVD2aOvhYI4CLY4U1dAe1t3X+sMJLIBoXvFZ95miJ
+WvXUF71zNnTcOSwALvTb9PyIxysaS+jc4qhInSruWqFaRBaZKSsghaWa4Zg5GZGq
+Mb3C6qkV08t/VmZ8d8fXlYFMJ0IXeig+ezsXg814aFxXnicPp2T1ENabhOMJrWRI
+YRJlLQM4I2bA9K0=
+=Jpbe
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From noreply at release.debian.org  Sat Apr 10 05:39:07 2021
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 10 Apr 2021 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-shiny 1.5.0+dfsg-2 MIGRATED to testing
+Message-ID: <E1lV5Ol-0006L9-JH@respighi.debian.org>
+
+FYI: The status of the r-cran-shiny source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.5.0+dfsg-1
+  Current version:  1.5.0+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Sat Apr 10 11:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Sat, 10 Apr 2021 10:00:08 +0000
+Subject: [R-pkg-team] r-cran-genoplotr_0.8.11-1_amd64.changes REJECTED
+Message-ID: <E1lVAPQ-0008Mo-9f@fasolo.debian.org>
+
+
+Hi,
+
+this does not look like a distributable file:
+ genoPlotR/vignettes/Bioinformatics-2010-Guy-2334-5.pdf: Copyright (c) 1992-1996 Publish or Perish and Y&Y, Inc
+
+  Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Sat Apr 10 11:59:53 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 10 Apr 2021 10:59:53 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-genoplotr_0.8.11+dfsg-1_amd64.changes
+Message-ID: <E1lVBLF-0005rd-Eu@usper.debian.org>
+
+r-cran-genoplotr_0.8.11+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-genoplotr_0.8.11+dfsg-1.dsc
+  r-cran-genoplotr_0.8.11+dfsg.orig.tar.xz
+  r-cran-genoplotr_0.8.11+dfsg-1.debian.tar.xz
+  r-cran-genoplotr_0.8.11+dfsg-1_all.deb
+  r-cran-genoplotr_0.8.11+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sat Apr 10 12:06:17 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 10 Apr 2021 11:06:17 +0000
+Subject: [R-pkg-team] r-cran-genoplotr_0.8.11+dfsg-1_amd64.changes is NEW
+Message-ID: <E1lVBRR-000H8Q-JV@fasolo.debian.org>
+
+binary:r-cran-genoplotr is NEW.
+binary:r-cran-genoplotr is NEW.
+source:r-cran-genoplotr is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From nilesh at debian.org  Sat Apr 10 12:13:42 2021
+From: nilesh at debian.org (Nilesh Patra)
+Date: Sat, 10 Apr 2021 16:43:42 +0530
+Subject: [R-pkg-team] r-cran-genoplotr_0.8.11-1_amd64.changes REJECTED
+In-Reply-To: <E1lVAPQ-0008Mo-9f@fasolo.debian.org>
+References: <E1lVAPQ-0008Mo-9f@fasolo.debian.org>
+Message-ID: <82ce7a28-cd81-f695-66bf-1b5610be4c0c@debian.org>
+
+Hi,
+
+On 4/10/21 3:30 PM, Thorsten Alteholz wrote:
+> Hi,
+>
+> this does not look like a distributable file:
+>  genoPlotR/vignettes/Bioinformatics-2010-Guy-2334-5.pdf: Copyright (c) 1992-1996 Publish or Perish and Y&Y, Inc
+Fixed tis and uploaded, please consider to review and accept.
+Thanks you for reviewing! :-)
+
+Nilesh
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210410/92bd6373/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Sun, 11 Apr 2021 10:00:08 +0000
+Subject: [R-pkg-team] r-cran-svmisc_1.1.0-1_amd64.changes REJECTED
+Message-ID: <E1lVWsy-0008Aw-Pc@fasolo.debian.org>
+
+
+Hi,
+
+please mention svMisc/po/R-fr.po in your debian/copyright.
+
+Thanks!
+ Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:00:09 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 10:00:09 +0000
+Subject: [R-pkg-team] r-cran-genoplotr_0.8.11+dfsg-1_amd64.changes ACCEPTED
+ into unstable, unstable
+Message-ID: <E1lVWsz-0008Bi-QT@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 27 Mar 2021 19:03:35 +0530
+Source: r-cran-genoplotr
+Binary: r-cran-genoplotr
+Architecture: source all
+Version: 0.8.11+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Description:
+ r-cran-genoplotr - Plot Publication-Grade Gene and Genome Maps
+Closes: 985988
+Changes:
+ r-cran-genoplotr (0.8.11+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #985988)
+Checksums-Sha1:
+ 647609b4ad92e736c57d12ff117b3b2cd4be03c8 2136 r-cran-genoplotr_0.8.11+dfsg-1.dsc
+ 56511a9d349cc0b71ee98ec1b035421f127a43e2 673096 r-cran-genoplotr_0.8.11+dfsg.orig.tar.xz
+ 35b85cbb74893e517e0a7d129ed1dfa8ae2eeddb 2180 r-cran-genoplotr_0.8.11+dfsg-1.debian.tar.xz
+ ecca226129ad13119c22a8f294afe366399cb20c 875072 r-cran-genoplotr_0.8.11+dfsg-1_all.deb
+ f9de74cc91dfe5208272efa6662d3a34e109dc2d 10791 r-cran-genoplotr_0.8.11+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ d629791b16eaefceafbeef44f858e87c03f4b630f222cc7ad1fdc4b459fe11c1 2136 r-cran-genoplotr_0.8.11+dfsg-1.dsc
+ 9fc17435f78745cdde33463335f9b8c898f5b6c42f801634559288257f0749f7 673096 r-cran-genoplotr_0.8.11+dfsg.orig.tar.xz
+ b67073275881fb83472a804b34ab3d831620371b7704a364fb2056979b92fcdb 2180 r-cran-genoplotr_0.8.11+dfsg-1.debian.tar.xz
+ 1e83e37633dc4f3b57f507d14827f310fb4f712e73120324386d7e883c24954e 875072 r-cran-genoplotr_0.8.11+dfsg-1_all.deb
+ 4c1b45a7890f85fb4862e349f6cf4bb36b40bd44b2b9cfbf6bc74988f040592e 10791 r-cran-genoplotr_0.8.11+dfsg-1_amd64.buildinfo
+Files:
+ f6c6d042d203e02d0e74e7fff66693c3 2136 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-1.dsc
+ 773205d73ef7d677aea87b21d2dd435b 673096 gnu-r optional r-cran-genoplotr_0.8.11+dfsg.orig.tar.xz
+ 471d2af986d22cc52bc5c857d6ab5bef 2180 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-1.debian.tar.xz
+ 2a898e8aa5aa03eafe5df0afee54d03f 875072 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-1_all.deb
+ 62702c30f96b4c7082791613cc4bf486 10791 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmBxgiAUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafHBzhAAkJwtQ8AeatSbAfilqrBsCN2fbNAT
+9zRyoqxr38bp3z9dXTB90ehg0teKO2+ShElmQT5j4Hk3Z+BFES5VWhcPsgBCK9jn
+MYKd4km/JBZsplXVrvJkI2+jPFxB6wJnlkS7upO7bu1PNHwlobMe2L/X1A2ZOfde
+ohDn2bhbUAmDxA6hYvcU6Yrk2vDz0AjPPQziv49L5O1NjdPFaNFGAVlOBUUt/xFK
+o0H7C1OjW0ZDZnbSG4Sh3lymiEK5PeHvcTrf/n9/4y35p6io3jQ7xNj4rgHjEH64
+tPA46RitNbP+O4HB0j5GA2WR6HOY1GX+tVLrWObJx8Im1dbFd/dyd35uyDqNRqUE
+wmVG2If/IyEX/OHJtwA7XZBADkb1ugcyy5PFcLSiFyWVG27BVTDJBa6Ar9YvUcoD
+chR03IKtkDoD4eSovM96R1PUXGmho5ZV6ComFcUgAMHutILGOWljbR+Zz6yIFl3j
+FXNh02qA5Me14V9WydzZy7BSesWNUzriUQ3rl9eOrxIDghQFhKZjm+dBM644MPsA
+wrCG2uELh/xSJZAB/OQgBbrfcIlPCcCrp8HcJ7YxTjJ9CAFqx1fvACOQGzykpPUl
+3waS/R39C+GbmgDNZw65U/IWQ8bf+rddONrMU12n3d0GQvOc6gkkz3BwCXXU3OZP
+FWBFefooXDCm620=
+=Vanl
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Sun, 11 Apr 2021 10:00:08 +0000
+Subject: [R-pkg-team] r-cran-sampling_2.9-1_amd64.changes REJECTED
+Message-ID: <E1lVWsy-0008Ap-NI@fasolo.debian.org>
+
+
+Hi,
+
+please mention sampling/*/rec99.Rd* in your debian/copyright.
+
+Thanks!
+ Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Sun, 11 Apr 2021 10:00:08 +0000
+Subject: [R-pkg-team] r-bioc-netsam_1.30.0-1_amd64.changes REJECTED
+Message-ID: <E1lVWsy-0008Ai-KY@fasolo.debian.org>
+
+
+Hi,
+
+please also mention the LPPL in your debian/copyright.
+
+Thanks!
+ Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:39:23 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 10:39:23 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-genoplotr_0.8.11+dfsg-2_source.changes
+Message-ID: <E1lVXUx-0002Gf-S2@usper.debian.org>
+
+r-cran-genoplotr_0.8.11+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-genoplotr_0.8.11+dfsg-2.dsc
+  r-cran-genoplotr_0.8.11+dfsg-2.debian.tar.xz
+  r-cran-genoplotr_0.8.11+dfsg-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:44:24 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 10:44:24 +0000
+Subject: [R-pkg-team] Processing of r-cran-svmisc_1.1.0-1_amd64.changes
+Message-ID: <E1lVXZo-0002Yi-S8@usper.debian.org>
+
+r-cran-svmisc_1.1.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-svmisc_1.1.0-1.dsc
+  r-cran-svmisc_1.1.0.orig.tar.gz
+  r-cran-svmisc_1.1.0-1.debian.tar.xz
+  r-cran-svmisc_1.1.0-1_all.deb
+  r-cran-svmisc_1.1.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:48:51 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 10:48:51 +0000
+Subject: [R-pkg-team] r-cran-genoplotr_0.8.11+dfsg-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1lVXe7-000Esm-6y@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 11 Apr 2021 15:52:51 +0530
+Source: r-cran-genoplotr
+Architecture: source
+Version: 0.8.11+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-cran-genoplotr (0.8.11+dfsg-2) unstable; urgency=medium
+ .
+   * Source-only upload for testing migration
+Checksums-Sha1:
+ c717deb85a63005eaf21d47c7686756945bf357c 2136 r-cran-genoplotr_0.8.11+dfsg-2.dsc
+ fb8d79e2f42261fcacd9384a3c27b4ca9009d9fc 2256 r-cran-genoplotr_0.8.11+dfsg-2.debian.tar.xz
+ 23c7ec1e65695b3363a6be4759e65a15ac85e348 10524 r-cran-genoplotr_0.8.11+dfsg-2_amd64.buildinfo
+Checksums-Sha256:
+ da79f2339430bbc50d852bbc629789c33848d2fc2bb240b811adc0254546aec5 2136 r-cran-genoplotr_0.8.11+dfsg-2.dsc
+ 5da0c337092179c54b3e72b61e3f22ef7e454614287db2486fc89b815119e2e1 2256 r-cran-genoplotr_0.8.11+dfsg-2.debian.tar.xz
+ 24c70f40c8f5abeed3438d3640ab64adf60ecaf864f46966f0a2618491b36da0 10524 r-cran-genoplotr_0.8.11+dfsg-2_amd64.buildinfo
+Files:
+ edc3bb257f43585a3742237d7ec1c956 2136 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-2.dsc
+ 5e3d107d4c6d3a0b663de6d290a69b0a 2256 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-2.debian.tar.xz
+ e0c72d05711cacac51e6ac945242b8e1 10524 gnu-r optional r-cran-genoplotr_0.8.11+dfsg-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmByzr8UHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafEAxw/9EnQGhndSbZOXPAg0QUyIZKL8k6dR
+RfaXkf8qX0mkvi6EeGnqXWJ2p9Te+VRqS6kffRRxOkgutoXG4Z9lH+feil1fhXW/
+WqzYVorUeHkr3zf3VtTMZKrylccMxzJ8H0bU/GEYmfSF8czx5kFcNil3O3iaV/lw
+i7TlK2IHvSQtXCI7C2j2qN1UtCAJYIxq++7lyO91NL4G7IVdEB7mE5mVR9bt5LuN
+/7ofOt1Y/liW33lfje8WCKFDXVhUpBUy8xbjLLPMFEj8aQ5UpbUEIL+uf/XGS81K
+I6gDdxO2NmhyqsSRBfpxjDteD/qKNjqmRF32POlkipt5mux92lhu3zhQrrJBQ+x8
+PQryVSBhipaZM1JJ13I4C3m67Gw8yHFZbqZ7aU1Cewook4AvwCZBWgZSh9OBDOMR
+//WLppRR7pY7Vd+B+YgBCiZiIO8tQr8gXWfHPRxLfgJk75RY+rPr9plr54vuuswj
+9ADgM66QJJCQhY35zUTbhHaiYaDLb53SPAtcczMQIwTkLUDNDAfn9MK8sdzQoQEv
+xOQQBZAJS6+pcYHouyaIlMCfJAn3Q96zx1GiVkbwDpIEK081NkpY20T7JTZePKn3
+o5pJLZH4i8MaAZuJ5Pq2i314MvMi8H++iNEyqYvmlKGQ4rnoQlGNk0Ry3IIu0rp7
+wWinLUH6cHWe5MQ=
+=JgZ1
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:48:57 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 10:48:57 +0000
+Subject: [R-pkg-team] r-cran-svmisc_1.1.0-1_amd64.changes is NEW
+Message-ID: <E1lVXeD-000F0g-Va@fasolo.debian.org>
+
+binary:r-cran-svmisc is NEW.
+binary:r-cran-svmisc is NEW.
+source:r-cran-svmisc is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 11:49:25 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 10:49:25 +0000
+Subject: [R-pkg-team] Processing of r-bioc-netsam_1.30.0-1_amd64.changes
+Message-ID: <E1lVXef-0002oD-LF@usper.debian.org>
+
+r-bioc-netsam_1.30.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-netsam_1.30.0-1.dsc
+  r-bioc-netsam_1.30.0.orig.tar.gz
+  r-bioc-netsam_1.30.0-1.debian.tar.xz
+  r-bioc-netsam_1.30.0-1_all.deb
+  r-bioc-netsam_1.30.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 12:03:43 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 11:03:43 +0000
+Subject: [R-pkg-team] r-bioc-netsam_1.30.0-1_amd64.changes is NEW
+Message-ID: <E1lVXsV-000GoC-40@fasolo.debian.org>
+
+binary:r-bioc-netsam is NEW.
+binary:r-bioc-netsam is NEW.
+source:r-bioc-netsam is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 12:04:29 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 11:04:29 +0000
+Subject: [R-pkg-team] Processing of r-cran-sampling_2.9-1_amd64.changes
+Message-ID: <E1lVXtF-0003an-3J@usper.debian.org>
+
+r-cran-sampling_2.9-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-sampling_2.9-1.dsc
+  r-cran-sampling_2.9.orig.tar.gz
+  r-cran-sampling_2.9-1.debian.tar.xz
+  r-cran-sampling-dbgsym_2.9-1_amd64.deb
+  r-cran-sampling_2.9-1_amd64.buildinfo
+  r-cran-sampling_2.9-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From nilesh at debian.org  Sun Apr 11 12:06:53 2021
+From: nilesh at debian.org (Nilesh Patra)
+Date: Sun, 11 Apr 2021 16:36:53 +0530
+Subject: [R-pkg-team] r-cran-svmisc_1.1.0-1_amd64.changes REJECTED
+In-Reply-To: <E1lVWsy-0008Aw-Pc@fasolo.debian.org>
+References: <E1lVWsy-0008Aw-Pc@fasolo.debian.org>
+Message-ID: <6db21849-4165-4a4e-029d-1204612751a1@debian.org>
+
+Hi,
+
+On 4/11/21 3:30 PM, Thorsten Alteholz wrote:
+> Hi,
+>
+> please mention svMisc/po/R-fr.po in your debian/copyright.
+
+Fixed and uploaded, please consider to review and accept.
+
+Nilesh
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210411/fad71c75/attachment.sig>
+
+From nilesh at debian.org  Sun Apr 11 12:07:38 2021
+From: nilesh at debian.org (Nilesh Patra)
+Date: Sun, 11 Apr 2021 16:37:38 +0530
+Subject: [R-pkg-team] r-bioc-netsam_1.30.0-1_amd64.changes REJECTED
+In-Reply-To: <E1lVWsy-0008Ai-KY@fasolo.debian.org>
+References: <E1lVWsy-0008Ai-KY@fasolo.debian.org>
+Message-ID: <640a8b88-a5d0-34b3-467d-9c4f3a40892d@debian.org>
+
+Hi,
+
+On 4/11/21 3:30 PM, Thorsten Alteholz wrote:
+> Hi,
+>
+> please also mention the LPPL in your debian/copyright.
+
+Fixed and uploaded. Please consider to review and accept
+
+Nilesh
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210411/030dd694/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Sun Apr 11 12:18:52 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 11 Apr 2021 11:18:52 +0000
+Subject: [R-pkg-team] r-cran-sampling_2.9-1_amd64.changes is NEW
+Message-ID: <E1lVY7A-000IoM-BH@fasolo.debian.org>
+
+binary:r-cran-sampling is NEW.
+binary:r-cran-sampling is NEW.
+source:r-cran-sampling is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From nilesh at debian.org  Sun Apr 11 12:21:14 2021
+From: nilesh at debian.org (Nilesh Patra)
+Date: Sun, 11 Apr 2021 16:51:14 +0530
+Subject: [R-pkg-team] r-cran-sampling_2.9-1_amd64.changes REJECTED
+In-Reply-To: <E1lVWsy-0008Ap-NI@fasolo.debian.org>
+References: <E1lVWsy-0008Ap-NI@fasolo.debian.org>
+Message-ID: <0ee53cd8-451b-c692-74dc-16afeb4b44e0@debian.org>
+
+Hi,
+
+On 4/11/21 3:30 PM, Thorsten Alteholz wrote:
+> Hi,
+>
+> please mention sampling/*/rec99.Rd* in your debian/copyright.
+Fixed and uploaded. Please consider to review and accept.
+
+Nilesh
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210411/0811dfce/attachment.sig>
+
+From garefull at yeah.net  Mon Apr 12 13:25:25 2021
+From: garefull at yeah.net (Anna Yang)
+Date: Mon, 12 Apr 2021 20:25:25 +0800
+Subject: [R-pkg-team] Accessories for machine tools
+Message-ID: <b2c2e2c5cacaf376a3bcab5fc502deeb@10.9.81.50>
+
+Dear sir:
+   We have been supplying machine tool accessories for many years ,such as Simple indexing head.NC dividing head ,index divider ,rotary table , machine vise,lathe chucks,magnetic chucks,live centers  ,CNC Semi-unibersal milling machine?dividing head,precision vise for the cutting machine ,bench vice and so on.Hope to cooperate with you. call me, let's talk details. 
+
+-B.rgds
+
+Anna Yang 
+Sales Manager
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:06 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-interactivedisplaybase is marked for
+ autoremoval from testing
+Message-ID: <E1lWApO-0004QV-1E@respighi.debian.org>
+
+r-bioc-interactivedisplaybase 1.28.0+dfsg-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:06 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-fmcsr is marked for autoremoval from testing
+Message-ID: <E1lWApO-0004Qa-6W@respighi.debian.org>
+
+r-bioc-fmcsr 1.32.0+dfsg-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:05 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-dt is marked for autoremoval from testing
+Message-ID: <E1lWApN-0004QB-Bu@respighi.debian.org>
+
+r-cran-dt 0.17+dfsg-2 is marked for autoremoval from testing on 2021-04-28
+
+It is affected by these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:05 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-brms is marked for autoremoval from testing
+Message-ID: <E1lWApN-0004QL-Mi@respighi.debian.org>
+
+r-cran-brms 2.14.4-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:04 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:04 +0000
+Subject: [R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing
+Message-ID: <E1lWApM-0004Ph-7g@respighi.debian.org>
+
+r-cran-rlumshiny 0.2.2-2 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:05 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:05 +0000
+Subject: [R-pkg-team] r-bioc-scrnaseq is marked for autoremoval from testing
+Message-ID: <E1lWApN-0004QQ-S4@respighi.debian.org>
+
+r-bioc-scrnaseq 2.4.0+ds-3 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:04 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:04 +0000
+Subject: [R-pkg-team] r-cran-treespace is marked for autoremoval from testing
+Message-ID: <E1lWApM-0004Pw-SB@respighi.debian.org>
+
+r-cran-treespace 1.1.4.0+dfsg-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:06 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-experimenthub is marked for autoremoval from
+ testing
+Message-ID: <E1lWApO-0004Qf-Bt@respighi.debian.org>
+
+r-bioc-experimenthub 1.16.0+ds-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:04 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:04 +0000
+Subject: [R-pkg-team] r-cran-treescape is marked for autoremoval from testing
+Message-ID: <E1lWApM-0004Pr-IC@respighi.debian.org>
+
+r-cran-treescape 1.10.18+dfsg-2 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:07 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-shinystan is marked for autoremoval from testing
+Message-ID: <E1lWApP-0004RD-5w@respighi.debian.org>
+
+r-cran-shinystan 2.5.0-4 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:04 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:04 +0000
+Subject: [R-pkg-team] r-cran-factoextra is marked for autoremoval from
+ testing
+Message-ID: <E1lWApM-0004Pm-Cx@respighi.debian.org>
+
+r-cran-factoextra 1.0.7-2 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:04 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:04 +0000
+Subject: [R-pkg-team] r-cran-devtools is marked for autoremoval from testing
+Message-ID: <E1lWApM-0004Pc-2Q@respighi.debian.org>
+
+r-cran-devtools 2.3.2-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+985393: r-cran-covr: broken symlink /usr/lib/R/site-library/covr/www/shared/bootstrap/shim/html5shiv.min.js -> ../../../../../../../nodejs/html5shiv/dist/html5shiv.min.js
+ https://bugs.debian.org/985393
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:05 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-vdiffr is marked for autoremoval from testing
+Message-ID: <E1lWApN-0004Q1-1H@respighi.debian.org>
+
+r-cran-vdiffr 0.3.3+dfsg-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+985393: r-cran-covr: broken symlink /usr/lib/R/site-library/covr/www/shared/bootstrap/shim/html5shiv.min.js -> ../../../../../../../nodejs/html5shiv/dist/html5shiv.min.js
+ https://bugs.debian.org/985393
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:05 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-factominer is marked for autoremoval from
+ testing
+Message-ID: <E1lWApN-0004QG-HD@respighi.debian.org>
+
+r-cran-factominer 2.4-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:06 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-chemminer is marked for autoremoval from testing
+Message-ID: <E1lWApO-0004Qk-HD@respighi.debian.org>
+
+r-bioc-chemminer 3.42.1+dfsg-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:06 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-annotationhub is marked for autoremoval from
+ testing
+Message-ID: <E1lWApO-0004Qp-MZ@respighi.debian.org>
+
+r-bioc-annotationhub 2.22.0+dfsg-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Apr 13 05:39:06 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 13 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-rstanarm is marked for autoremoval from testing
+Message-ID: <E1lWApO-0004Qu-Rl@respighi.debian.org>
+
+r-cran-rstanarm 2.21.1-1 is marked for autoremoval from testing on 2021-04-28
+
+It (build-)depends on packages with these RC bugs:
+985281: r-cran-dt: unhandled symlink to directory conversion: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions -> ../../../../../../share/javascript/jquery-datatables-extensions
+ https://bugs.debian.org/985281
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Wed Apr 14 05:39:06 2021
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 14 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-covr 3.5.1+dfsg-2 MIGRATED to testing
+Message-ID: <E1lWXIw-0003Il-QQ@respighi.debian.org>
+
+FYI: The status of the r-cran-covr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.5.1+dfsg-1
+  Current version:  3.5.1+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Apr 14 05:39:06 2021
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 14 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-dt 0.17+dfsg-3 MIGRATED to testing
+Message-ID: <E1lWXIw-0003Ip-RV@respighi.debian.org>
+
+FYI: The status of the r-cran-dt source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.17+dfsg-2
+  Current version:  0.17+dfsg-3
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 16:34:21 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 15:34:21 +0000
+Subject: [R-pkg-team] Processing of r-bioc-noiseq_2.34.0-1_amd64.changes
+Message-ID: <E1lWhX3-0008BX-Vv@usper.debian.org>
+
+r-bioc-noiseq_2.34.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-noiseq_2.34.0-1.dsc
+  r-bioc-noiseq_2.34.0.orig.tar.gz
+  r-bioc-noiseq_2.34.0-1.debian.tar.xz
+  r-bioc-noiseq_2.34.0-1_all.deb
+  r-bioc-noiseq_2.34.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 16:48:58 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 15:48:58 +0000
+Subject: [R-pkg-team] r-bioc-noiseq_2.34.0-1_amd64.changes is NEW
+Message-ID: <E1lWhlC-000IIo-Nq@fasolo.debian.org>
+
+binary:r-bioc-noiseq is NEW.
+binary:r-bioc-noiseq is NEW.
+source:r-bioc-noiseq is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 17:00:08 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 16:00:08 +0000
+Subject: [R-pkg-team] r-cran-svmisc_1.1.0-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1lWhw0-0000pM-LX@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 28 Mar 2021 18:02:36 +0530
+Source: r-cran-svmisc
+Binary: r-cran-svmisc
+Architecture: source all
+Version: 1.1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Description:
+ r-cran-svmisc - SciViews - Miscellaneous Functions
+Closes: 986039
+Changes:
+ r-cran-svmisc (1.1.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #986039)
+Checksums-Sha1:
+ c1b29f46deb9b212714e4333c1fac3b9fd79072e 2091 r-cran-svmisc_1.1.0-1.dsc
+ c34e63b41ae4b60e1eba20b2630dbcdf0d659565 96273 r-cran-svmisc_1.1.0.orig.tar.gz
+ 314871b0a43e3a4467b404c9f511cceef3340486 2104 r-cran-svmisc_1.1.0-1.debian.tar.xz
+ 621c64673148e351f3485eaf28d3a957749521ef 287452 r-cran-svmisc_1.1.0-1_all.deb
+ a17ac279d75a65edbaa3602535f084f84e066f63 10228 r-cran-svmisc_1.1.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 84e8235813efd9acfc727a49dad200755a033019cce541f39f2b4552ebd9a8cc 2091 r-cran-svmisc_1.1.0-1.dsc
+ c2d6a546467038f0e4366a6189716b8f97be5477c1243fa50d508bcec7512207 96273 r-cran-svmisc_1.1.0.orig.tar.gz
+ b47592cc943d68c6b0ad8dcbf89a3e9497a8f1395511c958f1656e2ea937fc6e 2104 r-cran-svmisc_1.1.0-1.debian.tar.xz
+ fa2c46a91ced9ed0a80b0433c0c0d1b52a047a4c422d9c5fe7defd98c7155cef 287452 r-cran-svmisc_1.1.0-1_all.deb
+ 1da026b6786177a8bdbde834918219eb7b019be7c797b707ed21442ce3616d15 10228 r-cran-svmisc_1.1.0-1_amd64.buildinfo
+Files:
+ 25e827d8756e2fbb4413e4172591ad89 2091 gnu-r optional r-cran-svmisc_1.1.0-1.dsc
+ 1220ee6fc282b7ddc4ff69551985edf6 96273 gnu-r optional r-cran-svmisc_1.1.0.orig.tar.gz
+ ab458648be5a46022bd70d3a355f7a8e 2104 gnu-r optional r-cran-svmisc_1.1.0-1.debian.tar.xz
+ d58a1f4ad6a6fa2294bc0bb515073826 287452 gnu-r optional r-cran-svmisc_1.1.0-1_all.deb
+ 395722201fe35fac8c49680cb6a0ed35 10228 gnu-r optional r-cran-svmisc_1.1.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmByz+QUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafHmKQ/+ILTSriWXRzmBgI/Wsppq7+GsrlHp
+rcuqpsvCENMCe59m+cFi6uSxw3eTv3uFO1gQ6aM1eu6++XjKjhRJBo6/LVcA0Jub
++/iKLtzVIFQVNU3F27juSkAROZtOXr6w819kotI5YtcU1ideKmlIlbm86LlRNOn5
+3AqYKpDgp4gB0Je9jkeYIUUgz1ZV6IpwZf7zNRp+eMnjgRfxoISrNn0UdELK3iPS
+In82p2JFFH0cfI+G8aRzjATzzLOfdyAHW0h+9udHD+9sqyBSxrCgHPHekwjQ9/p1
+mnBma9+HVf+3FOwQaW4K3iRE/u/t+pUyrMM4YCS4UP35bgCMUKkztWS80kNSaFyA
+qfYdP71OhaqlQaACOeX+26NvmxMYi3d+1A2mzdeYiskicGe2JdwBn7PpiVkkjeQn
+VkUzS2b6F5PuBXemF9p/UL2t7RV0wTvf9XgqxU0Bb0RubkPt7b82ukeVafFgVRSL
+HBtub1Hjz+T1yx1mzRqJN9aKQIScLFaldFAzsGbxmMwPYxDkwdxrOk/zOZcuWRBP
+42sYi6q6sqBLcqcyNF+a9qsr4gmbsK07Xzpy0pzVtFVpqC6xHCepw1yhb+5MuK6G
+YTvN1oIUn9D7WqqnZ5yx9Q5q9vhO5FK7MGkHTK+SW5rPuGQuN5U7ftjo6XIpuiUL
+kauS1VYa5SqeWpk=
+=3KYh
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 17:24:33 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 16:24:33 +0000
+Subject: [R-pkg-team] Processing of r-cran-svmisc_1.1.0-2_source.changes
+Message-ID: <E1lWiJd-0002nE-8D@usper.debian.org>
+
+r-cran-svmisc_1.1.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-svmisc_1.1.0-2.dsc
+  r-cran-svmisc_1.1.0-2.debian.tar.xz
+  r-cran-svmisc_1.1.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 17:33:31 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 16:33:31 +0000
+Subject: [R-pkg-team] r-cran-svmisc_1.1.0-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1lWiSJ-0005Oy-E0@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 14 Apr 2021 21:37:28 +0530
+Source: r-cran-svmisc
+Architecture: source
+Version: 1.1.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-cran-svmisc (1.1.0-2) unstable; urgency=medium
+ .
+   * Source-only upload for testing migration.
+Checksums-Sha1:
+ 7f7e03bdbeb832ce8e7014157d045b7025d517ac 2091 r-cran-svmisc_1.1.0-2.dsc
+ ad50d9ce446eb5fa03a9a12d2158d251a61b35ea 2052 r-cran-svmisc_1.1.0-2.debian.tar.xz
+ 52fa3d3c48c003c79c2e9be7a0366b6b663f12dc 9982 r-cran-svmisc_1.1.0-2_amd64.buildinfo
+Checksums-Sha256:
+ 244f61d1a11b22472d975176d7105e90780e5f22da122cf85035565771a14000 2091 r-cran-svmisc_1.1.0-2.dsc
+ 0f2cee0eba891e931494237f549940f5e6acaca88208b2f13b17281396e53f24 2052 r-cran-svmisc_1.1.0-2.debian.tar.xz
+ 972de5859730239c4ea7aca26c69d3ea2c5e3a0503786b5f9651fa4427ced178 9982 r-cran-svmisc_1.1.0-2_amd64.buildinfo
+Files:
+ ee0605a62335924e6fd1866b42b9e974 2091 gnu-r optional r-cran-svmisc_1.1.0-2.dsc
+ a1f5854683927915486b1ba3c22ebb20 2052 gnu-r optional r-cran-svmisc_1.1.0-2.debian.tar.xz
+ a65102fe48def3529633590436883192 9982 gnu-r optional r-cran-svmisc_1.1.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmB3FC8UHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafGERhAAnZzY+j4Zklh/PPlCxV3MGBt0Ku73
+foNryL659EOShIIzMTsHCotkaCAtXfBetnR1DxDw6pkDydCyQcND5c5hL3B+sapb
+PXabP0p/05IKAzKUF7CckbHfpgoCkXCm5SxCL1e7KNhqEtNZzNTZfGPR1+d9JK3M
+xBleO5sAdumDoi+VnpSUEUtdoLrIxObC9UjUWEmjnjx5rVE5TV26ZMukn355pvyp
+9/0RuVk380ESlNSYDMXMJvJACvX82STvWFEZ0J5r+iG2IA4S5S612sfL9IuHcUbN
+2Krb4p1HyUNeB3tGIW4CRNloydbkDhxxigp4rqDo7wzCLWFpURLyBGDnYaBuAfVk
+gq6NjCbn4dWWe2EIjjUwJapJiXHP9LgGznmzeaRm1yZLR4lWQCTQNFe6w9TapOIK
+jtncux6MSQcnU6qEz1y5MWPNUlthgapelp+I5NsfzxK1jOzAcRJ+vTLTLVwfEH1f
+wjbME6mmiS0/4ckp/w3wF7fRcOgpcu7YQ66pYKHNjwYwvRQ6Atanj1RIPwnkdSeN
+6dPrF9AHKazMFuU7ptq1vN6nTc2B/5ju51NXFa0KCFePlWab5978bwWdewDgRIzM
+LkvvzV2laIPuGy8QdklX3eRAw9COWxFqceTNVr0t1SAz2U6fj0woKStYENIbHoUw
+10kS/EO3lyxq9lY=
+=VOBL
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 20:14:59 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 19:14:59 +0000
+Subject: [R-pkg-team] Processing of r-cran-gunifrac_1.1-1_amd64.changes
+Message-ID: <E1lWkyZ-00032j-Jy@usper.debian.org>
+
+r-cran-gunifrac_1.1-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-gunifrac_1.1-1.dsc
+  r-cran-gunifrac_1.1.orig.tar.gz
+  r-cran-gunifrac_1.1-1.debian.tar.xz
+  r-cran-gunifrac_1.1-1_all.deb
+  r-cran-gunifrac_1.1-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 14 20:19:08 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 14 Apr 2021 19:19:08 +0000
+Subject: [R-pkg-team] r-cran-gunifrac_1.1-1_amd64.changes is NEW
+Message-ID: <E1lWl2a-0007Yn-Dj@fasolo.debian.org>
+
+binary:r-cran-gunifrac is NEW.
+binary:r-cran-gunifrac is NEW.
+source:r-cran-gunifrac is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From noreply at release.debian.org  Thu Apr 15 05:39:03 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 15 Apr 2021 04:39:03 +0000
+Subject: [R-pkg-team] r-cran-rcdk is marked for autoremoval from testing
+Message-ID: <E1lWtmR-0002Jf-Ke@respighi.debian.org>
+
+r-cran-rcdk 3.5.0+dfsg-3 is marked for autoremoval from testing on 2021-05-15
+
+It (build-)depends on packages with these RC bugs:
+986467: r-cran-rcdklibs: broken symlinks: /usr/lib/R/site-library/rcdklibs/cont/*.jar -> ../../../../../share/java/*.jar
+ https://bugs.debian.org/986467
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Thu Apr 15 05:39:03 2021
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 15 Apr 2021 04:39:03 +0000
+Subject: [R-pkg-team] r-cran-rcdklibs is marked for autoremoval from testing
+Message-ID: <E1lWtmR-0002Jk-QB@respighi.debian.org>
+
+r-cran-rcdklibs 2.3+dfsg-5 is marked for autoremoval from testing on 2021-05-15
+
+It is affected by these RC bugs:
+986467: r-cran-rcdklibs: broken symlinks: /usr/lib/R/site-library/rcdklibs/cont/*.jar -> ../../../../../share/java/*.jar
+ https://bugs.debian.org/986467
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 16 19:47:50 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 16 Apr 2021 18:47:50 +0000
+Subject: [R-pkg-team] r-cran-aweek_1.0.2-1~bpo10+1_amd64.changes ACCEPTED
+ into buster-backports->backports-policy, buster-backports
+Message-ID: <E1lXTVO-0001bA-5k@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 09:29:04 +0200
+Source: r-cran-aweek
+Binary: r-cran-aweek
+Architecture: source all
+Version: 1.0.2-1~bpo10+1
+Distribution: buster-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-aweek - GNU R convert dates to arbitrary week definitions
+Changes:
+ r-cran-aweek (1.0.2-1~bpo10+1) buster-backports; urgency=medium
+ .
+   * Rebuild for buster-backports.
+Checksums-Sha1:
+ 91d7fd676ba7dbca3946cad3b3b3075630dbc730 2107 r-cran-aweek_1.0.2-1~bpo10+1.dsc
+ 18eb8e4bb2014b26716b29dd640790272c43ae8e 2596 r-cran-aweek_1.0.2-1~bpo10+1.debian.tar.xz
+ 161472da5bedb6a0769dbe4998d83dad26f17e34 98556 r-cran-aweek_1.0.2-1~bpo10+1_all.deb
+ 33c72ba915dec05315d61cb929b5fd16f195d81d 8725 r-cran-aweek_1.0.2-1~bpo10+1_amd64.buildinfo
+Checksums-Sha256:
+ 20401aa7e466790cbfe2d768d0f8ec25d8fba7465f989e82869ae92cdc5c2534 2107 r-cran-aweek_1.0.2-1~bpo10+1.dsc
+ cf2ce7aa97a15d0ccb676faa6ab65a5dd984dfb4c9c09da7b44cfe197cbf4fad 2596 r-cran-aweek_1.0.2-1~bpo10+1.debian.tar.xz
+ 30cef0a7859e02451b95c559745c5962126761979b144c885e1bfdf1f1c4c5e6 98556 r-cran-aweek_1.0.2-1~bpo10+1_all.deb
+ 9698e424f7f2fc4c6badb67215a99e455f1675efb4c8a7dfd4e506bc67954a7e 8725 r-cran-aweek_1.0.2-1~bpo10+1_amd64.buildinfo
+Files:
+ a78b7172697ddedf2385659d973cb4c8 2107 gnu-r optional r-cran-aweek_1.0.2-1~bpo10+1.dsc
+ 5461f08dcd27fa59a6d124177654c3aa 2596 gnu-r optional r-cran-aweek_1.0.2-1~bpo10+1.debian.tar.xz
+ 1899654776b59fcefa01ea805f1888fa 98556 gnu-r optional r-cran-aweek_1.0.2-1~bpo10+1_all.deb
+ afe34569505ad4a56ab5ea1652eaf39d 8725 gnu-r optional r-cran-aweek_1.0.2-1~bpo10+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmBusOERHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFz1Q//WcWWsoUw1tLmsTc1Lu0Phm/LbQCRHEDC
+o40ndBvtKcCukrTR8IC61eWogC/ibi4n1sr7i0JN3Cwbuaz1zAwV4glCA5ytgn9b
+BFBVHfnGLHsMctdBRbFf4lGMK3hAphI1aZSWp2AJ4w4nc144pp1lAMnB804Sy+zK
+RJ4+5g+jUJOW6wVse23sr01ZeiwlDHTfAb4eZCPdDdOlk6cLY+Pcw72rikboACZw
+lfD6/5N9QiTlfxQLP3EgNiFJGH80smxbmJ1XBqWNAP0cn2nY95MNJk/OYOM7TuRr
+dTTSlrL8WY7BcQ19JJXCTJVzOkkA3yjuKjcxWkvEqzdKgYlZqLmhh3mkHvaCtK7R
+eqj3KnSJb2LfFhdMxeO1rZUi2KEv12soqz4e9mErUDceJYoTWRDeIDB0u4Dr3gLe
+l1wdrf9ZHNd5T2zYM0CuQ9MVpjkAkhBoCiCf8M/z5xzoCAL78tsZXwVDC3wHqySe
+eAvfL+BnNDbAAc+fCqHwQs5XdSXj+G/NqXFiwZDYecg6TNwoGtzT+l1b2sOnqefy
+h1c1KSDHpWOZfdkDyYHBXh15kGadd14RPHbGqd0Oz67kNSe+Xolreu1LrryngUVg
+ZCLdRc9EUuTW0e+hjYKreIZbjidw+WFbIoZCDxnxHDj83o2ZIDm8hc2dqPKOjJCV
+jajdJ284a+U=
+=DzLD
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 16 19:47:51 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 16 Apr 2021 18:47:51 +0000
+Subject: [R-pkg-team] r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.changes
+ ACCEPTED into buster-backports->backports-policy, buster-backports
+Message-ID: <E1lXTVP-0001bl-26@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 09:13:11 +0200
+Source: r-cran-fitdistrplus
+Binary: r-cran-fitdistrplus
+Architecture: source all
+Version: 1.1-3-1~bpo10+1
+Distribution: buster-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-fitdistrplus - support fit of parametric distribution
+Changes:
+ r-cran-fitdistrplus (1.1-3-1~bpo10+1) buster-backports; urgency=medium
+ .
+   * Rebuild for buster-backports.
+Checksums-Sha1:
+ 940e1a320d76cf578e1fc1af73a6f2cc0a59059a 2230 r-cran-fitdistrplus_1.1-3-1~bpo10+1.dsc
+ 4c40888213ba06527a6482236127cddd0e6bd0ac 3412 r-cran-fitdistrplus_1.1-3-1~bpo10+1.debian.tar.xz
+ e431eba88ad5dfa21fd314035a0da6efed0af26e 2692112 r-cran-fitdistrplus_1.1-3-1~bpo10+1_all.deb
+ ce141dba55341667f4fbc5f17a65074d6bb5ae26 8914 r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.buildinfo
+Checksums-Sha256:
+ e695d998eb6be258bca029b8390524c4268b1d5a7154e14e7853159941af8a46 2230 r-cran-fitdistrplus_1.1-3-1~bpo10+1.dsc
+ e76faea0650f02c71997bdaea04bde6e2b88a90c768ef09f0f8a95b4f38143c0 3412 r-cran-fitdistrplus_1.1-3-1~bpo10+1.debian.tar.xz
+ 950483632535c228d575bcb2a1cd7ed976eb00b456af9dc26906b5e0154d227d 2692112 r-cran-fitdistrplus_1.1-3-1~bpo10+1_all.deb
+ 19ba64995ac59cb6eab9a9cbe92ad0a118d574ce904a7f0b4e3674bd54a37d05 8914 r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.buildinfo
+Files:
+ 1e19f799d59c9c82ac8caa0354cba510 2230 gnu-r optional r-cran-fitdistrplus_1.1-3-1~bpo10+1.dsc
+ 52a4dc16ae3dade6045a51ee4f76ab6d 3412 gnu-r optional r-cran-fitdistrplus_1.1-3-1~bpo10+1.debian.tar.xz
+ bd00a1947606840e47a1ab0f43889705 2692112 gnu-r optional r-cran-fitdistrplus_1.1-3-1~bpo10+1_all.deb
+ 6f93a0c28f4eb707b4eccf8f17079b32 8914 gnu-r optional r-cran-fitdistrplus_1.1-3-1~bpo10+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmBurVMRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtG5gxAAmQVrak7K3olKBI2tDjUyg8QlcOPOBtG6
+MP/5PT0HuSi+dCp8/2eKCkC7D2s1eOodeB38ac5hmVnlGgAcy0fPr0WfyEZAPIhL
+d7ualUzCWWoP9HTDN60LptGtkiYXiYL0zHl6MImaNF1lvJKCYi7gm/bN0hz0ojcd
+rL7F9imR5pJkqk/rLb0S+SZ9XgJR6z7/xd/3IGgLQSip1QixDBOTaz4NJ4dAsmgK
+vVfcW7vRYVSwGDPLj+VdD/1eWqcsIFDYFpo6tj70lPKG7F/PDvCCA7YFTWoA4kjF
+NefOknFKwQYtZMPX6vPZPjx6kqZhFne69dSPleAtVAPeOqdnT780J7LIcUs4PMLn
+704nHKBIWjLlZlDtSumvMsskFHBVErcKxJek0G5baKwJu7b/lHnqZX0EqLMchw4o
+bZgAnu/riYKTKwk9r/n/WIc0oIwQ0e9jdoqOvgVHVG1avVKh1UJYHIb+OGDA2yVD
+TtARa4b1Z5mlu/u4qVihIanwXu2fJEoMXSoXaqw88WnKXroQJMlhGxbMr/0JBsrM
+gOO+cYv5Zxdl/NyYS7qu2TG6zdWEeVQxi1f4GyXqZ32m/06gTGB0tGXv0S3bdeSd
+1TLVsncII5PrwpMTpLJg6m2QQ0v+q/6wEEXfqyNqsJkfw+HKhMqSCJFoyyFQIJO0
+DOmlUqLk+uY=
+=d+IJ
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 16 19:47:50 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 16 Apr 2021 18:47:50 +0000
+Subject: [R-pkg-team] r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.changes
+ ACCEPTED into buster-backports->backports-policy, buster-backports
+Message-ID: <E1lXTVO-0001bN-EW@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 09:10:37 +0200
+Source: r-cran-coarsedatatools
+Binary: r-cran-coarsedatatools
+Architecture: source all
+Version: 0.6-5-2~bpo10+1
+Distribution: buster-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-coarsedatatools - GNU R analysis of coarsely observed data
+Changes:
+ r-cran-coarsedatatools (0.6-5-2~bpo10+1) buster-backports; urgency=medium
+ .
+   * Rebuild for buster-backports.
+Checksums-Sha1:
+ 0db1a1ee8fbec1e32bec496bf4243c63ccd5cd17 2198 r-cran-coarsedatatools_0.6-5-2~bpo10+1.dsc
+ cca434fa9e285971b17dc04c7fbcb65acbd67791 2424 r-cran-coarsedatatools_0.6-5-2~bpo10+1.debian.tar.xz
+ ab75e99422b64fb39df7b9256c8d480a0e8b1060 316844 r-cran-coarsedatatools_0.6-5-2~bpo10+1_all.deb
+ 8d141fa238333bbbc10345264c3ba56e8e18b734 9084 r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.buildinfo
+Checksums-Sha256:
+ 0ea4fb7ea09b0d5c1eecc5e624c25870c0c8a24d930cd87b3c50f1e84b1f0f1b 2198 r-cran-coarsedatatools_0.6-5-2~bpo10+1.dsc
+ d355c0a7624aff630ba9825bc5a3e84673e9991fcf877895ca4603976a7ed6c2 2424 r-cran-coarsedatatools_0.6-5-2~bpo10+1.debian.tar.xz
+ c74585e5060f325f97f8a1eb05fccd5bf2ea17c7ae7da11d89648101d3d0cfb0 316844 r-cran-coarsedatatools_0.6-5-2~bpo10+1_all.deb
+ 16a07bf75806bc3122addb5a650bdd71fd834f1c0e4c90248b1d7f32486ed188 9084 r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.buildinfo
+Files:
+ d62b25d8849592e7dd3eb43ab158c74d 2198 gnu-r optional r-cran-coarsedatatools_0.6-5-2~bpo10+1.dsc
+ f41384fd12afa948aff9256e17d4ac02 2424 gnu-r optional r-cran-coarsedatatools_0.6-5-2~bpo10+1.debian.tar.xz
+ 82a20a5fea74ad5b215fc7519b69f008 316844 gnu-r optional r-cran-coarsedatatools_0.6-5-2~bpo10+1_all.deb
+ d91c441c57038ed66690b6372d737ec2 9084 gnu-r optional r-cran-coarsedatatools_0.6-5-2~bpo10+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmBurI8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtH/ARAAia8x5FEWDdSFHOJphbl9Jl04osTWlGOP
+Lbej5COgXT4VnpL9GfnvGIjdeRjeHoI1DxuT06XxVv05bFqX3eU8Lk4MgvCnIGsW
+fD1wVtcxyh+xEuUrjtrg1PksAt7qXMYoireopbk9fNxSlzy578ecosO6XjE0yvpW
+QHTWfcu1gjBcSQHeehBo9sZJp5oWgEP0Myjg3SLkCn+5X+q2z38Jq9iM/HEqKv1o
+M7C+BSw8IZ56jnM6LhoBYrxijsYQTBlDdpUrDhlpybe7iLKE+/dszWxkMl6gs0gI
+so6wIa/WKBAv2rytfwxMKOn35UCt67U8XusUpvh1q81nHT1NfqPfylpR8usVLDMn
+/LXk+Zvltb8XLsEbavtvmmIzrA4IDdENZbcuub+VmLjwRwFVNTnnOd5aNNqkpQKA
+eTLra7RTf2tUwTwi/130sZKy4smKbnjPrXOmBMFsSkK0bNidifjnzN5Hpx3C4AmV
+H8nmL0CMg9Fk2AcuUtoIiNSeaDZaERtC8shcSJaDQExPd4MQibMLJRJIOnKyhY9Z
+0awQK9C4GegfnvwM+jvbs2ZW6U9sPu/sCtKNAFojTTGLwHxFFqXWMvCnmq/CU8TG
+qs36xXsG44fmn529V8cx3XfTxP/DZPXw/iQ5D7mzVMa2D2IPuKyQ9iejck3mQ3pp
+BkxQlLCPE5A=
+=XvRC
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 16 19:47:50 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 16 Apr 2021 18:47:50 +0000
+Subject: [R-pkg-team] r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.changes
+ ACCEPTED into buster-backports->backports-policy, buster-backports
+Message-ID: <E1lXTVO-0001bZ-Mu@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 09:09:21 +0200
+Source: r-cran-epiestim
+Binary: r-cran-epiestim
+Architecture: source all
+Version: 2.2-4+dfsg-1~bpo10+1
+Distribution: buster-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-epiestim - GNU R estimate time varying reproduction numbers from rpidemic cu
+Changes:
+ r-cran-epiestim (2.2-4+dfsg-1~bpo10+1) buster-backports; urgency=medium
+ .
+   * Rebuild for buster-backports.
+   * Drop autopkgtest for backports since r-cran-vdiffr is not backported yet
+Checksums-Sha1:
+ e59d25a92d4e11f7d9c4e1d1c763a6dd111c0d77 2271 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.dsc
+ 11ba44b3f1f264392691b6f7954bca9e6e0847b7 2824 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.debian.tar.xz
+ b337a3f7cff7de197c8e0b0bb42ee16d07c6462d 189460 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_all.deb
+ 8cc65079b21888f3f0a83ea47475562168d077b0 10263 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.buildinfo
+Checksums-Sha256:
+ fe466a16fce73536dc9ea282637aaddbe551f392a963f076875203b89fb36263 2271 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.dsc
+ 214099b6724082876365d5fb7ae10e6053419161d88f008723661ac6c89c3215 2824 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.debian.tar.xz
+ 60e432516f8f3fca22afdcac02384628f7f499dbdc7b1355f16eca93b2ca5246 189460 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_all.deb
+ 1a5789873049f24cb2a40998d52510550130707ed50743ac976446b192be00f8 10263 r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.buildinfo
+Files:
+ dfee44aeb23dc209da86b04cc0dbb6c7 2271 gnu-r optional r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.dsc
+ 0bf1e371d92d9a0cb813955edc4b20c5 2824 gnu-r optional r-cran-epiestim_2.2-4+dfsg-1~bpo10+1.debian.tar.xz
+ d08bfb0c05c11bd6e26b2db6d28de4e8 189460 gnu-r optional r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_all.deb
+ dac5fdbf896e4f5b89be6e5bcd574898 10263 gnu-r optional r-cran-epiestim_2.2-4+dfsg-1~bpo10+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmButfwRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFPqBAAiyYYeaYdHsXnnlR+WFxOACrEju4cT/F2
+RcgGdKyhUR7/RqqRlMxLLn+LTpf3qwDq6aGdFSLrDaHnlaW6xipNCfKyyTz55B5Q
+fec8r57/xwBISAt171JLt1Ozgkx8hUyNBlltBtBniRBd1U4K03iqrMAIT1Bgu7aZ
+B1K+IJVuF9YYXJXrjPqLidWx5lnLnYPy8US5EyHoA6r8PAzHJpGnmiEKu9CYCPQJ
+2cagTy+/gJuHmti2F8VejqcGdZdh8cHnd6oXKGuKStNJvhX43tMDfGoHHQOpLpwK
+LiFOukdNcdXUjMLLPCT+nyyLmridqoLqPt4n84l3Dvee5FMBSI5xzQ7BsIkalOXf
+vGg+eNTOlEEDgWslv4hmaLKmtu45B3xHo/q5h2g6k+83BH3zysCxkesBswu2Uluk
+ablPNA4WQ5Vmoa6ul/oHerSqQ2Qtzt5CE4LWJFdcUCxqHCoblO2Pfm6b2gb26yaS
+lN8Gr4CsvczWaNol6+hptCaUF44FzNSLLVYWr8hHWL90rY64++L9Z/JojsLhYypX
+suWPz7OWfWhkDK1+aIa+kJAgddJEfDY0bz1bN/I5wq4O/Snm8WY4ji1cMan5DlE2
+zAWjUeWXrqSS5Av1qzSVS0Xtp5AN+9XmTexATX33+2ikYS9ovxqP6fTpm+u8z35I
+TlAzNml06fA=
+=X3cO
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 16 19:47:51 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 16 Apr 2021 18:47:51 +0000
+Subject: [R-pkg-team] r-cran-incidence_1.7.3-1~bpo10+1_amd64.changes
+ ACCEPTED into buster-backports->backports-policy, buster-backports
+Message-ID: <E1lXTVP-0001c3-C9@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 08 Apr 2021 09:27:36 +0200
+Source: r-cran-incidence
+Binary: r-cran-incidence
+Architecture: source all
+Version: 1.7.3-1~bpo10+1
+Distribution: buster-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-incidence - GNU R compute, handle, plot and model incidence of dated events
+Changes:
+ r-cran-incidence (1.7.3-1~bpo10+1) buster-backports; urgency=medium
+ .
+   * Rebuild for buster-backports.
+Checksums-Sha1:
+ a496ed79141613b6a8ee66cee678722301857d05 2202 r-cran-incidence_1.7.3-1~bpo10+1.dsc
+ 53a1afcea35cf5126a7008a875c2885c8d71f4a2 2812 r-cran-incidence_1.7.3-1~bpo10+1.debian.tar.xz
+ 8e15299dd3c91aa9422b02f7532ba7f8827c8e8b 1023148 r-cran-incidence_1.7.3-1~bpo10+1_all.deb
+ c9fffcaafc6c8ace22e693f6286ae1282a16b41e 9730 r-cran-incidence_1.7.3-1~bpo10+1_amd64.buildinfo
+Checksums-Sha256:
+ cb1587b31f8f7b8ea1e558c396ef60064d78a67c3b3e7ed8dab558280683602e 2202 r-cran-incidence_1.7.3-1~bpo10+1.dsc
+ 0842772c296470dd2e42732632428ba3b9c9e08059d9cf471e00db56147d6859 2812 r-cran-incidence_1.7.3-1~bpo10+1.debian.tar.xz
+ e80685e9294c1c43dcebe049acb55169d1c3ca4cb425284141b8ca6d1ff3d51f 1023148 r-cran-incidence_1.7.3-1~bpo10+1_all.deb
+ 9f349fb82c4976d5818dcb5207e4489a100e5a563057c1c4400048577c373a5c 9730 r-cran-incidence_1.7.3-1~bpo10+1_amd64.buildinfo
+Files:
+ 44a57dace9ba71bb3a78fd7253203d35 2202 gnu-r optional r-cran-incidence_1.7.3-1~bpo10+1.dsc
+ c838b8d94cbe0d1e514416290e9b1be4 2812 gnu-r optional r-cran-incidence_1.7.3-1~bpo10+1.debian.tar.xz
+ 512d8da95828476db7b4d07fa2f75374 1023148 gnu-r optional r-cran-incidence_1.7.3-1~bpo10+1_all.deb
+ b4ae8e20407da5f5e240f38e603a0226 9730 gnu-r optional r-cran-incidence_1.7.3-1~bpo10+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmButA8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtGn5g/+KsbjWn/uuzaSo9rl4LWOJ7YwqZUDy7LQ
+MqJkwSmO9To7+bL95u+ZxPxR8rMgB5TR+hydg6uXIQzJIE9b07SJyQ2RG8smXnv7
+KOCOfhSN4dxQ1KvzXnfdhJC88UENkL9f03E1one13X5am1BMrHuQJ4KM9Wlu0xGA
+uPCD9cU1rGsflAVWjhuk2ntpW+8eh5g5v45IpFAMGT89RA3V2RpF5s+O4MjqeYC+
+1Mtc6Q8lSXdM67mru9A6rySomo23T8cIoNz/yorh1Ce4c97VACgsphiyZBYFqtoi
+tXZMxSXJc6LJwaI/9hY9r68yaTBsSp/qUOCToDIIWv/KTVKFEYYPfk5oXADlocVA
+lhGDcyo38T/42xjairBYHckfUINfe1oqV6Z6PULhSYXWc8ItmDdbFOG72cKS13st
+w6008oomwG7K+j6OwFjxZxrpyQ6cc9GoT04PteNNebzkuvY8Ol/r/H+4wc2FqOXi
+8AcA0xDlKy+BVmOfABpqSiTBjm6NqCml38vKYRMl5zIHQOV3l3P/BN6pKfbBlA6u
+0mUhSYasbunGs+PX8/USZhqEqbRz61ct5h+KcAc7rQTbaDHxNJQwvZhhpzSnOffM
+/EBsvo7B47vioxU2ot4ICCa9qxfSR9x4EFt4Ir+ZR0WrzlaXmDib2EEJfXn7e5hn
+cgdhta6vwOs=
+=zBCk
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From stampingtool255 at stampingtool.cc  Wed Apr 14 08:14:58 2021
+From: stampingtool255 at stampingtool.cc (stampingtool)
+Date: Wed, 14 Apr 2021 15:14:58 +0800
+Subject: [R-pkg-team] metal stamping die manufacturer
+Message-ID: <607695c4.1c69fb81.cfe26.7173@mx.google.com>
+
+Dear Sir,
+ 
+We are a metal stamping die manufacturer founded in 2010,
+ 
+As you know,Chinese have low labor and low cost here.
+ 
+If you need, please send us the 2D/3D drawings.
+We will quote you a competitive prices.
+ 
+Thank you and Best Regards.                
+ 
+James
+Sales Manager
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210414/8c2b4642/attachment-0001.htm>
+
+From noreply at release.debian.org  Sun Apr 18 05:39:10 2021
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sun, 18 Apr 2021 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-rcdklibs 2.3+dfsg-7 MIGRATED to testing
+Message-ID: <E1lXzDC-0007hz-V2@respighi.debian.org>
+
+FYI: The status of the r-cran-rcdklibs source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.3+dfsg-5
+  Current version:  2.3+dfsg-7
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Mon Apr 19 05:39:11 2021
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 19 Apr 2021 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-crosstalk 1.1.1+dfsg-2 MIGRATED to testing
+Message-ID: <E1lYLgl-0001dw-Fp@respighi.debian.org>
+
+FYI: The status of the r-cran-crosstalk source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1.1+dfsg-1
+  Current version:  1.1.1+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From bunk at debian.org  Sat Apr 24 12:49:40 2021
+From: bunk at debian.org (Adrian Bunk)
+Date: Sat, 24 Apr 2021 14:49:40 +0300
+Subject: [R-pkg-team] =?utf-8?q?Bug=23987469=3A_r-bioc-gsva_FTBFS=3A_ERRO?=
+ =?utf-8?q?R=3A_dependency_=E2=80=98GSEABase=E2=80=99_is_not_available_for?=
+ =?utf-8?b?IHBhY2thZ2Ug4oCYR1NWQeKAmQ==?=
+Message-ID: <161926498068.23207.10019901476981596783.reportbug@localhost>
+
+Source: r-bioc-gsva
+Version: 1.38.2+ds-1
+Severity: serious
+Tags: ftbfs
+
+https://tests.reproducible-builds.org/debian/rb-pkg/unstable/amd64/r-bioc-gsva.html
+https://buildd.debian.org/status/package.php?p=r-bioc-gsva&suite=sid
+
+...
+I: Using built-time from d/changelog: Thu, 18 Feb 2021 22:07:45 +0100
+	mkdir -p /<<BUILDDIR>>/r-bioc-gsva-1.38.2\+ds/debian/r-bioc-gsva/usr/lib/R/site-library
+	R CMD INSTALL -l /<<BUILDDIR>>/r-bioc-gsva-1.38.2\+ds/debian/r-bioc-gsva/usr/lib/R/site-library --clean . "--built-timestamp='Thu, 18 Feb 2021 22:07:45 +0100'"
+ERROR: dependency ?GSEABase? is not available for package ?GSVA?
+* removing ?/<<PKGBUILDDIR>>/debian/r-bioc-gsva/usr/lib/R/site-library/GSVA?
+dh_auto_install: error: R CMD INSTALL -l /<<BUILDDIR>>/r-bioc-gsva-1.38.2\+ds/debian/r-bioc-gsva/usr/lib/R/site-library --clean . "--built-timestamp='Thu, 18 Feb 2021 22:07:45 +0100'" returned exit code 1
+make: *** [debian/rules:4: binary-arch] Error 25
+
+From noreply at release.debian.org  Sun Apr 25 05:39:06 2021
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sun, 25 Apr 2021 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-rhdf5lib 1.12.1+dfsg-3 MIGRATED to testing
+Message-ID: <E1laWXy-0006BD-GX@respighi.debian.org>
+
+FYI: The status of the r-bioc-rhdf5lib source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.12.1+dfsg-2
+  Current version:  1.12.1+dfsg-3
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From sjoerd at debian.org  Wed Apr 28 09:05:25 2021
+From: sjoerd at debian.org (Sjoerd Simons)
+Date: Wed, 28 Apr 2021 10:05:25 +0200
+Subject: [R-pkg-team] Bug#987714: Depends/Suggests/Recommends are generate
+ from the apt-cache avail list which is unpredictable
+Message-ID: <161959712593.18017.5386181613646738712.reportbug@beast>
+
+Package: dh-r
+Severity: normal
+Tags: ftbfs
+
+Hey,
+
+For context: we've got a debian derivative distribution that builds using
+open-build-system (aka OBS). Unlike the debian buildd the apt cache isn't
+available in the builds and if it was made available it would only be for the
+set of installed packages (e.g. the build-depends) not the whole distribution.
+
+However I think the underlying issues are more general and apply to Debian as
+well. Fundamentally the apt cache list is not deterministic regardless so the
+substvars end up being non-determinstic even if the same set of build-depends
+are installed in the build environment which is awkward.
+
+However the biggest issue is see is that package not being resolvable end up
+being ignored with a warning rather then failing the build, which makes it hard
+to detect (unexpected) issues.
+
+-- System Information:
+Debian Release: 11.0
+  APT prefers unstable-debug
+  APT policy: (500, 'unstable-debug'), (500, 'stable-debug'), (500, 'proposed-updates'), (500, 'unstable'), (500, 'testing'), (500, 'stable'), (1, 'experimental')
+Architecture: amd64 (x86_64)
+Foreign Architectures: armhf, arm64
+
+Kernel: Linux 5.10.0-6-amd64 (SMP w/32 CPU threads)
+Locale: LANG=en_GB.UTF-8, LC_CTYPE=en_GB.UTF-8 (charmap=UTF-8), LANGUAGE not set
+Shell: /bin/sh linked to /usr/bin/dash
+Init: systemd (via /run/systemd/system)
+LSM: AppArmor: enabled
+
+Versions of packages dh-r depends on:
+ii  dctrl-tools              2.24-3+b1
+ii  debhelper                13.3.4
+ii  libfile-which-perl       1.23-1
+ii  libswitch-perl           2.17-2.1
+pn  libwww-curl-simple-perl  <none>
+pn  r-base-dev               <none>
+
+Versions of packages dh-r recommends:
+pn  cme               <none>
+ii  devscripts        2.21.1
+ii  git-buildpackage  0.9.22
+
+Versions of packages dh-r suggests:
+pn  postgresql-client-common  <none>
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 28 17:50:06 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 28 Apr 2021 16:50:06 +0000
+Subject: [R-pkg-team] Processing of r-cran-svmisc_1.1.4-1_source.changes
+Message-ID: <E1lbnO2-0006Rw-8P@usper.debian.org>
+
+r-cran-svmisc_1.1.4-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-svmisc_1.1.4-1.dsc
+  r-cran-svmisc_1.1.4.orig.tar.gz
+  r-cran-svmisc_1.1.4-1.debian.tar.xz
+  r-cran-svmisc_1.1.4-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 28 18:03:39 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 28 Apr 2021 17:03:39 +0000
+Subject: [R-pkg-team] r-cran-svmisc_1.1.4-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1lbnb9-0004kJ-04@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 28 Apr 2021 22:09:32 +0530
+Source: r-cran-svmisc
+Architecture: source
+Version: 1.1.4-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-cran-svmisc (1.1.4-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Set upstream metadata fields: Archive, Bug-Database, Bug-Submit, Repository,
+     Repository-Browse.
+Checksums-Sha1:
+ f28f1648eeb3c0ac0345d19b4463361961a03ed8 2094 r-cran-svmisc_1.1.4-1.dsc
+ f962ef071fa667907a4272e470c959948c5d1c2c 145110 r-cran-svmisc_1.1.4.orig.tar.gz
+ 68dc08bb69122195e5246e45ea43d1e0798401ed 2220 r-cran-svmisc_1.1.4-1.debian.tar.xz
+ 1d93df57e02e30dabb1508ebac4c4f4a05936058 9984 r-cran-svmisc_1.1.4-1_amd64.buildinfo
+Checksums-Sha256:
+ e8b3ac82cb93c2330809c820443760f45687b6c8a251ce1a6b21e552cab7b440 2094 r-cran-svmisc_1.1.4-1.dsc
+ 6aa00bc86c6ba543c50872413534ae8d1b7662af9013f7886e8a7f4f57841579 145110 r-cran-svmisc_1.1.4.orig.tar.gz
+ 854d559e14a06f6ad9eee161735564de8fa703c89e4c992d5e4237715f9633aa 2220 r-cran-svmisc_1.1.4-1.debian.tar.xz
+ f16b946c695103ecf57f210d70574d359ea1ae79bef80eb879ff622cfe1bbb7c 9984 r-cran-svmisc_1.1.4-1_amd64.buildinfo
+Files:
+ f9237f3e264a2a944e897116e752f4b8 2094 gnu-r optional r-cran-svmisc_1.1.4-1.dsc
+ bdcf561340139f79835b07224aed35b5 145110 gnu-r optional r-cran-svmisc_1.1.4.orig.tar.gz
+ 3e4624de41bc7d6c49d25b95a51db217 2220 gnu-r optional r-cran-svmisc_1.1.4-1.debian.tar.xz
+ 22e6851021b8471c1f1a157d3c52f93d 9984 gnu-r optional r-cran-svmisc_1.1.4-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmCJkS0UHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafEoPg/+LivcW72OWgnLur8UqW/rOmlzckUE
+oIIhlP/DBkVPosxdlB30jdC9O0tqHbiHWqb0HWrFNp3lgagdS/ebagycKQuPmwlh
+IOKM5DAdQkIRJNT47EAmYXR41x8t7yTsjcQXFHzysEXs2rKwSnCdiCs33HlIUe5v
+s4yWBAUn/ixNJzsyW7rOvyhK12gqPqSdsAGdZrQBQuQ4th9k3DRIsS6Szykd0m+r
+C1QnTpCiwruuz8ra9PJ8B1aS26QAfx0SSNCYOazi9metFGxJ59/Yx10TALoF3NgD
+8YK0G1QFmA8KPMa3U5T2ep7VN76AsfmhLwiynmZzMN95Bqe5hupnYbo/FTCfMzKg
+py77FrTr0xEV7XZ6++xTIlWN8AhMgiUK1BFt6sm8SK+yc9+PNbzX6G1cDvyM0xt7
+f7FS2LUOuB9eV21J67Hq7quot+VTs5kK7fo3jIsXUePSk91okfEQRE1FNgRLWnvK
+YV+4gx3eOFzH0LG5u/mfXQoPQuasq/w7WMY1cWt+lyzCtGiIP6Kyn7+7OJmfMVX1
+wMtR03O+dD23SWhT2DhQUkANp1x9I4VHI9D7F7YWv1WL1yv6ZGk0VukWMtdfgK7H
+bGcMOz/VafZatR9wXJchm4kJuq3kFsQKWL949mm/+aawZEIp9koxk2lRuZUBdnJD
+tIazyPXawDZDf0w=
+=k/kD
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 28 18:50:38 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 28 Apr 2021 17:50:38 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-arrayexpress_1.50.0-2_source.changes
+Message-ID: <E1lboKc-00014t-Ld@usper.debian.org>
+
+r-bioc-arrayexpress_1.50.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-arrayexpress_1.50.0-2.dsc
+  r-bioc-arrayexpress_1.50.0-2.debian.tar.xz
+  r-bioc-arrayexpress_1.50.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 28 19:00:46 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 28 Apr 2021 18:00:46 +0000
+Subject: [R-pkg-team] Processing of r-cran-pingr_2.0.1-2_source.changes
+Message-ID: <E1lboUQ-0001dk-Q0@usper.debian.org>
+
+r-cran-pingr_2.0.1-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-pingr_2.0.1-2.dsc
+  r-cran-pingr_2.0.1-2.debian.tar.xz
+  r-cran-pingr_2.0.1-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 28 19:04:12 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 28 Apr 2021 18:04:12 +0000
+Subject: [R-pkg-team] r-bioc-arrayexpress_1.50.0-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1lboXk-000CbN-Gy@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 28 Apr 2021 22:58:19 +0530
+Source: r-bioc-arrayexpress
+Architecture: source
+Version: 1.50.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-bioc-arrayexpress (1.50.0-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Source-only-upload for testing migration.
+Checksums-Sha1:
+ afa9a651b1c5d44adea3ec3f85bb5b6487a9a127 2184 r-bioc-arrayexpress_1.50.0-2.dsc
+ 38b428d10617b56d8148a43f0d9de111c992331c 4588 r-bioc-arrayexpress_1.50.0-2.debian.tar.xz
+ 38f8dfd9638b790822317089a15538263de9576f 11685 r-bioc-arrayexpress_1.50.0-2_amd64.buildinfo
+Checksums-Sha256:
+ d22ef969eccf1fd5cbdaaca47bea0cab25559fc9559452a42971c9c51051ad84 2184 r-bioc-arrayexpress_1.50.0-2.dsc
+ 1096633b509a4f73cedc3f9701f0f13685539503a0e961b6fb7b88ed05bb76f4 4588 r-bioc-arrayexpress_1.50.0-2.debian.tar.xz
+ 258302f580362142cab5295f7a8070195a15b1b3f4889319c0832a62770afd08 11685 r-bioc-arrayexpress_1.50.0-2_amd64.buildinfo
+Files:
+ 6117e5fc205063ecb7bf1978900fb4e6 2184 gnu-r optional r-bioc-arrayexpress_1.50.0-2.dsc
+ bcba311fe62093db1f4b27c275612921 4588 gnu-r optional r-bioc-arrayexpress_1.50.0-2.debian.tar.xz
+ acaf43ff98797a383fe04e83c19e4ad4 11685 gnu-r optional r-bioc-arrayexpress_1.50.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmCJnrwUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafF3kg//T+nZ/HJmiJ/NocpfVW4iTexsSg6g
+HDH/hH5pEzOV4hXk285epNEkNISloIBQ36qxFsFuvD0kq76yDjMqmjGU73wPgsm4
+hGoJSqQmFyWy0mllqsBSwydqvnHIJFPIem4GY25JnfWWaDJLQ45c/aVN9bulauaB
+PFkSkyQ7XJBz+yMY20C5jpRbKfRUb9e5wRFg27rLmmEDYbefg8c/5gDnDd3BklzJ
+o7eahLYnjwlmz2BILIhHyysm6o4zDMrXwHGrnrIattPp6GVhIFXtTKpIOPXK+Yk/
+8B/qx7qnbvIgDOH7vteMIlmP6tK2sLPVWvga9fu3RAxmYJnrrQDrcn0n7bkAK047
+NtzqlbWxn8kZmBgj+zVNlKwg6zDTt6coZ/6/WhRGYqsxgCT0i7Y/NouYGpk0uhy6
+g1pLyGYEg9zigFugTUaO8/aXvjMsibIcRHPxOmC1oYooIoZaWPdQziwR+teGaOdJ
+jUp8gjbzGK0Xd3nSO+K4Hl3B8Ws0A5gnmWOpoNe/6PpwA69efyZRol3mZWIftt1U
+/zAK4rND2SiKISC1WwxhRisfmlgdiP0nX6Xfm+l0jgulP0XhIdnyzyf7y/PqrVjh
+AHibD2I7Y/Zp4QnWbQdpQygyQBeDOQMmPYMgMPsUtGPfsUtmLiuDREiwqXzX0nRd
+1IIr9JBP3I3Tn/c=
+=/HCq
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 28 19:04:17 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 28 Apr 2021 18:04:17 +0000
+Subject: [R-pkg-team] r-cran-pingr_2.0.1-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1lboXp-000Cbr-Qz@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 28 Apr 2021 23:25:03 +0530
+Source: r-cran-pingr
+Architecture: source
+Version: 2.0.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-cran-pingr (2.0.1-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Source-only upload for testing migration
+Checksums-Sha1:
+ 98a3c99395c797d369f5ed7cc7c4d4096902e8e6 2094 r-cran-pingr_2.0.1-2.dsc
+ 1e4074f1537fa98120661601e5ab8dc1edec8408 2388 r-cran-pingr_2.0.1-2.debian.tar.xz
+ efc169d6b7a5cd4d32caad6bef6af4489424e30c 10354 r-cran-pingr_2.0.1-2_amd64.buildinfo
+Checksums-Sha256:
+ 66984f556efe23a882db0f4261305ac5da47ab904a36e633a464be5391e76500 2094 r-cran-pingr_2.0.1-2.dsc
+ 40a14722e03d6a1af07734aeb9181269f77cf32f692faf9099a8ce24918fc171 2388 r-cran-pingr_2.0.1-2.debian.tar.xz
+ 9a828fc44991150b386ea163380f29465b5495b71b772a7d096c453fc08a76b5 10354 r-cran-pingr_2.0.1-2_amd64.buildinfo
+Files:
+ 9fc659a7157bd6d9434030108afab850 2094 gnu-r optional r-cran-pingr_2.0.1-2.dsc
+ c6ec9904eab4eee64d6fe0c51ac8f4a9 2388 gnu-r optional r-cran-pingr_2.0.1-2.debian.tar.xz
+ 4a1f82ebb6478488a1c8bbba86a4504e 10354 gnu-r optional r-cran-pingr_2.0.1-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmCJoh0UHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafHx3A/9FFjEBSonVMF/CgBItgP5/7Yyo/YJ
+Rd1Ae/s3FCNIGZRmr6eU783vtn1iPsS/TTckiQ49ZoE0Ih0kAbQ/uGnPSNfIt+HT
+fbBZiDAtlVhrU8rLFlKjpvFas0TqhP65mHT1V9jCj36MbHzbIPVuYnCEl0n2RQgo
+kM3T8Vop6C7+tBkbJTmw+zQOXbqarS3Rf8KHIwhByiqaLuPflXsXet+l4TPuyOwn
+s5xizM0cWA8uoJH2HKh7EkiwnKHuuy/aux/fkaE0GKZcrShR23kQ6x2AGVlUf55B
+PPtkxMzvAnRKXMFV1z6hW89lT3nR8A2Ef8qerILqecqYBmILU1Aj/Ig+urFBo3aj
+D3WAosDqIMIoxI8s0pu1agyEYa+/beY1k0/ZQMjd5QecwSOHbQBDgEMASpuCQ4kz
+PHAi9jH9AXkbQhQMIeMp4tCPHxaxERq6fNTigRFDdiVSsp+CjcwzG8C4LBkOgC5q
+OTpYM8C6zj/oNkn8ANI31El/v4V2AA4+XoBGY1a0TloUJKVa3PpyBHCuNeA1Btq6
+AJrw1z+utfYjYYMt2KZma7emykOmpk3Tr0tQM8KFwkjJ3vTzPqt669itLOPIvS98
+DsPUIqk90EP8pAMxGwZDKurgkZUZVo5YKcq4D/uyt1t69LdBs//WL7BPVzjKj67n
+K/PzD0N3tw7Xb1g=
+=FQSt
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From mmyangfl at gmail.com  Thu Apr 29 04:10:46 2021
+From: mmyangfl at gmail.com (Yangfl)
+Date: Thu, 29 Apr 2021 11:10:46 +0800
+Subject: [R-pkg-team] Bug#987755: r-cran-rpf: FTBFS on mips due to a
+ variable called 'mips'
+Message-ID: <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+
+Source: r-cran-rpf
+Tags: patch
+Severity: minor
+
+Hi,
+
+r-cran-rpf FTBFS on mips, since a variable is called 'mips' and on
+mips 'mips' is expanded to '1'. Lines in question:
+
+ba81quad.h:743:31: error: expected ?,? or ?...? before numeric constant
+  743 |  void setMinItemsPerScore(int mips);
+      |                               ^~~~
+ba81quad.cpp: In member function ?void ifaGroup::import(const List&)?:
+ba81quad.cpp:214:6: error: expected unqualified-id before numeric constant
+  214 |  int mips = 1;
+      |      ^~~~
+ba81quad.cpp:274:4: error: lvalue required as left operand of assignment
+  274 |    mips = as<int>(slotValue);
+      |    ^~~~
+ba81quad.cpp: At global scope:
+ba81quad.cpp:426:40: error: expected ?,? or ?...? before numeric constant
+  426 | void ifaGroup::setMinItemsPerScore(int mips)
+      |                                        ^~~~
+
+Please consider applying this patch, adding a suffix to the variable 'mips'.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: r-cran-rpf-mips.patch
+Type: text/x-patch
+Size: 1790 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210429/3dabc9a8/attachment.bin>
+
+From tille at debian.org  Thu Apr 29 15:18:07 2021
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 29 Apr 2021 16:18:07 +0200
+Subject: [R-pkg-team] Bug#987755: r-cran-rpf: FTBFS on mips due to a
+ variable called 'mips'
+In-Reply-To: <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+References: <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+ <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+Message-ID: <20210429141807.GD8233@an3as.eu>
+
+Control: tags -1 upstream
+Control: forwarded -1 Joshua Pritikin <jpritikin at pobox.com>
+
+Hi Joshua,
+
+I wonder whether you want to fix this issue with the suggested
+patch upstream.
+
+Kind regards
+
+        Andreas.
+
+On Thu, Apr 29, 2021 at 11:10:46AM +0800, Yangfl wrote:
+> Source: r-cran-rpf
+> Tags: patch
+> Severity: minor
+> 
+> Hi,
+> 
+> r-cran-rpf FTBFS on mips, since a variable is called 'mips' and on
+> mips 'mips' is expanded to '1'. Lines in question:
+> 
+> ba81quad.h:743:31: error: expected ?,? or ?...? before numeric constant
+>   743 |  void setMinItemsPerScore(int mips);
+>       |                               ^~~~
+> ba81quad.cpp: In member function ?void ifaGroup::import(const List&)?:
+> ba81quad.cpp:214:6: error: expected unqualified-id before numeric constant
+>   214 |  int mips = 1;
+>       |      ^~~~
+> ba81quad.cpp:274:4: error: lvalue required as left operand of assignment
+>   274 |    mips = as<int>(slotValue);
+>       |    ^~~~
+> ba81quad.cpp: At global scope:
+> ba81quad.cpp:426:40: error: expected ?,? or ?...? before numeric constant
+>   426 | void ifaGroup::setMinItemsPerScore(int mips)
+>       |                                        ^~~~
+> 
+> Please consider applying this patch, adding a suffix to the variable 'mips'.
+
+> diff --git a/src/ba81quad.cpp b/src/ba81quad.cpp
+> index 60d276c..d6419ce 100644
+> --- a/src/ba81quad.cpp
+> +++ b/src/ba81quad.cpp
+> @@ -211,7 +211,7 @@ void ifaGroup::import(const List &Rlist)
+>  
+>  	paramRows = -1;
+>  	int pmatCols=-1;
+> -	int mips = 1;
+> +	int mips_ = 1;
+>  	int dataRows = 0;
+>  	NumericVector Rmean;
+>  	NumericMatrix Rcov;
+> @@ -271,7 +271,7 @@ void ifaGroup::import(const List &Rlist)
+>  		} else if (strEQ(key, "qpoints")) {
+>  			qpoints = as<int>(slotValue);
+>  		} else if (strEQ(key, "minItemsPerScore")) {
+> -			mips = as<int>(slotValue);
+> +			mips_ = as<int>(slotValue);
+>  		} else {
+>  			// ignore
+>  		}
+> @@ -312,7 +312,7 @@ void ifaGroup::import(const List &Rlist)
+>  
+>  	setLatentDistribution(mean, cov);
+>  
+> -	setMinItemsPerScore(mips);
+> +	setMinItemsPerScore(mips_);
+>  
+>  	if (numItems() != pmatCols) {
+>  		stop("item matrix implies %d items but spec is length %d",
+> @@ -423,13 +423,13 @@ void ba81NormalQuad::layer::setupOutcomes(ifaGroup &ig)
+>  void ba81NormalQuad::setupOutcomes(class ifaGroup &ig)
+>  { layers[0].setupOutcomes(ig); }
+>  
+> -void ifaGroup::setMinItemsPerScore(int mips)
+> +void ifaGroup::setMinItemsPerScore(int mips_)
+>  {
+> -	if (numItems() && mips > numItems()) {
+> +	if (numItems() && mips_ > numItems()) {
+>  		stop("minItemsPerScore (=%d) cannot be larger than the number of items (=%d)",
+> -			 mips, numItems());
+> +			 mips_, numItems());
+>  	}
+> -	minItemsPerScore = mips;
+> +	minItemsPerScore = mips_;
+>  }
+>  
+>  void ifaGroup::buildRowMult()
+> diff --git a/src/ba81quad.h b/src/ba81quad.h
+> index 3e60a86..39c5eb1 100644
+> --- a/src/ba81quad.h
+> +++ b/src/ba81quad.h
+> @@ -740,7 +740,7 @@ private:
+>  	int minItemsPerScore;
+>  	double weightSum;
+>  public:
+> -	void setMinItemsPerScore(int mips);
+> +	void setMinItemsPerScore(int mips_);
+>  	std::vector<bool> rowSkip;     // whether to treat the row as NA
+>  
+>  	// workspace
+
+> _______________________________________________
+> R-pkg-team mailing list
+> R-pkg-team at alioth-lists.debian.net
+> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+
+
+-- 
+http://fam-tille.de
+
+
+From owner at bugs.debian.org  Thu Apr 29 15:21:22 2021
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 29 Apr 2021 14:21:22 +0000
+Subject: [R-pkg-team] Processed: Re: Bug#987755: r-cran-rpf: FTBFS on mips
+ due to a variable called 'mips'
+References: <20210429141807.GD8233@an3as.eu>
+ <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+Message-ID: <handler.s.B987755.161970592430046.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 upstream
+Bug #987755 [src:r-cran-rpf] r-cran-rpf: FTBFS on mips due to a variable called 'mips'
+Added tag(s) upstream.
+> forwarded -1 Joshua Pritikin <jpritikin at pobox.com>
+Bug #987755 [src:r-cran-rpf] r-cran-rpf: FTBFS on mips due to a variable called 'mips'
+Set Bug forwarded-to-address to 'Joshua Pritikin <jpritikin at pobox.com>'.
+
+-- 
+987755: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=987755
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From jpritikin at pobox.com  Thu Apr 29 18:09:46 2021
+From: jpritikin at pobox.com (Joshua N Pritikin)
+Date: Thu, 29 Apr 2021 13:09:46 -0400
+Subject: [R-pkg-team] Bug#987755: r-cran-rpf: FTBFS on mips due to a
+ variable called 'mips'
+In-Reply-To: <20210429141807.GD8233@an3as.eu>
+References: <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+ <20210429141807.GD8233@an3as.eu>
+ <CAAXyoMOVSQ4e=MHGfUdC_aLKs+C_pOhsYb8=MQOcKsyqim08NQ@mail.gmail.com>
+Message-ID: <20210429170946.vjh5ertg5xzzv2z3@salvia>
+
+On Thu, Apr 29, 2021 at 04:18:07PM +0200, Andreas Tille wrote:
+> Control: tags -1 upstream
+> Control: forwarded -1 Joshua Pritikin <jpritikin at pobox.com>
+> 
+> Hi Joshua,
+> 
+> I wonder whether you want to fix this issue with the suggested
+> patch upstream.
+
+Thank you.
+
+Yes, I will apply it.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 30 10:35:18 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 30 Apr 2021 09:35:18 +0000
+Subject: [R-pkg-team] Processing of r-bioc-affxparser_1.62.0-2_source.changes
+Message-ID: <E1lcPYM-0005mn-Io@usper.debian.org>
+
+r-bioc-affxparser_1.62.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-affxparser_1.62.0-2.dsc
+  r-bioc-affxparser_1.62.0-2.debian.tar.xz
+  r-bioc-affxparser_1.62.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Apr 30 10:48:42 2021
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 30 Apr 2021 09:48:42 +0000
+Subject: [R-pkg-team] r-bioc-affxparser_1.62.0-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1lcPlK-000D1e-6j@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 30 Apr 2021 14:58:40 +0530
+Source: r-bioc-affxparser
+Architecture: source
+Version: 1.62.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Nilesh Patra <nilesh at debian.org>
+Changes:
+ r-bioc-affxparser (1.62.0-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Source-only upload.
+Checksums-Sha1:
+ 1c02cac84293e6454a7f12438fd758066424ec00 2117 r-bioc-affxparser_1.62.0-2.dsc
+ de13458064442abd70fd572270ef78e7090be1b5 2880 r-bioc-affxparser_1.62.0-2.debian.tar.xz
+ cc63462c05ee5d9c8c42b715c65503e2c1441ce2 10351 r-bioc-affxparser_1.62.0-2_amd64.buildinfo
+Checksums-Sha256:
+ 286ccc3d81aeefa3d354fd74ecb04b1106ba40c0478b92e93df085ba4e0c8a20 2117 r-bioc-affxparser_1.62.0-2.dsc
+ c22f88dc113eb6022acac7f0e3aed975063c81e09acf4f50ba9b5da894935aef 2880 r-bioc-affxparser_1.62.0-2.debian.tar.xz
+ 97c98c028e7ac6ca9a49c426900b2c9456bd5b2dac6d4f1b68a70d04cfc7f73e 10351 r-bioc-affxparser_1.62.0-2_amd64.buildinfo
+Files:
+ a395512236e366880bf33db0cb95ca70 2117 gnu-r optional r-bioc-affxparser_1.62.0-2.dsc
+ 426ece2e1c738ffe0022249ec0d105ca 2880 gnu-r optional r-bioc-affxparser_1.62.0-2.debian.tar.xz
+ d9d4ff1d0c5927e72ebc78f8ff53e76d 10351 gnu-r optional r-bioc-affxparser_1.62.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJIBAEBCgAyFiEEPpmlJvXcwMu/HO6mALrnSzQzafEFAmCLzxMUHG5wYXRyYTk3
+NEBnbWFpbC5jb20ACgkQALrnSzQzafFQzA/9EwL+iH2sQh0A8nO6EPueFdsRBJOK
+JtHN1ph5ccIXmQHVFUNFs42Porrh3OA6xsdHnRRoteJH5K5IreLZbRB1SCplumbo
+Pg5RTsNjvwOM3treDekXUehgXztG9ArrBo96saFDF8//jMaoQ83/bbdfQKd+Om3k
+QwdrSCgQUIXxdegvEWJdYixspEfhwHC1eyZ1zcfpcwSLxBHtV0fR+ZyMkC5Pe1Nc
+HxggU0pa27LRkPY4qgwZsNeQlvztqxpT4wT2oH/SEdO8hmYnMzTs4kCSGjN1DfTD
+a3LQr/YuP4CrbEvJ/Ub5ICxNOknDt1GYyzqv+9tzC0tzdFYGKPkFiY4HOPC1buDv
+MgJG/ra8aC3ZC6dEin4W+pMr+FS87HCpIZdfFWPe98wSVUv8pt8uNuOfBQKxKX2F
+Ypbr8ZUWRIDs8Wd1Exd08tOII0u86XtFv3wK6a5LfvRKZ+HwDV1xWFGK1L5lRdO5
+EH8Nv/NZs60CQHQivcWaSZixrcBTpmKkVKsOX24l/mhEJDjztYON1MZncZHJRSmf
+4dfyu/yJHVo0i0eMNve3bAEMIrJNQVTuaZHpwnBCfIwQ1MY+DrieBFihZaYnAOX1
+Qn8+fh4bYMRJDKJpD5Uk/cV3qK2Y0ZCXM5P212p51A8ZJqWHgg55N59ZXEMOqNaF
+o8z8GxISj+2yAkw=
+=Fv9E
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From mmyangfl at gmail.com  Fri Apr 30 15:30:07 2021
+From: mmyangfl at gmail.com (Yangfl)
+Date: Fri, 30 Apr 2021 22:30:07 +0800
+Subject: [R-pkg-team] Bug#987833: r-cran-openmx: FTBFS on mips due to a
+ variable called 'mips'
+Message-ID: <CAAXyoMNZkPGyrEq1aBVE2a14z2ezefcjfbshe_bJtGUH5iM0Bw@mail.gmail.com>
+
+Source: r-cran-openmx
+Tags: patch
+Severity: minor
+
+Hi,
+
+r-cran-openmx FTBFS on mips (after fixing #987755), since a variable
+is called 'mips' and on mips 'mips' is expanded to '1'. Please
+consider applying this patch, adding a suffix to the variable 'mips'.
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: r-cran-openmx-mips.patch
+Type: text/x-patch
+Size: 1754 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210430/03c0967b/attachment.bin>
+

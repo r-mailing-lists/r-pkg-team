@@ -1,0 +1,390 @@
+From info at sandtonsitters.co.za  Wed Apr 24 02:05:00 2019
+From: info at sandtonsitters.co.za (J Glanzmann)
+Date: Wed, 24 Apr 2019 03:05:00 +0200
+Subject: [R-pkg-team] Lieber Freund
+Message-ID: <3dac759e2de7783b5714f70352e46dce@sandtonsitters.co.za>
+
+
+
+-- 
+Prost Freund!
+
+Ich freue mich darauf, mit Ihnen für ein paar großartige Gespräche 
+zusammenzuarbeiten.
+
+Vielen Dank,
+Johan Glanzmann
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 24 14:31:07 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 Apr 2019 13:31:07 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.changes
+Message-ID: <E1hJHzP-0003iR-G3@usper.debian.org>
+
+r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+  r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+  r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+  r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+  r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 24 14:33:27 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 Apr 2019 13:33:27 +0000
+Subject: [R-pkg-team] r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.changes
+ ACCEPTED into stretch-backports->backports-policy
+Message-ID: <E1hJI1f-000CSh-Rn@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 17 Apr 2019 16:05:09 +0200
+Source: r-cran-httpuv
+Binary: r-cran-httpuv
+Architecture: source amd64
+Version: 1.4.5.1+dfsg-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-httpuv - GNU R package of HTTP and WebSocket Server Library
+Changes:
+ r-cran-httpuv (1.4.5.1+dfsg-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+Checksums-Sha1:
+ 5781e3f0edac36c3a3509fcd6e0b609128fca8aa 2215 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+ 65bb6cb28bd1f3dcb43e22fbb1d4a9e61198327a 5028 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+ 470071f6c07e4ff9c2be8821b8f5491780fd2a0d 1901040 r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+ b1dabf93890be1c12977d9e76bf7fc5160bb1b20 9784 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+ 3c6e086d2362492dcff79422776448d80084ddf7 251238 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+Checksums-Sha256:
+ 4452b236201c91f0b1662b8f1288fcfab2dadfa02f751b9efa40935400bd21f4 2215 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+ 373db4364d62d0c12646298596caf4830497ddd5f8761d2232ca896028fa443f 5028 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+ 1e554e430bcfa5e043150d3f2b210ad1aad7b68ad762ce281ba40a5291dc98db 1901040 r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+ af1698a0553b8fefaea4162819a44facd5375ebae0c08a00e65a871d0ed48907 9784 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+ 3823eeefff2c9b1235584999f41aeb3d9ed34e216ed89c09e6fa8752173d59c9 251238 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+Files:
+ 7b006455fe4e01fc835cce5b41e19715 2215 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+ 468458c5aff401e3c0c5c5f30ab28715 5028 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+ 766a550c0567335f9e16516ace90c5dc 1901040 debug optional r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+ f6f051bae7756f9c29abe10f1a948327 9784 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+ 61469d13ed4baee9d1c093d5a960f09f 251238 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzAYt8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFZAhAAkeNmaRb5vcXzspagIrTfhWinZ+zt1zMz
+sH5/AFv+uDnBYytzjV3aoSHvDkdz/nxiL1xGvHheWBGsabt0PuIok0UjjhsM3aST
+kzE2a3wr76NGDn9M6/Y6HVmfZjNXVggQg773MDZcCNs3t05NKu6qxk6CJXJjc6xW
+LhV9m/XbQ1/jGNTLJJTwt9MKV/4eSfslaYza2LfMooJYNDvF0+5hJO3Hgw5KEDlR
+auzqiHTtJJf9Rwpv6fe9EhwXAwLfd9OFZRVRERoVSNoI6epSmE3Ddd888353tbwk
+1OtZgcvilGmPQOiwJE0rrDNKV76vSLN4Zvzp37b804lgmsNprmPD1ilpr6Se//q3
+qwC3eYfSpa6aLGIUwA6ctbGZF4FXiMhak3LX5xet8+hos9rxr045+jybuWut76gX
+spYQi/oY2jXXKisWGjPoVf5z5WKmShYgofpOsqxEO/oyQHiSGRXVAVp2YGRCQNae
+jPAKlQfKWm3+Mguu3mBKF/ZFuTKRDJbSYOKM5jVp+aKF8EWhwJdhhm8I97wHFPyZ
+BZpE1Z7+A1JXCXoPX9nt40SPYF+6V6T6aAwGqx72GsJJTkmEnfK/lyXJABTPQHJ5
+2HxhAUw9+i6jR0GtIiKIp74MIrm2QGL0OXufsJCh/m+iuFTgT5RpAWO8QXL928+q
+ssw/OZnPo8I=
+=ZM9/
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 24 15:21:11 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 Apr 2019 14:21:11 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-testthat_2.0.1-1~bpo9+1_amd64.changes
+Message-ID: <E1hJIlr-00065O-BQ@usper.debian.org>
+
+r-cran-testthat_2.0.1-1~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-testthat_2.0.1-1~bpo9+1.dsc
+  r-cran-testthat_2.0.1-1~bpo9+1.debian.tar.xz
+  r-cran-testthat-dbgsym_2.0.1-1~bpo9+1_amd64.deb
+  r-cran-testthat_2.0.1-1~bpo9+1_amd64.buildinfo
+  r-cran-testthat_2.0.1-1~bpo9+1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 24 15:35:51 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 Apr 2019 14:35:51 +0000
+Subject: [R-pkg-team] r-cran-testthat_2.0.1-1~bpo9+1_amd64.changes is NEW
+Message-ID: <E1hJJ03-0003TW-3v@fasolo.debian.org>
+
+binary:r-cran-testthat is NEW.
+binary:r-cran-testthat is NEW.
+source:r-cran-testthat is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 25 10:00:17 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 25 Apr 2019 09:00:17 +0000
+Subject: [R-pkg-team] r-cran-testthat_2.0.1-1~bpo9+1_amd64.changes ACCEPTED
+ into stretch-backports->backports-policy, stretch-backports
+Message-ID: <E1hJaEr-000Dlo-Ue@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 24 Apr 2019 15:52:05 +0200
+Source: r-cran-testthat
+Binary: r-cran-testthat
+Architecture: source amd64
+Version: 2.0.1-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-testthat - GNU R testsuite
+Changes:
+ r-cran-testthat (2.0.1-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+Checksums-Sha1:
+ 332c77e2fb41b4b6cfae85363b053881c56884d3 2238 r-cran-testthat_2.0.1-1~bpo9+1.dsc
+ 6d3c4305dab787c0c8297845d4521df7de19f6b4 3448 r-cran-testthat_2.0.1-1~bpo9+1.debian.tar.xz
+ ba1437ed91ce606e32cde292000636d5929928ca 988986 r-cran-testthat-dbgsym_2.0.1-1~bpo9+1_amd64.deb
+ 1110515ba285a13925c79ed13f5cb4bf71ed2d79 9567 r-cran-testthat_2.0.1-1~bpo9+1_amd64.buildinfo
+ f6635b7c070b234edce7fd114ce6fcb4a93486c0 531218 r-cran-testthat_2.0.1-1~bpo9+1_amd64.deb
+Checksums-Sha256:
+ c9b5f62d42eb28bf2485e4e12ac41d117e8800ebc60212e1483a26c8e0a03ffa 2238 r-cran-testthat_2.0.1-1~bpo9+1.dsc
+ 1df81efcbdb7825a22c32ba3bf61a386b7cc1ffa973b46b12a98de25c9909c43 3448 r-cran-testthat_2.0.1-1~bpo9+1.debian.tar.xz
+ b83fda2492cfeb0c1a52823fa44da6167204f0a7e6daeb167c2d63605d8e8942 988986 r-cran-testthat-dbgsym_2.0.1-1~bpo9+1_amd64.deb
+ 7aca62943103dfa409b861f447b76c9d9d30efe0ded4f4e13482fe650cf47eb9 9567 r-cran-testthat_2.0.1-1~bpo9+1_amd64.buildinfo
+ e14400fe7c08a30bb52a8120e7314e268c6aab86c4510420ce5acb742c8162fd 531218 r-cran-testthat_2.0.1-1~bpo9+1_amd64.deb
+Files:
+ 9917a2da83bae26901a0687cd0eb2638 2238 gnu-r optional r-cran-testthat_2.0.1-1~bpo9+1.dsc
+ 71115e92644da322bd3f57a207aab4c8 3448 gnu-r optional r-cran-testthat_2.0.1-1~bpo9+1.debian.tar.xz
+ e2a47ace210f8ccce945bdcfce3fdd00 988986 debug optional r-cran-testthat-dbgsym_2.0.1-1~bpo9+1_amd64.deb
+ 7e7672826110a2479ab1fe20f93e3ab4 9567 gnu-r optional r-cran-testthat_2.0.1-1~bpo9+1_amd64.buildinfo
+ 549b082c2c92aab05a50331babb411b0 531218 gnu-r optional r-cran-testthat_2.0.1-1~bpo9+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzAb0YRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtH58g//frYz0BZlpgYWmJ8nTx222aPzIn6JP8Tm
+lTsQSE8CjQRWDZbd3vkzMY8h5ngQle8cHaLEA2NSnd0SGkw6u1mFWsBfsIoqIaHb
+lSEJHetuuHXOPobI9QxOFW8xp3gHLfpsTDpZCjDzQpLAOaAU3pLadwOtDSrrZwY/
+mpn9GJrjj65n9bCHKzGpWjpExdm4FHJX4SM6zTD1zaSAj9zai5DZCyg1lEPmSmGf
+N7N/eJLzIARVKSUVwv9mGTumyG0lSb+p5xu7wN7Bgyq8bBZHl6XiXwcqm9A2vTtT
+rF3PdbvaOTl8Q4pwWFuzG+OQ9H1yHMoDz+RzFjVFVm1RbvFDO7UaxXal7r7QqhNj
+QYTrV9XaEg/lwZRljn9qD5sHHmE+AWR/F3b5mkh196E78UF5KS6XvcbYGdGk+UQl
+t9/gV0LBtlY6qJ0WCRq38dDpFHuu31iIR690akHVo2PNTJKo8Y+DCyNPQ64KMPzv
+cPpcSg7qoPYAhrOqDkQ4U8VGsEAQ2CcUGz3NkzFOEtkBOno9WUTLkCHRu3mmuNzy
+tP+eJiem7pZ0PwldhzaQq/hYjsw78rKTpmLs3AEmZWnaKVjtUp5hBQ4js3T/wSoh
+HIR5LZV+yHJvQ8NDsf74xTedN1b3xS1B/E6be2HJAk0MrJYUYbPiuR3+xZcIrof4
+WXmgP3LCXOA=
+=w5nF
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 25 10:02:38 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 25 Apr 2019 09:02:38 +0000
+Subject: [R-pkg-team] r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.changes
+ ACCEPTED into stretch-backports->backports-policy, stretch-backports
+Message-ID: <E1hJaH8-000E1N-BN@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 17 Apr 2019 16:05:09 +0200
+Source: r-cran-httpuv
+Binary: r-cran-httpuv
+Architecture: source amd64
+Version: 1.4.5.1+dfsg-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-httpuv - GNU R package of HTTP and WebSocket Server Library
+Changes:
+ r-cran-httpuv (1.4.5.1+dfsg-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+Checksums-Sha1:
+ 5781e3f0edac36c3a3509fcd6e0b609128fca8aa 2215 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+ 65bb6cb28bd1f3dcb43e22fbb1d4a9e61198327a 5028 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+ 470071f6c07e4ff9c2be8821b8f5491780fd2a0d 1901040 r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+ b1dabf93890be1c12977d9e76bf7fc5160bb1b20 9784 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+ 3c6e086d2362492dcff79422776448d80084ddf7 251238 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+Checksums-Sha256:
+ 4452b236201c91f0b1662b8f1288fcfab2dadfa02f751b9efa40935400bd21f4 2215 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+ 373db4364d62d0c12646298596caf4830497ddd5f8761d2232ca896028fa443f 5028 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+ 1e554e430bcfa5e043150d3f2b210ad1aad7b68ad762ce281ba40a5291dc98db 1901040 r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+ af1698a0553b8fefaea4162819a44facd5375ebae0c08a00e65a871d0ed48907 9784 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+ 3823eeefff2c9b1235584999f41aeb3d9ed34e216ed89c09e6fa8752173d59c9 251238 r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+Files:
+ 7b006455fe4e01fc835cce5b41e19715 2215 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.dsc
+ 468458c5aff401e3c0c5c5f30ab28715 5028 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1.debian.tar.xz
+ 766a550c0567335f9e16516ace90c5dc 1901040 debug optional r-cran-httpuv-dbgsym_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+ f6f051bae7756f9c29abe10f1a948327 9784 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.buildinfo
+ 61469d13ed4baee9d1c093d5a960f09f 251238 gnu-r optional r-cran-httpuv_1.4.5.1+dfsg-1~bpo9+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzAYt8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFZAhAAkeNmaRb5vcXzspagIrTfhWinZ+zt1zMz
+sH5/AFv+uDnBYytzjV3aoSHvDkdz/nxiL1xGvHheWBGsabt0PuIok0UjjhsM3aST
+kzE2a3wr76NGDn9M6/Y6HVmfZjNXVggQg773MDZcCNs3t05NKu6qxk6CJXJjc6xW
+LhV9m/XbQ1/jGNTLJJTwt9MKV/4eSfslaYza2LfMooJYNDvF0+5hJO3Hgw5KEDlR
+auzqiHTtJJf9Rwpv6fe9EhwXAwLfd9OFZRVRERoVSNoI6epSmE3Ddd888353tbwk
+1OtZgcvilGmPQOiwJE0rrDNKV76vSLN4Zvzp37b804lgmsNprmPD1ilpr6Se//q3
+qwC3eYfSpa6aLGIUwA6ctbGZF4FXiMhak3LX5xet8+hos9rxr045+jybuWut76gX
+spYQi/oY2jXXKisWGjPoVf5z5WKmShYgofpOsqxEO/oyQHiSGRXVAVp2YGRCQNae
+jPAKlQfKWm3+Mguu3mBKF/ZFuTKRDJbSYOKM5jVp+aKF8EWhwJdhhm8I97wHFPyZ
+BZpE1Z7+A1JXCXoPX9nt40SPYF+6V6T6aAwGqx72GsJJTkmEnfK/lyXJABTPQHJ5
+2HxhAUw9+i6jR0GtIiKIp74MIrm2QGL0OXufsJCh/m+iuFTgT5RpAWO8QXL928+q
+ssw/OZnPo8I=
+=ZM9/
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From heennddsadsf at gmail.com  Thu Apr 25 19:10:26 2019
+From: heennddsadsf at gmail.com (Miss Susan Dikko)
+Date: Thu, 25 Apr 2019 18:10:26 +0000
+Subject: [R-pkg-team] Greeting to you,
+ I am the Miss Susan Dikko Im 22 years of age,
+ From Republic of Togo West Africa i am contacting you to assist me in
+ transferring and investing of the sum usd$22.2 million dollars which i
+ inherited from my late father and was deposited in the Prime Bank here in
+ Togo.I will offer 30% of the total amount. Please contact me back on this
+ email for more details(susandikko120@gmail.com) to enable us proceed
+ without any further delay okay.yours sincerely, Miss Susan Dikko
+Message-ID: <CAKSemF7C=GGXcGTgq_8ewvvjxDGEzWk8T61pY4g_wg4EGf_9Dg@mail.gmail.com>
+
+
+
+
+From tille at debian.org  Thu Apr 25 20:06:47 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 25 Apr 2019 21:06:47 +0200
+Subject: [R-pkg-team] Bug#927975: ITP: r-bioc-rhdf5lib -- GNU R hdf5 library
+Message-ID: <155621920775.23986.80150110436064804.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-bioc-rhdf5lib -- GNU R hdf5 library
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-bioc-rhdf5lib
+  Version         : 1.4.3
+  Upstream Author : Mike Smith
+* URL             : https://bioconductor.org/packages/Rhdf5lib/
+* License         : Artistic-2.0
+  Programming Lang: GNU R
+  Description     : GNU R hdf5 library
+ This GNU R package provides an interface to the
+ C and C++ hdf5 libraries.
+ .
+ HDF5 is a file format and library for storing scientific data.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-bioc-rhdf5lib
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 25 20:42:40 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 25 Apr 2019 19:42:40 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-rhdf5lib_1.4.3+dfsg-1_amd64.changes
+Message-ID: <E1hJkGW-0000DE-Ii@usper.debian.org>
+
+r-bioc-rhdf5lib_1.4.3+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-rhdf5lib_1.4.3+dfsg-1.dsc
+  r-bioc-rhdf5lib_1.4.3+dfsg.orig.tar.xz
+  r-bioc-rhdf5lib_1.4.3+dfsg-1.debian.tar.xz
+  r-bioc-rhdf5lib-dbgsym_1.4.3+dfsg-1_amd64.deb
+  r-bioc-rhdf5lib_1.4.3+dfsg-1_amd64.buildinfo
+  r-bioc-rhdf5lib_1.4.3+dfsg-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 25 21:51:18 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 25 Apr 2019 20:51:18 +0000
+Subject: [R-pkg-team] r-bioc-rhdf5lib_1.4.3+dfsg-1_amd64.changes is NEW
+Message-ID: <E1hJlKw-000ALB-8Y@fasolo.debian.org>
+
+binary:r-bioc-rhdf5lib is NEW.
+binary:r-bioc-rhdf5lib is NEW.
+source:r-bioc-rhdf5lib is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+

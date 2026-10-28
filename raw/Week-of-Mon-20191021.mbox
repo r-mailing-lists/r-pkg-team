@@ -1,0 +1,484 @@
+From ftpmaster at ftp-master.debian.org  Fri Oct 25 21:02:40 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 25 Oct 2019 20:02:40 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-biocmanager_1.30.9+dfsg-1_source.changes
+Message-ID: <E1iO5nE-0002ih-7l@usper.debian.org>
+
+r-cran-biocmanager_1.30.9+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-biocmanager_1.30.9+dfsg-1.dsc
+  r-cran-biocmanager_1.30.9+dfsg.orig.tar.xz
+  r-cran-biocmanager_1.30.9+dfsg-1.debian.tar.xz
+  r-cran-biocmanager_1.30.9+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Oct 25 21:27:53 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 25 Oct 2019 20:27:53 +0000
+Subject: [R-pkg-team] Processing of r-cran-rex_1.1.2-2_source.changes
+Message-ID: <E1iO6Bd-0003wa-O6@usper.debian.org>
+
+r-cran-rex_1.1.2-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rex_1.1.2-2.dsc
+  r-cran-rex_1.1.2-2.debian.tar.xz
+  r-cran-rex_1.1.2-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Oct 25 21:40:48 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 25 Oct 2019 20:40:48 +0000
+Subject: [R-pkg-team] r-cran-biocmanager_1.30.9+dfsg-1_source.changes
+ ACCEPTED into unstable
+Message-ID: <E1iO6O8-0001ub-4e@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 25 Oct 2019 07:47:05 +0200
+Source: r-cran-biocmanager
+Architecture: source
+Version: 1.30.9+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-biocmanager (1.30.9+dfsg-1) unstable; urgency=medium
+ .
+   * New upstream version
+Checksums-Sha1:
+ 0a41fac57b3eaab3fda46bc71b7e29fb7b22e6d0 2189 r-cran-biocmanager_1.30.9+dfsg-1.dsc
+ 3a8719cf6efa085d41bd6e711f83154741e49232 23776 r-cran-biocmanager_1.30.9+dfsg.orig.tar.xz
+ bdbd8c71540885cf30869db84e7a8682d4c3942f 5412 r-cran-biocmanager_1.30.9+dfsg-1.debian.tar.xz
+ 33ad010b0ab9ec7e625703874b471e7301884556 8536 r-cran-biocmanager_1.30.9+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 191e4c25d65031e964032274fa76f147105f008ca26c682113175ed04967b8af 2189 r-cran-biocmanager_1.30.9+dfsg-1.dsc
+ 2a2a3788e1dcdcdd2f8b92955bed3288a4f919e0a937601bd4a526883648910a 23776 r-cran-biocmanager_1.30.9+dfsg.orig.tar.xz
+ b31f15eceeded12ccaa425308324e40085b5dfe52dfb2e499c0834e9e247b1f7 5412 r-cran-biocmanager_1.30.9+dfsg-1.debian.tar.xz
+ 6b6355d824f25f2b784bb1a607949a2dc2811250dbce5b94efa1c2d7fe7c8417 8536 r-cran-biocmanager_1.30.9+dfsg-1_amd64.buildinfo
+Files:
+ 99918d334ecb67aa3b28269bb82b7b4a 2189 gnu-r optional r-cran-biocmanager_1.30.9+dfsg-1.dsc
+ d22cb5c79d72e2c0efd92af60ac10e54 23776 gnu-r optional r-cran-biocmanager_1.30.9+dfsg.orig.tar.xz
+ 29b159a3ac4f754d310b219aedcce92a 5412 gnu-r optional r-cran-biocmanager_1.30.9+dfsg-1.debian.tar.xz
+ 651731082141de7dfe36c8b7132c933c 8536 gnu-r optional r-cran-biocmanager_1.30.9+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAl2zUkoSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UqSEP/iLYnpfTQcn3LuJ0RQuPCzsk8uHR/0ZZ
+LJyyYxp5cfiETHu57HGTqiwtvBasvaSQouyUBAbgVjZDREEAfpQguaSiwejKmLkk
+UUp/wlqUFHdFWt6wU4LpSglZt3xCbCpw07KLMyNbq4+sk+YDsHrhmy6zOPDkaQ8v
+E5acxngC/CGg77tK3MSanSS4muXipXgFu1oXVisOV4QKA7e2rA1Em869YBjwrpo7
+6DCbYqfFYYxtlER6LRorlOIScptZLf3GDEsYbOHsEw7GfE8jIsdKi3/DWF7h6QYn
+A1ePbXIAUJLuaUuCinUTnBV0uJYThmnuI3xjBnlTSZb4Iz/XZF68HY60s1jQWKfs
+6B8issq89cNM5W2VyJL5mM4GNVlQifdnwYhKN8ZwtvZrcEKplTtRvEIMgs1fk2YF
+xzaKYgxYfbviddkv1kRwKMoF46ugPGULoYUfzKXlKW3XfnzWK5pOleTvcTWridCP
+Ez4osFNn67prla7WBf1cbT4olAqqQw3KIUmVMHC78GrfGHJe0dna5cT0Ypb/CUD4
+rcC0qUToxCGIFh9wYaj65b0J2SjOMrOKDoIhs0BMiOM2+/vUnFMnqCfqQZ9ZCtJ6
+DgPtAkMzgG6jfPH/6LcCiOcgP7Cnyyl8fPaFTlk0j3wwi0iN5vG+/VS4c7Soecti
+MuJuNP9FbH6a
+=IOma
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Oct 25 21:40:54 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 25 Oct 2019 20:40:54 +0000
+Subject: [R-pkg-team] r-cran-rex_1.1.2-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1iO6OE-0001vk-6H@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 25 Oct 2019 22:07:44 +0200
+Source: r-cran-rex
+Architecture: source
+Version: 1.1.2-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-rex (1.1.2-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Standards-Version: 4.3.0
+   * Trim trailing whitespace.
+Checksums-Sha1:
+ 8395d7af42e403c8f3dad97f1ed5f34bc8fb1fd3 2085 r-cran-rex_1.1.2-2.dsc
+ 357814dd507362762dc04e4dcdf45c1cc3e0e644 2160 r-cran-rex_1.1.2-2.debian.tar.xz
+ 6bbfb8d6d44eca8f5243f44687947df51d0b48a0 8477 r-cran-rex_1.1.2-2_amd64.buildinfo
+Checksums-Sha256:
+ 536ae2fe6252929f6ee01040f61e6ff95ce4f3fc7bb8e019c030b98b367637e7 2085 r-cran-rex_1.1.2-2.dsc
+ 48e245658ee6ebd6a37e2b6093a1af4d412aa53c83e849801cd95cc5c1388b05 2160 r-cran-rex_1.1.2-2.debian.tar.xz
+ a2ae1d9c7fb282111b10f5e96f6c898d5a33cb87067f9185f64a150a61bd84eb 8477 r-cran-rex_1.1.2-2_amd64.buildinfo
+Files:
+ a6a3a65de1bb6fe1e435bccd96a65124 2085 gnu-r optional r-cran-rex_1.1.2-2.dsc
+ 2756338702d9838fb349b7a6c36c6944 2160 gnu-r optional r-cran-rex_1.1.2-2.debian.tar.xz
+ 207ca35d447ebc438add43d0b2f70d0b 8477 gnu-r optional r-cran-rex_1.1.2-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAl2zV+ESHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UeYAQAJXMT0/L1s8blLwneRiDpNSI3zPMqx7B
+CvcJxjlpH5241CqKK4m8mM2rwhLiJ6+4AmTB2lfPKcy9pxLplLKJHw/f+bnt1pDZ
+9+7h51caQTO4XRRRz9RzYUGp9c6U1Dri0igrwK/egM8wZbYAeutRetXaCHAS9oK8
+InsxR+rUh/VxmDfn6hLOahsXx4a3ADNAki6bTY2KePuGdCMO0PW4xoujR5A198ro
+HrwvJuOaz5hY5ogOcXeTX+iyKmfeDDI+VSjTd+m8uMDhgUMJ7OIbcwKUvqcw6+FZ
+f6yBSpSUveYZ4GY6/am16yEFhUS5lWTlHlJbjYdLP8A1dlgq0OMbNFoXFAW5lseq
+cxKj8RKen/K4A+kdkMHTl+vUQrmGXJZTB3iR+0caMDCG5z+F3Su8ZQt6PXfGTnSB
+8CupmOkaN7Kz32DeppBBqa2oSjeRgceflsw06tJqPVcNMlqHoxApljGihIFYfidH
+lf8JmGVTPu/orYkMAMLpDUD+pgV6WcyR9Av7rpJJVhccN+raD69xP5CurSL/H7NX
+/Vz5O3W5FZy438pqrODEM1KDh4uuoW3SVUGOSGpJIu71ImNHxP2kB4MwslluZpDM
+/nMr9VbIp/3cOsrWkDKy54ahggTHfJDrfB52sbis6e+mrpm3frQXM+QBnfSJaUl2
+24CdVzReVebn
+=ddVc
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From elbrus at debian.org  Sat Oct 26 10:30:47 2019
+From: elbrus at debian.org (Paul Gevers)
+Date: Sat, 26 Oct 2019 11:30:47 +0200
+Subject: [R-pkg-team] Bug#943550: r-cran-rmarkdown: autopkgtest regression:
+ html5shiv.min.js: openBinaryFile: does not exist
+Message-ID: <83e602fb-0da8-e2a9-5f40-69c1fbc418e5@debian.org>
+
+Source: r-cran-rmarkdown
+Version: 1.16+dfsg-1
+X-Debbugs-CC: debian-ci at lists.debian.org
+User: debian-ci at lists.debian.org
+Usertags: regression
+
+Dear maintainers,
+
+With a recent upload of r-cran-rmarkdown the autopkgtest of
+r-cran-rmarkdown fails in testing when that autopkgtest is run with the
+binary packages of r-cran-rmarkdown from unstable. It passes when run
+with only packages from testing. In tabular form:
+                       pass            fail
+r-cran-rmarkdown       from testing    1.16+dfsg-1
+all others             from testing    from testing
+
+I copied some of the output at the bottom of this report.
+
+Currently this regression is blocking the migration to testing [1]. Can
+you please investigate the situation and fix it? If needed, please
+change the bug's severity.
+
+More information about this bug and the reason for filing it can be found on
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[1] https://qa.debian.org/excuses.php?package=r-cran-rmarkdown
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-rmarkdown/3258022/log.gz
+
+> test_check("rmarkdown")
+Loading required package: rmarkdown
+pandoc:
+/usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim/html5shiv.min.js:
+openBinaryFile: does not exist (No such file or directory)
+-- 1. Error: pagebreak lua filters works (@test-lua-filters.R#15)
+-------------
+pandoc document conversion failed with error 1
+1: .generate_md_and_convert(rmd, "html_document") at
+testthat/test-lua-filters.R:15
+2: rmarkdown::render(input_file, output_format = output_format,
+output_file = output_file,
+       quiet = TRUE) at testthat/test-lua-filters.R:6
+3: convert(output_file, run_citeproc)
+4: pandoc_convert(utf8_input, pandoc_to, output_format$pandoc$from,
+output, citeproc,
+       output_format$pandoc$args, !quiet)
+5: stop("pandoc document conversion failed with error ", result, call. =
+FALSE)
+
+== testthat results
+===========================================================
+[ OK: 25 | SKIPPED: 25 | WARNINGS: 0 | FAILED: 1 ]
+1. Error: pagebreak lua filters works (@test-lua-filters.R#15)
+
+Error: testthat unit tests failed
+Execution halted
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 488 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20191026/89a80d75/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Sun Oct 27 15:04:20 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 27 Oct 2019 15:04:20 +0000
+Subject: [R-pkg-team] Processing of r-cran-rversions_2.0.0-2_source.changes
+Message-ID: <E1iOk5c-0003dA-3h@usper.debian.org>
+
+r-cran-rversions_2.0.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rversions_2.0.0-2.dsc
+  r-cran-rversions_2.0.0-2.debian.tar.xz
+  r-cran-rversions_2.0.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Oct 27 15:20:16 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 27 Oct 2019 15:20:16 +0000
+Subject: [R-pkg-team] r-cran-rversions_2.0.0-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1iOkL2-0001AS-IQ@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 27 Oct 2019 15:42:37 +0100
+Source: r-cran-rversions
+Architecture: source
+Version: 2.0.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-rversions (2.0.0-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Standards-Version: 4.4.1
+   * Trim trailing whitespace.
+Checksums-Sha1:
+ 6643d4fd50d6e3298bc8373b1fdca276cee9150f 2162 r-cran-rversions_2.0.0-2.dsc
+ 5cbed2a750ab9a9354b02771c7c04489c88cf105 2148 r-cran-rversions_2.0.0-2.debian.tar.xz
+ 12d438686cb421e2da3bf6425d1e03e5d4f20b46 8712 r-cran-rversions_2.0.0-2_amd64.buildinfo
+Checksums-Sha256:
+ 345ed2eb2eb5d6d730089ad499efeb3743f0d17b428cf1f97c45fb96c9203232 2162 r-cran-rversions_2.0.0-2.dsc
+ 57882289d1e92cbde87836c63b5029b930b6c4c0b2147ecc41083fd2547c081d 2148 r-cran-rversions_2.0.0-2.debian.tar.xz
+ e07351d562d5ece46ce9d4070c64906cd9664a8681e073a94b3a3eff284b79fd 8712 r-cran-rversions_2.0.0-2_amd64.buildinfo
+Files:
+ 875a1e0801f28650b997650e33a1d95b 2162 gnu-r optional r-cran-rversions_2.0.0-2.dsc
+ f1034f183eb7affadb100228c5338668 2148 gnu-r optional r-cran-rversions_2.0.0-2.debian.tar.xz
+ 085e3f81eef358424f77b3183cb2d51e 8712 gnu-r optional r-cran-rversions_2.0.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAl21r6ASHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9U5lsQAJqnB/BO4zalwJ/uGJfAQLVl/rd8iWT6
+Qq5uHV6BEasf1H29y/qpIaraqMSWJJmf5SheWHGx4Z/8oAQTvmg3yYZrbC0hFFeg
+RMOV/HzAcR5zstHPVAQgm5THHSTjZM6mWItQrRfqDxY3rDQwno2dyGUFNH994pKL
+mF7thbTotm9vEMmIcxXHoClMcY5cre3tnTlz8zyBnUVi3/8hUiIKMrl6gCQ0/Odp
+pGyiGT5DWRCAAjoM2hYR4+7gHW4UO88HlnH+7JH3i2kNKnTiKoF6J4fpLPm1HZPH
+cCSwCM28QhKVyINfknGhlPA2gQrAo9ZoOGMYCSjU22WDpl/newsiuIbtzVVPiRi8
+zhXJ8bklHDenTVJslmz1/orHWWthJjtOkQFwwNDmGLtEGILaYCUhoG0D30In4vx8
+mtgtA6SA9cWLmBxQhLbirOR+iSAYBqg2njsNommCiErJCz08Dewz1p4X5M7J6xuY
+3lUUFryhAT7CcjGLLKchVR8RdVQqUWMahbxQiIe9juRiWPS0ZI8gUuOpkCozgJSB
+AFbZT8NIy4J+NE7wTbY51MsBsHglXe/Z0m2vWMu/nXA+miKitmSFruqcJthZYCKJ
+dkfM1UqXWBkQSxgtvJIxv2Qm5LblUfk8VHbrC2r7iohH8Pj1mZFdm1PvI5MtYS6T
+oE19HrSjs3ul
+=3PSK
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sun Oct 27 15:39:36 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 27 Oct 2019 15:39:36 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-clubsandwich_0.3.5-2_source.changes
+Message-ID: <E1iOkdk-0005Xc-Ou@usper.debian.org>
+
+r-cran-clubsandwich_0.3.5-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-clubsandwich_0.3.5-2.dsc
+  r-cran-clubsandwich_0.3.5-2.debian.tar.xz
+  r-cran-clubsandwich_0.3.5-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Oct 27 15:49:59 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 27 Oct 2019 15:49:59 +0000
+Subject: [R-pkg-team] r-cran-clubsandwich_0.3.5-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1iOknn-00054b-NR@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 27 Oct 2019 15:56:56 +0100
+Source: r-cran-clubsandwich
+Architecture: source
+Version: 0.3.5-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-clubsandwich (0.3.5-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * debhelper-compat 12
+   * Standards-Version: 4.4.1
+   * Trim trailing whitespace.
+Checksums-Sha1:
+ 85bfb8fa9c355a9e84140642bd9daecce2871ccb 2192 r-cran-clubsandwich_0.3.5-2.dsc
+ 3a286198a77e689cafa7e5d89d112053b019a17d 2608 r-cran-clubsandwich_0.3.5-2.debian.tar.xz
+ 44d675ecb95c2672fa4d2c328a84b06b8a4cdaec 8602 r-cran-clubsandwich_0.3.5-2_amd64.buildinfo
+Checksums-Sha256:
+ 6bb0cbaa7496fffd62bd0d60bee3986b850b6f62ab64958273087c9ff639d65b 2192 r-cran-clubsandwich_0.3.5-2.dsc
+ 7b29128ede6235efde56b3632ece70c4c51f0b3433d36eb10ceb87a022430d70 2608 r-cran-clubsandwich_0.3.5-2.debian.tar.xz
+ 3f4063f3fc001cab8d1639cecda40166e1c1598c8c0486378ee1da8552d60670 8602 r-cran-clubsandwich_0.3.5-2_amd64.buildinfo
+Files:
+ a0d979b707006d184c657602f7024879 2192 gnu-r optional r-cran-clubsandwich_0.3.5-2.dsc
+ f387d345a7ca97bdf1cf6554a7574cd7 2608 gnu-r optional r-cran-clubsandwich_0.3.5-2.debian.tar.xz
+ 37d6527255f96a736abb19c3c9194eb0 8602 gnu-r optional r-cran-clubsandwich_0.3.5-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAl21t3oSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UKysP/1vBOdastVMmUPu3SMzox0vJqmuhHLHq
+ixPZTNVoREYrN5njVPoSnnO695t2coDi07k2adBiAehn2oSUFcRfFMQsvfJ8PzxW
+otxE0T8sNXJgr+Q942+SubOBGwMZ9xAi1q4qqya+xd7xobexT9Nsi0PD5leihFw6
+netD9BryqA1HoHYxm9fngN6WXYfV6j1bbE1M9AuxJ8syMJl8xsWslP2beyn8rrRp
+o2jNj1ViRKeO4zi2wF93tggG+O9V+UJ9vT7+NlPZ3F6yaf3Xgfu/jCKqTGgdbKPt
+lEwkREvaYTyoB2QJjpV9TKHyE/NhraC6pygmzPMGOMJSjxHbUdCrCo33fvtaKmUn
+67sWpVk7cUGgtaOSLFscnyyhQm4WA74Qxawn0ZY7wK7WuZMTboBPDx/uIylj9Lx+
+GzhV+bAQttdYlgkSVE7Rb8zgfQPmwsn5iJFgFAuI7NvWewE7vHOB7dRaN2Uf3yJN
+1eJa1zDWT35o5duWLdBw2rN5E3XjWdK1zaTp4AokN5IwMGNxiBR/7Uow+cl77yii
+np0WzZKHmJGqx4LUGwQWrYLFTb57yTwzADwjjeWDDY1PIBKxgThTAXI55Ti869h3
+Jm3p3senIYQkgxnWLtleFRyw/xcO3CJuHBkjev6TlyTFKympjrzLMy/uTWLTejGV
+xCsJTYR2hfrV
+=y9wG
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sun Oct 27 15:50:08 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 27 Oct 2019 15:50:08 +0000
+Subject: [R-pkg-team] Processing of r-bioc-qusage_2.18.0-2_source.changes
+Message-ID: <E1iOknw-0006Ge-Tt@usper.debian.org>
+
+r-bioc-qusage_2.18.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-qusage_2.18.0-2.dsc
+  r-bioc-qusage_2.18.0-2.debian.tar.xz
+  r-bioc-qusage_2.18.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Oct 27 16:14:48 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 27 Oct 2019 16:14:48 +0000
+Subject: [R-pkg-team] r-bioc-qusage_2.18.0-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1iOlBo-0008GE-Kf@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 27 Oct 2019 16:28:25 +0100
+Source: r-bioc-qusage
+Architecture: source
+Version: 2.18.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-bioc-qusage (2.18.0-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Standards-Version: 4.4.1
+Checksums-Sha1:
+ 84efd5c3193c429089581c5dbece80cc3f46d0a8 2114 r-bioc-qusage_2.18.0-2.dsc
+ dc74694b19c3f28bee1bda72f3b479d95178d48c 2972 r-bioc-qusage_2.18.0-2.debian.tar.xz
+ 07f1a45fe99061f9453aaa35aeec37d631985830 8923 r-bioc-qusage_2.18.0-2_amd64.buildinfo
+Checksums-Sha256:
+ 95a7274b572952eb3d7ccf98839d2cf8299adb28f705d3374e67299c9926c639 2114 r-bioc-qusage_2.18.0-2.dsc
+ 1178596e73f2ee6782c198d840a65b7f4107ce29ce1397f552702fa501e4a906 2972 r-bioc-qusage_2.18.0-2.debian.tar.xz
+ c8c29862aa38bc88e874de3720e8f411057a3187b95da08b398808458d084a84 8923 r-bioc-qusage_2.18.0-2_amd64.buildinfo
+Files:
+ b37417255f2c19e5df08ed95fd0332c7 2114 gnu-r optional r-bioc-qusage_2.18.0-2.dsc
+ 9e8246b9ee98202ff6eb9e5fa0320310 2972 gnu-r optional r-bioc-qusage_2.18.0-2.debian.tar.xz
+ 16030ca79f1bb9e784c63ca141fe956a 8923 gnu-r optional r-bioc-qusage_2.18.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAl21uVcSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UDsQQAIEzzU1mx0HyaPF1K6YxKtve+sd/IO9k
+7AlpQLjdlr6TIPeh5IILyuNxzrcKkX2SKyUIeEzlqkmkEpCQkrt/fMvIcTBMGWTk
+KBlM3SdPyOmhYaj4as7n1/MTwaHP5ypenpCIGzl3m/THZ3ZWoxRLlqUnInkWc21l
+ukXOA91FYKD4GZ5hizs4VcxmcBcom2L9N6lJmSfexuYSg82pZ69u3Dkk2aB0A+/Q
+dZjP+JaXTUR9DFxux93SNxZ9wSZpilo8zF54+/oVKsuSLgLtS0DKosqYOOSWx6sS
+m/zlY7OuvUYDsZheI/zSBFJ+a39i5RuCilTNlLH62kkJdhyqZaQiJVR1e8iwyDcD
+amTTbkHBf1rDVD9t+uBkO7UiNs1w/44rynTzZn1TPY+bh4VQ4eF8Eoc8O0zWK0vn
+hsTCjigiwkugN1DsZhc/+E0Hwh8xaN9TGhosuR7x8lppY4Vjo38+Kv7DBbrFGts0
+RZzQqAxQlSOMwQUzInveds6yPSWjoyCo6RDvQjS2tOT7uZtp0iESaPiYDYdHz4jn
+7sKwWBVwTSEu5CzuTkU+CxSzAeSoE5ROxZQaStxmVYokRdjUeU2YMiWbhfiIVnv6
+hDx7pXyQQFxZlFDiIjHZ+yVCNC6ASaAxbUvAaPUVpjapO3CNG4Y03ili3qOtMJPN
+zyjoXcDR84F+
+=5YoC
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+

@@ -1,0 +1,856 @@
+From elbrus at debian.org  Sun Apr  2 20:49:17 2023
+From: elbrus at debian.org (Paul Gevers)
+Date: Sun, 2 Apr 2023 21:49:17 +0200
+Subject: [R-pkg-team] Bug#1033853: r-bioc-megadepth: autopkgtest regression:
+ different output
+Message-ID: <a312c84b-aff0-ffe4-91f6-11447e4c88f4@debian.org>
+
+Source: r-bioc-megadepth
+Version: 1.8.0+ds-1
+Severity: serious
+Control: tags -1 bookworm-ignore
+User: debian-ci at lists.debian.org
+Usertags: regression
+
+Dear maintainer(s),
+
+Your package has an autopkgtest, great. However, it fails in testing 
+since March 2023. Can you please investigate the situation and fix it? I 
+copied some of the output at the bottom of this report.
+
+The release team has announced [1] that failing autopkgtest on amd64 and 
+arm64 are considered RC in testing. [Release Team member hat on] Because 
+we're currently in the hard freeze for bookworm, I have marked this bug 
+as bookworm-ignore. Targeted fixes are still welcome.
+
+More information about this bug and the reason for filing it can be 
+found on 
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[1] https://lists.debian.org/debian-devel-announce/2019/07/msg00002.html
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-bioc-megadepth/32560589/log.gz
+
+?? Failed tests 
+????????????????????????????????????????????????????????????????
+?? Failure ('test-megadepth_main_tests.R:74'): test bigwig2mean on 
+remote bw ???
+readLines(file.path(tempdir(), "bw2.remote.mean.annotation.tsv")) 
+(`actual`) not equal to 
+readLines("https://raw.githubusercontent.com/ChristopherWilks/megadepth/master/tests/testbw2.bed.mean") 
+(`expected`).
+
+  actual | expected
+         - "chr10\t0\t10\t0.00"               [1]
+         - "chr10\t8756697\t8756762\t15.85"   [2]
+         - "chr10\t4359156\t4359188\t3.00"    [3]
+         - "GL000219.1\t168500\t168620\t1.26" [4]
+
+[ FAIL 1 | WARN 1 | SKIP 0 | PASS 129 ]
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OpenPGP_signature
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230402/2a617bd1/attachment.sig>
+
+From owner at bugs.debian.org  Sun Apr  2 20:51:05 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sun, 02 Apr 2023 19:51:05 +0000
+Subject: [R-pkg-team] Processed: r-bioc-megadepth: autopkgtest regression:
+ different output
+References: <a312c84b-aff0-ffe4-91f6-11447e4c88f4@debian.org>
+ <a312c84b-aff0-ffe4-91f6-11447e4c88f4@debian.org>
+Message-ID: <handler.s.B.16804649593801162.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 bookworm-ignore
+Bug #1033853 [src:r-bioc-megadepth] r-bioc-megadepth: autopkgtest regression: different output
+Added tag(s) bookworm-ignore.
+
+-- 
+1033853: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033853
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From elbrus at debian.org  Sun Apr  2 20:53:59 2023
+From: elbrus at debian.org (Paul Gevers)
+Date: Sun, 2 Apr 2023 21:53:59 +0200
+Subject: [R-pkg-team] Bug#1033854: r-bioc-rhdf5lib: autopkgtest regression:
+ Expected '1.10.7', got '1.10.8'
+Message-ID: <a7d22ac7-3131-8998-c76b-ba63416975d4@debian.org>
+
+Source: r-bioc-rhdf5lib
+Version: 1.20.0+dfsg-1
+Severity: serious
+Control: tags -1 bookworm-ignore
+User: debian-ci at lists.debian.org
+Usertags: regression
+
+Dear maintainer(s),
+
+Your package has an autopkgtest, great. However, it fails since around 
+October 2022. Can you please investigate the situation and fix it? I 
+copied some of the output at the bottom of this report.
+
+The release team has announced [1] that failing autopkgtest on amd64 and 
+arm64 are considered RC in testing. [Release Team member hat on] Because 
+we're currently in the hard freeze for bookworm, I have marked this bug 
+as bookworm-ignore. Targeted fixes are still welcome.
+
+More information about this bug and the reason for filing it can be 
+found on 
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[1] https://lists.debian.org/debian-devel-announce/2019/07/msg00002.html
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-bioc-rhdf5lib/32247729/log.gz
+
+----- FAILED[data]: test_library_version.R<3--3>
+  call| expect_identical(libver, "1.10.7")
+  diff| Expected '1.10.7', got '1.10.8'
+Error: 1 out of 10 tests failed
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OpenPGP_signature
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230402/c7b9a309/attachment.sig>
+
+From owner at bugs.debian.org  Sun Apr  2 20:57:05 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sun, 02 Apr 2023 19:57:05 +0000
+Subject: [R-pkg-team] Processed: r-bioc-rhdf5lib: autopkgtest regression:
+ Expected '1.10.7', got '1.10.8'
+References: <a7d22ac7-3131-8998-c76b-ba63416975d4@debian.org>
+ <a7d22ac7-3131-8998-c76b-ba63416975d4@debian.org>
+Message-ID: <handler.s.B.16804652413803676.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 bookworm-ignore
+Bug #1033854 [src:r-bioc-rhdf5lib] r-bioc-rhdf5lib: autopkgtest regression: Expected '1.10.7', got '1.10.8'
+Added tag(s) bookworm-ignore.
+
+-- 
+1033854: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033854
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From elbrus at debian.org  Sun Apr  2 20:57:25 2023
+From: elbrus at debian.org (Paul Gevers)
+Date: Sun, 2 Apr 2023 21:57:25 +0200
+Subject: [R-pkg-team] Bug#1033855: r-bioc-rwikipathways: autopkgtest
+ regression: get WP2338 Xrefs
+Message-ID: <82482a36-a5d1-789a-23ba-0b392745fa42@debian.org>
+
+Source: r-bioc-rwikipathways
+Version: 1.18.0+dfsg-1
+Severity: serious
+Control: tags -1 bookworm-ignore
+User: debian-ci at lists.debian.org
+Usertags: regression
+
+Dear maintainer(s),
+
+Your package has an autopkgtest, great. However, it fails since February 
+2023. Can you please investigate the situation and fix it? I copied some 
+of the output at the bottom of this report.
+
+The release team has announced [1] that failing autopkgtest on amd64 and 
+arm64 are considered RC in testing. [Release Team member hat on] Because 
+we're currently in the hard freeze for bookworm, I have marked this bug 
+as bookworm-ignore. Targeted fixes are still welcome.
+
+More information about this bug and the reason for filing it can be 
+found on 
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[1] https://lists.debian.org/debian-devel-announce/2019/07/msg00002.html
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-bioc-rwikipathways/32247692/log.gz
+
+?? Failed tests 
+????????????????????????????????????????????????????????????????
+?? Failure ('test-getXrefList.R:6'): get WP2338 Xrefs 
+??????????????????????????
+"Q9UPY3" %in% xrefs is not TRUE
+
+`actual`:   FALSE
+`expected`: TRUE
+?? Failure ('test-getXrefList.R:11'): get WP2338 (again) 
+???????????????????????
+"Q9UPY3" %in% xrefs is not TRUE
+
+`actual`:   FALSE
+`expected`: TRUE
+
+[ FAIL 2 | WARN 0 | SKIP 0 | PASS 25 ]
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OpenPGP_signature
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230402/761f64d4/attachment-0001.sig>
+
+From owner at bugs.debian.org  Sun Apr  2 21:00:05 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sun, 02 Apr 2023 20:00:05 +0000
+Subject: [R-pkg-team] Processed: r-bioc-rwikipathways: autopkgtest
+ regression: get WP2338 Xrefs
+References: <82482a36-a5d1-789a-23ba-0b392745fa42@debian.org>
+ <82482a36-a5d1-789a-23ba-0b392745fa42@debian.org>
+Message-ID: <handler.s.B.16804654483804627.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 bookworm-ignore
+Bug #1033855 [src:r-bioc-rwikipathways] r-bioc-rwikipathways: autopkgtest regression: get WP2338 Xrefs
+Added tag(s) bookworm-ignore.
+
+-- 
+1033855: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033855
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From elbrus at debian.org  Sun Apr  2 21:01:16 2023
+From: elbrus at debian.org (Paul Gevers)
+Date: Sun, 2 Apr 2023 22:01:16 +0200
+Subject: [R-pkg-team] Bug#1025045: Re 1025045:
+ r-bioc-structuralvariantannotation: Test failures in autopkgtest
+References: <166970756103.2798534.1631162793735316371.reportbug@energija.fam-tille.de>
+Message-ID: <0999c2fe-c5e7-657a-afd1-81937025ca76@debian.org>
+
+Control: severity -1 serious
+Control: tags -1 bookworm-ignore
+
+Dear maintainer(s),
+
+The release team has announced [1] that failing autopkgtest on amd64 and 
+arm64 are considered RC in testing. [Release Team member hat on] Because 
+we're currently in the hard freeze for bookworm, I have marked this bug 
+as bookworm-ignore. Targeted fixes are still welcome.
+
+Paul
+
+[1] https://lists.debian.org/debian-devel-announce/2019/07/msg00002.html
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OpenPGP_signature
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230402/2b745c36/attachment.sig>
+
+From owner at bugs.debian.org  Sun Apr  2 21:03:03 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sun, 02 Apr 2023 20:03:03 +0000
+Subject: [R-pkg-team] Processed: Re 1025045:
+ r-bioc-structuralvariantannotation: Test failures in autopkgtest
+References: <0999c2fe-c5e7-657a-afd1-81937025ca76@debian.org>
+ <166970756103.2798534.1631162793735316371.reportbug@energija.fam-tille.de>
+Message-ID: <handler.s.B1025045.16804656783806546.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> severity -1 serious
+Bug #1025045 [src:r-bioc-structuralvariantannotation] r-bioc-structuralvariantannotation: Test failures in autopkgtest
+Severity set to 'serious' from 'normal'
+> tags -1 bookworm-ignore
+Bug #1025045 [src:r-bioc-structuralvariantannotation] r-bioc-structuralvariantannotation: Test failures in autopkgtest
+Added tag(s) bookworm-ignore.
+
+-- 
+1025045: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1025045
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From noreply at release.debian.org  Wed Apr  5 05:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 05 Apr 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-m2r is marked for autoremoval from testing
+Message-ID: <E1pjuvK-005ALJ-74@respighi.debian.org>
+
+r-cran-m2r 1.0.2+dfsg-3 is marked for autoremoval from testing on 2023-05-10
+
+It (build-)depends on packages with these RC bugs:
+1033584: brial: autopkgtest fails: cannot import name 'getargspec' from 'inspect'
+ https://bugs.debian.org/1033584
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From jmm at inutil.org  Mon Apr 10 17:12:12 2023
+From: jmm at inutil.org (Moritz =?UTF-8?Q?M=C3=BChlenhoff?=)
+Date: Mon, 10 Apr 2023 18:12:12 +0200
+Subject: [R-pkg-team] Bug#1034173: r-cran-commonmark: CVE-2023-26485
+ CVE-2023-24824
+Message-ID: <ZDQ1XLkuVjrdeOvU@pisco.westfalen.local>
+
+Source: r-cran-commonmark
+X-Debbugs-CC: team at security.debian.org
+Severity: important
+Tags: security
+
+Hi,
+
+The following vulnerabilities were published for r-cran-commonmark.
+
+CVE-2023-26485[0]:
+| cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and
+| rendering library and program in C. A polynomial time complexity issue
+| in cmark-gfm may lead to unbounded resource exhaustion and subsequent
+| denial of service. This CVE covers quadratic complexity issues when
+| parsing text which leads with either large numbers of `_` characters.
+| This issue has been addressed in version 0.29.0.gfm.10. Users are
+| advised to upgrade. Users unable to upgrade should validate that their
+| input comes from trusted sources. ### Impact A polynomial time
+| complexity issue in cmark-gfm may lead to unbounded resource
+| exhaustion and subsequent denial of service. ### Proof of concept ```
+| $ ~/cmark-gfm$ python3 -c 'pad = "_" * 100000; print(pad + "." + pad,
+| end="")' | time ./build/src/cmark-gfm --to plaintext ``` Increasing
+| the number 10000 in the above commands causes the running time to
+| increase quadratically. ### Patches This vulnerability have been
+| patched in 0.29.0.gfm.10. ### Note on cmark and cmark-gfm XXX: TBD
+| [cmark-gfm](https://github.com/github/cmark-gfm) is a fork of
+| [cmark](https://github.com/commonmark/cmark) that adds the GitHub
+| Flavored Markdown extensions. The two codebases have diverged over
+| time, but share a common core. These bugs affect both `cmark` and
+| `cmark-gfm`. ### Credit We would like to thank @gravypod for reporting
+| this vulnerability. ### References
+| https://en.wikipedia.org/wiki/Time_complexity ### For more information
+| If you have any questions or comments about this advisory: * Open an
+| issue in [github/cmark-gfm](https://github.com/github/cmark-gfm)
+
+https://github.com/github/cmark-gfm/security/advisories/GHSA-r8vr-c48j-fcc5
+https://github.com/github/cmark-gfm/commit/07a66c9bc341f902878e37d7da8647d6ef150987
+
+CVE-2023-24824[1]:
+| cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and
+| rendering library and program in C. A polynomial time complexity issue
+| in cmark-gfm may lead to unbounded resource exhaustion and subsequent
+| denial of service. This CVE covers quadratic complexity issues when
+| parsing text which leads with either large numbers of `&gt;` or `-`
+| characters. This issue has been addressed in version 0.29.0.gfm.10.
+| Users are advised to upgrade. Users unable to upgrade should validate
+| that their input comes from trusted sources.
+
+https://github.com/github/cmark-gfm/security/advisories/GHSA-66g8-4hjf-77xh
+https://github.com/github/cmark-gfm/commit/2300c1bd2c8226108885bf019655c4159cf26b59
+
+If you fix the vulnerabilities please also make sure to include the
+CVE (Common Vulnerabilities & Exposures) ids in your changelog entry.
+
+For further information see:
+
+[0] https://security-tracker.debian.org/tracker/CVE-2023-26485
+    https://www.cve.org/CVERecord?id=CVE-2023-26485
+[1] https://security-tracker.debian.org/tracker/CVE-2023-24824
+    https://www.cve.org/CVERecord?id=CVE-2023-24824
+
+Please adjust the affected versions in the BTS as needed.
+
+
+From owner at bugs.debian.org  Mon Apr 10 19:54:15 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 10 Apr 2023 18:54:15 +0000
+Subject: [R-pkg-team] Processed: tagging 1034171, tagging 1034172,
+ tagging 1034173, tagging 1034174, tagging 1034170 ...
+References: <1681152632-523-bts-carnil@debian.org>
+Message-ID: <handler.s.C.1681152640735764.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> tags 1034171 + upstream
+Bug #1034171 [src:cmark-gfm] cmark-gfm: CVE-2023-26485 CVE-2023-24824
+Added tag(s) upstream.
+> tags 1034172 + upstream
+Bug #1034172 [src:python-cmarkgfm] python-cmarkgfm: CVE-2023-26485 CVE-2023-24824
+Added tag(s) upstream.
+> tags 1034173 + upstream
+Bug #1034173 [src:r-cran-commonmark] r-cran-commonmark: CVE-2023-26485 CVE-2023-24824
+Added tag(s) upstream.
+> tags 1034174 + upstream
+Bug #1034174 [src:ruby-commonmarker] ruby-commonmarker: CVE-2023-26485 CVE-2023-24824
+Added tag(s) upstream.
+> tags 1034170 + upstream
+Bug #1034170 [src:netatalk] netatalk: CVE-2022-43634
+Added tag(s) upstream.
+> forwarded 1034170 https://github.com/Netatalk/Netatalk/pull/186
+Bug #1034170 [src:netatalk] netatalk: CVE-2022-43634
+Set Bug forwarded-to-address to 'https://github.com/Netatalk/Netatalk/pull/186'.
+> tags 1034177 + upstream
+Bug #1034177 [bzip3] bipz3 CVE-2023-29415 CVE-2023-29416 CVE-2023-29418 CVE-2023-29419 CVE-2023-29420 CVE-2023-29421
+Added tag(s) upstream.
+> tags 1034178 + upstream
+Bug #1034178 [src:opensmtpd] opensmtpd: CVE-2023-29323
+Added tag(s) upstream.
+> tags 1034184 + upstream
+Bug #1034184 [src:nextcloud-desktop] nextcloud-desktop: CVE-2023-28999
+Added tag(s) upstream.
+> forwarded 1034184 https://github.com/nextcloud/desktop/pull/5560
+Bug #1034184 [src:nextcloud-desktop] nextcloud-desktop: CVE-2023-28999
+Set Bug forwarded-to-address to 'https://github.com/nextcloud/desktop/pull/5560'.
+> tags 1034187 + upstream
+Bug #1034187 [src:gpac] gpac: CVE-2023-0841 CVE-2023-1448 CVE-2023-1449 CVE-2023-1452 CVE-2023-1654 CVE-2023-1655
+Added tag(s) upstream.
+> tags 1034186 + upstream
+Bug #1034186 [src:heat] heat: CVE-2023-1625
+Added tag(s) upstream.
+> forwarded 1034186 https://review.opendev.org/c/openstack/heat/+/868166
+Bug #1034186 [src:heat] heat: CVE-2023-1625
+Set Bug forwarded-to-address to 'https://review.opendev.org/c/openstack/heat/+/868166'.
+> tags 1034180 + upstream
+Bug #1034180 [src:radare2] radare2: CVE-2023-1605
+Added tag(s) upstream.
+> tags 1034179 + upstream
+Bug #1034179 [src:qemu] qemu: CVE-2023-1544
+Added tag(s) upstream.
+> forwarded 1034179 https://lists.nongnu.org/archive/html/qemu-devel/2023-03/msg00206.html
+Bug #1034179 [src:qemu] qemu: CVE-2023-1544
+Set Bug forwarded-to-address to 'https://lists.nongnu.org/archive/html/qemu-devel/2023-03/msg00206.html'.
+> tags 1034187 + upstream
+Bug #1034187 [src:gpac] gpac: CVE-2023-0841 CVE-2023-1448 CVE-2023-1449 CVE-2023-1452 CVE-2023-1654 CVE-2023-1655
+Ignoring request to alter tags of bug #1034187 to the same tags previously set
+> tags 1034183 + upstream
+Bug #1034183 [src:stellarium] stellarium: CVE-2023-28371
+Added tag(s) upstream.
+> tags 1034185 + upstream
+Bug #1034185 [src:opendoas] opendoas: CVE-2023-28339
+Added tag(s) upstream.
+> forwarded 1034185 https://github.com/Duncaen/OpenDoas/issues/106
+Bug #1034185 [src:opendoas] opendoas: CVE-2023-28339
+Set Bug forwarded-to-address to 'https://github.com/Duncaen/OpenDoas/issues/106'.
+> tags 1034182 + upstream
+Bug #1034182 {Done: Sebastiaan Couwenberg <sebastic at xs4all.nl>} [src:owslib] owslib: CVE-2023-27476
+Added tag(s) upstream.
+> tags 1034181 + upstream
+Bug #1034181 [src:nomad] nomad: CVE-2023-0821
+Added tag(s) upstream.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+1034170: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034170
+1034171: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034171
+1034172: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034172
+1034173: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034173
+1034174: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034174
+1034177: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034177
+1034178: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034178
+1034179: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034179
+1034180: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034180
+1034181: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034181
+1034182: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034182
+1034183: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034183
+1034184: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034184
+1034185: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034185
+1034186: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034186
+1034187: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034187
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From johnswift.ceo at gmail.com  Thu Apr 13 06:21:05 2023
+From: johnswift.ceo at gmail.com (John Swift)
+Date: Thu, 13 Apr 2023 06:21:05 +0100
+Subject: [R-pkg-team] Technology-Gaaming-Software related sites for guest
+ posting and link insertion.
+Message-ID: <CAHDZw4_xBp+V7dsbW6mL=ZsVfXS49CVCv3s+YcLEtNqYxqmSWQ@mail.gmail.com>
+
+*Hello, *
+
+Greetings of the day,
+
+I am the manager of an SEO company. We have great websites.
+
+Please check and let me know if you are interested. *All posts* are
+permanent with Do-Follow links. We do not mark posts as *"sponsored"*
+
+*If you are interested please contact me.*
+
+*URL*
+
+*DA*
+
+*DR*
+
+*Traffic*
+
+*Examples*
+
+mobileappdaily.com
+
+59
+
+56
+
+44.5K
+
+https://www.mobileappdaily.com/mobile-app-development/companies
+
+getwox.com
+
+59
+
+48
+
+68.5K
+
+https://www.getwox.com/6-major-factors-to-consider-before-choosing-an-internet-provider-for-your-start-up/
+
+theengineeringprojects.com
+
+61
+
+59
+
+10.1K
+
+https://www.theengineeringprojects.com/2022/02/high-density-interconnect-pcb.html
+
+techidea.net
+
+72
+
+40
+
+2.26K
+
+https://www.techidea.net/how-to-mute-discord-on-obs/
+
+topplanetinfo.com
+
+68
+
+54
+
+5.97K
+
+https://www.topplanetinfo.com/how-does-abracadabra-work/
+
+newswatchtv.com
+
+46
+
+54
+
+13.9K
+
+https://newswatchtv.com/2022/02/25/pixelynx-changing-the-digital-landscape-forever-2/
+
+californianewstimes.com
+
+53
+
+62
+
+1.74K
+
+/
+californianewstimes.com/the-legacy-shift-how-to-accelerate-business-value-with-mainframe-modernization/697705/
+
+sharingknowledge.world.edu
+
+39
+
+57
+
+18.8K
+
+https://gadgetstripe.com/best-writing-apps-to-strengthen-your-skills/
+
+scrapdigest.com
+
+55
+
+48
+
+4.24K
+
+https://www.scrapdigest.com/watch-massive-dude-destroys-posse-of-nightclub-bouncers/40416/
+
+londonnewstime.com
+
+42
+
+54
+
+1.70K
+
+https://londonnewstime.com/terra-luna-ukraine-nosedive-flying-as-cryptocurrency-prices-recover-from-russia/695360/
+
+slendergame.com
+
+50
+
+38
+
+1.61K
+
+https://slendergame.com/gogopdf-tools-convert-and-secure-your-pdf-files-easily/
+
+xomba.com
+
+54
+
+38
+
+2.47K
+
+https://www.xomba.com/data-science-trends-for-2019/
+
+elist10.com
+
+53
+
+49
+
+2.35K
+
+https://www.elist10.com/a-short-outlook-into-spectrum-internet-and-security-suite/
+
+studyguide.org
+
+38
+
+41
+
+2.74K
+
+https://www.studyguide.org/when-to-make-personal-injury-claims-or-file-a-lawsuit/
+
+tech-wonders.com
+
+37
+
+45
+
+4.55K
+
+https://www.tech-wonders.com/2022/02/secure-virtual-data-room-the-best-choice-for-ma-deals.html
+
+
+
+*Let me know which sites suit your needs*
+
+
+*and let's get to work on boosting your website rankings!    Kind regards.*
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230413/6dbb427d/attachment-0001.htm>
+
+From info at authenticbotswanatours.com  Tue Apr 18 23:51:04 2023
+From: info at authenticbotswanatours.com (Booking.com)
+Date: 18 Apr 2023 22:51:04 +0000
+Subject: [R-pkg-team] 3 Reservation messages waiting for you
+Message-ID: <20230418225104.F5092BE843205FE7@authenticbotswanatours.com>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230418/c452baac/attachment.htm>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: 11.png
+Type: image/png
+Size: 2525 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230418/c452baac/attachment.png>
+
+From system at cec.net.vn  Thu Apr 20 12:32:48 2023
+From: system at cec.net.vn (Kundeservice)
+Date: 20 Apr 2023 11:32:48 +0000
+Subject: [R-pkg-team] PostNord
+Message-ID: <20230420143248.4IlJGMwJ@mail-nwsmtp-smtp-production-main-78.myt.yp-c.yandex.net>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230420/00a0b64c/attachment.htm>
+
+From lapel-microphone58 at lapel-microphone.top  Fri Apr 21 16:31:25 2023
+From: lapel-microphone58 at lapel-microphone.top (lapel-microphone)
+Date: Fri, 21 Apr 2023 23:31:25 +0800
+Subject: [R-pkg-team] We Produce wireless lapel microphones
+Message-ID: <6442aba1.050a0220.a692f.185b@mx.google.com>
+
+We produce wireless lapel microphones. 
+ 
+if you need it, please contact us. thanks.
+We can send the detail types for you as a reference.
+ 
+It doesn't need APP,plug-and-play,one-click connection,easy to wear.
+Intelligent noise reduction,long endurance of 10 hours
+Small and convenient,it compatible with various devices,support mobile phone, tablet, camera, notebook,etc
+ 
+Best Regards 
+Tony (sales team)
+ 
+in Shenzhen, China
+ 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230421/6f6a7aef/attachment.htm>
+
+From owner at bugs.debian.org  Tue Apr 25 20:27:16 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Tue, 25 Apr 2023 19:27:16 +0000
+Subject: [R-pkg-team] Processed: r-bioc-annotationhub: autopkgtest
+ regression: download failed
+References: <6e7d3add-5402-4dc4-64cc-09ac6b46c7fd@debian.org>
+ <6e7d3add-5402-4dc4-64cc-09ac6b46c7fd@debian.org>
+Message-ID: <handler.s.B.16824505672357393.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 bookworm-ignore
+Bug #1034852 [src:r-bioc-annotationhub] r-bioc-annotationhub: autopkgtest regression: download failed
+Added tag(s) bookworm-ignore.
+
+-- 
+1034852: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1034852
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From elbrus at debian.org  Tue Apr 25 20:22:44 2023
+From: elbrus at debian.org (Paul Gevers)
+Date: Tue, 25 Apr 2023 21:22:44 +0200
+Subject: [R-pkg-team] Bug#1034852: r-bioc-annotationhub: autopkgtest
+ regression: download failed
+Message-ID: <6e7d3add-5402-4dc4-64cc-09ac6b46c7fd@debian.org>
+
+Source: r-bioc-annotationhub
+Version: 3.6.0+dfsg-1
+Severity: serious
+Control: tags -1 bookworm-ignore
+User: debian-ci at lists.debian.org
+Usertags: regression
+
+Dear maintainer(s),
+
+Your package has an autopkgtest, great. However, it fails since April 
+2023. Can you please investigate the situation and fix it? I copied some 
+of the output at the bottom of this report.
+
+The release team has announced [1] that failing autopkgtest on amd64 and 
+arm64 are considered RC in testing. [Release Team member hat on] Because 
+we're currently in the hard freeze for bookworm, I have marked this bug 
+as bookworm-ignore. Targeted fixes are still welcome.
+
+More information about this bug and the reason for filing it can be 
+found on 
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[1] https://lists.debian.org/debian-devel-announce/2019/07/msg00002.html
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-bioc-annotationhub/33053151/log.gz
+
+RUNIT TEST PROTOCOL -- Fri Apr 21 23:47:54 2023
+***********************************************
+Number of test functions: 19
+Number of errors: 0
+Number of failures: 2
+
+
+1 Test Suite :
+AnnotationHub RUnit Tests - 19 test functions, 0 errors, 2 failures
+FAILURE in test_accessors_setters: Error in 
+checkIdentical(dates[length(dates)], hubDate(ah)) : FALSE
+
+FAILURE in test_db_connections: Error in checkIdentical(ids2, 
+AnnotationHub:::.db_uid(hub)) : FALSE
+
+
+Test files with failing tests
+
+    test_AnnotationHub-class.R
+      test_accessors_setters
+
+    test_db_utils.R
+      test_db_connections
+
+
+Error in BiocGenerics:::testPackage("AnnotationHub") :
+   unit tests failed for package AnnotationHub
+In addition: Warning message:
+download failed
+   hub path: ?bogus/url?
+   cache resource: ?AHInvalid : 5012?
+   reason: all(rtype == "web" | file.exists(fpath)) is not TRUE
+Execution halted
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OpenPGP_signature
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230425/945a5833/attachment.sig>
+
+From noreply at release.debian.org  Wed Apr 26 05:39:03 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 26 Apr 2023 04:39:03 +0000
+Subject: [R-pkg-team] r-cran-m2r is marked for autoremoval from testing
+Message-ID: <E1prWvn-00DdUg-5V@respighi.debian.org>
+
+r-cran-m2r 1.0.2+dfsg-3 is marked for autoremoval from testing on 2023-05-29
+
+It (build-)depends on packages with these RC bugs:
+1034443: python3-brial: uninstallable on arcitectures where sagemath is unavailable, breaks building of singular
+ https://bugs.debian.org/1034443
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From panjh at nacg.org.cn  Sun Apr 30 20:31:02 2023
+From: panjh at nacg.org.cn (nktdgqoc)
+Date: Mon, 1 May 2023 03:31:02 +0800
+Subject: [R-pkg-team] =?utf-8?b?6LSm5Y+35YGc55So6YCa55+l?=
+Message-ID: <202305010331074021176@nacg.org.cn>
+
+
+
+ ??????????
+
+
+???????r-pkg-team at alioth-lists.debian.net????????????? ????? ?????????????????
+????????????,?????????????????????????????????????????2023/5/1 3:31:07??????
+??????????IP?205.250.11.177?
+  ?????????zn?
+         ?????????? 
+
+ 
+
+ 
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230501/cd0f2dd1/attachment.htm>
+

@@ -1,0 +1,477 @@
+From owner at bugs.debian.org  Mon Dec 24 08:15:08 2018
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 24 Dec 2018 08:15:08 +0000
+Subject: [R-pkg-team] Processed: igraph: CVE-2018-20349
+References: <154563918207.5680.9527240734710739654.reportbug@eldamar.local>
+ <154563918207.5680.9527240734710739654.reportbug@eldamar.local>
+Message-ID: <handler.s.B.154563918632210.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> clone -1 -2
+Bug #917211 [src:igraph] igraph: CVE-2018-20349
+Bug 917211 cloned as bug 917212
+> reassign -2 src:r-cran-igraph 1.2.2-1
+Bug #917212 [src:igraph] igraph: CVE-2018-20349
+Bug reassigned from package 'src:igraph' to 'src:r-cran-igraph'.
+No longer marked as found in versions igraph/0.7.1-2.1.
+Ignoring request to alter fixed versions of bug #917212 to the same values previously set
+Bug #917212 [src:r-cran-igraph] igraph: CVE-2018-20349
+Marked as found in versions r-cran-igraph/1.2.2-1.
+> retitle -2 r-cran-igraph: CVE-2018-20349
+Bug #917212 [src:r-cran-igraph] igraph: CVE-2018-20349
+Changed Bug title to 'r-cran-igraph: CVE-2018-20349' from 'igraph: CVE-2018-20349'.
+> forwarded -1 https://github.com/igraph/igraph/issues/1141
+Bug #917211 [src:igraph] igraph: CVE-2018-20349
+Set Bug forwarded-to-address to 'https://github.com/igraph/igraph/issues/1141'.
+
+-- 
+917211: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=917211
+917212: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=917212
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:48 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:48 +0000
+Subject: [R-pkg-team] r-bioc-gviz 1.26.4-1 MIGRATED to testing
+Message-ID: <E1gbeVQ-0003KN-RU@respighi.debian.org>
+
+FYI: The status of the r-bioc-gviz source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.26.3-1
+  Current version:  1.26.4-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:48 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:48 +0000
+Subject: [R-pkg-team] r-cran-bold 0.8.6+dfsg-2 MIGRATED to testing
+Message-ID: <E1gbeVQ-0003KX-Uu@respighi.debian.org>
+
+FYI: The status of the r-cran-bold source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.8.0+dfsg-1
+  Current version:  0.8.6+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-libcoin 1.0-2-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003Km-40@respighi.debian.org>
+
+FYI: The status of the r-cran-libcoin source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.0-1-2
+  Current version:  1.0-2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-knitr 1.21+dfsg-2 MIGRATED to testing
+Message-ID: <E1gbeVR-0003Kh-2K@respighi.debian.org>
+
+FYI: The status of the r-cran-knitr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.20+dfsg-1
+  Current version:  1.21+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-pillar 1.3.1-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003Kr-5Z@respighi.debian.org>
+
+FYI: The status of the r-cran-pillar source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.0-1
+  Current version:  1.3.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-shinyfiles 0.7.2-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003L6-Aj@respighi.debian.org>
+
+FYI: The status of the r-cran-shinyfiles source package
+in Debian's testing distribution has changed.
+
+  Previous version: (not in testing)
+  Current version:  0.7.2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-stanheaders 2.18.0-1-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003LL-GJ@respighi.debian.org>
+
+FYI: The status of the r-cran-stanheaders source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.18.0-1
+  Current version:  2.18.0-1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:48 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:48 +0000
+Subject: [R-pkg-team] r-cran-backports 1.1.3-1 MIGRATED to testing
+Message-ID: <E1gbeVQ-0003KS-T9@respighi.debian.org>
+
+FYI: The status of the r-cran-backports source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1.2-2
+  Current version:  1.1.3-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-emmeans 1.3.1-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003Kc-0b@respighi.debian.org>
+
+FYI: The status of the r-cran-emmeans source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.0-1
+  Current version:  1.3.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-solrium 1.0.2+dfsg-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003LB-Cp@respighi.debian.org>
+
+FYI: The status of the r-cran-solrium source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.0.0+dfsg-1
+  Current version:  1.0.2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-rpostgresql 0.6-2+dfsg-2 MIGRATED to testing
+Message-ID: <E1gbeVR-0003Kw-7A@respighi.debian.org>
+
+FYI: The status of the r-cran-rpostgresql source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.6-2+dfsg-1
+  Current version:  0.6-2+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-spc 1:0.6.0-2 MIGRATED to testing
+Message-ID: <E1gbeVR-0003LG-Ec@respighi.debian.org>
+
+FYI: The status of the r-cran-spc source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1:0.6.0-1
+  Current version:  1:0.6.0-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-samr 3.0-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003L1-8s@respighi.debian.org>
+
+FYI: The status of the r-cran-samr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.0-2
+  Current version:  3.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-wdi 2.5.1-1 MIGRATED to testing
+Message-ID: <E1gbeVR-0003LV-KD@respighi.debian.org>
+
+FYI: The status of the r-cran-wdi source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.5-2
+  Current version:  2.5.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Dec 25 04:39:49 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 25 Dec 2018 04:39:49 +0000
+Subject: [R-pkg-team] r-cran-ucminf 1.1-4-2 MIGRATED to testing
+Message-ID: <E1gbeVR-0003LQ-IL@respighi.debian.org>
+
+FYI: The status of the r-cran-ucminf source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1-4-1
+  Current version:  1.1-4-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:09 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-mertools is marked for autoremoval from testing
+Message-ID: <E1gcNRt-0001bW-M3@respighi.debian.org>
+
+r-cran-mertools 0.4.1-1 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:10 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-heatmaply is marked for autoremoval from testing
+Message-ID: <E1gcNRu-0001bg-HY@respighi.debian.org>
+
+r-cran-heatmaply 0.15.2+dfsg-1 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:11 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-dt is marked for autoremoval from testing
+Message-ID: <E1gcNRv-0001br-0z@respighi.debian.org>
+
+r-cran-dt 0.5+dfsg-1 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:11 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-crosstalk is marked for autoremoval from testing
+Message-ID: <E1gcNRv-0001c5-Lz@respighi.debian.org>
+
+r-cran-crosstalk 1.0.0+dfsg-3 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shinythemes is marked for autoremoval from
+ testing
+Message-ID: <E1gcNRy-0001hB-Sf@respighi.debian.org>
+
+r-cran-shinythemes 1.1.2+dfsg-1 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing
+Message-ID: <E1gcNRz-0001hW-1R@respighi.debian.org>
+
+r-cran-rlumshiny 0.2.1-2 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-treespace is marked for autoremoval from testing
+Message-ID: <E1gcNRy-0001gE-D5@respighi.debian.org>
+
+r-cran-treespace 1.1.3+dfsg-1 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-plotly is marked for autoremoval from testing
+Message-ID: <E1gcNRz-0001i1-CB@respighi.debian.org>
+
+r-cran-plotly 4.8.0+dfsg-2 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-threejs is marked for autoremoval from testing
+Message-ID: <E1gcNRy-0001gu-Ni@respighi.debian.org>
+
+r-cran-threejs 0.3.1+dfsg-2 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-treescape is marked for autoremoval from testing
+Message-ID: <E1gcNRy-0001gW-IG@respighi.debian.org>
+
+r-cran-treescape 1.10.18+dfsg-1 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From noreply at release.debian.org  Thu Dec 27 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 27 Dec 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-rglwidget is marked for autoremoval from testing
+Message-ID: <E1gcNRz-0001hn-6l@respighi.debian.org>
+
+r-cran-rglwidget 0.2.1-3 is marked for autoremoval from testing on 2019-02-01
+
+It (build-)depends on packages with these RC bugs:
+916855: glewlwyd: FTBFS: no dependency information found for /build/ulfius-build/libulfius.so.2.3
+
+
+
+From johnlaw384 at gmail.com  Sun Dec 30 09:06:43 2018
+From: johnlaw384 at gmail.com (Law)
+Date: Sun, 30 Dec 2018 09:06:43 +0000
+Subject: [R-pkg-team] Good Morning?
+Message-ID: <CADhbPJ5JqoG_nHKsObL9JbZkjWgqx4wM+K-A57zhk=_eDP3Ytw@mail.gmail.com>
+
+Good Morning,
+
+Since my last mail I have not heard from you,Please I am waiting for your reply.
+
+Best regards,
+Robert
+
+

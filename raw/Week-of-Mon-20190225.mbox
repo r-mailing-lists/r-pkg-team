@@ -1,0 +1,1148 @@
+From noreply at release.debian.org  Mon Feb 25 04:39:14 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 25 Feb 2019 04:39:14 +0000
+Subject: [R-pkg-team] r-bioc-ebseq 1.22.1-2 MIGRATED to testing
+Message-ID: <E1gy82s-0005JV-8N@respighi.debian.org>
+
+FYI: The status of the r-bioc-ebseq source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.22.1-1
+  Current version:  1.22.1-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Mon Feb 25 04:39:14 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 25 Feb 2019 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-evaluate 0.13-1 MIGRATED to testing
+Message-ID: <E1gy82s-0005JY-AI@respighi.debian.org>
+
+FYI: The status of the r-cran-evaluate source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.12-1
+  Current version:  0.13-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Mon Feb 25 04:39:14 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 25 Feb 2019 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-stringr 1.4.0-1 MIGRATED to testing
+Message-ID: <E1gy82s-0005Jd-CF@respighi.debian.org>
+
+FYI: The status of the r-cran-stringr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.1-2
+  Current version:  1.4.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Feb 26 04:39:20 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 26 Feb 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-r6 2.4.0-1 MIGRATED to testing
+Message-ID: <E1gyUWW-0005W3-2Z@respighi.debian.org>
+
+FYI: The status of the r-cran-r6 source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.3.0-1
+  Current version:  2.4.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From johnsonmarian70 at gmail.com  Thu Feb 28 00:15:30 2019
+From: johnsonmarian70 at gmail.com (Johnson marian)
+Date: Thu, 28 Feb 2019 00:15:30 +0000
+Subject: [R-pkg-team] hi
+Message-ID: <CALw-48Udv3Stcr3rO1p0E8c3dzqAbDyVVsC2fxk2fk8fvCqY9w@mail.gmail.com>
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190228/b15b8b52/attachment.html>
+
+From owner at bugs.debian.org  Thu Feb 28 11:33:05 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 28 Feb 2019 11:33:05 +0000
+Subject: [R-pkg-team] Processed: openssl breaks r-cran-openssl autopkgtest
+References: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <handler.s.B.15513533562683.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> found -1 openssl/1.1.1b-1
+Bug #923447 [src:openssl, src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Marked as found in versions openssl/1.1.1b-1.
+> found -1 r-cran-openssl/1.2.1+dfsg-1
+Bug #923447 [src:openssl, src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Marked as found in versions r-cran-openssl/1.2.1+dfsg-1.
+
+-- 
+923447: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923447
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From elbrus at debian.org  Thu Feb 28 11:29:12 2019
+From: elbrus at debian.org (Paul Gevers)
+Date: Thu, 28 Feb 2019 12:29:12 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+Message-ID: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+
+Source: openssl, r-cran-openssl
+Control: found -1 openssl/1.1.1b-1
+Control: found -1 r-cran-openssl/1.2.1+dfsg-1
+Severity: important
+X-Debbugs-CC: debian-ci at lists.debian.org
+User: debian-ci at lists.debian.org
+Usertags: breaks needs-update
+
+Dear maintainers,
+
+With a recent upload of openssl the autopkgtest of r-cran-openssl fails
+in testing when that autopkgtest is run with the binary packages of
+openssl from unstable. It passes when run with only packages from
+testing. In tabular form:
+                       pass            fail
+openssl                from testing    1.1.1b-1
+r-cran-openssl         from testing    1.2.1+dfsg-1
+all others             from testing    from testing
+
+I copied some of the output at the bottom of this report. The error
+looks quite scary to me, but I have no idea if this means that
+r-cran-openssl is really failing, or if openssl has changed it's
+interface in a bad way.
+
+Currently this regression is blocking the migration of openssl to
+testing [1]. Due to the nature of this issue, I filed this bug report
+against both packages. Can you please investigate the situation and
+reassign the bug to the right package? If needed, please change the
+bug's severity.
+
+Please note that the window to fix this to allow openssl to migrate
+without intervention is closing extremely soon.
+
+More information about this bug and the reason for filing it can be found on
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[1] https://qa.debian.org/excuses.php?package=openssl
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-openssl/2021380/log.gz
+
+autopkgtest [21:16:05]: test run-unit-test: [-----------------------
+
+R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(testthat)
+> library(openssl)
+>
+> test_check("openssl")
+double free or corruption (fasttop)
+Aborted
+autopkgtest [21:16:05]: test run-unit-test: -----------------------]
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 488 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190228/e92affb2/attachment.sig>
+
+From lz247366 at gmail.com  Thu Feb 28 14:10:20 2019
+From: lz247366 at gmail.com (Mark David Bowen)
+Date: Thu, 28 Feb 2019 06:10:20 -0800
+Subject: [R-pkg-team] ATTENTION:
+Message-ID: <CALS09pBHu0oHtGq36j_Pdmz+P8QM7WZXMOkA8nFhomzBu5Q-=A@mail.gmail.com>
+
+ATTN:
+
+I am Mr.Mark David Bowen, writing you in respect of my deceased
+client,I have been trying to locate any member of his family to assist
+in repatriating his fund he deposited in finance house valued at
+US$10.500.000 .Contact me with your full names, occupation, country of
+residence and direct telephone number for full details regards this
+claim. I await your urgent response today.
+
+Regards,
+Mark David Bowen Esq
+ALTERVATIVE EMAIL markdbesqq at yahoo.com
+
+
+From tille at debian.org  Thu Feb 28 16:24:05 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 28 Feb 2019 17:24:05 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+References: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+
+Hi,
+
+I'd be deligted if somebody from the team could care since I'm
+basically offline-ish until 4.3.
+
+Thank you, Andreas.
+
+On Thu, Feb 28, 2019 at 12:29:12PM +0100, Paul Gevers wrote:
+> Source: openssl, r-cran-openssl
+> Control: found -1 openssl/1.1.1b-1
+> Control: found -1 r-cran-openssl/1.2.1+dfsg-1
+> Severity: important
+> X-Debbugs-CC: debian-ci at lists.debian.org
+> User: debian-ci at lists.debian.org
+> Usertags: breaks needs-update
+> 
+> Dear maintainers,
+> 
+> With a recent upload of openssl the autopkgtest of r-cran-openssl fails
+> in testing when that autopkgtest is run with the binary packages of
+> openssl from unstable. It passes when run with only packages from
+> testing. In tabular form:
+>                        pass            fail
+> openssl                from testing    1.1.1b-1
+> r-cran-openssl         from testing    1.2.1+dfsg-1
+> all others             from testing    from testing
+> 
+> I copied some of the output at the bottom of this report. The error
+> looks quite scary to me, but I have no idea if this means that
+> r-cran-openssl is really failing, or if openssl has changed it's
+> interface in a bad way.
+> 
+> Currently this regression is blocking the migration of openssl to
+> testing [1]. Due to the nature of this issue, I filed this bug report
+> against both packages. Can you please investigate the situation and
+> reassign the bug to the right package? If needed, please change the
+> bug's severity.
+> 
+> Please note that the window to fix this to allow openssl to migrate
+> without intervention is closing extremely soon.
+> 
+> More information about this bug and the reason for filing it can be found on
+> https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+> 
+> Paul
+> 
+> [1] https://qa.debian.org/excuses.php?package=openssl
+> 
+> https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-openssl/2021380/log.gz
+> 
+> autopkgtest [21:16:05]: test run-unit-test: [-----------------------
+> 
+> R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+> Copyright (C) 2018 The R Foundation for Statistical Computing
+> Platform: x86_64-pc-linux-gnu (64-bit)
+> 
+> R is free software and comes with ABSOLUTELY NO WARRANTY.
+> You are welcome to redistribute it under certain conditions.
+> Type 'license()' or 'licence()' for distribution details.
+> 
+> R is a collaborative project with many contributors.
+> Type 'contributors()' for more information and
+> 'citation()' on how to cite R or R packages in publications.
+> 
+> Type 'demo()' for some demos, 'help()' for on-line help, or
+> 'help.start()' for an HTML browser interface to help.
+> Type 'q()' to quit R.
+> 
+> > library(testthat)
+> > library(openssl)
+> >
+> > test_check("openssl")
+> double free or corruption (fasttop)
+> Aborted
+> autopkgtest [21:16:05]: test run-unit-test: -----------------------]
+> 
+
+
+
+
+> _______________________________________________
+> R-pkg-team mailing list
+> R-pkg-team at alioth-lists.debian.net
+> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+
+
+-- 
+http://fam-tille.de
+
+
+From owner at bugs.debian.org  Fri Mar  1 08:36:04 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 01 Mar 2019 08:36:04 +0000
+Subject: [R-pkg-team] Processed: your mail
+References: <CA+6XHwTaTQFax5D+MGPRxzRYJKaEPOXw-biMMcV2U_hLCE2tGQ@mail.gmail.com>
+Message-ID: <handler.s.C.15514292974816.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> forwarded 923447 https://github.com/jeroen/openssl/issues/63
+Bug #923447 [src:openssl, src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Set Bug forwarded-to-address to 'https://github.com/jeroen/openssl/issues/63'.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+923447: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923447
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From jeroenooms at gmail.com  Fri Mar  1 09:59:01 2019
+From: jeroenooms at gmail.com (Jeroen Ooms)
+Date: Fri, 1 Mar 2019 10:59:01 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+References: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+
+I have submitted a hotfix release openssl 1.2.2 to cran that should
+fix the issue. It should be there soon.
+
+
+
+
+On Thu, Feb 28, 2019 at 5:24 PM Andreas Tille <tille at debian.org> wrote:
+>
+> Hi,
+>
+> I'd be deligted if somebody from the team could care since I'm
+> basically offline-ish until 4.3.
+>
+> Thank you, Andreas.
+>
+> On Thu, Feb 28, 2019 at 12:29:12PM +0100, Paul Gevers wrote:
+> > Source: openssl, r-cran-openssl
+> > Control: found -1 openssl/1.1.1b-1
+> > Control: found -1 r-cran-openssl/1.2.1+dfsg-1
+> > Severity: important
+> > X-Debbugs-CC: debian-ci at lists.debian.org
+> > User: debian-ci at lists.debian.org
+> > Usertags: breaks needs-update
+> >
+> > Dear maintainers,
+> >
+> > With a recent upload of openssl the autopkgtest of r-cran-openssl fails
+> > in testing when that autopkgtest is run with the binary packages of
+> > openssl from unstable. It passes when run with only packages from
+> > testing. In tabular form:
+> >                        pass            fail
+> > openssl                from testing    1.1.1b-1
+> > r-cran-openssl         from testing    1.2.1+dfsg-1
+> > all others             from testing    from testing
+> >
+> > I copied some of the output at the bottom of this report. The error
+> > looks quite scary to me, but I have no idea if this means that
+> > r-cran-openssl is really failing, or if openssl has changed it's
+> > interface in a bad way.
+> >
+> > Currently this regression is blocking the migration of openssl to
+> > testing [1]. Due to the nature of this issue, I filed this bug report
+> > against both packages. Can you please investigate the situation and
+> > reassign the bug to the right package? If needed, please change the
+> > bug's severity.
+> >
+> > Please note that the window to fix this to allow openssl to migrate
+> > without intervention is closing extremely soon.
+> >
+> > More information about this bug and the reason for filing it can be found on
+> > https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+> >
+> > Paul
+> >
+> > [1] https://qa.debian.org/excuses.php?package=openssl
+> >
+> > https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-openssl/2021380/log.gz
+> >
+> > autopkgtest [21:16:05]: test run-unit-test: [-----------------------
+> >
+> > R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+> > Copyright (C) 2018 The R Foundation for Statistical Computing
+> > Platform: x86_64-pc-linux-gnu (64-bit)
+> >
+> > R is free software and comes with ABSOLUTELY NO WARRANTY.
+> > You are welcome to redistribute it under certain conditions.
+> > Type 'license()' or 'licence()' for distribution details.
+> >
+> > R is a collaborative project with many contributors.
+> > Type 'contributors()' for more information and
+> > 'citation()' on how to cite R or R packages in publications.
+> >
+> > Type 'demo()' for some demos, 'help()' for on-line help, or
+> > 'help.start()' for an HTML browser interface to help.
+> > Type 'q()' to quit R.
+> >
+> > > library(testthat)
+> > > library(openssl)
+> > >
+> > > test_check("openssl")
+> > double free or corruption (fasttop)
+> > Aborted
+> > autopkgtest [21:16:05]: test run-unit-test: -----------------------]
+> >
+>
+>
+>
+>
+> > _______________________________________________
+> > R-pkg-team mailing list
+> > R-pkg-team at alioth-lists.debian.net
+> > https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+>
+>
+> --
+> http://fam-tille.de
+>
+
+
+From jeroenooms at gmail.com  Fri Mar  1 10:16:35 2019
+From: jeroenooms at gmail.com (Jeroen Ooms)
+Date: Fri, 1 Mar 2019 11:16:35 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+References: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+
+FWIW, the underlying problem in a regression in libssl though. So if
+the problem appears for other packages you could also backport this
+libssl patch: https://github.com/openssl/openssl/issues/8375
+
+
+
+
+
+On Fri, Mar 1, 2019 at 10:59 AM Jeroen Ooms <jeroenooms at gmail.com> wrote:
+>
+> I have submitted a hotfix release openssl 1.2.2 to cran that should
+> fix the issue. It should be there soon.
+>
+>
+>
+>
+> On Thu, Feb 28, 2019 at 5:24 PM Andreas Tille <tille at debian.org> wrote:
+> >
+> > Hi,
+> >
+> > I'd be deligted if somebody from the team could care since I'm
+> > basically offline-ish until 4.3.
+> >
+> > Thank you, Andreas.
+> >
+> > On Thu, Feb 28, 2019 at 12:29:12PM +0100, Paul Gevers wrote:
+> > > Source: openssl, r-cran-openssl
+> > > Control: found -1 openssl/1.1.1b-1
+> > > Control: found -1 r-cran-openssl/1.2.1+dfsg-1
+> > > Severity: important
+> > > X-Debbugs-CC: debian-ci at lists.debian.org
+> > > User: debian-ci at lists.debian.org
+> > > Usertags: breaks needs-update
+> > >
+> > > Dear maintainers,
+> > >
+> > > With a recent upload of openssl the autopkgtest of r-cran-openssl fails
+> > > in testing when that autopkgtest is run with the binary packages of
+> > > openssl from unstable. It passes when run with only packages from
+> > > testing. In tabular form:
+> > >                        pass            fail
+> > > openssl                from testing    1.1.1b-1
+> > > r-cran-openssl         from testing    1.2.1+dfsg-1
+> > > all others             from testing    from testing
+> > >
+> > > I copied some of the output at the bottom of this report. The error
+> > > looks quite scary to me, but I have no idea if this means that
+> > > r-cran-openssl is really failing, or if openssl has changed it's
+> > > interface in a bad way.
+> > >
+> > > Currently this regression is blocking the migration of openssl to
+> > > testing [1]. Due to the nature of this issue, I filed this bug report
+> > > against both packages. Can you please investigate the situation and
+> > > reassign the bug to the right package? If needed, please change the
+> > > bug's severity.
+> > >
+> > > Please note that the window to fix this to allow openssl to migrate
+> > > without intervention is closing extremely soon.
+> > >
+> > > More information about this bug and the reason for filing it can be found on
+> > > https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+> > >
+> > > Paul
+> > >
+> > > [1] https://qa.debian.org/excuses.php?package=openssl
+> > >
+> > > https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-openssl/2021380/log.gz
+> > >
+> > > autopkgtest [21:16:05]: test run-unit-test: [-----------------------
+> > >
+> > > R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+> > > Copyright (C) 2018 The R Foundation for Statistical Computing
+> > > Platform: x86_64-pc-linux-gnu (64-bit)
+> > >
+> > > R is free software and comes with ABSOLUTELY NO WARRANTY.
+> > > You are welcome to redistribute it under certain conditions.
+> > > Type 'license()' or 'licence()' for distribution details.
+> > >
+> > > R is a collaborative project with many contributors.
+> > > Type 'contributors()' for more information and
+> > > 'citation()' on how to cite R or R packages in publications.
+> > >
+> > > Type 'demo()' for some demos, 'help()' for on-line help, or
+> > > 'help.start()' for an HTML browser interface to help.
+> > > Type 'q()' to quit R.
+> > >
+> > > > library(testthat)
+> > > > library(openssl)
+> > > >
+> > > > test_check("openssl")
+> > > double free or corruption (fasttop)
+> > > Aborted
+> > > autopkgtest [21:16:05]: test run-unit-test: -----------------------]
+> > >
+> >
+> >
+> >
+> >
+> > > _______________________________________________
+> > > R-pkg-team mailing list
+> > > R-pkg-team at alioth-lists.debian.net
+> > > https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+> >
+> >
+> > --
+> > http://fam-tille.de
+> >
+
+
+From elbrus at debian.org  Fri Mar  1 10:31:43 2019
+From: elbrus at debian.org (Paul Gevers)
+Date: Fri, 1 Mar 2019 11:31:43 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+References: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <c3489d85-fd60-e998-7ebe-3018cd9ac0bc@debian.org>
+
+clone 923447 -1
+reassign 923447 src:r-cran-openssl 1.2.1+dfsg-1
+retitle 923447 r-cran-openssl needs update for new openssl
+reassign -1 src:openssl 1.1.1b-1
+retitle -1 openssl: regression in memory problems with BUF_MEM
+affects -1 src:r-cran-openssl
+tags -1 upstream patch
+forwarded -1 https://github.com/openssl/openssl/issues/8375
+thanks
+
+Hi Jeroen, others,
+
+On 01-03-2019 11:16, Jeroen Ooms wrote:
+> FWIW, the underlying problem in a regression in libssl though. So if
+> the problem appears for other packages you could also backport this
+> libssl patch: https://github.com/openssl/openssl/issues/8375
+
+So if I understand correctly, you improved r-cran-openssl to handle the
+new situation, but libssl regressed as well. I have cloned this bug and
+have tried to put your information correctly into the meta-data. Please
+fix those if you think I made a mistake. I am not sure about the
+severity of the libssl bug, so I'll leave that up to the libssl
+maintainers to set correctly.
+
+Paul
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 488 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190301/1f20c492/attachment.sig>
+
+From owner at bugs.debian.org  Fri Mar  1 10:33:18 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 01 Mar 2019 10:33:18 +0000
+Subject: [R-pkg-team] Processed: Re: Bug#923447: openssl breaks
+ r-cran-openssl autopkgtest
+References: <c3489d85-fd60-e998-7ebe-3018cd9ac0bc@debian.org>
+Message-ID: <handler.s.C.15514363077257.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> clone 923447 -1
+Bug #923447 [src:openssl, src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Bug 923447 cloned as bug 923516
+> reassign 923447 src:r-cran-openssl 1.2.1+dfsg-1
+Bug #923447 [src:openssl, src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Bug reassigned from package 'src:openssl, src:r-cran-openssl' to 'src:r-cran-openssl'.
+No longer marked as found in versions openssl/1.1.1b-1 and r-cran-openssl/1.2.1+dfsg-1.
+Ignoring request to alter fixed versions of bug #923447 to the same values previously set
+Bug #923447 [src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Marked as found in versions r-cran-openssl/1.2.1+dfsg-1.
+> retitle 923447 r-cran-openssl needs update for new openssl
+Bug #923447 [src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Changed Bug title to 'r-cran-openssl needs update for new openssl' from 'openssl breaks r-cran-openssl autopkgtest'.
+> reassign -1 src:openssl 1.1.1b-1
+Bug #923516 [src:openssl, src:r-cran-openssl] openssl breaks r-cran-openssl autopkgtest
+Bug reassigned from package 'src:openssl, src:r-cran-openssl' to 'src:openssl'.
+No longer marked as found in versions openssl/1.1.1b-1 and r-cran-openssl/1.2.1+dfsg-1.
+Ignoring request to alter fixed versions of bug #923516 to the same values previously set
+Bug #923516 [src:openssl] openssl breaks r-cran-openssl autopkgtest
+Marked as found in versions openssl/1.1.1b-1.
+> retitle -1 openssl: regression in memory problems with BUF_MEM
+Bug #923516 [src:openssl] openssl breaks r-cran-openssl autopkgtest
+Changed Bug title to 'openssl: regression in memory problems with BUF_MEM' from 'openssl breaks r-cran-openssl autopkgtest'.
+> affects -1 src:r-cran-openssl
+Bug #923516 [src:openssl] openssl: regression in memory problems with BUF_MEM
+Added indication that 923516 affects src:r-cran-openssl
+> tags -1 upstream patch
+Bug #923516 [src:openssl] openssl: regression in memory problems with BUF_MEM
+Added tag(s) patch and upstream.
+> forwarded -1 https://github.com/openssl/openssl/issues/8375
+Bug #923516 [src:openssl] openssl: regression in memory problems with BUF_MEM
+Changed Bug forwarded-to-address to 'https://github.com/openssl/openssl/issues/8375' from 'https://github.com/jeroen/openssl/issues/63'.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+923447: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923447
+923516: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923516
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From sebastian at breakpoint.cc  Fri Mar  1 19:05:52 2019
+From: sebastian at breakpoint.cc (Sebastian Andrzej Siewior)
+Date: Fri, 1 Mar 2019 20:05:52 +0100
+Subject: [R-pkg-team] Bug#923447: [Pkg-openssl-devel] Bug#923447: openssl
+ breaks r-cran-openssl autopkgtest
+In-Reply-To: <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+References: <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <20190301190551.tqo4qybhqh7mfhqf@flow>
+
+On 2019-03-01 11:16:35 [+0100], Jeroen Ooms wrote:
+> FWIW, the underlying problem in a regression in libssl though. So if
+> the problem appears for other packages you could also backport this
+> libssl patch: https://github.com/openssl/openssl/issues/8375
+
+Does this problem solve your problem or does it have nothing to do with
+the current situation?
+
+Sebastian
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar  1 21:09:02 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 01 Mar 2019 21:09:02 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-openssl_1.2.2+dfsg-1_source.changes
+Message-ID: <E1gzpOw-0003fn-Do@usper.debian.org>
+
+r-cran-openssl_1.2.2+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-openssl_1.2.2+dfsg-1.dsc
+  r-cran-openssl_1.2.2+dfsg.orig.tar.xz
+  r-cran-openssl_1.2.2+dfsg-1.debian.tar.xz
+  r-cran-openssl_1.2.2+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar  1 21:27:54 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 01 Mar 2019 21:27:54 +0000
+Subject: [R-pkg-team] r-cran-openssl_1.2.2+dfsg-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1gzphC-000B1i-Fv@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 01 Mar 2019 20:55:06 +0100
+Source: r-cran-openssl
+Architecture: source
+Version: 1.2.2+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-openssl (1.2.2+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+Checksums-Sha1:
+ 05f34d6b4410dcb9a9b17d5cb7218d5d56d7783c 2141 r-cran-openssl_1.2.2+dfsg-1.dsc
+ ca2a5336e9a63a58af1c2fa98ee5236716c79453 219592 r-cran-openssl_1.2.2+dfsg.orig.tar.xz
+ 06802725f0a8f31b7f9f138454b13c52c75d32a4 3080 r-cran-openssl_1.2.2+dfsg-1.debian.tar.xz
+ 9fc2efc93e30ca88269c43bb3ec1c7f66293c6a7 8564 r-cran-openssl_1.2.2+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ fd3fbb6371851d7b6cbb73ee4480ab0b82603ab506ecdf7419f5178b89f87df8 2141 r-cran-openssl_1.2.2+dfsg-1.dsc
+ a5f64460c1d580710d12527573d1163737f54e95919e785511fb83b240280031 219592 r-cran-openssl_1.2.2+dfsg.orig.tar.xz
+ 73f45c31e64a13abf582fc799a0fb5e52d1ec16782917b201ce78b15ba35301e 3080 r-cran-openssl_1.2.2+dfsg-1.debian.tar.xz
+ 15ed0366aa8b261d5c6d8d5024c07987af357b8d4b11aea24f7f719f26933031 8564 r-cran-openssl_1.2.2+dfsg-1_amd64.buildinfo
+Files:
+ 583338863e5e44c9172b8de322808c5b 2141 gnu-r optional r-cran-openssl_1.2.2+dfsg-1.dsc
+ 79e1db95745ba07d1b9eeb2424d77e47 219592 gnu-r optional r-cran-openssl_1.2.2+dfsg.orig.tar.xz
+ ded3047d3d509bc756f7527fe162742a 3080 gnu-r optional r-cran-openssl_1.2.2+dfsg-1.debian.tar.xz
+ 9b5777718e59604b6c632ca68283b837 8564 gnu-r optional r-cran-openssl_1.2.2+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlx5nAwSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UMOEP/0Uljm1rSEXtBjjLkDqzfFocQCbwK8wO
+iQlIeL4uMzpf3oIP7RCIDTX9PxKjbAES60FpBkxyvJD4KPY9uQm8dsAuYVm+7pyz
+/F1fkXyeBlQZ229umRoFj0UQqTkju7qOmJgQYQq457+9b1ZGZJRYvG1HSqR1B2cF
+/0QcOwnMElOUNz5ow1LQtVKhYnEnkqQ5/xDrsjr47nElC28nGabsz77tHOU3dIAK
+6tiQpZtLfeOtJh1lGBgkpPHcfE3xrnbSSjX9q18TEEFZMnMx4xhJ+S6rvNgLh1RP
+8HJSWEBEXM8DUI7dzKjMR26wMgUT1IZgpKcfaj4cG1hItHwZOsdi+poA7+RZwjm/
+OKmtprVwf2pFuyKhGK5yYRSNZGghRTObNI8N14gpb79jDyZeT++1GfdrB6bdAUgA
+qe45fepHsbpfn3RPzCmeyyU6tSL5Dvca7VaJBx+M8aLG1n79gVsxAu+4XJH1FMwr
+O837G8TjEFL1qMbKjx9yckvssC0e2uL1IDfVBIGxGXcCKf9Tx4pg3MZoveXMqc3H
+e6mBaow6OmjNJayU/s09MHMAaD74utLrRPOlbxCr9scJ+C7TFziMhIzImQNE8VUw
+vXuTxCoFnd96UwkN738iQ4FrwUvQ2zXwq7L0JIefW33zUXNlIQrj1jnl81lR3eon
+Ss8gyoV3Bjdg
+=MPVb
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar  1 22:32:38 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 01 Mar 2019 22:32:38 +0000
+Subject: [R-pkg-team] Processing of
+ r-other-x4r_1.0.1+git20150806.c6bd9bd-2_source.changes
+Message-ID: <E1gzqhq-0000Xu-35@usper.debian.org>
+
+r-other-x4r_1.0.1+git20150806.c6bd9bd-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-other-x4r_1.0.1+git20150806.c6bd9bd-2.dsc
+  r-other-x4r_1.0.1+git20150806.c6bd9bd-2.debian.tar.xz
+  r-other-x4r_1.0.1+git20150806.c6bd9bd-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar  1 22:36:21 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 01 Mar 2019 22:36:21 +0000
+Subject: [R-pkg-team] r-other-x4r_1.0.1+git20150806.c6bd9bd-2_source.changes
+ ACCEPTED into unstable
+Message-ID: <E1gzqlR-0003Ws-1t@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 01 Mar 2019 23:16:45 +0100
+Source: r-other-x4r
+Architecture: source
+Version: 1.0.1+git20150806.c6bd9bd-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-other-x4r (1.0.1+git20150806.c6bd9bd-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Add patches from the gSOAP package to fix security issues:
+     * Fix for CVE-2019-7659
+     * Fix issue with DIME protocol receiver and malformed DIME headers
+     * Fix for CVE-2017-9765
+Checksums-Sha1:
+ 7f45ed88417ef9ed5b8808a4a4fcfac5261463ce 2169 r-other-x4r_1.0.1+git20150806.c6bd9bd-2.dsc
+ d4a8d4c2019b0b862e64faafa207978112bb5159 2672 r-other-x4r_1.0.1+git20150806.c6bd9bd-2.debian.tar.xz
+ 69d33a2e33ca84d61f657231c4d1647df9c54980 8731 r-other-x4r_1.0.1+git20150806.c6bd9bd-2_amd64.buildinfo
+Checksums-Sha256:
+ 5cfdcb699457dd1536362d7e1dbb5347a93876680739c07d81cf81e0a4bcb531 2169 r-other-x4r_1.0.1+git20150806.c6bd9bd-2.dsc
+ 0147c4307a44659bba5017b8d78ec5d54df49def3e54356d7fef09fcda7508d7 2672 r-other-x4r_1.0.1+git20150806.c6bd9bd-2.debian.tar.xz
+ 868423044d02cca0c372a8baa9f50d54c90e084b94667a29eb41321ee8d1aee4 8731 r-other-x4r_1.0.1+git20150806.c6bd9bd-2_amd64.buildinfo
+Files:
+ fa89f9b64cceec323243e539b04c554b 2169 gnu-r optional r-other-x4r_1.0.1+git20150806.c6bd9bd-2.dsc
+ 034144cde4336cad5e70d17c6d03e80c 2672 gnu-r optional r-other-x4r_1.0.1+git20150806.c6bd9bd-2.debian.tar.xz
+ 7a1e8451cbe50c4f5e693b883047a75d 8731 gnu-r optional r-other-x4r_1.0.1+git20150806.c6bd9bd-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlx5sJISHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9ULEcP/0loiq6ovWnjTdlgk1BZ+MYvy7TVqIUP
+3lrMmiY9XaUd0F5UeIEd3lYHurH6ZxTx/m/Zld9U0K/ZHZj2qBFO4v+jL5DeApME
+5FKH/K1Xo20su6NYcaJA1s8taU6VprfdzsgBQavxt9eBbAAZB7bpVVdmZ66bqES7
+8DbTdMA0l58aoANTiVLGb0LA8Gdu4hPl5HFn4Q6NkojpBi/dBTQQZ1bj27NVJvXJ
+lcQkqqbYUdz2XVf/1T677i57ivx9xDpqyCyHty6XwUk7AwgP2m9z6g8teF8amPQh
+MfCRKqAyU2CRTAzAHnGexb+NbUTkXomvGVMyPVjce41IfW4gPiTqFpp5FiY5hXMZ
+2Q9ia5F2AKoMjz38Qmxv60qRhbH/o32L8SOlspGiEtwx8nl26piN4sZ0thkAm3VI
+q1f8T8J5pO7TywEHfyrvCNghK03Owjr8rES6fNhk6o70yQ9FVc5YUinzHLQWHycC
+iXN4YOpKQZq4YzdwkpqK7fsHLHGWzxK1k1jr6Lzx6q7yDLn01IGRITmKAJn4C2SA
+ohi8SDxPDuIJsCkmRr2ehUMVzNLxQd2sRX0KzflvEkiHU+pncFa5iBUkcsWUUqrM
+lp+7+O2nWNgt5wGEO6ZyAvK3Zp6fBrusYabOU/9fhTrVeuS9l6DO+6ZoKQt36e1r
+GoIaCHFYRruu
+=YKTO
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From jeroenooms at gmail.com  Fri Mar  1 22:55:11 2019
+From: jeroenooms at gmail.com (Jeroen Ooms)
+Date: Fri, 1 Mar 2019 23:55:11 +0100
+Subject: [R-pkg-team] Bug#923447: [Pkg-openssl-devel] Bug#923447: openssl
+ breaks r-cran-openssl autopkgtest
+In-Reply-To: <20190301190551.tqo4qybhqh7mfhqf@flow>
+References: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <20190301190551.tqo4qybhqh7mfhqf@flow>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <CABFfbXvScEpXoZu6MHUdMx=ds8b73vgifX=rg3yUX+FQiXSdAg@mail.gmail.com>
+
+On Fri, Mar 1, 2019 at 8:05 PM Sebastian Andrzej Siewior
+<sebastian at breakpoint.cc> wrote:
+>
+> On 2019-03-01 11:16:35 [+0100], Jeroen Ooms wrote:
+> > FWIW, the underlying problem in a regression in libssl though. So if
+> > the problem appears for other packages you could also backport this
+> > libssl patch: https://github.com/openssl/openssl/issues/8375
+>
+> Does this problem solve your problem or does it have nothing to do with
+> the current situation?
+
+As stated, that is the bug report in libssl which causes the crash in
+r-cran-openssl (and the first reply links to a PR with a patch).
+
+I have released a workaround in the R bindings so that it can work
+with libssl 1.1.1b as-is. Hence in other to fix the crash in
+r-cran-openssl, you either need to update to upstream version 1.2.2,
+or alternatively, you could backport the libssl patch from the
+discussion above.
+
+
+From owner at bugs.debian.org  Sat Mar  2 07:21:06 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sat, 02 Mar 2019 07:21:06 +0000
+Subject: [R-pkg-team] Bug#923447: marked as done (r-cran-openssl needs
+ update for new openssl)
+References: <CA+6XHwTXfLv-dmiDYP8e92bS4SLAawAkPOL3_j8DuRuf4Bj8TA@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <handler.923447.D923447.155151107024531.ackdone@bugs.debian.org>
+
+Your message dated Sat, 2 Mar 2019 08:16:34 +0100
+with message-id <CA+6XHwTXfLv-dmiDYP8e92bS4SLAawAkPOL3_j8DuRuf4Bj8TA at mail.gmail.com>
+and subject line 
+has caused the Debian Bug report #923447,
+regarding r-cran-openssl needs update for new openssl
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+923447: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923447
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Paul Gevers <elbrus at debian.org>
+Subject: openssl breaks r-cran-openssl autopkgtest
+Date: Thu, 28 Feb 2019 12:29:12 +0100
+Size: 7828
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190302/6edbf912/attachment-0002.mht>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: =?UTF-8?B?RHlsYW4gQcOvc3Np?= <daissi at debian.org>
+Subject: 
+Date: Sat, 2 Mar 2019 08:16:34 +0100
+Size: 3101
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190302/6edbf912/attachment-0003.mht>
+
+From owner at bugs.debian.org  Sat Mar  2 07:36:03 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sat, 02 Mar 2019 07:36:03 +0000
+Subject: [R-pkg-team] Processed: your mail
+References: <CA+6XHwSWyCzyx-vdeZXp9tt4Tgz7dTQErXG43o+C8FWJRDf58g@mail.gmail.com>
+Message-ID: <handler.s.C.155151154428089.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> fixed 923447 1.2.2+dfsg-1
+Bug #923447 {Done: Dylan Aïssi <daissi at debian.org>} [src:r-cran-openssl] r-cran-openssl needs update for new openssl
+Marked as fixed in versions r-cran-openssl/1.2.2+dfsg-1.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+923447: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923447
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From sebastian at breakpoint.cc  Sat Mar  2 10:26:02 2019
+From: sebastian at breakpoint.cc (Sebastian Andrzej Siewior)
+Date: Sat, 2 Mar 2019 11:26:02 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <CABFfbXvScEpXoZu6MHUdMx=ds8b73vgifX=rg3yUX+FQiXSdAg@mail.gmail.com>
+References: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <20190301190551.tqo4qybhqh7mfhqf@flow>
+ <CABFfbXvScEpXoZu6MHUdMx=ds8b73vgifX=rg3yUX+FQiXSdAg@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <20190302102601.n5gilowsxmlju6we@flow>
+
+On 2019-03-01 23:55:11 [+0100], Jeroen Ooms wrote:
+> On Fri, Mar 1, 2019 at 8:05 PM Sebastian Andrzej Siewior
+> <sebastian at breakpoint.cc> wrote:
+> >
+> > On 2019-03-01 11:16:35 [+0100], Jeroen Ooms wrote:
+> > > FWIW, the underlying problem in a regression in libssl though. So if
+> > > the problem appears for other packages you could also backport this
+> > > libssl patch: https://github.com/openssl/openssl/issues/8375
+> >
+> > Does this problem solve your problem or does it have nothing to do with
+> > the current situation?
+> 
+> As stated, that is the bug report in libssl which causes the crash in
+> r-cran-openssl (and the first reply links to a PR with a patch).
+> 
+> I have released a workaround in the R bindings so that it can work
+> with libssl 1.1.1b as-is. Hence in other to fix the crash in
+> r-cran-openssl, you either need to update to upstream version 1.2.2,
+> or alternatively, you could backport the libssl patch from the
+> discussion above.
+
+So if the bug is really in libssl1.1 then I don't see why you should do
+something. I will try to backport that commit then and make a new
+upload.
+
+Sebastian
+
+
+From sebastien at debian.org  Sat Mar  2 10:54:54 2019
+From: sebastien at debian.org (=?UTF-8?Q?S=C3=A9bastien?= Villemot)
+Date: Sat, 02 Mar 2019 11:54:54 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <20190302102601.n5gilowsxmlju6we@flow>
+References: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <20190301190551.tqo4qybhqh7mfhqf@flow>
+ <CABFfbXvScEpXoZu6MHUdMx=ds8b73vgifX=rg3yUX+FQiXSdAg@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190302102601.n5gilowsxmlju6we@flow>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <1551524094.32336.34.camel@debian.org>
+
+Le samedi 02 mars 2019 à 11:26 +0100, Sebastian Andrzej Siewior a écrit :
+> 
+> So if the bug is really in libssl1.1 then I don't see why you should do
+> something. I will try to backport that commit then and make a new
+> upload.
+
+Note that the bug has already been fixed in Debian (r-cran-openssl
+1.2.2+dfsg-1), so no need for a new upload.
+
+Thanks,
+
+-- 
+⢀⣴⠾⠻⢶⣦⠀  Sébastien Villemot
+⣾⠁⢠⠒⠀⣿⡁  Debian Developer
+⢿⡄⠘⠷⠚⠋⠀  http://sebastien.villemot.name
+⠈⠳⣄⠀⠀⠀⠀  http://www.debian.org
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: This is a digitally signed message part
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190302/ae3c2ab4/attachment.sig>
+
+From sebastian at breakpoint.cc  Sat Mar  2 16:17:05 2019
+From: sebastian at breakpoint.cc (Sebastian Andrzej Siewior)
+Date: Sat, 2 Mar 2019 17:17:05 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <1551524094.32336.34.camel@debian.org>
+References: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <20190301190551.tqo4qybhqh7mfhqf@flow>
+ <CABFfbXvScEpXoZu6MHUdMx=ds8b73vgifX=rg3yUX+FQiXSdAg@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190302102601.n5gilowsxmlju6we@flow> <1551524094.32336.34.camel@debian.org>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <20190302161705.xkytnj4msiamahzf@flow>
+
+On 2019-03-02 11:54:54 [+0100], Sébastien Villemot wrote:
+> Le samedi 02 mars 2019 à 11:26 +0100, Sebastian Andrzej Siewior a écrit :
+> > 
+> > So if the bug is really in libssl1.1 then I don't see why you should do
+> > something. I will try to backport that commit then and make a new
+> > upload.
+> 
+> Note that the bug has already been fixed in Debian (r-cran-openssl
+> 1.2.2+dfsg-1), so no need for a new upload.
+
+Now I am confused. It is either a bug in openssl and should be fixed or
+it is a bug in r-cran-openssl and should be fixed there.
+So which one is it?
+
+> Thanks,
+> 
+
+Sebastian
+
+
+From sebastien at debian.org  Sat Mar  2 16:21:48 2019
+From: sebastien at debian.org (=?UTF-8?Q?S=C3=A9bastien?= Villemot)
+Date: Sat, 02 Mar 2019 17:21:48 +0100
+Subject: [R-pkg-team] Bug#923447: openssl breaks r-cran-openssl autopkgtest
+In-Reply-To: <20190302161705.xkytnj4msiamahzf@flow>
+References: <20190228162405.o2jghqjsivssh4wx@an3as.eu>
+ <CABFfbXsgPs024Xkk4Yj-D4MwxfkhwoEzPxZP2PXiaY9mpKj3Ww@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <CABFfbXuGnAHucJ8AnR-9tNTDzoaC2i=BtdeVjM8tMUfg4Vyadw@mail.gmail.com>
+ <20190301190551.tqo4qybhqh7mfhqf@flow>
+ <CABFfbXvScEpXoZu6MHUdMx=ds8b73vgifX=rg3yUX+FQiXSdAg@mail.gmail.com>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+ <20190302102601.n5gilowsxmlju6we@flow> <1551524094.32336.34.camel@debian.org>
+ <20190302161705.xkytnj4msiamahzf@flow>
+ <e6305de4-d7b0-5b9d-7070-07d75f7875b6@debian.org>
+Message-ID: <1551543708.32336.36.camel@debian.org>
+
+Le samedi 02 mars 2019 à 17:17 +0100, Sebastian Andrzej Siewior a écrit :
+> On 2019-03-02 11:54:54 [+0100], Sébastien Villemot wrote:
+> > Le samedi 02 mars 2019 à 11:26 +0100, Sebastian Andrzej Siewior a écrit :
+> > > 
+> > > So if the bug is really in libssl1.1 then I don't see why you should do
+> > > something. I will try to backport that commit then and make a new
+> > > upload.
+> > 
+> > Note that the bug has already been fixed in Debian (r-cran-openssl
+> > 1.2.2+dfsg-1), so no need for a new upload.
+> 
+> Now I am confused. It is either a bug in openssl and should be fixed or
+> it is a bug in r-cran-openssl and should be fixed there.
+> So which one is it?
+
+From Debian's point of view, it is now both, since the bug has been
+cloned: #923447 for r-cran-openssl (which is now fixed), and #923516
+for openssl (still open).
+
+There is nothing left to do for r-cran-openssl now, at least for
+buster.
+
+For openssl, it's up to its maintainers to decide what to do now.
+
+-- 
+⢀⣴⠾⠻⢶⣦⠀  Sébastien Villemot
+⣾⠁⢠⠒⠀⣿⡁  Debian Developer
+⢿⡄⠘⠷⠚⠋⠀  http://sebastien.villemot.name
+⠈⠳⣄⠀⠀⠀⠀  http://www.debian.org
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 833 bytes
+Desc: This is a digitally signed message part
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190302/fdc7abf5/attachment.sig>
+
+From noreply at release.debian.org  Sun Mar  3 04:39:20 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sun, 03 Mar 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-isocodes 2019.02.13-1 MIGRATED to testing
+Message-ID: <E1h0IuG-0006jU-Ac@respighi.debian.org>
+
+FYI: The status of the r-cran-isocodes source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2018.06.29-1
+  Current version:  2019.02.13-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+

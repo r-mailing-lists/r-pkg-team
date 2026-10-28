@@ -1,0 +1,3268 @@
+From owner at bugs.debian.org  Mon Feb 11 14:15:21 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 11 Feb 2019 14:15:21 +0000
+Subject: [R-pkg-team] Processed: reassign 921939 to src:r-cran-mlmrev,
+ fixed 921939 in 1.0-7-1, tagging 921780, tagging 921788 ...
+References: <1549894363-1798-bts-anbe@debian.org>
+Message-ID: <handler.s.C.154989436728924.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> reassign 921939 src:r-cran-mlmrev 1.0-6-5
+Bug #921939 {Done: Andreas Tille <tille at debian.org>} [src:lme4, src:r-cran-mlmrev] lme4 breaks r-cran-mlmrev autopkgtest
+Bug reassigned from package 'src:lme4, src:r-cran-mlmrev' to 'src:r-cran-mlmrev'.
+No longer marked as found in versions lme4/1.1-20-1 and r-cran-mlmrev/1.0-6-5.
+No longer marked as fixed in versions r-cran-mlmrev/1.0-7-1.
+Bug #921939 {Done: Andreas Tille <tille at debian.org>} [src:r-cran-mlmrev] lme4 breaks r-cran-mlmrev autopkgtest
+Marked as found in versions r-cran-mlmrev/1.0-6-5.
+> fixed 921939 1.0-7-1
+Bug #921939 {Done: Andreas Tille <tille at debian.org>} [src:r-cran-mlmrev] lme4 breaks r-cran-mlmrev autopkgtest
+Marked as fixed in versions r-cran-mlmrev/1.0-7-1.
+> tags 921780 + sid buster
+Bug #921780 [src:esajpip] esajpip: FTBFS (LaTeX error)
+Added tag(s) buster and sid.
+> tags 921788 + sid buster
+Bug #921788 [src:libdc1394-22] libdc1394-22: FTBFS (LaTeX error)
+Added tag(s) sid and buster.
+> tags 921785 + sid buster
+Bug #921785 [src:gtk-sharp3] gtk-sharp3: FTBFS ('MONO_PROFILE_ENTER_LEAVE' undeclared)
+Added tag(s) sid and buster.
+> tags 921792 + sid buster
+Bug #921792 [src:log4c] log4c: FTBFS (LaTeX error)
+Added tag(s) buster and sid.
+> tags 921799 + sid buster
+Bug #921799 [src:node-serve-index] node-serve-index: FTBFS (failing tests)
+Added tag(s) sid and buster.
+> tags 921794 + sid buster
+Bug #921794 {Done: Xavier Guimard <yadd at debian.org>} [src:node-cross-spawn-async] node-cross-spawn-async: FTBFS (failing tests)
+Added tag(s) buster and sid.
+> tags 921805 + sid buster
+Bug #921805 [src:rt-extension-nagios] rt-extension-nagios: FTBFS (you may need to install the Capture::Tiny module)
+Added tag(s) sid and buster.
+> tags 921804 + sid buster
+Bug #921804 [src:rt-extension-jsgantt] rt-extension-jsgantt: FTBFS (mv: cannot stat 'Makefile': No such file or directory)
+Added tag(s) sid and buster.
+> tags 921806 + sid buster
+Bug #921806 [src:ruby-api-pagination] ruby-api-pagination: FTBFS (failing tests)
+Added tag(s) sid and buster.
+> tags 921783 + sid buster
+Bug #921783 [doxygen] graphite2: FTBFS (LaTeX error)
+Added tag(s) buster and sid.
+> tags 921776 + sid buster
+Bug #921776 [doxygen] bliss: FTBFS (LaTeX error)
+Added tag(s) sid and buster.
+> tags 921802 + sid buster
+Bug #921802 [doxygen] primesieve: FTBFS (LaTeX error)
+Added tag(s) buster and sid.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+921776: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921776
+921780: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921780
+921783: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921783
+921785: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921785
+921788: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921788
+921792: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921792
+921794: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921794
+921799: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921799
+921802: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921802
+921804: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921804
+921805: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921805
+921806: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921806
+921939: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921939
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From Rune at ChristensenStatistics.dk  Mon Feb 11 16:21:54 2019
+From: Rune at ChristensenStatistics.dk (Rune Christensen)
+Date: Mon, 11 Feb 2019 17:21:54 +0100
+Subject: [R-pkg-team] Bug#921938: lme4 breaks r-cran-lmertest autopkgtest
+In-Reply-To: <6B5BD2C3-1753-41B5-B439-53E8E347EE32@dtu.dk>
+References: <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+ <20190210144455.glshb6mcnrqbh2k3@an3as.eu>
+ <20190210150712.ikk4anoejqflhgct@an3as.eu>
+ <6B5BD2C3-1753-41B5-B439-53E8E347EE32@dtu.dk>
+ <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+Message-ID: <39DCE7C9-3475-436E-8783-796DFDD9C818@ChristensenStatistics.dk>
+
+Dear all,
+
+This is currently being fixed and a new version of lmerTest  is on its way to CRAN, cf. https://cran.r-project.org/package=lmerTest <https://cran.r-project.org/package=lmerTest>
+
+The latest version of lme4 was released to CRAN without our knowledge and that version caused lmerTest to fail its tests on most platforms (mostly because the new default optimiser is much less accurate than the old default optimiser, cf. https://github.com/lme4/lme4/issues/501 <https://github.com/lme4/lme4/issues/501>). After being notified of the problems we have updated lmerTest as soon as possible. 
+
+BR
+Rune
+
+> On 11 Feb 2019, at 07.39, Per B. Brockhoff <perbb at dtu.dk> wrote:
+> 
+> Sendt fra min iPhone
+> 
+> Start på videresendt besked:
+> 
+>> Fra: Andreas Tille <tille at debian.org <mailto:tille at debian.org>>
+>> Dato: 10. februar 2019 kl. 16.07.12 CET
+>> Til: Paul Gevers <elbrus at debian.org <mailto:elbrus at debian.org>>, <921938 at bugs.debian.org <mailto:921938 at bugs.debian.org>>, "Per Bruun Brockhoff" <perbb at dtu.dk <mailto:perbb at dtu.dk>>
+>> Emne: Vedr.:⁨ Bug#921938: lme4 breaks r-cran-lmertest autopkgtest⁩
+>> 
+>> Hi again,
+>> 
+>> may be you get all the relevant information directly from CRAN:
+>> 
+>>   https://cloud.r-project.org/web/checks/check_results_lmerTest.html <https://cloud.r-project.org/web/checks/check_results_lmerTest.html>
+>> 
+>> Kind regards
+>> 
+>>      Andreas.
+>> 
+>> On Sun, Feb 10, 2019 at 03:44:55PM +0100, Andreas Tille wrote:
+>>> Control: tags -1 help upstream
+>>> Control: forwarded -1 Per Bruun Brockhoff <perbb at dtu.dk <mailto:perbb at dtu.dk>>
+>>> 
+>>> Hi Per,
+>>> 
+>>> the Debian packaged version of lmerTest seems to show issues with the
+>>> latest version of lme4.  From your insight into lmerTest can you give
+>>> some hint about possible reasons for this incompatibility?
+>>> 
+>>> Kind regards
+>>> 
+>>>        Andreas.
+>>> 
+>>> PS: Please let me know whether you need further information.
+>>> 
+>>> On Sun, Feb 10, 2019 at 01:35:53PM +0100, Paul Gevers wrote:
+>>>> Source: lme4, r-cran-lmertest
+>>>> Control: found -1 lme4/1.1-20-1
+>>>> Control: found -1 r-cran-lmertest/3.0-1-2
+>>>> Severity: important
+>>>> X-Debbugs-CC: debian-ci at lists.debian.org <mailto:debian-ci at lists.debian.org>
+>>>> User: debian-ci at lists.debian.org <mailto:debian-ci at lists.debian.org>
+>>>> Usertags: breaks needs-update
+>>>> 
+>>>> Dear maintainers,
+>>>> 
+>>>> With a recent upload of lme4 the autopkgtest of r-cran-lmertest fails in
+>>>> testing when that autopkgtest is run with the binary packages of lme4
+>>>> from unstable. It passes when run with only packages from testing. In
+>>>> tabular form:
+>>>>                       pass            fail
+>>>> lme4                   from testing    1.1-20-1
+>>>> r-cran-lmertest        from testing    3.0-1-2
+>>>> all others             from testing    from testing
+>>>> 
+>>>> I copied some of the output at the bottom of this report.
+>>>> 
+>>>> Currently this regression is blocking the migration of lme4 to testing
+>>>> [1]. Due to the nature of this issue, I filed this bug report against
+>>>> both packages. Can you please investigate the situation and reassign the
+>>>> bug to the right package? If needed, please change the bug's severity.
+>>>> 
+>>>> More information about this bug and the reason for filing it can be found on
+>>>> https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation <https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation>
+>>>> 
+>>>> Paul
+>>>> 
+>>>> [1] https://qa.debian.org/excuses.php?package=lme4 <https://qa.debian.org/excuses.php?package=lme4>
+>>>> 
+>>>> https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-lmertest/1896879/log.gz <https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-lmertest/1896879/log.gz>
+>>>> 
+>>>> autopkgtest [04:42:34]: test run-unit-test: [-----------------------
+>>>> BEGIN TEST test_a_utils.R
+>>>> 
+>>>> R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+>>>> Copyright (C) 2018 The R Foundation for Statistical Computing
+>>>> Platform: x86_64-pc-linux-gnu (64-bit)
+>>>> 
+>>>> R is free software and comes with ABSOLUTELY NO WARRANTY.
+>>>> You are welcome to redistribute it under certain conditions.
+>>>> Type 'license()' or 'licence()' for distribution details.
+>>>> 
+>>>> R is a collaborative project with many contributors.
+>>>> Type 'contributors()' for more information and
+>>>> 'citation()' on how to cite R or R packages in publications.
+>>>> 
+>>>> Type 'demo()' for some demos, 'help()' for on-line help, or
+>>>> 'help.start()' for an HTML browser interface to help.
+>>>> Type 'q()' to quit R.
+>>>> 
+>>>>> # test_a_utils.R
+>>>>> 
+>>>>> library(lmerTest)
+>>>> Loading required package: lme4
+>>>> Loading required package: Matrix
+>>>> 
+>>>> Attaching package: 'lmerTest'
+>>>> 
+>>>> The following object is masked from 'package:lme4':
+>>>> 
+>>>>    lmer
+>>>> 
+>>>> The following object is masked from 'package:stats':
+>>>> 
+>>>>    step
+>>>> 
+>>>>> 
+>>>>> # test safeDeparse() - equivalence and differences to deparse():
+>>>>> deparse_args <- formals(deparse)
+>>>>> safeDeparse_args <- formals(lmerTest:::safeDeparse)
+>>>>> stopifnot(
+>>>> +   all.equal(names(deparse_args), names(safeDeparse_args)),
+>>>> +   all.equal(deparse_args[!names(deparse_args) %in% c("control",
+>>>> "width.cutoff")],
+>>>> +             safeDeparse_args[!names(safeDeparse_args) %in%
+>>>> c("control", "width.cutoff")]),
+>>>> +   all.equal(deparse_args[["width.cutoff"]], 60L),
+>>>> +   all(eval(safeDeparse_args[["control"]]) %in%
+>>>> eval(deparse_args[["control"]])),
+>>>> +   all.equal(safeDeparse_args[["width.cutoff"]], 500L)
+>>>> + )
+>>>>> 
+>>>>> 
+>>>> BEGIN TEST test_anova.R
+>>>> 
+>>>> R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+>>>> Copyright (C) 2018 The R Foundation for Statistical Computing
+>>>> Platform: x86_64-pc-linux-gnu (64-bit)
+>>>> 
+>>>> R is free software and comes with ABSOLUTELY NO WARRANTY.
+>>>> You are welcome to redistribute it under certain conditions.
+>>>> Type 'license()' or 'licence()' for distribution details.
+>>>> 
+>>>> R is a collaborative project with many contributors.
+>>>> Type 'contributors()' for more information and
+>>>> 'citation()' on how to cite R or R packages in publications.
+>>>> 
+>>>> Type 'demo()' for some demos, 'help()' for on-line help, or
+>>>> 'help.start()' for an HTML browser interface to help.
+>>>> Type 'q()' to quit R.
+>>>> 
+>>>>> # test_anova.R
+>>>>> library(lmerTest)
+>>>> Loading required package: lme4
+>>>> Loading required package: Matrix
+>>>> 
+>>>> Attaching package: 'lmerTest'
+>>>> 
+>>>> The following object is masked from 'package:lme4':
+>>>> 
+>>>>    lmer
+>>>> 
+>>>> The following object is masked from 'package:stats':
+>>>> 
+>>>>    step
+>>>> 
+>>>>> 
+>>>>> # WRE says "using if(requireNamespace("pkgname")) is preferred, if
+>>>> possible."
+>>>>> # even in tests:
+>>>>> assertError <- function(expr, ...)
+>>>> +   if(requireNamespace("tools")) tools::assertError(expr, ...) else
+>>>> invisible()
+>>>>> assertWarning <- function(expr, ...)
+>>>> +   if(requireNamespace("tools")) tools::assertWarning(expr, ...) else
+>>>> invisible()
+>>>>> 
+>>>>> # Kenward-Roger only available with pbkrtest and only then validated
+>>>> in R >= 3.3.3
+>>>>> # (faulty results for R < 3.3.3 may be due to unstated dependencies in
+>>>> pbkrtest)
+>>>>> has_pbkrtest <- requireNamespace("pbkrtest", quietly = TRUE) &&
+>>>> getRversion() >= "3.3.3"
+>>>>> 
+>>>>> data("sleepstudy", package="lme4")
+>>>>> TOL <- 1e-4
+>>>>> 
+>>>>> ####################################
+>>>>> ## Basic anova tests
+>>>>> ####################################
+>>>>> 
+>>>>> m <- lmer(Reaction ~ Days + (Days | Subject), sleepstudy)
+>>>>> 
+>>>>> ####### ddf argument:
+>>>>> (an1 <- anova(m)) # Also testing print method.
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, ddf="Satterthwaite"))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2b <- anova(m, ddf="Satterthwaite", type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2c <- anova(m, ddf="Satterthwaite", type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an2, tolerance=TOL)
+>>>> + ))
+>>>>> (an3 <- anova(m, ddf="Sat")) ## Abbreviated argument
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an3, tolerance=TOL)
+>>>> + ))
+>>>>> if(has_pbkrtest) {
+>>>> +   (anova(m, ddf="Kenward-Roger"))
+>>>> +   (anova(m, ddf="Kenward-Roger", type=3))
+>>>> + }
+>>>> Type III Analysis of Variance Table with Kenward-Roger's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1    17  45.843 3.268e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an1 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>     Df Sum Sq Mean Sq F value
+>>>> Days  1  30024   30024  45.843
+>>>>> (an2 <- anova(m, ddf="lme4", type=3)) # 'type' is ignored with ddf="lme4"
+>>>> Analysis of Variance Table
+>>>>     Df Sum Sq Mean Sq F value
+>>>> Days  1  30024   30024  45.843
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an2, tolerance=TOL)
+>>>> + ))
+>>>>> res <- assertError(anova(m, ddf="KR")) ## Error on incorrect arg.
+>>>>> stopifnot(
+>>>> +   grepl("'arg' should be one of ", unlist(res[[1]])$message)
+>>>> + )
+>>>>> 
+>>>>> ## lme4 method:
+>>>>> an1 <- anova(m, ddf="lme4")
+>>>>> an2 <- anova(as(m, "lmerMod"))
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an2, tolerance=TOL)
+>>>> + ))
+>>>>> 
+>>>>> ###### type argument:
+>>>>> (an1 <- anova(m, type="1")) # valid type arg.
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type="I")) # same
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an2, tolerance=TOL)
+>>>> + ))
+>>>>> (an3 <- anova(m, type=1)) # Not strictly valid, but accepted
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an3, tolerance=TOL)
+>>>> + ))
+>>>>> 
+>>>>> (an1 <- anova(m, type="2")) # valid type arg.
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type="II")) # same
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an2, tolerance=TOL)
+>>>> + ))
+>>>>> (an3 <- anova(m, type=3)) # Not strictly valid, but accepted
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an3, check.attributes=FALSE, tolerance=TOL)
+>>>> + ))
+>>>>> 
+>>>>> (an1 <- anova(m, type="3")) # valid type arg.
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type="III")) # same
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an2, tolerance=TOL)
+>>>> + ))
+>>>>> (an3 <- anova(m, type=3)) # Not strictly valid, but accepted
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(isTRUE(
+>>>> +   all.equal(an1, an3, tolerance=TOL)
+>>>> + ))
+>>>>> assertError(anova(m, type=0)) # Not valid arg.
+>>>>> assertError(anova(m, type="i")) # Not valid arg.
+>>>>> 
+>>>>> ####### Model comparison:
+>>>>> fm <- lm(Reaction ~ Days, sleepstudy)
+>>>>> (an <- anova(m, fm))
+>>>> refitting model(s) with ML (instead of REML)
+>>>> Data: sleepstudy
+>>>> Models:
+>>>> fm: Reaction ~ Days
+>>>> m: Reaction ~ Days + (Days | Subject)
+>>>>   Df    AIC    BIC  logLik deviance  Chisq Chi Df Pr(>Chisq)
+>>>> fm  3 1906.3 1915.9 -950.15   1900.3
+>>>> m   6 1763.9 1783.1 -875.97   1751.9 148.35      3  < 2.2e-16 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(
+>>>> +   nrow(an) == 2L,
+>>>> +   rownames(an)[2] == "m"
+>>>> + )
+>>>>> 
+>>>>> m2 <- lmer(Reaction ~ Days + I(Days^2) + (Days | Subject), sleepstudy)
+>>>>> (an <- anova(m, m2, refit=FALSE))
+>>>> Data: sleepstudy
+>>>> Models:
+>>>> m: Reaction ~ Days + (Days | Subject)
+>>>> m2: Reaction ~ Days + I(Days^2) + (Days | Subject)
+>>>>   Df    AIC    BIC  logLik deviance  Chisq Chi Df Pr(>Chisq)
+>>>> m   6 1755.6 1774.8 -871.81   1743.6
+>>>> m2  7 1756.8 1779.2 -871.41   1742.8 0.8127      1     0.3673
+>>>>> stopifnot(
+>>>> +   nrow(an) == 2L,
+>>>> +   rownames(an)[1] == "m"
+>>>> + )
+>>>>> 
+>>>>> 
+>>>>> ####################################
+>>>>> ## Example with factor fixef:
+>>>>> ####################################
+>>>>> 
+>>>>> ## 'temp' is continuous, 'temperature' an ordered factor with 6 levels
+>>>>> data("cake", package="lme4")
+>>>>> m <- lmer(angle ~ recipe * temp + (1|recipe:replicate), cake)
+>>>>> (an <- anova(m))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+>>>> recipe         4.00    2.00     2 254.02  0.0957 0.9088
+>>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_lme4 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>            Df  Sum Sq Mean Sq F value
+>>>> recipe       2   10.39    5.20  0.2488
+>>>> temp         1 1966.71 1966.71 94.1632
+>>>> recipe:temp  2    1.74    0.87  0.0417
+>>>>> 
+>>>>> if(has_pbkrtest) {
+>>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+>>>> +   # res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +   #                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")])
+>>>> +   # stopifnot(isTRUE(res))
+>>>> +   res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                    an_KR[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>> +   stopifnot(isTRUE(res))
+>>>> + }
+>>>>> stopifnot(all.equal(c(2, 1, 2), an$NumDF, tol=1e-6),
+>>>> +           all.equal(c(254.0157612, 222, 222), an$DenDF, tol=TOL))
+>>>>> 
+>>>>> an3 <- anova(m, type=3)
+>>>>> an2 <- anova(m, type=2)
+>>>>> an1 <- anova(m, type=1)
+>>>>> 
+>>>>> ## Data is balanced, so Type II and III should be identical:
+>>>>> ## One variable is continuous, so Type I and II/III are different:
+>>>>> stopifnot(
+>>>> +   isTRUE(all.equal(an3, an2, check.attributes=FALSE, tolerance=TOL)),
+>>>> +   !isTRUE(all.equal(an1, an2, check.attributes=FALSE, tolerance=1e-8))
+>>>> + )
+>>>>> 
+>>>>> # Using an ordered factor:
+>>>>> m <- lmer(angle ~ recipe * temperature + (1|recipe:replicate), cake)
+>>>>> (an1 <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> # Type 3 is also available with ordered factors:
+>>>>> (an3 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> ## Balanced data and only factors: Type I, II and III should be the same:
+>>>>> stopifnot(
+>>>> +   isTRUE(all.equal(an1, an2, check.attributes=FALSE, tolerance=TOL)),
+>>>> +   isTRUE(all.equal(an1, an3, check.attributes=FALSE, tolerance=TOL))
+>>>> + )
+>>>>> 
+>>>>> (an <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_lme4 <- anova(m, type=1, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>                   Df  Sum Sq Mean Sq F value
+>>>> recipe              2   10.19    5.09  0.2488
+>>>> temperature         5 2100.30  420.06 20.5199
+>>>> recipe:temperature 10  205.98   20.60  1.0062
+>>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>>> stopifnot(isTRUE(res))
+>>>>> if(has_pbkrtest) {
+>>>> +   (an_KR <- anova(m, type=1, ddf="Kenward-Roger"))
+>>>> +   res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                    an_KR[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>> +   stopifnot(isTRUE(res))
+>>>> + }
+>>>>> stopifnot(all.equal(c(2, 5, 10), an$NumDF, tolerance=TOL),
+>>>> +           all.equal(c(42, 210, 210), an$DenDF, tolerance=TOL))
+>>>>> 
+>>>>> ########
+>>>>> ## Make case with balanced unordered factors:
+>>>>> cake2 <- cake
+>>>>> cake2$temperature <- factor(cake2$temperature, ordered = FALSE)
+>>>>> # str(cake2)
+>>>>> stopifnot(
+>>>> +   !is.ordered(cake2$temperature)
+>>>> + )
+>>>>> m <- lmer(angle ~ recipe * temperature + (1|recipe:replicate), cake2)
+>>>>> (an1 <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an3 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+>>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+>>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> ## Balanced data and only factors: Type I, II, and III should be the same:
+>>>>> stopifnot(
+>>>> +   isTRUE(all.equal(an1, an2, check.attributes=FALSE, tolerance=TOL)),
+>>>> +   isTRUE(all.equal(an3, an2, check.attributes=FALSE, tolerance=TOL))
+>>>> + )
+>>>>> ########
+>>>>> 
+>>>>> # No intercept:
+>>>>> m <- lmer(angle ~ 0 + recipe * temp + (1|recipe:replicate), cake)
+>>>>> (an <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF DenDF  F value Pr(>F)
+>>>> recipe      21442.9  7147.6     3    42 342.2200 <2e-16 ***
+>>>> temp         1966.7  1966.7     1   222  94.1632 <2e-16 ***
+>>>> recipe:temp     1.7     0.9     2   222   0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+>>>> recipe         4.48    1.49     3 254.02  0.0714 0.9752
+>>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+>>>> recipe         4.48    1.49     3 254.02  0.0714 0.9752
+>>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> if(has_pbkrtest)
+>>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+>>>> Type III Analysis of Variance Table with Kenward-Roger's method
+>>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+>>>> recipe         4.48    1.49     3 254.02  0.0714 0.9752
+>>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_lme4 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>            Df  Sum Sq Mean Sq  F value
+>>>> recipe       3 21442.9  7147.6 342.2200
+>>>> temp         1  1966.7  1966.7  94.1632
+>>>> recipe:temp  2     1.7     0.9   0.0417
+>>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>>> stopifnot(isTRUE(res))
+>>>>> 
+>>>>> # ML-fit:
+>>>>> m <- lmer(angle ~ recipe * temp + (1|recipe:replicate), cake, REML=FALSE)
+>>>>> (an <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe        10.99    5.49     2    45  0.2666 0.7672
+>>>> temp        1966.71 1966.71     1   225 95.4357 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2   225  0.0423 0.9586
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> if(has_pbkrtest)
+>>>> +   assertError(an <- anova(m, ddf="Kenward-Roger")) # KR fits should be
+>>>> REML
+>>>>> (an_lme4 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>            Df  Sum Sq Mean Sq F value
+>>>> recipe       2   10.99    5.49  0.2666
+>>>> temp         1 1966.71 1966.71 95.4357
+>>>> recipe:temp  2    1.74    0.87  0.0423
+>>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>>> stopifnot(isTRUE(res))
+>>>>> 
+>>>>> ####################################
+>>>>> ## Using contr.sum:
+>>>>> ####################################
+>>>>> 
+>>>>> m <- lmer(angle ~ recipe * temp + (1|recipe:replicate), cake,
+>>>> +           contrasts = list('recipe' = "contr.sum"))
+>>>>> (an <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe        10.39    5.20     2    42  0.2488 0.7809
+>>>> temp        1966.71 1966.71     1   222 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2   222  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+>>>> recipe         4.00    2.00     2 254.02  0.0957 0.9088
+>>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an3 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+>>>> recipe         4.00    2.00     2 254.02  0.0957 0.9088
+>>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> stopifnot(
+>>>> +   isTRUE(all.equal(an2, an3, check.attributes=FALSE, tolerance=TOL))
+>>>> + )
+>>>>> if(has_pbkrtest)
+>>>> +   (an_KR <- anova(m, type=1, ddf="Kenward-Roger"))
+>>>> Type I Analysis of Variance Table with Kenward-Roger's method
+>>>>             Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>> recipe        10.39    5.20     2    42  0.2488 0.7809
+>>>> temp        1966.71 1966.71     1   222 94.1632 <2e-16 ***
+>>>> recipe:temp    1.74    0.87     2   222  0.0417 0.9592
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_lme4 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>            Df  Sum Sq Mean Sq F value
+>>>> recipe       2   10.39    5.20  0.2488
+>>>> temp         1 1966.71 1966.71 94.1632
+>>>> recipe:temp  2    1.74    0.87  0.0417
+>>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>>> stopifnot(isTRUE(res))
+>>>>> 
+>>>>> 
+>>>>> ####################################
+>>>>> ## Example with continuous fixef:
+>>>>> ####################################
+>>>>> 
+>>>>> # Example with no fixef:
+>>>>> m <- lmer(Reaction ~ -1 + (Days | Subject), sleepstudy)
+>>>>> # m <- lmer(Reaction ~ 0 + (Days | Subject), sleepstudy) # alternative
+>>>>> stopifnot(length(fixef(m)) == 0L)
+>>>>> (an <- anova(m, type=1))
+>>>> Type I Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>>> (an_2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>>> (an_3 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>>> stopifnot(nrow(an) == 0L,
+>>>> +           nrow(an_2) == 0L,
+>>>> +           nrow(an_3) == 0L)
+>>>>> # anova(m, ddf="lme4") # Bug in lme4 it seems
+>>>>> if(has_pbkrtest) {
+>>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+>>>> +   stopifnot(
+>>>> +     nrow(an_KR) == 0L
+>>>> +   )
+>>>> + }
+>>>>> 
+>>>>> # Example with intercept only:
+>>>>> m <- lmer(Reaction ~ (Days | Subject), sleepstudy)
+>>>>> # m <- lmer(Reaction ~ 1 + (Days | Subject), sleepstudy) # alternative
+>>>>> stopifnot(length(fixef(m)) == 1L,
+>>>> +           names(fixef(m)) == "(Intercept)")
+>>>>> (an <- anova(m))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>>> (an_2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>>> (an_3 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+>>>>> (an_lme4 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>     Df Sum Sq Mean Sq F value
+>>>>> stopifnot(nrow(an) == 0L,
+>>>> +           nrow(an_2) == 0L,
+>>>> +           nrow(an_3) == 0L,
+>>>> +           nrow(an_lme4) == 0L)
+>>>>> if(has_pbkrtest) {
+>>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+>>>> +   stopifnot(
+>>>> +     nrow(an_KR) == 0L
+>>>> +   )
+>>>> + }
+>>>>> 
+>>>>> # Example with 1 fixef without intercept:
+>>>>> m <- lmer(Reaction ~ Days - 1 + (Days | Subject), sleepstudy)
+>>>> Warning message:
+>>>> In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+>>>>  Model failed to converge with max|grad| = 0.00416642 (tol = 0.002,
+>>>> component 1)
+>>>>> # m <- lmer(Reaction ~ 0 + Days + (Days | Subject), sleepstudy) #
+>>>> alternative
+>>>>> stopifnot(length(fixef(m)) == 1L,
+>>>> +           names(fixef(m)) == "Days")
+>>>>> (an <- anova(m))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  93779   93779     1 16.995  143.19 1.054e-09 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_2 <- anova(m, type=2))
+>>>> Type II Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  93779   93779     1 16.995  143.19 1.054e-09 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_3 <- anova(m, type=3))
+>>>> Type III Analysis of Variance Table with Satterthwaite's method
+>>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+>>>> Days  93779   93779     1 16.995  143.19 1.054e-09 ***
+>>>> ---
+>>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+>>>>> (an_lme4 <- anova(m, ddf="lme4"))
+>>>> Analysis of Variance Table
+>>>>     Df Sum Sq Mean Sq F value
+>>>> Days  1  93779   93779  143.19
+>>>>> stopifnot(nrow(an) == 1L,
+>>>> +           nrow(an_2) == 1L,
+>>>> +           nrow(an_3) == 1L,
+>>>> +           nrow(an_lme4) == 1L)
+>>>>> if(has_pbkrtest) {
+>>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+>>>> +   stopifnot(
+>>>> +     nrow(an_KR) == 1L
+>>>> +   )
+>>>> + }
+>>>>> 
+>>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+>>>> tolerance=TOL)
+>>>>> stopifnot(isTRUE(res))
+>>>>> stopifnot(isTRUE(all.equal(
+>>>> +   c(1, 17), unname(unlist(an[, c("NumDF", "DenDF")])), tolerance=TOL
+>>>> + )))
+>>>> Error: isTRUE(all.equal(c(1, 17), unname(unlist(an[, c("NumDF",
+>>>> "DenDF")])),  .... is not TRUE
+>>>> Execution halted
+>>>> autopkgtest [04:42:39]: test run-unit-test: -----------------------]
+>>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>>> _______________________________________________
+>>>> R-pkg-team mailing list
+>>>> R-pkg-team at alioth-lists.debian.net <mailto:R-pkg-team at alioth-lists.debian.net>
+>>>> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team <https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team>
+>>> 
+>>> 
+>>> -- 
+>>> http://fam-tille.de <http://fam-tille.de/>
+>> 
+>> -- 
+>> http://fam-tille.de <http://fam-tille.de/>
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190211/dc2d0cd5/attachment-0001.html>
+
+From andreas at fam-tille.de  Mon Feb 11 19:53:02 2019
+From: andreas at fam-tille.de (Andreas Tille)
+Date: Mon, 11 Feb 2019 20:53:02 +0100
+Subject: [R-pkg-team] Bug#921938: lme4 breaks r-cran-lmertest autopkgtest
+In-Reply-To: <39DCE7C9-3475-436E-8783-796DFDD9C818@ChristensenStatistics.dk>
+References: <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+ <20190210144455.glshb6mcnrqbh2k3@an3as.eu>
+ <20190210150712.ikk4anoejqflhgct@an3as.eu>
+ <6B5BD2C3-1753-41B5-B439-53E8E347EE32@dtu.dk>
+ <39DCE7C9-3475-436E-8783-796DFDD9C818@ChristensenStatistics.dk>
+ <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+Message-ID: <20190211195302.agidp2sqv7wui7uv@an3as.eu>
+
+Hi Rune,
+
+thanks a lot for your quick upgrade.  I just uploaded the new version to Debian.
+
+Kind regards
+
+      Andreas.
+
+On Mon, Feb 11, 2019 at 05:21:54PM +0100, Rune Christensen wrote:
+> Dear all,
+> 
+> This is currently being fixed and a new version of lmerTest  is on its way to CRAN, cf. https://cran.r-project.org/package=lmerTest <https://cran.r-project.org/package=lmerTest>
+> 
+> The latest version of lme4 was released to CRAN without our knowledge and that version caused lmerTest to fail its tests on most platforms (mostly because the new default optimiser is much less accurate than the old default optimiser, cf. https://github.com/lme4/lme4/issues/501 <https://github.com/lme4/lme4/issues/501>). After being notified of the problems we have updated lmerTest as soon as possible. 
+> 
+> BR
+> Rune
+> 
+> > On 11 Feb 2019, at 07.39, Per B. Brockhoff <perbb at dtu.dk> wrote:
+> > 
+> > Sendt fra min iPhone
+> > 
+> > Start på videresendt besked:
+> > 
+> >> Fra: Andreas Tille <tille at debian.org <mailto:tille at debian.org>>
+> >> Dato: 10. februar 2019 kl. 16.07.12 CET
+> >> Til: Paul Gevers <elbrus at debian.org <mailto:elbrus at debian.org>>, <921938 at bugs.debian.org <mailto:921938 at bugs.debian.org>>, "Per Bruun Brockhoff" <perbb at dtu.dk <mailto:perbb at dtu.dk>>
+> >> Emne: Vedr.:⁨ Bug#921938: lme4 breaks r-cran-lmertest autopkgtest⁩
+> >> 
+> >> Hi again,
+> >> 
+> >> may be you get all the relevant information directly from CRAN:
+> >> 
+> >>   https://cloud.r-project.org/web/checks/check_results_lmerTest.html <https://cloud.r-project.org/web/checks/check_results_lmerTest.html>
+> >> 
+> >> Kind regards
+> >> 
+> >>      Andreas.
+> >> 
+> >> On Sun, Feb 10, 2019 at 03:44:55PM +0100, Andreas Tille wrote:
+> >>> Control: tags -1 help upstream
+> >>> Control: forwarded -1 Per Bruun Brockhoff <perbb at dtu.dk <mailto:perbb at dtu.dk>>
+> >>> 
+> >>> Hi Per,
+> >>> 
+> >>> the Debian packaged version of lmerTest seems to show issues with the
+> >>> latest version of lme4.  From your insight into lmerTest can you give
+> >>> some hint about possible reasons for this incompatibility?
+> >>> 
+> >>> Kind regards
+> >>> 
+> >>>        Andreas.
+> >>> 
+> >>> PS: Please let me know whether you need further information.
+> >>> 
+> >>> On Sun, Feb 10, 2019 at 01:35:53PM +0100, Paul Gevers wrote:
+> >>>> Source: lme4, r-cran-lmertest
+> >>>> Control: found -1 lme4/1.1-20-1
+> >>>> Control: found -1 r-cran-lmertest/3.0-1-2
+> >>>> Severity: important
+> >>>> X-Debbugs-CC: debian-ci at lists.debian.org <mailto:debian-ci at lists.debian.org>
+> >>>> User: debian-ci at lists.debian.org <mailto:debian-ci at lists.debian.org>
+> >>>> Usertags: breaks needs-update
+> >>>> 
+> >>>> Dear maintainers,
+> >>>> 
+> >>>> With a recent upload of lme4 the autopkgtest of r-cran-lmertest fails in
+> >>>> testing when that autopkgtest is run with the binary packages of lme4
+> >>>> from unstable. It passes when run with only packages from testing. In
+> >>>> tabular form:
+> >>>>                       pass            fail
+> >>>> lme4                   from testing    1.1-20-1
+> >>>> r-cran-lmertest        from testing    3.0-1-2
+> >>>> all others             from testing    from testing
+> >>>> 
+> >>>> I copied some of the output at the bottom of this report.
+> >>>> 
+> >>>> Currently this regression is blocking the migration of lme4 to testing
+> >>>> [1]. Due to the nature of this issue, I filed this bug report against
+> >>>> both packages. Can you please investigate the situation and reassign the
+> >>>> bug to the right package? If needed, please change the bug's severity.
+> >>>> 
+> >>>> More information about this bug and the reason for filing it can be found on
+> >>>> https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation <https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation>
+> >>>> 
+> >>>> Paul
+> >>>> 
+> >>>> [1] https://qa.debian.org/excuses.php?package=lme4 <https://qa.debian.org/excuses.php?package=lme4>
+> >>>> 
+> >>>> https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-lmertest/1896879/log.gz <https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-lmertest/1896879/log.gz>
+> >>>> 
+> >>>> autopkgtest [04:42:34]: test run-unit-test: [-----------------------
+> >>>> BEGIN TEST test_a_utils.R
+> >>>> 
+> >>>> R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+> >>>> Copyright (C) 2018 The R Foundation for Statistical Computing
+> >>>> Platform: x86_64-pc-linux-gnu (64-bit)
+> >>>> 
+> >>>> R is free software and comes with ABSOLUTELY NO WARRANTY.
+> >>>> You are welcome to redistribute it under certain conditions.
+> >>>> Type 'license()' or 'licence()' for distribution details.
+> >>>> 
+> >>>> R is a collaborative project with many contributors.
+> >>>> Type 'contributors()' for more information and
+> >>>> 'citation()' on how to cite R or R packages in publications.
+> >>>> 
+> >>>> Type 'demo()' for some demos, 'help()' for on-line help, or
+> >>>> 'help.start()' for an HTML browser interface to help.
+> >>>> Type 'q()' to quit R.
+> >>>> 
+> >>>>> # test_a_utils.R
+> >>>>> 
+> >>>>> library(lmerTest)
+> >>>> Loading required package: lme4
+> >>>> Loading required package: Matrix
+> >>>> 
+> >>>> Attaching package: 'lmerTest'
+> >>>> 
+> >>>> The following object is masked from 'package:lme4':
+> >>>> 
+> >>>>    lmer
+> >>>> 
+> >>>> The following object is masked from 'package:stats':
+> >>>> 
+> >>>>    step
+> >>>> 
+> >>>>> 
+> >>>>> # test safeDeparse() - equivalence and differences to deparse():
+> >>>>> deparse_args <- formals(deparse)
+> >>>>> safeDeparse_args <- formals(lmerTest:::safeDeparse)
+> >>>>> stopifnot(
+> >>>> +   all.equal(names(deparse_args), names(safeDeparse_args)),
+> >>>> +   all.equal(deparse_args[!names(deparse_args) %in% c("control",
+> >>>> "width.cutoff")],
+> >>>> +             safeDeparse_args[!names(safeDeparse_args) %in%
+> >>>> c("control", "width.cutoff")]),
+> >>>> +   all.equal(deparse_args[["width.cutoff"]], 60L),
+> >>>> +   all(eval(safeDeparse_args[["control"]]) %in%
+> >>>> eval(deparse_args[["control"]])),
+> >>>> +   all.equal(safeDeparse_args[["width.cutoff"]], 500L)
+> >>>> + )
+> >>>>> 
+> >>>>> 
+> >>>> BEGIN TEST test_anova.R
+> >>>> 
+> >>>> R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+> >>>> Copyright (C) 2018 The R Foundation for Statistical Computing
+> >>>> Platform: x86_64-pc-linux-gnu (64-bit)
+> >>>> 
+> >>>> R is free software and comes with ABSOLUTELY NO WARRANTY.
+> >>>> You are welcome to redistribute it under certain conditions.
+> >>>> Type 'license()' or 'licence()' for distribution details.
+> >>>> 
+> >>>> R is a collaborative project with many contributors.
+> >>>> Type 'contributors()' for more information and
+> >>>> 'citation()' on how to cite R or R packages in publications.
+> >>>> 
+> >>>> Type 'demo()' for some demos, 'help()' for on-line help, or
+> >>>> 'help.start()' for an HTML browser interface to help.
+> >>>> Type 'q()' to quit R.
+> >>>> 
+> >>>>> # test_anova.R
+> >>>>> library(lmerTest)
+> >>>> Loading required package: lme4
+> >>>> Loading required package: Matrix
+> >>>> 
+> >>>> Attaching package: 'lmerTest'
+> >>>> 
+> >>>> The following object is masked from 'package:lme4':
+> >>>> 
+> >>>>    lmer
+> >>>> 
+> >>>> The following object is masked from 'package:stats':
+> >>>> 
+> >>>>    step
+> >>>> 
+> >>>>> 
+> >>>>> # WRE says "using if(requireNamespace("pkgname")) is preferred, if
+> >>>> possible."
+> >>>>> # even in tests:
+> >>>>> assertError <- function(expr, ...)
+> >>>> +   if(requireNamespace("tools")) tools::assertError(expr, ...) else
+> >>>> invisible()
+> >>>>> assertWarning <- function(expr, ...)
+> >>>> +   if(requireNamespace("tools")) tools::assertWarning(expr, ...) else
+> >>>> invisible()
+> >>>>> 
+> >>>>> # Kenward-Roger only available with pbkrtest and only then validated
+> >>>> in R >= 3.3.3
+> >>>>> # (faulty results for R < 3.3.3 may be due to unstated dependencies in
+> >>>> pbkrtest)
+> >>>>> has_pbkrtest <- requireNamespace("pbkrtest", quietly = TRUE) &&
+> >>>> getRversion() >= "3.3.3"
+> >>>>> 
+> >>>>> data("sleepstudy", package="lme4")
+> >>>>> TOL <- 1e-4
+> >>>>> 
+> >>>>> ####################################
+> >>>>> ## Basic anova tests
+> >>>>> ####################################
+> >>>>> 
+> >>>>> m <- lmer(Reaction ~ Days + (Days | Subject), sleepstudy)
+> >>>>> 
+> >>>>> ####### ddf argument:
+> >>>>> (an1 <- anova(m)) # Also testing print method.
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, ddf="Satterthwaite"))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2b <- anova(m, ddf="Satterthwaite", type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2c <- anova(m, ddf="Satterthwaite", type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an2, tolerance=TOL)
+> >>>> + ))
+> >>>>> (an3 <- anova(m, ddf="Sat")) ## Abbreviated argument
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an3, tolerance=TOL)
+> >>>> + ))
+> >>>>> if(has_pbkrtest) {
+> >>>> +   (anova(m, ddf="Kenward-Roger"))
+> >>>> +   (anova(m, ddf="Kenward-Roger", type=3))
+> >>>> + }
+> >>>> Type III Analysis of Variance Table with Kenward-Roger's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1    17  45.843 3.268e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an1 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>     Df Sum Sq Mean Sq F value
+> >>>> Days  1  30024   30024  45.843
+> >>>>> (an2 <- anova(m, ddf="lme4", type=3)) # 'type' is ignored with ddf="lme4"
+> >>>> Analysis of Variance Table
+> >>>>     Df Sum Sq Mean Sq F value
+> >>>> Days  1  30024   30024  45.843
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an2, tolerance=TOL)
+> >>>> + ))
+> >>>>> res <- assertError(anova(m, ddf="KR")) ## Error on incorrect arg.
+> >>>>> stopifnot(
+> >>>> +   grepl("'arg' should be one of ", unlist(res[[1]])$message)
+> >>>> + )
+> >>>>> 
+> >>>>> ## lme4 method:
+> >>>>> an1 <- anova(m, ddf="lme4")
+> >>>>> an2 <- anova(as(m, "lmerMod"))
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an2, tolerance=TOL)
+> >>>> + ))
+> >>>>> 
+> >>>>> ###### type argument:
+> >>>>> (an1 <- anova(m, type="1")) # valid type arg.
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type="I")) # same
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an2, tolerance=TOL)
+> >>>> + ))
+> >>>>> (an3 <- anova(m, type=1)) # Not strictly valid, but accepted
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an3, tolerance=TOL)
+> >>>> + ))
+> >>>>> 
+> >>>>> (an1 <- anova(m, type="2")) # valid type arg.
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type="II")) # same
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an2, tolerance=TOL)
+> >>>> + ))
+> >>>>> (an3 <- anova(m, type=3)) # Not strictly valid, but accepted
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an3, check.attributes=FALSE, tolerance=TOL)
+> >>>> + ))
+> >>>>> 
+> >>>>> (an1 <- anova(m, type="3")) # valid type arg.
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type="III")) # same
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an2, tolerance=TOL)
+> >>>> + ))
+> >>>>> (an3 <- anova(m, type=3)) # Not strictly valid, but accepted
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  30024   30024     1 16.995  45.843 3.273e-06 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(isTRUE(
+> >>>> +   all.equal(an1, an3, tolerance=TOL)
+> >>>> + ))
+> >>>>> assertError(anova(m, type=0)) # Not valid arg.
+> >>>>> assertError(anova(m, type="i")) # Not valid arg.
+> >>>>> 
+> >>>>> ####### Model comparison:
+> >>>>> fm <- lm(Reaction ~ Days, sleepstudy)
+> >>>>> (an <- anova(m, fm))
+> >>>> refitting model(s) with ML (instead of REML)
+> >>>> Data: sleepstudy
+> >>>> Models:
+> >>>> fm: Reaction ~ Days
+> >>>> m: Reaction ~ Days + (Days | Subject)
+> >>>>   Df    AIC    BIC  logLik deviance  Chisq Chi Df Pr(>Chisq)
+> >>>> fm  3 1906.3 1915.9 -950.15   1900.3
+> >>>> m   6 1763.9 1783.1 -875.97   1751.9 148.35      3  < 2.2e-16 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(
+> >>>> +   nrow(an) == 2L,
+> >>>> +   rownames(an)[2] == "m"
+> >>>> + )
+> >>>>> 
+> >>>>> m2 <- lmer(Reaction ~ Days + I(Days^2) + (Days | Subject), sleepstudy)
+> >>>>> (an <- anova(m, m2, refit=FALSE))
+> >>>> Data: sleepstudy
+> >>>> Models:
+> >>>> m: Reaction ~ Days + (Days | Subject)
+> >>>> m2: Reaction ~ Days + I(Days^2) + (Days | Subject)
+> >>>>   Df    AIC    BIC  logLik deviance  Chisq Chi Df Pr(>Chisq)
+> >>>> m   6 1755.6 1774.8 -871.81   1743.6
+> >>>> m2  7 1756.8 1779.2 -871.41   1742.8 0.8127      1     0.3673
+> >>>>> stopifnot(
+> >>>> +   nrow(an) == 2L,
+> >>>> +   rownames(an)[1] == "m"
+> >>>> + )
+> >>>>> 
+> >>>>> 
+> >>>>> ####################################
+> >>>>> ## Example with factor fixef:
+> >>>>> ####################################
+> >>>>> 
+> >>>>> ## 'temp' is continuous, 'temperature' an ordered factor with 6 levels
+> >>>>> data("cake", package="lme4")
+> >>>>> m <- lmer(angle ~ recipe * temp + (1|recipe:replicate), cake)
+> >>>>> (an <- anova(m))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+> >>>> recipe         4.00    2.00     2 254.02  0.0957 0.9088
+> >>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_lme4 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>            Df  Sum Sq Mean Sq F value
+> >>>> recipe       2   10.39    5.20  0.2488
+> >>>> temp         1 1966.71 1966.71 94.1632
+> >>>> recipe:temp  2    1.74    0.87  0.0417
+> >>>>> 
+> >>>>> if(has_pbkrtest) {
+> >>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+> >>>> +   # res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +   #                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")])
+> >>>> +   # stopifnot(isTRUE(res))
+> >>>> +   res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                    an_KR[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>> +   stopifnot(isTRUE(res))
+> >>>> + }
+> >>>>> stopifnot(all.equal(c(2, 1, 2), an$NumDF, tol=1e-6),
+> >>>> +           all.equal(c(254.0157612, 222, 222), an$DenDF, tol=TOL))
+> >>>>> 
+> >>>>> an3 <- anova(m, type=3)
+> >>>>> an2 <- anova(m, type=2)
+> >>>>> an1 <- anova(m, type=1)
+> >>>>> 
+> >>>>> ## Data is balanced, so Type II and III should be identical:
+> >>>>> ## One variable is continuous, so Type I and II/III are different:
+> >>>>> stopifnot(
+> >>>> +   isTRUE(all.equal(an3, an2, check.attributes=FALSE, tolerance=TOL)),
+> >>>> +   !isTRUE(all.equal(an1, an2, check.attributes=FALSE, tolerance=1e-8))
+> >>>> + )
+> >>>>> 
+> >>>>> # Using an ordered factor:
+> >>>>> m <- lmer(angle ~ recipe * temperature + (1|recipe:replicate), cake)
+> >>>>> (an1 <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> # Type 3 is also available with ordered factors:
+> >>>>> (an3 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> ## Balanced data and only factors: Type I, II and III should be the same:
+> >>>>> stopifnot(
+> >>>> +   isTRUE(all.equal(an1, an2, check.attributes=FALSE, tolerance=TOL)),
+> >>>> +   isTRUE(all.equal(an1, an3, check.attributes=FALSE, tolerance=TOL))
+> >>>> + )
+> >>>>> 
+> >>>>> (an <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_lme4 <- anova(m, type=1, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>                   Df  Sum Sq Mean Sq F value
+> >>>> recipe              2   10.19    5.09  0.2488
+> >>>> temperature         5 2100.30  420.06 20.5199
+> >>>> recipe:temperature 10  205.98   20.60  1.0062
+> >>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>>> stopifnot(isTRUE(res))
+> >>>>> if(has_pbkrtest) {
+> >>>> +   (an_KR <- anova(m, type=1, ddf="Kenward-Roger"))
+> >>>> +   res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                    an_KR[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>> +   stopifnot(isTRUE(res))
+> >>>> + }
+> >>>>> stopifnot(all.equal(c(2, 5, 10), an$NumDF, tolerance=TOL),
+> >>>> +           all.equal(c(42, 210, 210), an$DenDF, tolerance=TOL))
+> >>>>> 
+> >>>>> ########
+> >>>>> ## Make case with balanced unordered factors:
+> >>>>> cake2 <- cake
+> >>>>> cake2$temperature <- factor(cake2$temperature, ordered = FALSE)
+> >>>>> # str(cake2)
+> >>>>> stopifnot(
+> >>>> +   !is.ordered(cake2$temperature)
+> >>>> + )
+> >>>>> m <- lmer(angle ~ recipe * temperature + (1|recipe:replicate), cake2)
+> >>>>> (an1 <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an3 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>                    Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe               10.19    5.09     2    42  0.2488 0.7809
+> >>>> temperature        2100.30  420.06     5   210 20.5199 <2e-16 ***
+> >>>> recipe:temperature  205.98   20.60    10   210  1.0062 0.4393
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> ## Balanced data and only factors: Type I, II, and III should be the same:
+> >>>>> stopifnot(
+> >>>> +   isTRUE(all.equal(an1, an2, check.attributes=FALSE, tolerance=TOL)),
+> >>>> +   isTRUE(all.equal(an3, an2, check.attributes=FALSE, tolerance=TOL))
+> >>>> + )
+> >>>>> ########
+> >>>>> 
+> >>>>> # No intercept:
+> >>>>> m <- lmer(angle ~ 0 + recipe * temp + (1|recipe:replicate), cake)
+> >>>>> (an <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF DenDF  F value Pr(>F)
+> >>>> recipe      21442.9  7147.6     3    42 342.2200 <2e-16 ***
+> >>>> temp         1966.7  1966.7     1   222  94.1632 <2e-16 ***
+> >>>> recipe:temp     1.7     0.9     2   222   0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+> >>>> recipe         4.48    1.49     3 254.02  0.0714 0.9752
+> >>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+> >>>> recipe         4.48    1.49     3 254.02  0.0714 0.9752
+> >>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> if(has_pbkrtest)
+> >>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+> >>>> Type III Analysis of Variance Table with Kenward-Roger's method
+> >>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+> >>>> recipe         4.48    1.49     3 254.02  0.0714 0.9752
+> >>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_lme4 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>            Df  Sum Sq Mean Sq  F value
+> >>>> recipe       3 21442.9  7147.6 342.2200
+> >>>> temp         1  1966.7  1966.7  94.1632
+> >>>> recipe:temp  2     1.7     0.9   0.0417
+> >>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>>> stopifnot(isTRUE(res))
+> >>>>> 
+> >>>>> # ML-fit:
+> >>>>> m <- lmer(angle ~ recipe * temp + (1|recipe:replicate), cake, REML=FALSE)
+> >>>>> (an <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe        10.99    5.49     2    45  0.2666 0.7672
+> >>>> temp        1966.71 1966.71     1   225 95.4357 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2   225  0.0423 0.9586
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> if(has_pbkrtest)
+> >>>> +   assertError(an <- anova(m, ddf="Kenward-Roger")) # KR fits should be
+> >>>> REML
+> >>>>> (an_lme4 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>            Df  Sum Sq Mean Sq F value
+> >>>> recipe       2   10.99    5.49  0.2666
+> >>>> temp         1 1966.71 1966.71 95.4357
+> >>>> recipe:temp  2    1.74    0.87  0.0423
+> >>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>>> stopifnot(isTRUE(res))
+> >>>>> 
+> >>>>> ####################################
+> >>>>> ## Using contr.sum:
+> >>>>> ####################################
+> >>>>> 
+> >>>>> m <- lmer(angle ~ recipe * temp + (1|recipe:replicate), cake,
+> >>>> +           contrasts = list('recipe' = "contr.sum"))
+> >>>>> (an <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe        10.39    5.20     2    42  0.2488 0.7809
+> >>>> temp        1966.71 1966.71     1   222 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2   222  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+> >>>> recipe         4.00    2.00     2 254.02  0.0957 0.9088
+> >>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an3 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>             Sum Sq Mean Sq NumDF  DenDF F value Pr(>F)
+> >>>> recipe         4.00    2.00     2 254.02  0.0957 0.9088
+> >>>> temp        1966.71 1966.71     1 222.00 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2 222.00  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> stopifnot(
+> >>>> +   isTRUE(all.equal(an2, an3, check.attributes=FALSE, tolerance=TOL))
+> >>>> + )
+> >>>>> if(has_pbkrtest)
+> >>>> +   (an_KR <- anova(m, type=1, ddf="Kenward-Roger"))
+> >>>> Type I Analysis of Variance Table with Kenward-Roger's method
+> >>>>             Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>> recipe        10.39    5.20     2    42  0.2488 0.7809
+> >>>> temp        1966.71 1966.71     1   222 94.1632 <2e-16 ***
+> >>>> recipe:temp    1.74    0.87     2   222  0.0417 0.9592
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_lme4 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>            Df  Sum Sq Mean Sq F value
+> >>>> recipe       2   10.39    5.20  0.2488
+> >>>> temp         1 1966.71 1966.71 94.1632
+> >>>> recipe:temp  2    1.74    0.87  0.0417
+> >>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>>> stopifnot(isTRUE(res))
+> >>>>> 
+> >>>>> 
+> >>>>> ####################################
+> >>>>> ## Example with continuous fixef:
+> >>>>> ####################################
+> >>>>> 
+> >>>>> # Example with no fixef:
+> >>>>> m <- lmer(Reaction ~ -1 + (Days | Subject), sleepstudy)
+> >>>>> # m <- lmer(Reaction ~ 0 + (Days | Subject), sleepstudy) # alternative
+> >>>>> stopifnot(length(fixef(m)) == 0L)
+> >>>>> (an <- anova(m, type=1))
+> >>>> Type I Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>>> (an_2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>>> (an_3 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>>> stopifnot(nrow(an) == 0L,
+> >>>> +           nrow(an_2) == 0L,
+> >>>> +           nrow(an_3) == 0L)
+> >>>>> # anova(m, ddf="lme4") # Bug in lme4 it seems
+> >>>>> if(has_pbkrtest) {
+> >>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+> >>>> +   stopifnot(
+> >>>> +     nrow(an_KR) == 0L
+> >>>> +   )
+> >>>> + }
+> >>>>> 
+> >>>>> # Example with intercept only:
+> >>>>> m <- lmer(Reaction ~ (Days | Subject), sleepstudy)
+> >>>>> # m <- lmer(Reaction ~ 1 + (Days | Subject), sleepstudy) # alternative
+> >>>>> stopifnot(length(fixef(m)) == 1L,
+> >>>> +           names(fixef(m)) == "(Intercept)")
+> >>>>> (an <- anova(m))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>>> (an_2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>>> (an_3 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF DenDF F value Pr(>F)
+> >>>>> (an_lme4 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>     Df Sum Sq Mean Sq F value
+> >>>>> stopifnot(nrow(an) == 0L,
+> >>>> +           nrow(an_2) == 0L,
+> >>>> +           nrow(an_3) == 0L,
+> >>>> +           nrow(an_lme4) == 0L)
+> >>>>> if(has_pbkrtest) {
+> >>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+> >>>> +   stopifnot(
+> >>>> +     nrow(an_KR) == 0L
+> >>>> +   )
+> >>>> + }
+> >>>>> 
+> >>>>> # Example with 1 fixef without intercept:
+> >>>>> m <- lmer(Reaction ~ Days - 1 + (Days | Subject), sleepstudy)
+> >>>> Warning message:
+> >>>> In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+> >>>>  Model failed to converge with max|grad| = 0.00416642 (tol = 0.002,
+> >>>> component 1)
+> >>>>> # m <- lmer(Reaction ~ 0 + Days + (Days | Subject), sleepstudy) #
+> >>>> alternative
+> >>>>> stopifnot(length(fixef(m)) == 1L,
+> >>>> +           names(fixef(m)) == "Days")
+> >>>>> (an <- anova(m))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  93779   93779     1 16.995  143.19 1.054e-09 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_2 <- anova(m, type=2))
+> >>>> Type II Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  93779   93779     1 16.995  143.19 1.054e-09 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_3 <- anova(m, type=3))
+> >>>> Type III Analysis of Variance Table with Satterthwaite's method
+> >>>>     Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+> >>>> Days  93779   93779     1 16.995  143.19 1.054e-09 ***
+> >>>> ---
+> >>>> Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+> >>>>> (an_lme4 <- anova(m, ddf="lme4"))
+> >>>> Analysis of Variance Table
+> >>>>     Df Sum Sq Mean Sq F value
+> >>>> Days  1  93779   93779  143.19
+> >>>>> stopifnot(nrow(an) == 1L,
+> >>>> +           nrow(an_2) == 1L,
+> >>>> +           nrow(an_3) == 1L,
+> >>>> +           nrow(an_lme4) == 1L)
+> >>>>> if(has_pbkrtest) {
+> >>>> +   (an_KR <- anova(m, ddf="Kenward-Roger"))
+> >>>> +   stopifnot(
+> >>>> +     nrow(an_KR) == 1L
+> >>>> +   )
+> >>>> + }
+> >>>>> 
+> >>>>> res <- all.equal(an[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> +                  an_lme4[, c("Sum Sq", "Mean Sq", "F value")],
+> >>>> tolerance=TOL)
+> >>>>> stopifnot(isTRUE(res))
+> >>>>> stopifnot(isTRUE(all.equal(
+> >>>> +   c(1, 17), unname(unlist(an[, c("NumDF", "DenDF")])), tolerance=TOL
+> >>>> + )))
+> >>>> Error: isTRUE(all.equal(c(1, 17), unname(unlist(an[, c("NumDF",
+> >>>> "DenDF")])),  .... is not TRUE
+> >>>> Execution halted
+> >>>> autopkgtest [04:42:39]: test run-unit-test: -----------------------]
+> >>>> 
+> >>> 
+> >>> 
+> >>> 
+> >>> 
+> >>>> _______________________________________________
+> >>>> R-pkg-team mailing list
+> >>>> R-pkg-team at alioth-lists.debian.net <mailto:R-pkg-team at alioth-lists.debian.net>
+> >>>> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team <https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team>
+> >>> 
+> >>> 
+> >>> -- 
+> >>> http://fam-tille.de <http://fam-tille.de/>
+> >> 
+> >> -- 
+> >> http://fam-tille.de <http://fam-tille.de/>
+> 
+
+-- 
+http://fam-tille.de
+
+
+From ftpmaster at ftp-master.debian.org  Mon Feb 11 20:01:36 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 11 Feb 2019 20:01:36 +0000
+Subject: [R-pkg-team] Processing of r-cran-lmertest_3.1-0-1_source.changes
+Message-ID: <E1gtHlp-000083-1X@usper.debian.org>
+
+r-cran-lmertest_3.1-0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-lmertest_3.1-0-1.dsc
+  r-cran-lmertest_3.1-0.orig.tar.gz
+  r-cran-lmertest_3.1-0-1.debian.tar.xz
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Feb 11 20:56:55 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 11 Feb 2019 20:56:55 +0000
+Subject: [R-pkg-team] r-cran-lmertest_3.1-0-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gtIdL-00011s-D2@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 11 Feb 2019 19:36:44 +0100
+Source: r-cran-lmertest
+Binary: r-cran-lmertest
+Architecture: source
+Version: 3.1-0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-lmertest - GNU R tests in Linear Mixed Effects Models
+Closes: 921938
+Changes:
+ r-cran-lmertest (3.1-0-1) unstable; urgency=medium
+ .
+   * New upstream version
+     Closes: #921938
+   * debhelper 12
+   * Standards-Version: 4.3.0
+Checksums-Sha1:
+ 3b6429326c900d11d03667f472cae2824611cd11 2211 r-cran-lmertest_3.1-0-1.dsc
+ 223d45d0fb1587916c7d7f3be4237b87f9e6e41f 194793 r-cran-lmertest_3.1-0.orig.tar.gz
+ ab80a62e7667039609f9cd242e18e804760a7197 2868 r-cran-lmertest_3.1-0-1.debian.tar.xz
+Checksums-Sha256:
+ 2d4ec24756dbfe9f3ed18e68eb2bd326ac1189d088070bcdfee9d33a5d24eec0 2211 r-cran-lmertest_3.1-0-1.dsc
+ 2bdd4e8c1b9f88653dd39e5ee919878bb45bac857515130946cb17d52b437fda 194793 r-cran-lmertest_3.1-0.orig.tar.gz
+ bb45c7b4dfc25af7c014ff329cbe787f4c67ab0c9ee81b1813119621eba3e36c 2868 r-cran-lmertest_3.1-0-1.debian.tar.xz
+Files:
+ d886348428b8e839efb8f306425e9d86 2211 gnu-r optional r-cran-lmertest_3.1-0-1.dsc
+ 85fe0066aee68b8ceb27eab548a0599e 194793 gnu-r optional r-cran-lmertest_3.1-0.orig.tar.gz
+ 74f99be121be70dbc5abfc07564d0ce8 2868 gnu-r optional r-cran-lmertest_3.1-0-1.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlxh0nURHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtG+DQ//V00hbsahUWMOQwFfOWD3hqYW8AEZDZdd
+N9IUqQHz0wwo5udxI2fcwKpX/NOo156HhArihtK+1wQum0vwO8L0Oe6Ejuqmikp0
+E41ozUTKg5Xtnuiuh+0+aAJl8WDzqshuRo2j2AS2+S/Tdr8NEWdXa30VsYH//Q0R
+Bpx33RXQLP7pWcUvozk9M5OHL9wCS+cOr1FtkcM7dzfS4cfqxdsNRPDx3fzmgj/9
+pUe6DvD+oMeoyng/376kdg6Zwwo7MNir/JmdoqN0XswFUW4KzcHQzW5mZnJAOHy0
+jgSLzP0CncW5rPlwZBWhQqN4OET+X+JNwmkGgnAaVnAciZAC4YOVm7TUvbGKlQst
+cO7HJnZ5O0rDvvRQwnU8U6oHcGGkGTbAZZKoYb20SFyja3wB0IBBxJ6t2rt16LAv
+U53UVjAlMtMY0GfKOYB7EB7W2cexfC5gTGH1/PgYn7iuLRzgjNPIb99invy2d73k
+Ge2QpcarFcFtLjtroydCboctzxm8ML3zL0afse88X4FCYhqZmT8va/L8M8s84tqR
+kMV48u0mHmWiq5/+PwB4PRZsZaP7Nx+u6CAdSYa0Ecv5/3p7s7NNAgjAvP9xxh24
+hE90UZa2lhKwASx/RWvRVw9kfLq91YQO7rD/1pqKC9hfHtl3ZkSkvKa5dqWAJ+/+
+yV1tdKFpk3c=
+=pBOK
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Mon Feb 11 21:27:08 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 11 Feb 2019 21:27:08 +0000
+Subject: [R-pkg-team] Bug#921938: marked as done (lme4 breaks
+ r-cran-lmertest autopkgtest)
+References: <E1gtIdL-000123-Fp@fasolo.debian.org>
+ <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+Message-ID: <handler.921938.D921938.154992023530097.ackdone@bugs.debian.org>
+
+Your message dated Mon, 11 Feb 2019 20:56:55 +0000
+with message-id <E1gtIdL-000123-Fp at fasolo.debian.org>
+and subject line Bug#921938: fixed in r-cran-lmertest 3.1-0-1
+has caused the Debian Bug report #921938,
+regarding lme4 breaks r-cran-lmertest autopkgtest
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+921938: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921938
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Paul Gevers <elbrus at debian.org>
+Subject: lme4 breaks r-cran-lmertest autopkgtest
+Date: Sun, 10 Feb 2019 13:35:53 +0100
+Size: 34205
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190211/8a1bc66f/attachment-0002.mht>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Tille <tille at debian.org>
+Subject: Bug#921938: fixed in r-cran-lmertest 3.1-0-1
+Date: Mon, 11 Feb 2019 20:56:55 +0000
+Size: 5293
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190211/8a1bc66f/attachment-0003.mht>
+
+From michael.lucki at balfourbeatty-purchase.com  Tue Feb 12 02:34:08 2019
+From: michael.lucki at balfourbeatty-purchase.com (Michael Lucki)
+Date: Tue, 12 Feb 2019 02:34:08 GMT
+Subject: [R-pkg-team] Offer 039BT490
+Message-ID: <AD3QLPPK-WVFY-7AFD-20AL-WORLTCKUDZN@orange.fr>
+
+
+
+
+
+HI,
+Located in the united kingdom, Balfour Beatty  is UK's biggest Construction Company. We are looking for new Distributors as we working on some new projects.
+
+Please send us your catalog through email to learn more about your company's products and wholesale quote. We hope being able to order with you and start long-term friendly, respectable and solid business partnership. Please, we would appreciate if you could send us your stock availability via email. Target: Our Payment Terms is within 15 days net in Europe and 30 days net in UK as we operate with all our suppliers.
+
+Best Regards,
+Michael lucki
+Non Executive Director
+Purchasing Department.
+Balfour Beatty Plc
+Direct-Line: +447471446170
+Office-Line: +448443510413
+www.BalfourBeatty.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190212/7d809d3c/attachment.html>
+
+From noreply at release.debian.org  Tue Feb 12 04:40:12 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 12 Feb 2019 04:40:12 +0000
+Subject: [R-pkg-team] r-bioc-genomicfeatures 1.34.3+dfsg-1 MIGRATED to
+ testing
+Message-ID: <E1gtPrg-0001Md-WC@respighi.debian.org>
+
+FYI: The status of the r-bioc-genomicfeatures source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.34.2+dfsg-1
+  Current version:  1.34.3+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Feb 12 04:40:12 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 12 Feb 2019 04:40:12 +0000
+Subject: [R-pkg-team] r-bioc-ensembldb 2.6.5+dfsg-1 MIGRATED to testing
+Message-ID: <E1gtPrg-0001MV-UL@respighi.debian.org>
+
+FYI: The status of the r-bioc-ensembldb source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.6.4+dfsg-1
+  Current version:  2.6.5+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Feb 12 04:40:13 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 12 Feb 2019 04:40:13 +0000
+Subject: [R-pkg-team] r-cran-rlumshiny 0.2.2-1 MIGRATED to testing
+Message-ID: <E1gtPrh-0001Ml-23@respighi.debian.org>
+
+FYI: The status of the r-cran-rlumshiny source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.2.1-2
+  Current version:  0.2.2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Tue Feb 12 06:58:46 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 12 Feb 2019 06:58:46 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-biocparallel_1.16.6-1_source.changes
+Message-ID: <E1gtS1m-0002i7-Vq@usper.debian.org>
+
+r-bioc-biocparallel_1.16.6-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-biocparallel_1.16.6-1.dsc
+  r-bioc-biocparallel_1.16.6.orig.tar.gz
+  r-bioc-biocparallel_1.16.6-1.debian.tar.xz
+  r-bioc-biocparallel_1.16.6-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Feb 12 07:13:49 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 12 Feb 2019 07:13:49 +0000
+Subject: [R-pkg-team] Processing of r-cran-modelr_0.1.3-1_source.changes
+Message-ID: <E1gtSGL-0003hj-BG@usper.debian.org>
+
+r-cran-modelr_0.1.3-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-modelr_0.1.3-1.dsc
+  r-cran-modelr_0.1.3.orig.tar.gz
+  r-cran-modelr_0.1.3-1.debian.tar.xz
+  r-cran-modelr_0.1.3-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Feb 12 07:21:37 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 12 Feb 2019 07:21:37 +0000
+Subject: [R-pkg-team] r-bioc-biocparallel_1.16.6-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1gtSNt-000DDC-Ou@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 12 Feb 2019 07:40:13 +0100
+Source: r-bioc-biocparallel
+Architecture: source
+Version: 1.16.6-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-bioc-biocparallel (1.16.6-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Remove librt-linkage.patch, applied upstream.
+Checksums-Sha1:
+ 50518fc371a55e463d25cbbaf4d4aee4e7607c3c 2307 r-bioc-biocparallel_1.16.6-1.dsc
+ 81c01c7518b35c711a9d9cdf5ac7a09c355feaa4 933245 r-bioc-biocparallel_1.16.6.orig.tar.gz
+ f538eb827a4b2157c903ad6561a63aa9595fa4a8 3364 r-bioc-biocparallel_1.16.6-1.debian.tar.xz
+ 62fc07dadd029823bc88464c1d94629b57d4185d 8779 r-bioc-biocparallel_1.16.6-1_amd64.buildinfo
+Checksums-Sha256:
+ e931dd7b31f60d52f9470bed822aeb8df93013cc2d789d70575e563f01f8d048 2307 r-bioc-biocparallel_1.16.6-1.dsc
+ 424fc59e6c69cad310c3c1592e21e04e165621a29d414ac10f677c6aeaef62c7 933245 r-bioc-biocparallel_1.16.6.orig.tar.gz
+ 8a74e0b6ccc805ac6aed1484b3d5361570e2dd8395df41900b433a0c8241ba0c 3364 r-bioc-biocparallel_1.16.6-1.debian.tar.xz
+ 9f9ba504dff23c34c4453b5bc0e7851f3ca29cb83dcef6ff7c6b17860bc13f66 8779 r-bioc-biocparallel_1.16.6-1_amd64.buildinfo
+Files:
+ 1a3fc3c4ebda9ab435de352fdc8ca516 2307 gnu-r optional r-bioc-biocparallel_1.16.6-1.dsc
+ bd95c6d6202bd09612b448e5da49bd2a 933245 gnu-r optional r-bioc-biocparallel_1.16.6.orig.tar.gz
+ f492bd3af8d3007dd5c8cdc699567563 3364 gnu-r optional r-bioc-biocparallel_1.16.6-1.debian.tar.xz
+ a58cf2d99e08246d96b65c768da39259 8779 gnu-r optional r-bioc-biocparallel_1.16.6-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxia1sSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9URcsP+wWJFYpnIYZ6ddt3nA8+YFEG0UG9Tkhc
+ppJs92M+XDrCm5j4h261tR/7U7SnUEVlZ/L/3okLu1wrmsbQ8HYHc6LHLuQTAG1G
+KRvJeP7zmoyXfMf0+SyHCclyCKAqhQay+7aOBptum+2wNJ7+cwSDWODq23uq3SFk
+6Fo2i9uyDg/RYYcWHerbWC9Uo29w5NnKD3/iY8Xkp1cLug/JdeGtYKwhTwglbcSe
+ngzFIZ309t14UW2YFgZvdMg33R14Szx7ghklmF5OiqOxEJbAFJ5Kj1d2MYbu6CdJ
+O6Ik29RdzcHFnA47cwQdcYoUCRz0QlFOtdK+krtnPgS8c1XjrWqqUwiOt5bXjrAp
+fERLpWlM830ilY2ETAruNFKLH37+H2gHCG1wVsHDWIaczehiYErxd8IgVBKotw6f
+bVp6OOldzNRMbLypgZHrpIKtrKMgSM0zuKPrbxFWYP4lHnqdZYOr9XP2+fOZlSeq
+7IZO8/yB8d5CIjapYR+oy7UHx+6vAkcK6RiJjNAJy4AY5k/OCUZPnlZ0pWB/fsBU
+MK2892/pYXJrZbV8yN8fah3tv7KZQzfwdf7MN8RtD3eOPb9CIMFAurIOHOsYU2ju
+CvZ8JUn0EQiIv6hOE0YRGC9LMTOeQHwmz2fhf1WHMtfkJpy2ABZW6jvtja3qeEeb
+cPEiYNqLK2PL
+=6i0e
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Tue Feb 12 07:21:45 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 12 Feb 2019 07:21:45 +0000
+Subject: [R-pkg-team] r-cran-modelr_0.1.3-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gtSO1-000DEg-Oc@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 12 Feb 2019 07:49:07 +0100
+Source: r-cran-modelr
+Architecture: source
+Version: 0.1.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-modelr (0.1.3-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+   * rename debian/tests/control.autodep8 to debian/tests/control
+Checksums-Sha1:
+ 5e1629f62d92cbd6dae42098df119cb77ed81ada 2198 r-cran-modelr_0.1.3-1.dsc
+ 3a9c5a895484820d12f252f8f6355b780990f104 119309 r-cran-modelr_0.1.3.orig.tar.gz
+ 28728a6073f275dfb272eb1aabf01bdba5fd3ff9 2116 r-cran-modelr_0.1.3-1.debian.tar.xz
+ 6c3f617a2ec33b30078b46936ea1b5b327b7e2a8 9043 r-cran-modelr_0.1.3-1_amd64.buildinfo
+Checksums-Sha256:
+ 215bbbe8191373768babe8e93478199bee478da8611ac37210aa1d38b5bc6a68 2198 r-cran-modelr_0.1.3-1.dsc
+ e536b247c17d6cacf10565dd8a1b744efc90a8815c70edd54371e413e6d1b423 119309 r-cran-modelr_0.1.3.orig.tar.gz
+ 2bdc8e17ad4894dedbd67b830ee0c0417fda9e5da02a5f800a23b9fb7e06e081 2116 r-cran-modelr_0.1.3-1.debian.tar.xz
+ cbe755c4cb6fb33b4208ab52bb4b0d402a00c0154b9f7e8b9776dfe0bccdda1e 9043 r-cran-modelr_0.1.3-1_amd64.buildinfo
+Files:
+ a9b8ce584f5904f06735d212289677a5 2198 gnu-r optional r-cran-modelr_0.1.3-1.dsc
+ 000363ed9e3e8c36135b8a32e4fd7de2 119309 gnu-r optional r-cran-modelr_0.1.3.orig.tar.gz
+ 775bf0fb3ab0de293019a8fe9ee05173 2116 gnu-r optional r-cran-modelr_0.1.3-1.debian.tar.xz
+ 4545201f88a682cd64299f47674c9f96 9043 gnu-r optional r-cran-modelr_0.1.3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxib70SHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9U09IP/05neesWBPXDOj13WP5psNqAeFu16QYO
+ycdgMDfin+n1r5ZpBtrhmOo1gsFXZmPP2288ceHm2XbVkNyov1QhuGIxoYLDmH5z
+Pc4zdNHLO9UnF3TMwyxh+chcPyznZbPdiG92FiTZKcgnJCmzG01b8Xesuo48VlaD
+2BBFQsyk/yFBdZ0ZjMpEyVGBEqrCyOM2gYiBmzZFvrapaTWiG4xDe+MC+hpl8U63
+K/j+lR5cLGh+gHxyuy4tYUERsTArM3LFNtxB3mu3HmFaIRHj7TVACVcAg2a0hnj9
+lmeKO0r9Nw1gb5Kl8z3mnYhOFYCpIUbC9la0EfdA89xCasqZGGeKgp1BWZivS67/
+c1YEVDmacflnjTT2uDhTYOtOuRc0Xbv7Gzn4W4Lj+jmqc2JDzUuTh6Nq3fLNJoNV
+3T25fiC06nIvrvwSxovWDOPCwDu4UzaRdupMfn5SicmKorhdx/56YFumrfMFhPfQ
+O1ZS5sQUaS3DsfhYnwouy0olI0qfyjDfjBN6BfrTZ3c5480YHHTxAdryThret3AK
+/Jk1TsftXCnTDHZk97UWL3dsdAMJ+ZlpeF/o1ZN77edc+635kGS998RdCH8qeayO
+pyYOW0aWwjqg2E10mOBDh2DKXdcuM1q9VfIpk7daGXz57c1oo5aVY1up8jIAwvoQ
+HHlqrDrgrIbr
+=btd+
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Tue Feb 12 07:34:55 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 12 Feb 2019 07:34:55 +0000
+Subject: [R-pkg-team] Processing of r-cran-jsonld_2.1+dfsg-1_source.changes
+Message-ID: <E1gtSal-0004wp-RX@usper.debian.org>
+
+r-cran-jsonld_2.1+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-jsonld_2.1+dfsg-1.dsc
+  r-cran-jsonld_2.1+dfsg.orig.tar.xz
+  r-cran-jsonld_2.1+dfsg-1.debian.tar.xz
+  r-cran-jsonld_2.1+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Feb 12 07:51:48 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 12 Feb 2019 07:51:48 +0000
+Subject: [R-pkg-team] r-cran-jsonld_2.1+dfsg-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gtSr6-0000cT-Vz@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 12 Feb 2019 08:06:14 +0100
+Source: r-cran-jsonld
+Architecture: source
+Version: 2.1+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-jsonld (2.1+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+   * Remove empty debian/tests/control
+Checksums-Sha1:
+ cfded02a8dd7d32765916fd476fa912614770ffb 2107 r-cran-jsonld_2.1+dfsg-1.dsc
+ 54f3b49f9211b3c96ef6000ccae406d03bc23569 4576 r-cran-jsonld_2.1+dfsg.orig.tar.xz
+ 01f4801cb85541d6d4f2359b21923eb75f626fda 147708 r-cran-jsonld_2.1+dfsg-1.debian.tar.xz
+ f5978711c0d8f6502d758efa53d078bf7b88237d 8496 r-cran-jsonld_2.1+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 5810cff87b56228cb346885d9e2891d85b059bcdd5f83fe9ec9c00bc3e270904 2107 r-cran-jsonld_2.1+dfsg-1.dsc
+ 180e9006f545802fefd354046e5898f578b0a65ff73998982e296505a13261a1 4576 r-cran-jsonld_2.1+dfsg.orig.tar.xz
+ bace07ed3d22cbb9f6f66c05c981354140d5125c1282fb81aa01642a9e115f4b 147708 r-cran-jsonld_2.1+dfsg-1.debian.tar.xz
+ 766bc6a9b0b314e697fe44e505ad416be8d6a317d507e64827349b6ba9abc0f1 8496 r-cran-jsonld_2.1+dfsg-1_amd64.buildinfo
+Files:
+ f3d2d1de32e113e9f80a00a17c2408fc 2107 gnu-r optional r-cran-jsonld_2.1+dfsg-1.dsc
+ f82e0f40396ffb997235920bb2a9598c 4576 gnu-r optional r-cran-jsonld_2.1+dfsg.orig.tar.xz
+ cc7350ae1f23c7124482479a3a92ea40 147708 gnu-r optional r-cran-jsonld_2.1+dfsg-1.debian.tar.xz
+ 66c4478082706d535f7dd5df6678fec7 8496 gnu-r optional r-cran-jsonld_2.1+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxic/oSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9ULQkP/iJ2GYmK+K8vIrhBAWpbuQ9BKllD+Uqy
+47Qr9gBzoZ3T7EM8w+9g4R1jlRGBFA0kx/a3PnBLSrjJCzYqyhX/U32m6Vh6Pxuh
+gLbOevMyJ1zmEDXkXdihIKLKN5EezzhdIrVb5uWcx1LDPXmn/5pdHNw5kxCJA7JE
+A6rz9Ymh1V1If7bwAsq8unq2YRjKttRoTEA2vBvd2dQxvCTp+MbFhsTMCdfa6RlU
+D5m+Tnr42u52REUsdkLAhgAOe0jwdhN4NaVIbQ4MdRVmx1QIY6yZ1P108GJfBip0
+yrhTJnqkSfIE2ZI47m5aEyp79T3OaSiMAUOAcgVwHhSGWEs5WnrIXcUIaFks873z
+Dw0o12Tr3J70LB6OtvaDjSX/7Og0dY2HaM+S+DWQL4bVvh85uwApMi4O3WXsX2zx
+zzYRuTOjKRII48aj46k3OfxNss8gQ1DY1+Sxt8gUCSdU7Dj3Ido3urMLxMYTN6o9
+zYYogKhx13F8eWc4Q/3jvjOiiddx9St7aIViRD7a91SGTiMMA8eVuJlfiCutgkZe
+S0aohz9OiY80P2YnIFHdyUXc0bmsKtA47eY5xoAeQo+8SxUSciLgFZ1QgiS8nlDt
+RhioS+0t5cp5AaL9Ekdm9ADrUCUwcxBx+llJ7Bm0iQEOdqGOf7xDPFdsfLIHyjBz
+lGntbC+Vcw6u
+=sNg8
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From elbrus at debian.org  Tue Feb 12 22:44:18 2019
+From: elbrus at debian.org (Paul Gevers)
+Date: Tue, 12 Feb 2019 23:44:18 +0100
+Subject: [R-pkg-team] Bug#921938: lme4 breaks r-cran-lmertest autopkgtest
+In-Reply-To: <23648.13080.253093.862038@rob.eddelbuettel.com>
+References: <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+ <23648.13080.253093.862038@rob.eddelbuettel.com>
+ <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+Message-ID: <d14e353d-f095-1eba-a755-3dfbee571a4a@debian.org>
+
+Hi Dirk,
+
+On 10-02-2019 15:20, Dirk Eddelbuettel wrote:
+> | Currently this regression is blocking the migration of lme4 to testing
+> | [1]. Due to the nature of this issue, I filed this bug report against
+> | both packages. Can you please investigate the situation and reassign the
+> | bug to the right package? If needed, please change the bug's severity.
+> 
+> Sorry I don't really have the time for this. I maintain r-cran-lme4; it
+> passes.
+
+Although I understand your emotions, this isn't really constructive in
+Debian. *Your* package lme4 isn't migrating to testing due to these
+regressions. If you want your package in buster, it is better to at
+least communicate with your reverse dependencies with regressing
+autopkgtests.
+
+> The relevant page for me is
+> 
+>    https://cloud.r-project.org/web/checks/check_results_lme4.html
+
+Well, for me it is https://qa.debian.org/excuses.php?package=lme4 and
+your package will not migrate if it remains like that.
+
+> The package has MANY reverse dependencies but I am responsible for
+> those. Talk to _their_ maintainers.  Thanks for your understandind.
+
+I do talk to their maintainers by filing this bug report against your
+package and their package at the same time. Without inside knowledge of
+the r stack I can't judge the situation and I can only assume that you
+may have to discuss together how to resolve this issue. Me understanding
+you isn't going to have your package migrate, fixing the regression is.
+
+Paul
+
+PS: due to the tone of your response, it took me some days to reply.
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 488 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190212/ba8f2daa/attachment.sig>
+
+From edd at debian.org  Tue Feb 12 23:10:59 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Tue, 12 Feb 2019 17:10:59 -0600
+Subject: [R-pkg-team] Bug#921938: lme4 breaks r-cran-lmertest autopkgtest
+In-Reply-To: <d14e353d-f095-1eba-a755-3dfbee571a4a@debian.org>
+References: <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+ <23648.13080.253093.862038@rob.eddelbuettel.com>
+ <d14e353d-f095-1eba-a755-3dfbee571a4a@debian.org>
+ <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+Message-ID: <23651.21123.715641.931685@rob.eddelbuettel.com>
+
+
+Paul,
+
+It so happens that I know the R stack pretty well, and I happen to know how
+CRAN operates. Getting a new upstream package from CRAN almost always means
+that nothing is broken, or that (a rare case) a change affects a downstream
+package -- as all this is tested well at CRAN. I am pretty close to that
+ecosystem, and there is mutual trust between them and me.
+
+Hence an autopkgtest failing was likely an indication of _our_ downstream
+dependencies of this package failing.
+
+And so it was, and that I demonstrated.
+
+By now both these packages have been updated
+  https://packages.debian.org/sid/r-cran-lmertest
+  https://packages.debian.org/sid/r-cran-mlmrev
+and there is still no bug in my package r-cran-lme4. We "merely" have to wait
+for testing to receive the newer packages. And then r-cran-lme4 will migrate.
+Until there is nothing for me to day, just as there was nothing for me to
+five days ago.  It really was an issue in r-cran-{lmertest,mlmrev}.
+
+Hope this helps.
+
+Dirk
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From owner at bugs.debian.org  Wed Feb 13 06:09:07 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Wed, 13 Feb 2019 06:09:07 +0000
+Subject: [R-pkg-team] Processed (with 1 error): lme4 breaks r-cran-lmertest
+ and r-cran-mlmrev
+References: <CAM8zJQvXBvTzeD9puhnDxy5FErpWhE5jz7GxNK7vJm+D=uQcYQ@mail.gmail.com>
+Message-ID: <handler.s.C.155003792922555.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> clone 921938 -1
+Bug #921938 {Done: Andreas Tille <tille at debian.org>} [src:lme4, src:r-cran-lmertest] lme4 breaks r-cran-lmertest autopkgtest
+Bug 921938 cloned as bug 922198
+> reopen -1
+Bug #922198 {Done: Andreas Tille <tille at debian.org>} [src:lme4, src:r-cran-lmertest] lme4 breaks r-cran-lmertest autopkgtest
+'reopen' may be inappropriate when a bug has been closed with a version;
+all fixed versions will be cleared, and you may need to re-add them.
+Bug reopened
+No longer marked as fixed in versions r-cran-lmertest/3.1-0-1.
+> reassign -1 src:lme4 1.1-20-1
+Bug #922198 [src:lme4, src:r-cran-lmertest] lme4 breaks r-cran-lmertest autopkgtest
+Bug reassigned from package 'src:lme4, src:r-cran-lmertest' to 'src:lme4'.
+No longer marked as found in versions lme4/1.1-20-1 and r-cran-lmertest/3.0-1-2.
+Ignoring request to alter fixed versions of bug #922198 to the same values previously set
+Bug #922198 [src:lme4] lme4 breaks r-cran-lmertest autopkgtest
+Marked as found in versions lme4/1.1-20-1.
+> ressign 921938 r-cran-lmertest 3.0-1-2
+Unknown command or malformed arguments to command.
+> affects -1 = src:r-cran-lmertest src:r-cran-mlmrev
+Bug #922198 [src:lme4] lme4 breaks r-cran-lmertest autopkgtest
+Added indication that 922198 affects src:r-cran-mlmrev and src:r-cran-lmertest
+> retitle -1 lme4 breaks r-cran-lmertest and r-cran-mlmrev
+Bug #922198 [src:lme4] lme4 breaks r-cran-lmertest autopkgtest
+Changed Bug title to 'lme4 breaks r-cran-lmertest and r-cran-mlmrev' from 'lme4 breaks r-cran-lmertest autopkgtest'.
+> user debian-ci at lists.debian.org
+Setting user to debian-ci at lists.debian.org (was ginggs at debian.org).
+> usertag -1 = breaks
+There were no usertags set.
+Usertags are now: breaks.
+> usertag 921938 = needs-update
+Usertags were: needs-update breaks.
+Usertags are now: needs-update.
+> usertag 921939 = needs-update
+Usertags were: needs-update breaks.
+Usertags are now: needs-update.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+921938: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921938
+921939: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921939
+922198: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=922198
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ftpmaster at ftp-master.debian.org  Wed Feb 13 06:49:55 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 13 Feb 2019 06:49:55 +0000
+Subject: [R-pkg-team] Processing of r-cran-metamix_0.3-1_source.changes
+Message-ID: <E1gtoMm-0006uB-02@usper.debian.org>
+
+r-cran-metamix_0.3-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-metamix_0.3-1.dsc
+  r-cran-metamix_0.3.orig.tar.gz
+  r-cran-metamix_0.3-1.debian.tar.xz
+  r-cran-metamix_0.3-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From owner at bugs.debian.org  Wed Feb 13 07:00:06 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Wed, 13 Feb 2019 07:00:06 +0000
+Subject: [R-pkg-team] Processed: lme4 breaks r-cran-lmertest and
+ r-cran-mlmrev
+References: <CAM8zJQtsM_f00+aAdb_oEwOnjEPDAJdexHkCiyg0ak_1gwo_CQ@mail.gmail.com>
+ <15bb8aec-9477-7548-f3f5-93178ad21a84@debian.org>
+Message-ID: <handler.s.B922198.155004102110390.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 = patch
+Bug #922198 [src:lme4] lme4 breaks r-cran-lmertest and r-cran-mlmrev
+Added tag(s) patch; removed tag(s) upstream and help.
+> notforwarded -1
+Bug #922198 [src:lme4] lme4 breaks r-cran-lmertest and r-cran-mlmrev
+Unset Bug forwarded-to-address
+> reassign 921938 r-cran-lmertest 3.0-1-2
+Bug #921938 {Done: Andreas Tille <tille at debian.org>} [src:lme4, src:r-cran-lmertest] lme4 breaks r-cran-lmertest autopkgtest
+Bug reassigned from package 'src:lme4, src:r-cran-lmertest' to 'r-cran-lmertest'.
+No longer marked as found in versions lme4/1.1-20-1 and r-cran-lmertest/3.0-1-2.
+No longer marked as fixed in versions r-cran-lmertest/3.1-0-1.
+Bug #921938 {Done: Andreas Tille <tille at debian.org>} [r-cran-lmertest] lme4 breaks r-cran-lmertest autopkgtest
+Marked as found in versions r-cran-lmertest/3.0-1-2.
+
+-- 
+921938: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921938
+922198: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=922198
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ftpmaster at ftp-master.debian.org  Wed Feb 13 07:04:03 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 13 Feb 2019 07:04:03 +0000
+Subject: [R-pkg-team] r-cran-metamix_0.3-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gtoaR-0005Cc-8c@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 13 Feb 2019 07:26:21 +0100
+Source: r-cran-metamix
+Architecture: source
+Version: 0.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-metamix (0.3-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+Checksums-Sha1:
+ 1bb77ec7c347bebc08fc14793faf96250af13ccf 2171 r-cran-metamix_0.3-1.dsc
+ b4c1bd9382be54012767d799b26c6c793f5ff64d 697173 r-cran-metamix_0.3.orig.tar.gz
+ 6522aa996931f4a1992bdb7fd76472dbcede89dd 2424 r-cran-metamix_0.3-1.debian.tar.xz
+ fe0188cb2c42b02a79cae76976b371dfbe499ecf 10599 r-cran-metamix_0.3-1_amd64.buildinfo
+Checksums-Sha256:
+ 25f16f9729e43017017c7f562f3df5c89a523ad30ac344a6af83599612e6bd95 2171 r-cran-metamix_0.3-1.dsc
+ 1818a61c459d3672c24082df523d88175042805bf7e2ed971f66971fd3e3139f 697173 r-cran-metamix_0.3.orig.tar.gz
+ 88c0ce54fb9e764d5fbfe5318c48881f4c98bb52ad5aa366c292ad7c41941f77 2424 r-cran-metamix_0.3-1.debian.tar.xz
+ 6f20ab59e056744114fd58f39c7b3bc3ee7a42db70c69e5038797b9d657d7b12 10599 r-cran-metamix_0.3-1_amd64.buildinfo
+Files:
+ d1eeb2672cfc66094200103b69ed6c47 2171 gnu-r optional r-cran-metamix_0.3-1.dsc
+ 70aef9e3e3fd9ca8839050b2d5dc0093 697173 gnu-r optional r-cran-metamix_0.3.orig.tar.gz
+ d476e29454b77473f4dfdb50f4b09f12 2424 gnu-r optional r-cran-metamix_0.3-1.debian.tar.xz
+ 345e094c127ebc2d299d7a492e316c1a 10599 gnu-r optional r-cran-metamix_0.3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxjuzUSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UH/QP/jQkK5nNUJBJCPM0luleoJPpnm/EsQud
+h+IMvd7mPl1kyh5hIbpq8Ukm8NpYgwRfa36SzD4KIYUMPua7ZM+P2Um2knmplJlq
+AVzVP2slyCrvIYpnkUdA86jPBJulgPVc3M8kmfMmlgBalcO0IAV+DOmTgwK9RQ5F
+TnZR857Gg3oD1NIexgG03aGyGvjPj30nolPsVjwvLcfHlD1c1IKpGsgAQ95DDe5j
+ZqWsrAoTLAg8MWh9qfK8JM3Wz9OUeeT0xWKYG+3+NtDRmTCnSE/NmUwrewasyvNy
+CNK7TLke+/P2isBrJo6kEG3ZvkwbDRsQro7IgjFLLD0hlfe4cLxJoz9OKL14JiEs
+LUzwIbHOU9qrDEoCm5YXJtqxe9m3fDixO49INcX19sm5Aq08ooL4Ja1aoHXNwGyR
+tNL+/5TWDZfiRPsXTVd0YnzUoLtxcS+yUjbnU9tUxYtmibLrn+0fpRCJRi1TVm2G
+euWiQuZBhbTIfVgdOeiPrH0bmPPGf3F9N8D25q5a4/wjmRXlhh/M9PyGStxAzh55
+Uh/5lP6qaD6a/+M+rWwVvTyWO8x1ZP94KKCH3bTgk8UTFAhRA5tYPB/S2LKutFVe
+r4BO8XSmZGAcEp0Zp5m4yCIQr3HvbGCLnffjXBXE3E9ltAy4f+SkAzp+8z1Kt7Wa
+8bmnO5lV4PUj
+=x0DK
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Feb 13 07:44:59 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 13 Feb 2019 07:44:59 +0000
+Subject: [R-pkg-team] Processing of r-cran-igraph_1.2.3-1_source.changes
+Message-ID: <E1gtpE3-0001Uc-1W@usper.debian.org>
+
+r-cran-igraph_1.2.3-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-igraph_1.2.3-1.dsc
+  r-cran-igraph_1.2.3.orig.tar.gz
+  r-cran-igraph_1.2.3-1.debian.tar.xz
+  r-cran-igraph_1.2.3-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Feb 13 07:50:10 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 13 Feb 2019 07:50:10 +0000
+Subject: [R-pkg-team] r-cran-igraph_1.2.3-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gtpJ4-000Ez2-Tq@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 13 Feb 2019 08:24:47 +0100
+Source: r-cran-igraph
+Architecture: source
+Version: 1.2.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-igraph (1.2.3-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version.
+Checksums-Sha1:
+ 952ed9f64d0c4e3d145c21f2fe28f6a6e78ee5eb 2132 r-cran-igraph_1.2.3-1.dsc
+ 3e41d025ad1624247c8bd72918f1b0b31781cf0a 2703891 r-cran-igraph_1.2.3.orig.tar.gz
+ 2329ab981eafd2296e83b15afeaaf1fc11447964 6052 r-cran-igraph_1.2.3-1.debian.tar.xz
+ 4d0a30558d295b69907de84255d243bf0e1f0825 8611 r-cran-igraph_1.2.3-1_amd64.buildinfo
+Checksums-Sha256:
+ 28fc3a87fdfd0cc21dcdbc4266e09c7be1bafb3588bd5ea757707bea65cac592 2132 r-cran-igraph_1.2.3-1.dsc
+ ad59c2730be9b01ccc2fd2d4230730c6c03c8390707acc39b726ec1584c08ee2 2703891 r-cran-igraph_1.2.3.orig.tar.gz
+ 4af264bbbae08be0f186ad4fb00def80c7c3b32e89cfc8ca0c51778bb52043cb 6052 r-cran-igraph_1.2.3-1.debian.tar.xz
+ d32c2b52f565540bed0bd150598b1990ed2ade3ca53c5d346c90eee10dc22722 8611 r-cran-igraph_1.2.3-1_amd64.buildinfo
+Files:
+ 4aba6a1d00326bb678753cd9a897a884 2132 gnu-r optional r-cran-igraph_1.2.3-1.dsc
+ 80203319d29684b37d22dce94e3c6548 2703891 gnu-r optional r-cran-igraph_1.2.3.orig.tar.gz
+ 79386b6b246f9dce2a31079528e64b0c 6052 gnu-r optional r-cran-igraph_1.2.3-1.debian.tar.xz
+ a2cd048b0d26339f52f7d25885ea4faa 8611 gnu-r optional r-cran-igraph_1.2.3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxjyGUSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UziwQAI9r4qP/orwDxxjh7dtsHcR1veVcnPCe
+iXfkcgbmLYQHzVOyBWzYoa1aq/Ob5NgGxqLZJ+Wx6sFDsPsnGHRgGfiX15Ym7GLW
+qqmhRHB7uh0OrwGTOUSQi46ipg1nLRgaPl1OAJ8O4MkiE7lyJpEp8A+cp4V6iuUP
+HVHoHubwIgRsZc/dZb81nWvfWtGsBMOkXADxHtpo/bZGai0SB0IMWOxcVGymIL4I
+NWsGZfT+vUtNKCwnu6VW5kZXwITIgc2RRN/RLJT9azUVC0GRPyjTzYu4nGnaHwrT
+TCtVtwC7xv6k+Y9Kni+KFWFgxjYUUW1pxeh7APPBzD4tVxLUae2knIhbGgijlI4x
+plEPbgRSlVeGGcT/jTWjHxA9wz8pnmRYnZLIZRtQnBfjB4dar0TkRBUHH/u8Wk31
+bHbkzRa5YmlU42j+gSdK5w8gvEnwlO29WWH2pIiwxe8sJWHoDwD9kgB7Q8fSjC7x
+3YKz3mh+a3uR/5hIir1cqyjckSlIRw1B/CoywfRFcDC00BN3+VbZWxALzmwlHsmX
+ly1shAJHEHmkrY0Bag1pKPjWvzN3UGNUHfzxmH7hE8cdF0gu7pdvxpud0aCzdGmD
+mGY3FO6/abJ3+h6M0zLri4zHEoRFUahq9Q6XTB7wMiMdzQgcg1LFFbqY1uRd0ePM
++3YtzPNuDsnV
+=95Km
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Thu Feb 14 01:45:12 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 14 Feb 2019 01:45:12 +0000
+Subject: [R-pkg-team] Processed: found 915026 in 13.8.7-3,
+ fixed 921938 in 3.1-0-1, reassign 921667 to lxc,
+ notfixed 921343 in 2.5.1-1 ...
+References: <1550108495-3025-bts-anbe@debian.org>
+Message-ID: <handler.s.C.155010849922041.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> # unconfuse the bts
+> found 915026 13.8.7-3
+Bug #915026 [chef] chef: logrotate exits with error after package removal
+Marked as found in versions chef/13.8.7-3.
+> fixed 921938 3.1-0-1
+Bug #921938 {Done: Andreas Tille <tille at debian.org>} [r-cran-lmertest] lme4 breaks r-cran-lmertest autopkgtest
+Marked as fixed in versions r-cran-lmertest/3.1-0-1.
+> reassign 921667 lxc 1:3.1.0+really3.0.3-2
+Bug #921667 {Done: Pierre-Elliott Bécue <peb at debian.org>} [lxc,apparmor] lxc,apparmor: lxc fails to install in a chroot with apparmor installed
+Bug reassigned from package 'lxc,apparmor' to 'lxc'.
+No longer marked as found in versions lxc/1:3.1.0+really3.0.3-2 and apparmor/2.13.2-7.
+No longer marked as fixed in versions lxc/1:3.1.0+really3.0.3-3.
+Bug #921667 {Done: Pierre-Elliott Bécue <peb at debian.org>} [lxc] lxc,apparmor: lxc fails to install in a chroot with apparmor installed
+Marked as found in versions lxc/1:3.1.0+really3.0.3-2.
+> fixed 921667 1:3.1.0+really3.0.3-3
+Bug #921667 {Done: Pierre-Elliott Bécue <peb at debian.org>} [lxc] lxc,apparmor: lxc fails to install in a chroot with apparmor installed
+Marked as fixed in versions lxc/1:3.1.0+really3.0.3-3.
+> notfixed 921229 2.0.33-1
+Bug #921229 {Done: Lars Kruse <devel at sumpfralle.de>} [src:munin] the df* plugins don't respect [df*] anymore
+Bug #921968 {Done: Lars Kruse <devel at sumpfralle.de>} [src:munin] munin: UNKNOWN/OK status changes for df and df_inode plugin
+No longer marked as fixed in versions 2.0.33-1.
+No longer marked as fixed in versions 2.0.33-1.
+> notfixed 921343 2.5.1-1
+Bug #921343 {Done: Louis-Philippe Véronneau <pollo at debian.org>} [nextcloud-desktop] nextcloud-desktop: Synchronisation fails with "PROPFIND Reply is not XML Formatted"
+No longer marked as fixed in versions 2.5.1-1.
+> notfixed 860187 3.1.20
+Bug #860187 {Done: Holger Levsen <holger at layer-acht.org>} [src:debian-cd] debian-cd: Fix which_deb handling of non-Linux arches
+Bug #860204 {Done: Holger Levsen <holger at layer-acht.org>} [src:debian-cd] debian-cd: Fix update_tasks on non-Linux arches
+No longer marked as fixed in versions debian-cd/3.1.20.
+No longer marked as fixed in versions debian-cd/3.1.20.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+860187: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=860187
+860204: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=860204
+915026: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=915026
+921229: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921229
+921343: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921343
+921667: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921667
+921938: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921938
+921968: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=921968
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ftpmaster at ftp-master.debian.org  Thu Feb 14 17:24:31 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 14 Feb 2019 17:24:31 +0000
+Subject: [R-pkg-team] Processing of r-bioc-ebseq_1.22.1-2_source.changes
+Message-ID: <E1guKkR-0007Mo-9Z@usper.debian.org>
+
+r-bioc-ebseq_1.22.1-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-ebseq_1.22.1-2.dsc
+  r-bioc-ebseq_1.22.1-2.debian.tar.xz
+  r-bioc-ebseq_1.22.1-2_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Feb 14 17:35:52 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 14 Feb 2019 17:35:52 +0000
+Subject: [R-pkg-team] r-bioc-ebseq_1.22.1-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1guKvQ-000Cnl-6e@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 14 Feb 2019 07:24:24 -0800
+Source: r-bioc-ebseq
+Architecture: source
+Version: 1.22.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Michael R. Crusoe <michael.crusoe at gmail.com>
+Changes:
+ r-bioc-ebseq (1.22.1-2) unstable; urgency=medium
+ .
+   * Update my email address.
+   * Move debian/tests/control.autodep8 to debian/tests/control.
+Checksums-Sha1:
+ 38cb8b766954d0bcbad939f24bd70364858b37a7 2122 r-bioc-ebseq_1.22.1-2.dsc
+ 88bf14cc9137203b1c13d97cdc3b0071bb506eae 4744 r-bioc-ebseq_1.22.1-2.debian.tar.xz
+ 7112fd3a7a33ddfbb72627c9536a06c86a795f26 8289 r-bioc-ebseq_1.22.1-2_source.buildinfo
+Checksums-Sha256:
+ 062d47d4afd5f18364edd378d8fda135e5391e17ddd54163ce3c237fc1aeedc3 2122 r-bioc-ebseq_1.22.1-2.dsc
+ 80d190182af53090943f03352e9a0fbcb8ed0d702babd9ae5b224b494cafdc3e 4744 r-bioc-ebseq_1.22.1-2.debian.tar.xz
+ d62b929782698b66822f29060db32b6bd5599b9f05d163dbb895a1e4bf147459 8289 r-bioc-ebseq_1.22.1-2_source.buildinfo
+Files:
+ dc866722f425e8c976e2f9692a0ae72a 2122 gnu-r optional r-bioc-ebseq_1.22.1-2.dsc
+ 69cbd9de12ec19cf2a801adbf5d31cfa 4744 gnu-r optional r-bioc-ebseq_1.22.1-2.debian.tar.xz
+ 8a5047393e6bf49b817ef41d74045b86 8289 gnu-r optional r-bioc-ebseq_1.22.1-2_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEck1gkzcRPHEFUNdHPCZ2P2xn5uIFAlxloO0ACgkQPCZ2P2xn
+5uJ+Pw//YngowW47htzGCArbysLh3963irQQWoCSGmKpKfS8tenPcA1FhkXpOj5b
+cEk3ZRe3R2mwwY+7NdfA653HzAQhn7CGdoJicLkuuUwpl5OEDEh5eK204ijSCy3Q
+FWOZ6I/wLgKhoegdTVuG9UXtxJM7M17oNh8yLjzSydihDxLESLM7ncvSFOf7EPcf
+wsTxdE8SfXQ20a0Kdw/LHcASIoAyv1dFFB1nL11J0YvcWC5zilqZudVQFcWw0aSP
+ZJPcpd/DHkcH9E8dm949q8nGKJY8dc1NdEodtX0bRTxI8dPSKN5+p6qSE8XDxsWG
+9Uy7cHQth5AaWS+sbsTOufb64X5iYBdwrt0OEawBHZ6YZctqOGR+CsfPkTjYPsyn
+W22JIA0fMZGo6/iqK9EzOVaTOb8avv61AkF2EBsimGt6oCmjogkCJcsqL1KiL+Si
+Dcxzm9eo2MSE/5LqNo0Wtd6UiqQq1zTqSJ7WZlEMW+KyLjQk+5HVqHsS5A2RcdB4
+RX+xQkYfDDmB5CeUv84DGJ/1+ZUPiBFWJU4NwACDGrvRLECCt4m2/KXF4NfdpkuA
+4m9sM1+mWqubts4jy26SmjUAQpC2L5JrivJKnMUufEgfPdSWGkY0O9YbSTMq/Mk0
+V0zjtBANTfVXYKLHhsZvjZjl9IfVE/1ZITzT9gQhZwzKkzHFZZs=
+=P0O3
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Feb 15 06:54:24 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Feb 2019 06:54:24 +0000
+Subject: [R-pkg-team] Processing of r-cran-stringr_1.4.0-1_source.changes
+Message-ID: <E1guXOC-0000eZ-Le@usper.debian.org>
+
+r-cran-stringr_1.4.0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-stringr_1.4.0-1.dsc
+  r-cran-stringr_1.4.0.orig.tar.gz
+  r-cran-stringr_1.4.0-1.debian.tar.xz
+  r-cran-stringr_1.4.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Feb 15 06:59:25 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Feb 2019 06:59:25 +0000
+Subject: [R-pkg-team] Processing of r-cran-evaluate_0.13-1_source.changes
+Message-ID: <E1guXT3-0000z2-Gq@usper.debian.org>
+
+r-cran-evaluate_0.13-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-evaluate_0.13-1.dsc
+  r-cran-evaluate_0.13.orig.tar.gz
+  r-cran-evaluate_0.13-1.debian.tar.xz
+  r-cran-evaluate_0.13-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Feb 15 07:56:36 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Feb 2019 07:56:36 +0000
+Subject: [R-pkg-team] r-cran-evaluate_0.13-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1guYMO-0005cW-UY@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 15 Feb 2019 07:40:25 +0100
+Source: r-cran-evaluate
+Architecture: source
+Version: 0.13-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-evaluate (0.13-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+Checksums-Sha1:
+ 75a5253c0a661af83c092840ca842f1a8578b6e2 2080 r-cran-evaluate_0.13-1.dsc
+ d00086c9e50d6da31eb1bc4838851a1a86866b90 23106 r-cran-evaluate_0.13.orig.tar.gz
+ bd5afcc0b677ffdc3b470347bcbfb7532f7059d6 2384 r-cran-evaluate_0.13-1.debian.tar.xz
+ 09a9a2da83cd6bad71854f87d49e7ab59cf83e61 8170 r-cran-evaluate_0.13-1_amd64.buildinfo
+Checksums-Sha256:
+ f3bee254939307637d0a2aa2e52bbe2686babbcd1c18b8b8b7b3ba8085964901 2080 r-cran-evaluate_0.13-1.dsc
+ 58dc412d38696ffca040adf860bb733981d24abc96eab424d7ac639d8f60fb45 23106 r-cran-evaluate_0.13.orig.tar.gz
+ 7855c3875c134479c06de221203000bc729156f4bfc7a2827df3e3420897a552 2384 r-cran-evaluate_0.13-1.debian.tar.xz
+ b00c2e7cf34fea28802a0a74be586d6ec3507403697f8258baa681cc7e494aad 8170 r-cran-evaluate_0.13-1_amd64.buildinfo
+Files:
+ 14e990631fad035d2e51c954d0cf1f44 2080 gnu-r optional r-cran-evaluate_0.13-1.dsc
+ c46bc0303c00f1763e0ad6b70108119b 23106 gnu-r optional r-cran-evaluate_0.13.orig.tar.gz
+ dd802f49192fd897c1c4f510db4ab912 2384 gnu-r optional r-cran-evaluate_0.13-1.debian.tar.xz
+ 9f51977451a4d85dd5764144337c0d8f 8170 gnu-r optional r-cran-evaluate_0.13-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxmYNgSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UpcsP/RWo9MdlmijGGh549FWH0aPOjMbuWL0r
+xpwWq/p+rGmNEDddK1mnDu3LZ4rrWzaEt27Sa5jtQr6dfg0sRadhdN9NyibL2KvZ
+2jTYY5HPZDcYiDktqdnD2ywzNH5cA5drJye+QP/9JsO0Zn2P5HSYhch/eG/pZXyP
+/oJ14en/HasuSrkWCIpjjGiILFGcMpT6K/hqxfxZ7BcbFVAJcurWtotkBA5UU42p
+iaGV5NFwGbJqvnmI0ARUn+1c9mIUMz1UOPVZc2CxFa4KuQxyGCAswJSp74RV5e12
+Xh60OidQdFQzwDHjUGXJFXmokFpu5FvCrRK4BcxjDvjdphldqbhyYajGuh38Wwp0
+uUk7+BQew4O8VHYmqNXRLf3J8vh3B+v6JTA9wsEhbB4e0TI2IXm5EDccrNOmKJ0S
+QfUMjCjX248vlk8sK0wn44iG0TGHCgPxnHo77RMapDHCIs+L8DQk+8L1h9SgjLtX
+6NHZXWSJolOvv1r02t3Ma8S4hPrMyZdR4yQ7p2emVNCi/lR0muso9b9FbDbANMpA
+A0Ee9i6Vtw8pqW4xrrtDADQ3UxawjXH+olUGfD8G/P08ZwudUT34hi12FV4S1WuK
+vFWbdqeokLh4VkuvF60yfETd/vMeu86DPiiHXRhDJ35igCdJZh2DhAUOGD5VPtF7
+o/HZkP5L9dir
+=/ds5
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Feb 15 07:56:45 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Feb 2019 07:56:45 +0000
+Subject: [R-pkg-team] r-cran-stringr_1.4.0-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1guYMX-0005e3-Ny@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 15 Feb 2019 07:32:44 +0100
+Source: r-cran-stringr
+Architecture: source
+Version: 1.4.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-stringr (1.4.0-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+   * Remove trailing whitespace in debian/changelog
+   * Remove trailing whitespace in debian/copyright
+Checksums-Sha1:
+ 97b20fb277a7120f34d0bfb25d8cd1f9679186ca 2173 r-cran-stringr_1.4.0-1.dsc
+ 0f3c558d371ad611ff0ef454708679fac984991e 135777 r-cran-stringr_1.4.0.orig.tar.gz
+ 7651bd8b83ac538e53459b9385450a35895bfba1 3168 r-cran-stringr_1.4.0-1.debian.tar.xz
+ d0992ae6182064952d715dc81ae788791b3e17ae 8255 r-cran-stringr_1.4.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 473b640e5f0843cc27ffe62154e34c49c65074b385d6a185e7a2429ac0a5537c 2173 r-cran-stringr_1.4.0-1.dsc
+ 87604d2d3a9ad8fd68444ce0865b59e2ffbdb548a38d6634796bbd83eeb931dd 135777 r-cran-stringr_1.4.0.orig.tar.gz
+ a42376f6bac491b559f6e9824f46f368a6a52ab8441a377b05ffe37032bf9055 3168 r-cran-stringr_1.4.0-1.debian.tar.xz
+ 3d4942e5cb6a87fe87a84e1b0631f008891a673e087c1b90ac69609b9ece19d3 8255 r-cran-stringr_1.4.0-1_amd64.buildinfo
+Files:
+ ad287deb9a611f4ad1655923819c1217 2173 gnu-r optional r-cran-stringr_1.4.0-1.dsc
+ 1c3e0267af33d829b842de9fa68853e2 135777 gnu-r optional r-cran-stringr_1.4.0.orig.tar.gz
+ 076dbb0c98f3539c0b9bd8d6c801c80b 3168 gnu-r optional r-cran-stringr_1.4.0-1.debian.tar.xz
+ 269e3039bf33dc0b95f0d4319b5efca1 8255 gnu-r optional r-cran-stringr_1.4.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlxmXu4SHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UxCIP/i96ZXztbSUMRsG/EUq/UAYDXPJAvTe1
+sGbapxGrGHT7d8blUmWHojldlE/N2kYpQUq6srmrbUqAxbUfmDJiKRcKcW4DkpmG
+M42NNcMAa9yQrlZXMDPJRYPcSzBMmOcd9vfGcmJG0dQMPjwX6OGw2T1nRMwUlaZ3
+U8ry1v7knz4dEL7bZsjuGsRanyqLSPlgjk4X/lcakVqy/ucYVe6zWjdlEL66MtJT
+QjYq9QFToAStzCiPKZI9mGOq7uDSnfSWi+xd/iuSva9E2xVrltWA16/P+eT9oA2z
+5q8/y7AV9OkedCtawipX4l/86siRCpLf2dmuyKMBC3F+zBJhTunA1k4Hjw4RP+Kw
+ps3w5aBmLbrrnr7IZbfq18fiLBD9D7/vf8rorQgnJhExpSGNz/oCShE6RqMb4Kzt
+0NaN9Q3U0DLkBMBR+7dheiZsBIOzdaIKtIq+KhCqQBXq+dsIm/S+AGzp0Bz+a9of
++dxBS8MEFhN3lOJQk19g2Em+2M+53Cn683ka1uPpZF3VOhHSURWkWKY20J7jUZSI
+EqJSJ0a0ICa30b1frBBUsPdTrOBHaPvTaAIR7abciEFVDIYdE1d8Hwav670r2SQ9
+CG7Gzzr07BTWddLlykasAlT46jQYVZligbCu7ogrH/DWg1VgMBHJYxAk+WofLV5b
++t58VqHGSG5T
+=4Wwv
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Feb 15 19:29:42 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Feb 2019 19:29:42 +0000
+Subject: [R-pkg-team] Processing of r-cran-r6_2.4.0-1_source.changes
+Message-ID: <E1gujB8-0007wE-UG@usper.debian.org>
+
+r-cran-r6_2.4.0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-r6_2.4.0-1.dsc
+  r-cran-r6_2.4.0.orig.tar.gz
+  r-cran-r6_2.4.0-1.debian.tar.xz
+  r-cran-r6_2.4.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Feb 15 19:35:11 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Feb 2019 19:35:11 +0000
+Subject: [R-pkg-team] r-cran-r6_2.4.0-1_source.changes ACCEPTED into unstable
+Message-ID: <E1gujGR-000HTV-4V@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 15 Feb 2019 19:05:58 +0000
+Source: r-cran-r6
+Architecture: source
+Version: 2.4.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Gordon Ball <gordon at chronitis.net>
+Changes:
+ r-cran-r6 (2.4.0-1) unstable; urgency=medium
+ .
+   * New upstream release
+   * Use debhelper compat level 12
+   * Update to Standards-Version 4.3.0
+Checksums-Sha1:
+ c4d97e3825f6a63b39714fd70b4315b4e57269c8 1997 r-cran-r6_2.4.0-1.dsc
+ 21469ba4e4a891aa0eb1c05378079d08033ee5f8 31545 r-cran-r6_2.4.0.orig.tar.gz
+ 7aaa26dfb1d26fdb0f43892a290bdb0f31ce7053 3036 r-cran-r6_2.4.0-1.debian.tar.xz
+ fad7b7dd8397c7c0fb8c6d6434044d5a352f6568 8363 r-cran-r6_2.4.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 2a1effe3986577eb8e0286d707c6c8e4387671919f4c23b37ad2b8bfc8e0bde9 1997 r-cran-r6_2.4.0-1.dsc
+ 70be110174fbf5f5304049b186a6f9c05b77bfaec6d8caf980fcef5da6e0abce 31545 r-cran-r6_2.4.0.orig.tar.gz
+ 4fcefba6ad90639e3ffb773c186824a87e1a9c86b727e76ed7420b29c9cd5ec5 3036 r-cran-r6_2.4.0-1.debian.tar.xz
+ 12dd377fe476737b792932aed1359b30ca3c1ab270308a771d5b2c2aac2c0ff6 8363 r-cran-r6_2.4.0-1_amd64.buildinfo
+Files:
+ 85bb4ebf0209ca737749e6a45ad8bc4f 1997 gnu-r optional r-cran-r6_2.4.0-1.dsc
+ f8e4f293f95efd44b5a2a77f4446318e 31545 gnu-r optional r-cran-r6_2.4.0.orig.tar.gz
+ 05bf68c7e524f488da7163aec60c2064 3036 gnu-r optional r-cran-r6_2.4.0-1.debian.tar.xz
+ 95331464d24ec74e24e86a1ac78c6c2b 8363 gnu-r optional r-cran-r6_2.4.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6PwpXIa418BJ+Xuno12v+60p6N4FAlxnEJcACgkQo12v+60p
+6N6uxQ//XwEDdUqnc/j2ERwkoorO3qsbUl6vIZbOdSHHeYDsDEWPs1DGLBUfQYRq
+7oMTXAYtxNN9S2k4rfPY+xuIE7S7Fypce4DoJlzfMtH8PTzzf3O2hCWbuzyl0c8u
+XP453/Bqd7f1oz4U8fwpvcxfV564vCmI99HiemlqtQD3l4QPkfYl47MZ7gbcO/MU
+NsC8VkBAr7h6+cVLsmetg7fmv0PPnR7ykpxvh1fsjYwoM9x//fD6+g6P4whYThES
+vMvajQv+fQxZSfd2lgCiETHTTAuNsF7Rxy+F5tAti9If56PgEgMLXzRocXz9iiWA
+QRFDJljkA2Z05Z2nELOKtz/riK7fVSS5ujcZTLlV337uG3YOl7F+vO+advo4dP4I
+LU2N8xzGbt45LqqgQ4Q+ZN4jMyls6Wt2bmy5pwrCEz04S1Awpwzop9hb/fLx9IXI
+bQF5NAaqeSwdlYBsJ3dRizWr+hbTd6bljnrXQNMCXhnolU/MCUJ/4u+1SqctZVax
+Op91QeHL2D4S6ZyWE6SQqvArVQ7fh4SXOSFPf60AY6Fr0VolAJ54/op2eZf9ntab
+99VMaN3Tk6fRYRyYT9Haq6RBLP31h6f0qxjLr5QiCBl+nDH8vXlYdwGqFn+fhMyR
+Mz6vX7uKLBydd+p+bNMFR9Vx8TXOzXDXRMby7u6itNgQru95MTo=
+=vVPu
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From renan.gomes at jfpb.jus.br  Sat Feb 16 14:35:18 2019
+From: renan.gomes at jfpb.jus.br (Renan de Iorio Infanti Gomes)
+Date: Sat, 16 Feb 2019 14:35:18 +0000
+Subject: [R-pkg-team] RES: REAGEREN ZO VLUG MOGELIJK
+In-Reply-To: <6E1549F8CFDC5E44ABAECF2892A987C504AB6E82@mailserver.jfpb.jus.br>
+References: <6E1549F8CFDC5E44ABAECF2892A987C504AB6E82@mailserver.jfpb.jus.br>
+Message-ID: <6E1549F8CFDC5E44ABAECF2892A987C504B0BB62@mailserver.jfpb.jus.br>
+
+
+________________________________
+De: Renan de Iorio Infanti Gomes
+Enviado: sábado, 16 de fevereiro de 2019 8:27
+Para: Renan de Iorio Infanti Gomes
+Assunto: REAGEREN ZO VLUG MOGELIJK
+
+Je bent beloond voor meer info: { onufoundationclaim at gmail.com }
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190216/d3c15f86/attachment.html>
+
+From noreply at release.debian.org  Sun Feb 17 04:39:19 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-treespace is marked for autoremoval from testing
+Message-ID: <E1gvEEZ-0005Kq-GA@respighi.debian.org>
+
+r-cran-treespace 1.1.3+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:19 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:19 +0000
+Subject: [R-pkg-team] r-bioc-annotationhub is marked for autoremoval from
+ testing
+Message-ID: <E1gvEEZ-0005L5-Vr@respighi.debian.org>
+
+r-bioc-annotationhub 2.14.3+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:20 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-bioc-interactivedisplaybase is marked for
+ autoremoval from testing
+Message-ID: <E1gvEEa-0005LA-4s@respighi.debian.org>
+
+r-bioc-interactivedisplaybase 1.20.0+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:20 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-adegenet is marked for autoremoval from testing
+Message-ID: <E1gvEEa-0005LM-F9@respighi.debian.org>
+
+r-cran-adegenet 2.1.1-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:20 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-adephylo is marked for autoremoval from testing
+Message-ID: <E1gvEEa-0005LR-KH@respighi.debian.org>
+
+r-cran-adephylo 1.1-11-3 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:20 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-crosstalk is marked for autoremoval from testing
+Message-ID: <E1gvEEa-0005Lk-V0@respighi.debian.org>
+
+r-cran-crosstalk 1.0.0+dfsg-3 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:21 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-dt is marked for autoremoval from testing
+Message-ID: <E1gvEEb-0005M2-EP@respighi.debian.org>
+
+r-cran-dt 0.5+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:21 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-ggvis is marked for autoremoval from testing
+Message-ID: <E1gvEEb-0005M7-JV@respighi.debian.org>
+
+r-cran-ggvis 0.4.4+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:21 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-heatmaply is marked for autoremoval from testing
+Message-ID: <E1gvEEb-0005MC-Oi@respighi.debian.org>
+
+r-cran-heatmaply 0.15.2+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:22 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-mertools is marked for autoremoval from testing
+Message-ID: <E1gvEEc-0005MM-2h@respighi.debian.org>
+
+r-cran-mertools 0.4.1-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:22 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-miniui is marked for autoremoval from testing
+Message-ID: <E1gvEEc-0005MR-7s@respighi.debian.org>
+
+r-cran-miniui 0.1.1.1-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:23 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-shiny is marked for autoremoval from testing
+Message-ID: <E1gvEEd-0005N4-CV@respighi.debian.org>
+
+r-cran-shiny 1.2.0+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:20 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-colourpicker is marked for autoremoval from
+ testing
+Message-ID: <E1gvEEa-0005LW-PN@respighi.debian.org>
+
+r-cran-colourpicker 1.0+dfsg-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:24 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:24 +0000
+Subject: [R-pkg-team] r-cran-shinyjs is marked for autoremoval from testing
+Message-ID: <E1gvEEe-0005No-MG@respighi.debian.org>
+
+r-cran-shinyjs 1.0-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:24 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:24 +0000
+Subject: [R-pkg-team] r-cran-shinythemes is marked for autoremoval from
+ testing
+Message-ID: <E1gvEEe-0005Nt-RY@respighi.debian.org>
+
+r-cran-shinythemes 1.1.2+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:22 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-plotly is marked for autoremoval from testing
+Message-ID: <E1gvEEc-0005Ma-D9@respighi.debian.org>
+
+r-cran-plotly 4.8.0+dfsg-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:25 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:25 +0000
+Subject: [R-pkg-team] r-cran-tidyverse is marked for autoremoval from testing
+Message-ID: <E1gvEEf-0005O3-5c@respighi.debian.org>
+
+r-cran-tidyverse 1.2.1-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:22 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-reprex is marked for autoremoval from testing
+Message-ID: <E1gvEEc-0005Mf-IN@respighi.debian.org>
+
+r-cran-reprex 0.2.1-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:22 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-rglwidget is marked for autoremoval from testing
+Message-ID: <E1gvEEc-0005Mk-NX@respighi.debian.org>
+
+r-cran-rglwidget 0.2.1-3 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:25 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:25 +0000
+Subject: [R-pkg-team] r-cran-treescape is marked for autoremoval from testing
+Message-ID: <E1gvEEf-0005O8-Am@respighi.debian.org>
+
+r-cran-treescape 1.10.18+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:22 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing
+Message-ID: <E1gvEEc-0005Mp-Sm@respighi.debian.org>
+
+r-cran-rlumshiny 0.2.2-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:23 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-rmarkdown is marked for autoremoval from testing
+Message-ID: <E1gvEEd-0005Mu-1j@respighi.debian.org>
+
+r-cran-rmarkdown 1.11+dfsg-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:23 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-shinybs is marked for autoremoval from testing
+Message-ID: <E1gvEEd-0005NB-Hf@respighi.debian.org>
+
+r-cran-shinybs 0.61-3 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:23 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-samr is marked for autoremoval from testing
+Message-ID: <E1gvEEd-0005Mz-75@respighi.debian.org>
+
+r-cran-samr 3.0-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:24 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:24 +0000
+Subject: [R-pkg-team] r-cran-shinydashboard is marked for autoremoval from
+ testing
+Message-ID: <E1gvEEe-0005Ne-Bl@respighi.debian.org>
+
+r-cran-shinydashboard 0.7.1-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:24 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:24 +0000
+Subject: [R-pkg-team] r-cran-shinyfiles is marked for autoremoval from
+ testing
+Message-ID: <E1gvEEe-0005Nj-H3@respighi.debian.org>
+
+r-cran-shinyfiles 0.7.2-1 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+
+From noreply at release.debian.org  Sun Feb 17 04:39:25 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sun, 17 Feb 2019 04:39:25 +0000
+Subject: [R-pkg-team] r-cran-threejs is marked for autoremoval from testing
+Message-ID: <E1gvEEf-0005Ny-0V@respighi.debian.org>
+
+r-cran-threejs 0.3.1+dfsg-2 is marked for autoremoval from testing on 2019-03-25
+
+It (build-)depends on packages with these RC bugs:
+921896: json-js: FTBFS (ERROR: `cycle.min.map` is not a supported option)
+
+
+

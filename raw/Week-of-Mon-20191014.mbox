@@ -1,0 +1,2581 @@
+From danielowen11 at maill.com  Mon Oct 14 11:48:31 2019
+From: danielowen11 at maill.com (danielowen11 at maill.com)
+Date: 14 Oct 2019 03:48:31 -0700
+Subject: [R-pkg-team] Information
+Message-ID: <20191014015023.7ECF8B8314E21BB6@maill.com>
+
+FROM:DANIEL
+
+
+ATTN.
+
+The Clearing House is pleased to commence on the final payment
+release of your blocked funds, through the Clearing House Inter-
+bank Payment System (CHIPS).
+This message is notifying you that your blocked and overdue
+funds, that has been in the coffers of the Treasury Department's
+Office of Foreign Assets Control (OFAC), is finally unblocked and
+authorized for immediate wire transfer into your receiving bank
+account by the Clearing House.
+
+ We at the Clearing House would want you to reconfirm your
+banking coordinates with us.
+
+Please kindly confirm your information carefully in clean and
+clear letters,for the immediate processing of your payment claim.
+
+Should you have any question(s), you can call.
+
+You are advised to stop all comunications with any person till 
+you receive the money in your account.
+
+Also if you have lost any money in the past, you will be 
+compesated.
+
+
+Regards,
+Daniel
+
+
+From ftpmaster at ftp-master.debian.org  Mon Oct 14 22:34:50 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 14 Oct 2019 21:34:50 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-biocmanager_1.30.7+dfsg-1_source.changes
+Message-ID: <E1iK7zP-0005Fj-0B@usper.debian.org>
+
+r-cran-biocmanager_1.30.7+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-biocmanager_1.30.7+dfsg-1.dsc
+  r-cran-biocmanager_1.30.7+dfsg.orig.tar.xz
+  r-cran-biocmanager_1.30.7+dfsg-1.debian.tar.xz
+  r-cran-biocmanager_1.30.7+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Oct 14 22:50:00 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 14 Oct 2019 21:50:00 +0000
+Subject: [R-pkg-team] r-cran-biocmanager_1.30.7+dfsg-1_source.changes
+ ACCEPTED into unstable
+Message-ID: <E1iK8E4-0003Aj-08@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 14 Oct 2019 23:19:03 +0200
+Source: r-cran-biocmanager
+Architecture: source
+Version: 1.30.7+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Changes:
+ r-cran-biocmanager (1.30.7+dfsg-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.4.1
+   * dh-update-R to update Build-Depends
+Checksums-Sha1:
+ e4c2aa10f1229de6a0a105bea2f4e63bd7c4fdd0 2189 r-cran-biocmanager_1.30.7+dfsg-1.dsc
+ 8e53d20028069188a98251ac0312aedf70b3e189 22624 r-cran-biocmanager_1.30.7+dfsg.orig.tar.xz
+ e8cc63dc52800aef347f5cc78897a95b0ade71eb 5388 r-cran-biocmanager_1.30.7+dfsg-1.debian.tar.xz
+ 8ca0d0ca95db86e53c6d99e103fd05bc92c8e0eb 8518 r-cran-biocmanager_1.30.7+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 3317e44685ddf1cdceb0af53619aa773bf9a76c3a4de332d11b4f130a22c7abd 2189 r-cran-biocmanager_1.30.7+dfsg-1.dsc
+ 9d3042470d3501552ca21f1674a40ef99a8f798bb4b009e7e97aa9ad20fdb118 22624 r-cran-biocmanager_1.30.7+dfsg.orig.tar.xz
+ 284abbd7ea1a98e400a950625ecd1053bdd28c47026b4142339035472b24b953 5388 r-cran-biocmanager_1.30.7+dfsg-1.debian.tar.xz
+ 9aafe9e5aec0f140a85b23a2f3212e0ae92ac4d2d674f1cb107e059d8a47dde3 8518 r-cran-biocmanager_1.30.7+dfsg-1_amd64.buildinfo
+Files:
+ 7e91e4c9f489fdfe9f49239a642a2cca 2189 gnu-r optional r-cran-biocmanager_1.30.7+dfsg-1.dsc
+ a229f32ff0549fb69d9300d4a41a897d 22624 gnu-r optional r-cran-biocmanager_1.30.7+dfsg.orig.tar.xz
+ bd77fe75df1a9d7241311b00067140a9 5388 gnu-r optional r-cran-biocmanager_1.30.7+dfsg-1.debian.tar.xz
+ 653ceee9362f0d03cb867de54f76ce25 8518 gnu-r optional r-cran-biocmanager_1.30.7+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAl2k5z8SHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9Uwg4P/iJOuoRFIsVqjllkBIG4UqIBayoOaD1y
+SOhw1NCSvreeN+Z1EILA51uU8PvJQgG7Bi2o4OUZ/j5MmyleA8HZLQ2v2yuUZ7tm
+Oi8fCpn0v98FtvBlE+HafjaXVUtHu9kLcAZSe0GwKxNJSu5W+GPJPHGoXqPbo9i3
+4CojpyWLWatsHKKaT8cWcMaStb1101iciiUmNRFS2TDtqE1WMHYvIDUlAoyddpQ7
+5uifjOIsb/RNrjfrchn+u7xvOR2GHWAWLKCPqc5RoeM6qB8HhvX7b2CesP0dmhrL
+LUTCEsJo8sUxXOtp1nsry4oZSQaAmnCcM1NS7zBxscHcTsNcaFVX/b1DWBR4W09n
+KRTYkVasUd6nsaut//Fa0uQKNqJpxKN2v3RPkDCMcCK1zHIArIPlj8140rU/rPl9
+zq2tKcWvSIMo1zLjeSPif6WyfVmtv8qvgwarYmN/37cK7RzCTpoZaDV4QWqdyU+P
+hoGobsdU2EaPWnJVNUsxsz8pyZuZZieSjYRRcgaT0tmBB1v5hgxWZkAawtzhEY+h
+XQdqoEQ7FCwTlPOJEGcP0mp4XRrQsxrOqOrYuButeInc5symZwXtGQUBAL8DW17a
+s7ThdGtLlJ6HpO//WWzvy1o453r/G5sK2i47Ap2XkB0tNTyokjvL6/3qE6X1iym2
+lR3jdx5qEEQg
+=lyjT
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From noreply at release.debian.org  Wed Oct 16 05:39:14 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 16 Oct 2019 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-pkgbuild 1.0.6-1 MIGRATED to testing
+Message-ID: <E1iKb5e-0001q2-I1@respighi.debian.org>
+
+FYI: The status of the r-cran-pkgbuild source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.0.5-1
+  Current version:  1.0.6-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 18:53:56 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 17:53:56 +0000
+Subject: [R-pkg-team] Comments regarding
+ r-cran-rcppparallel_4.4.3+dfsg-1_amd64.changes
+Message-ID: <E1iKnUi-0002jS-3a@fasolo.debian.org>
+
+Hi Andreas,
+
+I marked the package for accept, but some files are under GPL-2+
+
+  Thorsten
+
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:11 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 18:00:11 +0000
+Subject: [R-pkg-team] r-bioc-dada2_1.12.1+dfsg-1_amd64.changes REJECTED
+Message-ID: <E1iKnal-0003rQ-NC@fasolo.debian.org>
+
+
+Hi Steffen,
+
+please also mention at least the GPL-2+ of
+  dada2/src/pval.cpp
+
+Thanks!
+ Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:13 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 18:00:13 +0000
+Subject: [R-pkg-team] r-cran-covr_3.3.1+dfsg-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKnan-0003uo-Pa@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 12 Sep 2019 17:44:15 +0200
+Source: r-cran-covr
+Binary: r-cran-covr
+Architecture: source amd64
+Version: 3.3.1+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-covr - test coverage for GNU R packages
+Closes: 940122
+Changes:
+ r-cran-covr (3.3.1+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940122)
+Checksums-Sha1:
+ 2808101c302d5465ab7b5984c230dfb29976c3ea 2290 r-cran-covr_3.3.1+dfsg-1.dsc
+ 9a70bdec3682fb71627349c2b640b1b1ed78e962 81508 r-cran-covr_3.3.1+dfsg.orig.tar.xz
+ a9199a6ccc6b929c09222aa4faf84168cb81753b 7968 r-cran-covr_3.3.1+dfsg-1.debian.tar.xz
+ d58126e69c6eb50338d49cc573107a426859693e 5864 r-cran-covr-dbgsym_3.3.1+dfsg-1_amd64.deb
+ b39f460d051ace9761fe71fa56758d281eb7c6ec 9404 r-cran-covr_3.3.1+dfsg-1_amd64.buildinfo
+ 82a5a45204248444c696643bb4697fb0fd9007ee 258750 r-cran-covr_3.3.1+dfsg-1_amd64.deb
+Checksums-Sha256:
+ 73500a0bd2de430e9cb55ede017bbca722184df9e6fa16a1f5a1d5af2b863d55 2290 r-cran-covr_3.3.1+dfsg-1.dsc
+ 82772d776da2810bbbea2e57ce38e34c8d873ef891987f4af0ef82475d02041a 81508 r-cran-covr_3.3.1+dfsg.orig.tar.xz
+ c267181d5270ea46c1637cf61cf7e6b5642151b7ae6bb585610702c0934c0649 7968 r-cran-covr_3.3.1+dfsg-1.debian.tar.xz
+ 1c1e9cb0a11a2e1c0ced691d0179c0098b12c2fcc2f1364bb15c5530a51791de 5864 r-cran-covr-dbgsym_3.3.1+dfsg-1_amd64.deb
+ f00d9fdc9f8af8af60ffe9cd4d83e5645b900bf0d4722730d2f0d09de03c6852 9404 r-cran-covr_3.3.1+dfsg-1_amd64.buildinfo
+ 2cb8333bdfab356d9d50318c1a5244ed7d13440b097a3bc21ee87ac34bb37e41 258750 r-cran-covr_3.3.1+dfsg-1_amd64.deb
+Files:
+ f455380c505b65ba7ebba849f97bb011 2290 gnu-r optional r-cran-covr_3.3.1+dfsg-1.dsc
+ a49e594f7865f70850b40279ae5514ce 81508 gnu-r optional r-cran-covr_3.3.1+dfsg.orig.tar.xz
+ 42af67cc7555d13e661c17bb814558a8 7968 gnu-r optional r-cran-covr_3.3.1+dfsg-1.debian.tar.xz
+ 985b7ee8c6f9f4d3f9b28d4581107e2c 5864 debug optional r-cran-covr-dbgsym_3.3.1+dfsg-1_amd64.deb
+ 711ee1f9f11c05e864c4e6d30c6b40d4 9404 gnu-r optional r-cran-covr_3.3.1+dfsg-1_amd64.buildinfo
+ 5791c34165eebba81a7afbf1c8c43827 258750 gnu-r optional r-cran-covr_3.3.1+dfsg-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl16aQsRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHSmw//ROr8bzDEQb3V3E9bSFWnUegKwGIK/JOa
+vh7Y0ejWAUA0x1SBd0ZvBhaoZJbiXRv4/0mobl2TljYH8m9MHRg2ubjVXeVOVkh5
+r+RGZOC+sOZKTwTZo/C51aYzMZTPnTYmB//eFzn9aNefZFk0Z6Xv1j6pqJ7veOtK
+aAntZDkxFsYnkm3OXa1WvZZMwuRT3Gzkau6u3wQ6jAcvTxu7RgqA1o2obIKvz+56
+ZiIAMTI/3cCMdFlhgPIAoJYeIDco30TGM883whn4JLSDvKIlXMRjhxsGgeM1PbAy
+anmQOdEmBzlbsRNQFy4y6XniuxVekk3uge1Z8Zm0q7YI+nJY4FlFrvexK4Ykvfwb
+l2FBjBvVdC09DTlOP0gj9Gt/KfXIigXZ53X8UsZYwdX6CotsyoW04HvJ/cp9Jdne
+oDOaYsVtoCVsjt2t4+dYvfsRxBidZ5BFAsKJCtWKPru2d3/kQXRMDzu2KLfUyc09
+MgN5wFu9emhWc/DG3zZ9RRi21edggJHzhVksLjCOkNfZo73y51Ze7Gi7Dak1zTRY
+9qxRDJd6AEQqoSPwTUcbdlE35Bjhu5VYiHvLzKSJDIC/1792b0j4QLUEBK05WnB3
+aqWEQrlTPYt+TtaUSl2GiVW21OhXAoqZt6VHyEcS/j2mOGNrSc+giDrKU3srKqUL
+uJ7KHgA6EME=
+=wnzG
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:14 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 18:00:14 +0000
+Subject: [R-pkg-team] r-cran-propclust_1.4-6-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKnao-0003vc-F0@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 15 Sep 2019 12:55:30 +0200
+Source: r-cran-propclust
+Binary: r-cran-propclust r-cran-propclust-dbgsym
+Architecture: source amd64
+Version: 1.4-6-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-cran-propclust - Propensity Clustering and Decomposition
+Closes: 940294
+Changes:
+ r-cran-propclust (1.4-6-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940294)
+Checksums-Sha1:
+ efaaf3c7a198942f6e0c7aa6687591e215938bfb 2125 r-cran-propclust_1.4-6-1.dsc
+ 18e72f76cd8e679318e9d134d086d4e5917df384 40993 r-cran-propclust_1.4-6.orig.tar.gz
+ 7abcfccbaa42a3157ab0655c85fd02adcea71d01 2164 r-cran-propclust_1.4-6-1.debian.tar.xz
+ cd158e3846f952f440b9cb2926330c070111b307 58340 r-cran-propclust-dbgsym_1.4-6-1_amd64.deb
+ 6a3a86fc4d5d11099d5f50fb56cdedaa19a37a91 9412 r-cran-propclust_1.4-6-1_amd64.buildinfo
+ da6f71c23dbcf87a8775df2c64d2ba11cd24749a 90524 r-cran-propclust_1.4-6-1_amd64.deb
+Checksums-Sha256:
+ eab313541c85c6f77afe8e173b74e23381c7f1ff6b1dfdb3c23b4158a0a0434c 2125 r-cran-propclust_1.4-6-1.dsc
+ cae99f6d9c3074e39b70491a98c28c33b5e4bbb60f37b81ebcf962b350b225dc 40993 r-cran-propclust_1.4-6.orig.tar.gz
+ fe98ac48ce0d108ed55a99bf98d1512911bc7d55987073560e8136e34892926b 2164 r-cran-propclust_1.4-6-1.debian.tar.xz
+ 5f60f8a7bcb91de36ccedf8fc4bb2a9fbcaa0081e91bba20e0f7a60f62088583 58340 r-cran-propclust-dbgsym_1.4-6-1_amd64.deb
+ 4abe0b40380e4a8f27bbc64f737ef47b1e22756cb1c59fe615b0e5f56449fbfb 9412 r-cran-propclust_1.4-6-1_amd64.buildinfo
+ bc42cab0e14f0e3e5a7aebd82748920da703a4382e342d87bdd5286c8bdd5343 90524 r-cran-propclust_1.4-6-1_amd64.deb
+Files:
+ 37550f6f07118a08275ad2b2acb2de84 2125 gnu-r optional r-cran-propclust_1.4-6-1.dsc
+ 12bd3a4f9e9d34a137cd6d8cc7db9b05 40993 gnu-r optional r-cran-propclust_1.4-6.orig.tar.gz
+ 45a9412ad896e24f6876be1d3be39887 2164 gnu-r optional r-cran-propclust_1.4-6-1.debian.tar.xz
+ 5cfdd3624edff9382f9bb28d2838b6ee 58340 debug optional r-cran-propclust-dbgsym_1.4-6-1_amd64.deb
+ d6b9a5f6f8b0388d0dc9626d988235bd 9412 gnu-r optional r-cran-propclust_1.4-6-1_amd64.buildinfo
+ c0de6f66163812d7acf9d17ae3d6b97a 90524 gnu-r optional r-cran-propclust_1.4-6-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAl1+HJUTHG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0dVlD/wOG4EP2ca22MNnx1be59NPaxliZtqg
+N6M7pMT1c24Bw/jLvkWvv1uEuYpq4wjHfDp9lkLEJnF6S1HD0K7WNViBlaP3o+Iq
+vYYxwGBrTc3CDOGIJOcNUVjRgd29fEiJi3sS31oeqYKUGC+OttEz+0//ulvNudo5
+HFn/lgVmGsXbgwHxOts2oT1EAHY9MCuXj8n28vg81f2JxNoC90VMMMH8acbxSEmK
+whVi1MqdRVCH3t9rfos6iOOXhSaBgKggOw52DQfJX/vzdEpVVotzPsUN+jqkZbF+
+27/ae9kVQkZC0IeVO8GcQiIV9hf2ZEOjXDGrg/O//LmwWsvFrG5au6fbG08oRw0D
+4RARodB/m4qi1IBPcZvCenEA34n1BWDsOQqhKu6f+HooIUeC9ActYcH5ohkqvnsi
+PaXa0cinl51wjSdcUVizmv7n4cl8rRYWg4ySRUKtGLZI3ol4XBW9LKYqbrEOO0MT
+y6wp+KrsW9O55d5pfmc7mBDkyGEZM9pFF/t+MM6JiI8cYcUTHyRLOAA28ZwaAWCm
+GFqTE+JdSgnIBVNUqv20HTa0YJaNHTm0f0q3rQpr7eagKpp7vRDXTCh4kQoSQbrE
+PoM9LcxAiyoJFxC3zAKVQzQosiRCG64wJtRRWHCZBnOYdlqzOXQYZei9YE+gOX8J
+ZUADNHh9nLkRVA==
+=GTu9
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:15 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 18:00:15 +0000
+Subject: [R-pkg-team] r-cran-rcppparallel_4.4.3+dfsg-1_amd64.changes
+ ACCEPTED into unstable, unstable
+Message-ID: <E1iKnap-0003wV-4o@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 09 Sep 2019 16:33:49 +0200
+Source: r-cran-rcppparallel
+Binary: r-cran-rcppparallel
+Architecture: source amd64
+Version: 4.4.3+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-rcppparallel - parallel programming tools for Rcpp
+Closes: 939854
+Changes:
+ r-cran-rcppparallel (4.4.3+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #939854)
+Checksums-Sha1:
+ 8d4247e3cff75cfc0bc58fc78b82b7f32c8f8351 2249 r-cran-rcppparallel_4.4.3+dfsg-1.dsc
+ 6f84f825ad2c001f88d87bd342ad37adff292774 103544 r-cran-rcppparallel_4.4.3+dfsg.orig.tar.xz
+ 78589a6d4b72cded6810e9a6f1c341e517038512 2572 r-cran-rcppparallel_4.4.3+dfsg-1.debian.tar.xz
+ d2fe0fa599a8e2a3d408860615d819e2e7944e7d 59654 r-cran-rcppparallel-dbgsym_4.4.3+dfsg-1_amd64.deb
+ c29ff19a06d6be0a5f462bedaec7b433b7ce19f6 9112 r-cran-rcppparallel_4.4.3+dfsg-1_amd64.buildinfo
+ 30b4e41d67871020d56e71705e1f52db1bddddad 115540 r-cran-rcppparallel_4.4.3+dfsg-1_amd64.deb
+Checksums-Sha256:
+ 00f367692c7c4a42df70a240ba9c0957097a8e6812f2e9caa19b580d9ab2b035 2249 r-cran-rcppparallel_4.4.3+dfsg-1.dsc
+ 6ca733cca55c47f03b2b4a3cab239366dd48205c76ec175b2566d5d68d7c7f47 103544 r-cran-rcppparallel_4.4.3+dfsg.orig.tar.xz
+ 7ce1f239ecb6ff69b39f4dab1313361a5af7b2ff0e019d4846f1b90ca2bf87cd 2572 r-cran-rcppparallel_4.4.3+dfsg-1.debian.tar.xz
+ c4ec879a2cd19c83e0a70b2f58d9e3d9aa60e27a6c351146df9f884db8e12c17 59654 r-cran-rcppparallel-dbgsym_4.4.3+dfsg-1_amd64.deb
+ 2f87ba818976ea0ab645f6669d726a6f08d7b8a78e3e9b97a234427e32982d9a 9112 r-cran-rcppparallel_4.4.3+dfsg-1_amd64.buildinfo
+ 6e2c3e7079e29f7c71cc167b8b64110387aec11dcf64ebe852e09eb079260222 115540 r-cran-rcppparallel_4.4.3+dfsg-1_amd64.deb
+Files:
+ 8f5f598d55559147c127905174b450e4 2249 gnu-r optional r-cran-rcppparallel_4.4.3+dfsg-1.dsc
+ 7727a8185dcdbc5066a9533bef4400e5 103544 gnu-r optional r-cran-rcppparallel_4.4.3+dfsg.orig.tar.xz
+ fba4f6a923354c009213f36d2d2176ef 2572 gnu-r optional r-cran-rcppparallel_4.4.3+dfsg-1.debian.tar.xz
+ d046b42aa27b5743c9739fadb2a52084 59654 debug optional r-cran-rcppparallel-dbgsym_4.4.3+dfsg-1_amd64.deb
+ a5f76e68f49e67a35969eaf95f02a12f 9112 gnu-r optional r-cran-rcppparallel_4.4.3+dfsg-1_amd64.buildinfo
+ 1b54eb7da3b2ab337ec8abc37b261d07 115540 gnu-r optional r-cran-rcppparallel_4.4.3+dfsg-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl12Y8sRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHrqg//Vi8A1MjU3thEnRO+itlJUQsAmRumFSnl
+CfR+NhSCxf2JJZx1E52o3hUyTRzk9ofPfDe2Bt7Hda7p+JVfJPXb32gCxmY8yX2h
+qBarRoJl3qrFn9vuiKKPffWOs64/eYq40RAxg3gTTGSxwEdxVH35yWBn94eEXigx
+u30mFDER5Mcmv0exLTm5U+O/u4mv8c71Pta2G6rl9+J9SCt459pM5xKwkTxW/0Pl
+JOEwpgmeC3HqfJhhsPHeOh/K+Ox+7HSzpfZmprPf4FcoqTIqb9iYhGwlDamfL2Ii
+B8UclrS6TMEG3fW6/CDv7hwfjExE5S4ny9hCMawylySe3PDBpJ+MoqD8AearYQs1
+8BOzA7HoaBMVQLf3RLo6Umpii/P/V2TVYMGLe7bGJMVkXrQErUcDj1X1bqnNSPLe
+sfkVT2UIA7ko0MPEgLEaEZE8RkHJTEG9VANpE8E2teB3GRLt2MzAy3tcL1VpH5zQ
+ho9fhO/UkyR/ppwjmHtGY26ZwY7/5CflsI4yg2hAYTIfA3zXQbwbDDR2gFVbZ0MM
+Lgsw0GIeVc5pLoZyQXV4aznRCllphkq1PxTI/T3HiY+tgonnNjQGzavZb8J7uZ1g
+RsL12PsTHMdOjGnHZIzy0AQKKx6SBjUJoIzPZrm39RpQEOJRAmC2tyXQeuLBEvo9
+4YEKZL+pUWM=
+=cgBk
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:15 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 18:00:15 +0000
+Subject: [R-pkg-team] r-cran-systemfonts_0.1.1-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKnap-0003wq-Ng@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 13 Sep 2019 09:56:39 +0200
+Source: r-cran-systemfonts
+Binary: r-cran-systemfonts
+Architecture: source amd64
+Version: 0.1.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-systemfonts - system native font finding for GNU R
+Closes: 940160
+Changes:
+ r-cran-systemfonts (0.1.1-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940160)
+Checksums-Sha1:
+ 68e043bb0994aae99d21d2d24375885d75f49ec4 2167 r-cran-systemfonts_0.1.1-1.dsc
+ 2d51d12d484cfe693c0171eb15dd66f6781a1e27 24379 r-cran-systemfonts_0.1.1.orig.tar.gz
+ 7324b545779db2987cd738add9242d1b326e55c7 2260 r-cran-systemfonts_0.1.1-1.debian.tar.xz
+ 875e5d56deae168e3e5d3ec22342700c131e6ed8 38958 r-cran-systemfonts-dbgsym_0.1.1-1_amd64.deb
+ 0d7d8281e25945cab8fdaedd5ac90a4481ecd8a5 9137 r-cran-systemfonts_0.1.1-1_amd64.buildinfo
+ 92aafc25a27e54454235409c51769cfa72439f00 26454 r-cran-systemfonts_0.1.1-1_amd64.deb
+Checksums-Sha256:
+ d69c7d931e635d683a287a8f30d3b94e73c106aa61a5942d46456bf0aaa0ddc1 2167 r-cran-systemfonts_0.1.1-1.dsc
+ 1fdc77ed721dee10b67b43a1c1d4b5a4fbb0bf98a793e04455ac0f645a941454 24379 r-cran-systemfonts_0.1.1.orig.tar.gz
+ 544cec9d02a63b3ce3e1cb9c35d70b7e77e595705e8e54acf3f80859b47300e7 2260 r-cran-systemfonts_0.1.1-1.debian.tar.xz
+ b238b9dfa0502a670e74482b0a03fc2c623fa814d15063e91efcd734ef843d55 38958 r-cran-systemfonts-dbgsym_0.1.1-1_amd64.deb
+ 3e5c858022426ee39c127584e2ce8c49572b19b06ae48b19f4bdbfc828257d54 9137 r-cran-systemfonts_0.1.1-1_amd64.buildinfo
+ 7f2c32a40980530d9c3e2dfeaccfae5e040c8539021dc6d9035f800bf91f2997 26454 r-cran-systemfonts_0.1.1-1_amd64.deb
+Files:
+ 1bd5d57274ab239c4895145ca7e32463 2167 gnu-r optional r-cran-systemfonts_0.1.1-1.dsc
+ 0f68f951fa77677882d6bb1226ed92ed 24379 gnu-r optional r-cran-systemfonts_0.1.1.orig.tar.gz
+ c42aef098ec1e7207fce65921fcd8210 2260 gnu-r optional r-cran-systemfonts_0.1.1-1.debian.tar.xz
+ 5500be0bd4fed3156eecaed3c19c6d77 38958 debug optional r-cran-systemfonts-dbgsym_0.1.1-1_amd64.deb
+ f9552f72b4d90fa1fb7a62c9d64685d4 9137 gnu-r optional r-cran-systemfonts_0.1.1-1_amd64.buildinfo
+ 56358d7471b0972220b654f934eafafb 26454 gnu-r optional r-cran-systemfonts_0.1.1-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl17TKARHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtE4Bg//QYKMDS4CIJqWjOnm3FzdqTfcIhqq/MNh
+636cm9DxkjpWic5FkImJ79PZSIU4+h2iMgs6/opWIsBo+he/a39ody1CZ4yMUGiY
+lbQwu3mqoJVrwkAjq11y5W+K7+bqBE4Vxhljis4Xh2k34jc4YHnUxOcxrYSGC3ML
+6kA2MrPFAtzMrHel6rGZ9rYWCmgCfh/0WmoSZ+otSgsR26x5EtAArrnGvNuGzKyQ
+wiG4QO+7ykAlvVx1avcsuuRPu7Y09UckJULtESmbARC9wHc/6yA0dEKQr2rTAInc
+8N4GuVgVy0Owzdx6NudectPLVXBD4x+uteHILqTSlNahZfZoSCykzhV6cyEkfgwd
+9/npy4Iobwz1k5kfo+W4C1n9qBtyl9mvpZhLRNBo33HdFQ6mCydIYDJpP7BE23bP
+Sojou0VllOzxGcF3EMCmhFLLjeZo9R0pgeMnru8+wmtv4XcWgxcXzpzbk2S+cEMK
+WS9bfT1k83izSllyluLtauhcMFYxsYcqFldClP0HTjzZDtNEYa2QVgGaKRAULZd4
+ocMjsXW0xs1RsMfRipvtDT2JWfMQPe4WRKLmwHEdTQ/2HVDJOr5F+iugdY6gueUj
+fGGZmrYMQXD8qVQxTMdg6q/xtHgdHWwf5H3knkx/7GJ+RHv8SdXFnQ9YeeTDXWcz
+i1L7rh/Irj0=
+=QIax
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:11 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 18:00:11 +0000
+Subject: [R-pkg-team] r-cran-dqrng_0.2.1+dfsg-1_amd64.changes REJECTED
+Message-ID: <E1iKnal-0003s7-Va@fasolo.debian.org>
+
+
+Hi Andreas,
+
+please also mention the MIT License of parts of 
+ dqrng/inst/include/dqrng_generator.h
+
+Some files are licensed even under AGPL-3+ ...
+
+  Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:00:16 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 18:00:16 +0000
+Subject: [R-pkg-team] r-cran-uwot_0.1.3-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKnaq-0003xE-BW@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 12 Sep 2019 09:24:43 +0200
+Source: r-cran-uwot
+Binary: r-cran-uwot
+Architecture: source amd64
+Version: 0.1.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-uwot - GNU R uniform manifold approximation and projection (UMAP)
+Closes: 940083
+Changes:
+ r-cran-uwot (0.1.3-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940083)
+Checksums-Sha1:
+ feaf5ebb27f0e519b457c4e5ee75f3ae1c550bab 2244 r-cran-uwot_0.1.3-1.dsc
+ 76be27e2a57e3c3b51606ac767e656f1d01632e0 79438 r-cran-uwot_0.1.3.orig.tar.gz
+ 4c4de8daa8bab83a72c4d365040abcce1ad8bc46 2436 r-cran-uwot_0.1.3-1.debian.tar.xz
+ da9781313476322fc89988a443916c80fcf7c541 1596580 r-cran-uwot-dbgsym_0.1.3-1_amd64.deb
+ 03018bb39de99ada2467d30c3f7880e9fd663ada 9414 r-cran-uwot_0.1.3-1_amd64.buildinfo
+ 2411d84a453f16321446eae0bf33a1dcecaa86bc 346308 r-cran-uwot_0.1.3-1_amd64.deb
+Checksums-Sha256:
+ dc3d7b188509a18053f5148eabb9388868587ac6f9b99e0fd2bb13a5a5ec18ec 2244 r-cran-uwot_0.1.3-1.dsc
+ 4936e6922444cae8a71735e945b6bb0828a1012232eb94568054f78451c406d7 79438 r-cran-uwot_0.1.3.orig.tar.gz
+ 9755a8de95bbf1e874fba1d859c5f0bc386c6b705ba19bab10c0771e7b21eea2 2436 r-cran-uwot_0.1.3-1.debian.tar.xz
+ 9a66b9d12d7cd434833f3bcd4183810ff65d0455c7ed2e8441af20cf4277513a 1596580 r-cran-uwot-dbgsym_0.1.3-1_amd64.deb
+ 3b7b5612368cff092161771ecb3898321afe452d3fc297263b8372419875f6d5 9414 r-cran-uwot_0.1.3-1_amd64.buildinfo
+ 42fb4d865b79d166007573a19051a2bd6c210039d4c8bbfc01b1b8ad42a0ea8d 346308 r-cran-uwot_0.1.3-1_amd64.deb
+Files:
+ a5493279018fabe02a20426ec5dade99 2244 gnu-r optional r-cran-uwot_0.1.3-1.dsc
+ 1a00ceb5b93123376733f41a9e336de4 79438 gnu-r optional r-cran-uwot_0.1.3.orig.tar.gz
+ 73bc547c8ac47a39416f4a3c0626c73d 2436 gnu-r optional r-cran-uwot_0.1.3-1.debian.tar.xz
+ 96d1071270adfb2980d1ccc2465b8700 1596580 debug optional r-cran-uwot-dbgsym_0.1.3-1_amd64.deb
+ 1843de6238a36e9b2057e6c074b14572 9414 gnu-r optional r-cran-uwot_0.1.3-1_amd64.buildinfo
+ 755c17ed4935441263dde16fb2943dd0 346308 gnu-r optional r-cran-uwot_0.1.3-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl1588YRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtF65w//USFegj8pY7Yvf/k1KVBszep6pAN15Rz7
+i4GeunkIzUIngEykbeP6fyfK20Lg9g85oBKp3RtdE++gmZt9Uh+2up+XRT/JU8D8
+1x/6fVTH5BGx9UjA8hUOsAdAhrK2P3JLYEix4fJkdW/U+xbEwmtbBpesTDVFA++M
+rd2WUxReK4218TSaEM7l1bVmb33rUA+XY7ZjEVubcFxmbCTW99jc/JKxH9BMnLu8
+aDtg+WKRSduOe+7vfpYX1VrJuiEay43fzbKNP97kCFCccDmfMZQkREdk3iR7YgYt
+4fc9dupVix4vjhZDxp65JetKVwlvlu3qy12dHzQK9Z7+MGmvtXlCDQrJhO+9RHyZ
+ccR1Qu4gDytvWgkP7XP7ufw9AcapKDFKAYtlDT2nKPgDtMErUWGO50wsSl0vJgiT
+0Xj2J9m0YA1W0Z7EWTSSm3M0t/5a0lB6nNw+t0hFGaEcu+sX4c3ngJn91T0Sar2i
+qNhuEFPb7Ujjh0HAEmyoOXgJmXYd/E+E8XDudmaKyPzMlUZRKk+tdINQ0+G9bIE5
+k0U5o2ouTNYg1uymbjZIFBCFu+3fnYvkaE9I7Xmh8l/XY8CfPu9QkMR/A+yD9r7m
+2XdexpUeb5BBVTMvEqpSf1GDAacYsP7B+KbQvL7YbqZ8RRn9JrrLLDd0h914lT+a
+c5Z7a16wHt0=
+=3Mp8
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 19:03:58 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 18:03:58 +0000
+Subject: [R-pkg-team] Comments regarding r-cran-furrr_0.1.0-1_amd64.changes
+Message-ID: <E1iKneQ-0004p1-83@fasolo.debian.org>
+
+Hi Andreas,
+
+I marked the package for accept, but the license block could be named LGPL-2.1+ 
+
+  Thorsten
+
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:48 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 19:03:48 +0000
+Subject: [R-pkg-team] r-cran-parameters_0.1.0-1_amd64.changes REJECTED
+Message-ID: <E1iKoaK-000Dzq-V3@fasolo.debian.org>
+
+
+Hi Andreas,
+
+please also mention the MIT part of
+ parameters/R/utils_ci_partial_eta_squared.R
+in your debian/coypright.
+
+Thanks!
+ Thorsten
+ 
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:48 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 19:03:48 +0000
+Subject: [R-pkg-team] r-cran-bdgraph_2.61-1_amd64.changes REJECTED
+Message-ID: <E1iKoaK-000Dzj-Q0@fasolo.debian.org>
+
+
+Hi Andreas,
+
+the GPL-2+ of DESCRIPTION does not really match the GPL-3 of some file headers ..
+
+  Thorsten
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:48 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 19:03:48 +0000
+Subject: [R-pkg-team] r-bioc-mofa_1.0.0+dfsg-1_amd64.changes REJECTED
+Message-ID: <E1iKoaK-000Dzb-Ik@fasolo.debian.org>
+
+
+Hi Steffen,
+
+please fix the FIXME in your debian/copyright.
+
+Thanks!
+ Thorsten
+ 
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:50 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:50 +0000
+Subject: [R-pkg-team] r-cran-caic4_0.8-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaM-000E0c-Jq@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 14:53:29 +0200
+Source: r-cran-caic4
+Binary: r-cran-caic4
+Architecture: source all
+Version: 0.8-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-caic4 - GNU R conditional Akaike information criterion for 'lme4'
+Closes: 940569
+Changes:
+ r-cran-caic4 (0.8-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940569)
+Checksums-Sha1:
+ 8c601bdff7ea027edbabb22e12ccbda6d1a201a5 2040 r-cran-caic4_0.8-1.dsc
+ 4eae1a28789cfad8d7425ab9c0200703f4ff2246 73942 r-cran-caic4_0.8.orig.tar.gz
+ 1c396afcb99299efbbe8075461abc58e224ae4fe 1944 r-cran-caic4_0.8-1.debian.tar.xz
+ 403a51c2804c58fbf3e425c34fdf65bff9c0980d 161482 r-cran-caic4_0.8-1_all.deb
+ 4e81a21ea9bee47b5e17b554a3b0740f2b194fb5 9117 r-cran-caic4_0.8-1_amd64.buildinfo
+Checksums-Sha256:
+ 0b21300cdf66c968256ee43f3275b1ea6c0a3ef17b09bf3192a4705d1d9b9c92 2040 r-cran-caic4_0.8-1.dsc
+ cfc787a996332d8dbc5a50fd8b4dc00ef9f93ea7366d3125f68236fe1733c120 73942 r-cran-caic4_0.8.orig.tar.gz
+ 93d86ba4a673b612adf1a08fa71b015d8f316ed72a994a4b789d0a6115d03a05 1944 r-cran-caic4_0.8-1.debian.tar.xz
+ 314a216b60f8742bf33d6b494e925b3d5402bd9ad244ba25e6f7cd2a24ee2e62 161482 r-cran-caic4_0.8-1_all.deb
+ 8b90c3f2d33c7f195c30203785163441f52c64e40d0dd920a0e07331a61c8fa7 9117 r-cran-caic4_0.8-1_amd64.buildinfo
+Files:
+ 32cb106bf67c6c29c650b017f3e1bf00 2040 gnu-r optional r-cran-caic4_0.8-1.dsc
+ 4669575072c5f0c3fb14ac99f3938e49 73942 gnu-r optional r-cran-caic4_0.8.orig.tar.gz
+ faae31318f4369de22ba1ed700ce3ae6 1944 gnu-r optional r-cran-caic4_0.8-1.debian.tar.xz
+ e9c90aa3e6f30a67136c2a6a6144ff50 161482 gnu-r optional r-cran-caic4_0.8-1_all.deb
+ 0ca45f7e2fb0ac18f556c4cf9acf9f6e 9117 gnu-r optional r-cran-caic4_0.8-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2A2HMRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHaZA/8CMD7Lv9v0/VERaDC4tOZCSz/yTevoXg/
+C3r+JWa4OHXDtZ0y4cV1qeSUXLW+mN6cHKmnro0qvRX8QveNq2j9vr6e7NI/TuQx
+WKrq0Lh8WXnHJ3bs1l4u2RdJ2WSYbdIh7L12GFP0/chDbAU5fUhXjKhCUfyk/TX7
+PcRUfHm0yyGW6E8JyrYdZ6L8f4A19sPDWlcasx5R2H64ThtaNAmZeW8ZnqfBe4gM
+bqYR+uqX5Pyu5G1rCCkMd8GznmdR5kwBQxH/8JM4EL+IFzrYyaqmn9aiN07ZgtTx
+j6FKlhFH7K4Z7MLi6T1EuJbiMixtvDOnOPOJ3ORml4g81nSAlvR1/vzjmutnDqd2
+jXPe7p4QlEv6CMeumlbQ/LcVtrMLHBbhsTT9i/Z7qaLj+084QtKFQ7i+Xci5pwsJ
+TJNWdjZdzHpQPg+wDhdKn1X27V9o4C6uBnzTORSzZ1A7uGarCw7k0gvV4FfSfP2p
+BbseE93thg6OyowVrsnEEx17TZXLes6wa5YF8A7kpvewW+M315850xZiAFr7GI11
+dnYqy8foJ8UuQDoqfwYB+aOiBBgSf7qcxOMlMuhW+rSR7BqQgkd0Bqx4MRSKfwM1
+Vc0jKjLCcUop7AXJWZm8QycJrOnzBA84X8NkqE6lWMdqEXkw0RqpMBB3Vdlfj6/T
+J7J4c+Ncj1E=
+=Zm7e
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:49 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:49 +0000
+Subject: [R-pkg-team]
+ r-bioc-multiassayexperiment_1.10.4+dfsg-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaL-000E04-Ic@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 16 Sep 2019 14:25:56 +0200
+Source: r-bioc-multiassayexperiment
+Binary: r-bioc-multiassayexperiment
+Architecture: source all
+Version: 1.10.4+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-bioc-multiassayexperiment - Software for integrating multi-omics experiments in BioConductor
+Closes: 940493
+Changes:
+ r-bioc-multiassayexperiment (1.10.4+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940493)
+Checksums-Sha1:
+ bfe99023434618edbdc62cab64dd2b53d1a79d2b 2472 r-bioc-multiassayexperiment_1.10.4+dfsg-1.dsc
+ 7f0fd4392272b35031b4c2321e9f1a1a52398835 1079940 r-bioc-multiassayexperiment_1.10.4+dfsg.orig.tar.xz
+ c4b65327b133d11a23dd99e6d5fb4b00f16f1fcd 5204 r-bioc-multiassayexperiment_1.10.4+dfsg-1.debian.tar.xz
+ 84fb0e373fe204b82395367c26f6997f1885dcc1 1916420 r-bioc-multiassayexperiment_1.10.4+dfsg-1_all.deb
+ 9ea00dbe511885f729ffef43d144b5b686c2be56 10659 r-bioc-multiassayexperiment_1.10.4+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 2329b3b828c4a6c74313ec6408679f7c613c806ecaa4ba767789ec5b882000d4 2472 r-bioc-multiassayexperiment_1.10.4+dfsg-1.dsc
+ 20cf06118083688c9c11b87c9fabe9e6c0e5e4745b63364f6f74e1a30b67990a 1079940 r-bioc-multiassayexperiment_1.10.4+dfsg.orig.tar.xz
+ fc6c77afc6780b59c29d42c23bcc75577f57d9d512964d3863c523f4b5a406b2 5204 r-bioc-multiassayexperiment_1.10.4+dfsg-1.debian.tar.xz
+ 99902095489e8a6d549b286ac38be341a1db71da553075e6022b57fd918eb4c9 1916420 r-bioc-multiassayexperiment_1.10.4+dfsg-1_all.deb
+ 9416000b4691da5bf42814b2a891bb7af64e35b669f7435bfcd5fcdbb85e80fa 10659 r-bioc-multiassayexperiment_1.10.4+dfsg-1_amd64.buildinfo
+Files:
+ 6dfb53c569c57e93dd4204bb9d677710 2472 gnu-r optional r-bioc-multiassayexperiment_1.10.4+dfsg-1.dsc
+ 656c6abb4eb51e052da7c2a393bfbe99 1079940 gnu-r optional r-bioc-multiassayexperiment_1.10.4+dfsg.orig.tar.xz
+ 51a6a39858426e71c508b2a9ecc8d0de 5204 gnu-r optional r-bioc-multiassayexperiment_1.10.4+dfsg-1.debian.tar.xz
+ 1091b3adab6ec2162e28a4ed9cfc2fa4 1916420 gnu-r optional r-bioc-multiassayexperiment_1.10.4+dfsg-1_all.deb
+ 8cd7997c38a29149798b9ccdf2efbfce 10659 gnu-r optional r-bioc-multiassayexperiment_1.10.4+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAl1/hd0THG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0QApD/9CCNclNnJbSqcKZzEXE2t6DDTkgriO
+9/LB+SzBaJMvQpdOi8biwk8YTWv8qV0f8avqfCiKATlKkHQYON2nKqzOjyzAUcJE
+hV8kOplLZdlv1Pr13o2UU/nSLLSVPJy6UakSd6+Tv8MsTBtsH4/fNxftxwB4MxW1
+d5m96qpzATkxqy/hJBE2DtfkzbXJyd09waWSeg3mIn933KPaEMmbryht1cQlTvLd
+qMZIoQXiAuuqEsLm0M/P3mdXiaTldJx2gT2sgdTSJx2umFy69umx6PfcUC9TUYry
+/CvDF0nBkO2NqPwbQdZvUznchxzHyQ709Wyf79TcRX7nqMaWci+binQ1DLrBq61N
+a2DKWtom48JE27LMhbiSFHPWjLVhaRX8QRKlcExjgahgwebjzZi48QValA7oG11r
+fjGZiNQewEul4FgQ/lBPSvNDLpYfXI5LjdCEptnhlVowdljbbPlgcjvvbmTCRkp0
+6lXUEZSLss0sdg6iANdrM1EnhFBkQ1fNo7kdUcUMOwJw82DwpcG20LZDlp5nn4mv
++OrwErQoiHDtK5qiaQP5mZeX/TZRmPfmar6NSBaAInXMRqUDZNjj6lTp3pj9TOsE
+OF+avtqDZbxFnzRKtBstC972z5MrgEbg2POLO0DJf6BolFXL8RpuFANJvWjysvFB
+FhxuAE/uEsaB9g==
+=VFYe
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:50 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:50 +0000
+Subject: [R-pkg-team] r-cran-bayesfm_0.1.2-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaM-000E0L-5u@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 14:48:53 +0200
+Source: r-cran-bayesfm
+Binary: r-cran-bayesfm
+Architecture: source amd64
+Version: 0.1.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-bayesfm - GNU R Bayesian inference for factor modeling
+Closes: 940568
+Changes:
+ r-cran-bayesfm (0.1.2-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940568)
+Checksums-Sha1:
+ 4e99a1ae0d0c28a946f572d847ca5ff79ab45d12 2150 r-cran-bayesfm_0.1.2-1.dsc
+ dc5ca5ca171f855cd3f0682aff352009eb23fb66 78236 r-cran-bayesfm_0.1.2.orig.tar.gz
+ 0e4e96c9d1a5cd1b67fa30aee51421f85c774fb2 1892 r-cran-bayesfm_0.1.2-1.debian.tar.xz
+ 71949915adf0929dbf38bb9f3f704a4f81ec2778 73634 r-cran-bayesfm-dbgsym_0.1.2-1_amd64.deb
+ 450c3a693cdc3708253cbb93396d9c6ca1641127 10284 r-cran-bayesfm_0.1.2-1_amd64.buildinfo
+ dcf0b0b2e7dd2b506e603cb8d77536a410c59ddf 201290 r-cran-bayesfm_0.1.2-1_amd64.deb
+Checksums-Sha256:
+ 7e020d348bf5c4d169efccc9d6d88103d34be29a7dde8a26cefee5cd7024b888 2150 r-cran-bayesfm_0.1.2-1.dsc
+ ada760e8722a8ba8a3fc9faf112f171aa1a2500d7a2fcd7dbe635f9644173c3a 78236 r-cran-bayesfm_0.1.2.orig.tar.gz
+ 16b25ddb4ad243ed3265fe57afdfd57c668760095f0a3c0446254a8c4c60fb09 1892 r-cran-bayesfm_0.1.2-1.debian.tar.xz
+ 88e1df164fbce6393009e30d98d8a20a3409e6d953fef14eaf72b11b4a8f1078 73634 r-cran-bayesfm-dbgsym_0.1.2-1_amd64.deb
+ e2f75dff17a8c49741d43d6ad2451876ef9c7092c6b05371d82483385407d782 10284 r-cran-bayesfm_0.1.2-1_amd64.buildinfo
+ 365d2f96d9c8620af85288b75d37858f13aecadee37105f7d346d51185dd1807 201290 r-cran-bayesfm_0.1.2-1_amd64.deb
+Files:
+ a06b15da64dd1aff910f1731657f60e3 2150 gnu-r optional r-cran-bayesfm_0.1.2-1.dsc
+ 443dc0906ece6cf617e6bbf3aef707dc 78236 gnu-r optional r-cran-bayesfm_0.1.2.orig.tar.gz
+ bdc7624a3c647ccaff8ddf7f37273a9c 1892 gnu-r optional r-cran-bayesfm_0.1.2-1.debian.tar.xz
+ a6447fd53a162c527c763808d2a17e56 73634 debug optional r-cran-bayesfm-dbgsym_0.1.2-1_amd64.deb
+ 3a6a48465a8a02a86d71c518e8a649ea 10284 gnu-r optional r-cran-bayesfm_0.1.2-1_amd64.buildinfo
+ ae7cdbef8ae045ba8a2787cc9bbf36fe 201290 gnu-r optional r-cran-bayesfm_0.1.2-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2A1y0RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtH3tRAAhm9+Lbj7El2qWRKSFC75AQaWwqRCF0FS
+hW5m4ZueqWX8Udcy/AJWdkwCBSAuCW+dhXhhZJJEV6mGn5oMlEwceE0bHlzGnh24
+6iEk6vRrGfPNdf4cZxsaZOkd4xSpeK728MqkzeXIsDpAOR78JKuhkbxH7mjJhCyP
+7TkxhB45oEwMUkykWrXM3E7oAZzIwM0np/N0fEJ00gGIwflklVXbGyTIzhPgwDyo
+QFixFYHzbW1BBCz/katPG4pA4HOkU7WIjJjPmj+TdBYSRlA2F2cErz3vRpyQLFCO
+aWG3TjEUcvQG3qguurL/kpXYIymq5bYQXjfbdourvTqs8F1x8l3U2HV/JRHeOzwJ
+m/36GsxsIKsYT+m2OZemV9iiWPEuV4loWTN4qfHqNF9yT/97fT5AaPiTv7lxP4QP
+P6fEsdoNv4YGSG6vT0MOYeRDMe59ADSUBsgBDIP/ikswd3MNfM5TMYgdRmZHQuwh
+GDEGBgbgqO7eJsGQSOmunEvEI95kWVVk1AJ1FB273lsyAwGm1pLngRMVndzLTMx6
+wqYuU3b/YyRPl54l1UwO1h9yy90o4r+u7ACoen+CSe1MfILZ7r+j/z2qzkM2idrf
+cwne2yawIc/CdGJEIC0OeftGMRbxwhv8aymAuZTAvELCeBy74wwepNVtNFgS93uE
+YanMVe1bRc8=
+=gXRk
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:51 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:51 +0000
+Subject: [R-pkg-team] r-cran-furrr_0.1.0-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaN-000E1A-Gs@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 10:52:30 +0200
+Source: r-cran-furrr
+Binary: r-cran-furrr
+Architecture: source all
+Version: 0.1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-furrr - GNU R apply mapping functions in parallel using futures
+Closes: 940552
+Changes:
+ r-cran-furrr (0.1.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940552)
+Checksums-Sha1:
+ b2efeeee08d8af8050602bb116b938ce5af05174 2171 r-cran-furrr_0.1.0-1.dsc
+ 40ddeba7ee49a0fa344ffb0c9f77e77c8146cca0 75030 r-cran-furrr_0.1.0.orig.tar.gz
+ 72bf09f4611910960e52cfc47451527313de88da 2112 r-cran-furrr_0.1.0-1.debian.tar.xz
+ d21a31485ca5bc83bdf23906677debee9fb28959 112090 r-cran-furrr_0.1.0-1_all.deb
+ 019e83df243db1ba827fd52f3dadd4ddb77ca030 8958 r-cran-furrr_0.1.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 4043e22aa9dcf883f23954f03c9bcdab85ae43a3fb005172cbc6364a8687b7e5 2171 r-cran-furrr_0.1.0-1.dsc
+ dd2937f7cad1bc69e7a512b2a777f82d6cb7e40fe99afa2049ca360f9352a9d1 75030 r-cran-furrr_0.1.0.orig.tar.gz
+ 88e9f1b5fc352e9dabe4709734a1a531f82d2e1aeb5a7035438a3836070dbf13 2112 r-cran-furrr_0.1.0-1.debian.tar.xz
+ a2b103c1e1569204e0c441883eb7e3175a6846b563a58eafe1dc665ec171425b 112090 r-cran-furrr_0.1.0-1_all.deb
+ a93d40bac9eebdcd5f42b8b20c53b83d355c50e52c95625fd4863645b608807c 8958 r-cran-furrr_0.1.0-1_amd64.buildinfo
+Files:
+ 25d4575593339f6ad79a8920b81100f1 2171 gnu-r optional r-cran-furrr_0.1.0-1.dsc
+ 6659de5cb2598eb3578a566c6cecc775 75030 gnu-r optional r-cran-furrr_0.1.0.orig.tar.gz
+ 77fb116b063d03882eacd7a8bccc90d3 2112 gnu-r optional r-cran-furrr_0.1.0-1.debian.tar.xz
+ 7ae3ae87e9f1daf25a2757026e647b5b 112090 gnu-r optional r-cran-furrr_0.1.0-1_all.deb
+ 93481754c429c3e3ff90f5ab3abb64ce 8958 gnu-r optional r-cran-furrr_0.1.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2AoGcRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHNwA/9HviqaeTXOekwrv8xXBd1+oxpsy803YyX
+8diSLUZGHX/rOQn6maIJSQJEaeBu/y7p8xdviqA7f4fExE9JNpZ4Cx9csQvcETyl
+ICy+99Y6bwJ/H0jElzxq3EWbaO94VpW0QOQTYkyVl85anDxeeZrJztA4Wf2DF7m5
+oHIOXSyg1V+kmx59JhDg8/3B8QVOJgC9KnZFVRsEULlWejyTd4sCHjKDBc+VLc24
+B6KM7uVsQAg9yF28aE+vhshWwnhIajYCYpiBPwOea4MlzEbnt2361Z3slfnhchXP
+HyEr3IkkVEYePoBHfTa7TBqjwD8Sd6GPLvHqUx9fNWdzytr5M7w05YwEywVDjeWh
+cg1kamYI/Mvhz5XAg3Eku71aOpeZ4u1epTx+NxKEtBR8aYJWRUQzDbH6XsKJENV6
+oVUcvPmZXXYmEndsL04XAyhfNAHVdAQUfaS6bSZeJHp4Sw2piAsUj6YfvmA4foia
+ww0/e5pFzpBe9q18mexMWvEhyYp6cgynp7Xv0D3kKL1kQJf3U3RQCP3V6rfUFmEZ
+xLrYpSJzr6avXUw2nxzlrJSR3XoTyGkOMZTYhR5uS553uUGijAAeiRdA9+X4kogn
+00OhEg2kuk3pvCxGcyoeB52i61Kp5f2rwBN197JhgN/ZXOqlIwpS1OXSiBKjiNOr
+/zmZJ4KUyDY=
+=qwdq
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:51 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:51 +0000
+Subject: [R-pkg-team] r-cran-ggm_2.3-1_amd64.changes ACCEPTED into unstable,
+ unstable
+Message-ID: <E1iKoaN-000E1R-Vg@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 18:25:37 +0200
+Source: r-cran-ggm
+Binary: r-cran-ggm
+Architecture: source all
+Version: 2.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-ggm - GNU R functions for graphical Markov models
+Closes: 940598
+Changes:
+ r-cran-ggm (2.3-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940598)
+Checksums-Sha1:
+ d4179c4466bdafd581e3bd759d774cc47ff56848 2049 r-cran-ggm_2.3-1.dsc
+ afd7557a89d997832dc613df2117284eb8f0ecee 527275 r-cran-ggm_2.3.orig.tar.gz
+ 6da4528ee4a8f93010430a5e520d9688b95ee7e6 2016 r-cran-ggm_2.3-1.debian.tar.xz
+ c6af7c54ff6438558e177a130aa6456a7d676bef 627714 r-cran-ggm_2.3-1_all.deb
+ cd07fb34dcd1c2f9516e0dcda089c261ae39c901 8840 r-cran-ggm_2.3-1_amd64.buildinfo
+Checksums-Sha256:
+ 7c9ce24d8ab264a3e549d7915b9fd7645081376d94f409513a2e95d30d67c1a4 2049 r-cran-ggm_2.3-1.dsc
+ 832ffe81ff87c6f1a6644e689ebbfb172924b4c4584ac8108d1244d153219ed8 527275 r-cran-ggm_2.3.orig.tar.gz
+ 9e8ae5f00c90d77c2b7879a22b656eaaa6e771dd10fd7e4f32f02fdc4943f441 2016 r-cran-ggm_2.3-1.debian.tar.xz
+ 0afb72ccd89f4bb99b814e22d8a9426deef17064869c432b53e319e793ff3f13 627714 r-cran-ggm_2.3-1_all.deb
+ ba6a4cb9c4200720e5eb4a49017d848a9c8b25db80f8916a9e443ac7fc903376 8840 r-cran-ggm_2.3-1_amd64.buildinfo
+Files:
+ 2c52d23dc9c8e35e5767c9f92676fd02 2049 gnu-r optional r-cran-ggm_2.3-1.dsc
+ 2ac38fde530336abad025b93196e1cd4 527275 gnu-r optional r-cran-ggm_2.3.orig.tar.gz
+ efc081afb213a079a0fd366aa1694206 2016 gnu-r optional r-cran-ggm_2.3-1.debian.tar.xz
+ aca42a87b9472f911272f9cb57fa9ccd 627714 gnu-r optional r-cran-ggm_2.3-1_all.deb
+ cd664315991329866512a5b1c50f01ed 8840 gnu-r optional r-cran-ggm_2.3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2BCwYRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtG8wQ/6A+6bbI3vTk+TGKEZRun82biq5rlykqkK
+JYPbQv13p5+UxeLKo1uDcJEZNtPUV4Y3L+2ZjcykRho+6idzTy00k7HjpRkqHz7+
+iUX/3ifJFfU7ZY5K1U257QEe36jbxgYuuWj3nNHwPGcC0tfe3cF40MekiuaXJflr
+Bh8pXBXVNLnGTVNnx/KqEt5Xe6Iln42AeMZ/zdSLx4S2YwrC5npEsZZSXDaW7hO8
+eDb72LpCLOWGTn3p6QOIanTK2bgZ5XGZVIw8xFjRt/iqG9H42YjVWItfu0Ryndh7
+CvNKktkWZ/4gMnv8felryXIH5rXPlEiT2mAy6AgFcTJ3TO0ipEOTyy1w5O9bLq5p
+ZTzQPjFB6xQ6ZfUNC98ZvQ19f8tJ8uvbs4Oj8PB1CtmhE1bZcd9hfrB8tZB0OyMA
+8J1qB5a9F29g4O9YymEn/IQsc433PhstJkqqTnAx088KZD8UibqSE8hGUze0z0At
+BgnKteu67ITpz+4tJRu75wYLTYMfUm9QyVkyyQSpHsRYFSoNxCszDJ0sVrXMAVZu
+W1eJIFmbyAOxuUUVVoyR68Qyb1Mq3KjxH495MiqgfUJbKHqq5Cb81WqsQjB4cFYB
+MHtBUCTiNEtYaC36bZ9ttxEeQMV5Z9WfycQKlET0dzYVyxR9oTTbXmf6G55w3c7M
+WcE2wUqXMY8=
+=XMfs
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:51 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:51 +0000
+Subject: [R-pkg-team] r-cran-d3network_0.5.2.1-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaN-000E0t-1a@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 19:33:26 +0200
+Source: r-cran-d3network
+Binary: r-cran-d3network
+Architecture: source all
+Version: 0.5.2.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-d3network - GNU R tools for creating D3 JavaScript network, tree, dendrogram
+Closes: 940599
+Changes:
+ r-cran-d3network (0.5.2.1-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940599)
+Checksums-Sha1:
+ 2eeb08e73fce789866ff8825abccf93a7c63e230 2174 r-cran-d3network_0.5.2.1-1.dsc
+ 8cc548e0861cb48875d910a95796e8bdec1512ee 22813 r-cran-d3network_0.5.2.1.orig.tar.gz
+ f2f63c5c5826ac9e2c97300d11c4a232b0ae3e62 1852 r-cran-d3network_0.5.2.1-1.debian.tar.xz
+ f382cb2b38b3fabe355f2041eccf90bf5e1ea0d5 80272 r-cran-d3network_0.5.2.1-1_all.deb
+ 0fe837aaf4660ce7fc24c6d3f1108ecf11bd7406 8927 r-cran-d3network_0.5.2.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 65e01f119cb464be23d9cc712325a48e3ee49ce671b47a5ae7ef03947bbb48c8 2174 r-cran-d3network_0.5.2.1-1.dsc
+ 5c798dc0c87c6d574abb7c1f1903346e6b0fec8adfd1df7aef5e4f9e7e3a09be 22813 r-cran-d3network_0.5.2.1.orig.tar.gz
+ fb4d299934fa202346fdd4aa6c27b607c9d671e2ebe3fa6203cce5c6cbce29f7 1852 r-cran-d3network_0.5.2.1-1.debian.tar.xz
+ dadea633d07ed56488994ada40e7a2a867ad064ccead7327d58b7e91024d1c8d 80272 r-cran-d3network_0.5.2.1-1_all.deb
+ 15b062e7402cf61491fd9f5e146d193447439ca20988da129f62821b59222af6 8927 r-cran-d3network_0.5.2.1-1_amd64.buildinfo
+Files:
+ 3af0232d6dac143e396689e01ac9d260 2174 gnu-r optional r-cran-d3network_0.5.2.1-1.dsc
+ 32fb769bbbcb5fb7eab98612dddaf441 22813 gnu-r optional r-cran-d3network_0.5.2.1.orig.tar.gz
+ a0bc94b5bcdfcbd2a15a0b09d110300b 1852 gnu-r optional r-cran-d3network_0.5.2.1-1.debian.tar.xz
+ d5ca3b180b8f73df10e7552c6507b257 80272 gnu-r optional r-cran-d3network_0.5.2.1-1_all.deb
+ 9c29e40232d8597ca328735f60ea244e 8927 gnu-r optional r-cran-d3network_0.5.2.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2BGssRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFtRQ//U2Z/HjkY2E7V75meIRBVbHjZM31JuOhv
+R0lOSDF6+xyoe3Dml9/bKBy26u2R2/0sS+1tcZhdwdaR32vj3IVx9t7cZXCdO7vJ
+TrvGA9ummhJtiBks7SipBZqCH8+7nG0TvxdX9y9PjuMiUPOg7v8Yy+tTpz1VyFAc
+yto2zfrZtH/+qy1goCYBsk4E3P2nzhPlJuIfLa/mzERKESAtbULTOTLog0IwpYQt
+RzNSePcD7AtexV8XgeAYsI8uzdn10yiLBWCvr6WAEyzZqtpc4qlddB+dPosCNI6M
+x08a/Fne5Th+f/sOcEANbN6OD5l8dF5Cxy/4QRoEH9t6pvkAu7AQ3pVDA4xKxgwr
+uoHvwu21/35kHCFEY39e1FzmgIcdk8Zw7We/V38nNx2tlWEzevR1HwjfOVqrxo5C
+vyoUC1RU6L+wxb4aWQm54QNmtmTZXJ9/H+NQLdpxeeqcfa59lp3GwIj3BSaLw4NJ
+5t+s9EU7CBTvisLwDDfyNU1XLkGSKZ9NQaUzGBkJx2yJVtnEWdVpX8sIps+51FfT
+Ub11GmF7cPoD+PUsGL5/VXpBiEJ6IAow+3nAt3GoY0dOXjOTzMV1j4Cg8SPEIbMd
+RuZhes2uEcTNTjrZbG93NtebBAXoNvLW7LGrcvNItLMhklGL2FsQ00qcJf+oP8At
+x07exSTyJEU=
+=xGwj
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:53 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:53 +0000
+Subject: [R-pkg-team] r-cran-gparotation_2014.11-1-1_amd64.changes ACCEPTED
+ into unstable, unstable
+Message-ID: <E1iKoaP-000E1z-1C@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 16:40:29 +0200
+Source: r-cran-gparotation
+Binary: r-cran-gparotation
+Architecture: source all
+Version: 2014.11-1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-gparotation - GNU R GPA factor rotation
+Closes: 940576
+Changes:
+ r-cran-gparotation (2014.11-1-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940576)
+Checksums-Sha1:
+ e67066f3b68fd0ee28b4b550705c1cd48c72fe66 2139 r-cran-gparotation_2014.11-1-1.dsc
+ f0d10ba44321ba4d55f5d4baf99087d686f85657 95378 r-cran-gparotation_2014.11-1.orig.tar.gz
+ 66fcf02b657203353748424967beabfb3bf5521a 2208 r-cran-gparotation_2014.11-1-1.debian.tar.xz
+ 8b7566efbdf5692cf62ecc1388480f88d8ddf21c 175490 r-cran-gparotation_2014.11-1-1_all.deb
+ b199fc9880255323d26d81e9cbc6d47c9723cd0e 8808 r-cran-gparotation_2014.11-1-1_amd64.buildinfo
+Checksums-Sha256:
+ 08e7286fb7a7c09c4ec77644f55bd8682333508f0ec5af8a69afee6d42a40211 2139 r-cran-gparotation_2014.11-1-1.dsc
+ 351bc15fc8dc6c8ea5045fbba22180d1e68314fc34d267545687748e312e5096 95378 r-cran-gparotation_2014.11-1.orig.tar.gz
+ 6256c32bd401f91e6516adee0c5e0309aee67058783eecada31cd6cd8fa46393 2208 r-cran-gparotation_2014.11-1-1.debian.tar.xz
+ fb133a10ea2b5932c1ccd5d1e908a84d350428dac543a2f04a49d06229d5444f 175490 r-cran-gparotation_2014.11-1-1_all.deb
+ b2e0e0f86f38a27550a58a7455f122c9e5209dc444e3ce53b68567842a341907 8808 r-cran-gparotation_2014.11-1-1_amd64.buildinfo
+Files:
+ ca7a451faa4d8ecda0df46e1b5086063 2139 gnu-r optional r-cran-gparotation_2014.11-1-1.dsc
+ e8e913aa9ad9063b0b3961be09d126ff 95378 gnu-r optional r-cran-gparotation_2014.11-1.orig.tar.gz
+ 2ae3701b0a7fda933519fc23f5da34a8 2208 gnu-r optional r-cran-gparotation_2014.11-1-1.debian.tar.xz
+ 9595b3a26b78a2ab27edf9ce1b3560d3 175490 gnu-r optional r-cran-gparotation_2014.11-1-1_all.deb
+ 474bdfd5384ca39559c96b98c2204662 8808 gnu-r optional r-cran-gparotation_2014.11-1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2A8gMRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtElqA//dX1Ef4Or6JD81x/dke5QH7gsXvWmpkC1
+oS2MTbq77rd8Y9MKZDBtXGlF05yVWZ5h34EG9l03h9ihEIRWYdvYgXKEWXiyRQrS
+9EyCswYYRay3C2Kmfm2uyXCjiaLEaJr46Bty6gi8EvLPsNkpwOVvyUtmuQhF3yl0
+ILhrWGXA7bqeIDPIbGbWoqDXqUrZFPLPYLbR0c9F9uI2DujMLs7lftoTWbtr4cx3
+gGX0kmRfoP/Ff5KoS0tjDgLxyFUrCPEDWMRBCmvVU1MLz9j93D9twB8KI44ZAjdj
+mNReFzSI62QLr8oRYxBXoMilqaI9tsahe4eBZEdnfbFz5M+H9my2Yc0rnnrdV5Ip
+OdiWG/MF/Gi4+I5doG1b9Er3oxDq/YR4qSG85WeyQJNvlsmpqM/y3UlTzYbJgKZS
+5ErfCndx+bTERut8q+5uPSgpoAJztRpd1zTUM8NooxRXPB5rDNFmxuBXGFWO2GXu
+8NZpChQbm89A+e2izhfnnksO/j/Im5GPkyDeQhRykKRk/HpVTXZeepEO6CN4k84U
+VPT0ZOtgmL3ZXP0KBYs+aLdPGlM+b8K4emRyYDMgossgcOrzG0kn9geaM1yj1wfQ
+WZGzBdYixQIChlibZaeW0QxfLcajaIAVMzYVVLpYC7HmS/oWSe7+nsCQLIjajzZA
+f7OmlcUJPLA=
+=EdOq
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:52 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:52 +0000
+Subject: [R-pkg-team] r-cran-glasso_1.10-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaO-000E1i-Jo@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 15:10:59 +0200
+Source: r-cran-glasso
+Binary: r-cran-glasso
+Architecture: source amd64
+Version: 1.10-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-glasso - GNU R graphical lasso: estimation of Gaussian graphical models
+Closes: 940573
+Changes:
+ r-cran-glasso (1.10-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940573)
+Checksums-Sha1:
+ 4ade99e244fba52a3fbb6ccac6959d3a12e858d1 2071 r-cran-glasso_1.10-1.dsc
+ 3ac06b3247845813f5ad3e9513da729173cd2ed7 8385 r-cran-glasso_1.10.orig.tar.gz
+ fabf409d1975296884e30af6a55d56d26a554b96 1716 r-cran-glasso_1.10-1.debian.tar.xz
+ 4ecc379d60b83caae05c5691ca5ee982d3413ea3 16182 r-cran-glasso-dbgsym_1.10-1_amd64.deb
+ b8ecc7e04cf5d8309a6ec924b0590c2da581e1e1 9002 r-cran-glasso_1.10-1_amd64.buildinfo
+ 294f901ecebb35b1317e84960a157ad39856d299 31552 r-cran-glasso_1.10-1_amd64.deb
+Checksums-Sha256:
+ 13b2ca9af9348401d98aaa78a90b9a5201bcb15adc0869a7459be082f2b50fcd 2071 r-cran-glasso_1.10-1.dsc
+ e6fa74139a2b5f475f134cc0d6b4000ed870beb5865294e9f1d68b4d42bf505b 8385 r-cran-glasso_1.10.orig.tar.gz
+ 6b00e1fd043d51bd1c056235ef77b1d9413c73d84d229fee56c233fad50571ab 1716 r-cran-glasso_1.10-1.debian.tar.xz
+ 34005f6aa9298d34eeac1413ea6a57023a0b6f5ba10b2992fb57f2aea9a63ee5 16182 r-cran-glasso-dbgsym_1.10-1_amd64.deb
+ 1f5bec22c454478a486cf8753df2d5c8c196bce6e568e3c111e985870d919ec4 9002 r-cran-glasso_1.10-1_amd64.buildinfo
+ 12233c87158675519c499016970a5d67c5da3bf9e6d726ba791bb8bdff98f6d8 31552 r-cran-glasso_1.10-1_amd64.deb
+Files:
+ 13e75e5a0189ad61460d62e82c51aa0f 2071 gnu-r optional r-cran-glasso_1.10-1.dsc
+ d14662db4142f625b76c8d0259ffd636 8385 gnu-r optional r-cran-glasso_1.10.orig.tar.gz
+ 1303e94ebb02cda650c000075c0a5c75 1716 gnu-r optional r-cran-glasso_1.10-1.debian.tar.xz
+ 3cea75d3f9b759dfb38d8fcf50ce2f76 16182 debug optional r-cran-glasso-dbgsym_1.10-1_amd64.deb
+ 89bd966f0e06d4461ad102285b689f78 9002 gnu-r optional r-cran-glasso_1.10-1_amd64.buildinfo
+ 022e847660fc2b21444ddbc2209a58e3 31552 gnu-r optional r-cran-glasso_1.10-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2A3ZkRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHhKw//cEY7yxF69p1tuS+GL+nPgHi6Vylb/oFs
+AZ1S/ATCC44XPsuBJl1S3uHYaHBnBHXBYtu+98yj2I4yD3bzu/qdsij7wKvGMVt/
+FNVvYrxTPgySs1/NmGxtwU3ve6rnRe4PT89xxsWJuRAHgrEjHnSh+knIR9TLdtle
+LMsBSNwVcKADhg9ZfpbxvSf755VS6C296SH0HQciV9YIkOWwvI2obzz/nSo5lTB7
+PoVw7Td4S64n/y2gFUUiyMbFsEinHkToB1sPK91a9FTHSX/hLx460f3Pjkt7GxcR
+R82arjubNwGHkYEYQkeoyDlu9fNXwtH9dLna2Sk0mxagALbgNojWBZE/L1YQ3oPm
+P/Z87YEbu/VCyU7v+a9rDfjwXUZmAywQCv2ps2hxc2CNqyyIpQQe6C+gghL8oado
+BdnMqSBblRTdwxVY0/zDvMIJ1R9v9y15axKW5Al33PmjaxOQvAa+S6VjGiGDdiTd
+9vEK1I+Gbn8tvY5RzgCHeBQxHWEOYtq7PwzcQ+8tOaEFuBdS8GIeUcgmBb+TjoR8
+zSGVAyQElGFhuWk9qIqk7P1cO8Sln69icmkh8e5yBcqtgbjxKvWw9yd31fb9wnM5
++5s1H8Tsp8TWluA32O3lyk2yz7Wt2MlgBpzgqdcC+4MdmkmZJpdPG4GPSPKEjus1
+Vsze0WVDq8U=
+=tV4k
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:49 2019
+From: ftpmaster at ftp-master.debian.org (Thorsten Alteholz)
+Date: Wed, 16 Oct 2019 19:03:49 +0000
+Subject: [R-pkg-team] r-cran-rockchalk_1.8.144-1_amd64.changes REJECTED
+Message-ID: <E1iKoaL-000Dzx-33@fasolo.debian.org>
+
+
+Hi Andreas,
+
+please mention the Latex license of the style file.
+
+Thanks!
+ Thorsten
+ 
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:53 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:53 +0000
+Subject: [R-pkg-team] r-cran-huge_1.3.3-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaP-000E2G-Ka@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 18:22:25 +0200
+Source: r-cran-huge
+Binary: r-cran-huge
+Architecture: source amd64
+Version: 1.3.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-huge - GNU R high-dimensional undirected graph estimation
+Closes: 940597
+Changes:
+ r-cran-huge (1.3.3-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940597)
+Checksums-Sha1:
+ e5eb5d3f2a474cb52e66e519bf997bfdb6a991ef 2150 r-cran-huge_1.3.3-1.dsc
+ 522fb5378f10f0717395649ec57129eed97bd260 2256970 r-cran-huge_1.3.3.orig.tar.gz
+ c7ccb47386d2f86c773edff6d8282449e3bd6e85 2508 r-cran-huge_1.3.3-1.debian.tar.xz
+ 9c96ddcdac0fc9c25ee68ecfa1b30c10195ffa0b 2204680 r-cran-huge-dbgsym_1.3.3-1_amd64.deb
+ 00305e93d989f34bc3f4436f1f11465f4361e8c0 9328 r-cran-huge_1.3.3-1_amd64.buildinfo
+ 563923b7d840e93211fe11e65117c3fe35835b3d 1638622 r-cran-huge_1.3.3-1_amd64.deb
+Checksums-Sha256:
+ 981f42440c315e4f74dbbba90d545583716100a1f8920c479bcf6ca07cf4ae83 2150 r-cran-huge_1.3.3-1.dsc
+ c9e4e638d9a2ed268f3255e8fe9627fc905f6cb6cedc58a688cda5db20e1c8a1 2256970 r-cran-huge_1.3.3.orig.tar.gz
+ e04659a9b5727b46c8a8a036e6f2b2d5a68d2a386c53971120f56adb2ffa2a8a 2508 r-cran-huge_1.3.3-1.debian.tar.xz
+ 5a90ac8127c5f669729ad89e181355c23dd193d85dfcb70d360f1e96864238cf 2204680 r-cran-huge-dbgsym_1.3.3-1_amd64.deb
+ a09582d2b81c94d3ac3b0f8e956b0413b98809f236985f1d350e5b0ab523c6de 9328 r-cran-huge_1.3.3-1_amd64.buildinfo
+ 7f4fc574692175e3a31499ca9a839e15d73e90ec442a0cd8909e491319195907 1638622 r-cran-huge_1.3.3-1_amd64.deb
+Files:
+ db66896660cc7f8fc5a9c62d0779fbaf 2150 gnu-r optional r-cran-huge_1.3.3-1.dsc
+ 95df9fdbb1c4f677e4f7c3e79b4c4c46 2256970 gnu-r optional r-cran-huge_1.3.3.orig.tar.gz
+ cea535ad45ce748b4af0a744999ccdbe 2508 gnu-r optional r-cran-huge_1.3.3-1.debian.tar.xz
+ 6005727be57f4f3da94a2dff6ac0cacf 2204680 debug optional r-cran-huge-dbgsym_1.3.3-1_amd64.deb
+ 9d8377955f2f5a8ebec664e769db7fd6 9328 gnu-r optional r-cran-huge_1.3.3-1_amd64.buildinfo
+ 40216a342372b3721fef0aebd9fec444 1638622 gnu-r optional r-cran-huge_1.3.3-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2BDc8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHVsw/9FkaLsCFMLwhpzzzB++gtiNgtFpUX57nJ
+Z4qV8qHUbFeuekuqzACy70o0mhdntgbdQA8JpZz7dHYxdUhPB18fVEw2ygukzJA8
+JsBjdfaWh4S1kuaYhn1lVsQykaMsAMqejcoE/BYVxL+VvELjUDs6sNnifz60UlBh
+3SuaKC7Tr2JjyCL5Zz/FXVagc58nxy/levuWgnwv9gcRHNJIXUTbqMr2TbsK/32z
+Ga50avAgtfjeG2r9TAuAdGuRHhzoC10hn5uY96vtOCqFT2LjBjEvb0CUmgyJrist
+y/510VeVZyC6a6iuxoSXukBhsQV7jDASKADiP6ZAMwt5Yhr1Jhb0F7VYr/PSP1jO
+/fkDkONHubZbnLzAvwtI3aVroFOp4HX0my+4olmy26sJHveD442nLODmHE618pJC
+dujSBv44c5EZ57yWfQ/IQbPPnxgYATGmHmFkEwonBAADSDVT/QRdZMDKTQEIROHS
+QkKmlIjvHYPpn9EHWne2E2LGli0T2l20qT+b2S2Jw/YJFemKtBRybzCxLTFP3X0E
+G2KXQGkyByIt6zP0SovyNTy+5IN6cL6KS6pU732yG0qHmEkzkcKlKeIJipuJvSOU
+bOS8c0hj2PROjdad7/HAAuo87zqgjbr2+pQsN8FylhLF4tYd30FiA4M21V/Ru9hi
+Ksg0UqGyV5A=
+=f5og
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:54 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:54 +0000
+Subject: [R-pkg-team] r-cran-jrc_0.1.1-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaQ-000E2X-1i@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 16 Sep 2019 11:44:12 +0200
+Source: r-cran-jrc
+Binary: r-cran-jrc
+Architecture: source all
+Version: 0.1.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-cran-jrc - Exchange Commands Between R and 'JavaScript'
+Closes: 940480
+Changes:
+ r-cran-jrc (0.1.1-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940480)
+Checksums-Sha1:
+ 39e0eacecf71db26ab31311d014dfcacbfd64df5 2055 r-cran-jrc_0.1.1-1.dsc
+ 07731beef6f22f086c61dd2a570803f9d4a11be9 9291 r-cran-jrc_0.1.1.orig.tar.gz
+ 286aee7e9add33318615c00c2a88b77b9e51cbd5 1888 r-cran-jrc_0.1.1-1.debian.tar.xz
+ 1d49d853be2ed1a26b6ab04bf328dc129a033416 31836 r-cran-jrc_0.1.1-1_all.deb
+ 15681ea4c85120abd6a458be218705d6f7d443a4 9420 r-cran-jrc_0.1.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 18b24d6589d3921fb056d706bed3c0bc30f8fb578a87e112cd56b330aa97d6e5 2055 r-cran-jrc_0.1.1-1.dsc
+ ed7201351d5bf51783fcf23fea64bfe482d0d37cd516afa78b6aabb86e6c9b7b 9291 r-cran-jrc_0.1.1.orig.tar.gz
+ 64cfe1ba1f02fe37b569348756c7504b2a8ea72d458571c6fd972c35816cc805 1888 r-cran-jrc_0.1.1-1.debian.tar.xz
+ a1ae6ce5e2ef96034b9adf88bef4958f911e3e74cb8d0cf799bc3607077930d8 31836 r-cran-jrc_0.1.1-1_all.deb
+ a4ebfdb60fdae988df01c4897d36ecf97f331670b0d0f9aa084936eb4735c768 9420 r-cran-jrc_0.1.1-1_amd64.buildinfo
+Files:
+ 75d5fbb8b4ac9582cdeea2ddd928ec0e 2055 gnu-r optional r-cran-jrc_0.1.1-1.dsc
+ 701d48f8581bfe030d61ce5b1cc0fc3e 9291 gnu-r optional r-cran-jrc_0.1.1.orig.tar.gz
+ 93066592dd2cf56d311bdd6318c78e4b 1888 gnu-r optional r-cran-jrc_0.1.1-1.debian.tar.xz
+ 424a1fb9ce1f495fcdf9587939455723 31836 gnu-r optional r-cran-jrc_0.1.1-1_all.deb
+ bf69f6406555e55b95fcfa19ae2521e5 9420 gnu-r optional r-cran-jrc_0.1.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAl1/fDQTHG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0Z23D/9+CC6hRBPiHjN2dHMSWTIDkGoR+bwo
+jMP3MWufUDPN3HNoXw4WsqxDxwQoYATS8ZU7onMKvtISoP/zFUYS7qKyQKeUJ2KX
+Yetaudy5uNULrUae8i62pxs2JbXmxjQJFmiCeumH3eSLr6hYeaWGGoiInAusdyN7
+wwWo1JbancIS2jZuU2Ot/wiiF/SVEuqmZkDyxFp8Xovj7/yFRTA9QcEaOgv6xTAD
+EacTjryS/37C7YvMMvdtKMrEnySi+dOLBO8VOkxRs15swVNCEZxjc76T54+rVX93
+1tOAFX31WdRYHp815aD0gwjYy0eaSSQsV1OaDQchpOpNyxnpuM4o3FV60aEY6Qg2
+D+uGR9x9zrycN77sV1KphO7nYVlMok0Sbf39tgoe1Q3qBfdfyOamCRLnuO+KYxrJ
+hN9gZl900oOJUIjE07jbUkOwMG2KgNVWPU4nGCtyLLCxB+sxDpZIoRrPdh8Cdmn7
+WHQuQWmFwgEUwqhy6DKF/PGitXgPFYY2vSFwi5rI8fb7JFFNbks+r1xyZt77hGvc
+6AVWz/K0RquXgXhsseBXrG+aK01Bk+XHcT6ZnFbFxck75xVhXwfeaEr6SAjR9vrS
+F129Jg2dt2AdFvkRR5rSx3NI0MzVBYjfDEHfqUbmT3ASml6qgE0rQH9AryeC3fya
+nc00KfOiTPVICA==
+=GeyY
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:54 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:54 +0000
+Subject: [R-pkg-team] r-cran-lisreltor_0.1.4-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaQ-000E2o-Fn@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 23:13:30 +0200
+Source: r-cran-lisreltor
+Binary: r-cran-lisreltor
+Architecture: source all
+Version: 0.1.4-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-lisreltor - import output from LISREL into GNU R
+Closes: 940623
+Changes:
+ r-cran-lisreltor (0.1.4-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940623)
+Checksums-Sha1:
+ 0c97b3f50af2714c4ac8d9092b316a9191f9a37a 2114 r-cran-lisreltor_0.1.4-1.dsc
+ 2dbb982d39b1d7900f5de17e383b5c74c4843f87 7920 r-cran-lisreltor_0.1.4.orig.tar.gz
+ 5453f023a8d7ffd54c51ebbee6c38dfa08367af2 1680 r-cran-lisreltor_0.1.4-1.debian.tar.xz
+ 18bed63d889756b0ee481c8af33f66e1b3be404a 45636 r-cran-lisreltor_0.1.4-1_all.deb
+ c1a5666d5cc7d63512a25b6ee3af189c2119e32f 8719 r-cran-lisreltor_0.1.4-1_amd64.buildinfo
+Checksums-Sha256:
+ 56ca7c1a59055fcd0226681c3bd6792dc1874d138a9122597e485249749059f8 2114 r-cran-lisreltor_0.1.4-1.dsc
+ e58ecdb5c8fcf91dd1679750aabdd946973d9c5dfeaa7083553d42383ec02c7e 7920 r-cran-lisreltor_0.1.4.orig.tar.gz
+ cf19eb8043652082fe29ba46ebfae51e79705754a7460e94b16453d3d8e0253c 1680 r-cran-lisreltor_0.1.4-1.debian.tar.xz
+ 3958a38743f2a8ec0793418b0a0ce5b151d8b73a12da897b807285341c0a2831 45636 r-cran-lisreltor_0.1.4-1_all.deb
+ 34dc49ad9b29c34eb183c1e3bd8cbf04bbe5edb1698d46638043de37e69fabdf 8719 r-cran-lisreltor_0.1.4-1_amd64.buildinfo
+Files:
+ 250a611260bfeb9a9112cee161ea74bd 2114 gnu-r optional r-cran-lisreltor_0.1.4-1.dsc
+ af63c183ee9d1fe69bf8fe5d76b1f50a 7920 gnu-r optional r-cran-lisreltor_0.1.4.orig.tar.gz
+ 0c3dc42b6a3cc95beeaa71516f351d0d 1680 gnu-r optional r-cran-lisreltor_0.1.4-1.debian.tar.xz
+ ab140dd446b02afa3e96507f3472a518 45636 gnu-r optional r-cran-lisreltor_0.1.4-1_all.deb
+ dc1fd51537593375888ae9e4a426c1fe 8719 gnu-r optional r-cran-lisreltor_0.1.4-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2BT8cRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtG+2xAAgG08x9DlUUMpN4IEK4bSFFwq7CQgcQ+7
+oyjoBzH3vm/+xg2zHhe652XyuiEbXguGdfZgtfyyEyk2MUeAM7oTdTw6OwxFDqNH
+0PZjO9HBnPH6S1p3c+fzB6uknyGQHjfcVjtU5FT9sbEkMmM4p50BkD8Kq74UbpSF
+tqx8JJ9Xc7ERf/zh4N5mm9M7hyIPWnSQwbr8ssBP7ThIrS69IwPL4FqOjXvk5ZlY
+rl5Aiq9GdMX2y9eNteqMOaPxB83BuJFQDA7dNaZ6GV4CPeW73CMwAF1VfRmp5nXT
+I5fbDess+plvegAbVlAL1gH1DaDZQODTTmBwfEayv2UxcM3NFA5PGCDlpF7pEKTg
+YtQjCUIGp5DcKA7n5nrUFvCldOlwYJPNI1p9aJg0bAH/YikTm5xWEla3LfUjbJiW
+Sc4z4R5Rqrv+cvYQxgAofdvALZB2wYtKQRytVM4uhudYnq1XplaMsWwg3l1s5nNh
+iQHMHp2zVU0baWYDNHocy7kxrtkl/Grb6NycSc5COpmR+4Cd7r6iHdSx1CpeUNZ3
+3KdWTsk/DKohYVRk4Y3WDpMEkghExu7giAH1rd6YcPwxuigKb4gLAtBG2o3Ef3DI
+hy+VpOm7SOYDVK3WNNJB0TnVUYJ/IbuPNmH3erJB3KVD57G6zcF/L9YJtnvXLheC
+bcAoUsl8eHQ=
+=UsSH
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:54 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:54 +0000
+Subject: [R-pkg-team] r-cran-nfactors_2.3.3.1-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaQ-000E35-TU@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 12:07:33 +0200
+Source: r-cran-nfactors
+Binary: r-cran-nfactors
+Architecture: source all
+Version: 2.3.3.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-nfactors - GNU R analysis and solutions to the Cattell Scree test
+Closes: 813815
+Changes:
+ r-cran-nfactors (2.3.3.1-1) unstable; urgency=low
+ .
+   * Initial release (closes: #813815)
+Checksums-Sha1:
+ 8aadcdbd51eb6c6097c8903592e5fbe627de10b5 2178 r-cran-nfactors_2.3.3.1-1.dsc
+ 6caf45a9d4b6bf27080320e8082da06f29f7805c 358261 r-cran-nfactors_2.3.3.1.orig.tar.gz
+ 97f51859e66395e4ca53845fa1f07bdbdd58991c 2252 r-cran-nfactors_2.3.3.1-1.debian.tar.xz
+ f22980f7ade42938100a4440f8d0418e47ebace2 548548 r-cran-nfactors_2.3.3.1-1_all.deb
+ c84c5f145018017a9d8ce2b8bbf0ec168dc8adaf 8972 r-cran-nfactors_2.3.3.1-1_amd64.buildinfo
+Checksums-Sha256:
+ e2d8faa02274f56eb3a95e70d18c0ea8e039aa99a6f23edbe95c947f9f6f8f93 2178 r-cran-nfactors_2.3.3.1-1.dsc
+ bf8038c1ec754ea2b57594c288ce036254e27987a1fba6046f5513032c5fd463 358261 r-cran-nfactors_2.3.3.1.orig.tar.gz
+ 9a67f20bd872f1e7c481023ba05ff6799b7b04f99cfd5224821c6eb28a76a80e 2252 r-cran-nfactors_2.3.3.1-1.debian.tar.xz
+ 71db6f05ffa5b64d47e3d7e9deeb5b83a9f7883668e471eacb971a4768efe2ea 548548 r-cran-nfactors_2.3.3.1-1_all.deb
+ ff4af805344c45745ba52d1e5ecbfd1b33d50775fb95980a0457221ab8b4a423 8972 r-cran-nfactors_2.3.3.1-1_amd64.buildinfo
+Files:
+ ef9de386c32c13bf3ea261e2f94da897 2178 gnu-r optional r-cran-nfactors_2.3.3.1-1.dsc
+ ab98bdaa07ed3a7bab68de500abbfcf7 358261 gnu-r optional r-cran-nfactors_2.3.3.1.orig.tar.gz
+ 0a9dc39f7d5f3f72072e16cd656b7f58 2252 gnu-r optional r-cran-nfactors_2.3.3.1-1.debian.tar.xz
+ 802f815356a77c8442d6519b8efa1d9c 548548 gnu-r optional r-cran-nfactors_2.3.3.1-1_all.deb
+ 78b9b9d7c82093244044ce194d92e175 8972 gnu-r optional r-cran-nfactors_2.3.3.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2AudgRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFVxw//Wbo3+xLkvLNsGhgm9DVI8opWv/jhQ3HS
+xFKb2a0eoBvmvRMohZxvUtBIYEaW/GZahxtCT7s/dO21jnjspMae19D+B3BTdQph
+LsrR4cQKIhmtj24EwXiHOsioW6qTwTHVfMSH9aCtoow6stKmlPVDFtGSq9uukBKt
+FZRp8jXOT9V9L7U8++YGMk2xkkvB3Jw4KqRqpIxJrt+nyDga0KukW4BoYE2w9SaE
+B3+EeFjrD1F88i/uwL5+vQLDpZPqTJMwXEbied2/oVQdFqzOdEB5/NAae/c99S4N
+ERJx4lQd0xtoh5c18W187CZpJX9w1DwMY6NjdhQ0/Hgv1UNfBfZ5o/FrI82675Sm
+Nxfvs+9Jj1F3BOOTvJvVRHU1xu0Sur0PMPGdY+dGCQ1a110zFRthRBpMPnHfz1Ze
+E8Y4Mn+7qQ+K84tximWrS19NDO4uAuE498GDmy9JTC0TQyDUnUhSr+nvY0JjB3y+
+MD1OM8REnfdVI9pz1EDWQ/i0fb+W/YJ7nemqPVZOC6Ap4EXZPr3D2YBKL2257f67
+YATFHCsTo5UPWyxC7XRka/IXM7r3dTO81euXR4FvzKR5LxQH9TwYfnOq85CSV+L+
+fiLPCq3/1p1BzalOzPakRU7LlFhE8t+FDG+ox32+h3uyfbGCYSLgJpDXNYZMq1qd
+fhKJ/s5upoU=
+=Nu+q
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:55 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:55 +0000
+Subject: [R-pkg-team] r-cran-projpred_1.1.2-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaR-000E3M-Fv@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 17:17:31 +0200
+Source: r-cran-projpred
+Binary: r-cran-projpred
+Architecture: source amd64
+Version: 1.1.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-projpred - GNU R projection predictive feature selection
+Closes: 940592
+Changes:
+ r-cran-projpred (1.1.2-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940592)
+Checksums-Sha1:
+ ecb07005f9c0829620045c82add84d4dd5abafd5 2209 r-cran-projpred_1.1.2-1.dsc
+ dcc28fda9941fa4cd655895345487edd29a0555b 746139 r-cran-projpred_1.1.2.orig.tar.gz
+ c2738901d89f38ee6ceb53c6b72aac6a2c01b352 2468 r-cran-projpred_1.1.2-1.debian.tar.xz
+ 2eea57d2797d138dbd11d50f559ceec40a28be88 964852 r-cran-projpred-dbgsym_1.1.2-1_amd64.deb
+ dddd69aacd464138fb956aa159b5fe6950e7b221 10343 r-cran-projpred_1.1.2-1_amd64.buildinfo
+ 418959b5ab62bf1c74456dcadec379f0cd86032f 644048 r-cran-projpred_1.1.2-1_amd64.deb
+Checksums-Sha256:
+ 8b858ee2b3f5fece0a46c9caa3b84d7782a805a15189b7d8469140f07826fc7c 2209 r-cran-projpred_1.1.2-1.dsc
+ f0caec8538080cb6811d23167846307d1e4bc232304d41d9924ecf302f33c2b5 746139 r-cran-projpred_1.1.2.orig.tar.gz
+ 39f68280e7c586cb80f5902fc411c730cd4e3f988e068c52d46f7a306c953e63 2468 r-cran-projpred_1.1.2-1.debian.tar.xz
+ 3a7ad5ae8db32e5fb733e29ec1b728f11e34c16c81d73fd6c17811e369b6cb37 964852 r-cran-projpred-dbgsym_1.1.2-1_amd64.deb
+ 9e9ee68885154c87aed70076f19612708659e76fa2bff9fdeb15420e96d008f1 10343 r-cran-projpred_1.1.2-1_amd64.buildinfo
+ 2a7412e7556882ab0b9931374847820cc24c993ffc1cf87a0bbb7af46a91947e 644048 r-cran-projpred_1.1.2-1_amd64.deb
+Files:
+ 5439c71339629901ff35e156d9fd5899 2209 gnu-r optional r-cran-projpred_1.1.2-1.dsc
+ 54a73c1e29d94a55ebe70990dfc5e9fc 746139 gnu-r optional r-cran-projpred_1.1.2.orig.tar.gz
+ d7e08582166fcb5e24b8a28cd118d58e 2468 gnu-r optional r-cran-projpred_1.1.2-1.debian.tar.xz
+ 3f4bf3289f676270bc0d4fb2cfb2060f 964852 debug optional r-cran-projpred-dbgsym_1.1.2-1_amd64.deb
+ 41edacc6e1752c69e048025b1c5b2066 10343 gnu-r optional r-cran-projpred_1.1.2-1_amd64.buildinfo
+ cdb2c1c62d3b7db73413e66c9b2ff608 644048 gnu-r optional r-cran-projpred_1.1.2-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2A+9oRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtEBeA/+LKRG2wMuYwF1LH1Rbb8PL2Bxa3WYanui
+Yn//JT8PUE0EWDwImpx5Odpz6z9MlQMKUxqoodFDIl8ofVAOlqDMqasX/+JNgCzD
+a7O6TRhaiY5CHl8jxwtvvhvLwS6eXcAohuuduKvqJTzpTpwF6Q76cQ4V/X1EaAcZ
+JHpOHJDcGOCufhqlsOqYbAssKWo3IukwfUnwhR5O5VUjwdzdfjnm7qPvVISvPMXM
+uw+hXIZgSFNGQDvqJFYipbNzYbYi8eUd42I239aCUmHg/dAD8DVOmJqqazvBWpg8
+CnEk25YSlJ1GeOpAWSCbHofagkjU00eYmbDD6Uk5s4vJRQWlXXuBGOLNZVdyitzp
+V/wM/G0xsaANQII0aV7WFqi+DQzNXGvbRcPSoOcu3ZC0L2uYr8/EK6dNLVqPt4lc
+McnZTV61Gu0LHEdce37b31qifyOXDkHJx4tMI0Hwfm4fTE73OHXaFvx0AvsQSw3v
+lXPTdmX/qq6Z29z6Eq3LLh0kGrB82o+jrUQopLxfqLWjbjEC40kxNP6evWV6WDrb
+W4pvDhZCt/DtmM8b1NApwJUaHSW1id4RPSSZ+L6k+FOwFZ9mVqJiJsePqAaU+GL9
+lHRcyOQLjxKpaS70giVe2l6T/e7xsq7I/VWl8j/uqPCF5eRQHzwK3LnUzKOeHX8v
+zUWj1o7yllQ=
+=O1uz
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:56 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:56 +0000
+Subject: [R-pkg-team] r-cran-qgraph_1.6.3-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaS-000E3e-2A@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 22:28:17 +0200
+Source: r-cran-qgraph
+Binary: r-cran-qgraph r-cran-qgraph-dbgsym
+Architecture: source amd64
+Version: 1.6.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-qgraph - GNU R graph plotting methods and psychometric data visualization
+Closes: 940617
+Changes:
+ r-cran-qgraph (1.6.3-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940617)
+Checksums-Sha1:
+ e61ca4f357c3491c1199aa531830d7344f4d4432 2422 r-cran-qgraph_1.6.3-1.dsc
+ fdf6bf5c8814c6bbd870266f1224236253673c43 227959 r-cran-qgraph_1.6.3.orig.tar.gz
+ 91cdd169db0681fb96ea024a4d1aa26e9d5983f2 2360 r-cran-qgraph_1.6.3-1.debian.tar.xz
+ 20d0507908ec9f0036bf9298c76d6c74c9315474 257300 r-cran-qgraph-dbgsym_1.6.3-1_amd64.deb
+ 05002d30be3928880c04d9eb46f1b736d06ddce6 12121 r-cran-qgraph_1.6.3-1_amd64.buildinfo
+ 8a34ef6b6798553656627ea933b9c22014729702 662456 r-cran-qgraph_1.6.3-1_amd64.deb
+Checksums-Sha256:
+ 8f6aab56c0adb232e4dc7fc4d5d075b557e0abf0a5569e19d13c91c66351aceb 2422 r-cran-qgraph_1.6.3-1.dsc
+ 363791067ae640cf4bd6f7ec4a84de9c4abaa468dfc18f21890e3f3fd1e45355 227959 r-cran-qgraph_1.6.3.orig.tar.gz
+ 92d3d90580c5bd97cd5b849deb7ee54232367e2c2bfe9598a5bc089b800023d6 2360 r-cran-qgraph_1.6.3-1.debian.tar.xz
+ 4f5d00af6bba3fefe7277b530956999e62ece443effae09f4782dd80cda83216 257300 r-cran-qgraph-dbgsym_1.6.3-1_amd64.deb
+ bb7cc4e248f58c7400f2f583aa1d57a534244eda1b2c0f618098744e88774c8b 12121 r-cran-qgraph_1.6.3-1_amd64.buildinfo
+ 93057a6a4bae08161271e21774c339833fb064f7faef505f95942a02c4de8298 662456 r-cran-qgraph_1.6.3-1_amd64.deb
+Files:
+ 452ae689e1b9a7e09509cf9e4e152cc8 2422 gnu-r optional r-cran-qgraph_1.6.3-1.dsc
+ 55c7702b36d6a7e10613d830b7115e31 227959 gnu-r optional r-cran-qgraph_1.6.3.orig.tar.gz
+ afb79c7c36530759a3325f512f065884 2360 gnu-r optional r-cran-qgraph_1.6.3-1.debian.tar.xz
+ 0292e270cb6e6e04a77e05d89f573a46 257300 debug optional r-cran-qgraph-dbgsym_1.6.3-1_amd64.deb
+ 00cd87cedf3c670de0223c9f9dd02bfa 12121 gnu-r optional r-cran-qgraph_1.6.3-1_amd64.buildinfo
+ 8a085cdaad39d562664958402193eca8 662456 gnu-r optional r-cran-qgraph_1.6.3-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2BQv4RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtGE5hAAhI1MNOgBbCpkcOgoQZpbceaDkDPVrljT
+jUk1A3Cc92nbKhYI+GCbP9Tlfl+PwOUVxOtB7dZAH/59U4sYMdc9rFIepUjrmw61
+FPu6iuOhKI7LKc5eheaQ6CBx9NUBuPPSqjUy5UDrMjtutlII2D6Z4j39ugI+2v6/
+eLO0h5wUS/wzxSaRnPL1Apig7cEOUxRtc+evgpDQg/SiygkUa/6ZSV47Uy5jLTIl
+zCr3NOFm8jHB9WLh8p3YPoviRU4qh1v8K62o44EUsDFy255qZcOQIlS0ONcAINaq
+lpa31Ob8fZrczcMyd59zyCInnlGN/2JU+/tuO+iV8csBvo9PD0W4l24BimjFXMAf
+dQFW328gwzRMXmWn8uTHkUoS6xVS0uCST8ncPPLp0/AoASKrgSoHp4bpiAXx6Cit
+3FfYwRu83egg+4fXaSAL3wrBaOvCWTcGS6olwIruWRuAw1E9iS1Y/fMVKiscg6E9
+DsRGzVF/llgTjYOQlX1GixcogY2dzmcZyZX+540HbBVL2wWXoUsBdwzOpSuo71Pv
+nrc3AeXfJNVcrnj5XUj1RMiKoayOMqhPT9MlBROAyOlnLD79EigO1J9CKAbIBSzo
+Tm01dgiuiRGjVFD5xdggWcng35g8omStZa7RC55F1HBqQwdETRBBVVcobsnlCNRh
+u6NgBTqHMgY=
+=iHgh
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:56 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:56 +0000
+Subject: [R-pkg-team] r-cran-randomglm_1.02-1-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaS-000E3v-Gi@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 15 Sep 2019 13:35:35 +0200
+Source: r-cran-randomglm
+Binary: r-cran-randomglm
+Architecture: source amd64
+Version: 1.02-1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-cran-randomglm - Random General Linear Model Prediction
+Closes: 940304
+Changes:
+ r-cran-randomglm (1.02-1-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940304)
+Checksums-Sha1:
+ 52c9d0400b03fb3c7a399a74569b9a230e1f7296 2143 r-cran-randomglm_1.02-1-1.dsc
+ efb2534e498a91d9d7122712b44ebfc301e34c2c 3498598 r-cran-randomglm_1.02-1.orig.tar.gz
+ 4e4693b4198d52da35d646f886cfdf4f31e1721d 1856 r-cran-randomglm_1.02-1-1.debian.tar.xz
+ fe4e988b906a7561d7025b792e6f8c3e3594088b 9223 r-cran-randomglm_1.02-1-1_amd64.buildinfo
+ 7adbda324a1a587a3c64a12311f07dccd7cb0bbc 3563040 r-cran-randomglm_1.02-1-1_amd64.deb
+Checksums-Sha256:
+ 9809f01f60ab38a31e2f0e9a796db59fdb5a5522d92532ada3804a081a4db2f2 2143 r-cran-randomglm_1.02-1-1.dsc
+ 3bf7c1dbdacc68125f8ae3014b9bc546dd3328d04ad015d154781bdf3f1a230c 3498598 r-cran-randomglm_1.02-1.orig.tar.gz
+ 95337497abdcacb290bed1528ad677c0a4e99634caa0cf39235fb6c2e88a5ea9 1856 r-cran-randomglm_1.02-1-1.debian.tar.xz
+ 54d7622177940bd0c7c66f3dfa685e0d3077cbc62a11b90e6459cbf982485888 9223 r-cran-randomglm_1.02-1-1_amd64.buildinfo
+ 86adde95ba58f59712d11cca7bd090b23c4f95b26ea9972727f5e4afb6048c0c 3563040 r-cran-randomglm_1.02-1-1_amd64.deb
+Files:
+ 3138701a5b84a973c724f4122288acf8 2143 gnu-r optional r-cran-randomglm_1.02-1-1.dsc
+ 0ad977b377e4ff1aef3cc55c80a4c55b 3498598 gnu-r optional r-cran-randomglm_1.02-1.orig.tar.gz
+ 74b002568ba5e2caffbc0706a8a0b125 1856 gnu-r optional r-cran-randomglm_1.02-1-1.debian.tar.xz
+ 948699d16ae939d859fa79f14e6e00d8 9223 gnu-r optional r-cran-randomglm_1.02-1-1_amd64.buildinfo
+ 4c8c893baba3e64a0eb3f9c87d6b9bca 3563040 gnu-r optional r-cran-randomglm_1.02-1-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAl1+I44THG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0bA0D/kBxTYdtKkCTSsAAWWIi8JXWwZ7EMCg
+xPGwlink8IYSFUiBYZhUJXeviessVe6evOq9i0+zkER5GVIduJviObZcSHqLs1aK
+MR9hQxJjw2WfWdancEka7WFZpw7CtdE5Ib0NbUe4O6rry+K7iaWmKDYMagGVL/Py
+2ENKhCiHyP4+/4EcBzyt/j8duMZsty0c7XF/etMM6VmCK5JHAX8gjBdbTxdjnezi
+o++pB+tfhwZ8E5TC4E++WlTMJLoVE7doTuZezjQ7WsmdUIsRlQ0TQmvcC+8k94HT
+/OEId8FG7SLOb/s5eKMlHLm+NBLU4MPjpZ3ZMYDnLNHDlOrHoKeWvkfYKSvdDvRo
+7T+P9kET9wF+IklQmgdnflkTDUhQcakwJzcPkeQav8zBvp8dKagz/Nz7GQnZiREK
+XA6mB9sfkYvPtrCMYMck6jDGFrXu/86SHLJlXGUgenyoUVrmI1bwHklOwbuuETVN
+ZtIltDbrFOlF9gBZx9FS4ZKHTAyE2NVQ1/AF3FclExjDg+Hqp9bgvPv6evhy2Fsn
+0R+bPY/VX75N2Uj+GmTci+E8Sno1uUOxTQ3Rq3eJc9eAsttWVAg7zn+7DJRpoxX1
+p63JrQEvpljJDy+uYdd8haI8CompTRAa3qzZ2tHqq26bbvfcUqL1+v6hdxZ5db8j
+URULizhvMqK7sw==
+=MKRW
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Oct 16 20:03:56 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 19:03:56 +0000
+Subject: [R-pkg-team] r-cran-rsample_0.0.5-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1iKoaS-000E4C-U5@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 17 Sep 2019 11:01:26 +0200
+Source: r-cran-rsample
+Binary: r-cran-rsample
+Architecture: source all
+Version: 0.0.5-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-rsample - GNU R general resampling infrastructure
+Closes: 940553
+Changes:
+ r-cran-rsample (0.0.5-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #940553)
+Checksums-Sha1:
+ b55eef33012004a037301b1914f9d976ce091fe3 2248 r-cran-rsample_0.0.5-1.dsc
+ f40fe33e102d17faffc9eaacaf6a93db84af81c7 303861 r-cran-rsample_0.0.5.orig.tar.gz
+ 9ec38d35a439a8b9a02684929a4d5ffa16087579 2164 r-cran-rsample_0.0.5-1.debian.tar.xz
+ 586d1d8cf7b953220922f78bd0698fc2afd5766b 365388 r-cran-rsample_0.0.5-1_all.deb
+ 278c6cc838ccc6fd4e14a81f229ef4a5db3fd208 9656 r-cran-rsample_0.0.5-1_amd64.buildinfo
+Checksums-Sha256:
+ 7a95da8556286c3468405f08cba97ee7ef42108a8edbfb7db1d6b627bf74dd73 2248 r-cran-rsample_0.0.5-1.dsc
+ ed6a379f7f334d2eea5dd3100846ca586af7a7f774e93b3f114f33b49a877c52 303861 r-cran-rsample_0.0.5.orig.tar.gz
+ 1bb3cb95f334e2f7431e4bb721f01aa0d0092efbd719b52fe2fdbbec825a0caa 2164 r-cran-rsample_0.0.5-1.debian.tar.xz
+ ddbd958a8f4fb46ea231264688f0b3ad69ad774081a05d492b2bf50656bc1c0b 365388 r-cran-rsample_0.0.5-1_all.deb
+ 89e017c7939118ca6a768ae08611344138c29822a093b6663c059ab1ced64bff 9656 r-cran-rsample_0.0.5-1_amd64.buildinfo
+Files:
+ 5969775848844e30fbe290139fec3b11 2248 gnu-r optional r-cran-rsample_0.0.5-1.dsc
+ 24f943893f8927d8386c9cd514230d3f 303861 gnu-r optional r-cran-rsample_0.0.5.orig.tar.gz
+ e2b6ea87318d4278c778c12e5492d704 2164 gnu-r optional r-cran-rsample_0.0.5-1.debian.tar.xz
+ e5f730e05a9dd0a5002b2cbaf70b4a28 365388 gnu-r optional r-cran-rsample_0.0.5-1_all.deb
+ 29e9ad2be0dd4a8e6d64e152018241ba 9656 gnu-r optional r-cran-rsample_0.0.5-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl2AoqgRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHZCA//R4aRS7plJNgLuglxGgp/MsGXvFIvFGYj
+qFOBzHtlU/c+OrwwWCSSo+3kNBmEgvyU40IySSUh3zgqnZa/iP5bTkBYDcD/XzFb
+fuWpw5zXzxKklvNKvKF7t9mW/GbKQjG/6SZQEyG/mnyuCz6k3OxcLDAA5vXtjxTX
+feHmB1oKiL7/MK3+ZRSDDggeOU6u0tsU82joHQXpU+6qougkfmo38JDf4UseDVA2
+Akf6aE4DvKMRel8VZB6Aq8Ku9CeuKa8l7EVC9/pNG9UFI7LOtENW26HoN98coG2D
+O9KmebeHeZD7ygtMpdgpG8pimErdsSHtUig8IpifaPh1P+uwB/g1YweHy+WuGOVm
+mKCzrkionHDTLjkggNHe7ll5JNZ2BKSO6fgSdkICBowxafvIIsLeuXLxW84cVMvW
+XXR2aQtLgcoGJcsaEnx4+42mheLWX/MBsqJMuw+j876cKFv68VKefGC0U6U2waW/
+kbqSOdqzk80SXHZZJ1wT9LZQRBLhNtAckWt7ffagreBv2c71dP+n29j1yXDpkzSW
+I3KolN0qkCCJHnS54SnB0rpHqPp7dZ9H2wbw/ktq3rXaFUNiy+EbnauyZiOpFAn5
+I6CP8cZnIUvD0QikKLdarLueuivfPqrc/BXRagSCgxfa6sSSA2NgNupU0vRv8vnL
+z0U7kzqNsR4=
+=k7p/
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From vdanjean at debian.org  Wed Oct 16 22:21:02 2019
+From: vdanjean at debian.org (Vincent Danjean)
+Date: Wed, 16 Oct 2019 23:21:02 +0200
+Subject: [R-pkg-team] Bug#942469: r-cran-rmarkdown: directory to symlink
+ conversion not correctly handled on upgrade
+Message-ID: <157126086261.21376.6011536927911416262.reportbug@eyak.imag.fr>
+
+Package: r-cran-rmarkdown
+Version: 1.16+dfsg-1
+Severity: normal
+
+  Hi,
+
+  While trying to reproduce a bug in another package (r-cran-dt, I will
+submit it after this one), I notice an error while pandoc is invoked:
+[...]
+/usr/bin/pandoc +RTS -K512m -RTS small_test.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash+smart --output small_test.html --email-obfuscation none --self-contained --standalone --section-divs --template /usr/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --css style.css --variable 'theme:cerulean' --include-in-header /tmp/Rtmpo7H2Mq/rmarkdown-str53cc33e4db8.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/latex-div.lua 
+pandoc: /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/css/../fonts/glyphicons-halflings-regular.eot: openBinaryFile: does not exist (No such file or directory)
+Erreur : pandoc document conversion failed with error 1
+Exécution arrêtée
+
+Looking with apt-file, I see that /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/css/../fonts/glyphicons-halflings-regular.eot
+was provided by r-cran-rmarkdown.
+Looking at the git history of r-cran-rmarkdown, I see that in 7bd53b7c34
+these files where removed and replaced by a symlink. However,
+for file in fonts/ subdir, this is the whole subdir that is
+symlinked and not the files themselves.
+
+dpkg do not correctly handle dir to symlink when upgrading
+(due to the fact that the sysadmin can decide to replace
+dir by symlinks to manage its disks if I remember).
+So support in preinst/postinst is required.
+
+And indeed, on my machine, I can see that
+/usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/fonts
+is still a (empty) real directory :
+$ ls -ld /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/fonts
+drwxr-xr-x 2 root root 4096 juil.  9 15:20 /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/fonts
+
+I fix the bug by removing the directory and reinstalling the
+package :
+$ sudo rmdir /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/fonts
+$ sudo apt install --reinstall r-cran-rmarkdown
+[...]
+Dépaquetage de r-cran-rmarkdown (1.16+dfsg-1) sur (1.16+dfsg-1) ...
+[...]
+$ ls -ld /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/fonts
+lrwxrwxrwx 1 root root 53 oct.   7 15:00 /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/fonts -> ../../../../../../../share/javascript/bootstrap/fonts
+
+  So, for people upgrading the package, you will have to
+fix this dir to symlink conversion in a pre/post-inst script.
+
+  Regards,
+    Vincent
+
+
+-- System Information:
+Debian Release: bullseye/sid
+  APT prefers stable-updates
+  APT policy: (500, 'stable-updates'), (500, 'oldstable-updates'), (500, 'unstable'), (500, 'testing'), (500, 'stable'), (500, 'oldstable'), (1, 'experimental')
+Architecture: amd64 (x86_64)
+Foreign Architectures: i386, armel, mipsel
+
+Kernel: Linux 5.2.0-3-amd64 (SMP w/4 CPU cores)
+Locale: LANG=fr_FR.utf8, LC_CTYPE=fr_FR.utf8 (charmap=UTF-8), LANGUAGE=fr_FR.utf8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/dash
+Init: systemd (via /run/systemd/system)
+
+Versions of packages r-cran-rmarkdown depends on:
+ii  fonts-font-awesome       5.0.10+really4.7.0~dfsg-1
+ii  libjs-bootstrap          3.4.1+dfsg-1
+ii  libjs-highlight.js       9.12.0+dfsg1-4
+ii  libjs-jquery             3.3.1~dfsg-3
+ii  libjs-jquery-ui          1.12.1+dfsg-5
+ii  libjs-modernizr          2.6.2+ds1-3
+ii  libjs-prettify           2015.12.04+dfsg-1.1
+ii  pandoc                   2.5-2+b1
+ii  r-base-core [r-api-3.5]  3.6.1-6
+ii  r-cran-base64enc         0.1-3-2
+ii  r-cran-evaluate          0.14-1
+ii  r-cran-htmltools         0.4.0-1
+ii  r-cran-jsonlite          1.6+dfsg-1
+ii  r-cran-knitr             1.25+dfsg-1
+ii  r-cran-mime              0.7-1
+ii  r-cran-shiny             1.3.2+dfsg-1
+ii  r-cran-stringr           1.4.0-1
+ii  r-cran-tinytex           0.16-1
+ii  r-cran-xfun              0.10-1
+ii  r-cran-yaml              2.2.0-1
+
+Versions of packages r-cran-rmarkdown recommends:
+ii  r-cran-testthat  2.2.1-1
+
+Versions of packages r-cran-rmarkdown suggests:
+ii  r-cran-callr     3.3.2-1
+ii  r-cran-digest    0.6.21-1
+pn  r-cran-dygraphs  <none>
+ii  r-cran-fs        1.3.1+dfsg-1
+ii  r-cran-shiny     1.3.2+dfsg-1
+ii  r-cran-tibble    2.1.3-1
+pn  r-cran-tufte     <none>
+
+-- no debconf information
+
+From vdanjean at debian.org  Wed Oct 16 23:03:20 2019
+From: vdanjean at debian.org (Vincent Danjean)
+Date: Thu, 17 Oct 2019 00:03:20 +0200
+Subject: [R-pkg-team] Bug#942472: r-cran-shiny: wrong link to nodejs files
+Message-ID: <157126340064.25004.12114270944177517735.reportbug@eyak.imag.fr>
+
+Package: r-cran-shiny
+Version: 1.3.2+dfsg-1
+Severity: normal
+
+  Hi,
+
+  r-cran-shiny installs to symlinks (from debian/links) to nodejs files.
+However, some nodejs files are in /usr/share and not /usr/lib :
+
+$ tail -n 2 debian/links
+usr/lib/nodejs/normalize.css/normalize.css				usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css
+usr/lib/nodejs/html5shiv/dist/html5shiv.min.js				usr/lib/R/site-library/shiny/www/shared/bootstrap/shim/html5shiv.min.js
+$ ls -l /usr/lib/nodejs/normalize.css/normalize.css /usr/lib/nodejs/html5shiv/dist/html5shiv.min.js
+ls: impossible d'accéder à '/usr/lib/nodejs/html5shiv/dist/html5shiv.min.js': Aucun fichier ou dossier de ce type
+-rw-r--r-- 1 root root 6138 nov.   5  2018 /usr/lib/nodejs/normalize.css/normalize.css
+$ ls -l /usr/share/nodejs/html5shiv/dist/html5shiv.min.js
+-rw-r--r-- 1 root root 3474 sept. 16 00:05 /usr/share/nodejs/html5shiv/dist/html5shiv.min.js
+
+=> the path for html5shiv.min.js must be fixed
+
+PS: due to #942469, you might wish to add a
+"Breaks: r-cran-rmarkdown (<< version that fix 942469)" in your package
+
+  Regards,
+    Vincent
+
+-- System Information:
+Debian Release: bullseye/sid
+  APT prefers stable-updates
+  APT policy: (500, 'stable-updates'), (500, 'oldstable-updates'), (500, 'unstable'), (500, 'testing'), (500, 'stable'), (500, 'oldstable'), (1, 'experimental')
+Architecture: amd64 (x86_64)
+Foreign Architectures: i386, armel, mipsel
+
+Kernel: Linux 5.2.0-3-amd64 (SMP w/4 CPU cores)
+Locale: LANG=fr_FR.utf8, LC_CTYPE=fr_FR.utf8 (charmap=UTF-8), LANGUAGE=fr_FR.utf8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/dash
+Init: systemd (via /run/systemd/system)
+
+Versions of packages r-cran-shiny depends on:
+ii  fonts-font-awesome                        5.0.10+really4.7.0~dfsg-1
+ii  libjs-bootstrap                           3.4.1+dfsg-1
+ii  libjs-d3                                  3.5.17-2
+ii  libjs-es5-shim                            4.5.13-2
+ii  libjs-highlight.js                        9.12.0+dfsg1-4
+ii  libjs-jquery                              3.3.1~dfsg-3
+ii  libjs-jquery-datatables                   1.10.20+dfsg-1
+ii  libjs-jquery-selectize.js                 0.12.6+dfsg-1
+ii  libjs-jquery-ui                           1.12.1+dfsg-5
+ii  libjs-json                                0~20190826-1
+ii  libjs-twitter-bootstrap-datepicker        1.3.1+dfsg1-4
+ii  node-html5shiv                            3.7.3+dfsg-3
+ii  node-normalize.css [libjs-normalize.css]  8.0.1-3
+ii  r-base-core [r-api-3.5]                   3.6.1-6
+ii  r-cran-crayon                             1.3.4-4
+ii  r-cran-digest                             0.6.21-1
+ii  r-cran-htmltools                          0.4.0-1
+ii  r-cran-httpuv                             1.5.2+dfsg-1
+ii  r-cran-jsonlite                           1.6+dfsg-1
+ii  r-cran-later                              1.0.0+dfsg-1
+ii  r-cran-mime                               0.7-1
+ii  r-cran-promises                           1.1.0-1
+ii  r-cran-r6                                 2.4.0-1
+ii  r-cran-rlang                              0.4.0-1
+ii  r-cran-sourcetools                        0.1.7-2
+ii  r-cran-xtable                             1:1.8-4-1
+
+Versions of packages r-cran-shiny recommends:
+ii  r-cran-testthat  2.2.1-1
+
+Versions of packages r-cran-shiny suggests:
+pn  r-cran-cairo      <none>
+ii  r-cran-ggplot2    3.2.1+dfsg-1
+ii  r-cran-knitr      1.25+dfsg-1
+ii  r-cran-magrittr   1.5-5
+ii  r-cran-markdown   1.1+dfsg-1
+ii  r-cran-rmarkdown  1.16+dfsg-1
+
+-- no debconf information
+
+From vdanjean at debian.org  Wed Oct 16 22:57:28 2019
+From: vdanjean at debian.org (Vincent Danjean)
+Date: Wed, 16 Oct 2019 23:57:28 +0200
+Subject: [R-pkg-team] Bug#942469: r-cran-rmarkdown: directory to symlink
+ conversion not correctly handled on upgrade
+References: <157126086261.21376.6011536927911416262.reportbug@eyak.imag.fr>
+Message-ID: <157126304817.23271.10742994044984965662.reportbug@eyak.imag.fr>
+
+Package: r-cran-rmarkdown
+Version: 1.16+dfsg-1
+Followup-For: Bug #942469
+
+The reverse is also right (bad handling of symlink to directoy
+conversion by dpkg) and affects r-cran-rmarkdown:
+
+If I read correctly the sources, there was a symlink
+/usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim -> ../../../../shiny/www/shared/bootstrap/shim
+(commented out in debian/links)
+And now /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim is a directory
+and only usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim/html5shiv.min.js is a symlink
+
+However, on upgrade, /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim
+is not converted to directory and I suspect that the html5shiv.min.js
+file in the r-cran-shiny package is overwriten by rmarkdown.
+Test :
+$ ls -ld /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim
+lrwxrwxrwx 1 root root 43 janv. 16  2019 /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim -> ../../../../shiny/www/shared/bootstrap/shim
+[ the old symlink is still here on my machine ]
+$ sudo apt install --reinstall r-cran-shiny
+[...]
+$ ls -l /usr/lib/R/site-library/shiny/www/shared/bootstrap/shim
+total 8
+lrwxrwxrwx 1 root root   59 juil. 10 17:53 html5shiv.min.js -> ../../../../../../../nodejs/html5shiv/dist/html5shiv.min.js
+-rw-r--r-- 1 root root 4433 juil. 10 17:53 respond.min.js
+[ the html5shiv.min.js is wrong, this will be my next bug report ]
+$ sudo apt install --reinstall r-cran-rmarkdown
+[...]
+$ ls -l /usr/lib/R/site-library/shiny/www/shared/bootstrap/shim
+total 8
+lrwxrwxrwx 1 root root 68 oct.   7 15:00 html5shiv.min.js -> ../../../../../../../../share/nodejs/html5shiv/dist/html5shiv.min.js
+lrwxrwxrwx 1 root root 61 oct.   7 15:00 respond.min.js -> ../../../../../shiny/www/shared/bootstrap/shim/respond.min.js
+
+ => both file from the r-cran-shiny package have been modified
+ [ the first file have been "fixed", but the seconde one leads to a circular symlink... ]
+
+Now, fixing locally the bug :
+$ sudo rm /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim
+$ sudo apt install --reinstall r-cran-shiny
+$ ls -l /usr/lib/R/site-library/shiny/www/shared/bootstrap/shim
+total 8
+lrwxrwxrwx 1 root root   59 juil. 10 17:53 html5shiv.min.js -> ../../../../../../../nodejs/html5shiv/dist/html5shiv.min.js
+-rw-r--r-- 1 root root 4433 juil. 10 17:53 respond.min.js
+$ sudo apt install --reinstall r-cran-rmarkdown
+[...]
+$ ls -l /usr/lib/R/site-library/shiny/www/shared/bootstrap/shim
+total 8
+lrwxrwxrwx 1 root root   59 juil. 10 17:53 html5shiv.min.js -> ../../../../../../../nodejs/html5shiv/dist/html5shiv.min.js
+-rw-r--r-- 1 root root 4433 juil. 10 17:53 respond.min.js
+[ nothing changed, good ]
+$ ls -ld /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim
+drwxr-xr-x 2 root root 4096 oct.  16 23:51 /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim
+$ ls -l /usr/lib/R/site-library/rmarkdown/rmd/h/bootstrap/shim
+total 8
+lrwxrwxrwx 1 root root 68 oct.   7 15:00 html5shiv.min.js -> ../../../../../../../../share/nodejs/html5shiv/dist/html5shiv.min.js
+lrwxrwxrwx 1 root root 61 oct.   7 15:00 respond.min.js -> ../../../../../shiny/www/shared/bootstrap/shim/respond.min.js
+
+  As r-cran-shiny also has a symlink to fix (see my next bug report)
+you might wish to add Breaks to both packages to force the upgrade of
+both at the same time : a fixed version of r-cran-rmarkdown will
+need to force a reinstall (or upgrade) of r-cran-shiny in case
+of respond.min.js have been overwriten. And a new version of
+r-cran-shiny with the fixed symlink must be sure to not have its
+files corrupted by an old version of r-cran-rmarkdown.
+
+  Regards,
+    Vincent
+
+
+
+
+-- System Information:
+Debian Release: bullseye/sid
+  APT prefers stable-updates
+  APT policy: (500, 'stable-updates'), (500, 'oldstable-updates'), (500, 'unstable'), (500, 'testing'), (500, 'stable'), (500, 'oldstable'), (1, 'experimental')
+Architecture: amd64 (x86_64)
+Foreign Architectures: i386, armel, mipsel
+
+Kernel: Linux 5.2.0-3-amd64 (SMP w/4 CPU cores)
+Locale: LANG=fr_FR.utf8, LC_CTYPE=fr_FR.utf8 (charmap=UTF-8), LANGUAGE=fr_FR.utf8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/dash
+Init: systemd (via /run/systemd/system)
+
+Versions of packages r-cran-rmarkdown depends on:
+ii  fonts-font-awesome       5.0.10+really4.7.0~dfsg-1
+ii  libjs-bootstrap          3.4.1+dfsg-1
+ii  libjs-highlight.js       9.12.0+dfsg1-4
+ii  libjs-jquery             3.3.1~dfsg-3
+ii  libjs-jquery-ui          1.12.1+dfsg-5
+ii  libjs-modernizr          2.6.2+ds1-3
+ii  libjs-prettify           2015.12.04+dfsg-1.1
+ii  pandoc                   2.5-2+b1
+ii  r-base-core [r-api-3.5]  3.6.1-6
+ii  r-cran-base64enc         0.1-3-2
+ii  r-cran-evaluate          0.14-1
+ii  r-cran-htmltools         0.4.0-1
+ii  r-cran-jsonlite          1.6+dfsg-1
+ii  r-cran-knitr             1.25+dfsg-1
+ii  r-cran-mime              0.7-1
+ii  r-cran-shiny             1.3.2+dfsg-1
+ii  r-cran-stringr           1.4.0-1
+ii  r-cran-tinytex           0.16-1
+ii  r-cran-xfun              0.10-1
+ii  r-cran-yaml              2.2.0-1
+
+Versions of packages r-cran-rmarkdown recommends:
+ii  r-cran-testthat  2.2.1-1
+
+Versions of packages r-cran-rmarkdown suggests:
+ii  r-cran-callr     3.3.2-1
+ii  r-cran-digest    0.6.21-1
+pn  r-cran-dygraphs  <none>
+ii  r-cran-fs        1.3.1+dfsg-1
+ii  r-cran-shiny     1.3.2+dfsg-1
+ii  r-cran-tibble    2.1.3-1
+pn  r-cran-tufte     <none>
+
+-- no debconf information
+
+
+From vdanjean at debian.org  Wed Oct 16 23:45:56 2019
+From: vdanjean at debian.org (Vincent Danjean)
+Date: Thu, 17 Oct 2019 00:45:56 +0200
+Subject: [R-pkg-team] Bug#942476: r-cran-dt: missing css files and bad path
+ for javascript files
+Message-ID: <157126595657.27790.2961669659073904579.reportbug@eyak.imag.fr>
+
+Package: r-cran-dt
+Version: 0.9+dfsg-1
+Severity: normal
+
+  Hi,
+
+  I'm trying to use r-cran-dt to generate a report. The Debian
+package has problems (see the script at the end to reproduce
+the issue):
+- one css file is missing:
+  $ Rscript -e "rmarkdown::render('small_test.rmd')"
+  [...]
+  /usr/bin/pandoc +RTS -K512m -RTS small_test.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash+smart --output small_test.html --email-obfuscation none --self-contained --standalone --section-divs --template /usr/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --css style.css --variable 'theme:cerulean' --include-in-header /tmp/RtmpDhs6QV/rmarkdown-str692d16ebe87a.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/latex-div.lua 
+  pandoc: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.extra.css: openBinaryFile: does not exist (No such file or directory)
+  Erreur : pandoc document conversion failed with error 1
+  Exécution arrêtée
+
+  Indeed, jquery.dataTables.extra.css is removed from the Debian r-cran-dt package,
+  however, according to apt-file and https://pacakages.debian.org,
+  no Debian package is providing this file.
+
+  Continuing with
+  $ sudo touch /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.extra.css
+  to workaround this problem
+
+- one javascript file is not in the expected path:
+  $ Rscript -e "rmarkdown::render('small_test.rmd')"
+  [...]
+  /usr/bin/pandoc +RTS -K512m -RTS small_test.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash+smart --output small_test.html --email-obfuscation none --self-contained --standalone --section-divs --template /usr/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --css style.css --variable 'theme:cerulean' --include-in-header /tmp/RtmpI2EroN/rmarkdown-str6bbf3216f5ad.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/latex-div.lua 
+  pandoc: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/js/jquery.dataTables.min.js: openBinaryFile: does not exist (No such file or directory)
+  Erreur : pandoc document conversion failed with error 1
+  Exécution arrêtée
+
+  Indeed, the javascript file is in
+  /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/js/jquery.dataTables.min.js
+  and not
+  /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/jquery.dataTables.min.js
+
+  Continuing with
+  $ sudo ln -s . /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/js
+  to workarround the problem
+
+- another javascript file is still not in the expected place:
+  Rscript -e "rmarkdown::render('small_test.rmd')"
+  [...]
+  /usr/bin/pandoc +RTS -K512m -RTS small_test.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash+smart --output small_test.html --email-obfuscation none --self-contained --standalone --section-divs --template /usr/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --css style.css --variable 'theme:cerulean' --include-in-header /tmp/RtmpS0d9gK/rmarkdown-str6e161233a5ca.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/latex-div.lua 
+  pandoc: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/jszip.min.js: openBinaryFile: does not exist (No such file or directory)
+  Erreur : pandoc document conversion failed with error 1
+  Exécution arrêtée
+
+  dpkg -S tells me that this file is (on Debian system) in
+  libjs-jquery-datatables-extensions: /usr/share/javascript/jquery-datatables-extensions/JSZip/jszip.min.js
+  (with a copy in 3 others packages on my machine)
+
+  Continuing with
+  $ sudo ln -s /usr/share/javascript/jquery-datatables-extensions/JSZip/jszip.min.js /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/jszip.min.js
+  to workarround the problem
+
+- another javascript file is still not in the expected place:
+  Rscript -e "rmarkdown::render('small_test.rmd')"
+  [...]
+  /usr/bin/pandoc +RTS -K512m -RTS small_test.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash+smart --output small_test.html --email-obfuscation none --self-contained --standalone --section-divs --template /usr/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --css style.css --variable 'theme:cerulean' --include-in-header /tmp/RtmpMKo2nV/rmarkdown-str6e7f218627e7.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/latex-div.lua 
+  pandoc: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/pdfmake.min.js: openBinaryFile: does not exist (No such file or directory)
+  Erreur : pandoc document conversion failed with error 1
+  Exécution arrêtée
+
+  dpkg -S tells me that this file is (on Debian system) in
+  libjs-jquery-datatables-extensions: /usr/share/javascript/jquery-datatables-extensions/pdfmake/build/pdfmake.min.js
+
+  Continuing with
+  $ sudo ln -s /usr/share/javascript/jquery-datatables-extensions/pdfmake/build/pdfmake.min.js /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/pdfmake.min.js
+
+- another javascript file is missing (vfs_fonts.js)
+  and does not seem to be available in Debian
+
+  $ Rscript -e "rmarkdown::render('small_test.rmd')"
+  [...]
+  /usr/bin/pandoc +RTS -K512m -RTS small_test.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash+smart --output small_test.html --email-obfuscation none --self-contained --standalone --section-divs --template /usr/lib/R/site-library/rmarkdown/rmd/h/default.html --highlight-style tango --css style.css --variable 'theme:cerulean' --include-in-header /tmp/RtmpiA4YrW/rmarkdown-str6ed3608bac42.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /usr/lib/R/site-library/rmarkdown/rmd/lua/latex-div.lua 
+  pandoc: /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/vfs_fonts.js: openBinaryFile: does not exist (No such file or directory)
+  Erreur : pandoc document conversion failed with error 1
+  Exécution arrêtée
+
+  Continuing with
+  $ sudo touch /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/vfs_fonts.js
+
+Eventually the html document is generated.
+
+  So, it seems to me that:
+- some files are removed from the r-cran-dt source packages whereas they are
+  not provided by any other Debian packages (at least jquery.dataTables.extra.css
+  and vfs_fonts.js)
+- some files are not available in the expected path (through symlinks),
+  at least jquery.dataTables.min.js, jszip.min.js and pdfmake.min.js
+
+
+Note that removing all workarounds:
+$ sudo rm /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/css/jquery.dataTables.extra.css /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables/js /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/jszip.min.js /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/pdfmake.min.js /usr/lib/R/site-library/DT/htmlwidgets/lib/datatables-extensions/Buttons/js/vfs_fonts.js
+
+and installing locally the DT package (install.packages('DT') from R)
+makes the script working. So the bugs come from the packaging.
+
+  Regards,
+    Vincent
+
+PS: in attachment, the Rcmd script file and the data file to reproduce this bug
+
+
+-- System Information:
+Debian Release: bullseye/sid
+  APT prefers stable-updates
+  APT policy: (500, 'stable-updates'), (500, 'oldstable-updates'), (500, 'unstable'), (500, 'testing'), (500, 'stable'), (500, 'oldstable'), (1, 'experimental')
+Architecture: amd64 (x86_64)
+Foreign Architectures: i386, armel, mipsel
+
+Kernel: Linux 5.2.0-3-amd64 (SMP w/4 CPU cores)
+Locale: LANG=fr_FR.utf8, LC_CTYPE=fr_FR.utf8 (charmap=UTF-8), LANGUAGE=fr_FR.utf8 (charmap=UTF-8)
+Shell: /bin/sh linked to /bin/dash
+Init: systemd (via /run/systemd/system)
+
+Versions of packages r-cran-dt depends on:
+ii  libjs-jquery                        3.3.1~dfsg-3
+ii  libjs-jquery-datatables             1.10.20+dfsg-1
+ii  libjs-jquery-datatables-extensions  0.0+20150910+dfsg-2
+ii  libjs-jquery-selectize.js           0.12.6+dfsg-1
+ii  r-base-core [r-api-3.5]             3.6.1-6
+ii  r-cran-crosstalk                    1.0.0+dfsg-4
+ii  r-cran-htmltools                    0.4.0-1
+ii  r-cran-htmlwidgets                  1.5+dfsg-1
+ii  r-cran-jsonlite                     1.6+dfsg-1
+ii  r-cran-magrittr                     1.5-5
+ii  r-cran-promises                     1.1.0-1
+
+Versions of packages r-cran-dt recommends:
+ii  r-cran-knitr      1.25+dfsg-1
+ii  r-cran-rmarkdown  1.16+dfsg-1
+
+Versions of packages r-cran-dt suggests:
+ii  r-cran-shiny  1.3.2+dfsg-1
+
+-- no debconf information
+-------------- next part --------------
+---
+title: "Test"
+author: "Cellule de Bioinformatique"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    theme: cerulean
+    highlight: tango
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+library(tidyr)
+library(DT)
+```
+
+# Métriques de séquençage
+
+```{r metrics, echo=FALSE}
+
+Identitovigilance = read.delim("Identitovigilance.tsv", header=TRUE)
+
+Identitovigilance %>%
+  datatable(extensions = 'Buttons', options = list(dom = 'Bfrtip',buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),pageLength=10, scrollX='400px', columnDefs = list(list(className = 'dt-center', targets = "_all"))),rownames = FALSE)
+
+```
+-------------- next part --------------
+Echantillon	Sexe	Couv. autosomes	Couv. chrX
+NAN094	H	44.2339823740566	22.0109940293309
+NAQ095	F	45.6972749039199	45.2938556050553
+NAQ102	H	46.4503791247102	23.3367492729385
+NAQ104	F	42.6604621137042	41.59214873412
+NAQ114	H	47.4454524288081	23.2806965771802
+NAQ115	H	45.3128157396608	22.5878060713352
+NAQ116	H	44.5120151092971	22.1902206625124
+NAQ117	H	44.5667556457501	22.3253287035313
+NAQ124	H	44.1547140407541	22.0612210097021
+NAQ127	H	45.1406368058383	22.5020949697436
+NAQ131	H	45.1472097072126	22.4443120795604
+NAQ133	F	41.2195065918166	40.9188784430404
+NAQ141	F	42.749084378469	43.7119043619277
+NAR013	H	43.5951059938956	21.9606501487595
+NAR018	H	45.3550866503083	22.3055364037361
+NAR019	H	45.4337543537171	22.9515217254307
+NAR028	F	38.4230276904003	37.9964613205878
+NAR032	F	44.0734609415596	44.4685709835858
+NAR041	F	43.9393289823221	42.9609225995391
+NAR046	F	44.1486633776115	43.7450775977989
+NAR047	H	43.3750988313457	22.4532127447165
+NAR048	F	39.6169267993457	40.7340405197216
+NAR053	F	43.2499594551444	42.0961465556751
+NAR059	H	41.6948703311421	21.9658016456802
+
+From ftpmaster at ftp-master.debian.org  Thu Oct 17 00:32:49 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 23:32:49 +0000
+Subject: [R-pkg-team] Processing of r-bioc-dada2_1.12.1+dfsg-1_amd64.changes
+Message-ID: <E1iKsmf-0004UW-Hf@usper.debian.org>
+
+r-bioc-dada2_1.12.1+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-dada2_1.12.1+dfsg-1.dsc
+  r-bioc-dada2_1.12.1+dfsg.orig.tar.xz
+  r-bioc-dada2_1.12.1+dfsg-1.debian.tar.xz
+  r-bioc-dada2-dbgsym_1.12.1+dfsg-1_amd64.deb
+  r-bioc-dada2_1.12.1+dfsg-1_amd64.buildinfo
+  r-bioc-dada2_1.12.1+dfsg-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Oct 17 00:34:13 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 16 Oct 2019 23:34:13 +0000
+Subject: [R-pkg-team] r-bioc-dada2_1.12.1+dfsg-1_amd64.changes is NEW
+Message-ID: <E1iKso1-000Hon-Fc@fasolo.debian.org>
+
+binary:r-bioc-dada2 is NEW.
+binary:r-bioc-dada2 is NEW.
+source:r-bioc-dada2 is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From noreply at release.debian.org  Thu Oct 17 05:39:13 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 17 Oct 2019 04:39:13 +0000
+Subject: [R-pkg-team] r-cran-biocmanager 1.30.7+dfsg-1 MIGRATED to testing
+Message-ID: <E1iKxZB-0002lv-7r@respighi.debian.org>
+
+FYI: The status of the r-cran-biocmanager source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.30.4+dfsg-2
+  Current version:  1.30.7+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Thu Oct 17 10:22:31 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 17 Oct 2019 09:22:31 +0000
+Subject: [R-pkg-team] Processing of r-bioc-mofa_1.0.0+dfsg-1_amd64.changes
+Message-ID: <E1iL1zL-00017V-7c@usper.debian.org>
+
+r-bioc-mofa_1.0.0+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-mofa_1.0.0+dfsg-1.dsc
+  r-bioc-mofa_1.0.0+dfsg.orig.tar.xz
+  r-bioc-mofa_1.0.0+dfsg-1.debian.tar.xz
+  python3-mofapy_1.0.0+dfsg-1_all.deb
+  r-bioc-mofa_1.0.0+dfsg-1_all.deb
+  r-bioc-mofa_1.0.0+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Oct 17 10:34:25 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 17 Oct 2019 09:34:25 +0000
+Subject: [R-pkg-team] r-bioc-mofa_1.0.0+dfsg-1_amd64.changes is NEW
+Message-ID: <E1iL2Ar-000FSQ-Ag@fasolo.debian.org>
+
+binary:python3-mofapy is NEW.
+binary:r-bioc-mofa is NEW.
+binary:python3-mofapy is NEW.
+binary:r-bioc-mofa is NEW.
+source:r-bioc-mofa is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From steffen_moeller at gmx.de  Thu Oct 17 10:13:31 2019
+From: steffen_moeller at gmx.de (=?UTF-8?Q?Steffen_M=c3=b6ller?=)
+Date: Thu, 17 Oct 2019 11:13:31 +0200
+Subject: [R-pkg-team] r-bioc-mofa_1.0.0+dfsg-1_amd64.changes REJECTED
+In-Reply-To: <E1iKoaK-000Dzb-Ik@fasolo.debian.org>
+References: <E1iKoaK-000Dzb-Ik@fasolo.debian.org>
+Message-ID: <ff46e8ae-e83c-f26c-e45f-4f10129d5efb@gmx.de>
+
+Hi Thorsten,
+
+On 16.10.19 21:03, Thorsten Alteholz wrote:
+> please fix the FIXME in your debian/copyright.
+
+Done and reuploaded.
+
+Sorry for my (very unnecessary) oversight.
+
+Best,
+Steffen
+
+
+
+From noreply at release.debian.org  Fri Oct 18 05:39:21 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 18 Oct 2019 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-recipes 0.1.7-1 MIGRATED to testing
+Message-ID: <E1iLK2r-0002FF-FY@respighi.debian.org>
+
+FYI: The status of the r-cran-recipes source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.1.6-1
+  Current version:  0.1.7-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From moeller at debian.org  Sat Oct 19 23:35:55 2019
+From: moeller at debian.org (Steffen Moeller)
+Date: Sun, 20 Oct 2019 00:35:55 +0200
+Subject: [R-pkg-team] Bug#942682: ITP: r-cran-sitmo -- Parallel Pseudo
+ Random Number Generator (PPRNG) 'sitmo' Header
+Message-ID: <157152455594.17916.5699889214102139925.reportbug@steffen-laptop-debian.ffoh>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-sitmo -- Parallel Pseudo Random Number Generator (PPRNG) 'sitmo' Header
+Package: wnpp
+Owner: Steffen Moeller <moeller at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-sitmo
+  Version         : 2.0.1
+  Upstream Author : Copyright: (FIXME: year)-2019 James Balamuta
+* URL             : https://cran.r-project.org/package=sitmo
+* License         : MIT
+  Programming Lang: GNU R
+  Description     : Parallel Pseudo Random Number Generator (PPRNG) 'sitmo' Header
+       Files
+ Provided within are two high quality and fast PPRNGs that may be
+ used in an 'OpenMP' parallel environment. In addition, there is a generator
+ for one dimensional low-discrepancy sequence. The objective of this library
+ to consolidate the distribution of the 'sitmo' (C++98 & C++11), 'threefry' and
+ 'vandercorput' (C++11-only) engines on CRAN by enabling others to link to the
+ header files inside of 'sitmo' instead of including a copy of each engine
+ within their individual package. Lastly, the package contains example
+ implementations using the 'sitmo' package and three accompanying vignette that
+ provide additional information.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-sitmo
+
+

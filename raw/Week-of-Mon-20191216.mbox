@@ -1,0 +1,1687 @@
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 17:01:03 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 17:01:03 +0000
+Subject: [R-pkg-team] Processing of r-cran-r.cache_0.14.0-1_source.changes
+Message-ID: <E1igtjz-0007yQ-Hl@usper.debian.org>
+
+r-cran-r.cache_0.14.0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-r.cache_0.14.0-1.dsc
+  r-cran-r.cache_0.14.0.orig.tar.gz
+  r-cran-r.cache_0.14.0-1.debian.tar.xz
+  r-cran-r.cache_0.14.0-1_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 17:01:03 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 17:01:03 +0000
+Subject: [R-pkg-team] Processing of r-cran-globals_0.12.5-1_source.changes
+Message-ID: <E1igtjz-0007yK-Bl@usper.debian.org>
+
+r-cran-globals_0.12.5-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-globals_0.12.5-1.dsc
+  r-cran-globals_0.12.5.orig.tar.gz
+  r-cran-globals_0.12.5-1.debian.tar.xz
+  r-cran-globals_0.12.5-1_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 17:04:11 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 17:04:11 +0000
+Subject: [R-pkg-team] r-cran-globals_0.12.5-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1igtn1-00036k-Hr@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 15 Dec 2019 15:05:20 +0100
+Source: r-cran-globals
+Architecture: source
+Version: 0.12.5-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Michael R. Crusoe <michael.crusoe at gmail.com>
+Changes:
+ r-cran-globals (0.12.5-1) unstable; urgency=medium
+ .
+   * New upstream version
+Checksums-Sha1:
+ affc7c9fe2b0aebe7fd9ea650e72282acf8c5ad0 2088 r-cran-globals_0.12.5-1.dsc
+ f8025ba95f880d7f5c8dd45e584afb59e1d49ba1 24940 r-cran-globals_0.12.5.orig.tar.gz
+ 7f6bc40f6c898d06c8d2062fdf005cee368aa503 2404 r-cran-globals_0.12.5-1.debian.tar.xz
+ 9a4adc98394f481f8e98bc6835fb2f2e67b4c004 13296 r-cran-globals_0.12.5-1_source.buildinfo
+Checksums-Sha256:
+ 496ec6de8dc6069ee72decf51ec7c6e3bc6a0df8e6a70dcb47532214c4fe2df3 2088 r-cran-globals_0.12.5-1.dsc
+ 1519a7668b4b549c081f60a5f6b71d8d1dc8833f618125f6c0e4caf8b48a48c1 24940 r-cran-globals_0.12.5.orig.tar.gz
+ 59594ad712d12c7edb130725f9864f1909ee4be1643043b13810f22b10ce0a73 2404 r-cran-globals_0.12.5-1.debian.tar.xz
+ f775a3a8b0300b84f0d795d6cfad9b276d4d79d2c5b05e153afdec937ebb70c6 13296 r-cran-globals_0.12.5-1_source.buildinfo
+Files:
+ 6bac2b098814d3a5e9a0f55538a392c7 2088 gnu-r optional r-cran-globals_0.12.5-1.dsc
+ 18a7c06ff503ed94cc3b86c0567329dd 24940 gnu-r optional r-cran-globals_0.12.5.orig.tar.gz
+ 75acff35440199bb985b76cbb9a891db 2404 gnu-r optional r-cran-globals_0.12.5-1.debian.tar.xz
+ ea9290a9e16ef0c10c26ea319c3e5085 13296 gnu-r optional r-cran-globals_0.12.5-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEck1gkzcRPHEFUNdHPCZ2P2xn5uIFAl33tmoACgkQPCZ2P2xn
+5uK5TRAAivWz3IGdswfs6dIwSTsA3Kw1dlAGK1jSHGU1cOchQ5dby8P5PdycLJ52
+OpOYb9SRkaqRSQc1Mnaqf3kA2sYaP+9lo2yyR2b3oFeeDfCgRacdeJzOmFTK+W4X
+n1HiqxDUJlJ8LketdpqdCsulsFEYYEOXqkHEuGVaM7A7lmt0DhEs00UScG/QTMnG
+W+IGv0AxUX0gCJCvdlY3GyS0GRyhp+VSHpfb0pR2lT3+snJZWORb3GSnVsAYf2PY
+wj27C1HUoVWNwaSZsdrIA3w7oSc92K0rzaD6N60A8UsQfySidTehHCB/Pg7M51aN
+A60VbNGhYkAEYv6xxX6EA939Fow4DI4XAdUiK4wosxjUMqmFqgKaI9mpAWAWjTRu
+sT4zfPQ0RkOO6bu69WDGaIWPzpZ7DymPEXFO6S3/R9GpmZcM7wMpEqF9gL8kcgVw
+ZYZefGGzQEo6NEVdRNPvpmjpbqiEqM13ESFxuJZsirIU/EvTwj96YbXTLWo1AQkD
+Zr1DZpFgbe0GXI0XWNJjysOKITNKl+bVGjE0Uqgm55MB5mxdlfvFfn6/VrWUUclH
+qfHmsnpkSomma3epmPWkMcXW2l6fFilDiRFcYl/2LYB/pa5c/bfnNmjsYLIq0YJd
+SaV5aPLQuuiFI3k65zMnQNKMI+++mXx1j2S3JS2LIG7fRPt/04w=
+=At5p
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 17:04:18 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 17:04:18 +0000
+Subject: [R-pkg-team] r-cran-r.cache_0.14.0-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1igtn8-00037d-Ub@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 15 Dec 2019 15:07:15 +0100
+Source: r-cran-r.cache
+Architecture: source
+Version: 0.14.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Michael R. Crusoe <michael.crusoe at gmail.com>
+Changes:
+ r-cran-r.cache (0.14.0-1) unstable; urgency=medium
+ .
+   * New Upstream release.
+Checksums-Sha1:
+ ecf4a53835183b878d88850799522363d5f71a80 2131 r-cran-r.cache_0.14.0-1.dsc
+ 4aa018b4e685e52afca0eee8852777105ff76a96 32572 r-cran-r.cache_0.14.0.orig.tar.gz
+ a71de66598dc3dac28074d09f1400b11ec58e995 2256 r-cran-r.cache_0.14.0-1.debian.tar.xz
+ eaa2f7247ead81cf50ddbc958af357f90210a5be 13291 r-cran-r.cache_0.14.0-1_source.buildinfo
+Checksums-Sha256:
+ 75abc6c9dfdce80fac643cd26ca896f6d178c25e71d7b560123d267d8bee5877 2131 r-cran-r.cache_0.14.0-1.dsc
+ 18af4e372440b9f28b4b71346c8ed9de220232f9903730ccee2bfb3c612c16d9 32572 r-cran-r.cache_0.14.0.orig.tar.gz
+ 2f1c5581902a1cf61d96a0d0e40ecbf0e2c1f97240eb28f02df6e49d2bc0b1d6 2256 r-cran-r.cache_0.14.0-1.debian.tar.xz
+ 22ca270b5ea306b685b83868e4c738d0e71a6aa838c5ec3c9ecd8d0eec026e4b 13291 r-cran-r.cache_0.14.0-1_source.buildinfo
+Files:
+ eac95fe83170b8bd1cbed2168753d4e2 2131 gnu-r optional r-cran-r.cache_0.14.0-1.dsc
+ 51a633178008d1251877045eab01507b 32572 gnu-r optional r-cran-r.cache_0.14.0.orig.tar.gz
+ dc587554931fb6515b35e25df739e979 2256 gnu-r optional r-cran-r.cache_0.14.0-1.debian.tar.xz
+ 84d2148d075a7779279689a105f74c1a 13291 gnu-r optional r-cran-r.cache_0.14.0-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEck1gkzcRPHEFUNdHPCZ2P2xn5uIFAl33tq8ACgkQPCZ2P2xn
+5uLalg//c07oupfO+ayot0mjKZYUh4P+QUCiynMFjKbLpJZ4T67E2eHeHyaLBmJc
+2X5rOXFSb7mZ69BXXEZC5foQrwRcJe4/5Qgp9FCO7drdeeRsviujAE69v6Vh3a26
+WStXkHOCSwmqtCkTxVVH0ramm2JY8luQ6tFikni4TaZCmXhRDsaA9ARZw29EfX77
+bmie1taUjfqu5gcOJ1X5n5wsj8oJJoKvqRBJsQkRk3CSgP/gI0InC3FZrDIhplSi
+47F807Mxzcf1V1cHYuFeeofaWFpU3YYcMk50Nq6hi8kqInGlIcpSMfAX01YMmM7x
+c+gZYAeUUucVY8dH8ti4dF3nOIWO1gAcXj7AZG0QUfQrFGO8eiTNpDqKkr3VBrRc
+UnKmZFJbW+upSfT/ZnpEmrIIYv3ru/3q/JPsRXgen56ge4TX32KcXINTozlMwfw6
+gGvA2GHLsExZR2MQsF/rzwEsjNuSpLWoj0zNoCaS2mEE9GSB0/BPAT7bJr571XZw
+wIlw5Ic+uLeWY2r/0KW5x4SuAZsr8SwR5eCJGA/eUgugJ0RmSIfCLSWWpqsGhAaK
+qQc+v2S+mIt+iA6fgSXV5pzfAg1uUfFFHho8UZZnAA0OcvpyrvcTvML22zWA3ji6
+5ts/8fwL2Fm5go/siC8rkvT6Zf1R1MpvQdgThlOLnl3J7cNIyBw=
+=+r18
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 20:26:57 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 20:26:57 +0000
+Subject: [R-pkg-team] Processing of r-cran-repr_1.0.2-1_source.changes
+Message-ID: <E1igwxF-0001wl-MK@usper.debian.org>
+
+r-cran-repr_1.0.2-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-repr_1.0.2-1.dsc
+  r-cran-repr_1.0.2.orig.tar.gz
+  r-cran-repr_1.0.2-1.debian.tar.xz
+  r-cran-repr_1.0.2-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 20:26:57 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 20:26:57 +0000
+Subject: [R-pkg-team] Processing of r-cran-irkernel_1.1-1_source.changes
+Message-ID: <E1igwxF-0001wx-U8@usper.debian.org>
+
+r-cran-irkernel_1.1-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-irkernel_1.1-1.dsc
+  r-cran-irkernel_1.1.orig.tar.gz
+  r-cran-irkernel_1.1-1.debian.tar.xz
+  r-cran-irkernel_1.1-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 20:37:41 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 20:37:41 +0000
+Subject: [R-pkg-team] r-cran-irkernel_1.1-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1igx7d-000GBP-Tz@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 16 Dec 2019 19:03:10 +0000
+Source: r-cran-irkernel
+Architecture: source
+Version: 1.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Gordon Ball <gordon at chronitis.net>
+Changes:
+ r-cran-irkernel (1.1-1) unstable; urgency=medium
+ .
+   [ Andreas Tille ]
+   * New upstream version
+   * debhelper-compat 12
+   * Standards-Version: 4.4.1
+   * Set upstream metadata fields: Archive, Bug-Database, Bug-Submit,
+     Repository, Repository-Browse.
+ .
+   [ Gordon Ball ]
+   * Import upstream patch to fix failing tests
+Checksums-Sha1:
+ 26e2ebaa7c6363f35e5b2d43d0a437492dadc774 2237 r-cran-irkernel_1.1-1.dsc
+ 94c5afd8f7f5b09eb9261b455c9131199f7f67ac 52805 r-cran-irkernel_1.1.orig.tar.gz
+ 0e1371f005b49254c7f5d07bb0c974482458f3e3 4120 r-cran-irkernel_1.1-1.debian.tar.xz
+ 83ddd75a46a3437a60d334f77a74e1587c4a3682 9718 r-cran-irkernel_1.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 779829e3972f722d4f4c42e570d6c2c2a456920807b2dacd2d08546169eb70fa 2237 r-cran-irkernel_1.1-1.dsc
+ 2469431c468a3f586ffe8adc260fa368fd8d6b4e65bde318f941fb1692ee38ee 52805 r-cran-irkernel_1.1.orig.tar.gz
+ 38cc3590a979bfefd94fa7ed743b54919562bf1afe365d662055e7ff3c584788 4120 r-cran-irkernel_1.1-1.debian.tar.xz
+ a15c20a63dd9af46dd36fb6292d7850d4ad97e04f6a2df2807f18ba800278b10 9718 r-cran-irkernel_1.1-1_amd64.buildinfo
+Files:
+ b6797e355d28d4085ade259088a5ac6b 2237 gnu-r optional r-cran-irkernel_1.1-1.dsc
+ 6a543f8f21688cc6442ef3914537e464 52805 gnu-r optional r-cran-irkernel_1.1.orig.tar.gz
+ 32fb28ff49724a89999d06f2ece4f996 4120 gnu-r optional r-cran-irkernel_1.1-1.debian.tar.xz
+ b3b9a95a9b60ab3b8e81eb114c94857e 9718 gnu-r optional r-cran-irkernel_1.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6PwpXIa418BJ+Xuno12v+60p6N4FAl335lMACgkQo12v+60p
+6N6adQ//aE8Jtalum3U5OvbAG9268Vi2hyHKtO2BRq3gOTiPwZfuczzMpDk3vzyM
+04JmDYahcQFmaQGTqg6oSVjwdDr/LwZ/fPISsJ5BT6l6CeQAD8KN8oSpBKavawyv
+uKG7Vq9UX1GxDVDgY/F+xp5Dsk2mypBjdrWgBx+GUVRiBqxjGcUwHN4fltqd1ILz
+mUKbiC/1r0WFZ34zm47w0UL3hROhw0dFThNk7pHsWN9LLEIA/81sUPQe21Cjp/Bp
+fe99PHiOnLDNnfoLvRco2qDKsBdESL9aSEnQj0L2IkFclz8cLzIHX/VXwhc9XX3/
+iolBl+GeuNIvS9KD5UrG6mKFCXqBlrmKOpUGMEnDkYLLHauSQHfpN6x5HPxFbr/C
+ha+cStDPCBpJpHMV4EtA0q0COPw+DBfByU231w6CZSD7nGULsWv2IGO+udKhIK2K
+8YnQX+CRSL3nHIqQNyEJuABbuci2rYXCwRKEvMLcp3QE1YDbEkaleCIVVTwQe38c
+pgBV3ynajaNvO3x133NlV+Lc29u8fqEFkYTpx7yE4jDPMzHZxGoeGxOOlX0SbsgC
+gTm6OT3o3SF27JtJgDofIcdgfIiEH8NzOLydpl7nsKP5JJjUUxNm+TS04PD/ceJe
+YeWStWiuK1nNyC1IOxe0dXx278BXWVJK9fZ5VvsWtsSmH1okPJg=
+=ifnq
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Mon Dec 16 20:37:50 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Dec 2019 20:37:50 +0000
+Subject: [R-pkg-team] r-cran-repr_1.0.2-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1igx7m-000GCK-Vf@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 16 Dec 2019 19:21:36 +0000
+Source: r-cran-repr
+Architecture: source
+Version: 1.0.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Gordon Ball <gordon at chronitis.net>
+Changes:
+ r-cran-repr (1.0.2-1) unstable; urgency=medium
+ .
+   * New upstream version 1.0.2
+   * d/t/run-unit-test: use AUTOPKGTEST_TMP instead of ADTTMP
+   * d/control: update Standards-Version to 4.4.1
+   * d/control: use debhelper-compat instead of d/compat
+Checksums-Sha1:
+ 42337775e8e381c92d023a551a027f86b1905941 2149 r-cran-repr_1.0.2-1.dsc
+ ea10514261670ebc7b5dc1d967b09c503148fbb0 31838 r-cran-repr_1.0.2.orig.tar.gz
+ a7623f8d6a547d6927754c35850c4d8c8d9d3e5c 2724 r-cran-repr_1.0.2-1.debian.tar.xz
+ c17ff83c8704f51988de83da04e45ab0c4ce51c1 9434 r-cran-repr_1.0.2-1_amd64.buildinfo
+Checksums-Sha256:
+ 153e5ff704bfddccd49e5b606e71db1cede14da0c70614dcc5b8c0b23ea5579d 2149 r-cran-repr_1.0.2-1.dsc
+ 7c2d5a052e6a1bec2e78701131347e0baace7242bd1ceada02f649dc5a73c972 31838 r-cran-repr_1.0.2.orig.tar.gz
+ b8d4286aa727aab247bdb9378a4a7f5a4b859b34c756316daa091ef49e421929 2724 r-cran-repr_1.0.2-1.debian.tar.xz
+ 6728754ef84e152d51f2e2907856f650c4588cb0b61e29b0df59fd62ebe02031 9434 r-cran-repr_1.0.2-1_amd64.buildinfo
+Files:
+ 7749c357c0f64e68c2a8f2d027b70472 2149 gnu-r optional r-cran-repr_1.0.2-1.dsc
+ ae538e9e6f33c38a419446a425ff4264 31838 gnu-r optional r-cran-repr_1.0.2.orig.tar.gz
+ c7ddf6126348e29b282f94119a75861e 2724 gnu-r optional r-cran-repr_1.0.2-1.debian.tar.xz
+ 31f2d08309a348a9510c60ee85ab6baf 9434 gnu-r optional r-cran-repr_1.0.2-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6PwpXIa418BJ+Xuno12v+60p6N4FAl335lQACgkQo12v+60p
+6N5Khg//bOciqOQwvjRGaYtaa6lccFGBqNZ74ANj+eRnKKQq5uLw0DaUwQvmnFMV
+eAuz9WO9xaV43VBUyyAZZquPTQTvlL+IW7fbvNkSeRp2kJLKgdAOa/DK6CxK5bVz
+gdrbFabCpCkSwVgxyMhX6ip2ogOEEoodU46ZQtx2j1gMo4btuoFl/GsxT9zOdOUr
+HFxCu3ygAuCUYV2JlUmEGDwcYoPJyVpxKMnqeylY86zeJ/FlUJwZCSzgTi4+aVUk
+ZP7vJ6zNSMs7e/0FmvLY5A5k6OTKLPVSv2sE9b6ws0aHSyKW6UaGoGithv0pm/Pe
+pAVEWBGj+4wN0M4WAZrpR7EHCH6AnG2nkryGfdSIQZ3tYxRw5Uez83Za4xJK4hYE
+9ljEmv/6y71ErwNqpS4QhByOyiXcffn8qewzAgj/1rDs+pQN7vSFRZxW4V7Qqnvh
+OknCQCR6glHXzbmP5ydk2UnF5wFPw18dyqvR8OlGU6+Tv3Fv0IOwgQpZJBUcQV9C
+rdKWbWcMVnHzdCogW/QIA7QPZIUlVhmzJEFdbC5NUTGKGRKdf7JH0BE59MTVR+t7
+PUP6Q5UONVlfTv3TWRtYxqjCIQ/wYK6Uq6VUmJdP4JQ4kL2ho8VeSPSmThJfpVue
+L2Jl0+0f/nU7zS6vpYQZ0/kIZsqINboFzugrp0LgAMJGNVkym78=
+=FFz7
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:06 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-wikitaxa is marked for autoremoval from testing
+Message-ID: <E1ihR74-0005qr-RD@respighi.debian.org>
+
+r-cran-wikitaxa 0.3.0+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-tidyverse is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005r1-5D@respighi.debian.org>
+
+r-cran-tidyverse 1.2.1-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-solrium is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005rB-FZ@respighi.debian.org>
+
+r-cran-solrium 1.1.4+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-rvest is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005rG-Kh@respighi.debian.org>
+
+r-cran-rvest 0.3.5-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-tm is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005qw-05@respighi.debian.org>
+
+r-cran-tm 0.7-6-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-taxize is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005r6-AR@respighi.debian.org>
+
+r-cran-taxize 0.9.91+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-roxygen2 is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005rQ-VD@respighi.debian.org>
+
+r-cran-roxygen2 7.0.2-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:08 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-phylobase is marked for autoremoval from testing
+Message-ID: <E1ihR76-0005rp-OU@respighi.debian.org>
+
+r-cran-phylobase 0.8.6-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:09 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-bold is marked for autoremoval from testing
+Message-ID: <E1ihR77-0005sD-0E@respighi.debian.org>
+
+r-cran-bold 0.9.0+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:06 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-cliapp is marked for autoremoval from testing
+Message-ID: <E1ihR74-0005qc-Bj@respighi.debian.org>
+
+r-cran-cliapp 0.1.0-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:06 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-xslt is marked for autoremoval from testing
+Message-ID: <E1ihR74-0005qh-Gx@respighi.debian.org>
+
+r-cran-xslt 1.3-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:06 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-xml2 is marked for autoremoval from testing
+Message-ID: <E1ihR74-0005qm-M3@respighi.debian.org>
+
+r-cran-xml2 1.2.2-1 is marked for autoremoval from testing on 2020-01-24
+
+It is affected by these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:08 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-redland is marked for autoremoval from testing
+Message-ID: <E1ihR76-0005rf-EE@respighi.debian.org>
+
+r-cran-redland 1.0.17-11-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:08 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-ritis is marked for autoremoval from testing
+Message-ID: <E1ihR76-0005ra-97@respighi.debian.org>
+
+r-cran-ritis 0.8.0+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:07 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-rversions is marked for autoremoval from testing
+Message-ID: <E1ihR75-0005rL-Pm@respighi.debian.org>
+
+r-cran-rversions 2.0.0-2 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:08 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-rnexml is marked for autoremoval from testing
+Message-ID: <E1ihR76-0005rV-40@respighi.debian.org>
+
+r-cran-rnexml 2.4.0-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:08 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-rdflib is marked for autoremoval from testing
+Message-ID: <E1ihR76-0005rk-JK@respighi.debian.org>
+
+r-cran-rdflib 0.2.2+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Wed Dec 18 04:39:08 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 18 Dec 2019 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-natserv is marked for autoremoval from testing
+Message-ID: <E1ihR76-0005s8-UA@respighi.debian.org>
+
+r-cran-natserv 0.3.0+dfsg-2 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Dec 18 07:33:21 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 18 Dec 2019 07:33:21 +0000
+Subject: [R-pkg-team] Processing of r-cran-xml2_1.2.2-2_source.changes
+Message-ID: <E1ihTph-0002Jm-Ks@usper.debian.org>
+
+r-cran-xml2_1.2.2-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-xml2_1.2.2-2.dsc
+  r-cran-xml2_1.2.2-2.debian.tar.xz
+  r-cran-xml2_1.2.2-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Dec 18 07:34:14 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 18 Dec 2019 07:34:14 +0000
+Subject: [R-pkg-team] r-cran-xml2_1.2.2-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1ihTqY-000EfV-7H@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 18 Dec 2019 07:48:35 +0100
+Source: r-cran-xml2
+Architecture: source
+Version: 1.2.2-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 946566
+Changes:
+ r-cran-xml2 (1.2.2-2) unstable; urgency=medium
+ .
+   * Fix symlink of html5shiv.min.js
+     Closes: #946566
+   * Standards-Version: 4.4.1
+   * autopkgtest: s/ADTTMP/AUTOPKGTEST_TMP/g
+   * Set upstream metadata fields: Bug-Submit, Repository.
+Checksums-Sha1:
+ dfd41c482ccd829c36cce41673f8eac797567978 2103 r-cran-xml2_1.2.2-2.dsc
+ 9465f96a7ad7a874577244724f26291b31ea19ee 9056 r-cran-xml2_1.2.2-2.debian.tar.xz
+ 20352ccd9ef483faa01db5bed82629d205e083fd 8977 r-cran-xml2_1.2.2-2_amd64.buildinfo
+Checksums-Sha256:
+ f1a5275871db47f02a29692ef263f3a3ca7b6457ba8f5ea4c8325abaf73df8f1 2103 r-cran-xml2_1.2.2-2.dsc
+ 85bc1c782bf1cdee79d6baf6e685661a85ad23e51aed4b4bc07bf15454b10685 9056 r-cran-xml2_1.2.2-2.debian.tar.xz
+ fa32e256bcad17d496b3d6056da59f8fea14c5ffd6698bbf5f4817114960f9f0 8977 r-cran-xml2_1.2.2-2_amd64.buildinfo
+Files:
+ 4f668990cdf363397defb341c0068bab 2103 gnu-r optional r-cran-xml2_1.2.2-2.dsc
+ e758c3618006c1907727dc7bd908cba5 9056 gnu-r optional r-cran-xml2_1.2.2-2.debian.tar.xz
+ bc3d07160ee6c9f0501c5e6092b2db28 8977 gnu-r optional r-cran-xml2_1.2.2-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl3502ERHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFBng/8DU3kADWWanWbgIwfcclYwTae9//EmTh6
+tAVHEbPN6EwbR/UKjAdD4WrE497tDzuy8+ovDnwIIJRbt4GCWhXrAGg79Nymu52i
+IS4Nayn1SqDQ7PMyMqE9dGRUJbFkF31fyAYL0gQRMlcgNOYbXxkfQbY826fmm8o1
+B3pIdGdWBiDr/ZpDKIoVfoQnkLTVkuytzKdFaTBFEnxWxvE/knedgGAGLt0/+SlY
+dnqqYRNZPlJeFy1L7gv1ybxp6N1qIgpzNPHd66ua7sYV3XOi79rAl8UtsMRjeaBe
+kMSLVZXyG3180f+hMI5S0Drf9oel8swjXIwZddg53KDNHX4yhyx6lxK2W4XSBlg8
+dHNh38kriaTx723YKCeWgVO9GprXlUTOd1+I4FOoz2b2lg94mmRYBLOh8ZRz0vcm
+cYSv5lp81kVbLHL+5kV6tmW1EM1Ds0arsm4Ni9iwqTAAqEyeWwO3vYQbE0CpKY3y
+jMWJSD57+P/v8hnLb91wwoeP+zVa5f+MLRLQt2D9disOE268qivakT8CBxILW9QC
+Oo0J4AT0Fd4Rj83jP6SeDjjEhP+7VDdbrnLjUf/w9b+YOqRwxheuZuMBZmG6FioV
+VgMcYW6yiDJBShpOz54RwghU1nhXpkxEfu7ye8+tpiXwoDH/sKLjooLmNJJTsG6F
+bmSS8oN21cg=
+=ergI
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Wed Dec 18 07:39:04 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Wed, 18 Dec 2019 07:39:04 +0000
+Subject: [R-pkg-team] Bug#946566: marked as done (r-cran-xml2: broken
+ symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js ->
+ ../../../../nodejs/html5shiv/dist/html5shiv.min.js)
+References: <E1ihTqY-000Efd-AF@fasolo.debian.org>
+ <157602867480.9653.7839165723730381210.reportbug@zam581.zam.kfa-juelich.de>
+Message-ID: <handler.946566.D946566.157665445614451.ackdone@bugs.debian.org>
+
+Your message dated Wed, 18 Dec 2019 07:34:14 +0000
+with message-id <E1ihTqY-000Efd-AF at fasolo.debian.org>
+and subject line Bug#946566: fixed in r-cran-xml2 1.2.2-2
+has caused the Debian Bug report #946566,
+regarding r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+946566: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=946566
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+Date: Wed, 11 Dec 2019 02:44:34 +0100
+Size: 46385
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20191218/fd398a46/attachment-0002.mht>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Tille <tille at debian.org>
+Subject: Bug#946566: fixed in r-cran-xml2 1.2.2-2
+Date: Wed, 18 Dec 2019 07:34:14 +0000
+Size: 5256
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20191218/fd398a46/attachment-0003.mht>
+
+From "Mrs.Kemoria Williams  <galencastre" at aranwahotels.com  Wed Dec 18 08:46:07 2019
+From: "Mrs.Kemoria Williams  <galencastre" at aranwahotels.com ("Mrs.Kemoria Williams  <galencastre" at aranwahotels.com)
+Date: Wed, 18 Dec 2019 03:46:07 -0500
+Subject: [R-pkg-team] Loan offer@2%
+Message-ID: <20191218083916.85BFF9E6014@zmaranwa.aranwahotels.com>
+
+Are you a Business Owner or a Broker/Financial Consultant looking for a Business loan or are you looking for a Personal loan. Our interest rates are affordable, ranging from 2% interest rate per annual depends on the loan type. If interested, please contact us today via: wkemoria at aol.com 1) Name 2) Country 3) Loan Amount 4) Loan Duration 5) Telephone number 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20191218/29edc128/attachment.html>
+
+From ralf.stubner at gmail.com  Wed Dec 18 22:39:49 2019
+From: ralf.stubner at gmail.com (Ralf Stubner)
+Date: Wed, 18 Dec 2019 23:39:49 +0100
+Subject: [R-pkg-team] Bug#946987: r-cran-dqrng: Relationship to
+ libpcg-cpp-dev and r-cran-sitmo
+Message-ID: <157670878997.85960.8973117904010528548.reportbug@barra>
+
+Package: r-cran-dqrng
+Version: 0.2.1+dfsg-1
+Severity: normal
+
+Dear Maintainer,
+
+it is nice to see my dqrng packaged for Debian. However, I find the relationship
+to libpcg-cpp-dev and r-cran-sitmo surprising. Currently libpcg-cpp-dev is a
+build and run-time dependency while r-cran-sitmo is only a build dependency. The
+actual relationship of the dqrng code to these packages is quite similar, though.
+Both packages have to be present at build time, and both backages are necessary
+for certain use cases (using the C++ header only library to build your own code).
+So from my point of view it would make sense to have libpcg-cpp-dev and
+r-cran-sitmo as build dependnecy and as run-time recommend or suggest.
+
+I am not sure which functionality of dqrng is used by r-cran-uwot. It might be
+that r-cran-uwot will need a build dependency on libpcg-cpp-dev, too.
+
+cheerio
+ralf 
+
+-- System Information:
+Debian Release: bullseye/sid
+  APT prefers testing
+  APT policy: (500, 'testing')
+Architecture: amd64 (x86_64)
+
+Kernel: Linux 5.3.0-2-amd64 (SMP w/4 CPU cores)
+Kernel taint flags: TAINT_OOT_MODULE, TAINT_UNSIGNED_MODULE
+Locale: LANG=en_US.UTF-8, LC_CTYPE=en_US.UTF-8 (charmap=UTF-8), LANGUAGE=en_US:en (charmap=UTF-8)
+Shell: /bin/sh linked to /usr/bin/dash
+Init: systemd (via /run/systemd/system)
+LSM: AppArmor: enabled
+
+Versions of packages r-cran-dqrng depends on:
+ii  libc6                    2.29-3
+ii  libgcc1                  1:9.2.1-21
+ii  libpcg-cpp-dev           0.98.1-2
+ii  libstdc++6               9.2.1-21
+ii  r-base-core [r-api-3.5]  3.6.1-7
+ii  r-cran-rcpp              1.0.3-1
+
+Versions of packages r-cran-dqrng recommends:
+ii  r-cran-testthat  2.2.1-1
+
+Versions of packages r-cran-dqrng suggests:
+ii  r-cran-knitr      1.26+dfsg-1
+ii  r-cran-rmarkdown  1.15+dfsg-1
+
+-- no debconf information
+
+
+From noreply at release.debian.org  Thu Dec 19 04:39:28 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 19 Dec 2019 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-adephylo is marked for autoremoval from testing
+Message-ID: <E1ihnay-0004WL-AO@respighi.debian.org>
+
+r-cran-adephylo 1.1-11-3 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From Cole.Phillips at smu.ca  Thu Dec 19 02:44:51 2019
+From: Cole.Phillips at smu.ca (Cole Phillips)
+Date: Thu, 19 Dec 2019 02:44:51 +0000
+Subject: [R-pkg-team] Payment Reconciliation
+Message-ID: <YTXPR0101MB0720829214154AA22CFA4D438D520@YTXPR0101MB0720.CANPRD01.PROD.OUTLOOK.COM>
+
+Hello, Did you receive my earlier email as it regards a reconciliation with Mr Fu Huang CEO. PLEASE REPLY immediately. Regards
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20191219/c2da3209/attachment.html>
+
+From noreply at release.debian.org  Thu Dec 19 04:39:28 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 19 Dec 2019 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-treespace is marked for autoremoval from testing
+Message-ID: <E1ihnay-0004WG-8L@respighi.debian.org>
+
+r-cran-treespace 1.1.3.1+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From noreply at release.debian.org  Thu Dec 19 04:39:28 2019
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 19 Dec 2019 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-treescape is marked for autoremoval from testing
+Message-ID: <E1ihnay-0004WB-2x@respighi.debian.org>
+
+r-cran-treescape 1.10.18+dfsg-1 is marked for autoremoval from testing on 2020-01-24
+
+It (build-)depends on packages with these RC bugs:
+946566: r-cran-xml2: broken symlink: /usr/lib/R/site-library/xml2/extdata/html5shiv.min.js -> ../../../../nodejs/html5shiv/dist/html5shiv.min.js
+
+
+
+From andreas at fam-tille.de  Thu Dec 19 06:57:40 2019
+From: andreas at fam-tille.de (Andreas Tille)
+Date: Thu, 19 Dec 2019 07:57:40 +0100
+Subject: [R-pkg-team] Bug#946987: r-cran-dqrng: Relationship to
+ libpcg-cpp-dev and r-cran-sitmo
+In-Reply-To: <157670878997.85960.8973117904010528548.reportbug@barra>
+References: <157670878997.85960.8973117904010528548.reportbug@barra>
+ <157670878997.85960.8973117904010528548.reportbug@barra>
+Message-ID: <20191219065740.GG13090@an3as.eu>
+
+Hi Ralf,
+
+thanks for your close look at the package dependencies.
+
+On Wed, Dec 18, 2019 at 11:39:49PM +0100, Ralf Stubner wrote:
+> Package: r-cran-dqrng
+> Version: 0.2.1+dfsg-1
+> Severity: normal
+> 
+> Dear Maintainer,
+> 
+> it is nice to see my dqrng packaged for Debian. However, I find the relationship
+> to libpcg-cpp-dev and r-cran-sitmo surprising. Currently libpcg-cpp-dev is a
+> build and run-time dependency while r-cran-sitmo is only a build dependency. The
+> actual relationship of the dqrng code to these packages is quite similar, though.
+> Both packages have to be present at build time, and both backages are necessary
+> for certain use cases (using the C++ header only library to build your own code).
+> So from my point of view it would make sense to have libpcg-cpp-dev and
+> r-cran-sitmo as build dependnecy and as run-time recommend or suggest.
+
+Both, build-time as well as run-time dependencies are autogenerated.
+While the field Build-Depends is created by dh-update-R before the
+actual package build, the dependencies are resolved by dh-r in the
+${R:Depends} variable.  Both are parsing DESCRIPTION and this has
+
+   LinkingTo: sitmo (>= 2.0.0)
+
+which makes the strong Depends rectified in my perception.  As far as I
+understand the syntax fo the DESCRIPTION files there is no equivalent to
+the Debian Recommends and thus we have no way to distinguish here.
+Depends is just the safe decision to cover all use cases and in
+practical cases Recommends will be installed anyway if not explicitly
+excluded by the user.  So I do not see any problem here.
+
+Regarding libpcg-cpp-dev the dependency is manually added since the code
+copy inside dqrng is replaced by the Debian packaged lib (as per Debian
+policy).  It is definitely needed at package build-time.  May be it is
+fine to move it from Depends to Recommends in the binary package.  If you
+want me to change this to close that bug it is fine.
+ 
+> I am not sure which functionality of dqrng is used by r-cran-uwot. It might be
+> that r-cran-uwot will need a build dependency on libpcg-cpp-dev, too.
+
+Well, the Depends: libpcg-cpp-dev in r-cran-dqrng provides this
+implicitly.  So your suggested change makes packaging more complex which
+would be a good reason for me to simply leave it as is.
+
+Kind regards
+
+       Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From ralf.stubner at gmail.com  Thu Dec 19 07:39:36 2019
+From: ralf.stubner at gmail.com (Ralf Stubner)
+Date: Thu, 19 Dec 2019 08:39:36 +0100
+Subject: [R-pkg-team] Bug#946987: r-cran-dqrng: Relationship to
+ libpcg-cpp-dev and r-cran-sitmo
+In-Reply-To: <20191219065740.GG13090@an3as.eu>
+References: <157670878997.85960.8973117904010528548.reportbug@barra>
+ <20191219065740.GG13090@an3as.eu>
+ <157670878997.85960.8973117904010528548.reportbug@barra>
+Message-ID: <CAFQwRQx9bQOXQEi7qsmtJUtnr_=PGAQFK8nRCvxQkL-c-CFOaQ@mail.gmail.com>
+
+Hi Andreas,
+
+On Thu, Dec 19, 2019 at 7:57 AM Andreas Tille <andreas at fam-tille.de> wrote:
+> Both, build-time as well as run-time dependencies are autogenerated.
+> While the field Build-Depends is created by dh-update-R before the
+> actual package build, the dependencies are resolved by dh-r in the
+> ${R:Depends} variable.  Both are parsing DESCRIPTION and this has
+>
+>    LinkingTo: sitmo (>= 2.0.0)
+>
+> which makes the strong Depends rectified in my perception.
+
+A strong depends on sitmo would be fine as well. However, right now
+there is only
+a build-dependency on sitmo. Maybe the Depends was not generated because
+r-cran-sitmo seems to be missing from the archives?
+
+cheerio
+ralf
+
+
+From andreas at fam-tille.de  Thu Dec 19 09:05:01 2019
+From: andreas at fam-tille.de (Andreas Tille)
+Date: Thu, 19 Dec 2019 10:05:01 +0100
+Subject: [R-pkg-team] Bug#946987: r-cran-dqrng: Relationship to
+ libpcg-cpp-dev and r-cran-sitmo
+In-Reply-To: <CAFQwRQx9bQOXQEi7qsmtJUtnr_=PGAQFK8nRCvxQkL-c-CFOaQ@mail.gmail.com>
+References: <157670878997.85960.8973117904010528548.reportbug@barra>
+ <20191219065740.GG13090@an3as.eu>
+ <CAFQwRQx9bQOXQEi7qsmtJUtnr_=PGAQFK8nRCvxQkL-c-CFOaQ@mail.gmail.com>
+ <157670878997.85960.8973117904010528548.reportbug@barra>
+Message-ID: <20191219090501.GL13090@an3as.eu>
+
+On Thu, Dec 19, 2019 at 08:39:36AM +0100, Ralf Stubner wrote:
+> 
+> A strong depends on sitmo would be fine as well. However, right now
+> there is only
+> a build-dependency on sitmo. Maybe the Depends was not generated because
+> r-cran-sitmo seems to be missing from the archives?
+
+Arrrghhh, yes, this is definitely the point.  I'll care for this.  Somehow
+it sliped through.  Just uploaded to new.
+
+Thanks a lot for that hint, Andreas.
+ 
+
+-- 
+http://fam-tille.de
+
+
+From ftpmaster at ftp-master.debian.org  Thu Dec 19 09:11:51 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 19 Dec 2019 09:11:51 +0000
+Subject: [R-pkg-team] Processing of r-cran-sitmo_2.0.1-1_amd64.changes
+Message-ID: <E1ihrqZ-0007FK-SY@usper.debian.org>
+
+r-cran-sitmo_2.0.1-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-sitmo_2.0.1-1.dsc
+  r-cran-sitmo_2.0.1.orig.tar.gz
+  r-cran-sitmo_2.0.1-1.debian.tar.xz
+  r-cran-sitmo-dbgsym_2.0.1-1_amd64.deb
+  r-cran-sitmo_2.0.1-1_amd64.buildinfo
+  r-cran-sitmo_2.0.1-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Dec 19 09:19:12 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 19 Dec 2019 09:19:12 +0000
+Subject: [R-pkg-team] r-cran-sitmo_2.0.1-1_amd64.changes is NEW
+Message-ID: <E1ihrxg-000BAd-2K@fasolo.debian.org>
+
+binary:r-cran-sitmo is NEW.
+binary:r-cran-sitmo is NEW.
+source:r-cran-sitmo is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From seb128 at debian.org  Thu Dec 19 10:23:18 2019
+From: seb128 at debian.org (Sebastien Bacher)
+Date: Thu, 19 Dec 2019 11:23:18 +0100
+Subject: [R-pkg-team] Bug#947001: Tests segfaults (since the r-base-core
+ update?)
+Message-ID: <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+
+Package: r-bioc-iranges
+Version: 2.20.1-1
+
+The autopkgtest started failing on a segfault
+https://ci.debian.net/packages/r/r-bioc-iranges/unstable/amd64/
+
+It seems to have started with the r-base update
+-r-base-core 3.6.1-7
++r-base-core 3.6.1.20191206-1
+
+
+From seb128 at debian.org  Thu Dec 19 10:51:03 2019
+From: seb128 at debian.org (Sebastien Bacher)
+Date: Thu, 19 Dec 2019 11:51:03 +0100
+Subject: [R-pkg-team] Bug#947004: Tests segfaults (since the r-base-core
+ update?)
+Message-ID: <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+
+Package: r-bioc-s4vectors
+Version: 0.24.1-1
+
+The autopkgtest started failing on a segfault
+https://ci.debian.net/packages/r/r-bioc-s4vectors/unstable/amd64/
+
+It seems to have started with the r-base update
+-r-base-core 3.6.1-7
++r-base-core 3.6.1.20191206-1
+
+
+From grsr at mycaiscais.com  Fri Dec 20 08:05:11 2019
+From: grsr at mycaiscais.com (Atendimento AT 33288)
+Date: Fri, 20 Dec 2019 05:05:11 -0300
+Subject: [R-pkg-team] Emissao da fatura electronica. 06504
+Message-ID: <mailman.510.1576832715.569.r-pkg-team@alioth-lists.debian.net>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20191220/265b856e/attachment.html>
+
+From andreas at an3as.eu  Sun Dec 22 07:29:23 2019
+From: andreas at an3as.eu (Andreas Tille)
+Date: Sun, 22 Dec 2019 08:29:23 +0100
+Subject: [R-pkg-team] Bug#947001: IRanges segfaults after R was upgraded in
+ Debian (Was: Bug#947001: Tests segfaults (since the r-base-core update?))
+In-Reply-To: <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+References: <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+ <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <20191222072923.GU18381@an3as.eu>
+
+Control: tags -1 upstream
+Control: forwarded -1 Bioconductor Package Maintainer <maintainer at bioconductor.org>
+
+Hi,
+
+as you can read below the test suite of IRanges in Debian started failing
+after r-base-core was upgraded.  A complete build log can be found here
+
+   https://ci.debian.net/data/autopkgtest/unstable/amd64/r/r-bioc-iranges/3717079/log.gz
+
+which says at the end:
+
+...
+> IRanges:::.test()
+firstNA = 0 <=> *no* NA/NaN.
+firstNA = 0 <=> *no* NA/NaN.
+firstNA = 0 <=> *no* NA/NaN.
+firstNA = 0 <=> *no* NA/NaN.
+
+ *** caught segfault ***
+address 0x55c0daa0aa60, cause 'invalid permissions'
+
+Traceback:
+ 1: FUN(X[[i]], ...)
+ 2: FUN(X[[i]], ...)
+ 3: lapply(as.list(X), match.fun(FUN), ...)
+ 4: lapply(as.list(X), match.fun(FUN), ...)
+ 5: lapply(x, runmed, k = k, endrule = match.arg(endrule), algorithm = algorithm,     print.level = print.level)
+ 6: lapply(x, runmed, k = k, endrule = match.arg(endrule), algorithm = algorithm,     print.level = print.level)
+ 7: .dotargsAsList("numeric", ...)
+ 8: NumericList(lapply(x, runmed, k = k, endrule = match.arg(endrule),     algorithm = algorithm, print.level = print.level), compress = FALSE)
+ 9: runmed(list3, 7)
+10: runmed(list3, 7)
+11: as.list(runmed(list3, 7))
+12: checkIdentical(as.list(runmed(list3, 7)), lapply(list3, function(x) {    y <- runmed(x, 7)    if (type != "RleList")         y <- as.vector(y)    y}))
+13: func()
+14: system.time(func(), gcFirst = RUnitEnv$.gcBeforeTest)
+15: doTryCatch(return(expr), name, parentenv, handler)
+16: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+17: tryCatchList(expr, classes, parentenv, handlers)
+18: tryCatch(expr, error = function(e) {    call <- conditionCall(e)    if (!is.null(call)) {        if (identical(call[[1L]], quote(doTryCatch)))             call <- sys.call(-4L)        dcall <- deparse(call)[1L]        prefix <- paste("Error in", dcall, ": ")        LONG <- 75L        sm <- strsplit(conditionMessage(e), "\n")[[1L]]        w <- 14L + nchar(dcall, type = "w") + nchar(sm[1L], type = "w")        if (is.na(w))             w <- 14L + nchar(dcall, type = "b") + nchar(sm[1L],                 type = "b")        if (w > LONG)             prefix <- paste0(prefix, "\n  ")    }    else prefix <- "Error : "    msg <- paste0(prefix, conditionMessage(e), "\n")    .Internal(seterrmessage(msg[1L]))    if (!silent && isTRUE(getOption("show.error.messages"))) {        cat(msg, file = outFile)        .Internal(printDeferredWarnings())    }    invisible(structure(msg, class = "try-error", condition = e))})
+19: try(system.time(func(), gcFirst = RUnitEnv$.gcBeforeTest))
+20: .executeTestCase(funcName, envir = sandbox, setUpFunc = .setUp,     tearDownFunc = .tearDown)
+21: .sourceTestFile(testFile, testSuite$testFuncRegexp)
+22: RUnit::runTestSuite(suite)
+23: BiocGenerics:::testPackage("IRanges")
+24: IRanges:::.test()
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault
+
+
+Any idea how to fix this?  BTW, there is a similar effect with
+S4Vectors.  May be that's related.
+
+Kind regards
+
+       Andreas.
+
+
+
+On Thu, Dec 19, 2019 at 11:23:18AM +0100, Sebastien Bacher wrote:
+> Package: r-bioc-iranges
+> Version: 2.20.1-1
+> 
+> The autopkgtest started failing on a segfault
+> https://ci.debian.net/packages/r/r-bioc-iranges/unstable/amd64/
+> 
+> It seems to have started with the r-base update
+> -r-base-core 3.6.1-7
+> +r-base-core 3.6.1.20191206-1
+> 
+> _______________________________________________
+> R-pkg-team mailing list
+> R-pkg-team at alioth-lists.debian.net
+> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+
+-- 
+http://fam-tille.de
+
+
+From owner at bugs.debian.org  Sun Dec 22 07:33:05 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sun, 22 Dec 2019 07:33:05 +0000
+Subject: [R-pkg-team] Processed: IRanges segfaults after R was upgraded in
+ Debian (Was: Bug#947001: Tests segfaults (since the r-base-core update?))
+References: <20191222072923.GU18381@an3as.eu>
+ <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <handler.s.B947001.157699976514261.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 upstream
+Bug #947001 [r-bioc-iranges] Tests segfaults (since the r-base-core update?)
+Added tag(s) upstream.
+> forwarded -1 Bioconductor Package Maintainer <maintainer at bioconductor.org>
+Bug #947001 [r-bioc-iranges] Tests segfaults (since the r-base-core update?)
+Set Bug forwarded-to-address to 'Bioconductor Package Maintainer <maintainer at bioconductor.org>'.
+
+-- 
+947001: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=947001
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From andreas at an3as.eu  Sun Dec 22 07:33:28 2019
+From: andreas at an3as.eu (Andreas Tille)
+Date: Sun, 22 Dec 2019 08:33:28 +0100
+Subject: [R-pkg-team] Bug#947004: S4Vectors Segmentation fault after
+ r-base-core update (Was: Bug#947004: Tests segfaults (since the r-base-core
+ update?))
+In-Reply-To: <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+References: <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+ <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <20191222073328.GV18381@an3as.eu>
+
+Control: tags -1 upstream
+Control: forwarded -1 Bioconductor Package Maintainer <maintainer at bioconductor.org>
+
+Hi,
+
+as you can read below S4Vectors segfaults in its test.  Here you can
+find a complete test log
+
+   https://ci.debian.net/data/autopkgtest/unstable/amd64/r/r-bioc-s4vectors/3725032/log.gz
+
+which says in the end:
+
+...
+> S4Vectors:::.test()
+
+ *** caught segfault ***
+address 0x5586e27d4a60, cause 'invalid permissions'
+
+Traceback:
+ 1: runmed(y, 7)
+ 2: runmed(y, 7)
+ 3: as.vector(target)
+ 4: mode(target)
+ 5: attr.all.equal(target, current, tolerance = tolerance, scale = scale,     ...)
+ 6: all.equal.numeric(as.vector(target), as.vector(current), tolerance = tolerance,     ...)
+ 7: checkEqualsNumeric(runmed(y, 7), as.vector(runmed(Rle(y), 7)))
+ 8: func()
+ 9: system.time(func(), gcFirst = RUnitEnv$.gcBeforeTest)
+10: doTryCatch(return(expr), name, parentenv, handler)
+11: tryCatchOne(expr, names, parentenv, handlers[[1L]])
+12: tryCatchList(expr, classes, parentenv, handlers)
+13: tryCatch(expr, error = function(e) {    call <- conditionCall(e)    if (!is.null(call)) {        if (identical(call[[1L]], quote(doTryCatch)))             call <- sys.call(-4L)        dcall <- deparse(call)[1L]        prefix <- paste("Error in", dcall, ": ")        LONG <- 75L        sm <- strsplit(conditionMessage(e), "\n")[[1L]]        w <- 14L + nchar(dcall, type = "w") + nchar(sm[1L], type = "w")        if (is.na(w))             w <- 14L + nchar(dcall, type = "b") + nchar(sm[1L],                 type = "b")        if (w > LONG)             prefix <- paste0(prefix, "\n  ")    }    else prefix <- "Error : "    msg <- paste0(prefix, conditionMessage(e), "\n")    .Internal(seterrmessage(msg[1L]))    if (!silent && isTRUE(getOption("show.error.messages"))) {        cat(msg, file = outFile)        .Internal(printDeferredWarnings())    }    invisible(structure(msg, class = "try-error", condition = e))})
+14: try(system.time(func(), gcFirst = RUnitEnv$.gcBeforeTest))
+15: .executeTestCase(funcName, envir = sandbox, setUpFunc = .setUp,     tearDownFunc = .tearDown)
+16: .sourceTestFile(testFile, testSuite$testFuncRegexp)
+17: RUnit::runTestSuite(suite)
+18: BiocGenerics:::testPackage("S4Vectors")
+19: S4Vectors:::.test()
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault
+
+
+Any idea how to fix this?
+
+Kind regards
+
+        Andreas.
+
+On Thu, Dec 19, 2019 at 11:51:03AM +0100, Sebastien Bacher wrote:
+> Package: r-bioc-s4vectors
+> Version: 0.24.1-1
+> 
+> The autopkgtest started failing on a segfault
+> https://ci.debian.net/packages/r/r-bioc-s4vectors/unstable/amd64/
+> 
+> It seems to have started with the r-base update
+> -r-base-core 3.6.1-7
+> +r-base-core 3.6.1.20191206-1
+> 
+> _______________________________________________
+> R-pkg-team mailing list
+> R-pkg-team at alioth-lists.debian.net
+> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+
+-- 
+http://fam-tille.de
+
+
+From owner at bugs.debian.org  Sun Dec 22 07:36:07 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sun, 22 Dec 2019 07:36:07 +0000
+Subject: [R-pkg-team] Processed: S4Vectors Segmentation fault after
+ r-base-core update (Was: Bug#947004: Tests segfaults (since the r-base-core
+ update?))
+References: <20191222073328.GV18381@an3as.eu>
+ <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <handler.s.B947004.157700001016020.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tags -1 upstream
+Bug #947004 [r-bioc-s4vectors] Tests segfaults (since the r-base-core update?)
+Added tag(s) upstream.
+> forwarded -1 Bioconductor Package Maintainer <maintainer at bioconductor.org>
+Bug #947004 [r-bioc-s4vectors] Tests segfaults (since the r-base-core update?)
+Set Bug forwarded-to-address to 'Bioconductor Package Maintainer <maintainer at bioconductor.org>'.
+
+-- 
+947004: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=947004
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ftpmaster at ftp-master.debian.org  Sun Dec 22 08:12:30 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 22 Dec 2019 08:12:30 +0000
+Subject: [R-pkg-team] Processing of r-bioc-rhdf5_2.30.1+dfsg-1_source.changes
+Message-ID: <E1iiwLm-0000kU-KE@usper.debian.org>
+
+r-bioc-rhdf5_2.30.1+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-rhdf5_2.30.1+dfsg-1.dsc
+  r-bioc-rhdf5_2.30.1+dfsg.orig.tar.xz
+  r-bioc-rhdf5_2.30.1+dfsg-1.debian.tar.xz
+  r-bioc-rhdf5_2.30.1+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sun Dec 22 08:35:56 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 22 Dec 2019 08:35:56 +0000
+Subject: [R-pkg-team] r-bioc-rhdf5_2.30.1+dfsg-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1iiwiS-000Hrh-Km@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 22 Dec 2019 08:41:27 +0100
+Source: r-bioc-rhdf5
+Architecture: source
+Version: 2.30.1+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-bioc-rhdf5 (2.30.1+dfsg-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+     Repository-Browse.
+   * Test-Depends: r-cran-bit64
+   * Fix Test failures with latest rhdf5
+Checksums-Sha1:
+ beda003e5012af571154497ce45b3ed3f0e31834 2167 r-bioc-rhdf5_2.30.1+dfsg-1.dsc
+ 26818e18842e5a3bb1c7a98c79a3a6e0ad660af3 184192 r-bioc-rhdf5_2.30.1+dfsg.orig.tar.xz
+ 57ebf11e563da25744f6d8fd279cf82f23c6ca8b 28860 r-bioc-rhdf5_2.30.1+dfsg-1.debian.tar.xz
+ fe7686321965da405fa5201281725aa4b405af57 9132 r-bioc-rhdf5_2.30.1+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 5769a7fa9c8a0ac5690017b05b1c7a39eda26f00ad8e446bf3ca85dd500e05eb 2167 r-bioc-rhdf5_2.30.1+dfsg-1.dsc
+ 25e5675150bcb5053b1c727e0f1f7a9a8d5a003d6935ec7c532e95265591667f 184192 r-bioc-rhdf5_2.30.1+dfsg.orig.tar.xz
+ e04e05a4b189cd5aed47728072123adc9946658965e1bcb05783cdaa053e8234 28860 r-bioc-rhdf5_2.30.1+dfsg-1.debian.tar.xz
+ 37e7818e672ab3814e35adf887eb3b12d4e49ca3313b1840335fcf7096e955cb 9132 r-bioc-rhdf5_2.30.1+dfsg-1_amd64.buildinfo
+Files:
+ 48ac37a6a1dc089e26d31cce5adbea60 2167 gnu-r optional r-bioc-rhdf5_2.30.1+dfsg-1.dsc
+ 2916ae50c2ce9a0332a821c1add51c3f 184192 gnu-r optional r-bioc-rhdf5_2.30.1+dfsg.orig.tar.xz
+ 607c021d34bfe4cab1bc48ca863c859a 28860 gnu-r optional r-bioc-rhdf5_2.30.1+dfsg-1.debian.tar.xz
+ e8ee0875a841902e7b75d50a942a593d 9132 gnu-r optional r-bioc-rhdf5_2.30.1+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAl3/IpMRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtF1Dw/7BKZ9CwL3TvFdnT2Oy6unjaXWQy0vOkY4
+s440OshZUHiiABG31rPsp362tTDVr193EvHMVi6ZRKrENKfBSzWYYnDgkRkYsx8h
+iDt+OZRuGVK2sxtht9joBOecGPJYt6gOMnhne5P5u3TeNFvbuGjW3uy8IIa0vDPh
+1A0F4ZrldyCRn77CAgHRkDaJcJxZs+Z15NG9zl+g9S13WxOV2QkxSaayABwGghxk
+Hf3Sp+O9PohWKcoA4TjLSz1wSSgxfGikDRTFOP+N3GkMKge4a3enFyUAlAZSLPpD
+NQ7lJzmUM8oP1xCzhObSVh5C1Fk4ja6TkVT2030Z1Q8r64NoSKUCfUdefdL2Lwcg
+1wjmMiqa7TtCUUqQU4h6F2AmN6/nTAeQ0s9LqcXbwNIFdt7bwln1XxnQee+7cMFI
+tDWGclOfmfRT2mxFSOXuzKFFGgNutghytjTmYOlYPRVUBl85DZWWCFTDiZjByUoZ
+QDkd2/3oS0JYrBJLAMcIzmbNAVmB4gleKxrLvxCJ3DKHxTPMBXXsMopogzpEGi1T
+KxxsgoebR2q5ubmHLKgfvj2JTDhgZT0O7wJhK/ob2698KWtnxCFtX63U2LHltvV/
+J/Z9yStTfpMauAixIRt9+ENCHk3VA/GgFIXc2XCo9cXfX/xcFH8tgxnkKZ1yQWLJ
+jQnhNH0Xvak=
+=VFzN
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ginggs at debian.org  Sun Dec 22 12:09:59 2019
+From: ginggs at debian.org (Graham Inggs)
+Date: Sun, 22 Dec 2019 14:09:59 +0200
+Subject: [R-pkg-team] Bug#947001: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+References: <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+
+In Ubuntu, r-bioc-iranges and r-bioc-s4vectors autopkgtests failed
+with r-base/3.6.2-1.
+
+However, after the upload of r-base/3.6.2-2, both autopkgtests passed
+on ppc64el [1][2].
+
+Could this be related to the change for ppc64 [3]?
+
+
+[1] http://autopkgtest.ubuntu.com/packages/r/r-bioc-iranges/focal/ppc64el
+[2] http://autopkgtest.ubuntu.com/packages/r/r-bioc-s4vectors/focal/ppc64el
+[3] https://salsa.debian.org/edd/r-base/commit/de0abdf806db7c2eebf341ff3040b11e971cef9d
+
+
+From ginggs at debian.org  Sun Dec 22 12:09:59 2019
+From: ginggs at debian.org (Graham Inggs)
+Date: Sun, 22 Dec 2019 14:09:59 +0200
+Subject: [R-pkg-team] Bug#947004: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+References: <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+
+In Ubuntu, r-bioc-iranges and r-bioc-s4vectors autopkgtests failed
+with r-base/3.6.2-1.
+
+However, after the upload of r-base/3.6.2-2, both autopkgtests passed
+on ppc64el [1][2].
+
+Could this be related to the change for ppc64 [3]?
+
+
+[1] http://autopkgtest.ubuntu.com/packages/r/r-bioc-iranges/focal/ppc64el
+[2] http://autopkgtest.ubuntu.com/packages/r/r-bioc-s4vectors/focal/ppc64el
+[3] https://salsa.debian.org/edd/r-base/commit/de0abdf806db7c2eebf341ff3040b11e971cef9d
+
+
+From edd at debian.org  Sun Dec 22 14:02:05 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Sun, 22 Dec 2019 08:02:05 -0600
+Subject: [R-pkg-team] Bug#947001: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <24063.30557.3148.530998@rob.eddelbuettel.com>
+
+
+On 22 December 2019 at 14:09, Graham Inggs wrote:
+| In Ubuntu, r-bioc-iranges and r-bioc-s4vectors autopkgtests failed
+| with r-base/3.6.2-1.
+| 
+| However, after the upload of r-base/3.6.2-2, both autopkgtests passed
+| on ppc64el [1][2].
+| 
+| Could this be related to the change for ppc64 [3]?
+
+Possibly, yes.  R 3.6.2 brought that change, it was reported as an issue
+upstream by the RedHat folks, but also integrated the changes pretty quickly
+(and about the same time as upstream).
+
+So do we "just" need to tickle rebuilds for these two?  If so, how?
+
+Dirk
+ 
+| [1] http://autopkgtest.ubuntu.com/packages/r/r-bioc-iranges/focal/ppc64el
+| [2] http://autopkgtest.ubuntu.com/packages/r/r-bioc-s4vectors/focal/ppc64el
+| [3] https://salsa.debian.org/edd/r-base/commit/de0abdf806db7c2eebf341ff3040b11e971cef9d
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From edd at debian.org  Sun Dec 22 14:02:05 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Sun, 22 Dec 2019 08:02:05 -0600
+Subject: [R-pkg-team] Bug#947004: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <24063.30557.3148.530998@rob.eddelbuettel.com>
+
+
+On 22 December 2019 at 14:09, Graham Inggs wrote:
+| In Ubuntu, r-bioc-iranges and r-bioc-s4vectors autopkgtests failed
+| with r-base/3.6.2-1.
+| 
+| However, after the upload of r-base/3.6.2-2, both autopkgtests passed
+| on ppc64el [1][2].
+| 
+| Could this be related to the change for ppc64 [3]?
+
+Possibly, yes.  R 3.6.2 brought that change, it was reported as an issue
+upstream by the RedHat folks, but also integrated the changes pretty quickly
+(and about the same time as upstream).
+
+So do we "just" need to tickle rebuilds for these two?  If so, how?
+
+Dirk
+ 
+| [1] http://autopkgtest.ubuntu.com/packages/r/r-bioc-iranges/focal/ppc64el
+| [2] http://autopkgtest.ubuntu.com/packages/r/r-bioc-s4vectors/focal/ppc64el
+| [3] https://salsa.debian.org/edd/r-base/commit/de0abdf806db7c2eebf341ff3040b11e971cef9d
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From edd at debian.org  Sun Dec 22 14:09:49 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Sun, 22 Dec 2019 08:09:49 -0600
+Subject: [R-pkg-team] Bug#947001: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <24063.30557.3148.530998@rob.eddelbuettel.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <24063.30557.3148.530998@rob.eddelbuettel.com>
+ <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <24063.31021.473485.966401@rob.eddelbuettel.com>
+
+
+On 22 December 2019 at 08:02, Dirk Eddelbuettel wrote:
+| 
+| On 22 December 2019 at 14:09, Graham Inggs wrote:
+| | In Ubuntu, r-bioc-iranges and r-bioc-s4vectors autopkgtests failed
+| | with r-base/3.6.2-1.
+| | 
+| | However, after the upload of r-base/3.6.2-2, both autopkgtests passed
+| | on ppc64el [1][2].
+| | 
+| | Could this be related to the change for ppc64 [3]?
+| 
+| Possibly, yes.  R 3.6.2 brought that change, it was reported as an issue
+| upstream by the RedHat folks, but also integrated the changes pretty quickly
+| (and about the same time as upstream).
+ 
+On the other hand the ppc64 is one of 'blocking compilation' so it can't
+really segfaults at tests.
+
+Dirk
+
+| So do we "just" need to tickle rebuilds for these two?  If so, how?
+|
+| Dirk
+|  
+| | [1] http://autopkgtest.ubuntu.com/packages/r/r-bioc-iranges/focal/ppc64el
+| | [2] http://autopkgtest.ubuntu.com/packages/r/r-bioc-s4vectors/focal/ppc64el
+| | [3] https://salsa.debian.org/edd/r-base/commit/de0abdf806db7c2eebf341ff3040b11e971cef9d
+| 
+| -- 
+| http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From edd at debian.org  Sun Dec 22 14:09:49 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Sun, 22 Dec 2019 08:09:49 -0600
+Subject: [R-pkg-team] Bug#947004: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <24063.30557.3148.530998@rob.eddelbuettel.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <24063.30557.3148.530998@rob.eddelbuettel.com>
+ <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <24063.31021.473485.966401@rob.eddelbuettel.com>
+
+
+On 22 December 2019 at 08:02, Dirk Eddelbuettel wrote:
+| 
+| On 22 December 2019 at 14:09, Graham Inggs wrote:
+| | In Ubuntu, r-bioc-iranges and r-bioc-s4vectors autopkgtests failed
+| | with r-base/3.6.2-1.
+| | 
+| | However, after the upload of r-base/3.6.2-2, both autopkgtests passed
+| | on ppc64el [1][2].
+| | 
+| | Could this be related to the change for ppc64 [3]?
+| 
+| Possibly, yes.  R 3.6.2 brought that change, it was reported as an issue
+| upstream by the RedHat folks, but also integrated the changes pretty quickly
+| (and about the same time as upstream).
+ 
+On the other hand the ppc64 is one of 'blocking compilation' so it can't
+really segfaults at tests.
+
+Dirk
+
+| So do we "just" need to tickle rebuilds for these two?  If so, how?
+|
+| Dirk
+|  
+| | [1] http://autopkgtest.ubuntu.com/packages/r/r-bioc-iranges/focal/ppc64el
+| | [2] http://autopkgtest.ubuntu.com/packages/r/r-bioc-s4vectors/focal/ppc64el
+| | [3] https://salsa.debian.org/edd/r-base/commit/de0abdf806db7c2eebf341ff3040b11e971cef9d
+| 
+| -- 
+| http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From ginggs at debian.org  Sun Dec 22 14:55:29 2019
+From: ginggs at debian.org (Graham Inggs)
+Date: Sun, 22 Dec 2019 16:55:29 +0200
+Subject: [R-pkg-team] Bug#947001: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <24063.31021.473485.966401@rob.eddelbuettel.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <24063.30557.3148.530998@rob.eddelbuettel.com>
+ <24063.31021.473485.966401@rob.eddelbuettel.com>
+ <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <CAM8zJQtVSE=r9yNOW5T4nbPz66QSLxLGDhn3szSOa7ZyTWqZ6w@mail.gmail.com>
+
+On Sun, 22 Dec 2019 at 16:10, Dirk Eddelbuettel <edd at debian.org> wrote:
+> On the other hand the ppc64 is one of 'blocking compilation' so it can't
+> really segfaults at tests.
+
+I don't know what that means, but both the r-bioc-iranges and
+r-bioc-s4vectors autopkgtests with r-base/3.6.2-1 on ppc64el showed:
+
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+
+
+From ginggs at debian.org  Sun Dec 22 14:55:29 2019
+From: ginggs at debian.org (Graham Inggs)
+Date: Sun, 22 Dec 2019 16:55:29 +0200
+Subject: [R-pkg-team] Bug#947004: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <24063.31021.473485.966401@rob.eddelbuettel.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <24063.30557.3148.530998@rob.eddelbuettel.com>
+ <24063.31021.473485.966401@rob.eddelbuettel.com>
+ <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <CAM8zJQtVSE=r9yNOW5T4nbPz66QSLxLGDhn3szSOa7ZyTWqZ6w@mail.gmail.com>
+
+On Sun, 22 Dec 2019 at 16:10, Dirk Eddelbuettel <edd at debian.org> wrote:
+> On the other hand the ppc64 is one of 'blocking compilation' so it can't
+> really segfaults at tests.
+
+I don't know what that means, but both the r-bioc-iranges and
+r-bioc-s4vectors autopkgtests with r-base/3.6.2-1 on ppc64el showed:
+
+An irrecoverable exception occurred. R is aborting now ...
+Segmentation fault (core dumped)
+
+
+From edd at debian.org  Sun Dec 22 16:16:08 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Sun, 22 Dec 2019 10:16:08 -0600
+Subject: [R-pkg-team] Bug#947001: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <CAM8zJQtVSE=r9yNOW5T4nbPz66QSLxLGDhn3szSOa7ZyTWqZ6w@mail.gmail.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <24063.30557.3148.530998@rob.eddelbuettel.com>
+ <24063.31021.473485.966401@rob.eddelbuettel.com>
+ <CAM8zJQtVSE=r9yNOW5T4nbPz66QSLxLGDhn3szSOa7ZyTWqZ6w@mail.gmail.com>
+ <a863889f-2c0b-1a0d-5396-17b793a541d9@debian.org>
+Message-ID: <24063.38600.77534.485943@rob.eddelbuettel.com>
+
+
+On 22 December 2019 at 16:55, Graham Inggs wrote:
+| On Sun, 22 Dec 2019 at 16:10, Dirk Eddelbuettel <edd at debian.org> wrote:
+| > On the other hand the ppc64 is one of 'blocking compilation' so it can't
+| > really segfaults at tests.
+| 
+| I don't know what that means, but both the r-bioc-iranges and
+| r-bioc-s4vectors autopkgtests with r-base/3.6.2-1 on ppc64el showed:
+| 
+| An irrecoverable exception occurred. R is aborting now ...
+| Segmentation fault (core dumped)
+
+ppc64 had a 'cannot compile' issue. See eg this email + thread by Tom Callaway 
+https://stat.ethz.ch/pipermail/r-devel/2019-December/078801.html
+
+So that would not be the same issue as these segfaults. I have seen segfaults
+like this with C++ code, frequently just requiring a recompilation. CRAN and
+BioC code is generally well enough tested at those repos to not just randomly
+segfault.
+
+But these are not my packages, and I do not use them so I am shooting a
+little from the hip here.  And it looks like iranges depends on s4vectors, so
+presumably only the latter needs a fix or rebuild?
+
+Dirk
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From edd at debian.org  Sun Dec 22 16:16:08 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Sun, 22 Dec 2019 10:16:08 -0600
+Subject: [R-pkg-team] Bug#947004: r-base blocked by r-bioc-{iranges,
+ s4vectors}
+In-Reply-To: <CAM8zJQtVSE=r9yNOW5T4nbPz66QSLxLGDhn3szSOa7ZyTWqZ6w@mail.gmail.com>
+References: <CAM8zJQs1BkkuVPfiqEK0ow_+95SLVnpTnDnOpoPp-kta1hsCUQ@mail.gmail.com>
+ <24063.30557.3148.530998@rob.eddelbuettel.com>
+ <24063.31021.473485.966401@rob.eddelbuettel.com>
+ <CAM8zJQtVSE=r9yNOW5T4nbPz66QSLxLGDhn3szSOa7ZyTWqZ6w@mail.gmail.com>
+ <f3c854c5-cfc3-b1a5-6d5b-6ee30c2347ee@debian.org>
+Message-ID: <24063.38600.77534.485943@rob.eddelbuettel.com>
+
+
+On 22 December 2019 at 16:55, Graham Inggs wrote:
+| On Sun, 22 Dec 2019 at 16:10, Dirk Eddelbuettel <edd at debian.org> wrote:
+| > On the other hand the ppc64 is one of 'blocking compilation' so it can't
+| > really segfaults at tests.
+| 
+| I don't know what that means, but both the r-bioc-iranges and
+| r-bioc-s4vectors autopkgtests with r-base/3.6.2-1 on ppc64el showed:
+| 
+| An irrecoverable exception occurred. R is aborting now ...
+| Segmentation fault (core dumped)
+
+ppc64 had a 'cannot compile' issue. See eg this email + thread by Tom Callaway 
+https://stat.ethz.ch/pipermail/r-devel/2019-December/078801.html
+
+So that would not be the same issue as these segfaults. I have seen segfaults
+like this with C++ code, frequently just requiring a recompilation. CRAN and
+BioC code is generally well enough tested at those repos to not just randomly
+segfault.
+
+But these are not my packages, and I do not use them so I am shooting a
+little from the hip here.  And it looks like iranges depends on s4vectors, so
+presumably only the latter needs a fix or rebuild?
+
+Dirk
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+

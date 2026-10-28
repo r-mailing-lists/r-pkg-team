@@ -1,0 +1,715 @@
+From info8779 at gmail.com  Tue Jun 11 13:24:50 2019
+From: info8779 at gmail.com (Business loan/Debt financing:)
+Date: Tue, 11 Jun 2019 13:24:50 +0100
+Subject: [R-pkg-team] Business loan/Debt financing
+Message-ID: <CAOW+g0L2cK22i0vVKF67=bG7K9VP70e_h6yFV48d0QNRFTeAqw@mail.gmail.com>
+
+Hello
+
+RE: Business loan/Debt financing:
+
+We are an established entity here in the Middle East with series of
+successfully closed deals and strong partnerships achieved by years of
+continuous diligence, trust and uninterrupted attention to our clients. We
+have financed various projects and ventures in different countries through
+our investment funds/venture capital.
+
+We are now seeking to invest in various feasible projects from various
+sectors of the economy of different regions around the globe by offering
+commercial refinancing, purchase or bridge loans of between USD $1 million
+to $100 Million only at 4% interest annually for a duration not more than
+10 years.
+
+We are basically seeking expansion strategy through diversified strategic
+partnership. We have a broad view on investment banking from expertise of
+our team. Based on the above information, we shall be glad to receive your
+Project Plan/Executive Summary in a compatible format (PDF -recommended)
+for our review. Reply if interested and have viable business proposal to
+present for funding.
+
+Allah Bless,
+Sheikh Zayed Hussein.
+Chief Financial Officer
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190611/8c1ac01e/attachment.html>
+
+From lamby at debian.org  Tue Jun 11 15:43:33 2019
+From: lamby at debian.org (Chris Lamb)
+Date: Tue, 11 Jun 2019 15:43:33 +0100
+Subject: [R-pkg-team] Bug#930369: dh-r: Please drop automated
+ package-contains-documentation-outside-usr-share-doc Lintian override
+ generation
+Message-ID: <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+
+Package: dh-r
+Version: 20190121
+Severity: wishlist
+X-Debbugs-CC: lintian-maint at debian.org
+
+Hi,
+
+In #930311, Niels Thykier mentions that he:
+
+> noticed that the dh-r package by default creates an override for
+> package-contains-documentation-outside-usr-share-doc when the R
+> package puts documentation in usr/lib/R/site-library
+
+To wit, https://sources.debian.org/src/dh-r/20190121/dh/R.pm/?hl=3#L268.
+
+My retort was that "the idea of automatically-generated overrides
+simply makes me squirm" and so I added an exception to Lintian itself
+here:
+
+  https://salsa.debian.org/lintian/lintian/commit/a16cd3a1c812c8894bddf9b920561eb0dd602d85
+
+Accordingly, please remove the automatic generation code. At the very
+least it will now result in annoying "unused override" warnings
+instead.
+
+(As an aside, if a similar situation occurs in the future, please
+consider requesting the Lintian maintainers to make a general
+exception; it is surely poor software engineering practice to litter
+our entire archive when we can so easily fix it in one place.)
+
+
+Best wishes,
+
+-- 
+      ,''`.
+     : :'  :     Chris Lamb
+     `. `'`      lamby at debian.org / chris-lamb.co.uk
+       `-
+
+
+From kris.hariseno at cp.co.id  Tue Jun 11 22:59:27 2019
+From: kris.hariseno at cp.co.id (kris.hariseno at cp.co.id)
+Date: Wed, 12 Jun 2019 04:59:27 +0700 (WIT)
+Subject: [R-pkg-team] RE!
+Message-ID: <1651645890.13532.1560290367483.JavaMail.root@btnzmb02>
+
+
+
+
+Hello, I have something very important to discuss with you, kindly write me on my personal email address : austmiller1962 at usa.com
+Can I Trust You??
+
+
+From tille at debian.org  Wed Jun 12 08:33:46 2019
+From: tille at debian.org (Andreas Tille)
+Date: Wed, 12 Jun 2019 09:33:46 +0200
+Subject: [R-pkg-team] Bug#930369: dh-r: Please drop automated
+ package-contains-documentation-outside-usr-share-doc Lintian override
+ generation
+In-Reply-To: <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+References: <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+ <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+Message-ID: <20190612073346.a23gopidq2jbtgs5@an3as.eu>
+
+Hi Chris,
+
+On Tue, Jun 11, 2019 at 03:43:33PM +0100, Chris Lamb wrote:
+> In #930311, Niels Thykier mentions that he:
+> 
+> > noticed that the dh-r package by default creates an override for
+> > package-contains-documentation-outside-usr-share-doc when the R
+> > package puts documentation in usr/lib/R/site-library
+> 
+> To wit, https://sources.debian.org/src/dh-r/20190121/dh/R.pm/?hl=3#L268.
+> 
+> My retort was that "the idea of automatically-generated overrides
+> simply makes me squirm" and so I added an exception to Lintian itself
+> here:
+> 
+>   https://salsa.debian.org/lintian/lintian/commit/a16cd3a1c812c8894bddf9b920561eb0dd602d85
+
+Thanks for this.
+ 
+> Accordingly, please remove the automatic generation code. At the very
+> least it will now result in annoying "unused override" warnings
+> instead.
+> 
+> (As an aside, if a similar situation occurs in the future, please
+> consider requesting the Lintian maintainers to make a general
+> exception; it is surely poor software engineering practice to litter
+> our entire archive when we can so easily fix it in one place.)
+
+I fully agree.  As always this was a quick-n-dirty hack which survived
+way longer than planed.  Since I somehow sticked to this hack it was
+also done for
+
+    font-in-non-font-package and font-outside-font-dir
+
+as you can see in
+
+    https://salsa.debian.org/r-pkg-team/dh-r/blob/master/dh/R.pm
+
+in line 268 (you see I've just commited a fix for the doc issue).
+Would you also add an exception for lintian to not warn about those
+fonts coming with R packages (I'm fine if you leave it but make it
+of level pedantic instead of info).
+
+Kind regards and thanks a lot for maintaining lintian
+
+     Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From tille at debian.org  Wed Jun 12 09:58:00 2019
+From: tille at debian.org (Andreas Tille)
+Date: Wed, 12 Jun 2019 10:58:00 +0200
+Subject: [R-pkg-team] updating r-cran-v8 in experimental
+In-Reply-To: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+References: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+Message-ID: <20190612085800.zplmfdeiy3jexooa@an3as.eu>
+
+Hi Jeroen,
+
+On Sun, Jun 09, 2019 at 02:39:33PM +0200, Jeroen Ooms wrote:
+> Debian 'experimental' now has nodeJS v12.x which ships with a new
+> version of the v8 engine. In order to build r-cran-v8 against this
+> libnode, you need the latest version of the R package:
+> https://cran.r-project.org/web/packages/V8/index.html
+
+Thanks a lot for this hint.
+ 
+> Perhaps r-cran-v8 2.2 should be uploaded to experimental?
+
+Unfortunately I get:
+
+...
+I: R packages needed for DEP8: testthat
+I: R Package: V8 Version: 2.2
+I: Building using R version 3.6.0-2
+I: R API version: r-api-3.5
+I: Using built-time from d/changelog: Wed, 12 Jun 2019 09:49:25 +0200
+        mkdir -p /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library
+        R CMD INSTALL -l /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library --clean . "--built-timestamp='Wed, 12 Jun 2019 09:49:25 +0200'"
+* installing *source* package 'V8' ...
+files 'inst/doc/npm.html', 'inst/doc/v8_intro.html' are missing
+** using staged installation
+Using PKG_CFLAGS=-I/usr/include/v8 -I/usr/include/v8-3.14
+Using PKG_LIBS=-lv8 -lv8_libplatform
+** libs
+make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+rm -f V8.so RcppExports.o bindings.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8 -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"  -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8 -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"  -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-z,relro -o V8.so RcppExports.o bindings.o -lv8 -lv8_libplatform -L/usr/lib/R/lib -lR
+make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+installing to /build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Error: package or namespace load failed for 'V8' in dyn.load(file, DLLpath = DLLpath, ...):
+ unable to load shared object '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs/V8.so':
+  /usr/lib/x86_64-linux-gnu/libnode.so.72: undefined symbol: _ZN4node13native_module14has_code_cacheE
+Error: loading failed
+Execution halted
+ERROR: loading failed
+* removing '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/V8'
+
+
+I have no idea what might be wrong here. 
+
+> Also the description of the package has changed (a long time ago) so
+> perhaps this can be updated as well :)
+
+Fixed in Git.
+
+Kind regards
+
+      Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From lamby at debian.org  Wed Jun 12 15:51:28 2019
+From: lamby at debian.org (Chris Lamb)
+Date: Wed, 12 Jun 2019 15:51:28 +0100
+Subject: [R-pkg-team] Bug#930369: dh-r: Please drop automated
+ package-contains-documentation-outside-usr-share-doc Lintian override
+ generation
+In-Reply-To: <20190612073346.a23gopidq2jbtgs5@an3as.eu>
+References: <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+ <20190612073346.a23gopidq2jbtgs5@an3as.eu>
+ <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+Message-ID: <bcc6f89d-f2ee-4ecc-b022-7c221566c480@www.fastmail.com>
+
+Hi Andreas,
+
+> https://salsa.debian.org/r-pkg-team/dh-r/blob/master/dh/R.pm
+> 
+> in line 268 (you see I've just commited a fix for the doc issue).
+>
+> Would you also add an exception for lintian to not warn about those
+> fonts coming with R packages […]
+
+Thanks for making the changes on your end; you can go ahead and remove
+the font exception generation too now as I've done the Lintian side in:
+
+  https://salsa.debian.org/lintian/lintian/commit/d6aa1908790321af0aa3c7ab7250f19f8f56db2a
+
+> […] I'm fine if you leave it but make it of level pedantic instead
+> of info
+
+(Lintian does not support per-instance severity levels; it is a
+"global" property of the tag.)
+
+
+Best wishes,
+
+-- 
+      ,''`.
+     : :'  :     Chris Lamb
+     `. `'`      lamby at debian.org 🍥 chris-lamb.co.uk
+       `-
+
+
+From tille at debian.org  Wed Jun 12 16:35:08 2019
+From: tille at debian.org (Andreas Tille)
+Date: Wed, 12 Jun 2019 17:35:08 +0200
+Subject: [R-pkg-team] Bug#930369: dh-r: Please drop automated
+ package-contains-documentation-outside-usr-share-doc Lintian override
+ generation
+In-Reply-To: <bcc6f89d-f2ee-4ecc-b022-7c221566c480@www.fastmail.com>
+References: <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+ <20190612073346.a23gopidq2jbtgs5@an3as.eu>
+ <bcc6f89d-f2ee-4ecc-b022-7c221566c480@www.fastmail.com>
+ <f975f5cc-33b2-45a7-9c9b-3d7752a0ad90@www.fastmail.com>
+Message-ID: <20190612153508.quw2yo7snftknpzq@an3as.eu>
+
+On Wed, Jun 12, 2019 at 03:51:28PM +0100, Chris Lamb wrote:
+> > Would you also add an exception for lintian to not warn about those
+> > fonts coming with R packages […]
+> 
+> Thanks for making the changes on your end; you can go ahead and remove
+> the font exception generation too now as I've done the Lintian side in:
+> 
+>   https://salsa.debian.org/lintian/lintian/commit/d6aa1908790321af0aa3c7ab7250f19f8f56db2a
+
+Done in Git.  I'll test the changes for some time and may be we'll wait
+with any upload after Buster release.
+
+Kind regards
+
+      Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From jeroen at berkeley.edu  Wed Jun 12 16:51:50 2019
+From: jeroen at berkeley.edu (Jeroen Ooms)
+Date: Wed, 12 Jun 2019 17:51:50 +0200
+Subject: [R-pkg-team] updating r-cran-v8 in experimental
+In-Reply-To: <CAJxTCxy-fKQED0rRrMmM1YdS0t5ytpJB7S5a1_ewRe8p2K=WeA@mail.gmail.com>
+References: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+ <20190612085800.zplmfdeiy3jexooa@an3as.eu>
+ <CABFfbXuJ71co24KirmshLewW-mrGTV175KEE9xfGbab_JSNstQ@mail.gmail.com>
+ <CAJxTCxy-fKQED0rRrMmM1YdS0t5ytpJB7S5a1_ewRe8p2K=WeA@mail.gmail.com>
+Message-ID: <CABFfbXvrb_7B2qojDqO5+or+TafC19n7gU6wF=6Mi=fz-vrCgA@mail.gmail.com>
+
+On Wed, Jun 12, 2019 at 5:46 PM Jérémy Lal <kapouer at melix.org> wrote:
+>
+>
+>
+> Le mer. 12 juin 2019 à 17:37, Jeroen Ooms <jeroen at berkeley.edu> a écrit :
+>>
+>> On Wed, Jun 12, 2019 at 10:58 AM Andreas Tille <tille at debian.org> wrote:
+>> >
+>> > Hi Jeroen,
+>> >
+>> > On Sun, Jun 09, 2019 at 02:39:33PM +0200, Jeroen Ooms wrote:
+>> > > Debian 'experimental' now has nodeJS v12.x which ships with a new
+>> > > version of the v8 engine. In order to build r-cran-v8 against this
+>> > > libnode, you need the latest version of the R package:
+>> > > https://cran.r-project.org/web/packages/V8/index.html
+>> >
+>> > Thanks a lot for this hint.
+>> >
+>> > > Perhaps r-cran-v8 2.2 should be uploaded to experimental?
+>> >
+>> > Unfortunately I get:
+>> >
+>> > ...
+>> > I: R packages needed for DEP8: testthat
+>> > I: R Package: V8 Version: 2.2
+>> > I: Building using R version 3.6.0-2
+>> > I: R API version: r-api-3.5
+>> > I: Using built-time from d/changelog: Wed, 12 Jun 2019 09:49:25 +0200
+>> >         mkdir -p /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library
+>> >         R CMD INSTALL -l /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library --clean . "--built-timestamp='Wed, 12 Jun 2019 09:49:25 +0200'"
+>> > * installing *source* package 'V8' ...
+>> > files 'inst/doc/npm.html', 'inst/doc/v8_intro.html' are missing
+>> > ** using staged installation
+>> > Using PKG_CFLAGS=-I/usr/include/v8 -I/usr/include/v8-3.14
+>> > Using PKG_LIBS=-lv8 -lv8_libplatform
+>> > ** libs
+>> > make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+>> > rm -f V8.so RcppExports.o bindings.o
+>> > g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8 -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"  -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+>> > g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8 -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"  -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+>> > g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-z,relro -o V8.so RcppExports.o bindings.o -lv8 -lv8_libplatform -L/usr/lib/R/lib -lR
+>> > make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+>> > make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+>> > make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+>> > installing to /build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs
+>> > ** R
+>> > ** inst
+>> > ** byte-compile and prepare package for lazy loading
+>> > ** help
+>> > *** installing help indices
+>> > ** building package indices
+>> > ** installing vignettes
+>> > ** testing if installed package can be loaded from temporary location
+>> > Error: package or namespace load failed for 'V8' in dyn.load(file, DLLpath = DLLpath, ...):
+>> >  unable to load shared object '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs/V8.so':
+>> >   /usr/lib/x86_64-linux-gnu/libnode.so.72: undefined symbol: _ZN4node13native_module14has_code_cacheE
+>> > Error: loading failed
+>> > Execution halted
+>> > ERROR: loading failed
+>> > * removing '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/V8'
+>> >
+>> >
+>> > I have no idea what might be wrong here.
+>>
+>>
+>> This sounds a lot like this upstream issue:
+>> https://github.com/nodejs/node/issues/27431. I'm the Jérémy (libnode
+>> maintainer) to the cc.
+>
+>
+> If you have this issue that means you're not linking r-cran-v8 to the shared libv8 (a.k.a. libnode),
+> and indeed the log above tells it's trying to build its own v8 copy.
+
+Hmm I don't think that diagnosis is correct. The V8.so from the log
+file above is the shared library for the R bindings only. The linking
+error that follows actually shows that the symbol is specifically
+missing form libnode.so.72, which corresponds to this bug in nodejs
+(they forgot to add a new cc file to libnode v12):
+https://github.com/nodejs/node/issues/27431
+
+
+From kapouer at melix.org  Wed Jun 12 17:01:38 2019
+From: kapouer at melix.org (=?UTF-8?B?SsOpcsOpbXkgTGFs?=)
+Date: Wed, 12 Jun 2019 18:01:38 +0200
+Subject: [R-pkg-team] updating r-cran-v8 in experimental
+In-Reply-To: <CABFfbXvrb_7B2qojDqO5+or+TafC19n7gU6wF=6Mi=fz-vrCgA@mail.gmail.com>
+References: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+ <20190612085800.zplmfdeiy3jexooa@an3as.eu>
+ <CABFfbXuJ71co24KirmshLewW-mrGTV175KEE9xfGbab_JSNstQ@mail.gmail.com>
+ <CAJxTCxy-fKQED0rRrMmM1YdS0t5ytpJB7S5a1_ewRe8p2K=WeA@mail.gmail.com>
+ <CABFfbXvrb_7B2qojDqO5+or+TafC19n7gU6wF=6Mi=fz-vrCgA@mail.gmail.com>
+Message-ID: <CAJxTCxxuJZUQPYeMcBNpam2HgPRr_fPXmXKpie1Oy4731070kg@mail.gmail.com>
+
+Le mer. 12 juin 2019 à 17:52, Jeroen Ooms <jeroen at berkeley.edu> a écrit :
+
+> On Wed, Jun 12, 2019 at 5:46 PM Jérémy Lal <kapouer at melix.org> wrote:
+> >
+> >
+> >
+> > Le mer. 12 juin 2019 à 17:37, Jeroen Ooms <jeroen at berkeley.edu> a écrit
+> :
+> >>
+> >> On Wed, Jun 12, 2019 at 10:58 AM Andreas Tille <tille at debian.org>
+> wrote:
+> >> >
+> >> > Hi Jeroen,
+> >> >
+> >> > On Sun, Jun 09, 2019 at 02:39:33PM +0200, Jeroen Ooms wrote:
+> >> > > Debian 'experimental' now has nodeJS v12.x which ships with a new
+> >> > > version of the v8 engine. In order to build r-cran-v8 against this
+> >> > > libnode, you need the latest version of the R package:
+> >> > > https://cran.r-project.org/web/packages/V8/index.html
+> >> >
+> >> > Thanks a lot for this hint.
+> >> >
+> >> > > Perhaps r-cran-v8 2.2 should be uploaded to experimental?
+> >> >
+> >> > Unfortunately I get:
+> >> >
+> >> > ...
+> >> > I: R packages needed for DEP8: testthat
+> >> > I: R Package: V8 Version: 2.2
+> >> > I: Building using R version 3.6.0-2
+> >> > I: R API version: r-api-3.5
+> >> > I: Using built-time from d/changelog: Wed, 12 Jun 2019 09:49:25 +0200
+> >> >         mkdir -p
+> /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library
+> >> >         R CMD INSTALL -l
+> /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library --clean
+> . "--built-timestamp='Wed, 12 Jun 2019 09:49:25 +0200'"
+> >> > * installing *source* package 'V8' ...
+> >> > files 'inst/doc/npm.html', 'inst/doc/v8_intro.html' are missing
+> >> > ** using staged installation
+> >> > Using PKG_CFLAGS=-I/usr/include/v8 -I/usr/include/v8-3.14
+> >> > Using PKG_LIBS=-lv8 -lv8_libplatform
+> >> > ** libs
+> >> > make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+> >> > rm -f V8.so RcppExports.o bindings.o
+> >> > g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8
+> -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"
+> -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=.
+> -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time
+> -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+> >> > g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8
+> -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"
+> -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=.
+> -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time
+> -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+> >> > g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-z,relro -o V8.so
+> RcppExports.o bindings.o -lv8 -lv8_libplatform -L/usr/lib/R/lib -lR
+> >> > make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+> >> > make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+> >> > make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+> >> > installing to
+> /build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs
+> >> > ** R
+> >> > ** inst
+> >> > ** byte-compile and prepare package for lazy loading
+> >> > ** help
+> >> > *** installing help indices
+> >> > ** building package indices
+> >> > ** installing vignettes
+> >> > ** testing if installed package can be loaded from temporary location
+> >> > Error: package or namespace load failed for 'V8' in dyn.load(file,
+> DLLpath = DLLpath, ...):
+> >> >  unable to load shared object
+> '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs/V8.so':
+> >> >   /usr/lib/x86_64-linux-gnu/libnode.so.72: undefined symbol:
+> _ZN4node13native_module14has_code_cacheE
+> >> > Error: loading failed
+> >> > Execution halted
+> >> > ERROR: loading failed
+> >> > * removing
+> '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/V8'
+> >> >
+> >> >
+> >> > I have no idea what might be wrong here.
+> >>
+> >>
+> >> This sounds a lot like this upstream issue:
+> >> https://github.com/nodejs/node/issues/27431. I'm the Jérémy (libnode
+> >> maintainer) to the cc.
+> >
+> >
+> > If you have this issue that means you're not linking r-cran-v8 to the
+> shared libv8 (a.k.a. libnode),
+> > and indeed the log above tells it's trying to build its own v8 copy.
+>
+> Hmm I don't think that diagnosis is correct. The V8.so from the log
+> file above is the shared library for the R bindings only. The linking
+> error that follows actually shows that the symbol is specifically
+> missing form libnode.so.72, which corresponds to this bug in nodejs
+> (they forgot to add a new cc file to libnode v12):
+> https://github.com/nodejs/node/issues/27431
+
+
+Thank you for the explanation (headache here, i should have refrained from
+replying).
+Am tracking upstream issue, and keen on waiting a bit to see if they
+resolve it.
+
+Jérémy
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190612/5b490175/attachment-0001.html>
+
+From kapouer at melix.org  Wed Jun 12 16:45:33 2019
+From: kapouer at melix.org (=?UTF-8?B?SsOpcsOpbXkgTGFs?=)
+Date: Wed, 12 Jun 2019 17:45:33 +0200
+Subject: [R-pkg-team] updating r-cran-v8 in experimental
+In-Reply-To: <CABFfbXuJ71co24KirmshLewW-mrGTV175KEE9xfGbab_JSNstQ@mail.gmail.com>
+References: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+ <20190612085800.zplmfdeiy3jexooa@an3as.eu>
+ <CABFfbXuJ71co24KirmshLewW-mrGTV175KEE9xfGbab_JSNstQ@mail.gmail.com>
+Message-ID: <CAJxTCxy-fKQED0rRrMmM1YdS0t5ytpJB7S5a1_ewRe8p2K=WeA@mail.gmail.com>
+
+Le mer. 12 juin 2019 à 17:37, Jeroen Ooms <jeroen at berkeley.edu> a écrit :
+
+> On Wed, Jun 12, 2019 at 10:58 AM Andreas Tille <tille at debian.org> wrote:
+> >
+> > Hi Jeroen,
+> >
+> > On Sun, Jun 09, 2019 at 02:39:33PM +0200, Jeroen Ooms wrote:
+> > > Debian 'experimental' now has nodeJS v12.x which ships with a new
+> > > version of the v8 engine. In order to build r-cran-v8 against this
+> > > libnode, you need the latest version of the R package:
+> > > https://cran.r-project.org/web/packages/V8/index.html
+> >
+> > Thanks a lot for this hint.
+> >
+> > > Perhaps r-cran-v8 2.2 should be uploaded to experimental?
+> >
+> > Unfortunately I get:
+> >
+> > ...
+> > I: R packages needed for DEP8: testthat
+> > I: R Package: V8 Version: 2.2
+> > I: Building using R version 3.6.0-2
+> > I: R API version: r-api-3.5
+> > I: Using built-time from d/changelog: Wed, 12 Jun 2019 09:49:25 +0200
+> >         mkdir -p
+> /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library
+> >         R CMD INSTALL -l
+> /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library --clean
+> . "--built-timestamp='Wed, 12 Jun 2019 09:49:25 +0200'"
+> > * installing *source* package 'V8' ...
+> > files 'inst/doc/npm.html', 'inst/doc/v8_intro.html' are missing
+> > ** using staged installation
+> > Using PKG_CFLAGS=-I/usr/include/v8 -I/usr/include/v8-3.14
+> > Using PKG_LIBS=-lv8 -lv8_libplatform
+> > ** libs
+> > make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+> > rm -f V8.so RcppExports.o bindings.o
+> > g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8
+> -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"
+> -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=.
+> -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time
+> -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+> > g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8
+> -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"
+> -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=.
+> -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time
+> -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+> > g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-z,relro -o V8.so
+> RcppExports.o bindings.o -lv8 -lv8_libplatform -L/usr/lib/R/lib -lR
+> > make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+> > make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+> > make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+> > installing to
+> /build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs
+> > ** R
+> > ** inst
+> > ** byte-compile and prepare package for lazy loading
+> > ** help
+> > *** installing help indices
+> > ** building package indices
+> > ** installing vignettes
+> > ** testing if installed package can be loaded from temporary location
+> > Error: package or namespace load failed for 'V8' in dyn.load(file,
+> DLLpath = DLLpath, ...):
+> >  unable to load shared object
+> '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs/V8.so':
+> >   /usr/lib/x86_64-linux-gnu/libnode.so.72: undefined symbol:
+> _ZN4node13native_module14has_code_cacheE
+> > Error: loading failed
+> > Execution halted
+> > ERROR: loading failed
+> > * removing
+> '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/V8'
+> >
+> >
+> > I have no idea what might be wrong here.
+>
+>
+> This sounds a lot like this upstream issue:
+> https://github.com/nodejs/node/issues/27431. I'm the Jérémy (libnode
+> maintainer) to the cc.
+>
+
+If you have this issue that means you're not linking r-cran-v8 to the
+shared libv8 (a.k.a. libnode),
+and indeed the log above tells it's trying to build its own v8 copy.
+
+Jérémy
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190612/589cdf64/attachment.html>
+
+From jeroen at berkeley.edu  Wed Jun 12 16:37:28 2019
+From: jeroen at berkeley.edu (Jeroen Ooms)
+Date: Wed, 12 Jun 2019 17:37:28 +0200
+Subject: [R-pkg-team] updating r-cran-v8 in experimental
+In-Reply-To: <20190612085800.zplmfdeiy3jexooa@an3as.eu>
+References: <CABFfbXs-VgpWC3dtkz0uPc6fL4D+icR5iRHCKy1gjv-jdp-wFQ@mail.gmail.com>
+ <20190612085800.zplmfdeiy3jexooa@an3as.eu>
+Message-ID: <CABFfbXuJ71co24KirmshLewW-mrGTV175KEE9xfGbab_JSNstQ@mail.gmail.com>
+
+On Wed, Jun 12, 2019 at 10:58 AM Andreas Tille <tille at debian.org> wrote:
+>
+> Hi Jeroen,
+>
+> On Sun, Jun 09, 2019 at 02:39:33PM +0200, Jeroen Ooms wrote:
+> > Debian 'experimental' now has nodeJS v12.x which ships with a new
+> > version of the v8 engine. In order to build r-cran-v8 against this
+> > libnode, you need the latest version of the R package:
+> > https://cran.r-project.org/web/packages/V8/index.html
+>
+> Thanks a lot for this hint.
+>
+> > Perhaps r-cran-v8 2.2 should be uploaded to experimental?
+>
+> Unfortunately I get:
+>
+> ...
+> I: R packages needed for DEP8: testthat
+> I: R Package: V8 Version: 2.2
+> I: Building using R version 3.6.0-2
+> I: R API version: r-api-3.5
+> I: Using built-time from d/changelog: Wed, 12 Jun 2019 09:49:25 +0200
+>         mkdir -p /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library
+>         R CMD INSTALL -l /build/r-cran-v8-2.2\+dfsg/debian/r-cran-v8/usr/lib/R/site-library --clean . "--built-timestamp='Wed, 12 Jun 2019 09:49:25 +0200'"
+> * installing *source* package 'V8' ...
+> files 'inst/doc/npm.html', 'inst/doc/v8_intro.html' are missing
+> ** using staged installation
+> Using PKG_CFLAGS=-I/usr/include/v8 -I/usr/include/v8-3.14
+> Using PKG_LIBS=-lv8 -lv8_libplatform
+> ** libs
+> make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+> rm -f V8.so RcppExports.o bindings.o
+> g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8 -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"  -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+> g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/v8 -I/usr/include/v8-3.14 -I"/usr/lib/R/site-library/Rcpp/include"  -fvisibility=hidden -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-3.6.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bindings.cpp -o bindings.o
+> g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-z,relro -o V8.so RcppExports.o bindings.o -lv8 -lv8_libplatform -L/usr/lib/R/lib -lR
+> make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+> make[1]: Entering directory '/build/r-cran-v8-2.2+dfsg/src'
+> make[1]: Leaving directory '/build/r-cran-v8-2.2+dfsg/src'
+> installing to /build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs
+> ** R
+> ** inst
+> ** byte-compile and prepare package for lazy loading
+> ** help
+> *** installing help indices
+> ** building package indices
+> ** installing vignettes
+> ** testing if installed package can be loaded from temporary location
+> Error: package or namespace load failed for 'V8' in dyn.load(file, DLLpath = DLLpath, ...):
+>  unable to load shared object '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/00LOCK-r-cran-v8-2.2+dfsg/00new/V8/libs/V8.so':
+>   /usr/lib/x86_64-linux-gnu/libnode.so.72: undefined symbol: _ZN4node13native_module14has_code_cacheE
+> Error: loading failed
+> Execution halted
+> ERROR: loading failed
+> * removing '/build/r-cran-v8-2.2+dfsg/debian/r-cran-v8/usr/lib/R/site-library/V8'
+>
+>
+> I have no idea what might be wrong here.
+
+
+This sounds a lot like this upstream issue:
+https://github.com/nodejs/node/issues/27431. I'm the Jérémy (libnode
+maintainer) to the cc.
+
+
+From sven.pagel at hs-mainz.de  Sat Jun 15 22:43:29 2019
+From: sven.pagel at hs-mainz.de (Sven Pagel)
+Date: Sun, 16 Jun 2019 05:43:29 +0800
+Subject: [R-pkg-team] Financial Support. Congratulations
+Message-ID: <20190615214336.098EE40F92@smtp.hs-mainz.de>
+
+One million Dollars ($1,000,000.00 dollars) has been donated to you 
+by Manuel Franco who won the Powerball Jackpot of $768.4 million 
+Dollars in April, 2019. Contact him via Email: karter at gvni.com 
+for more details
+
+

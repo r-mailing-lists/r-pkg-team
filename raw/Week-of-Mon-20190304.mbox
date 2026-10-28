@@ -1,0 +1,211 @@
+From noreply at release.debian.org  Mon Mar  4 04:39:39 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 04 Mar 2019 04:39:39 +0000
+Subject: [R-pkg-team] r-cran-vegan 2.5-4+dfsg-3 MIGRATED to testing
+Message-ID: <E1h0fO7-00080z-4X@respighi.debian.org>
+
+FYI: The status of the r-cran-vegan source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.5-3-1
+  Current version:  2.5-4+dfsg-3
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From grace6f at gmail.com  Wed Mar  6 11:32:28 2019
+From: grace6f at gmail.com (Anita Foster)
+Date: Wed, 6 Mar 2019 12:32:28 +0100
+Subject: [R-pkg-team] With due respect, trust and humility,
+ I write you this proposal
+Message-ID: <CAJGP-5zSbzxPZqquDfC_4OjoZStAhkOv_kP8eSavO17YGXS9_A@mail.gmail.com>
+
+-- 
+
+FROM: SGT ANITA FOSTER
+
+UNITED STATE ARMY OFFICER
+
+US MILITARY BASE LIBYA/SYRIA.
+
+
+STRICTLY CONFIDENTIAL
+
+
+Good Day Sir/Madam
+
+With due respect, trust and humility, I write you this proposal, which I
+believe would be of great interest to you. I picked interest on you after
+going through your profile, while I was doing a private research on the
+Internet for a reliable and capable foreign partner that will assist me
+
+I really want to establish a real relationship that can lead to a business
+partner or something else. It's a pleasure to meet you, I hope everything
+goes well with you and how are you enjoying your day? like i said, my name
+is Anita Foster, I am currently a US military officer in Libya/Syria, and I
+would like to meet you, I am a loving, honest and caring person with a good
+sense of humor,  I like meeting new people and getting to know their way of
+life, I like watching the waves of the sea and the beauty of the mountains
+and all that nature has to offer.
+
+Meanwhile I am the only child and also an orphan. I was brought up  in
+orphanage/home. Cancer took both of my parents away from me. and although I
+still single. and my desire is to settle down with a good partner soon.
+
+My dear, I want you to know that we are daily attacked by rebels and car
+bombs and during one of our rescue missions we came across a safe that
+contains huge amounts of money belonging to the supporters of Libya's
+overabundant government, which I believe was money for 'purchase of weapons
+and ammunition, it was agreed by all the army officers present in that
+rescue mission that the money will be shared between us and we have done.
+
+Out of the total fund my share was $ 6,560,000 (six million, five hundred
+and sixty thousand US dollars). I look for your help to evacuate my share
+of money from this country (Libya) to your country to keep it safe from me
+until I come to your country.
+
+So I want you to make sure that if this money has been delivered to your
+country you will be believed to keep the money until I come to your country
+to meet you face to face to collect money from I'm sorry you may be afraid
+of this proposal, but I want to let you know that I made solid arrangements
+with a security company and I promised to deliver the fund diplomatically
+to one of my favorite destinations.
+
+This delivery will be legally managed by the security company and there
+will be no risks involved in the process and the money will be securely
+packed in a truck case and the same case will be delivered to you in your
+country.
+
+I decided to repay you with 25% of the total once the money was delivered
+to you, while the rest is my investment capital in your country.
+
+A passionate appeal that I will do to you is not to discuss this topic with
+third parties, if you do not want to be part of this business, delete this
+letter from your inbox to avoid losing this information and it will be
+dangerous I rely on my position here .
+
+I have chosen to contact you after my prayers and I believe you will not
+betray my trust or prevent my dream, even if you may wonder why I am so
+revealing so early without a formal introduction, well, I will say that my
+mind convinces me that you are the real person who helps me to receive and
+invest this Fund.
+
+I hope my explanation is very clear, but if you need further clarification
+let me know and I will explain further. I want to let you know that here in
+the military area we are not authorized to use the mobile phone, we only
+use radio messages and e-mail communication. so, please, we continue to
+communicate via e-mail for the average time.
+
+Note;
+
+1:  I do not know how long we have been here and my fate since I survived
+two attacks here, which prompted me to look for a trustworthy and
+trustworthy person to help me get and invest the Fund, because I will come
+to your country to invest and start a new life no longer as a soldier.
+
+2:  I advise we communicate through email as a secure means to avoid any
+interruption or monitoring as our discussions are to be secured till the
+funds gets to your custody.
+
+In conclusion, I would like you to send me an immediate reply regarding
+this proposal; Your urgent response will be greatly appreciated.
+
+I look forward to receiving your reply as soon as you read this letter.
+
+
+Kiss with Love
+
+Yours Faithfully
+
+Sgt. Anita Foster
+
+My Private E-mail: Sagoldpanning at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190306/485a1bec/attachment.html>
+
+From owner at bugs.debian.org  Fri Mar  8 02:00:17 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 08 Mar 2019 02:00:17 +0000
+Subject: [R-pkg-team] Processed (with 2 errors): Avoid embedding a copy of
+ dygraphs
+References: <878sxqxh48.fsf@fifthhorseman.net>
+ <878sxqxh48.fsf@fifthhorseman.net>
+Message-ID: <handler.s.B.15520102724407.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> block -1 with 749603
+Bug #923991 [src:knot-resolver] Avoid embedding a copy of dygraphs
+923991 was not blocked by any bugs.
+923991 was not blocking any bugs.
+Added blocking bug(s) of 923991: 749603
+> user pabs at debian.org
+Unknown command or malformed arguments to command.
+
+> usertag + embed
+Unknown command or malformed arguments to command.
+
+> clone -1 -2 -3 -4
+Bug #923991 [src:knot-resolver] Avoid embedding a copy of dygraphs
+Bug 923991 cloned as bugs 923992-923994
+923992 was blocked by: 749603
+923992 was not blocking any bugs.
+Ignoring request to alter blocking bugs of bug #923992 to the same blocks previously set
+923993 was blocked by: 749603
+923993 was not blocking any bugs.
+Ignoring request to alter blocking bugs of bug #923993 to the same blocks previously set
+923994 was blocked by: 749603
+923994 was not blocking any bugs.
+Ignoring request to alter blocking bugs of bug #923994 to the same blocks previously set
+> retitle -1 knot-resolver: Avoid embedding a copy of dygraphs
+Bug #923991 [src:knot-resolver] Avoid embedding a copy of dygraphs
+Changed Bug title to 'knot-resolver: Avoid embedding a copy of dygraphs' from 'Avoid embedding a copy of dygraphs'.
+> reassign -2 src:r-cran-dygraphs 1.1.1.6+dfsg-1
+Bug #923992 [src:knot-resolver] Avoid embedding a copy of dygraphs
+Bug reassigned from package 'src:knot-resolver' to 'src:r-cran-dygraphs'.
+No longer marked as found in versions knot-resolver/3.2.1-2.
+Ignoring request to alter fixed versions of bug #923992 to the same values previously set
+Bug #923992 [src:r-cran-dygraphs] Avoid embedding a copy of dygraphs
+Marked as found in versions r-cran-dygraphs/1.1.1.6+dfsg-1.
+> retitle -2 r-cran-dygraphs: Avoid embedding a copy of dygraphs
+Bug #923992 [src:r-cran-dygraphs] Avoid embedding a copy of dygraphs
+Changed Bug title to 'r-cran-dygraphs: Avoid embedding a copy of dygraphs' from 'Avoid embedding a copy of dygraphs'.
+> reassign -3 src:netdata 1.12.0-1
+Bug #923993 [src:knot-resolver] Avoid embedding a copy of dygraphs
+Bug reassigned from package 'src:knot-resolver' to 'src:netdata'.
+No longer marked as found in versions knot-resolver/3.2.1-2.
+Ignoring request to alter fixed versions of bug #923993 to the same values previously set
+Bug #923993 [src:netdata] Avoid embedding a copy of dygraphs
+Marked as found in versions netdata/1.12.0-1.
+> retitle -3 netdata: Avoid embedding a copy of dygraphs
+Bug #923993 [src:netdata] Avoid embedding a copy of dygraphs
+Changed Bug title to 'netdata: Avoid embedding a copy of dygraphs' from 'Avoid embedding a copy of dygraphs'.
+> reassign -4 src:tsung 1.7.0-3
+Bug #923994 [src:knot-resolver] Avoid embedding a copy of dygraphs
+Bug reassigned from package 'src:knot-resolver' to 'src:tsung'.
+No longer marked as found in versions knot-resolver/3.2.1-2.
+Ignoring request to alter fixed versions of bug #923994 to the same values previously set
+Bug #923994 [src:tsung] Avoid embedding a copy of dygraphs
+Marked as found in versions tsung/1.7.0-3.
+> retitle -4 tsung: Avoid embedding a copy of dygraphs
+Bug #923994 [src:tsung] Avoid embedding a copy of dygraphs
+Changed Bug title to 'tsung: Avoid embedding a copy of dygraphs' from 'Avoid embedding a copy of dygraphs'.
+> affects 749603 + src:knot-resolver src:tsung src:netdata src:r-cran-dygraphs
+Bug #749603 [wnpp] RFP: libjs-dygraphs -- dygraphs - Fast and flexible JavaScript charting library
+Added indication that 749603 affects src:knot-resolver, src:tsung, src:netdata, and src:r-cran-dygraphs
+
+-- 
+749603: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=749603
+923991: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923991
+923992: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923992
+923993: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923993
+923994: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=923994
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+

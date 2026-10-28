@@ -1,0 +1,1495 @@
+From tille at debian.org  Mon Apr  8 14:03:27 2019
+From: tille at debian.org (Andreas Tille)
+Date: Mon, 08 Apr 2019 15:03:27 +0200
+Subject: [R-pkg-team] Bug#926648: ITP: r-cran-multilevel -- GNU R multilevel
+ functions for applied psychology
+Message-ID: <155472860781.17198.11725607473176996186.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-multilevel -- GNU R multilevel functions for applied psychology
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-multilevel
+  Version         : 2.6
+  Upstream Author : Paul Bliese
+* URL             : https://cran.r-project.org/package=multilevel
+* License         : GPL-2+
+  Programming Lang: GNU R
+  Description     : GNU R multilevel functions for applied psychology
+ The functions in this package are designed to be used in the analysis of
+ multilevel data by applied psychologists. The package includes functions
+ for estimating common within-group agreement and reliability indices.
+ The package also contains basic data manipulation functions that
+ facilitate the analysis of multilevel and longitudinal data.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-multilevel
+
+
+From tille at debian.org  Mon Apr  8 14:10:35 2019
+From: tille at debian.org (Andreas Tille)
+Date: Mon, 08 Apr 2019 15:10:35 +0200
+Subject: [R-pkg-team] Bug#926649: ITP: r-cran-psychometric -- GNU R applied
+ psychometric theory
+Message-ID: <155472903598.17795.11209978282699479344.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-psychometric -- GNU R applied psychometric theory
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-psychometric
+  Version         : 2.2
+  Upstream Author : Thomas D. Fletcher
+* URL             : https://cran.r-project.org/package=psychometric
+* License         : GPL-2+
+  Programming Lang: GNU R
+  Description     : GNU R applied psychometric theory
+ Contains GNU R functions useful for correlation theory,
+ meta-analysis (validity-generalization), reliability, item
+ analysis, inter-rater reliability, and classical utility.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-psychometric
+
+
+From ftpmaster at ftp-master.debian.org  Mon Apr  8 14:28:42 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 08 Apr 2019 13:28:42 +0000
+Subject: [R-pkg-team] Processing of r-cran-multilevel_2.6-1_amd64.changes
+Message-ID: <E1hDUKI-0003Nw-6M@usper.debian.org>
+
+r-cran-multilevel_2.6-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-multilevel_2.6-1.dsc
+  r-cran-multilevel_2.6.orig.tar.gz
+  r-cran-multilevel_2.6-1.debian.tar.xz
+  r-cran-multilevel_2.6-1_all.deb
+  r-cran-multilevel_2.6-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Apr  8 14:34:40 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 08 Apr 2019 13:34:40 +0000
+Subject: [R-pkg-team] r-cran-multilevel_2.6-1_amd64.changes is NEW
+Message-ID: <E1hDUQ4-0004AO-4z@fasolo.debian.org>
+
+binary:r-cran-multilevel is NEW.
+binary:r-cran-multilevel is NEW.
+source:r-cran-multilevel is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Mon Apr  8 14:53:46 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 08 Apr 2019 13:53:46 +0000
+Subject: [R-pkg-team] Processing of r-cran-psychometric_2.2-1_amd64.changes
+Message-ID: <E1hDUiY-0004rD-3q@usper.debian.org>
+
+r-cran-psychometric_2.2-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-psychometric_2.2-1.dsc
+  r-cran-psychometric_2.2.orig.tar.gz
+  r-cran-psychometric_2.2-1.debian.tar.xz
+  r-cran-psychometric_2.2-1_amd64.buildinfo
+  r-cran-psychometric_2.2-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Apr  8 15:35:36 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 08 Apr 2019 14:35:36 +0000
+Subject: [R-pkg-team] r-cran-psychometric_2.2-1_amd64.changes is NEW
+Message-ID: <E1hDVN2-000IBE-Lh@fasolo.debian.org>
+
+binary:r-cran-psychometric is NEW.
+binary:r-cran-psychometric is NEW.
+source:r-cran-psychometric is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From test at My8z.com  Tue Apr  9 00:33:05 2019
+From: test at My8z.com (Barrister Baranov)
+Date: Mon, 8 Apr 2019 23:33:05 +0000
+Subject: [R-pkg-team] 4/8/2019.
+Message-ID: <F1F0F3AB-DB4B-4EFD-BF8F-17C7F2BBD83F@my8z.com>
+
+ - This mail is in HTML. Some elements may be ommited in plain text. -
+
+Top Of The Day r-pkg-team at alioth-lists.debian.net
+Did you get my previous mail?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190408/1b94e74f/attachment.html>
+
+From scottanna591 at gmail.com  Tue Apr  9 11:51:13 2019
+From: scottanna591 at gmail.com (Hannah Scott)
+Date: Tue, 9 Apr 2019 11:51:13 +0100
+Subject: [R-pkg-team] My Dear
+Message-ID: <CALS1XOWejp7pKRfQ+s1Pc=Xh1abTX5xMvyv2axBbo9gPk2CYoQ@mail.gmail.com>
+
+My Dear
+
+With warm hearts I offer my friendship, and my greetings to you in the name
+of our lord God, and I hope this letter meets you in good time, I propose
+with my free mind and as a person of integrity from God, I know that this
+message will appear as a surprise to you that we barely know but the grace
+of God directed me to you and I wish you read this message and be blessed
+in name of the Lord.
+
+I have a brain tumor, I suffer terribly at the moment. My doctor just
+informed me that my days are numbered because of my health therefore
+condemned to certain death. Currently, I have exhausted all my savings for
+my medical care. But I do have some funds for my charity project, these
+funds are deposited in a fixed deposit in a local bank here in Benin.
+purposed for charitable foundation My marital status is such that I'm
+single because I lost my Husband for over 9 years now and unfortunately we
+have not had a child together, which I am no one to leave my legacy .
+Therefore, to release my funds I would like to make a donation so that
+there is no stiff tax on my money.
+
+To this I would so graceful and in order to help the poor to give what
+amounts to said legacy worth Four million euros (€4,000,000.00) (Four
+Million Euro) to enable you to establish a charitable foundation in my
+memory so that the grace of God be with me until my last home so I can
+receive an honorable place with the Lord our father. I have no fear because
+before contacted you, i have for several nights prayed for the Lord God to
+give me the contact of a trusted person to whom I can entrust this matter
+and it is the result of why I am doing research that allowed me to contact
+you through this site.
+
+Know that you can keep half of the money for yourself and the rest will be
+used to create a charitable foundation in my memory and a federation in the
+fight against cancer and also build orphanages. I would have the following
+information: Your name and first name, your exact address and your
+permanent telephone contact so I can forward them to my lawyer to appear
+that you perform the procedure under deal. I count on your goodwill and
+especially on the proper use of these funds have something I do not doubt
+because I have great confidence in you that God may guide me toward you. My
+private E-mail: hannnascot1 at gmail.com
+
+
+Awaiting your prompt reply, receive my cordial and fraternal greetings.
+
+Yours Sincerely
+Mrs Hannah Scott
+My Private email: hannnascot1 at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190409/89cae58f/attachment.html>
+
+From ratface at t-online.hu  Wed Apr 10 08:50:57 2019
+From: ratface at t-online.hu (=?utf-8?b?S292w6FjcyBNw6F0ecOhcw==?=)
+Date: Wed, 10 Apr 2019 09:50:57 +0200
+Subject: [R-pkg-team] =?utf-8?b?OiJZb3UgSGF2ZSBXb24hIsKjMTAwLDAwMCI=?=
+Message-ID: <20190410095057.Horde.CEquwMDW7zkx3vrCsPQGng9@webmail.telekom.hu>
+
+Good News,
+   
+  You have won £100,000 with a Verification No: VRXB95094. Kindly  
+contact your claim agent in South Africa on  
+  Email: onlineeuroclaim at gmail.com, Tel:+27 60336 3696  for your claim.
+   
+  Euro Million Promo Team.
+  Telephone: +44 74523 79316.
+  Address: #20-22B Great Titchfield St., London.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190410/d0e10bdb/attachment.html>
+
+From barristeralexagu at gmail.com  Wed Apr 10 10:46:22 2019
+From: barristeralexagu at gmail.com (DHL COURIER COMPANY)
+Date: Wed, 10 Apr 2019 11:46:22 +0200
+Subject: [R-pkg-team] Attention ATM CARD Owner :
+Message-ID: <CAGmr_Sn88Ogm4H7UsiUVveBrm9XZ-tzAiJv829WeTNSPaurDoQ@mail.gmail.com>
+
+DHL  Courier Service Cotonou Republic Du Benin.
+
+Lot No. 23 Patte D'Oie
+03 BP 2147 Cotonou-Benin Republic.
+
+E-mail : dhlexpress84 at live.fr
+
+CALL US Tel: +229 62599672.
+
+Attn: ATM Card Owner
+
+This is to notify every body about the latest development concerning
+all the ATM Card and consignment packages that are left in our
+custody,which yours are inclusive Besides, yours where given a bill
+that seems like you could not be able to afford due your financial
+down ,in order to receive your ATM Card or some consignment package of
+which we didn’t hear from you for sometime now....
+
+Hence, We the DHL Courier Delivery Company management,By Virtue of the
+power conferred on this office and in our  capacity as sole  Agency
+Responsible  is now offering a Special April BONUS to help all  that
+are having their ATM Card or some consignment package in our custody
+due to of prices. In order words we are now requesting that those
+involve should pay only the sum of $55.00USD to receive all their ATM
+Card or some consignment package abandoned in our custody.
+
+Besides, my dear, this is the opportunity for you and have to comply
+and your ATM Card or some consignment package shall be delivery to
+your desginated address without any other charge for you to pay.
+
+But remember that after (3 DAYS) you did not make the payment then we
+will cancel the delivery arrangement of your ATM Card or some your
+consignment package.
+
+Again after (Three DAYS ) We will enter A new program  for the year
+and that is the reason why we decided to help to all our customers
+before we enter into the new program.
+
+Note that the $55 meant for express delivery of your ATM Card or some
+consignment package to you without any hold up.  So be rest assure
+that there no any other fee  besides the $55 for express delivery of
+your ATM Card.
+
+You are advice to reconfirm your address where you want your express
+delivery of your ATM Card to you.
+
+
+HERE IS THE PAYMENT INFORMATION TO SEND THE MONEY THROUGH WESTERN
+UNION OR MONEYGRAM OR RIA.COM
+
+RECEIVER FIRST NAME : Izuchukwu
+
+RECEIVER SURENAME:    Ezeife
+
+COUNTRY :    BENIN REPUBLIC
+
+CITY ADDRESS: RUE 3880  COTONOU
+
+
+AMOUNT          : $55.00
+
+PAYMENT DETAILS TO SEND TO US
+
+Money transfer control number  (MTCN)
+Senders Name
+Senders address.
+
+DHL EXPRESS COURIER SERVICE
+
+Benin
+The location of the office from where DHL activities in   Benin are
+controlled.DHL International Benin DHL International Benin
+Lot No. 23 Patte D'Oie
+03 BP 2147
+Cotonou
+
+Opening Hours  Mon-Fri 08:00-18:30, Closed 13:00-15:00
+Sat 09:00-13:00
+Sunday Closed
+Holidays Closed
+REPUBLIC
+YOURS FAITHFULLY.
+
+
+DR EDWARD JENKINS
+DIRECTOR OF CUSTOMER CARE DHLCOURIER SERVICE,
+BENIN REPUBLIC OF WEST AFRICA,
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 13:47:11 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 12:47:11 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes
+Message-ID: <E1hECdD-00048Q-Vd@usper.debian.org>
+
+r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 13:52:12 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 12:52:12 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-rlang_0.3.0.1-2~bpo9+1_amd64.changes
+Message-ID: <E1hECi4-0004N6-6j@usper.debian.org>
+
+r-cran-rlang_0.3.0.1-2~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rlang_0.3.0.1-2~bpo9+1.dsc
+  r-cran-rlang_0.3.0.1-2~bpo9+1.debian.tar.xz
+  r-cran-rlang-dbgsym_0.3.0.1-2~bpo9+1_amd64.deb
+  r-cran-rlang_0.3.0.1-2~bpo9+1_amd64.buildinfo
+  r-cran-rlang_0.3.0.1-2~bpo9+1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 14:03:39 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 13:03:39 +0000
+Subject: [R-pkg-team] r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes
+ REJECTED
+Message-ID: <E1hECt9-0002ly-D6@fasolo.debian.org>
+
+
+
+r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc: Invalid size hash for r-cran-htmlwidgets_1.3+dfsg.orig.tar.xz:
+According to the control file the size hash should be 155644,
+but r-cran-htmlwidgets_1.3+dfsg.orig.tar.xz has 155692.
+
+If you did not include r-cran-htmlwidgets_1.3+dfsg.orig.tar.xz in your upload, a different version
+might already be known to the archive software.
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 14:03:39 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 13:03:39 +0000
+Subject: [R-pkg-team] r-cran-rlang_0.3.0.1-2~bpo9+1_amd64.changes REJECTED
+Message-ID: <E1hECt9-0002m6-L4@fasolo.debian.org>
+
+
+
+r-cran-rlang_0.3.0.1-2~bpo9+1.dsc: Refers to non-existing file 'r-cran-rlang_0.3.0.1.orig.tar.gz'
+Perhaps you need to include the file in your upload?
+
+
+
+===
+
+Please feel free to respond to this email if you don't understand why
+your files were rejected, or if you upload new files which address our
+concerns.
+
+
+
+From huiqing at debehamsplc.co.uk  Wed Apr 10 20:13:04 2019
+From: huiqing at debehamsplc.co.uk (huiqing)
+Date: Wed, 10 Apr 2019 15:13:04 -0400 (EDT)
+Subject: [R-pkg-team] Greetings From China.
+Message-ID: <1071563624.362787.1554923584387@webmail4.networksolutionsemail.com>
+
+
+Greetings From China.
+
+Hi,
+
+I'm interested in speaking with you about a   Project which I will like
+to work it out with you.  To further explore
+the possibility I would like   you to contact me via
+my email address  ( mshuiqingliu at gmail.com mailto:mshuiqingliu at gmail.com  )   to give a
+brief description   of my field of
+project idea.   Ms HuiQing Zhijun  
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190410/a21a1f52/attachment.html>
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 21:10:33 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 20:10:33 +0000
+Subject: [R-pkg-team] r-cran-multilevel_2.6-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1hEJYH-0004pf-9p@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 08 Apr 2019 15:11:02 +0200
+Source: r-cran-multilevel
+Binary: r-cran-multilevel
+Architecture: source all
+Version: 2.6-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-multilevel - GNU R multilevel functions for applied psychology
+Closes: 926648
+Changes:
+ r-cran-multilevel (2.6-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #926648)
+Checksums-Sha1:
+ d07883c68eb53f14108622563bb948fdec4d2948 2096 r-cran-multilevel_2.6-1.dsc
+ 6c0567e88b94efbf5a556ff1a76b73bc68e8e9a5 265919 r-cran-multilevel_2.6.orig.tar.gz
+ c755173942b231c78a4a8b25afc5943f949f513a 1980 r-cran-multilevel_2.6-1.debian.tar.xz
+ e89b260df206ccc881e0a5979953464bbe287bf7 428794 r-cran-multilevel_2.6-1_all.deb
+ 05b5221cac49d4cd20cb299963b51d500332f35c 8436 r-cran-multilevel_2.6-1_amd64.buildinfo
+Checksums-Sha256:
+ f0f76d652236a53cc1fc2498eba431f1c4011958e4398142f55df52032c519c2 2096 r-cran-multilevel_2.6-1.dsc
+ 2afebc65da0b598023d5d1bc65977f7545b40a7f3944354f4bc6b621f0ddf9a7 265919 r-cran-multilevel_2.6.orig.tar.gz
+ af9934a609004b0d9d7d775166846b9470b965059d453b91f6f8f9897b7f42f4 1980 r-cran-multilevel_2.6-1.debian.tar.xz
+ 1cfbbdc8efb8c1cdb2457a80070795960dabcbe02909e4b8388fb38667f18ced 428794 r-cran-multilevel_2.6-1_all.deb
+ 0c6c4e350f062ea7cce34873e33a15aa061db8eb5808a87914ad70d4fb685852 8436 r-cran-multilevel_2.6-1_amd64.buildinfo
+Files:
+ 9a8eeeea334c6876338df7c2cf27b1ab 2096 gnu-r optional r-cran-multilevel_2.6-1.dsc
+ bce36c08bc084a5e5da6b91297c52376 265919 gnu-r optional r-cran-multilevel_2.6.orig.tar.gz
+ 6fdf9c15d213b404ba1edeb2e81f05b1 1980 gnu-r optional r-cran-multilevel_2.6-1.debian.tar.xz
+ c2e8e21e60c43c19e04ae46fc860f335 428794 gnu-r optional r-cran-multilevel_2.6-1_all.deb
+ 88fa05fd1b8091848b838e24e838b9ff 8436 gnu-r optional r-cran-multilevel_2.6-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlyrSWYRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtG/HA//TwRH8LXGNP26U9n2eawHkEWbMx+SLknd
+DoImPnIBq2tNOOR2ClyUSiNXyzDXm8d1182s0IKrJsXv9B/Ee9InJcno1+McGijf
+25YjVVvqbDjfBeNgVTZUhN7CYmhd/rD2SCLfi/VC/xNE7PyW1Yn6TvJNToplvf38
+vpPRA5qKlwta9/DKwNBsC7U0yZslPHinWoSo2T4NHKzTszLx+3NRcVrxzNQFs44+
+gAjN9raGAVp6jYsKW0Q/jU1T6oEzmIUHh5Qm8mjvU5bJ2GE505YGUoswLu/A/HJU
+ePhTrXncO/9xbM8YS+wN/GS0EUV5zWEZa+VHpKa1PJdrXuHAbg+Q4U5O1XZ98wBg
+mjwhlJemdqeOlhZvbmgmirsWBz24RoYG6SdkXFDSXR/rl4WGs26k5HH7Ux3mmglj
+Wx2/2X2s2DX679LuAIgcW6MAz8huggBwx4qOeWs1KpIKufH+t63laNb7psMKuJNK
+PSFeVCt77RQ/JQhPNDC8IuR+GB3UqqeMeD9MCk1MwpZ1FMJSSlUmMBkOKREb7zvC
+8CeRCcGh4rS5oJtIWDnYYIKJgxwBDn7fESaN/+2AHXBJ9wWcq1fJD1MkF+jxu37p
+fVn8zglpoSgPBJpXiA5byR5hY7W+BK9gunVX6dhisZ9MLx7lLIiW3umYsqVDwCze
+U6qFOYYH3Xk=
+=ksS0
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 21:10:33 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 20:10:33 +0000
+Subject: [R-pkg-team] r-cran-psychometric_2.2-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1hEJYH-0004q0-Ls@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 08 Apr 2019 15:17:31 +0200
+Source: r-cran-psychometric
+Binary: r-cran-psychometric
+Architecture: source amd64
+Version: 2.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-psychometric - GNU R applied psychometric theory
+Closes: 926649
+Changes:
+ r-cran-psychometric (2.2-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #926649)
+Checksums-Sha1:
+ 9dc7908f9ad8a693a5a44846397c805b2e973a64 2123 r-cran-psychometric_2.2-1.dsc
+ 654936d1b11629f93c8f54832460df45f6727aa6 30022 r-cran-psychometric_2.2.orig.tar.gz
+ 9a5f5977ea5466dc47c5a3505d809481197760a3 1724 r-cran-psychometric_2.2-1.debian.tar.xz
+ 7dfbae67ac0db49debd44d93639927b5f2c3c00c 8492 r-cran-psychometric_2.2-1_amd64.buildinfo
+ 9e0f58d07570bb2149bd76a0815925ce30a318c3 187348 r-cran-psychometric_2.2-1_amd64.deb
+Checksums-Sha256:
+ 4836584ed6f69a0ee4be24d9c0505655adf578d5fde476b10e1afd8eab8a0767 2123 r-cran-psychometric_2.2-1.dsc
+ 49878bdcb4a38e2eb6c33532ba13b078083da5ecd801b3d79808f6c8a2e9ecac 30022 r-cran-psychometric_2.2.orig.tar.gz
+ 9191baab488497b4899d1cec7883310fed28c21c8dc8244569fab6d30f9325fa 1724 r-cran-psychometric_2.2-1.debian.tar.xz
+ a8db3de7d624d35fa75f4f403413732f3721da27395186bda979e3f55124eb3f 8492 r-cran-psychometric_2.2-1_amd64.buildinfo
+ e5b4d2b1272f836667f66d7aabd70663145a5fc4043bea0ba7b036065abcabe4 187348 r-cran-psychometric_2.2-1_amd64.deb
+Files:
+ d0b0156b895edd97cc1820dea2370997 2123 gnu-r optional r-cran-psychometric_2.2-1.dsc
+ a04407d23c51ed04cabbecdf61803ad4 30022 gnu-r optional r-cran-psychometric_2.2.orig.tar.gz
+ 741f50d3fdb86e6d420c18b4fcba3711 1724 gnu-r optional r-cran-psychometric_2.2-1.debian.tar.xz
+ 04655627749172ba96957094d17838e9 8492 gnu-r optional r-cran-psychometric_2.2-1_amd64.buildinfo
+ 04ec282d938186384e11070ee823cf4b 187348 gnu-r optional r-cran-psychometric_2.2-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlyrT88RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtEcFw/+PlCdIFDFXT9RbIe6hLe5fWxoLGRHRcUH
+jrDNzCT4Sws8lKolnJ1vAawwJ7BZgDL36T8sPzPzRWuGdZAvV1f0yywF1QmMCBaJ
+CsduEZfoTFwkBziR6pNKbe6NkWPHay46VJV2OKAs+avwdraUtRdeQN5n5IIzBtiX
+reFIEBq9GSzY7yaX5/s7U0ZepI6R+29ylUbb8Mh1sB1bEeepUdk1Q8nGnLygRpfd
+a+kQL0jPYFHHbbNvZ5C0e8q1/Dne1YLxnKSTKhTHmqEidwittVh+mQ+uNwuykX1w
+MIjhZY3eu9tmYfYKrb+mbAeghQBj30AflGaEbgA74goU47V7oKVJ4CYMCgpHfUkE
+c0B6z8dm2rtnNGc9dFIDwFCjRcd0rtnkPZ+f+fmLSpFN5U06uuQCSjCs6D5REs6m
+37JluAx4zFxVskTv6cKOsvlOHjeN95LRDBBaAVFZ7vTXP7eE4qCz/TNnT5empJ48
+VdIrW/0H76jMen3DoEjXnCgquxFhijU+XnIPar/XljlRqmYqJzMUYfspOMcVhhCM
+0dblaRKmol0r12F9yk73XoLCHCKFD8alj5R5PbD3jkRhluxHpKZuCucz/IM7rHHD
+878YQCAobOJ9g/+wLwCoSfnu/LP/DOgTxla+7wheJ+m8w9O2MRGCESPIGCcvNxUF
+jwSvmnOXNlo=
+=Nv9c
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 21:50:13 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 20:50:13 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes
+Message-ID: <E1hEKAf-0004lm-FQ@usper.debian.org>
+
+r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+  r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 21:55:13 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 20:55:13 +0000
+Subject: [R-pkg-team] Processing of r-cran-rlang_0.3.1-2~bpo9+1_amd64.changes
+Message-ID: <E1hEKFW-00050m-1y@usper.debian.org>
+
+r-cran-rlang_0.3.1-2~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rlang_0.3.1-2~bpo9+1.dsc
+  r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+  r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+  r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+  r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 22:05:21 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 21:05:21 +0000
+Subject: [R-pkg-team] r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes
+ ACCEPTED into stretch-backports->backports-policy
+Message-ID: <E1hEKPJ-000FBk-W1@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 10 Apr 2019 14:01:21 +0200
+Source: r-cran-htmlwidgets
+Binary: r-cran-htmlwidgets
+Architecture: source all
+Version: 1.3+dfsg-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-htmlwidgets - GNU R HTML Widgets
+Changes:
+ r-cran-htmlwidgets (1.3+dfsg-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+ .
+ r-cran-htmlwidgets (1.3+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * Standards-Version: 4.2.1
+ .
+ r-cran-htmlwidgets (1.2+dfsg-1) unstable; urgency=medium
+ .
+   * Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-
+     lists.debian.net>
+   * dh-update-R to update Build-Depends
+   * Architecture: all (instead of any)
+   * Remove autogenerated HTML docs since it is including compressed JS
+Checksums-Sha1:
+ 8048f908923635924aaabce2eab91c8c3f982589 2193 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+ 4b16dc881a703094758479c8982e50828ee0fab7 2364 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+ fc64024aad8b2aba5a6bd6ea9cb1bd2dd2a11b2d 79660 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+ 7c00af4fe78008d23ed1c997d7eef7d33175d449 9244 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+Checksums-Sha256:
+ 7ad4aa1489d8b9fcf2fbc96c923d9af87de82da12e19a4e9ddbfa9ef27ce1dad 2193 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+ 3ec3d45683ad02f3e9d5cce295c53a5687537da32714985c116e32cdb26f0ef2 2364 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+ fb8f1dc420f77f2eb2808072c9670947e3a05e047b2e014c647d7e6709319da9 79660 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+ c13f41a23fb7e70ec9505e6255daa5cc356374d9aff035a088238d0e70bea032 9244 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+Files:
+ e49b96fbf6bf09c6af0a489ded793c1d 2193 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+ 1fdec9f885d0fbab72b0d02ba47b49e1 2364 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+ a4dd2f76e0d868651cacf768de1bfa8e 79660 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+ 4cbbdbc050dc2943497b67edfbe80794 9244 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlyuVR0RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHEZQ/+IBUyj/UfXCbSqyBVPHIPeiqiPYBm1WC1
+AwYv4z5CCfCAJmXhwIOrIJmtDFeS9wGZ4hDAkeBV7NYxEJywaOlNwvxghH2sSA6R
+pi7HwpwOSMkqTaHZBUcHcRbGtMX7E23bRmdUbta7MZIDu2ylrLAtWjPwkfzMZgLz
+JgdBeNYagAty2ryPb4B+zOcy4Lf858uJhFKpLa0R2DVVOhiveIZrPe+tfhgGOaFV
+NZ7o3BubzTlBx5JrD5MUEuq24rmOx5ACZXQhjs73iNrol91sVTWTjuTrV6fE5NT6
+aaFQEcVxV7HHld8wV4gkxq8jnXnPzqcE1hVkQ9QFcpCEk0HGf/PmJsK9m9pnlKHC
+aJvVFH/HaO0/tC+85DUsS3WbIFy1nJXfGD7RaCW0jA2I49a1hkgEh4I07NCAp1J0
+lbc4i6syHg5Irec66VJLJyyT0k82siNDX6c/hV7caaOvzpBO9+2/Ke6HbQCmYI5g
+3EoXjXvTE8175N6HUOa/o0EwDqygp0EtHED6CWf7s5o9CjxIj4DwUOWEz3Q2JfTf
+QKaHRUMVZg+1GFqqKSR0IAogxrjn/xnCXkGR9Hph7+2PwIce/KgzG9FFNy5sfhd0
+onf0VA3UYKsPe4lJUqNnP0khoKBnP9cqQsMGO7pQsAyocQ2R7MNeidTksFNDdI9R
+GW/Ipe/36Bg=
+=fWMP
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Apr 10 22:05:30 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 10 Apr 2019 21:05:30 +0000
+Subject: [R-pkg-team] r-cran-rlang_0.3.1-2~bpo9+1_amd64.changes ACCEPTED
+ into stretch-backports->backports-policy
+Message-ID: <E1hEKPS-000FCB-BZ@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 10 Apr 2019 22:46:55 +0200
+Source: r-cran-rlang
+Binary: r-cran-rlang
+Architecture: source amd64
+Version: 0.3.1-2~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-rlang - Functions for Base Types and Core R and 'Tidyverse' Features
+Closes: 912004
+Changes:
+ r-cran-rlang (0.3.1-2~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+ .
+ r-cran-rlang (0.3.1-2) unstable; urgency=medium
+ .
+   * Team upload
+   * Skip tests that fail only on debci infrastructure (Closes: #912004)
+   * Add Breaks: r-cran-tibble (<< 2.0.1-1~)
+ .
+ r-cran-rlang (0.3.1-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+ .
+ r-cran-rlang (0.3.0.1-2) unstable; urgency=medium
+ .
+   * Update autopkgtest (Closes: #912004)
+ .
+ r-cran-rlang (0.3.0.1-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.2.1
+ .
+ r-cran-rlang (0.2.2-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.2.0
+ .
+ r-cran-rlang (0.2.1-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-
+     lists.debian.net>
+   * Point Vcs fields to salsa.debian.org
+   * dh-update-R to update Build-Depends
+Checksums-Sha1:
+ b7244f7fb6cd4a05bc1bfa28a5d0867cf40237db 2082 r-cran-rlang_0.3.1-2~bpo9+1.dsc
+ 99f3dec30c9d6e5eea261980b7ec2e6d2134d693 2440 r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+ 2a32db46030b94bac2255d0c8adc244c8e2a39d1 116244 r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+ 15fa5d539a2663f90683d712e92c21e04a36ab2e 9236 r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+ 05a62cdded49a76ca74b45faf339a22f8e962ba1 995128 r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+Checksums-Sha256:
+ 4e0924839a5f5497b7899e8df0be49452fd020e1690f1b624439ff4b58bfb2e4 2082 r-cran-rlang_0.3.1-2~bpo9+1.dsc
+ 3de5b4a9e049867b635ac222cd71358505f4b8443a95fb64d700fdc71004c148 2440 r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+ 744b46ce99bc66ed2cf10e2999254fd766dd52a44c249bab77bd56a1f8b5a898 116244 r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+ 3900b6af9f170261495c661eb6ab87f68de6f3c72082a053708f9813d8852c3d 9236 r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+ 4cd6db92e2175b109b7fb9e5b6135fbacfb4a29dcf3c9b31fc97ea658ed4509b 995128 r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+Files:
+ c1b4e12d0ff2702c5a050d44e82e6f70 2082 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1.dsc
+ d2d0259ee3800874e883eb0b7b0292b0 2440 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+ 50b8f524950f36578047a50feee0ee9b 116244 debug optional r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+ adb95c4e9f23bbb8c0a6537c0fe2c753 9236 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+ af65829987e08f227428d9e5e84cbeca 995128 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlyuVo4RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHeQxAAiKEAyXrm67wg9c1GFXqrvMVS8KwPaAin
+GjP0j6mVXTf8SYFgQUcEXSbAgT/LWjjWBR6uf9h85utvfj9o+mRicMA3xC2qClSA
+6Q+zy5OwJajnz3dzU/X4QhmXyFdZnGP8rI0xmJCHBePijOfeQtuhuVKSUM3787dU
++ewJBxeTAkndY9f/QIexuAeTwPZ14aql2VposHURy8gtFQ7UqvA/HUuB0NHRBSDW
+v1fGdHpED/mxKKQc9YjO8u5+7DYc70q3U2E+U2joWmXc3c6j0MQKjxOudAaLHGpX
+/L65nMf1XeOWHtJkkiTxvZc+xYE38ZIyWNFuboPu/RlwD8aI7wYq7KmDIQJN3MQZ
+9fNZ5RdPbDbJzWm7guBktuVoOCx4rDD9utXHPNRPy/IE0Fbv1WZ/rJ5f6ZehI1zY
+zTUgxFtcqJrrqT2RNXYHg0JJXjsjmmZO4zGSB2Lu9IfKCfmfj2gxET5bNhL1+8DJ
+of6dWb8TdEcbNQi6sDY4O3OHdSWmGlFkxHKSURbGduPQGsMMc+7aOL4v7UlMGnuR
+JVkIN8A2nh+pQyTjPKnpt34IEk1nPg6Ba+9fLLVNfbi7Gb6mgGWWHV0c5mZHiUKb
+cayzEkFRLs6jtEDD7KyZwbnmR8M5uwHRihklPfjN/T0iNIhtcIHrmm/VGlhHSWnc
+92Gf4hgSGh0=
+=9zIH
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From tille at debian.org  Thu Apr 11 07:15:54 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 11 Apr 2019 08:15:54 +0200
+Subject: [R-pkg-team] Bug#926833: ITP: r-cran-psyphy -- functions for
+ analyzing psychophysical data in GNU R
+Message-ID: <155496335473.3040.4754442158851464062.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-psyphy -- functions for analyzing psychophysical data in GNU R
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-psyphy
+  Version         : 0.1
+  Upstream Author : Kenneth Knoblauch
+* URL             : https://cran.r-project.org/package=psyphy
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : functions for analyzing psychophysical data in GNU R
+ An assortment of functions that could be useful in analyzing data from
+ psychophysical experiments. It includes functions for calculating d'
+ from several different experimental designs, links for m-alternative forced-
+ choice (mafc) data to be used with the binomial family in glm (and
+ possibly other contexts) and self-Start functions for estimating gamma
+ values for CRT screen calibrations.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-psyphy
+
+
+From tille at debian.org  Thu Apr 11 07:17:01 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 11 Apr 2019 08:17:01 +0200
+Subject: [R-pkg-team] Bug#926834: ITP: r-cran-inum -- GNU R interval and
+ enum-type representation of vectors
+Message-ID: <155496342168.3195.12520897647740909503.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-inum -- GNU R interval and enum-type representation of vectors
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-inum
+  Version         : 1.0
+  Upstream Author : Torsten Hothorn
+* URL             : https://cran.r-project.org/package=inum
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : GNU R interval and enum-type representation of vectors
+ This GNU R package provides an enum-type representation of vectors and
+ representation of intervals, including a method of coercing variables in
+ data frames.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-inum
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 07:37:34 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 06:37:34 +0000
+Subject: [R-pkg-team] Processing of r-cran-inum_1.0-0-1_amd64.changes
+Message-ID: <E1hETL4-0008Fu-QD@usper.debian.org>
+
+r-cran-inum_1.0-0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-inum_1.0-0-1.dsc
+  r-cran-inum_1.0-0.orig.tar.gz
+  r-cran-inum_1.0-0-1.debian.tar.xz
+  r-cran-inum_1.0-0-1_all.deb
+  r-cran-inum_1.0-0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From tille at debian.org  Thu Apr 11 07:38:07 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 11 Apr 2019 08:38:07 +0200
+Subject: [R-pkg-team] Bug#926835: ITP: r-cran-partykit -- GNU R toolkit for
+ recursive partytioning
+Message-ID: <155496468746.27907.16202628721993834505.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-partykit -- GNU R toolkit for recursive partytioning
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-partykit
+  Version         : 1.2
+  Upstream Author : Torsten Hothorn,
+* URL             : https://cran.r-project.org/package=partykit
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : GNU R toolkit for recursive partytioning
+ A toolkit with infrastructure for representing, summarizing, and
+ visualizing tree-structured regression and classification models. This
+ unified infrastructure can be used for reading/coercing tree models from
+ different sources ('rpart', 'RWeka', 'PMML') yielding objects that share
+ functionality for print()/plot()/predict() methods. Furthermore, new and
+ improved reimplementations of conditional inference trees (ctree()) and
+ model-based recursive partitioning (mob()) from the 'party' package are
+ provided based on the new infrastructure. A description of this package
+ was published by Hothorn and Zeileis (2015)
+ <http://jmlr.org/papers/v16/hothorn15a.html>.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-partykit
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 07:48:38 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 06:48:38 +0000
+Subject: [R-pkg-team] r-cran-inum_1.0-0-1_amd64.changes is NEW
+Message-ID: <E1hETVm-000D7V-UN@fasolo.debian.org>
+
+binary:r-cran-inum is NEW.
+binary:r-cran-inum is NEW.
+source:r-cran-inum is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 07:52:35 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 06:52:35 +0000
+Subject: [R-pkg-team] Processing of r-cran-psyphy_0.1-9-1_amd64.changes
+Message-ID: <E1hETZb-0000Wk-1V@usper.debian.org>
+
+r-cran-psyphy_0.1-9-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-psyphy_0.1-9-1.dsc
+  r-cran-psyphy_0.1-9.orig.tar.gz
+  r-cran-psyphy_0.1-9-1.debian.tar.xz
+  r-cran-psyphy_0.1-9-1_all.deb
+  r-cran-psyphy_0.1-9-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 08:04:30 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 07:04:30 +0000
+Subject: [R-pkg-team] r-cran-psyphy_0.1-9-1_amd64.changes is NEW
+Message-ID: <E1hETl8-000FRh-LC@fasolo.debian.org>
+
+binary:r-cran-psyphy is NEW.
+binary:r-cran-psyphy is NEW.
+source:r-cran-psyphy is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 08:57:41 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 07:57:41 +0000
+Subject: [R-pkg-team] Processing of r-cran-partykit_1.2-3-1_amd64.changes
+Message-ID: <E1hEUab-0003lO-L6@usper.debian.org>
+
+r-cran-partykit_1.2-3-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-partykit_1.2-3-1.dsc
+  r-cran-partykit_1.2-3.orig.tar.gz
+  r-cran-partykit_1.2-3-1.debian.tar.xz
+  r-cran-partykit-dbgsym_1.2-3-1_amd64.deb
+  r-cran-partykit_1.2-3-1_amd64.buildinfo
+  r-cran-partykit_1.2-3-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From tille at debian.org  Thu Apr 11 08:56:12 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 11 Apr 2019 09:56:12 +0200
+Subject: [R-pkg-team] Bug#926838: ITP: r-cran-psychotools -- GNU R
+ psychometric modeling infrastructure
+Message-ID: <155496937221.25692.13657726003922002531.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-psychotools -- GNU R psychometric modeling infrastructure
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-psychotools
+  Version         : 0.5
+  Upstream Author : Achim Zeileis,
+* URL             : https://cran.r-project.org/package=psychotools
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : GNU R psychometric modeling infrastructure
+ Infrastructure for psychometric modeling such as data classes (for
+ item response data and paired comparisons), basic model fitting functions (for
+ Bradley-Terry, Rasch, parametric logistic IRT, generalized partial credit,
+ rating scale, multinomial processing tree models), extractor functions for
+ different types of parameters (item, person, threshold, discrimination,
+ guessing, upper asymptotes), unified inference and visualizations, and various
+ datasets for illustration.  Intended as a common lightweight and efficient
+ toolbox for psychometric modeling and a common building block for fitting
+ psychometric mixture models in package "psychomix" and trees based on
+ psychometric models in package "psychotree".
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-psychotools
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 09:36:30 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 08:36:30 +0000
+Subject: [R-pkg-team] r-cran-partykit_1.2-3-1_amd64.changes is NEW
+Message-ID: <E1hEVCA-000Ben-4G@fasolo.debian.org>
+
+binary:r-cran-partykit is NEW.
+binary:r-cran-partykit is NEW.
+source:r-cran-partykit is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 09:52:45 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 08:52:45 +0000
+Subject: [R-pkg-team] Processing of r-cran-psychotools_0.5-0-1_amd64.changes
+Message-ID: <E1hEVRt-0006NS-CH@usper.debian.org>
+
+r-cran-psychotools_0.5-0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-psychotools_0.5-0-1.dsc
+  r-cran-psychotools_0.5-0.orig.tar.gz
+  r-cran-psychotools_0.5-0-1.debian.tar.xz
+  r-cran-psychotools-dbgsym_0.5-0-1_amd64.deb
+  r-cran-psychotools_0.5-0-1_amd64.buildinfo
+  r-cran-psychotools_0.5-0-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From tille at debian.org  Thu Apr 11 09:58:29 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 11 Apr 2019 10:58:29 +0200
+Subject: [R-pkg-team] Bug#926844: ITP: r-cran-psychotree -- GNU R recursive
+ partitioning based on psychometric models
+Message-ID: <155497310944.32102.374836352000787585.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-psychotree -- GNU R recursive partitioning based on psychometric models
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-psychotree
+  Version         : 0.15
+  Upstream Author : Achim Zeileis,
+* URL             : https://cran.r-project.org/package=psychotree
+* License         : GPL-2
+  Programming Lang: GNU R
+  Description     : GNU R recursive partitioning based on psychometric models
+ Recursive partitioning based on psychometric models, employing the general
+ MOB algorithm (from package partykit) to obtain Bradley-Terry trees, Rasch
+ trees, rating scale and partial credit trees, and MPT trees.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-psychotree
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 10:04:22 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 09:04:22 +0000
+Subject: [R-pkg-team] r-cran-psychotools_0.5-0-1_amd64.changes is NEW
+Message-ID: <E1hEVd8-000GJC-4B@fasolo.debian.org>
+
+binary:r-cran-psychotools is NEW.
+binary:r-cran-psychotools is NEW.
+source:r-cran-psychotools is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From postmaster at irenasbookkeeping.com.au  Thu Apr 11 07:31:26 2019
+From: postmaster at irenasbookkeeping.com.au (postmaster at irenasbookkeeping.com.au)
+Date: Wed, 10 Apr 2019 23:31:26 -0700
+Subject: [R-pkg-team] Guten morgen
+Message-ID: <20190411062608.22C5F3A507D@mail.irenasbookkeeping.com.au>
+
+Do you need an investor? Do you need business or personal loans? We offer loans to each individual and every company at an annual interest rate of 3%. For more information, please contact us by e-mail: primmefinancc at gmail.com NOTE: Forward your response only to this email address: primmefinancc at gmail.com 
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190410/cdb7b924/attachment.html>
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 10:57:55 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 09:57:55 +0000
+Subject: [R-pkg-team] Processing of r-cran-psychotree_0.15-2-1_amd64.changes
+Message-ID: <E1hEWSx-0001IO-GF@usper.debian.org>
+
+r-cran-psychotree_0.15-2-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-psychotree_0.15-2-1.dsc
+  r-cran-psychotree_0.15-2.orig.tar.gz
+  r-cran-psychotree_0.15-2-1.debian.tar.xz
+  r-cran-psychotree_0.15-2-1_all.deb
+  r-cran-psychotree_0.15-2-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Apr 11 11:04:04 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 11 Apr 2019 10:04:04 +0000
+Subject: [R-pkg-team] r-cran-psychotree_0.15-2-1_amd64.changes is NEW
+Message-ID: <E1hEWYu-0005mX-Qb@fasolo.debian.org>
+
+binary:r-cran-psychotree is NEW.
+binary:r-cran-psychotree is NEW.
+source:r-cran-psychotree is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From laura at artembassy.lv  Fri Apr 12 01:22:48 2019
+From: laura at artembassy.lv (laura at artembassy.lv)
+Date: Thu, 11 Apr 2019 17:22:48 -0700
+Subject: [R-pkg-team] Guten Tag
+Message-ID: <mailman.313.1555034545.567.r-pkg-team@alioth-lists.debian.net>
+
+Do you need an investor? Do you need business or personal loans? We offer loans to each individual and every company at an annual interest rate of 3%. For more information, please contact us by e-mail: primmefinancc at gmail.com NOTE: Forward your response only to this email address: primmefinancc at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190411/ceea35d4/attachment.html>
+
+From scottanna591 at gmail.com  Fri Apr 12 13:27:16 2019
+From: scottanna591 at gmail.com (Hannah Scott)
+Date: Fri, 12 Apr 2019 13:27:16 +0100
+Subject: [R-pkg-team] My Dear
+Message-ID: <CAM3vT6GhP9O8CUVgzmVDqfZ8yF9qWjXS5VEHyBbY-2XGkMWvyw@mail.gmail.com>
+
+My Dear
+
+With warm hearts I offer my friendship, and my greetings to you in the name
+of our lord God, and I hope this letter meets you in good time, I propose
+with my free mind and as a person of integrity from God, I know that this
+message will appear as a surprise to you that we barely know but the grace
+of God directed me to you and I wish you read this message and be blessed
+in name of the Lord.
+
+I have a brain tumor, I suffer terribly at the moment. My doctor just
+informed me that my days are numbered because of my health therefore
+condemned to certain death. Currently, I have exhausted all my savings for
+my medical care. But I do have some funds for my charity project, these
+funds are deposited in a fixed deposit in a local bank here in Benin.
+purposed for charitable foundation My marital status is such that I'm
+single because I lost my Husband for over 9 years now and unfortunately we
+have not had a child together, which I am no one to leave my legacy .
+Therefore, to release my funds I would like to make a donation so that
+there is no stiff tax on my money.
+
+To this I would so graceful and in order to help the poor to give what
+amounts to said legacy worth Four million euros (€4,000,000.00) (Four
+Million Euro) to enable you to establish a charitable foundation in my
+memory so that the grace of God be with me until my last home so I can
+receive an honorable place with the Lord our father. I have no fear because
+before contacted you, i have for several nights prayed for the Lord God to
+give me the contact of a trusted person to whom I can entrust this matter
+and it is the result of why I am doing research that allowed me to contact
+you through this site.
+
+Know that you can keep half of the money for yourself and the rest will be
+used to create a charitable foundation in my memory and a federation in the
+fight against cancer and also build orphanages. I would have the following
+information: Your name and first name, your exact address and your
+permanent telephone contact so I can forward them to my lawyer to appear
+that you perform the procedure under deal. I count on your goodwill and
+especially on the proper use of these funds have something I do not doubt
+because I have great confidence in you that God may guide me toward you. My
+private E-mail: hannnascot1 at gmail.com
+
+
+Awaiting your prompt reply, receive my cordial and fraternal greetings.
+
+Yours Sincerely
+Mrs Hannah Scott
+My Private email: hannnascot1 at gmail.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190412/3bfa11d1/attachment.html>
+
+From ftpmaster at ftp-master.debian.org  Sat Apr 13 02:47:45 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 13 Apr 2019 01:47:45 +0000
+Subject: [R-pkg-team] r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.changes
+ ACCEPTED into stretch-backports->backports-policy, stretch-backports
+Message-ID: <E1hF7lh-000COy-7G@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 10 Apr 2019 14:01:21 +0200
+Source: r-cran-htmlwidgets
+Binary: r-cran-htmlwidgets
+Architecture: source all
+Version: 1.3+dfsg-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-htmlwidgets - GNU R HTML Widgets
+Changes:
+ r-cran-htmlwidgets (1.3+dfsg-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+ .
+ r-cran-htmlwidgets (1.3+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * Standards-Version: 4.2.1
+ .
+ r-cran-htmlwidgets (1.2+dfsg-1) unstable; urgency=medium
+ .
+   * Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-
+     lists.debian.net>
+   * dh-update-R to update Build-Depends
+   * Architecture: all (instead of any)
+   * Remove autogenerated HTML docs since it is including compressed JS
+Checksums-Sha1:
+ 8048f908923635924aaabce2eab91c8c3f982589 2193 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+ 4b16dc881a703094758479c8982e50828ee0fab7 2364 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+ fc64024aad8b2aba5a6bd6ea9cb1bd2dd2a11b2d 79660 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+ 7c00af4fe78008d23ed1c997d7eef7d33175d449 9244 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+Checksums-Sha256:
+ 7ad4aa1489d8b9fcf2fbc96c923d9af87de82da12e19a4e9ddbfa9ef27ce1dad 2193 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+ 3ec3d45683ad02f3e9d5cce295c53a5687537da32714985c116e32cdb26f0ef2 2364 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+ fb8f1dc420f77f2eb2808072c9670947e3a05e047b2e014c647d7e6709319da9 79660 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+ c13f41a23fb7e70ec9505e6255daa5cc356374d9aff035a088238d0e70bea032 9244 r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+Files:
+ e49b96fbf6bf09c6af0a489ded793c1d 2193 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.dsc
+ 1fdec9f885d0fbab72b0d02ba47b49e1 2364 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1.debian.tar.xz
+ a4dd2f76e0d868651cacf768de1bfa8e 79660 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_all.deb
+ 4cbbdbc050dc2943497b67edfbe80794 9244 gnu-r optional r-cran-htmlwidgets_1.3+dfsg-1~bpo9+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlyuVR0RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHEZQ/+IBUyj/UfXCbSqyBVPHIPeiqiPYBm1WC1
+AwYv4z5CCfCAJmXhwIOrIJmtDFeS9wGZ4hDAkeBV7NYxEJywaOlNwvxghH2sSA6R
+pi7HwpwOSMkqTaHZBUcHcRbGtMX7E23bRmdUbta7MZIDu2ylrLAtWjPwkfzMZgLz
+JgdBeNYagAty2ryPb4B+zOcy4Lf858uJhFKpLa0R2DVVOhiveIZrPe+tfhgGOaFV
+NZ7o3BubzTlBx5JrD5MUEuq24rmOx5ACZXQhjs73iNrol91sVTWTjuTrV6fE5NT6
+aaFQEcVxV7HHld8wV4gkxq8jnXnPzqcE1hVkQ9QFcpCEk0HGf/PmJsK9m9pnlKHC
+aJvVFH/HaO0/tC+85DUsS3WbIFy1nJXfGD7RaCW0jA2I49a1hkgEh4I07NCAp1J0
+lbc4i6syHg5Irec66VJLJyyT0k82siNDX6c/hV7caaOvzpBO9+2/Ke6HbQCmYI5g
+3EoXjXvTE8175N6HUOa/o0EwDqygp0EtHED6CWf7s5o9CjxIj4DwUOWEz3Q2JfTf
+QKaHRUMVZg+1GFqqKSR0IAogxrjn/xnCXkGR9Hph7+2PwIce/KgzG9FFNy5sfhd0
+onf0VA3UYKsPe4lJUqNnP0khoKBnP9cqQsMGO7pQsAyocQ2R7MNeidTksFNDdI9R
+GW/Ipe/36Bg=
+=fWMP
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sat Apr 13 02:47:45 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 13 Apr 2019 01:47:45 +0000
+Subject: [R-pkg-team] r-cran-rlang_0.3.1-2~bpo9+1_amd64.changes ACCEPTED
+ into stretch-backports->backports-policy, stretch-backports
+Message-ID: <E1hF7lh-000CPC-M3@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 10 Apr 2019 22:46:55 +0200
+Source: r-cran-rlang
+Binary: r-cran-rlang
+Architecture: source amd64
+Version: 0.3.1-2~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-rlang - Functions for Base Types and Core R and 'Tidyverse' Features
+Closes: 912004
+Changes:
+ r-cran-rlang (0.3.1-2~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+ .
+ r-cran-rlang (0.3.1-2) unstable; urgency=medium
+ .
+   * Team upload
+   * Skip tests that fail only on debci infrastructure (Closes: #912004)
+   * Add Breaks: r-cran-tibble (<< 2.0.1-1~)
+ .
+ r-cran-rlang (0.3.1-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+ .
+ r-cran-rlang (0.3.0.1-2) unstable; urgency=medium
+ .
+   * Update autopkgtest (Closes: #912004)
+ .
+ r-cran-rlang (0.3.0.1-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.2.1
+ .
+ r-cran-rlang (0.2.2-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.2.0
+ .
+ r-cran-rlang (0.2.1-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-
+     lists.debian.net>
+   * Point Vcs fields to salsa.debian.org
+   * dh-update-R to update Build-Depends
+Checksums-Sha1:
+ b7244f7fb6cd4a05bc1bfa28a5d0867cf40237db 2082 r-cran-rlang_0.3.1-2~bpo9+1.dsc
+ 99f3dec30c9d6e5eea261980b7ec2e6d2134d693 2440 r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+ 2a32db46030b94bac2255d0c8adc244c8e2a39d1 116244 r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+ 15fa5d539a2663f90683d712e92c21e04a36ab2e 9236 r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+ 05a62cdded49a76ca74b45faf339a22f8e962ba1 995128 r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+Checksums-Sha256:
+ 4e0924839a5f5497b7899e8df0be49452fd020e1690f1b624439ff4b58bfb2e4 2082 r-cran-rlang_0.3.1-2~bpo9+1.dsc
+ 3de5b4a9e049867b635ac222cd71358505f4b8443a95fb64d700fdc71004c148 2440 r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+ 744b46ce99bc66ed2cf10e2999254fd766dd52a44c249bab77bd56a1f8b5a898 116244 r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+ 3900b6af9f170261495c661eb6ab87f68de6f3c72082a053708f9813d8852c3d 9236 r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+ 4cd6db92e2175b109b7fb9e5b6135fbacfb4a29dcf3c9b31fc97ea658ed4509b 995128 r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+Files:
+ c1b4e12d0ff2702c5a050d44e82e6f70 2082 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1.dsc
+ d2d0259ee3800874e883eb0b7b0292b0 2440 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1.debian.tar.xz
+ 50b8f524950f36578047a50feee0ee9b 116244 debug optional r-cran-rlang-dbgsym_0.3.1-2~bpo9+1_amd64.deb
+ adb95c4e9f23bbb8c0a6537c0fe2c753 9236 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1_amd64.buildinfo
+ af65829987e08f227428d9e5e84cbeca 995128 gnu-r optional r-cran-rlang_0.3.1-2~bpo9+1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlyuVo4RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHeQxAAiKEAyXrm67wg9c1GFXqrvMVS8KwPaAin
+GjP0j6mVXTf8SYFgQUcEXSbAgT/LWjjWBR6uf9h85utvfj9o+mRicMA3xC2qClSA
+6Q+zy5OwJajnz3dzU/X4QhmXyFdZnGP8rI0xmJCHBePijOfeQtuhuVKSUM3787dU
++ewJBxeTAkndY9f/QIexuAeTwPZ14aql2VposHURy8gtFQ7UqvA/HUuB0NHRBSDW
+v1fGdHpED/mxKKQc9YjO8u5+7DYc70q3U2E+U2joWmXc3c6j0MQKjxOudAaLHGpX
+/L65nMf1XeOWHtJkkiTxvZc+xYE38ZIyWNFuboPu/RlwD8aI7wYq7KmDIQJN3MQZ
+9fNZ5RdPbDbJzWm7guBktuVoOCx4rDD9utXHPNRPy/IE0Fbv1WZ/rJ5f6ZehI1zY
+zTUgxFtcqJrrqT2RNXYHg0JJXjsjmmZO4zGSB2Lu9IfKCfmfj2gxET5bNhL1+8DJ
+of6dWb8TdEcbNQi6sDY4O3OHdSWmGlFkxHKSURbGduPQGsMMc+7aOL4v7UlMGnuR
+JVkIN8A2nh+pQyTjPKnpt34IEk1nPg6Ba+9fLLVNfbi7Gb6mgGWWHV0c5mZHiUKb
+cayzEkFRLs6jtEDD7KyZwbnmR8M5uwHRihklPfjN/T0iNIhtcIHrmm/VGlhHSWnc
+92Gf4hgSGh0=
+=9zIH
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From zmohd38s at yahoo.com  Sat Apr 13 06:30:04 2019
+From: zmohd38s at yahoo.com (zmohd38s at yahoo.com)
+Date: Sat, 13 Apr 2019 05:30:04 +0000 (UTC)
+Subject: [R-pkg-team] INVESTMENT MANAGER NEEDED!
+Message-ID: <76961316.2953825.1555133404205@mail.yahoo.com>
+
+Dear,
+
+My name is John Franklin, a private consultant, I have a serious client, who is looking to invest in your Country, kindly reply if you will like more information. Please do CC my personal E-mail: fjohn3121 at gmail.com in your reply.
+
+Warm Regards,
+Mr. John Franklin.
+
+
+
+
+
+
+
+

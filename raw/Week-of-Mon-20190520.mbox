@@ -1,0 +1,1033 @@
+From ftpmaster at ftp-master.debian.org  Mon May 20 07:33:29 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 20 May 2019 06:33:29 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-psych_1.8.12-1~bpo9+1_amd64.changes
+Message-ID: <E1hSbrV-0002q6-Of@usper.debian.org>
+
+r-cran-psych_1.8.12-1~bpo9+1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-psych_1.8.12-1~bpo9+1.dsc
+  r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+  r-cran-psych_1.8.12-1~bpo9+1_all.deb
+  r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon May 20 07:48:22 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 20 May 2019 06:48:22 +0000
+Subject: [R-pkg-team] r-cran-psych_1.8.12-1~bpo9+1_amd64.changes ACCEPTED
+ into stretch-backports->backports-policy
+Message-ID: <E1hSc5u-0000mx-1x@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 10 May 2019 14:57:40 +0200
+Source: r-cran-psych
+Binary: r-cran-psych
+Architecture: source all
+Version: 1.8.12-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-psych - GNU R procedures for psychological, psychometric, and personality
+Changes:
+ r-cran-psych (1.8.12-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+ .
+ r-cran-psych (1.8.12-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+ .
+ r-cran-psych (1.8.10-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.2.1
+ .
+ r-cran-psych (1.8.4-2) unstable; urgency=medium
+ .
+   * Rebuild for R 3.5 transition
+ .
+ r-cran-psych (1.8.4-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-
+     lists.debian.net>
+   * dh-update-R to update Build-Depends
+   * Standards-Version: 4.1.4
+ .
+ r-cran-psych (1.8.3.3-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Fix Vcs-Browser
+Checksums-Sha1:
+ c6f410c9ccb401cd4eae598943c5a094bebf789a 2116 r-cran-psych_1.8.12-1~bpo9+1.dsc
+ 343b903240d76034aac251fc1f1f8d285460d935 4128 r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+ 9ceb0f0a01cd56a3a4b27023dd32364f6b6ab9af 5375438 r-cran-psych_1.8.12-1~bpo9+1_all.deb
+ 9b9ae0b9479087307815ffa82323298d97ec718a 9077 r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+Checksums-Sha256:
+ 97a8995e995f0c2ab65d56e226aea8a18be08a148817a60d09a89000adcfc463 2116 r-cran-psych_1.8.12-1~bpo9+1.dsc
+ 269f3f10bc24dcd3b54ac20551fb0556b7b619f3fdd2958cbeb7b7f1dfd1f85b 4128 r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+ 81dcaf866ccd32de8b6736bdc4040b6fdee7e2f8e28a6b55c60b26666e7222fe 5375438 r-cran-psych_1.8.12-1~bpo9+1_all.deb
+ ee205c52c921fa1574a64ea377faea67ce34c62f405dca5ba1f6aed77eff9a52 9077 r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+Files:
+ af32c66a0945771163fb1cae0d1dec89 2116 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1.dsc
+ 2e2b128c35c0f8783bc52b589b23ae16 4128 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+ c27a5493b55ed75cfe193424c4e7d67b 5375438 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1_all.deb
+ 9e00ceb927357c303f236923aecf1992 9077 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzdREkRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHTrQ//ZN94iwP/37BFwvArqpWiZwh5abB55Rvk
+fK59iZ5CMTsWsHnJXyt0LhMKIzkVRzEkJq7O7jhrclmv3i4ZQGj+7W/M99xN5Ptc
+Z0Wj1q+d/Nn1nybVynsgr5KKNhZOjeAJRCfPLkJ+HJ2ztAQCMQC26qO4zRokbcxl
+fMrROqnDSr3q2rcID/9Hb+VIU/FbgUDzmRBkTwvaXRmBr8ei4iMR4QERINJIaIm8
+ip3yzWiWkAyuRVHVNH/s3zTnFWcaJrlA2wYxkZxEVS1HwEBkkyh9DJdmAfUfGwtU
+W+UCEHw9O3FB3SdbA08s/boCTY/F0sQavp+cFdrImthnWB1GXejm2a9vGIbPSzP5
+8sy3iyAPExQPwbQ0Ib3NR0Grcm0XfTg4e1UXn50Rmayyznf6LraiPFOPqHYjO+XI
+bZa5vwT9QklS+JA76r+VGH1YdMg5PguFRx3ZekCk0d4/BN1JROtLgNnkJqhzx8h3
+oXz8q3Mcr2xt6M+y9B1SDo9SM0sWqHCHoopfE6nJ5pYDVI36iTziJyqevJdHkA/x
+mRYfHNvRpZT4RBs7BoRWUOGVTpnqS/xUQgQ8Xc8ImBSW8OF0awyi/TgYO4Xvn0RB
+S5jTw3OJyqOXZ42+CxkF32m0y6HHu6zE24lVF6aCcXyMioX4dCKde2k53wSxkRO8
+nkDaUU4pFCw=
+=m0Oj
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Mon May 20 14:46:18 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 20 May 2019 13:46:18 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-rhdf5lib_1.4.3+dfsg-2_source.changes
+Message-ID: <E1hSicN-0008J4-2z@usper.debian.org>
+
+r-bioc-rhdf5lib_1.4.3+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-rhdf5lib_1.4.3+dfsg-2.dsc
+  r-bioc-rhdf5lib_1.4.3+dfsg-2.debian.tar.xz
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon May 20 14:48:28 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 20 May 2019 13:48:28 +0000
+Subject: [R-pkg-team] r-bioc-rhdf5lib_1.4.3+dfsg-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1hSieS-000I7K-G7@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 20 May 2019 13:32:35 +0000
+Source: r-bioc-rhdf5lib
+Architecture: source
+Version: 1.4.3+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Graham Inggs <ginggs at debian.org>
+Changes:
+ r-bioc-rhdf5lib (1.4.3+dfsg-2) unstable; urgency=medium
+ .
+   * Team upload
+   * Use DEB_HOST_MULTIARCH instead of DEB_BUILD_GNU_TYPE
+     to fix build on *i386
+Checksums-Sha1:
+ 9bd9a0cf5e7a22dfbd6a3c3ec5bb62d84f7a534a 2144 r-bioc-rhdf5lib_1.4.3+dfsg-2.dsc
+ b7eb0eafcbe9eca6e323f37227b3fd5897c09dff 5852 r-bioc-rhdf5lib_1.4.3+dfsg-2.debian.tar.xz
+Checksums-Sha256:
+ d755c61c733b9ec056b74e70fc33effe43533fc2db76aff1441f6d5b6178ba56 2144 r-bioc-rhdf5lib_1.4.3+dfsg-2.dsc
+ 74afdeef00192330785db74317c8d3f3bcb8a9d0406eef3bd4361ab131f08dad 5852 r-bioc-rhdf5lib_1.4.3+dfsg-2.debian.tar.xz
+Files:
+ 0beb9219bafeadca7fd8f5d60ac54e29 2144 gnu-r optional r-bioc-rhdf5lib_1.4.3+dfsg-2.dsc
+ 79ebbebd541031a67259e0ca0fae28a7 5852 gnu-r optional r-bioc-rhdf5lib_1.4.3+dfsg-2.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEJeP/LX9Gnb59DU5Qr8/sjmac4cIFAlzirN8ACgkQr8/sjmac
+4cJIjA//U0/ScjmLVJhK9TPINPdKLlxKVqnrjL3Cr4oMmf2hbzI+r7P2CisKMLR0
+JoOsUOOh2QcaHE0ZRJ/qFtMS/gcUZ6yl79/TfpF+2fjSG5S+Hdd56a9DkDIotN4l
+DlKTVhNBziY9UwiiaD1S1/26IzCvazp6jUxKjItdE3H0/0nFHNI4uq264fqv614W
+sMF/Q2lX9wZFlmEzqTBlbNhP2Dm6WbwBqc6DGItFnexG0ORr/fkF9rusHNHwaCKB
+yKh70uQBIdL8bm1PJ8yhnN6ZjuuXS5bOwBHcJpStcDybobn4DjTXApY+VVm0q+Jk
+lmIQaoyoypr98Mf9RyrByjWGXpLFkyroB7PO1CrIE5Jth4pXqGAb1rDF6M/x1zil
+3DVaLzQqif1pPPYfcIfN2XpU6shR7ksKqk4mIqt3GLr4f8JTx5i+dmzi9vmQEAqY
+HeObLdlKhBgVqLHptoWUUMf53yFlIGdFnbAPeA8pDDasKhl1LR0FwJcpb29ZWStK
+u/vVc1VswgwEuc2Q1kFCHHAvnKljOCM44pyfzDJo+5RB/jeFMYQxqoZ3TWvQT9lT
+3VbJJkPssFzEb4KsPkE6N0wDY6cO6HANocYDtnq+W4M9DqZudmLPrMQF38ITXjxQ
+b/FoswmwQvPbbqo8N+7PhlWzmSYIe5sbJ4DmtySiTdbfV1DM7vs=
+=6xZ4
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From info at kralupy.cz  Tue May 21 16:38:36 2019
+From: info at kralupy.cz (Mr. Bongani)
+Date: Tue, 21 May 2019 08:38:36 -0700
+Subject: [R-pkg-team] (no subject)
+Message-ID: <a185c967df499a9ad8d90f3bb0164cd5@kralupy.cz>
+
+
+
+-- 
+Dear Respectfully,
+
+In my long years of work with top financial management companies in the
+United Kingdom, l and my Partner Mr. Hernandez have earned the 
+confidence
+of most our high net-worth clients. I presently have two clients (Non
+Europeans) who have funds to give out for investment either on equity or
+loan basis.
+
+The areas to be considered for the investment are as follows Real 
+estate,
+Oil & Gas, Agriculture, Health, Aviation, Tourism, Retail, Construction, 
+IT
+& Communications, Technology, Education, Energy, Engineering, Utilities,
+Telecoms, Mining, Maritime, sustainable energy and host of other 
+profitable
+ventures.
+
+Intending beneficiaries must have a business plan and show their 
+capability
+to manage huge funds. The beneficiary must be able to deliver good and
+sustainable returns on investment to the investor annually. If you are 
+that
+person or establishment seeking to expand your existing business or you
+have new ideas waiting for implementation, the opportunity is here.
+
+Regards,
+
+Bongani
+
+ 
+
+ 
+
+Sehr geehrte Damen und Herren,
+
+   In meiner langjährigen Arbeit bei führenden
+Finanzverwaltungsunternehmen in Großbritannien haben ich und mein 
+Partner
+Herr Hernandez das Vertrauen der meisten unserer vermögenden Kunden
+erworben. Ich habe derzeit zwei Kunden (Nicht-Europäer), die Geldmittel
+für Investitionen auf Eigenkapital- oder Kreditbasis zur Verfügung 
+haben.
+
+
+Folgende Bereiche sind für die Investition zu berücksichtigen:
+Immobilien, Öl & Gas, Landwirtschaft, Gesundheit, Luftfahrt, Tourismus,
+Einzelhandel, Bau, IT & Kommunikation, Technologie, Bildung, Energie,
+Ingenieurwesen, Versorgungsunternehmen, Telekommunikation, Bergbau,
+Schifffahrt, nachhaltige Energie und eine Vielzahl anderer profitabler
+Unternehmen.
+
+Die beabsichtigten Begünstigten müssen einen Geschäftsplan haben und
+nachweisen, dass sie in der Lage sind, riesige Mittel zu verwalten. Der
+Begünstigte muss in der Lage sein, dem Anleger jährlich eine gute und
+nachhaltige Kapitalrendite zu liefern. Wenn Sie diese Person oder
+Einrichtung sind, die Ihr bestehendes Geschäft erweitern möchte, oder
+wenn Sie neue Ideen haben, die auf die Implementierung warten, ist die
+Gelegenheit hier.
+
+Grüße,
+
+Bongani
+
+
+From ftpmaster at ftp-master.debian.org  Wed May 22 12:00:22 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 22 May 2019 11:00:22 +0000
+Subject: [R-pkg-team] r-cran-ggrepel_0.8.0-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1hTOys-000Byx-Ov@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 01 Mar 2019 19:31:05 +0100
+Source: r-cran-ggrepel
+Binary: r-cran-ggrepel r-cran-ggrepel-dbgsym
+Architecture: source amd64
+Version: 0.8.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-cran-ggrepel - auto-position non-overlapping text labels in plots
+Closes: 929117
+Changes:
+ r-cran-ggrepel (0.8.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #929117)
+Checksums-Sha1:
+ 3624c64582b0b64d49d0b32230c0de99f00dd0a2 2171 r-cran-ggrepel_0.8.0-1.dsc
+ 4f9f9803477bf922e1e72cca4f048580dab1345d 226688 r-cran-ggrepel_0.8.0.orig.tar.gz
+ 8eebd57421abb3be849198dfa25dd65d4d59432d 2052 r-cran-ggrepel_0.8.0-1.debian.tar.xz
+ 3b886b6d5d3c95b80a6eb51558d7e6d76681e5da 480900 r-cran-ggrepel-dbgsym_0.8.0-1_amd64.deb
+ 5351338b6f29326e93f14c4b918f83b21bcd4d9d 9937 r-cran-ggrepel_0.8.0-1_amd64.buildinfo
+ 7e4dd5b160b011a78f553293a6d53d33c55d0266 293032 r-cran-ggrepel_0.8.0-1_amd64.deb
+Checksums-Sha256:
+ 6058ab7fe265a7e8dee7d718d57a0bd72e1dc442d1865fe91d9693e5d0bd6757 2171 r-cran-ggrepel_0.8.0-1.dsc
+ 6386606e716d326354a29fcb6cd09f9b3d3b5e7c5ba0d5f7ff35416b1a4177d4 226688 r-cran-ggrepel_0.8.0.orig.tar.gz
+ ee315a5d93e72fbf730bc74f8b9083b75ab147a4aedb68dc4dc1beb7e9b3e93d 2052 r-cran-ggrepel_0.8.0-1.debian.tar.xz
+ 0f4a7c50964d0cfbd1106097e90aaffe9fd75624dfac9cbc9f412e30c68cacdb 480900 r-cran-ggrepel-dbgsym_0.8.0-1_amd64.deb
+ dc2756b6c5c0b147548908c99aacff339567f139ff136e5077607211f12234d3 9937 r-cran-ggrepel_0.8.0-1_amd64.buildinfo
+ 6fec1b3c4a5567fea3c480947e8f04a43f65ddacb98a48a07f40531301531005 293032 r-cran-ggrepel_0.8.0-1_amd64.deb
+Files:
+ 32a5a4e1b6c022deb13ea9f83df448bd 2171 gnu-r optional r-cran-ggrepel_0.8.0-1.dsc
+ f3274ed2738647c04239a23d9798742f 226688 gnu-r optional r-cran-ggrepel_0.8.0.orig.tar.gz
+ f8b47d9750ea1e502c9e8bd4357983bf 2052 gnu-r optional r-cran-ggrepel_0.8.0-1.debian.tar.xz
+ 650211f9bc48c9b6f6442637123d1610 480900 debug optional r-cran-ggrepel-dbgsym_0.8.0-1_amd64.deb
+ 47ea6ed8ae83775291ae004785a0c7f1 9937 gnu-r optional r-cran-ggrepel_0.8.0-1_amd64.buildinfo
+ e7ce6989491f022dda1e98ca01b1e3b7 293032 gnu-r optional r-cran-ggrepel_0.8.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAlzgUA8THG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0V2rEACaFtjR5/2IE8OEnso+bxLxBXmF+zmW
+4OL9hQfQEvqkunuc3Q5oEu9t5W2VLQT3zKKhGgz/N6jGXfqDz7KvRu0Ct4wfftBy
+R9Hn22q9PsrBsGg20TXbEoMsgtN6NmHemV8+a9i4Wxfk+FR0LA7ay4IKRfn1p4eI
+PyUDuvvUNwc44u7sLHDktXA64I/RoGO2Bu71YXEm+JOeXIMvztZo82KHVyI01+YT
+URchrAqv/DlqoERsA7wxLXb8CcQiv35cV8gIQk3JOd2cVHS5j3c7KWESgBASyZjP
+Z30KyvpvpmBkTStm0mK5r4IoGyF1t3hkuP9FlNB4WWVTLdzl9Wwjc83LVfW0rgk3
++sKuEXp0gAgXQdo1o0MAGxCEzrASHGNPpZHi2FU3i8elDjnBLJiBFxb8u7pvBlYz
+sVCBEqsNxIQwcGI4SbU0x1bUbu2aSBStLFGbOHC81c/wTjEGKs8PSsqwdwr5UXtY
+7c7Y2S0TtcAI+Sq/zJuZZ+3v9AYt87kvRnXY/12xiFwOj+Dppc5PooOsAtKvlJCR
+Tj/CxrOO9MwxjWjOyQiDk8eK5UaP8URSNkvy7yvg714jfzCkk+vYzpAv7bMLxOl4
+FLnJRB66dFn0V81MhqyO9hyn/UV2n9rYUaL3XXhNqTJ/8BgoMn3xlVUn/clJiQk2
+WbRYLllylP4+KQ==
+=tlnp
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Wed May 22 12:00:23 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 22 May 2019 11:00:23 +0000
+Subject: [R-pkg-team] r-cran-webgestaltr_0.3.0-1_amd64.changes ACCEPTED into
+ unstable, unstable
+Message-ID: <E1hTOyt-000BzE-82@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 18 Feb 2019 14:47:58 +0100
+Source: r-cran-webgestaltr
+Binary: r-cran-webgestaltr r-cran-webgestaltr-dbgsym
+Architecture: source amd64
+Version: 0.3.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-cran-webgestaltr - find over-represented properties in gene lists
+Closes: 929118
+Changes:
+ r-cran-webgestaltr (0.3.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #929118)
+Checksums-Sha1:
+ 7da43e40a276c85ca160817dcb13e1de18fe7046 2290 r-cran-webgestaltr_0.3.0-1.dsc
+ 2c372cc8e868fcc08584e8f6733a90955e66beb1 217549 r-cran-webgestaltr_0.3.0.orig.tar.gz
+ 2dc4917e615994357fecbcf4d4e10a926373b808 1924 r-cran-webgestaltr_0.3.0-1.debian.tar.xz
+ 4d60f10252b350d369d5d61395d80e78b2a16976 618540 r-cran-webgestaltr-dbgsym_0.3.0-1_amd64.deb
+ 35150fe8681f7c216331f1780b699b24bfbb9b8a 10366 r-cran-webgestaltr_0.3.0-1_amd64.buildinfo
+ 5cb7d95cd9ec706545481e745ffe265321ef0d3d 434764 r-cran-webgestaltr_0.3.0-1_amd64.deb
+Checksums-Sha256:
+ e01a6ff30fcd98564a86f4bf0b94fd97012031b5e31db5a5bae5b015f28ed41a 2290 r-cran-webgestaltr_0.3.0-1.dsc
+ 8a644037ecc0b1ccda4b2cc932117a4fc2cbbd269d409479929384552d5d254c 217549 r-cran-webgestaltr_0.3.0.orig.tar.gz
+ bd536f35e3a506fc872ad0be290d253f69c1f85d4749e54dbd1e8c4e1de2b335 1924 r-cran-webgestaltr_0.3.0-1.debian.tar.xz
+ 144698f139aad0b93c1fe6b00138e83b3551ba41b3f6c0d4b38ca39bbdf86dc5 618540 r-cran-webgestaltr-dbgsym_0.3.0-1_amd64.deb
+ 6a654e743728381d07851059dfce653f265b80d1d153f75bcedfa06e312cd389 10366 r-cran-webgestaltr_0.3.0-1_amd64.buildinfo
+ b73f1668e5ef4388a48ec4caf1c4ad44207776c0ae4a6a565b3b1bdeb13b4705 434764 r-cran-webgestaltr_0.3.0-1_amd64.deb
+Files:
+ 380d9e5925612bd4332113b79979f9eb 2290 gnu-r optional r-cran-webgestaltr_0.3.0-1.dsc
+ 270efaa8d36ad4a868e6a28095ff5a3a 217549 gnu-r optional r-cran-webgestaltr_0.3.0.orig.tar.gz
+ a6a6f5233a6ba1d8f50d16e5f1b1f854 1924 gnu-r optional r-cran-webgestaltr_0.3.0-1.debian.tar.xz
+ 8d0800f53a5ecef460c8947b7bbf056e 618540 debug optional r-cran-webgestaltr-dbgsym_0.3.0-1_amd64.deb
+ 4b48c8640ce3d2a98ed6ead07d203ac2 10366 gnu-r optional r-cran-webgestaltr_0.3.0-1_amd64.buildinfo
+ 5db04175b95e26f5af65ff166f30387c 434764 gnu-r optional r-cran-webgestaltr_0.3.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAlzgToMTHG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0VsHD/4wTZ43PrDpQV/jzzErQQE6HFVLbAh/
+B0sOKH+52U0C0tAZVvbFFiE2SEVena0lNWOpCmlP3Ncw4XvXrgWtnc+Tb/X03YQg
+ZbQY2AcaeEw636a0/vTgI3Ys0TqtpJFS8057GqMxm8lC2jy2G/7kswNMKMikRpES
+mhD4uOXy5iUkE8vqT9RruvTZTloVVOlYMLr1TvSod3zbH5YsoKqTnZd1ZnBiXYbi
+CMcbFjd7Q/4bU5Ucn5/gU4NFBepyxC71vuZm1l0kw3YP5ge7wxglu4VrAKc9QMI2
+zSjep0sGC58QRypoVAVNxQ9s2mbVX6q8vaOf+N+z8ja6zJdcHMhkSq1JcxK7B6Mw
+O/ph4nfDnbNP4hbWilcK062oKfUvvk81nBajHyyjZPB1tVOSX7FSjb2MHiHuMwOY
+1cGm2X66OR64q6FOG7TMqU2DD0k9BnQ3EDzETQ4vqiPZHQwxQK2bMI0ozYy3v3nY
+utSTsSmRQnUrirKLTZDhVw0E3ZNWnXEwhc4Te9uTTbKbLITVVS3vULW82kI13cwu
+uBvhNF8P5ICuFhmGOYOdjqfC1AqS5zPhAWnddykCyTySIOz8/T2uvnPT8Y5S5cbu
+77zIEdAjxoZpi03U6pFZIcCwhx+33mEr3dc88+EmkOmR+t9RBAtAMvRge9y4V2sD
+zcIk9Hn0KTjWSw==
+=hw4O
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From sanvila at debian.org  Wed May 22 17:05:47 2019
+From: sanvila at debian.org (Santiago Vila)
+Date: Wed, 22 May 2019 16:05:47 +0000
+Subject: [R-pkg-team] Bug#929386: r-cran-webgestaltr: FTBFS (missing
+ builds-depends)
+Message-ID: <E1hTTkR-00012f-97@paradis.debian.org>
+
+Package: src:r-cran-webgestaltr
+Version: 0.3.0-1
+Severity: serious
+Tags: ftbfs
+
+Dear maintainer:
+
+I tried to build this package in sid but it failed:
+
+--------------------------------------------------------------------------------
+[...]
+ debian/rules build-arch
+dh build-arch --buildsystem R
+   dh_update_autotools_config -a -O--buildsystem=R
+   dh_autoreconf -a -O--buildsystem=R
+   dh_auto_configure -a -O--buildsystem=R
+   dh_auto_build -a -O--buildsystem=R
+   dh_auto_test -a -O--buildsystem=R
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary-arch
+dh binary-arch --buildsystem R
+   dh_testroot -a -O--buildsystem=R
+   dh_prep -a -O--buildsystem=R
+   dh_auto_install -a -O--buildsystem=R
+I: R Package: WebGestaltR Version: 0.3.0
+I: Building using R version 3.6.0-2
+I: R API version: r-api-3.5
+I: Using built-time from d/changelog: Mon, 18 Feb 2019 14:47:58 +0100
+	mkdir -p /<<PKGBUILDDIR>>/debian/r-cran-webgestaltr/usr/lib/R/site-library
+	R CMD INSTALL -l /<<PKGBUILDDIR>>/debian/r-cran-webgestaltr/usr/lib/R/site-library --clean . "--built-timestamp='Mon, 18 Feb 2019 14:47:58 +0100'"
+ERROR: dependency 'apcluster' is not available for package 'WebGestaltR'
+* removing '/<<PKGBUILDDIR>>/debian/r-cran-webgestaltr/usr/lib/R/site-library/WebGestaltR'
+dh_auto_install: R CMD INSTALL -l /<<PKGBUILDDIR>>/debian/r-cran-webgestaltr/usr/lib/R/site-library --clean . "--built-timestamp='Mon, 18 Feb 2019 14:47:58 +0100'" returned exit code 1
+make: *** [debian/rules:4: binary-arch] Error 2
+dpkg-buildpackage: error: fakeroot debian/rules binary-arch subprocess returned exit status 2
+--------------------------------------------------------------------------------
+
+Looks like a missing build-depends.
+
+Thanks.
+
+
+From tille at debian.org  Wed May 22 22:06:13 2019
+From: tille at debian.org (Andreas Tille)
+Date: Wed, 22 May 2019 23:06:13 +0200
+Subject: [R-pkg-team] Bug#929386: Can you please run `inject-into-salsa-git`
+ on your local clone (Was: Bug#929386: r-cran-webgestaltr: FTBFS (missing
+ builds-depends))
+In-Reply-To: <E1hTTkR-00012f-97@paradis.debian.org>
+References: <E1hTTkR-00012f-97@paradis.debian.org>
+ <E1hTTkR-00012f-97@paradis.debian.org>
+Message-ID: <20190522210613.uvnivdzqptb3tryc@an3as.eu>
+
+Hi Steffen,
+
+can you please run `inject-into-salsa-git` on your local clone.  There is
+no Git repository at
+
+   https://salsa.debian.org/r-pkg-team/r-cran-webgestaltr
+
+Kind regards
+
+      Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From ftpmaster at ftp-master.debian.org  Thu May 23 09:42:18 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 May 2019 08:42:18 +0000
+Subject: [R-pkg-team] r-cran-psych_1.8.12-1~bpo9+1_amd64.changes ACCEPTED
+ into stretch-backports->backports-policy, stretch-backports
+Message-ID: <E1hTjIo-0008yZ-RN@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 10 May 2019 14:57:40 +0200
+Source: r-cran-psych
+Binary: r-cran-psych
+Architecture: source all
+Version: 1.8.12-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-psych - GNU R procedures for psychological, psychometric, and personality
+Changes:
+ r-cran-psych (1.8.12-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+ .
+ r-cran-psych (1.8.12-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * debhelper 12
+   * Standards-Version: 4.3.0
+ .
+ r-cran-psych (1.8.10-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.2.1
+ .
+ r-cran-psych (1.8.4-2) unstable; urgency=medium
+ .
+   * Rebuild for R 3.5 transition
+ .
+ r-cran-psych (1.8.4-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-
+     lists.debian.net>
+   * dh-update-R to update Build-Depends
+   * Standards-Version: 4.1.4
+ .
+ r-cran-psych (1.8.3.3-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Fix Vcs-Browser
+Checksums-Sha1:
+ c6f410c9ccb401cd4eae598943c5a094bebf789a 2116 r-cran-psych_1.8.12-1~bpo9+1.dsc
+ 343b903240d76034aac251fc1f1f8d285460d935 4128 r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+ 9ceb0f0a01cd56a3a4b27023dd32364f6b6ab9af 5375438 r-cran-psych_1.8.12-1~bpo9+1_all.deb
+ 9b9ae0b9479087307815ffa82323298d97ec718a 9077 r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+Checksums-Sha256:
+ 97a8995e995f0c2ab65d56e226aea8a18be08a148817a60d09a89000adcfc463 2116 r-cran-psych_1.8.12-1~bpo9+1.dsc
+ 269f3f10bc24dcd3b54ac20551fb0556b7b619f3fdd2958cbeb7b7f1dfd1f85b 4128 r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+ 81dcaf866ccd32de8b6736bdc4040b6fdee7e2f8e28a6b55c60b26666e7222fe 5375438 r-cran-psych_1.8.12-1~bpo9+1_all.deb
+ ee205c52c921fa1574a64ea377faea67ce34c62f405dca5ba1f6aed77eff9a52 9077 r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+Files:
+ af32c66a0945771163fb1cae0d1dec89 2116 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1.dsc
+ 2e2b128c35c0f8783bc52b589b23ae16 4128 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1.debian.tar.xz
+ c27a5493b55ed75cfe193424c4e7d67b 5375438 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1_all.deb
+ 9e00ceb927357c303f236923aecf1992 9077 gnu-r optional r-cran-psych_1.8.12-1~bpo9+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzdREkRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHTrQ//ZN94iwP/37BFwvArqpWiZwh5abB55Rvk
+fK59iZ5CMTsWsHnJXyt0LhMKIzkVRzEkJq7O7jhrclmv3i4ZQGj+7W/M99xN5Ptc
+Z0Wj1q+d/Nn1nybVynsgr5KKNhZOjeAJRCfPLkJ+HJ2ztAQCMQC26qO4zRokbcxl
+fMrROqnDSr3q2rcID/9Hb+VIU/FbgUDzmRBkTwvaXRmBr8ei4iMR4QERINJIaIm8
+ip3yzWiWkAyuRVHVNH/s3zTnFWcaJrlA2wYxkZxEVS1HwEBkkyh9DJdmAfUfGwtU
+W+UCEHw9O3FB3SdbA08s/boCTY/F0sQavp+cFdrImthnWB1GXejm2a9vGIbPSzP5
+8sy3iyAPExQPwbQ0Ib3NR0Grcm0XfTg4e1UXn50Rmayyznf6LraiPFOPqHYjO+XI
+bZa5vwT9QklS+JA76r+VGH1YdMg5PguFRx3ZekCk0d4/BN1JROtLgNnkJqhzx8h3
+oXz8q3Mcr2xt6M+y9B1SDo9SM0sWqHCHoopfE6nJ5pYDVI36iTziJyqevJdHkA/x
+mRYfHNvRpZT4RBs7BoRWUOGVTpnqS/xUQgQ8Xc8ImBSW8OF0awyi/TgYO4Xvn0RB
+S5jTw3OJyqOXZ42+CxkF32m0y6HHu6zE24lVF6aCcXyMioX4dCKde2k53wSxkRO8
+nkDaUU4pFCw=
+=m0Oj
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Thu May 23 10:10:21 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 May 2019 09:10:21 +0000
+Subject: [R-pkg-team] Processing of r-bioc-rhdf5_2.26.2+dfsg-2_source.changes
+Message-ID: <E1hTjjx-0006Jg-UH@usper.debian.org>
+
+r-bioc-rhdf5_2.26.2+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-rhdf5_2.26.2+dfsg-2.dsc
+  r-bioc-rhdf5_2.26.2+dfsg-2.debian.tar.xz
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu May 23 10:19:42 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 May 2019 09:19:42 +0000
+Subject: [R-pkg-team] r-bioc-rhdf5_2.26.2+dfsg-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1hTjt0-000D7y-7x@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 23 May 2019 08:52:03 +0000
+Source: r-bioc-rhdf5
+Architecture: source
+Version: 2.26.2+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Graham Inggs <ginggs at debian.org>
+Changes:
+ r-bioc-rhdf5 (2.26.2+dfsg-2) unstable; urgency=medium
+ .
+   * Team upload
+   * Use DEB_HOST_MULTIARCH instead of DEB_BUILD_GNU_TYPE
+     to fix build on *i386
+Checksums-Sha1:
+ 9f0e4b85c13c4e02f9df65eed95bd302e5edfdb1 2110 r-bioc-rhdf5_2.26.2+dfsg-2.dsc
+ a1da4e87b6bc27b411829a1915c1659d0b0dbe35 26460 r-bioc-rhdf5_2.26.2+dfsg-2.debian.tar.xz
+Checksums-Sha256:
+ 7aa6856842c4ca1ba35c4a132e2e43cd364f625a1527f5b37530e7b5659ab99e 2110 r-bioc-rhdf5_2.26.2+dfsg-2.dsc
+ eccd7fed61f6d0ab93eaa3e5c9e68fa189ee753e8a1c01f3ef754cc5ecedb79f 26460 r-bioc-rhdf5_2.26.2+dfsg-2.debian.tar.xz
+Files:
+ 075da62a55d5ae3602c8dd6386e40e04 2110 gnu-r optional r-bioc-rhdf5_2.26.2+dfsg-2.dsc
+ 223cdf24e02e4c266a5d719a2e4978a8 26460 gnu-r optional r-bioc-rhdf5_2.26.2+dfsg-2.debian.tar.xz
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEJeP/LX9Gnb59DU5Qr8/sjmac4cIFAlzmYO8ACgkQr8/sjmac
+4cJOmRAAptleYa0YcadUhUCVZOzIRXJtCWbWHpZR3t54Afwx7GLDPHvPhdbSwPN7
+3eF8lvJFpKBjMOukjT+TY7LTNa7kIHGmfGTQjcvOmgEPtuHcacEhwvIyUy6lV2hR
+D05QwMfdyOulTjwfcrHUV5xgBxCmTeWq5WXvFKbOWF+j1dBmwePczAu5DjzxooW+
+C5WYiTFcuS6V7D2X5iWi4sYwjVrBnNF+k9LwWX+lNox9A9OjgWEM+7cmzf1UWbu7
+ocBaX9qsDa1yhJPZx1PSNhT1+n780Aj2S8GVLfBDNvRDy1tLXV/E8BLq7P7dRvRZ
+aVTdu1FiJz6rr69YYoQBDveqwE6geFBdxpSqG5kQVNGJ3VfzFcDWDckWZTsfZu8f
+aqTEvQjoxnS3478nS9ZYNZN8A8f/W6JS/78+qKly6IRUgqxJbrjGz013xZlp8RxW
+GfqpOCziUoOQhrQjtthWY7aO/gNnvZrSfLiDE+c9+r1a2ZMzhOvUNgYFvA4l3BGi
+8HnKKS8j1T5V82WFWQC/TCH/ZItu5M6EXYZ7baONsEQn0s+pb8yxmHjDtlfhIY+q
+8lwRL2v597PS+xEtdn1uThYvOFIrhWKqXWQHWH22Fjv01YqV7OpVDys4BCr9TLmv
+PzC8ppaDOZyGNtofJ7vNx0G7jYKwefN/iel/l2AWxqpG0zAhDYw=
+=+113
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Thu May 23 11:00:17 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 May 2019 10:00:17 +0000
+Subject: [R-pkg-team] r-cran-ggplot2_3.1.0-1~bpo9+1_amd64.changes ACCEPTED
+ into stretch-backports->backports-policy, stretch-backports
+Message-ID: <E1hTkWH-000I74-Ur@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Tue, 07 May 2019 12:08:00 +0200
+Source: r-cran-ggplot2
+Binary: r-cran-ggplot2
+Architecture: source all
+Version: 3.1.0-1~bpo9+1
+Distribution: stretch-backports
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-ggplot2 - implementation of the Grammar of Graphics
+Changes:
+ r-cran-ggplot2 (3.1.0-1~bpo9+1) stretch-backports; urgency=medium
+ .
+   * Rebuild for stretch-backports.
+Checksums-Sha1:
+ fcf6cbf75889c922abcb6c58a29e2076d387bd95 2400 r-cran-ggplot2_3.1.0-1~bpo9+1.dsc
+ 42d0e289ed1718dafee96dfda3feee6af82aceff 3604 r-cran-ggplot2_3.1.0-1~bpo9+1.debian.tar.xz
+ 1b8b062535fad44d05cc96058f42ae11b4b5e734 3273524 r-cran-ggplot2_3.1.0-1~bpo9+1_all.deb
+ a3d07fe358eb56af9063206072ba16369bad46cc 10091 r-cran-ggplot2_3.1.0-1~bpo9+1_amd64.buildinfo
+Checksums-Sha256:
+ e4b0bece40e2ec4674180daa1cf97add88004b0cf424368d1557e3f033bbcc38 2400 r-cran-ggplot2_3.1.0-1~bpo9+1.dsc
+ 6cb46bc7f66e111f3e9f72697bbf5656803361d753b5062f13a0496124c4e138 3604 r-cran-ggplot2_3.1.0-1~bpo9+1.debian.tar.xz
+ 6caa8f0850be1d55d8aab46fdb170075cafc5d2a7d8a33234a62435820c1280a 3273524 r-cran-ggplot2_3.1.0-1~bpo9+1_all.deb
+ cfdee252dc9b4f58fe5be040942fbf775a60abc42c4bd7942bb84922133c1842 10091 r-cran-ggplot2_3.1.0-1~bpo9+1_amd64.buildinfo
+Files:
+ 5f192b7fb295af8e08b16ac4e8095dae 2400 gnu-r optional r-cran-ggplot2_3.1.0-1~bpo9+1.dsc
+ be86e4aa996a125a25113dfae8cdd99a 3604 gnu-r optional r-cran-ggplot2_3.1.0-1~bpo9+1.debian.tar.xz
+ 6d04595e5c1d5c9a62fdf22e3db8c836 3273524 gnu-r optional r-cran-ggplot2_3.1.0-1~bpo9+1_all.deb
+ 921bc7cb8531824d1341651fbc9a8430 10091 gnu-r optional r-cran-ggplot2_3.1.0-1~bpo9+1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzRWc8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHcvxAAlam0iIWUjrAAPqKxtk9PkbpevrQQUdC1
+a2NIZZf81As7oR8UliOeh2p1xzrxftsXfO0mRbpMjIa/AXOeiqY/Xo5VZ/Kn50I6
+W/qYB5EuFnZbTyzEiq8p5Io7AFNiOye61YS1bpuI+gsHYxG5X9zbDuJQL5pBir45
+H1oy5/4OJuyW4cQVWaNDEmyiYWSOb8BOI8yDod5KAFZSXmXEGwU+HR6JiAOq/WWz
+99bJPvVaWT4rZ08DhDSayVQ4pMpBnaS3HEtE10EG3PJG0XD2VeIiov4iFGixVabR
+N7ioDBIEML73fXUjsm2FdUqHTpiubj+e/vxAZNhIf01sMryiFcPorbHSaONndUQX
+C721EIIATcSqHRsFctL0vyDGYtaGS1in+Di9bYZkmCO10Z60Il/pHn3Xjc8B8TAF
++UnRcLp5Gi1bZrhsbUs6O68yzPEPRqnIAMSXY9A+USxKHBOALkQoq8F0STeuWUYs
+D4yiJ+NZ3IkDw4lMXf13ExPZgjw/9SySIvmLhmeh8f0ln0pb3/Ocybgr7jqeGQU5
+auAeJDhxnOepOWs7PHsNGgg5KI5x0zqoCZVT9ULNHsZcV93Q83P0zHSAVNrHiS9O
+oTs33RRkvVKLJBIGa/FLGaD87HG1N0rTPB7YqQ86b8lLQOcom77QzQp2xqg2ZFuN
+7MqFf2CYrQc=
+=7AJ0
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Thu May 23 20:58:40 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 May 2019 19:58:40 +0000
+Subject: [R-pkg-team] Processing of r-cran-webgestaltr_0.4.0-1_source.changes
+Message-ID: <E1hTtrM-0005Zc-Dq@usper.debian.org>
+
+r-cran-webgestaltr_0.4.0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-webgestaltr_0.4.0-1.dsc
+  r-cran-webgestaltr_0.4.0.orig.tar.gz
+  r-cran-webgestaltr_0.4.0-1.debian.tar.xz
+  r-cran-webgestaltr_0.4.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu May 23 21:41:22 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 May 2019 20:41:22 +0000
+Subject: [R-pkg-team] r-cran-webgestaltr_0.4.0-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1hTuWg-000AFQ-8H@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 23 May 2019 21:38:22 +0200
+Source: r-cran-webgestaltr
+Architecture: source
+Version: 0.4.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 929386
+Changes:
+ r-cran-webgestaltr (0.4.0-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * dh-update-R to update Build-Depends
+     Closes: #929386
+   * d/copyright: No comma separated files
+Checksums-Sha1:
+ c9679246780b1a4e90c30b16374d57c05459a187 2295 r-cran-webgestaltr_0.4.0-1.dsc
+ 4b89c89f7d9ae85ee2a72dac6b1ed90344d4134a 225434 r-cran-webgestaltr_0.4.0.orig.tar.gz
+ 5debecae1df1128a8b5c791efae59573f91de1fe 2108 r-cran-webgestaltr_0.4.0-1.debian.tar.xz
+ b5860e9e5db7ed11c84a55e5533e7b94773e7d7f 10080 r-cran-webgestaltr_0.4.0-1_amd64.buildinfo
+Checksums-Sha256:
+ b904f050244cf6011c28c73e8d471ab9046aa5e064653cb17120513f5d14c7cc 2295 r-cran-webgestaltr_0.4.0-1.dsc
+ 688273a8a7bf510574b0ee77e465ac55baf06e7d2e204256bcfe84bfbb9b104b 225434 r-cran-webgestaltr_0.4.0.orig.tar.gz
+ 5d1733a8f24a3b396d8160116a5e5c344891b54b91ad6aa7bd0ff96b7b18110c 2108 r-cran-webgestaltr_0.4.0-1.debian.tar.xz
+ fb8d9e58050169a3ae09d62131e181fd78990637ad696d58e88331d6cd84a0d6 10080 r-cran-webgestaltr_0.4.0-1_amd64.buildinfo
+Files:
+ 2aedfd33bd97d8d3216052d9e4c811de 2295 gnu-r optional r-cran-webgestaltr_0.4.0-1.dsc
+ eb1610a708e28332cdcfd057c3b74394 225434 gnu-r optional r-cran-webgestaltr_0.4.0.orig.tar.gz
+ fe726f5623d2d08425a650f35248fc06 2108 gnu-r optional r-cran-webgestaltr_0.4.0-1.debian.tar.xz
+ 28a16292a88a7c527a0fa180a383486b 10080 gnu-r optional r-cran-webgestaltr_0.4.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAlzm+MoRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtEXkw//SQNCx+Gb1QwuE4Vw6IYJnmyJE7kNiceM
++5m9KxIsFhBAvmSE+vRBuH9YXmfjD0ynSVz6yRte3WjZ2mJ5FmjN903UPbW7Mh0t
+Du1U4vPVKdLnya1mxBE/dplKAyVhx/Mr6mYOFihG8Zb9X4k8W82lFwmLQ19hOvRP
+Fb8izH5+eWMhvQ5OOoVIUsnOGu35z0Sv8WrEwkeTPLNVqanEScxChuYj+QyfQT2v
+fGymKmRIQXeWUnNDLd18H7uPME6LQkPASVA22pXPmOH0oXKM0LOnZmOedlBJ/Hsj
+fEMlikWClJPN7LMjb+llQrVsO3ggd7rVu2wvfe7DSV62A93gQk+wDwnA9SKF5SYK
+o7PuzMuMOJj68dz6R9ZT1AqSjv53x/JWu4YkB6lLLiHw/kp17smbTWWPqKSuxkGp
+h4F4v3Ggh8CJ87DZU3cdgw85qbiQNKjNfCmi9IQQcd31jdaAu/zIUxcszPjUa51f
+K9YcsNVy5ywI8AxeUkmD5UPRt6jEcsz0FnA9/aoqHD6CogprEFFjadcDB3Id+G70
+ZcLidTqea8FgJ9WR2k+YNLZ6qBA+tGYqbN5YLsO4znRk45PQj9eCo+ulzGdl75f+
+eT8TjQBqKYh2TYGusisuUkcp9jRONo6ZjduDckW+cXxDbFQVAUODYCCKh9z+CPd8
+UTXvuuNfQaM=
+=pBHY
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Thu May 23 21:45:06 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 23 May 2019 20:45:06 +0000
+Subject: [R-pkg-team] Bug#929386: marked as done (r-cran-webgestaltr: FTBFS
+ (missing builds-depends))
+References: <E1hTuWg-000AFZ-Ab@fasolo.debian.org>
+ <E1hTTkR-00012f-97@paradis.debian.org>
+Message-ID: <handler.929386.D929386.155864408522568.ackdone@bugs.debian.org>
+
+Your message dated Thu, 23 May 2019 20:41:22 +0000
+with message-id <E1hTuWg-000AFZ-Ab at fasolo.debian.org>
+and subject line Bug#929386: fixed in r-cran-webgestaltr 0.4.0-1
+has caused the Debian Bug report #929386,
+regarding r-cran-webgestaltr: FTBFS (missing builds-depends)
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+929386: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=929386
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Santiago Vila <sanvila at debian.org>
+Subject: r-cran-webgestaltr: FTBFS (missing builds-depends)
+Date: Wed, 22 May 2019 16:05:47 +0000
+Size: 3830
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190523/00e883fe/attachment.mht>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Tille <tille at debian.org>
+Subject: Bug#929386: fixed in r-cran-webgestaltr 0.4.0-1
+Date: Thu, 23 May 2019 20:41:22 +0000
+Size: 5618
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190523/00e883fe/attachment-0001.mht>
+
+From stephenmorrison976 at gmail.com  Fri May 24 08:03:00 2019
+From: stephenmorrison976 at gmail.com (Stephen Morrison)
+Date: Fri, 24 May 2019 08:03:00 +0100
+Subject: [R-pkg-team] From. Mr Stephen Morrison
+Message-ID: <CAJUeHmAsyBoRwbLLqRAxSWn43A_0XvK9Ad2MYen3t+e3LjPrmA@mail.gmail.com>
+
+Hello. It's my pleasure to meet you. here my name is Mr Stephen Morrison
+and i have a Business proposal That i want to share with you and it is
+every urgent so if you are interested please reply me on my email address {
+stephenmorrison976 at gmail.com}
+For more Details. Thank You From.
+From. Mr Stephen Morrison
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190524/98b3c2c0/attachment.html>
+
+From ftpmaster at ftp-master.debian.org  Fri May 24 17:35:10 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 24 May 2019 16:35:10 +0000
+Subject: [R-pkg-team] Processing of r-cran-ggrepel_0.8.1-1_amd64.changes
+Message-ID: <E1hUD9z-0007NX-0f@usper.debian.org>
+
+r-cran-ggrepel_0.8.1-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-ggrepel_0.8.1-1.dsc
+  r-cran-ggrepel_0.8.1.orig.tar.gz
+  r-cran-ggrepel_0.8.1-1.debian.tar.xz
+  r-cran-ggrepel-dbgsym_0.8.1-1_amd64.deb
+  r-cran-ggrepel_0.8.1-1_amd64.buildinfo
+  r-cran-ggrepel_0.8.1-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri May 24 17:48:30 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 24 May 2019 16:48:30 +0000
+Subject: [R-pkg-team] r-cran-ggrepel_0.8.1-1_amd64.changes ACCEPTED into
+ unstable
+Message-ID: <E1hUDMs-0000dW-KM@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 24 May 2019 18:21:51 +0200
+Source: r-cran-ggrepel
+Binary: r-cran-ggrepel r-cran-ggrepel-dbgsym
+Architecture: source amd64
+Version: 0.8.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Steffen Moeller <moeller at debian.org>
+Description:
+ r-cran-ggrepel - auto-position non-overlapping text labels in plots
+Changes:
+ r-cran-ggrepel (0.8.1-1) unstable; urgency=medium
+ .
+   * New upstream version.
+Checksums-Sha1:
+ bb6b9d80a8d2e3d6657f6ad928daf8c2fb96d983 2165 r-cran-ggrepel_0.8.1-1.dsc
+ f6c76da2a15fd0fd8eb2448ca62cddda084fa5fb 520312 r-cran-ggrepel_0.8.1.orig.tar.gz
+ cb295b12289b98bce0bf6f8b02f4b74adfbd1845 2028 r-cran-ggrepel_0.8.1-1.debian.tar.xz
+ 568294b77aac2e6e5166363c2b1505ffb936903e 500356 r-cran-ggrepel-dbgsym_0.8.1-1_amd64.deb
+ 9c2ce0b3925c0dca2250278d3cd2205a2d5e14e4 9937 r-cran-ggrepel_0.8.1-1_amd64.buildinfo
+ 8b1f7bad7a23f66c223776f4d054b7fbcffa7732 586216 r-cran-ggrepel_0.8.1-1_amd64.deb
+Checksums-Sha256:
+ b849715645f18bfee03583f57c63cabb6ed7626e6cb85126e8e090a138c80815 2165 r-cran-ggrepel_0.8.1-1.dsc
+ d5d03a77ab6d8c831934bc46e840cc4e3df487272ab591fa72767ad42bcb7283 520312 r-cran-ggrepel_0.8.1.orig.tar.gz
+ dc98c60bfdcd6af54e2015d0ff99d7a3d1045beab9485a4d0400df750a8d0ed3 2028 r-cran-ggrepel_0.8.1-1.debian.tar.xz
+ ca103a504af8d6472e5389c719da464b14efad51dc2e9ad3024f6088b9c104f3 500356 r-cran-ggrepel-dbgsym_0.8.1-1_amd64.deb
+ 29b867ca2bcc4190a01d0455166a26662e9cd40e00e6838a8a7cd26ca7b0a143 9937 r-cran-ggrepel_0.8.1-1_amd64.buildinfo
+ d8d9558d3948354241a11ae42db0bb151cdfa83a1da8563b96f387327d4622ac 586216 r-cran-ggrepel_0.8.1-1_amd64.deb
+Files:
+ 3cf105a95cfcb96655021380385fff4d 2165 gnu-r optional r-cran-ggrepel_0.8.1-1.dsc
+ 8029787cc43a34d387f71b3f9fe24677 520312 gnu-r optional r-cran-ggrepel_0.8.1.orig.tar.gz
+ 8b47c2cb22adae163086550f84739934 2028 gnu-r optional r-cran-ggrepel_0.8.1-1.debian.tar.xz
+ e39d6dc2378aa1385088a9dc47746797 500356 debug optional r-cran-ggrepel-dbgsym_0.8.1-1_amd64.deb
+ f69850902d5a62b32e7eef4635be7f81 9937 gnu-r optional r-cran-ggrepel_0.8.1-1_amd64.buildinfo
+ 45dc7565274a405caff6426f89fa3183 586216 gnu-r optional r-cran-ggrepel_0.8.1-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCAAxFiEEhMGXeonn7+0+XKYuL9i+2sAg7tEFAlzoGrQTHG1vZWxsZXJA
+ZGViaWFuLm9yZwAKCRAv2L7awCDu0bJ4D/985N9By1iIKOHacNgxHbSKRObornC2
+RNRNIQ4Ozq4m5hqqJv6kk6nJM8/WbAT1cLa+CbgodBWNCA+r8sWaiUGwxAJ2aouH
+Y2CgGvW/1FDFBf70uf7C6NxbD/il0L7sKF7l05seoDFYzmyFp1/nNJf5/qI4Wpmr
+OndlmjyiPU9TcxfNVh/qcmoggiVIZOip8/wq0uTqjoFDQZ4x72sfvqep8Gn2NwyF
+A3mnPAmVK//ctAGZDAB86mK3nUNDpOtMeRV4jSNXD0PfQJNUWWANB8hf7Ht7JJQh
+s4KRv2rVi53sEJR21HMlak3agIuJOWsoO5KZTOeEueL8yvVmIFjFcZPbJmxQmU8G
+uWszlvgNAG2funrDldphKJ47clpEm/FlbOBIxwYREeazezIkyeY+vdejAeXvvoYR
+8MfUxAwFwm3jkN+Lo9n22Udnrxptxl62GrSg+F0A8bLkgRz6Hew6mjsMRMCwxWxO
+ki5FeGMViGixPJOALfIJNFzvg37+Q7GNhM2hmDd07Wc3sOE8fVYcCTwVD7dLJW2w
+7NCkrjGEb23KbSbGVXOx/KjazDJN33WFuNauB0z3Cj/l4xrSJtB/dC2ZpslIDYry
+TXJGgniRSYELix2aRD6bP8AVNCk0eduXQmEE0RbCzjcxQ4jU6PmHZZ3cDdJQaj2I
+dVvSYeVN8DwzIw==
+=98qA
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From britiishhighcommision at gmail.com  Fri May 24 20:49:17 2019
+From: britiishhighcommision at gmail.com (Mrs. Agba Ezu)
+Date: Fri, 24 May 2019 13:49:17 -0600
+Subject: [R-pkg-team] ATM Card deliver.
+Message-ID: <CAJ93OWVDaLubKB86Tj4Pb_qnUkmEA9mjKaU5PDGrbq2GMZGZ+g@mail.gmail.com>
+
+ Attention for you outstanding payment
+
+How are you doing hoping all is well  with you and your family? We know you
+might have forgotten about this your outstanding compensation payment due
+to delay on the delivery up till now. We are here by writing to inform you
+that your payment file was found in our Office and we discovered that your
+Compensation payment worth sum of two million seven hundred thousand United
+State Dollars {$2.700,000.00} have not been sent to you as it was
+instructed by The Economic Community of West African States(ECO-WAS) We are
+here to inform you that your payment has been converted into ATM
+Visa/Master Card to free it from Confiscating, and all necessary
+arrangement your ATM VISA/MASTER CARD Payment worth of {$2.700,000.00} has
+been granted for your payment through Our ATM Card Department Center.
+
+Now Your ATM Visa/Master Card is well packaged with every legal document to
+convey it not having any problem with anybody therefore we are here by
+inviting you to our Headoffice here in Onitsha, Office Address, Commented
+Bank, Onitsha Jean Paul 1BP 325,Federal Republic of Nigeria, to enable us
+complete the normal formalities and activation process of your ATM Visa
+Card and issue the Secret PIN CODE/NUMBER to enable you start using it at
+any ATM MACHINE worldwide of your  choice nearest to you, as soon as it is
+activated, But if you are unable to come down here in our office in person
+you will be required to update our ATM Department Center with your contact
+delivery details as stated below so that they will precede with the
+necessary arrangement for the delivery your ATM VISA/MASTER CARD.
+
+1. Your Full name, ________________
+2. Your home Address, _____________
+3. Your telephone number, _________
+4. A copy of your ID, _____________
+
+Meanwhile you should contact OUR ATM CARD PAYMENT DEPARTMENT CENTER
+immediately on their below;
+
+E-mail: {cfcuba.atm at programmer.net}
+Contact Person; Dr. Tom Bright
+Director Of United Bank For Africa (UBA)
+Telephone Number; +234-8124700865
+
+Try to call him immediately to know when your ATM VISA/MASTER CARD will be
+delivered to you.
+
+I am waiting for your update as soon as you have received your Visa/Master
+ATM Card.
+
+Thanks and God Bless You.
+
+Yours sincerely
+Mrs. Agba Ezu
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190524/200d8687/attachment.html>
+

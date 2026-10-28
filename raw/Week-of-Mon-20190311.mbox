@@ -1,0 +1,843 @@
+From robertlee02201 at gmail.com  Mon Mar 11 17:48:59 2019
+From: robertlee02201 at gmail.com (Mary Etumba)
+Date: Mon, 11 Mar 2019 10:48:59 -0700
+Subject: [R-pkg-team] Hi my Dear
+Message-ID: <CAJ6O3L0tneuFiEPh40J6hnvpZNLRXYd1CN1uK_BcBKL9Vj0O0g@mail.gmail.com>
+
+-- 
+Hello my dearest one,
+
+I am Mary Etumba a 18 years old girl from Democratic Republic of Congo.Due
+to the war in my country i lost my late father that was a top military
+general and all members of my family has been killed.My late father left so
+many properties behind for me.I am seeking a God fearing person that will
+send me to school and be my next of kin.I will hand over everything to
+him.Gold/Diamond and money.
+Please reply me back.thank and best regards
+Mary Etumba
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190311/c623d223/attachment.html>
+
+From noreply at release.debian.org  Tue Mar 12 04:39:17 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 12 Mar 2019 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-openssl 1.2.2+dfsg-1 MIGRATED to testing
+Message-ID: <E1h3ZC9-0003ES-TX@respighi.debian.org>
+
+FYI: The status of the r-cran-openssl source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.2.1+dfsg-1
+  Current version:  1.2.2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Tue Mar 12 04:39:17 2019
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 12 Mar 2019 04:39:17 +0000
+Subject: [R-pkg-team] r-other-x4r 1.0.1+git20150806.c6bd9bd-2 MIGRATED to
+ testing
+Message-ID: <E1h3ZC9-0003EX-W5@respighi.debian.org>
+
+FYI: The status of the r-other-x4r source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.0.1+git20150806.c6bd9bd-1
+  Current version:  1.0.1+git20150806.c6bd9bd-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From elbrus at debian.org  Wed Mar 13 20:39:05 2019
+From: elbrus at debian.org (Paul Gevers)
+Date: Wed, 13 Mar 2019 21:39:05 +0100
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+Message-ID: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+
+Source: multcomp, r-cran-dosefinding
+Control: found -1 multcomp/1.4-10-1
+Control: found -1 r-cran-dosefinding/0.9-16-2
+Severity: important
+X-Debbugs-CC: debian-ci at lists.debian.org
+User: debian-ci at lists.debian.org
+Usertags: breaks needs-update
+
+Dear maintainers,
+
+With a recent upload of multcomp the autopkgtest of r-cran-dosefinding
+fails in testing when that autopkgtest is run with the binary packages
+of multcomp from unstable. It passes when run with only packages from
+testing. In tabular form:
+                       pass            fail
+multcomp               from testing    1.4-10-1
+r-cran-dosefinding     from testing    0.9-16-2
+versioned deps [0]     from testing    from unstable
+all others             from testing    from testing
+
+I copied some of the output at the bottom of this report. Unfortunately,
+there is no error reported, but successful runs have more output.
+
+Due to the nature of this issue, I filed this bug report against both
+packages. Can you please investigate the situation and reassign the bug
+to the right package? If needed, please change the bug's severity.
+
+More information about this bug and the reason for filing it can be found on
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+[0] You can see what packages were added from the second line of the log
+file quoted below. The migration software adds source package from
+unstable to the list if they are needed to install packages from
+multcomp/1.4-10-1. I.e. due to versioned dependencies or breaks/conflicts.
+
+https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-dosefinding/2099783/log.gz
+
+autopkgtest [23:10:49]: test run-unit-test: [-----------------------
+testgFit.R passed
+testplanMod.R passed
+testsDesign.R passed
+testsFitting.R passed
+testsMCPMod.R passed
+autopkgtest [23:10:55]: test run-unit-test: -----------------------]
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 488 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190313/83ab169d/attachment.sig>
+
+From owner at bugs.debian.org  Wed Mar 13 20:42:06 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Wed, 13 Mar 2019 20:42:06 +0000
+Subject: [R-pkg-team] Processed: multcomp breaks r-cran-dosefinding
+ autopkgtest
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <handler.s.B.155250954917889.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> found -1 multcomp/1.4-10-1
+Bug #924514 [src:multcomp, src:r-cran-dosefinding] multcomp breaks r-cran-dosefinding autopkgtest
+Marked as found in versions multcomp/1.4-10-1.
+> found -1 r-cran-dosefinding/0.9-16-2
+Bug #924514 [src:multcomp, src:r-cran-dosefinding] multcomp breaks r-cran-dosefinding autopkgtest
+Marked as found in versions r-cran-dosefinding/0.9-16-2.
+
+-- 
+924514: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=924514
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From edd at debian.org  Wed Mar 13 20:58:14 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Wed, 13 Mar 2019 15:58:14 -0500
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+In-Reply-To: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <23689.28390.711815.17978@rob.eddelbuettel.com>
+
+
+On 13 March 2019 at 21:39, Paul Gevers wrote:
+| Source: multcomp, r-cran-dosefinding
+| Control: found -1 multcomp/1.4-10-1
+| Control: found -1 r-cran-dosefinding/0.9-16-2
+| Severity: important
+| X-Debbugs-CC: debian-ci at lists.debian.org
+| User: debian-ci at lists.debian.org
+| Usertags: breaks needs-update
+| 
+| Dear maintainers,
+| 
+| With a recent upload of multcomp the autopkgtest of r-cran-dosefinding
+| fails in testing when that autopkgtest is run with the binary packages
+| of multcomp from unstable. It passes when run with only packages from
+| testing. In tabular form:
+|                        pass            fail
+| multcomp               from testing    1.4-10-1
+| r-cran-dosefinding     from testing    0.9-16-2
+| versioned deps [0]     from testing    from unstable
+| all others             from testing    from testing
+
+No issue at CRAN for multcomp:
+
+   https://cloud.r-project.org/web/checks/check_results_multcomp.html
+
+So this is likely self-inflicted at Debian.
+
+Also, DoseFinding only _Suggests:_ multcomp
+
+   https://cloud.r-project.org/web/packages/DoseFinding/index.html
+
+Dirk
+
+| I copied some of the output at the bottom of this report. Unfortunately,
+| there is no error reported, but successful runs have more output.
+| 
+| Due to the nature of this issue, I filed this bug report against both
+| packages. Can you please investigate the situation and reassign the bug
+| to the right package? If needed, please change the bug's severity.
+| 
+| More information about this bug and the reason for filing it can be found on
+| https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+| 
+| Paul
+| 
+| [0] You can see what packages were added from the second line of the log
+| file quoted below. The migration software adds source package from
+| unstable to the list if they are needed to install packages from
+| multcomp/1.4-10-1. I.e. due to versioned dependencies or breaks/conflicts.
+| 
+| https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-dosefinding/2099783/log.gz
+| 
+| autopkgtest [23:10:49]: test run-unit-test: [-----------------------
+| testgFit.R passed
+| testplanMod.R passed
+| testsDesign.R passed
+| testsFitting.R passed
+| testsMCPMod.R passed
+| autopkgtest [23:10:55]: test run-unit-test: -----------------------]
+| 
+| [DELETED ATTACHMENT signature.asc, application/pgp-signature]
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From owner at bugs.debian.org  Thu Mar 14 10:06:08 2019
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 14 Mar 2019 10:06:08 +0000
+Subject: [R-pkg-team] Processed: Re: Bug#924514: multcomp breaks
+ r-cran-dosefinding autopkgtest
+References: <20190314100300.cehdivs63q4occyl@an3as.eu>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <handler.s.B924514.155255778319923.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> forwarded -1 Bjoern Bornkamp <bbnkmp at gmail.com>
+Bug #924514 [src:multcomp, src:r-cran-dosefinding] multcomp breaks r-cran-dosefinding autopkgtest
+Set Bug forwarded-to-address to 'Bjoern Bornkamp <bbnkmp at gmail.com>'.
+
+-- 
+924514: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=924514
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From tille at debian.org  Thu Mar 14 10:03:00 2019
+From: tille at debian.org (Andreas Tille)
+Date: Thu, 14 Mar 2019 11:03:00 +0100
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+In-Reply-To: <23689.28390.711815.17978@rob.eddelbuettel.com>
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23689.28390.711815.17978@rob.eddelbuettel.com>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <20190314100300.cehdivs63q4occyl@an3as.eu>
+
+Control: forwarded -1 Bjoern Bornkamp <bbnkmp at gmail.com>
+
+(@Bjoern: For the full issue please read
+           https://bugs.debian.org/924514
+ which is probably more relevant for DoseFinding debugging
+ than the Debian specific things below. )
+
+Hi,
+
+On Wed, Mar 13, 2019 at 03:58:14PM -0500, Dirk Eddelbuettel wrote:
+> 
+> On 13 March 2019 at 21:39, Paul Gevers wrote:
+> | Source: multcomp, r-cran-dosefinding
+> | Control: found -1 multcomp/1.4-10-1
+> | Control: found -1 r-cran-dosefinding/0.9-16-2
+> | Severity: important
+> | X-Debbugs-CC: debian-ci at lists.debian.org
+> | User: debian-ci at lists.debian.org
+> | Usertags: breaks needs-update
+> | 
+> | Dear maintainers,
+> | 
+> | With a recent upload of multcomp the autopkgtest of r-cran-dosefinding
+> | fails in testing when that autopkgtest is run with the binary packages
+> | of multcomp from unstable. It passes when run with only packages from
+> | testing. In tabular form:
+> |                        pass            fail
+> | multcomp               from testing    1.4-10-1
+> | r-cran-dosefinding     from testing    0.9-16-2
+> | versioned deps [0]     from testing    from unstable
+> | all others             from testing    from testing
+> 
+> No issue at CRAN for multcomp:
+> 
+>    https://cloud.r-project.org/web/checks/check_results_multcomp.html
+> 
+> So this is likely self-inflicted at Debian.
+
+@Dirk: Could you please be more verbose in how far that link is a sign
+that DoseFinding 0.9-16 works with multcomp 1.4-10.  
+
+@Paul: I think its not really relevant for Buster release since multcomp
+will not migrate due to freeze so for the moment I will not do anthing
+for the moment (may be after Buster release DoseFinding maintainers at
+CRAN found a solution - otherwise we need to do something about this).
+
+> Also, DoseFinding only _Suggests:_ multcomp
+> 
+>    https://cloud.r-project.org/web/packages/DoseFinding/index.html
+
+That's correct.  But due to the use in the autopkgtest and the test
+script is provided in the doc directory as example for users dh-r
+upgrades those Suggests to Recommends[1].
+
+Kind regards
+
+       Andreas.
+
+[1] https://salsa.debian.org/r-pkg-team/dh-r/blob/master/dh/R.pm#L192
+
+
+
+| I copied some of the output at the bottom of this report. Unfortunately,
+| there is no error reported, but successful runs have more output.
+| 
+| Due to the nature of this issue, I filed this bug report against both
+| packages. Can you please investigate the situation and reassign the bug
+| to the right package? If needed, please change the bug's severity.
+| 
+| More information about this bug and the reason for filing it can be found on
+| https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+| 
+| Paul
+| 
+| [0] You can see what packages were added from the second line of the log
+| file quoted below. The migration software adds source package from
+| unstable to the list if they are needed to install packages from
+| multcomp/1.4-10-1. I.e. due to versioned dependencies or breaks/conflicts.
+| 
+| https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-dosefinding/2099783/log.gz
+| 
+| autopkgtest [23:10:49]: test run-unit-test: [-----------------------
+| testgFit.R passed
+| testplanMod.R passed
+| testsDesign.R passed
+| testsFitting.R passed
+| testsMCPMod.R passed
+| autopkgtest [23:10:55]: test run-unit-test: -----------------------]
+| 
+| [DELETED ATTACHMENT signature.asc, application/pgp-signature]
+
+
+-- 
+http://fam-tille.de
+
+
+From edd at debian.org  Thu Mar 14 11:27:35 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Thu, 14 Mar 2019 06:27:35 -0500
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+In-Reply-To: <20190314100300.cehdivs63q4occyl@an3as.eu>
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23689.28390.711815.17978@rob.eddelbuettel.com>
+ <20190314100300.cehdivs63q4occyl@an3as.eu>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <23690.15015.879185.448154@rob.eddelbuettel.com>
+
+
+On 14 March 2019 at 11:03, Andreas Tille wrote:
+| Control: forwarded -1 Bjoern Bornkamp <bbnkmp at gmail.com>
+| 
+| (@Bjoern: For the full issue please read
+|            https://bugs.debian.org/924514
+|  which is probably more relevant for DoseFinding debugging
+|  than the Debian specific things below. )
+| 
+| Hi,
+| 
+| On Wed, Mar 13, 2019 at 03:58:14PM -0500, Dirk Eddelbuettel wrote:
+| > 
+| > On 13 March 2019 at 21:39, Paul Gevers wrote:
+| > | Source: multcomp, r-cran-dosefinding
+| > | Control: found -1 multcomp/1.4-10-1
+| > | Control: found -1 r-cran-dosefinding/0.9-16-2
+| > | Severity: important
+| > | X-Debbugs-CC: debian-ci at lists.debian.org
+| > | User: debian-ci at lists.debian.org
+| > | Usertags: breaks needs-update
+| > | 
+| > | Dear maintainers,
+| > | 
+| > | With a recent upload of multcomp the autopkgtest of r-cran-dosefinding
+| > | fails in testing when that autopkgtest is run with the binary packages
+| > | of multcomp from unstable. It passes when run with only packages from
+| > | testing. In tabular form:
+| > |                        pass            fail
+| > | multcomp               from testing    1.4-10-1
+| > | r-cran-dosefinding     from testing    0.9-16-2
+| > | versioned deps [0]     from testing    from unstable
+| > | all others             from testing    from testing
+| > 
+| > No issue at CRAN for multcomp:
+| > 
+| >    https://cloud.r-project.org/web/checks/check_results_multcomp.html
+| > 
+| > So this is likely self-inflicted at Debian.
+| 
+| @Dirk: Could you please be more verbose in how far that link is a sign
+| that DoseFinding 0.9-16 works with multcomp 1.4-10.  
+
+It is a table of checks across architectures and R version. None shows an issue.
+
+CRAN run reverse-depends on all package updates prior to admitting to CRAN.
+
+multcomp being on CRAN means there was no issue with its reverse depends.
+
+CRAN may not check Suggests.  I argued for years we should not either.
+
+If it breaks in Suggests, you "get to keep the pieces".  I do not have the
+time to investigate what I consider to be a non-problems. Happy to help, but
+this is self-inflicted.
+
+Truly sorry,  Dirk
+
+
+
+
+| @Paul: I think its not really relevant for Buster release since multcomp
+| will not migrate due to freeze so for the moment I will not do anthing
+| for the moment (may be after Buster release DoseFinding maintainers at
+| CRAN found a solution - otherwise we need to do something about this).
+| 
+| > Also, DoseFinding only _Suggests:_ multcomp
+| > 
+| >    https://cloud.r-project.org/web/packages/DoseFinding/index.html
+| 
+| That's correct.  But due to the use in the autopkgtest and the test
+| script is provided in the doc directory as example for users dh-r
+| upgrades those Suggests to Recommends[1].
+| 
+| Kind regards
+| 
+|        Andreas.
+| 
+| [1] https://salsa.debian.org/r-pkg-team/dh-r/blob/master/dh/R.pm#L192
+| 
+| 
+| 
+| | I copied some of the output at the bottom of this report. Unfortunately,
+| | there is no error reported, but successful runs have more output.
+| | 
+| | Due to the nature of this issue, I filed this bug report against both
+| | packages. Can you please investigate the situation and reassign the bug
+| | to the right package? If needed, please change the bug's severity.
+| | 
+| | More information about this bug and the reason for filing it can be found on
+| | https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+| | 
+| | Paul
+| | 
+| | [0] You can see what packages were added from the second line of the log
+| | file quoted below. The migration software adds source package from
+| | unstable to the list if they are needed to install packages from
+| | multcomp/1.4-10-1. I.e. due to versioned dependencies or breaks/conflicts.
+| | 
+| | https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-dosefinding/2099783/log.gz
+| | 
+| | autopkgtest [23:10:49]: test run-unit-test: [-----------------------
+| | testgFit.R passed
+| | testplanMod.R passed
+| | testsDesign.R passed
+| | testsFitting.R passed
+| | testsMCPMod.R passed
+| | autopkgtest [23:10:55]: test run-unit-test: -----------------------]
+| | 
+| | [DELETED ATTACHMENT signature.asc, application/pgp-signature]
+| 
+| 
+| -- 
+| http://fam-tille.de
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From daniela at saude.pb.gov.br  Thu Mar 14 19:54:50 2019
+From: daniela at saude.pb.gov.br (Dilan)
+Date: Thu, 14 Mar 2019 16:54:50 -0300
+Subject: [R-pkg-team] Await your response
+Message-ID: <20190314195402.M33556@saude.pb.gov.br>
+
+Hello,
+I have a business term for you that guarantees you 30% of (2.6 million 
+British Pounds) I will need your response for more explanation. Please 
+discard this message if you are not interested.
+Kind regards,
+Dilan
+
+
+From a_sokolova at mtuci.ru  Thu Mar 14 21:28:32 2019
+From: a_sokolova at mtuci.ru (a_sokolova at mtuci.ru)
+Date: Thu, 14 Mar 2019 14:28:32 -0700
+Subject: [R-pkg-team] Hello,
+Message-ID: <20190314213716.5D8B22CFA2A@mail.mtuci.ru>
+
+Good day,
+
+     We are a Private Financial Company, we are offering Financial Aid to both Cooperation and Individuals at a reasonable rate, Kindly reply if you are interested.
+
+Schönen Tag,
+
+      Wir sind ein privates Finanzunternehmen. Wir bieten sowohl der Zusammenarbeit als auch Einzelpersonen finanzielle Unterstützung zu einem angemessenen Preis an.
+
+---
+This email has been checked for viruses by AVG.
+https://www.avg.com
+
+
+
+From tille at debian.org  Fri Mar 15 06:49:47 2019
+From: tille at debian.org (Andreas Tille)
+Date: Fri, 15 Mar 2019 07:49:47 +0100
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+In-Reply-To: <23690.15015.879185.448154@rob.eddelbuettel.com>
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23689.28390.711815.17978@rob.eddelbuettel.com>
+ <20190314100300.cehdivs63q4occyl@an3as.eu>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23690.15015.879185.448154@rob.eddelbuettel.com>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <20190315064947.3tpdp52jjycyiu5m@an3as.eu>
+
+On Thu, Mar 14, 2019 at 06:27:35AM -0500, Dirk Eddelbuettel wrote:
+> 
+> | > No issue at CRAN for multcomp:
+> | > 
+> | >    https://cloud.r-project.org/web/checks/check_results_multcomp.html
+> | > 
+> | > So this is likely self-inflicted at Debian.
+> | 
+> | @Dirk: Could you please be more verbose in how far that link is a sign
+> | that DoseFinding 0.9-16 works with multcomp 1.4-10.  
+> 
+> It is a table of checks across architectures and R version. None shows an issue.
+> 
+> CRAN run reverse-depends on all package updates prior to admitting to CRAN.
+> 
+> multcomp being on CRAN means there was no issue with its reverse depends.
+
+Thanks for the clarification.
+ 
+> CRAN may not check Suggests.  I argued for years we should not either.
+
+I do not follow discussions on CRAN but I'd consider warnings about
+issues with Suggests a nice feature.
+
+> If it breaks in Suggests, you "get to keep the pieces".  I do not have the
+> time to investigate what I consider to be a non-problems. Happy to help, but
+> this is self-inflicted.
+
+In how far it is self-inflicted if some R package does not pass its test
+suite?
+ 
+Kind regards
+
+         Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From tille at debian.org  Fri Mar 15 06:52:20 2019
+From: tille at debian.org (Andreas Tille)
+Date: Fri, 15 Mar 2019 07:52:20 +0100
+Subject: [R-pkg-team] Bug#924626: ITP: r-cran-shinycssloaders -- add CSS
+ loading animations to 'shiny' outputs in GNU R
+Message-ID: <155263274079.22880.10506892659938163103.reportbug@sputnik.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-shinycssloaders -- add CSS loading animations to 'shiny' outputs in GNU R
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-shinycssloaders
+  Version         : 0.2.0
+  Upstream Author : Andras Sali
+* URL             : https://cran.r-project.org/package=shinycssloaders
+* License         : GPL-3
+  Programming Lang: GNU R
+  Description     : add CSS loading animations to 'shiny' outputs in GNU R
+ Create a lightweight Shiny wrapper for the css-loaders created by Luke
+ Hass <https://github.com/lukehaas/css-loaders>. Wrapping a Shiny output
+ will automatically show a loader when the output is (re)calculating.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-shinycssloaders
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar 15 07:32:28 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Mar 2019 07:32:28 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-shinycssloaders_0.2.0-1_amd64.changes
+Message-ID: <E1h4hKO-0007p3-8a@usper.debian.org>
+
+r-cran-shinycssloaders_0.2.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-shinycssloaders_0.2.0-1.dsc
+  r-cran-shinycssloaders_0.2.0.orig.tar.gz
+  r-cran-shinycssloaders_0.2.0-1.debian.tar.xz
+  r-cran-shinycssloaders_0.2.0-1_all.deb
+  r-cran-shinycssloaders_0.2.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar 15 07:34:06 2019
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 15 Mar 2019 07:34:06 +0000
+Subject: [R-pkg-team] r-cran-shinycssloaders_0.2.0-1_amd64.changes is NEW
+Message-ID: <E1h4hLy-0001jG-EO@fasolo.debian.org>
+
+binary:r-cran-shinycssloaders is NEW.
+binary:r-cran-shinycssloaders is NEW.
+source:r-cran-shinycssloaders is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From a_sokolova at mtuci.ru  Fri Mar 15 07:39:24 2019
+From: a_sokolova at mtuci.ru (a_sokolova at mtuci.ru)
+Date: Fri, 15 Mar 2019 00:39:24 -0700
+Subject: [R-pkg-team] Hello,
+Message-ID: <20190315094639.2DF7338447E@mail.mtuci.ru>
+
+Good day,
+
+     We are a Private Financial Company, we are offering Financial Aid to both Cooperation and Individuals at a reasonable rate, Kindly reply if you are interested.
+
+Schönen Tag,
+
+      Wir sind ein privates Finanzunternehmen. Wir bieten sowohl der Zusammenarbeit als auch Einzelpersonen finanzielle Unterstützung zu einem angemessenen Preis an.
+
+---
+This email has been checked for viruses by AVG.
+https://www.avg.com
+
+
+
+From edd at debian.org  Fri Mar 15 10:50:38 2019
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Fri, 15 Mar 2019 05:50:38 -0500
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+In-Reply-To: <20190315064947.3tpdp52jjycyiu5m@an3as.eu>
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23689.28390.711815.17978@rob.eddelbuettel.com>
+ <20190314100300.cehdivs63q4occyl@an3as.eu>
+ <23690.15015.879185.448154@rob.eddelbuettel.com>
+ <20190315064947.3tpdp52jjycyiu5m@an3as.eu>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <23691.33662.620426.617621@rob.eddelbuettel.com>
+
+
+On 15 March 2019 at 07:49, Andreas Tille wrote:
+| On Thu, Mar 14, 2019 at 06:27:35AM -0500, Dirk Eddelbuettel wrote:
+| > 
+| > | > No issue at CRAN for multcomp:
+| > | > 
+| > | >    https://cloud.r-project.org/web/checks/check_results_multcomp.html
+| > | > 
+| > | > So this is likely self-inflicted at Debian.
+| > | 
+| > | @Dirk: Could you please be more verbose in how far that link is a sign
+| > | that DoseFinding 0.9-16 works with multcomp 1.4-10.  
+| > 
+| > It is a table of checks across architectures and R version. None shows an issue.
+| > 
+| > CRAN run reverse-depends on all package updates prior to admitting to CRAN.
+| > 
+| > multcomp being on CRAN means there was no issue with its reverse depends.
+| 
+| Thanks for the clarification.
+|  
+| > CRAN may not check Suggests.  I argued for years we should not either.
+| 
+| I do not follow discussions on CRAN but I'd consider warnings about
+| issues with Suggests a nice feature.
+| 
+| > If it breaks in Suggests, you "get to keep the pieces".  I do not have the
+| > time to investigate what I consider to be a non-problems. Happy to help, but
+| > this is self-inflicted.
+| 
+| In how far it is self-inflicted if some R package does not pass its test
+| suite?
+
+It has no issues at CRAN as I stated.  The package is fine.  If our process
+shows up errors I consider it self-inflicted.
+
+Dirk
+
+-- 
+http://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From customer9care at gmail.com  Sat Mar 16 03:29:27 2019
+From: customer9care at gmail.com (Ray Wellington)
+Date: Fri, 15 Mar 2019 23:29:27 -0400
+Subject: [R-pkg-team] =?utf-8?q?=28no_subject=29?=
+Message-ID: <CAD=6Y1ndGLLUFA=1G4z+3qaXoG-v5ObL9e_SyLM05b0jG0Nq_Q@mail.gmail.com>
+
+-- 
+Loan Offer!! Do you need a loan? if yes, reply for more information.......
+We offer private, commercial and personal loans at interest rates as low as
+3%. We give out loans ranging from $ 2000 to $ 100 million.
+
+if you are in need of loan, you are hereby advised to contact the genuine,
+trusted and efficient loan lending firm for your efficient loan. we are
+well recognized by both individuals and the government for our great
+efficiency.
+
+
+
+SERVICES RENDERED INCLUDE:
+
+
+
+*Business Loans
+
+*Personal Loans
+
+*Debt Consolidation
+
+*House Loans
+
+*International Loans
+
+*Etc....
+
+
+
+APPLICATION INFORMATION
+
+Name:
+
+Amount:
+
+Duration:
+
+Country:
+
+Phone Number:
+
+
+we offer loan at low interest rate of 3%
+
+contact us today if you are interesting in receive the loan
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190315/90319733/attachment.html>
+
+From bokubobuuuuuu at yahoo.co.jp  Sun Mar 17 15:49:16 2019
+From: bokubobuuuuuu at yahoo.co.jp (Marcelline Arago)
+Date: Mon, 18 Mar 2019 00:49:16 +0900 (JST)
+Subject: [R-pkg-team] Hello dear friend
+Message-ID: <346373.92933.qm@web103210.mail.kks.yahoo.co.jp>
+
+How are you?  I'm just checking on you because i have not heard from you again, i hope all is well with you?  Waiting
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20190318/19a04482/attachment.html>
+
+From tille at debian.org  Sun Mar 17 16:23:00 2019
+From: tille at debian.org (Andreas Tille)
+Date: Sun, 17 Mar 2019 17:23:00 +0100
+Subject: [R-pkg-team] Bug#924514: multcomp breaks r-cran-dosefinding
+ autopkgtest
+In-Reply-To: <23691.33662.620426.617621@rob.eddelbuettel.com>
+References: <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23689.28390.711815.17978@rob.eddelbuettel.com>
+ <20190314100300.cehdivs63q4occyl@an3as.eu>
+ <23690.15015.879185.448154@rob.eddelbuettel.com>
+ <20190315064947.3tpdp52jjycyiu5m@an3as.eu>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+ <23691.33662.620426.617621@rob.eddelbuettel.com>
+ <6e9d3952-4fa3-9323-e4a6-9076cd1ce558@debian.org>
+Message-ID: <20190317162300.tuknm6pv5q3lftw7@an3as.eu>
+
+Hi Dirk,
+
+On Fri, Mar 15, 2019 at 05:50:38AM -0500, Dirk Eddelbuettel wrote:
+> | > If it breaks in Suggests, you "get to keep the pieces".  I do not have the
+> | > time to investigate what I consider to be a non-problems. Happy to help, but
+> | > this is self-inflicted.
+> | 
+> | In how far it is self-inflicted if some R package does not pass its test
+> | suite?
+> 
+> It has no issues at CRAN as I stated.  The package is fine.  If our process
+> shows up errors I consider it self-inflicted.
+
+I'm sorry, but I fail to understand.  What we are doing is to run the
+test suite shipped by upstream of DoseFinding.  Am I understand you
+correctly that we should not run the test provided by upstream in our
+packages?  From my point of view specifically the fact that we've found
+some incompatibility between package A (r-cran-dosefinding) and one of
+the packages its needs to run its test suite B (r-cran-multcimp) is a
+good reason that we are doing this.  IMHO it means that there is some
+reason for action.  This might be either fixing the code of package A or
+B or simply fixing the test suite of package B.  My perception of Debian
+maintainership is to uncover this kind of issues.
+
+Kind regards
+
+    Andreas.
+
+PS: I remember you once was offended since I moved a discussion about
+some topic about a specific issue that turned to become generic about
+packaging from Debian R list to debian-devel.  I never understood why
+you were offended about this but since I see some generic problem that
+becomes abstracted here as well it might turn out that I do so in
+some future reply of mine.
+
+-- 
+http://fam-tille.de
+
+

@@ -1,0 +1,513 @@
+{
+  "list": "r-pkg-team",
+  "description": "",
+  "month": "2021-07",
+  "messages": [
+    {
+      "id": "msg-e10c2fda26b9",
+      "message_id": "<mailman.63.1626085126.14733.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Yvette",
+      "from_email_hash": "ae803c8d5add41db618fea19aec6300ef945aa7907cb0b36d1a74caec29cf97b",
+      "date": "2021-07-12T10:08:33Z",
+      "subject": "[R-pkg-team] Facial Ice Globes Manufacturer",
+      "subject_clean": "[R-pkg-team] Facial Ice Globes Manufacturer",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210712/632b1610/attachment.htm>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20210712/632b1610/attachment.htm>",
+      "thread_id": "thread-e10c2fda26b9",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-f2cc97b71470",
+      "message_id": "<8812489675576899429883@DESKTOP-6ID9F0C>",
+      "from_name": "FOESCO",
+      "from_email_hash": "fe8b4434ddd8071a2b26ac6ea51f025448fef65db755cbe0d19c24512831234d",
+      "date": "2021-07-20T08:28:14Z",
+      "subject": "[R-pkg-team] Información FOESCO",
+      "subject_clean": "[R-pkg-team] Información FOESCO",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Buenos d?as\n\n\n\nSoy Alex Pons director de FOESCO.\n\n\nNos ponemos en contacto con vuestra empresa para informaros de la actual convocatoria de Cursos Bonificables para empleados (Julio 2021).\n\nAdjuntamos en PDF el listado de m?s de 1000 Cursos Bonificables E-learning disponibles.\n\nTodos los cursos impartidos son 100% Bonificables con cargo al Cr?dito de Formaci?n 2021.\n\n\n\nPod?is confirmarnos que os ha llegado correctamente esta informaci?n?\n\n\n\nUn cordial saludo.\n\n\nAlex Pons\nDirector FOESCO\n\n\nDepartamento de Formaci?n Bonificable.\nFOESCO Formaci?n Estatal Continua.\nEntidad Organizadora: B200592AA\nTel:     910 323 794\n(Horario de 9h a 15h y de 17h a 20h de Lunes a Viernes)\n\nAntes de imprimir este e-mail piense bien si es necesario hacerlo. Before printing this e-mail please think twice if you really need it. FOESCO Tfno: 910 382 880 Email: cursos at foesco.com. La informaci?n transmitida en este mensaje est? dirigida solamente a las personas o entidades que figuran en el encabezamiento y contiene informaci?n confidencial, por lo que, si usted lo recibiera por error, por favor destr?yalo sin copiarlo, usarlo ni distribuirlo, comunic?ndolo inmediatamente al emisor del mensaje. De conformidad con lo dispuesto en el Reglamento Europeo del 2016/679, del 27 de Abril de 2016, FOESCO le informa que los datos por usted suministrados ser?n tratados con las medidas de seguridad conformes a la normativa vigente que se requiere. Dichos datos ser?n empleados con fines de gesti?n. Para el ejercicio de sus derechos de transparencia, informaci?n, acceso, rectificaci?n, supresi?n o derecho al olvido, limitaci?n del tratamiento , portabilidad de datos y oposici?n de sus datos de car?cter personal deber? dirigirse a la direcci?n del Responsable del tratamiento a C/ LAGUNA DEL MARQUESADO N?10, 28021, MADRID, \"PULSANDO AQUI\" <mailto:bajas at foesco.com?Subject=BAJA%20CORREOS> y \"ENVIAR\" o a traves de la direcci?n de correo electr?nico: bajas at foesco.com <mailto:bajas at foesco.com?Subject=BAJA%20CORREOS>",
+      "body_snippet": "Buenos d?as\n\n\n\nSoy Alex Pons director de FOESCO.\n\n\nNos ponemos en contacto con vuestra empresa para informaros de la actual convocatoria de Cursos Bonificables para empleados (Julio 2021).\n\nAdjuntamos",
+      "thread_id": "thread-f2cc97b71470",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-b6b48ca3804a",
+      "message_id": "<20210722081204.GF4161@bubu.plessy.net>",
+      "from_name": "Charles Plessy",
+      "from_email_hash": "83d7ac91fd2c07e9495ceadeb4386807881d0c625673f0aedac7d4809cd3c425",
+      "date": "2021-07-22T08:12:04Z",
+      "subject": "[R-pkg-team] /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "subject_clean": "[R-pkg-team] /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear maintainers,\n\nI am contacting you because a code search shows that your source package\ncontains the string 'application/x-xcf'.  (Please refer to the attached\nmaintainer list).\n\nAfter the release I will change /etc/mime.types to use 'image/x-xcf'\ninstead as the GIMP maintainers (and fact checking with search engines)\nconfirmed that this is the intended media type for XCF files\n(https://bugs.debian.org/991158).  \n\nJust in case I prefer to inform you ahead of the change.  If you think\nthere is no action to take on your side, it is fine and sorry for the\nnoise !\n\nHave a nice day,\n\nCharles\n\n-- \nCharles Plessy                         Nagahama, Yomitan, Okinawa, Japan\nTooting from work,           https://mastodon.technology/@charles_plessy\nTooting from home,                 https://framapiaf.org/@charles_plessy\n-------------- next part --------------\nAbou Al Montacir <abou.almontacir at sfr.fr>\n   fpc (U)\n\nAlbin Tonnerre <lutin at debian.org>\n   e17 (U)\n   efl (U)\n\nAndreas Metzler <ametzler at debian.org>\n   e17 (U)\n   efl (U)\n\nAndrey Rahmatullin <wrar at debian.org>\n   python-scrapy (U)\n\nAndroid Tools Maintainers <android-tools-devel at lists.alioth.debian.org>\n   android-framework-23\n   android-platform-libcore\n\nAnsgar Burchardt <ansgar at debian.org>\n   libmime-types-perl (U)\n\nCalibre maintainer team <team+calibre at tracker.debian.org>\n   calibre\n\nCamm Maguire <camm at debian.org>\n   acl2\n\nCharles Plessy <plessy at debian.org>\n   media-types (U)\n\nChirayu Desai <chirayudesai1 at gmail.com>\n   android-framework-23 (U)\n\nChristoph Martin <martin at uni-mainz.de>\n   seafile-client (U)\n\nClint Adams <clint at debian.org>\n   pandoc (U)\n\nDamyan Ivanov <dmn at debian.org>\n   libmime-types-perl (U)\n\nDaniel Baumann <daniel.baumann at progress-linux.org>\n   gnunet\n\nDavid Pr?vot <taffit at debian.org>\n   spip\n\nDebian Haskell Group <debian-haskell at lists.debian.org>\n   pandoc\n\nDebian Perl Group <pkg-perl-maintainers at lists.alioth.debian.org>\n   libmime-types-perl\n\nDebian Pkg-e Team <pkg-e-devel at lists.alioth.debian.org>\n   e17\n   efl\n\nDebian Python Team <team+python at tracker.debian.org>\n   python-scrapy\n\nDebian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\n   r-cran-httpuv\n   r-cran-mime\n\nDebian Seafile Team <team+seafile at tracker.debian.org>\n   seafile-client\n\nDebian Security Tools <team+pkg-security at tracker.debian.org>\n   chaosreader\n   inetsim\n\nDimitri Fontaine <dim at tapoueh.org>\n   hunchentoot\n\nFederico Ceratto <federico at debian.org>\n   nim\n\nGengYu Rao <zouyoo at outlook.com>\n   inetsim (U)\n\ngregor herrmann <gregoa at debian.org>\n   libmime-types-perl (U)\n\nHans-Christoph Steiner <hans at eds.org>\n   android-framework-23 (U)\n   android-platform-libcore (U)\n\nHAYASHI Kentaro <hayashi at clear-code.com>\n   libsylph (U)\n\nHideki Yamane <henrich at debian.org>\n   libsylph\n\nIgnace Mouzannar <mouzannar at gmail.com>\n   python-scrapy (U)\n\nJan L?bbe <jluebbe at debian.org>\n   e17 (U)\n\nJan Niehusmann <jan at debian.org>\n   mongrel2\n\nJoao Eriberto Mota Filho <eriberto at debian.org>\n   chaosreader (U)\n\nJonas Smedegaard <dr at jones.dk>\n   pandoc (U)\n\nJoost van Baal-Ili? <joostvb at debian.org>\n   r-cran-httpuv (U)\n   r-cran-mime (U)\n\nKai-Chung Yan <seamlikok at gmail.com>\n   android-framework-23 (U)\n   android-platform-libcore (U)\n\nKiwamu Okabe <kiwamu at debian.or.jp>\n   pandoc (U)\n\nMartin Pitt <mpitt at debian.org>\n   calibre (U)\n\nMime-Support Packagers <team+debian-mimesupport-packagers at tracker.debian.org>\n   media-types\n\nMoritz Schlarb <schlarbm at uni-mainz.de>\n   seafile-client (U)\n\nNicholas D Steeves <nsteeves at gmail.com>\n   calibre (U)\n\nNobuhiro Iwamatsu <iwamatsu at debian.org>\n   afnix\n\nNorbert Preining <norbert at preining.info>\n   calibre (U)\n\nPascal Packaging Team <pkg-pascal-devel at lists.alioth.debian.org>\n   fpc\n\nPaul Gevers <elbrus at debian.org>\n   fpc (U)\n\nPeter Michael Green <plugwash at debian.org>\n   fpc (U)\n\nRicardo Mones <mones at debian.org>\n   libsylph (U)\n\nRoss Vandegrift <rvandegrift at debian.org>\n   e17 (U)\n   efl (U)\n\nSalvatore Bonaccorso <carnil at debian.org>\n   libmime-types-perl (U)\n\nUbaldo Porcheddu <ubaldo at eja.it>\n   eja\n\nYOKOTA Hiroshi <yokota.hgml at gmail.com>\n   calibre (U)",
+      "body_snippet": "Dear maintainers,\n\nI am contacting you because a code search shows that your source package\ncontains the string 'application/x-xcf'.  (Please refer to the attached\nmaintainer list).\n\nAfter the release",
+      "thread_id": "thread-b6b48ca3804a",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-d17babc06ea7",
+      "message_id": "<87eebql54c.fsf@rob.eddelbuettel.com>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2021-07-22T15:50:43Z",
+      "subject": "[R-pkg-team] Bug#991395: r-cran-knitr: New upstream version needed by other R packages",
+      "subject_clean": "[R-pkg-team] Bug#991395: r-cran-knitr: New upstream version needed by other R packages",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Package: r-cran-knitr\nSeverity: normal\n\nWe have knitr 1.31 per\n  https://packages.debian.org/search?keywords=r-cran-knitr\nbut upstream is (since April) at 1.33 per\n  https://cran.r-project.org/package=knitr\nwhich is now needed by e.g. rgl aka r-cran-rgl.\n\nWe are in a freeze, so I too have been uploading to experimental but it would\nbe nice if you could drop it into experimental now so I can put r-cran-rgl there.\n\nDirk\n\n--\nhttps://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org",
+      "body_snippet": "Package: r-cran-knitr\nSeverity: normal\n\nWe have knitr 1.31 per\n  https://packages.debian.org/search?keywords=r-cran-knitr\nbut upstream is (since April) at 1.33 per\n  https://cran.r-project.org/package",
+      "thread_id": "thread-d17babc06ea7",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-a5e3f02ed9b8",
+      "message_id": "<20210723032932.GN8409@beskar.mdcc.cx>",
+      "from_name": "Joost van Baal-Ilić",
+      "from_email_hash": "1820ff95072bcc20ba413663dbbdd97d796c6dccc27f3fa9ecb4b55f3aec0cc9",
+      "date": "2021-07-23T03:29:32Z",
+      "subject": "[R-pkg-team] Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "subject_clean": "[R-pkg-team] Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "in_reply_to": "<20210722081204.GF4161@bubu.plessy.net>",
+      "references": [],
+      "body_plain": "Package: r-cran-httpuv\nPackage: r-cran-mime\nSeverity: normal\n\nHi Charles,\n\nThanks a lot for this heads up, much appreciated!  Turning your message into\na (maybe superfluous) bug, so it won't get lost.\n\nBye,\n\nJoost\n\nOn Thu, Jul 22, 2021 at 05:12:04PM +0900, Charles Plessy wrote:\n> Dear maintainers,\n> \n> I am contacting you because a code search shows that your source package\n> contains the string 'application/x-xcf'.  (Please refer to the attached\n> maintainer list).\n> \n> After the release I will change /etc/mime.types to use 'image/x-xcf'\n> instead as the GIMP maintainers (and fact checking with search engines)\n> confirmed that this is the intended media type for XCF files\n> (https://bugs.debian.org/991158).  \n> \n> Just in case I prefer to inform you ahead of the change.  If you think\n> there is no action to take on your side, it is fine and sorry for the\n> noise !\n> \n> Have a nice day,\n> \n> Charles\n> \n> -- \n> Charles Plessy                         Nagahama, Yomitan, Okinawa, Japan\n> Tooting from work,           https://mastodon.technology/@charles_plessy\n> Tooting from home,                 https://framapiaf.org/@charles_plessy\n\n[...]\n> Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\n>    r-cran-httpuv\n>    r-cran-mime\n> \n[...]\n> \n> Joost van Baal-Ili? <joostvb at debian.org>\n>    r-cran-httpuv (U)\n>    r-cran-mime (U)\n> \n[...]",
+      "body_snippet": "Package: r-cran-httpuv\nPackage: r-cran-mime\nSeverity: normal\n\nHi Charles,\n\nThanks a lot for this heads up, much appreciated!  Turning your message into\na (maybe superfluous) bug, so it won't get lost.",
+      "thread_id": "thread-b6b48ca3804a",
+      "thread_depth": 1,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-c6aacc195d11",
+      "message_id": "<20210723035634.GO8409@beskar.mdcc.cx>",
+      "from_name": "Joost van Baal-Ilić",
+      "from_email_hash": "1820ff95072bcc20ba413663dbbdd97d796c6dccc27f3fa9ecb4b55f3aec0cc9",
+      "date": "2021-07-23T03:56:34Z",
+      "subject": "[R-pkg-team] Bug#991420: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "subject_clean": "[R-pkg-team] Bug#991420: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "in_reply_to": "<20210723032932.GN8409@beskar.mdcc.cx>",
+      "references": [],
+      "body_plain": "Package: r-cran-httpuv\nSeverity: normal\n\n\nOn Fri, Jul 23, 2021 at 05:29:32AM +0200, Joost van Baal-Ili? wrote:\n> Package: r-cran-httpuv\n> Package: r-cran-mime\n> Severity: normal\n> \n> Hi Charles,\n> \n> Thanks a lot for this heads up, much appreciated!  Turning your message into\n> a (maybe superfluous) bug, so it won't get lost.\n> \n> Bye,\n> \n> Joost\n> \n> On Thu, Jul 22, 2021 at 05:12:04PM +0900, Charles Plessy wrote:\n> > Dear maintainers,\n> > \n> > I am contacting you because a code search shows that your source package\n> > contains the string 'application/x-xcf'.  (Please refer to the attached\n> > maintainer list).\n> > \n> > After the release I will change /etc/mime.types to use 'image/x-xcf'\n> > instead as the GIMP maintainers (and fact checking with search engines)\n> > confirmed that this is the intended media type for XCF files\n> > (https://bugs.debian.org/991158).  \n> > \n> > Just in case I prefer to inform you ahead of the change.  If you think\n> > there is no action to take on your side, it is fine and sorry for the\n> > noise !\n> > \n> > Have a nice day,\n> > \n> > Charles\n> > \n> > -- \n> > Charles Plessy                         Nagahama, Yomitan, Okinawa, Japan\n> > Tooting from work,           https://mastodon.technology/@charles_plessy\n> > Tooting from home,                 https://framapiaf.org/@charles_plessy\n> \n> [...]\n> > Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\n> >    r-cran-httpuv\n> >    r-cran-mime\n> > \n> [...]\n> > \n> > Joost van Baal-Ili? <joostvb at debian.org>\n> >    r-cran-httpuv (U)\n> >    r-cran-mime (U)\n> > \n> [...]\n> \n>",
+      "body_snippet": "Package: r-cran-httpuv\nSeverity: normal\n\n\nOn Fri, Jul 23, 2021 at 05:29:32AM +0200, Joost van Baal-Ili? wrote:\n> Package: r-cran-httpuv\n> Package: r-cran-mime\n> Severity: normal\n> \n> Hi Charles,\n> \n> ",
+      "thread_id": "thread-b6b48ca3804a",
+      "thread_depth": 2,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-f4e5f2e2536c",
+      "message_id": "<20210723040630.GX320@an3as.eu>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
+      "date": "2021-07-23T04:06:30Z",
+      "subject": "[R-pkg-team] Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "subject_clean": "[R-pkg-team] Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "in_reply_to": "<20210723032932.GN8409@beskar.mdcc.cx>",
+      "references": [
+        "<20210722081204.GF4161@bubu.plessy.net>",
+        "<20210723032932.GN8409@beskar.mdcc.cx>",
+        "<20210723032932.GN8409@beskar.mdcc.cx>"
+      ],
+      "body_plain": "Hi Joost,\n\nI've just fixed both in Git yesterday (unfortunately silently).\n\nWe can upload after the freeze.\n\nKind regards\n\n     Andreas.\n\nOn Fri, Jul 23, 2021 at 05:29:32AM +0200, Joost van Baal-Ili? wrote:\n> Package: r-cran-httpuv\n> Package: r-cran-mime\n> Severity: normal\n> \n> Hi Charles,\n> \n> Thanks a lot for this heads up, much appreciated!  Turning your message into\n> a (maybe superfluous) bug, so it won't get lost.\n> \n> Bye,\n> \n> Joost\n> \n> On Thu, Jul 22, 2021 at 05:12:04PM +0900, Charles Plessy wrote:\n> > Dear maintainers,\n> > \n> > I am contacting you because a code search shows that your source package\n> > contains the string 'application/x-xcf'.  (Please refer to the attached\n> > maintainer list).\n> > \n> > After the release I will change /etc/mime.types to use 'image/x-xcf'\n> > instead as the GIMP maintainers (and fact checking with search engines)\n> > confirmed that this is the intended media type for XCF files\n> > (https://bugs.debian.org/991158).  \n> > \n> > Just in case I prefer to inform you ahead of the change.  If you think\n> > there is no action to take on your side, it is fine and sorry for the\n> > noise !\n> > \n> > Have a nice day,\n> > \n> > Charles\n> > \n> > -- \n> > Charles Plessy                         Nagahama, Yomitan, Okinawa, Japan\n> > Tooting from work,           https://mastodon.technology/@charles_plessy\n> > Tooting from home,                 https://framapiaf.org/@charles_plessy\n> \n> [...]\n> > Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\n> >    r-cran-httpuv\n> >    r-cran-mime\n> > \n> [...]\n> > \n> > Joost van Baal-Ili? <joostvb at debian.org>\n> >    r-cran-httpuv (U)\n> >    r-cran-mime (U)\n> > \n> [...]\n> \n> _______________________________________________\n> R-pkg-team mailing list\n> R-pkg-team at alioth-lists.debian.net\n> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team\n\n-- \nhttp://fam-tille.de",
+      "body_snippet": "Hi Joost,\n\nI've just fixed both in Git yesterday (unfortunately silently).\n\nWe can upload after the freeze.\n\nKind regards\n\n     Andreas.\n\nOn Fri, Jul 23, 2021 at 05:29:32AM +0200, Joost van Baal-Ili? ",
+      "thread_id": "thread-b6b48ca3804a",
+      "thread_depth": 2,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-173cc79179f1",
+      "message_id": "<20210723042131.GQ8409@beskar.mdcc.cx>",
+      "from_name": "Joost van Baal-Ilić",
+      "from_email_hash": "1820ff95072bcc20ba413663dbbdd97d796c6dccc27f3fa9ecb4b55f3aec0cc9",
+      "date": "2021-07-23T04:21:31Z",
+      "subject": "[R-pkg-team] Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "subject_clean": "[R-pkg-team] Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "in_reply_to": "<20210723040630.GX320@an3as.eu>",
+      "references": [
+        "<20210722081204.GF4161@bubu.plessy.net>",
+        "<20210723032932.GN8409@beskar.mdcc.cx>",
+        "<20210723040630.GX320@an3as.eu>"
+      ],
+      "body_plain": "tags #991418 +pending\ntags #991420 +pending\nthanks\n\nHi Andreas,\n\nWow, you're blazingly fast as ever!\n\nThanks a lot, Bye & C U @ DebConf!\n\nJoost\n\n\nOn Fri, Jul 23, 2021 at 06:06:30AM +0200, Andreas Tille wrote:\n> Hi Joost,\n> \n> I've just fixed both in Git yesterday (unfortunately silently).\n> \n> We can upload after the freeze.\n> \n> Kind regards\n> \n>      Andreas.\n<snip>",
+      "body_snippet": "tags #991418 +pending\ntags #991420 +pending\nthanks\n\nHi Andreas,\n\nWow, you're blazingly fast as ever!\n\nThanks a lot, Bye & C U @ DebConf!\n\nJoost\n\n\nOn Fri, Jul 23, 2021 at 06:06:30AM +0200, Andreas Till",
+      "thread_id": "thread-b6b48ca3804a",
+      "thread_depth": 3,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-e83ecd1860ba",
+      "message_id": "<20210723043029.GY320@an3as.eu>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
+      "date": "2021-07-23T04:30:29Z",
+      "subject": "[R-pkg-team] Bug#991395: r-cran-knitr: New upstream version needed by other R packages",
+      "subject_clean": "[R-pkg-team] Bug#991395: r-cran-knitr: New upstream version needed by other R packages",
+      "in_reply_to": "<87eebql54c.fsf@rob.eddelbuettel.com>",
+      "references": [
+        "<87eebql54c.fsf@rob.eddelbuettel.com>",
+        "<87eebql54c.fsf@rob.eddelbuettel.com>"
+      ],
+      "body_plain": "Hi,\n\nI checked this but it also\n\n   Depends: r-cran-xfun (>= 0.21) but 0.20-1 is to be installed\n\nand may be others.  I have a busy day today an I'm AFK over the weekend.\n\nGiven that the current release date is less than 10 days away I'm not\nreally motivated to upload a chain of dependencies to experimental\nright now.  But all packages are team maintained so you are kindly\ninvited to do\n\n    dch --team\n\nand upload on behalf of the team (just in case it is not communicated\nproperly:  Team uploads are always welcome in general).  Please make\nsure to push your changes to Git in case you will do so.  (I've just\npushed my changes for 1.33.)\n\nKind regards\n\n     Andreas.\n\nOn Thu, Jul 22, 2021 at 10:50:43AM -0500, Dirk Eddelbuettel wrote:\n> \n> Package: r-cran-knitr\n> Severity: normal\n> \n> We have knitr 1.31 per\n>   https://packages.debian.org/search?keywords=r-cran-knitr\n> but upstream is (since April) at 1.33 per\n>   https://cran.r-project.org/package=knitr\n> which is now needed by e.g. rgl aka r-cran-rgl.\n> \n> We are in a freeze, so I too have been uploading to experimental but it would\n> be nice if you could drop it into experimental now so I can put r-cran-rgl there.\n> \n> Dirk\n> \n> --\n> https://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org\n> \n> _______________________________________________\n> R-pkg-team mailing list\n> R-pkg-team at alioth-lists.debian.net\n> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team\n> \n\n-- \nhttp://fam-tille.de",
+      "body_snippet": "Hi,\n\nI checked this but it also\n\n   Depends: r-cran-xfun (>= 0.21) but 0.20-1 is to be installed\n\nand may be others.  I have a busy day today an I'm AFK over the weekend.\n\nGiven that the current relea",
+      "thread_id": "thread-d17babc06ea7",
+      "thread_depth": 1,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-11d75034a0a2",
+      "message_id": "<handler.s.C.162701453721163.transcript@bugs.debian.org>",
+      "from_name": "Debian Bug Tracking System",
+      "from_email_hash": "2d46c3e23dc44cd4de45c3b79dcde354bfb3c6b52facbc8a1c8114050146e8aa",
+      "date": "2021-07-23T04:33:04Z",
+      "subject": "[R-pkg-team] Processed: Re: Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "subject_clean": "[R-pkg-team] Processed: Re: Bug#991418: /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "in_reply_to": null,
+      "references": [
+        "<20210723042131.GQ8409@beskar.mdcc.cx>"
+      ],
+      "body_plain": "Processing commands for control at bugs.debian.org:\n\n> tags #991418 +pending\nBug #991418 [r-cran-mime] /etc/mime.types will replace application/x-xcf with image/x-xcf\nAdded tag(s) pending.\n> tags #991420 +pending\nBug #991420 [r-cran-httpuv] /etc/mime.types will replace application/x-xcf with image/x-xcf\nAdded tag(s) pending.\n> thanks\nStopping processing here.\n\nPlease contact me if you need assistance.\n-- \n991418: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991418\n991420: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991420\nDebian Bug Tracking System\nContact owner at bugs.debian.org with problems",
+      "body_snippet": "Processing commands for control at bugs.debian.org:\n\n> tags #991418 +pending\nBug #991418 [r-cran-mime] /etc/mime.types will replace application/x-xcf with image/x-xcf\nAdded tag(s) pending.\n> tags #991",
+      "thread_id": "thread-b6b48ca3804a",
+      "thread_depth": 4,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-bb1b83156b38",
+      "message_id": "<24829.38019.581676.789663@rob.eddelbuettel.com>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2021-07-25T16:42:43Z",
+      "subject": "[R-pkg-team] Bug#991489: r-cran-cpp11: New upstream version needed by other R packages",
+      "subject_clean": "[R-pkg-team] Bug#991489: r-cran-cpp11: New upstream version needed by other R packages",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Package: r-cran-cpp11\nSeverity: normal\n\nWe have cpp11 0.2.6\n  https://packages.debian.org/search?keywords=r-cran-cpp11\nbut upstream is (since January) at 1.27 per\n  https://cran.r-project.org/src/contrib/Archive/cpp11/\nand (since June) at 1.31 per\n  https://cran.r-project.org/package=cpp11\nwhich is now needed (as at least 1.27) by e.g. tzdb aka r-cran-tzdb (new\npackage) which is needed by vroom aka r-cran-vroom (new package) upon which\nmy r-cran-readr package now build-depends.\n\nWe are in a freeze, so I too have been uploading to experimental but it would\nbe nice if you could drop it into experimental now so I can put r-cran-tzdb\nthere.\n\nI am not interested in a lecture about how I could do that myself (as in\n#991395). I am filing this bug report to ask a fellow maintainer to keep his\npackages current enough so that other packages can build-depends on them.\n\nDirk\n\n-- \nhttps://dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org",
+      "body_snippet": "Package: r-cran-cpp11\nSeverity: normal\n\nWe have cpp11 0.2.6\n  https://packages.debian.org/search?keywords=r-cran-cpp11\nbut upstream is (since January) at 1.27 per\n  https://cran.r-project.org/src/cont",
+      "thread_id": "thread-bb1b83156b38",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-186f95882311",
+      "message_id": "<162723480102.87429.12857187412538069034.reportbug@wurzel.functional.domains>",
+      "from_name": "Steffen Moeller",
+      "from_email_hash": "331c669dc92269bb16154058b2b2787f771fb8be2085e2b919a1f2bc45b2fb4f",
+      "date": "2021-07-25T17:40:01Z",
+      "subject": "[R-pkg-team] Bug#991490: ITP: r-cran-r2html -- HTML Exportation for R Objects",
+      "subject_clean": "[R-pkg-team] Bug#991490: ITP: r-cran-r2html -- HTML Exportation for R Objects",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Package: wnpp\nSeverity: wishlist\n\nSubject: ITP: r-cran-r2html -- HTML Exportation for R Objects\nPackage: wnpp\nOwner: Steffen Moeller <moeller at debian.org>\nSeverity: wishlist\n\n* Package name    : r-cran-r2html\n  Version         : 2.3.2\n  Upstream Author : Eric Lecoutre,\n* URL             : https://cran.r-project.org/package=R2HTML\n* License         : GPL-2+\n  Programming Lang: GNU R\n  Description     : HTML Exportation for R Objects\n Includes HTML function and methods to write in an HTML\n file. Thus, making HTML reports is easy. Includes a function\n that allows redirection on the fly, which appears to be very\n useful for teaching purpose, as the student can keep a copy of\n the produced output to keep all that he did during the course.\n Package comes with a vignette describing how to write HTML\n reports for statistical analysis. Finally, a driver for 'Sweave'\n allows to parse HTML flat files containing R code and to\n automatically write the corresponding outputs (tables and\n graphs).\n\nRemark: This package is maintained by Debian R Packages Maintainers at\n   https://salsa.debian.org/r-pkg-team/r-cran-r2html",
+      "body_snippet": "Package: wnpp\nSeverity: wishlist\n\nSubject: ITP: r-cran-r2html -- HTML Exportation for R Objects\nPackage: wnpp\nOwner: Steffen Moeller <moeller at debian.org>\nSeverity: wishlist\n\n* Package name    : r-c",
+      "thread_id": "thread-186f95882311",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-5a9052f5621a",
+      "message_id": "<20210727063414.GM25567@an3as.eu>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
+      "date": "2021-07-27T06:34:14Z",
+      "subject": "[R-pkg-team] Bug#991489: r-cran-cpp11: New upstream version needed by other R packages",
+      "subject_clean": "[R-pkg-team] Bug#991489: r-cran-cpp11: New upstream version needed by other R packages",
+      "in_reply_to": "<24829.38019.581676.789663@rob.eddelbuettel.com>",
+      "references": [
+        "<24829.38019.581676.789663@rob.eddelbuettel.com>",
+        "<24829.38019.581676.789663@rob.eddelbuettel.com>"
+      ],
+      "body_plain": "On Sun, Jul 25, 2021 at 11:42:43AM -0500, Dirk Eddelbuettel wrote:\n> \n> I am not interested in a lecture about how I could do that myself (as in\n                           ^^^^^^^\n> #991395).\n\nSeems you are not really familiar with the concept of team maintenance -\nneither technically nor how to cope with team members.\n\nKind regards\n\n     ANdreas.\n\n-- \nhttp://fam-tille.de",
+      "body_snippet": "On Sun, Jul 25, 2021 at 11:42:43AM -0500, Dirk Eddelbuettel wrote:\n> \n> I am not interested in a lecture about how I could do that myself (as in\n                           ^^^^^^^\n> #991395).\n\nSeems y",
+      "thread_id": "thread-bb1b83156b38",
+      "thread_depth": 1,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-af8cd236a0e8",
+      "message_id": "<E1m8GjE-00072Q-Fm@usper.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2021-07-27T06:38:12Z",
+      "subject": "[R-pkg-team] Processing of r-cran-cpp11_0.3.1-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-cpp11_0.3.1-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-cpp11_0.3.1-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-cpp11_0.3.1-1.dsc\n  r-cran-cpp11_0.3.1.orig.tar.gz\n  r-cran-cpp11_0.3.1-1.debian.tar.xz\n  r-cran-cpp11_0.3.1-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-cpp11_0.3.1-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-cpp11_0.3.1-1.dsc\n  r-cran-cpp11_0.3.1.orig.tar.gz\n  r-cran-cpp11_0.3.1-1.debian.tar.xz\n  r-cran-c",
+      "thread_id": "thread-af8cd236a0e8",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-323083c401d3",
+      "message_id": "<E1m8GtA-0006Bv-DH@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2021-07-27T06:48:28Z",
+      "subject": "[R-pkg-team] r-cran-cpp11_0.3.1-1_source.changes ACCEPTED into experimental",
+      "subject_clean": "[R-pkg-team] r-cran-cpp11_0.3.1-1_source.changes ACCEPTED into experimental",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Accepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 27 Jul 2021 08:17:00 +0200\nSource: r-cran-cpp11\nArchitecture: source\nVersion: 0.3.1-1\nDistribution: experimental\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Andreas Tille <tille at debian.org>\nChanges:\n r-cran-cpp11 (0.3.1-1) experimental; urgency=medium\n .\n   * New upstream version\nChecksums-Sha1:\n 6b2c1268168a501c94b363012541c0ab8b64006e 2150 r-cran-cpp11_0.3.1-1.dsc\n 5ba3ab07cd9f33d8680f9f409a0b703b391a964c 217952 r-cran-cpp11_0.3.1.orig.tar.gz\n 4ea0c6486a5983744e8ed788090da88cb53ccb92 2900 r-cran-cpp11_0.3.1-1.debian.tar.xz\n a9e814c104387fee6eb07cbc828e1e913bf39c84 10132 r-cran-cpp11_0.3.1-1_amd64.buildinfo\nChecksums-Sha256:\n 88c5236264c4cdc1806aa187c9e472ad299681125ac046fd92ae5737fb3e9f39 2150 r-cran-cpp11_0.3.1-1.dsc\n 478d421b07c5cb022dafb2ad1fcec474e8afec5f6f983258505ac5d54f015af0 217952 r-cran-cpp11_0.3.1.orig.tar.gz\n f1289484010d54f6e789590ef13ee6f9f307189d946dd3a202cd7c923fe66fba 2900 r-cran-cpp11_0.3.1-1.debian.tar.xz\n 02ab313a9795010194f47a440d52f30d327b1167ede0ec4adba303fcd505abd5 10132 r-cran-cpp11_0.3.1-1_amd64.buildinfo\nFiles:\n 4f38e03fa1335e2a0aeb7b93e23a06b0 2150 gnu-r optional r-cran-cpp11_0.3.1-1.dsc\n bfe760695aa55693f6ddcc633cd3e7b6 217952 gnu-r optional r-cran-cpp11_0.3.1.orig.tar.gz\n 8b3a9034cfd884a46d5dc7e0555fd9d8 2900 gnu-r optional r-cran-cpp11_0.3.1-1.debian.tar.xz\n cd1315ddc208d42fa411e2840961448f 10132 gnu-r optional r-cran-cpp11_0.3.1-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmD/p4oRHHRpbGxlQGRl\nYmlhbi5vcmcACgkQV4oElNHGRtHV2A/+NJP3UPxiQSa4gTFdDJtXeOndftupMDhz\nYn4dUCsb5Qa10rBZYbp4NHgTrdAlCi6VGI4eg97zroj7oOPP2iqnHUoytE+T2Jw4\nK0fCS8e9ixF7Sj/kPyhHn9HD/MMIMcmj6HMnMBZ6FO68o6aGA5+cGH+iTyXRKn+b\nHvms6tPzAU+ibUtvVg2aYxHkFC90Z6U87lPYKCJ/NLYJz3gkAfZq71X2/pxGw/pa\nNUr0z9Xp52K4mx6A0lIJq269UvfWfXD6nKkQGSDsEuU/T6BeePwz2GUNdSz21rJ8\nyFJoFBii+6wFq/NnpmN7PM39QabESCMAuP2Q39UyWrGoojr9sV4Qiv/wZhHlA86+\nYaE/1M6sL5r+vMbWlWTmExAeZ77KXhOKwriq8ugry1mWPCQPzNsZxyOMVP+EDJjQ\n+kUCwkBieQjB6D4nVF0zKrWG2xDflAzHkpiCMoLY1lPrG5eB7PMfnThAGoOX94Fw\nWjfgR7yigqMXNeYBgXnI62FCHrLlM45Usc2B/1UyBaYRvcjIEBXfrU+ZCFKpRI5w\naaIyAgpQ2S3Q6ufSnQefym7oYQUsQK0Hkh0s1A24KM3BB/YYO+ZW1RI9f4Jj/8ZI\nZETt8Rzo5z37Q2S9zc4v6PeyPPPWyw14cd5yYTHGPPh2WaPyDvZPBVqpfSgW4yjM\na87HEhpKsRM=\n=k2uO\n-----END PGP SIGNATURE-----\n\n\nThank you for your contribution to Debian.",
+      "body_snippet": "Accepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 27 Jul 2021 08:17:00 +0200\nSource: r-cran-cpp11\nArchitecture: source\nVersion: 0.3.1-1\nDistribution: experimental\nUrge",
+      "thread_id": "thread-323083c401d3",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-3f31b9060df6",
+      "message_id": "<a840e6a3-2cd3-6351-630b-453f7c62b691@a4nancy.net.eu.org>",
+      "from_name": "Kjö Hansi Glaz",
+      "from_email_hash": "063f188b46bb149aece297478b3745bef734f0b23b2e57f87ff8eb878614c595",
+      "date": "2021-07-27T17:38:01Z",
+      "subject": "[R-pkg-team] Bug#991566: r-cran-bookdown: Please package version 0.22",
+      "subject_clean": "[R-pkg-team] Bug#991566: r-cran-bookdown: Please package version 0.22",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Package: r-cran-bookdown\nVersion: 0.21+dfsg-1\nSeverity: wishlist\n\nDear Maintainer,\n\nUpstream released bookdown version 0.22 last april[1]. It includes\ninteresting new features and bugfixes. Would you consider packaging it?\n\nThanks for your work on bookdown in debian.\n\n[1] https://github.com/rstudio/bookdown/releases/tag/v0.22",
+      "body_snippet": "Package: r-cran-bookdown\nVersion: 0.21+dfsg-1\nSeverity: wishlist\n\nDear Maintainer,\n\nUpstream released bookdown version 0.22 last april[1]. It includes\ninteresting new features and bugfixes. Would you ",
+      "thread_id": "thread-3f31b9060df6",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-0b51bb830428",
+      "message_id": "<20210727185124.GN25567@an3as.eu>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
+      "date": "2021-07-27T18:51:24Z",
+      "subject": "[R-pkg-team] Bug#991566: r-cran-bookdown: Please package version 0.22",
+      "subject_clean": "[R-pkg-team] Bug#991566: r-cran-bookdown: Please package version 0.22",
+      "in_reply_to": "<a840e6a3-2cd3-6351-630b-453f7c62b691@a4nancy.net.eu.org>",
+      "references": [
+        "<a840e6a3-2cd3-6351-630b-453f7c62b691@a4nancy.net.eu.org>",
+        "<a840e6a3-2cd3-6351-630b-453f7c62b691@a4nancy.net.eu.org>"
+      ],
+      "body_plain": "Hi Kj?,\n\nthank you for reporting this problem.\n\nOn Tue, Jul 27, 2021 at 07:38:01PM +0200, Kj? Hansi Glaz wrote:\n> Upstream released bookdown version 0.22 last april[1]. It includes\n> interesting new features and bugfixes. Would you consider packaging it?\n\nCurrently Debian is frozen until Debian 11 will be released (release date\nis August 14th).  Once the next release cycle is opened we'll update all\noutdated R packages - inclusive bookdown.\n\nKind regards\n\n      Andreas.\n\n-- \nhttp://fam-tille.de",
+      "body_snippet": "Hi Kj?,\n\nthank you for reporting this problem.\n\nOn Tue, Jul 27, 2021 at 07:38:01PM +0200, Kj? Hansi Glaz wrote:\n> Upstream released bookdown version 0.22 last april[1]. It includes\n> interesting new f",
+      "thread_id": "thread-3f31b9060df6",
+      "thread_depth": 1,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-3cd4b5cc129b",
+      "message_id": "<8812489675576251764464@DESKTOP-6ID9F0C>",
+      "from_name": "FOESCO",
+      "from_email_hash": "113e6bb9a65d4ca253a3274acabce3f1c875a6fc0c017d7c3c0a3cbd1f24c2d8",
+      "date": "2021-07-28T14:25:02Z",
+      "subject": "[R-pkg-team] Información",
+      "subject_clean": "[R-pkg-team] Información",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Estimados/as\n\n\n\nSoy Alex Pons director de FOESCO (Formaci?n Estatal Continua).\n\n\nEstamos informando a todas las empresas Espa?olas que se encuentra abierto el plazo de inscripci?n de Cursos Bonificables para empleados (Agosto-Septiembre 2021).\n\nTodos los cursos pueden iniciarse en el mes de Agosto o Septiembre.\n\n\nAdjuntamos listado con m?s de 1000 Cursos Bonificables disponibles en modalidad Online.\n\nRecordamos que todos los cursos ofrecidos son 100% Bonificables con cargo al Cr?dito de Formaci?n 2021.\n\n\nPod?is confirmarnos que os ha llegado el listado adjunto correctamente?\n\n\n\nSaludos cordiales\n\n\nAlex Pons\n\nDirector FOESCO\n\n\nDepartamento Formaci?n Bonificable.\nFOESCO (Formaci?n Estatal Continua).\nEntidad Organizadora:B200592AA\nTel:   910 323 794\n(Horario de Lunes a Viernes de 9h a 15h y de 17h a 20h)\n\nFOESCO imparte formaci?n a empresas y trabajadores en activo a trav?s de cursos bonificados por la Fundaci?n Estatal para la Formaci?n en el Empleo (antiguo FORCEM) que gestiona las acciones formativas de FORMACI?N CONTINUA para trabajadores y se rige por la ley 30/2015 de 9 de Septiembre.\n\nAntes de imprimir este e-mail piense bien si es necesario hacerlo. La informaci?n transmitida en este mensaje est? dirigida solamente a las personas o entidades que figuran en el encabezamiento y contiene informaci?n confidencial, por lo que, si usted lo recibiera por error, por favor destr?yalo sin copiarlo, usarlo ni distribuirlo, comunic?ndolo inmediatamente al emisor del mensaje. De conformidad con lo dispuesto en el Reglamento Europeo del 2016/679, del 27 de Abril de 2016, FOESCO le informa que los datos por usted suministrados ser?n tratados con las medidas de seguridad conformes a la normativa vigente que se requiere. Dichos datos ser?n empleados con fines de gesti?n. Para el ejercicio de sus derechos de transparencia, informaci?n, acceso, rectificaci?n, supresi?n o derecho al olvido, limitaci?n del tratamiento , portabilidad de datos y oposici?n de sus datos de car?cter personal deber? dirigirse a la direcci?n del Responsable del tratamiento a C/ LAGUNA DEL MARQUESADO N?10, 28021, MADRID, \"PULSANDO AQUI\" <mailto:bajas at foesco.com?Subject=BAJA%20CORREOS> y \"ENVIAR\".",
+      "body_snippet": "Estimados/as\n\n\n\nSoy Alex Pons director de FOESCO (Formaci?n Estatal Continua).\n\n\nEstamos informando a todas las empresas Espa?olas que se encuentra abierto el plazo de inscripci?n de Cursos Bonificabl",
+      "thread_id": "thread-3cd4b5cc129b",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-1ccf0f70baee",
+      "message_id": "<162774112775.48407.8294563009867257707.reportbug@debian>",
+      "from_name": "Nilesh Patra",
+      "from_email_hash": "00e496f88598d8c5db4a9b2a96dcf90efbcbf6cf17c6fd1d54d12a938924b216",
+      "date": "2021-07-31T14:18:47Z",
+      "subject": "[R-pkg-team] Bug#991742: ITP: r-cran-gprofiler2 -- Interface to the 'g:Profiler' Toolset",
+      "subject_clean": "[R-pkg-team] Bug#991742: ITP: r-cran-gprofiler2 -- Interface to the 'g:Profiler' Toolset",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Package: wnpp\nSeverity: wishlist\nX-Debbugs-Cc: nilesh at debian.org\n\nSubject: ITP: r-cran-gprofiler2 -- Interface to the 'g:Profiler' Toolset\nPackage: wnpp\nOwner: Nilesh Patra <nilesh at debian.org>\nSeverity: wishlist\n\n* Package name    : r-cran-gprofiler2\n  Version         : 0.2.0\n  Upstream Author : Liis Kolberg <liis.kolberg at ut.ee>, Uku Raudvere <uku.raudvere at ut.ee>\n* URL             : https://cran.r-project.org/package=gprofiler2\n* License         : GPL-2+\n  Programming Lang: GNU R\n  Description     : Interface to the 'g:Profiler' Toolset\n A toolset for functional enrichment analysis and visualization,\n gene/protein/SNP identifier conversion and mapping orthologous genes\n across species via 'g:Profiler' (<https://biit.cs.ut.ee/gprofiler>). The\n main tools are:\n (1) 'g:GOSt' - functional enrichment analysis and visualization of\n     gene lists;\n (2) 'g:Convert' - gene/protein/transcript identifier conversion across\n     various namespaces;\n (3) 'g:Orth' - orthology search across species;\n (4) 'g:SNPense' - mapping SNP rs identifiers to chromosome positions,\n     genes and variant effects This package is an R interface\n     corresponding to the 2019 update of 'g:Profiler' and provides access\n     to 'g:Profiler' for versions 'e94_eg41_p11' and higher. See the\n     package 'gProfileR' for accessing older versions from the\n     'g:Profiler' toolset.\n\nRemark: This package is maintained by Debian R Packages Maintainers at\n   https://salsa.debian.org/r-pkg-team/r-cran-gprofiler2",
+      "body_snippet": "Package: wnpp\nSeverity: wishlist\nX-Debbugs-Cc: nilesh at debian.org\n\nSubject: ITP: r-cran-gprofiler2 -- Interface to the 'g:Profiler' Toolset\nPackage: wnpp\nOwner: Nilesh Patra <nilesh at debian.org>\nS",
+      "thread_id": "thread-1ccf0f70baee",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-6af21e3cc024",
+      "message_id": "<E1m9pvR-0006lD-G2@usper.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2021-07-31T14:25:17Z",
+      "subject": "[R-pkg-team] Processing of r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-gprofiler2_0.2.0+dfsg-1.dsc\n  r-cran-gprofiler2_0.2.0+dfsg.orig.tar.xz\n  r-cran-gprofiler2_0.2.0+dfsg-1.debian.tar.xz\n  r-cran-gprofiler2_0.2.0+dfsg-1_all.deb\n  r-cran-gprofiler2_0.2.0+dfsg-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-gprofiler2_0.2.0+dfsg-1.dsc\n  r-cran-gprofiler2_0.2.0+dfsg.orig.tar.xz\n  r-cran-gprofiler",
+      "thread_id": "thread-6af21e3cc024",
+      "thread_depth": 0,
+      "month": "2021-07"
+    },
+    {
+      "id": "msg-366dd27d3e02",
+      "message_id": "<E1m9q3Q-000BnH-90@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2021-07-31T14:33:32Z",
+      "subject": "[R-pkg-team] r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes is NEW",
+      "subject_clean": "[R-pkg-team] r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes is NEW",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "binary:r-cran-gprofiler2 is NEW.\nbinary:r-cran-gprofiler2 is NEW.\nsource:r-cran-gprofiler2 is NEW.\n\nYour package has been put into the NEW queue, which requires manual action\nfrom the ftpteam to process. The upload was otherwise valid (it had a good\nOpenPGP signature and file hashes are valid), so please be patient.\n\nPackages are routinely processed through to the archive, and do feel\nfree to browse the NEW queue[1].\n\nIf there is an issue with the upload, you will receive an email from a\nmember of the ftpteam.\n\nIf you have any questions, you may reply to this email.\n\n[1]: https://ftp-master.debian.org/new.html\n     or https://ftp-master.debian.org/backports-new.html for *-backports",
+      "body_snippet": "binary:r-cran-gprofiler2 is NEW.\nbinary:r-cran-gprofiler2 is NEW.\nsource:r-cran-gprofiler2 is NEW.\n\nYour package has been put into the NEW queue, which requires manual action\nfrom the ftpteam to proce",
+      "thread_id": "thread-366dd27d3e02",
+      "thread_depth": 0,
+      "month": "2021-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e10c2fda26b9",
+      "subject": "[R-pkg-team] Facial Ice Globes Manufacturer",
+      "message_count": 1,
+      "participants": [
+        "Yvette"
+      ],
+      "started": "2021-07-12T10:08:33Z",
+      "last_reply": "2021-07-12T10:08:33Z",
+      "root_message_id": "msg-e10c2fda26b9"
+    },
+    {
+      "id": "thread-f2cc97b71470",
+      "subject": "[R-pkg-team] Información FOESCO",
+      "message_count": 1,
+      "participants": [
+        "FOESCO"
+      ],
+      "started": "2021-07-20T08:28:14Z",
+      "last_reply": "2021-07-20T08:28:14Z",
+      "root_message_id": "msg-f2cc97b71470"
+    },
+    {
+      "id": "thread-b6b48ca3804a",
+      "subject": "[R-pkg-team] /etc/mime.types will replace application/x-xcf with image/x-xcf",
+      "message_count": 6,
+      "participants": [
+        "Andreas Tille",
+        "Charles Plessy",
+        "Debian Bug Tracking System",
+        "Joost van Baal-Ilić"
+      ],
+      "started": "2021-07-22T08:12:04Z",
+      "last_reply": "2021-07-23T04:33:04Z",
+      "root_message_id": "msg-b6b48ca3804a"
+    },
+    {
+      "id": "thread-d17babc06ea7",
+      "subject": "[R-pkg-team] Bug#991395: r-cran-knitr: New upstream version needed by other R packages",
+      "message_count": 2,
+      "participants": [
+        "Andreas Tille",
+        "Dirk Eddelbuettel"
+      ],
+      "started": "2021-07-22T15:50:43Z",
+      "last_reply": "2021-07-23T04:30:29Z",
+      "root_message_id": "msg-d17babc06ea7"
+    },
+    {
+      "id": "thread-bb1b83156b38",
+      "subject": "[R-pkg-team] Bug#991489: r-cran-cpp11: New upstream version needed by other R packages",
+      "message_count": 2,
+      "participants": [
+        "Andreas Tille",
+        "Dirk Eddelbuettel"
+      ],
+      "started": "2021-07-25T16:42:43Z",
+      "last_reply": "2021-07-27T06:34:14Z",
+      "root_message_id": "msg-bb1b83156b38"
+    },
+    {
+      "id": "thread-186f95882311",
+      "subject": "[R-pkg-team] Bug#991490: ITP: r-cran-r2html -- HTML Exportation for R Objects",
+      "message_count": 1,
+      "participants": [
+        "Steffen Moeller"
+      ],
+      "started": "2021-07-25T17:40:01Z",
+      "last_reply": "2021-07-25T17:40:01Z",
+      "root_message_id": "msg-186f95882311"
+    },
+    {
+      "id": "thread-af8cd236a0e8",
+      "subject": "[R-pkg-team] Processing of r-cran-cpp11_0.3.1-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2021-07-27T06:38:12Z",
+      "last_reply": "2021-07-27T06:38:12Z",
+      "root_message_id": "msg-af8cd236a0e8"
+    },
+    {
+      "id": "thread-323083c401d3",
+      "subject": "[R-pkg-team] r-cran-cpp11_0.3.1-1_source.changes ACCEPTED into experimental",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2021-07-27T06:48:28Z",
+      "last_reply": "2021-07-27T06:48:28Z",
+      "root_message_id": "msg-323083c401d3"
+    },
+    {
+      "id": "thread-3f31b9060df6",
+      "subject": "[R-pkg-team] Bug#991566: r-cran-bookdown: Please package version 0.22",
+      "message_count": 2,
+      "participants": [
+        "Andreas Tille",
+        "Kjö Hansi Glaz"
+      ],
+      "started": "2021-07-27T17:38:01Z",
+      "last_reply": "2021-07-27T18:51:24Z",
+      "root_message_id": "msg-3f31b9060df6"
+    },
+    {
+      "id": "thread-3cd4b5cc129b",
+      "subject": "[R-pkg-team] Información",
+      "message_count": 1,
+      "participants": [
+        "FOESCO"
+      ],
+      "started": "2021-07-28T14:25:02Z",
+      "last_reply": "2021-07-28T14:25:02Z",
+      "root_message_id": "msg-3cd4b5cc129b"
+    },
+    {
+      "id": "thread-1ccf0f70baee",
+      "subject": "[R-pkg-team] Bug#991742: ITP: r-cran-gprofiler2 -- Interface to the 'g:Profiler' Toolset",
+      "message_count": 1,
+      "participants": [
+        "Nilesh Patra"
+      ],
+      "started": "2021-07-31T14:18:47Z",
+      "last_reply": "2021-07-31T14:18:47Z",
+      "root_message_id": "msg-1ccf0f70baee"
+    },
+    {
+      "id": "thread-6af21e3cc024",
+      "subject": "[R-pkg-team] Processing of r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2021-07-31T14:25:17Z",
+      "last_reply": "2021-07-31T14:25:17Z",
+      "root_message_id": "msg-6af21e3cc024"
+    },
+    {
+      "id": "thread-366dd27d3e02",
+      "subject": "[R-pkg-team] r-cran-gprofiler2_0.2.0+dfsg-1_amd64.changes is NEW",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2021-07-31T14:33:32Z",
+      "last_reply": "2021-07-31T14:33:32Z",
+      "root_message_id": "msg-366dd27d3e02"
+    }
+  ]
+}

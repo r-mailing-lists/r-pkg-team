@@ -1,0 +1,4085 @@
+From anbe at debian.org  Wed May  3 10:46:27 2023
+From: anbe at debian.org (Andreas Beckmann)
+Date: Wed, 03 May 2023 11:46:27 +0200
+Subject: [R-pkg-team] Bug#1035428: r-cran-shiny: broken symlink:
+ /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css
+ -> ../../../../../../../nodejs/normalize.css/normalize.css
+Message-ID: <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+
+Package: r-cran-shiny
+Version: 1.7.4+dfsg-2
+Severity: serious
+User: debian-qa at lists.debian.org
+Usertags: piuparts
+
+Hi,
+
+during a test with piuparts I noticed your package ships (or creates)
+a broken symlink.
+
+2m10.5s ERROR: FAIL: Broken symlinks:
+  /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css (r-cran-shiny)
+
+The symlink targets the file in /usr/lib while it actually resides in
+/usr/share (since node-normalize.css 8.0.1-5).
+
+Since all (most?) of your .js, .css, ... dependencies are linked to
+/usr/share/javascript, I'd recommend doing the same for normalize.css,
+i.e. point your symlink to /usr/share/javascript/normalize.css/normalize.css
+which is a symlink provided by all versions of node-normalize.css, so
+you don't need a versioned dependency on that (or the virtual
+libjs-normalize.css package you depend on).
+
+cheers,
+
+Andreas
+
+
+From info at servidordoce.com  Wed May  3 13:01:43 2023
+From: info at servidordoce.com (Victor Torres)
+Date: Wed, 3 May 2023 07:01:43 -0500
+Subject: [R-pkg-team] Contacto
+Message-ID: <mailman.118.1683125083.554.r-pkg-team@alioth-lists.debian.net>
+
+
+Buenos d?as,
+
+Tenemos a su disposici?n bases de datos de emails de varios segmentos:
+
+-Empresas de Construcci?n
+-Empresas de Transporte
+-Empresas de Manufactura
+-Comercio Retail
+-M?dicos
+-Odont?logos
+-Ingenieros
+-Expos y eventos 
+-Inmobiliarias
+-Exportadores
+-Hoteles
+-Restaurantes
+
+
+Y bajo pedido, usted nos indica el tipo de p?blico que busca y nosotros lo conseguimos.
+
+
+Cont?ctenos para m?s informaci?n.
+
+
+
+
+
+
+
+From heinrich.schuchardt at canonical.com  Mon May  8 11:37:42 2023
+From: heinrich.schuchardt at canonical.com (Heinrich Schuchardt)
+Date: Mon, 08 May 2023 12:37:42 +0200
+Subject: [R-pkg-team] Bug#1035723: r-cran-dtplyr: Autopkgtests fail
+Message-ID: <168354226276.176687.4707363833840790647.reportbug@LT2ubnt>
+
+Package: r-cran-dtplyr
+Severity: normal
+Tags: patch
+User: ubuntu-devel at lists.ubuntu.com
+Usertags: origin-ubuntu mantic ubuntu-patch
+X-Debbugs-Cc: heinrich.schuchardt at canonical.com
+
+Dear Maintainer,
+
+Autopkgtests fail due to a missing upstream patch.
+
+In Ubuntu, the attached patch was applied to achieve the following:
+
+  * Fix autopkgtests (LP: #2018713) 
+    d/p/0001-Use-snapshots-for-errors-that-dplyr-owns-now.patch
+
+Thanks for considering the patch.
+
+
+-- System Information:
+Debian Release: bookworm/sid
+  APT prefers mantic
+  APT policy: (500, 'mantic')
+Architecture: amd64 (x86_64)
+Foreign Architectures: i386
+
+Kernel: Linux 6.2.0-21-generic (SMP w/8 CPU threads; PREEMPT)
+Kernel taint flags: TAINT_PROPRIETARY_MODULE, TAINT_OOT_MODULE
+Locale: LANG=en_US.UTF-8, LC_CTYPE=en_US.UTF-8 (charmap=UTF-8), LANGUAGE not set
+Shell: /bin/sh linked to /usr/bin/dash
+Init: systemd (via /run/systemd/system)
+LSM: AppArmor: enabled
+-------------- next part --------------
+diff -Nru r-cran-dtplyr-1.2.2/debian/patches/0001-Use-snapshots-for-errors-that-dplyr-owns-now.patch r-cran-dtplyr-1.2.2/debian/patches/0001-Use-snapshots-for-errors-that-dplyr-owns-now.patch
+--- r-cran-dtplyr-1.2.2/debian/patches/0001-Use-snapshots-for-errors-that-dplyr-owns-now.patch	1970-01-01 01:00:00.000000000 +0100
++++ r-cran-dtplyr-1.2.2/debian/patches/0001-Use-snapshots-for-errors-that-dplyr-owns-now.patch	2023-05-08 08:34:58.000000000 +0200
+@@ -0,0 +1,99 @@
++From b4733a7d1e1b5406bf3dd4299e85654566c7a68b Mon Sep 17 00:00:00 2001
++From: DavisVaughan <davis at rstudio.com>
++Date: Wed, 14 Dec 2022 11:49:47 -0500
++Subject: [PATCH] Use snapshots for errors that dplyr owns now
++Origin: https://github.com/tidyverse/dtplyr/commit/b4733a7d1e1b5406bf3dd4299e85654566c7a68b
++---
++ tests/testthat/_snaps/step-subset-slice.md | 46 ++++++++++++++++++++++
++ tests/testthat/test-step-subset-slice.R    | 21 ++++++----
++ 2 files changed, 59 insertions(+), 8 deletions(-)
++
++diff --git a/tests/testthat/_snaps/step-subset-slice.md b/tests/testthat/_snaps/step-subset-slice.md
++index 4c43050..128112a 100644
++--- a/tests/testthat/_snaps/step-subset-slice.md
+++++ b/tests/testthat/_snaps/step-subset-slice.md
++@@ -1,3 +1,49 @@
+++# slice_*() checks for empty ...
+++
+++    Code
+++      slice_head(dt, 5)
+++    Condition
+++      Error in `slice_head()`:
+++      ! `n` must be explicitly named.
+++      i Did you mean `slice_head(n = 5)`?
+++    Code
+++      slice_tail(dt, 5)
+++    Condition
+++      Error in `slice_tail()`:
+++      ! `n` must be explicitly named.
+++      i Did you mean `slice_tail(n = 5)`?
+++    Code
+++      slice_min(dt, x, 5)
+++    Condition
+++      Error in `slice_min()`:
+++      ! `n` must be explicitly named.
+++      i Did you mean `slice_min(n = 5)`?
+++    Code
+++      slice_max(dt, x, 5)
+++    Condition
+++      Error in `slice_max()`:
+++      ! `n` must be explicitly named.
+++      i Did you mean `slice_max(n = 5)`?
+++    Code
+++      slice_sample(dt, 5)
+++    Condition
+++      Error in `slice_sample()`:
+++      ! `n` must be explicitly named.
+++      i Did you mean `slice_sample(n = 5)`?
+++
+++---
+++
+++    Code
+++      slice_min(dt)
+++    Condition
+++      Error in `slice_min()`:
+++      ! `order_by` is absent but must be supplied.
+++    Code
+++      slice_max(dt)
+++    Condition
+++      Error in `slice_max()`:
+++      ! `order_by` is absent but must be supplied.
+++
++ # check_slice_catches common errors
++ 
++     Code
++diff --git a/tests/testthat/test-step-subset-slice.R b/tests/testthat/test-step-subset-slice.R
++index 3141f19..b209b76 100644
++--- a/tests/testthat/test-step-subset-slice.R
+++++ b/tests/testthat/test-step-subset-slice.R
++@@ -127,14 +127,19 @@ test_that("arguments to sample are passed along", {
++ 
++ test_that("slice_*() checks for empty ...", {
++   dt <- lazy_dt(data.frame(x = 1:10))
++-  expect_error(slice_head(dt, 5), class = "rlib_error_dots_nonempty")
++-  expect_error(slice_tail(dt, 5), class = "rlib_error_dots_nonempty")
++-  expect_error(slice_min(dt, x, 5), class = "rlib_error_dots_nonempty")
++-  expect_error(slice_max(dt, x, 5), class = "rlib_error_dots_nonempty")
++-  expect_error(slice_sample(dt, 5), class = "rlib_error_dots_nonempty")
++-
++-  expect_error(slice_min(dt), "missing")
++-  expect_error(slice_max(dt), "missing")
+++
+++  expect_snapshot(error = TRUE, {
+++    slice_head(dt, 5)
+++    slice_tail(dt, 5)
+++    slice_min(dt, x, 5)
+++    slice_max(dt, x, 5)
+++    slice_sample(dt, 5)
+++  })
+++
+++  expect_snapshot(error = TRUE, {
+++    slice_min(dt)
+++    slice_max(dt)
+++  })
++ })
++ 
++ test_that("slice_*() checks for constant n= and prop=", {
++-- 
++2.39.2
++
+diff -Nru r-cran-dtplyr-1.2.2/debian/patches/series r-cran-dtplyr-1.2.2/debian/patches/series
+--- r-cran-dtplyr-1.2.2/debian/patches/series	1970-01-01 01:00:00.000000000 +0100
++++ r-cran-dtplyr-1.2.2/debian/patches/series	2023-05-08 08:34:58.000000000 +0200
+@@ -0,0 +1 @@
++0001-Use-snapshots-for-errors-that-dplyr-owns-now.patch
+
+From anbe at debian.org  Wed May 10 09:43:30 2023
+From: anbe at debian.org (Andreas Beckmann)
+Date: Wed, 10 May 2023 10:43:30 +0200
+Subject: [R-pkg-team] Bug#1035855: r-cran-pander: broken symlink:
+ /usr/lib/R/site-library/pander/includes/javascripts/jquery-1.7.2.min.js ->
+ ../../../../../../share/nodejs/jquery-ui/ui/jquery-1-7.min.js
+Message-ID: <168370821007.933102.9214705327817259061.reportbug@zam504.zam.kfa-juelich.de>
+
+Package: r-cran-pander
+Version: 0.6.5+dfsg-2
+Severity: serious
+User: debian-qa at lists.debian.org
+Usertags: piuparts
+
+Hi,
+
+during a test with piuparts I noticed your package ships (or creates)
+a broken symlink.
+
+1m40.9s ERROR: FAIL: Broken symlinks:
+  /usr/lib/R/site-library/pander/includes/javascripts/jquery-1.7.2.min.js -> ../../../../../../share/nodejs/jquery-ui/ui/jquery-1-7.min.js (r-cran-pander)
+
+
+The targeted file is no longer shipped by node-jquery-ui.
+
+
+cheers,
+
+Andreas
+
+
+From noreply at release.debian.org  Fri May 12 05:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-logcondens is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYc-00FjOh-Bq@respighi.debian.org>
+
+r-cran-logcondens 2.1.7-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:07 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-haplo.stats is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYd-00FjPR-Hz@respighi.debian.org>
+
+r-cran-haplo.stats 1.9.3-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-kernelheaping is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYc-00FjOo-MT@respighi.debian.org>
+
+r-cran-kernelheaping 2.3.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:07 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-heatmaply is marked for autoremoval from testing
+Message-ID: <E1pxKYd-00FjPN-CS@respighi.debian.org>
+
+r-cran-heatmaply 1.4.2+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:05 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-mixtools is marked for autoremoval from testing
+Message-ID: <E1pxKYb-00FjOI-Hb@respighi.debian.org>
+
+r-cran-mixtools 2.0.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-htmlwidgets is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYc-00FjOx-Rs@respighi.debian.org>
+
+r-cran-htmlwidgets 1.6.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-ks is marked for autoremoval from testing
+Message-ID: <E1pxKYc-00FjOl-HB@respighi.debian.org>
+
+r-cran-ks 1.14.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:07 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:07 +0000
+Subject: [R-pkg-team] r-cran-gprofiler2 is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYd-00FjPY-Sf@respighi.debian.org>
+
+r-cran-gprofiler2 0.2.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:08 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-ggvis is marked for autoremoval from testing
+Message-ID: <E1pxKYe-00FjPb-20@respighi.debian.org>
+
+r-cran-ggvis 0.4.7+dfsg-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:05 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-miniui is marked for autoremoval from testing
+Message-ID: <E1pxKYb-00FjOL-Mx@respighi.debian.org>
+
+r-cran-miniui 0.1.1.1-3 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:08 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-factoextra is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYe-00FjPy-Nl@respighi.debian.org>
+
+r-cran-factoextra 1.0.7-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:08 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-factominer is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYe-00FjPu-IK@respighi.debian.org>
+
+r-cran-factominer 2.7-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-cran-maotai is marked for autoremoval from testing
+Message-ID: <E1pxKYc-00FjOS-1G@respighi.debian.org>
+
+r-cran-maotai 0.2.4-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:09 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-dygraphs is marked for autoremoval from testing
+Message-ID: <E1pxKYf-00FjQ8-90@respighi.debian.org>
+
+r-cran-dygraphs 1.1.1.6+dfsg-4 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:09 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-devtools is marked for autoremoval from testing
+Message-ID: <E1pxKYf-00FjQG-K0@respighi.debian.org>
+
+r-cran-devtools 2.4.5-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:05 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-mertools is marked for autoremoval from testing
+Message-ID: <E1pxKYb-00FjOO-SF@respighi.debian.org>
+
+r-cran-mertools 0.5.2-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:09 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-dt is marked for autoremoval from testing
+Message-ID: <E1pxKYf-00FjQC-El@respighi.debian.org>
+
+r-cran-dt 0.27+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:09 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-colourpicker is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYf-00FjQO-UW@respighi.debian.org>
+
+r-cran-colourpicker 1.2.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:10 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-bookdown is marked for autoremoval from testing
+Message-ID: <E1pxKYg-00FjQV-8l@respighi.debian.org>
+
+r-cran-bookdown 0.32+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:10 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-bioc-tximeta is marked for autoremoval from testing
+Message-ID: <E1pxKYg-00FjQj-Oa@respighi.debian.org>
+
+r-bioc-tximeta 1.16.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:08 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-formattable is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYe-00FjPk-7Q@respighi.debian.org>
+
+r-cran-formattable 0.2.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:10 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-bioc-scrnaseq is marked for autoremoval from testing
+Message-ID: <E1pxKYg-00FjQm-Tq@respighi.debian.org>
+
+r-bioc-scrnaseq 2.12.0+ds-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:08 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-flextable is marked for autoremoval from testing
+Message-ID: <E1pxKYe-00FjPq-Cz@respighi.debian.org>
+
+r-cran-flextable 0.8.4-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:11 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-bioc-netsam is marked for autoremoval from testing
+Message-ID: <E1pxKYh-00FjQp-2p@respighi.debian.org>
+
+r-bioc-netsam 1.38.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:11 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-bioc-gviz is marked for autoremoval from testing
+Message-ID: <E1pxKYh-00FjR8-Nq@respighi.debian.org>
+
+r-bioc-gviz 1.42.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:09 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-emayili is marked for autoremoval from testing
+Message-ID: <E1pxKYf-00FjQ5-3j@respighi.debian.org>
+
+r-cran-emayili 0.7.13-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:11 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-bioc-isoformswitchanalyzer is marked for autoremoval
+ from testing
+Message-ID: <E1pxKYh-00FjQu-82@respighi.debian.org>
+
+r-bioc-isoformswitchanalyzer 1.20.0+ds-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:08 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-epir is marked for autoremoval from testing
+Message-ID: <E1pxKYe-00FjQ1-UX@respighi.debian.org>
+
+r-cran-epir 2.0.57+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:11 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-bioc-ggbio is marked for autoremoval from testing
+Message-ID: <E1pxKYh-00FjRD-T3@respighi.debian.org>
+
+r-bioc-ggbio 1.46.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:11 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-bioc-interactivedisplaybase is marked for
+ autoremoval from testing
+Message-ID: <E1pxKYh-00FjR5-IZ@respighi.debian.org>
+
+r-bioc-interactivedisplaybase 1.36.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:09 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-crosstalk is marked for autoremoval from testing
+Message-ID: <E1pxKYf-00FjQK-PI@respighi.debian.org>
+
+r-cran-crosstalk 1.2.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:12 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-fmcsr is marked for autoremoval from testing
+Message-ID: <E1pxKYi-00FjRH-21@respighi.debian.org>
+
+r-bioc-fmcsr 1.40.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:12 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-experimenthub is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYi-00FjRL-7F@respighi.debian.org>
+
+r-bioc-experimenthub 2.6.0+ds-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:12 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-eir is marked for autoremoval from testing
+Message-ID: <E1pxKYi-00FjRa-Ci@respighi.debian.org>
+
+r-bioc-eir 1.38.0+ds-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:12 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-demixt is marked for autoremoval from testing
+Message-ID: <E1pxKYi-00FjRn-Hz@respighi.debian.org>
+
+r-bioc-demixt 1.14.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:10 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-brms is marked for autoremoval from testing
+Message-ID: <E1pxKYg-00FjQR-3V@respighi.debian.org>
+
+r-cran-brms 2.18.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:10 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-adephylo is marked for autoremoval from testing
+Message-ID: <E1pxKYg-00FjQb-E3@respighi.debian.org>
+
+r-cran-adephylo 1.1-13-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:10 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-adegenet is marked for autoremoval from testing
+Message-ID: <E1pxKYg-00FjQf-JL@respighi.debian.org>
+
+r-cran-adegenet 2.1.10-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:12 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-cummerbund is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYi-00FjSF-SY@respighi.debian.org>
+
+r-bioc-cummerbund 2.40.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:13 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-biovizbase is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYj-00FjSh-73@respighi.debian.org>
+
+r-bioc-biovizbase 1.46.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:11 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-bioc-ioniser is marked for autoremoval from testing
+Message-ID: <E1pxKYh-00FjQx-DK@respighi.debian.org>
+
+r-bioc-ioniser 2.22.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:13 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-annotationhub is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYj-00FjTD-Hf@respighi.debian.org>
+
+r-bioc-annotationhub 3.6.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:14 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-tidyverse is marked for autoremoval from testing
+Message-ID: <E1pxKYk-00FjUO-Md@respighi.debian.org>
+
+r-cran-tidyverse 1.3.2+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:14 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-threejs is marked for autoremoval from testing
+Message-ID: <E1pxKYk-00FjUH-HC@respighi.debian.org>
+
+r-cran-threejs 0.3.3+dfsg-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:15 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-wgcna is marked for autoremoval from testing
+Message-ID: <E1pxKYl-00FjUj-Br@respighi.debian.org>
+
+r-cran-wgcna 1.72-1-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:12 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-degnorm is marked for autoremoval from testing
+Message-ID: <E1pxKYi-00FjS1-NE@respighi.debian.org>
+
+r-bioc-degnorm 1.8.2+ds-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:15 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-wikitaxa is marked for autoremoval from testing
+Message-ID: <E1pxKYl-00FjUu-MS@respighi.debian.org>
+
+r-cran-wikitaxa 0.4.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:15 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:15 +0000
+Subject: [R-pkg-team] r-other-curvefdp is marked for autoremoval from testing
+Message-ID: <E1pxKYl-00FjV0-Rj@respighi.debian.org>
+
+r-other-curvefdp 2.0-6 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:16 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:16 +0000
+Subject: [R-pkg-team] r-other-disgenet2r is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYm-00FjV6-0k@respighi.debian.org>
+
+r-other-disgenet2r 0.99.2+git20230223.f2214db+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:13 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-chemminer is marked for autoremoval from testing
+Message-ID: <E1pxKYj-00FjSU-1h@respighi.debian.org>
+
+r-bioc-chemminer 3.50.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:13 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-biocstyle is marked for autoremoval from testing
+Message-ID: <E1pxKYj-00FjSy-CL@respighi.debian.org>
+
+r-bioc-biocstyle 2.26.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:16 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-shinythemes is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYm-00FjVM-MG@respighi.debian.org>
+
+r-cran-shinythemes 1.2.0+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:16 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-taxize is marked for autoremoval from testing
+Message-ID: <E1pxKYm-00FjVF-Bi@respighi.debian.org>
+
+r-cran-taxize 0.9.100-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:17 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-shinystan is marked for autoremoval from testing
+Message-ID: <E1pxKYn-00FjVV-1A@respighi.debian.org>
+
+r-cran-shinystan 2.6.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:17 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-shinyjs is marked for autoremoval from testing
+Message-ID: <E1pxKYn-00FjVd-CX@respighi.debian.org>
+
+r-cran-shinyjs 2.1.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:17 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-shinyfiles is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYn-00FjVh-MY@respighi.debian.org>
+
+r-cran-shinyfiles 0.9.3-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:18 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:18 +0000
+Subject: [R-pkg-team] r-cran-shinydashboard is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYo-00FjVz-6E@respighi.debian.org>
+
+r-cran-shinydashboard 0.7.2-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:15 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-treespace is marked for autoremoval from testing
+Message-ID: <E1pxKYl-00FjUW-12@respighi.debian.org>
+
+r-cran-treespace 1.1.4.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:19 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-shiny is marked for autoremoval from testing
+Message-ID: <E1pxKYp-00FjWQ-5o@respighi.debian.org>
+
+r-cran-shiny 1.7.4+dfsg-2 is marked for autoremoval from testing on 2023-06-16
+
+It is affected by these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:19 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-shinybs is marked for autoremoval from testing
+Message-ID: <E1pxKYp-00FjWM-0U@respighi.debian.org>
+
+r-cran-shinybs 0.61.1-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:14 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-treescape is marked for autoremoval from testing
+Message-ID: <E1pxKYk-00FjUS-Ry@respighi.debian.org>
+
+r-cran-treescape 1.10.18+dfsg-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:19 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-scatterd3 is marked for autoremoval from testing
+Message-ID: <E1pxKYp-00FjWj-RP@respighi.debian.org>
+
+r-cran-scatterd3 1.0.1+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:15 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-wikidatar is marked for autoremoval from testing
+Message-ID: <E1pxKYl-00FjUp-H8@respighi.debian.org>
+
+r-cran-wikidatar 2.3.3-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:20 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-samr is marked for autoremoval from testing
+Message-ID: <E1pxKYq-00FjWo-0U@respighi.debian.org>
+
+r-cran-samr 3.0-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:19 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-semplot is marked for autoremoval from testing
+Message-ID: <E1pxKYp-00FjWe-M5@respighi.debian.org>
+
+r-cran-semplot 1.1.6-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:15 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-tufte is marked for autoremoval from testing
+Message-ID: <E1pxKYl-00FjUd-6V@respighi.debian.org>
+
+r-cran-tufte 0.12-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:20 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-rstanarm is marked for autoremoval from testing
+Message-ID: <E1pxKYq-00FjWr-5q@respighi.debian.org>
+
+r-cran-rstanarm 2.21.3-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:16 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-sparr is marked for autoremoval from testing
+Message-ID: <E1pxKYm-00FjVI-Gy@respighi.debian.org>
+
+r-cran-sparr 2.2-17-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:20 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-riskregression is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYq-00FjXJ-Rl@respighi.debian.org>
+
+r-cran-riskregression 2022.11.28+ds-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:20 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-rmarkdown is marked for autoremoval from testing
+Message-ID: <E1pxKYq-00FjX3-GU@respighi.debian.org>
+
+r-cran-rmarkdown 2.20+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:16 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-statcheck is marked for autoremoval from testing
+Message-ID: <E1pxKYm-00FjVQ-Ra@respighi.debian.org>
+
+r-cran-statcheck 1.4.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:20 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing
+Message-ID: <E1pxKYq-00FjX9-MN@respighi.debian.org>
+
+r-cran-rlumshiny 0.2.3-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:21 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-rhandsontable is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYr-00FjXN-0x@respighi.debian.org>
+
+r-cran-rhandsontable 0.3.8+dfsg-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:21 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-relsurv is marked for autoremoval from testing
+Message-ID: <E1pxKYr-00FjXZ-HS@respighi.debian.org>
+
+r-cran-relsurv 2.2-9-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:18 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:18 +0000
+Subject: [R-pkg-team] r-cran-shinycssloaders is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYo-00FjWH-RO@respighi.debian.org>
+
+r-cran-shinycssloaders 1.0.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:19 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-shapes is marked for autoremoval from testing
+Message-ID: <E1pxKYp-00FjWV-BL@respighi.debian.org>
+
+r-cran-shapes 1.2.7-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:19 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:19 +0000
+Subject: [R-pkg-team] r-cran-seurat is marked for autoremoval from testing
+Message-ID: <E1pxKYp-00FjWb-Gm@respighi.debian.org>
+
+r-cran-seurat 4.3.0-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:23 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-pec is marked for autoremoval from testing
+Message-ID: <E1pxKYt-00FjY8-1d@respighi.debian.org>
+
+r-cran-pec 2022.05.04-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:22 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-pkgdown is marked for autoremoval from testing
+Message-ID: <E1pxKYs-00FjY5-SW@respighi.debian.org>
+
+r-cran-pkgdown 2.0.7-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:23 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-pammtools is marked for autoremoval from testing
+Message-ID: <E1pxKYt-00FjYB-7V@respighi.debian.org>
+
+r-cran-pammtools 0.5.8-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:23 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-multidimbio is marked for autoremoval from
+ testing
+Message-ID: <E1pxKYt-00FjYF-D8@respighi.debian.org>
+
+r-cran-multidimbio 1.2.2-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:21 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-rglwidget is marked for autoremoval from testing
+Message-ID: <E1pxKYr-00FjXR-6d@respighi.debian.org>
+
+r-cran-rglwidget 0.2.1-4 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:21 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-reprex is marked for autoremoval from testing
+Message-ID: <E1pxKYr-00FjXV-By@respighi.debian.org>
+
+r-cran-reprex 2.0.2-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:22 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-qgraph is marked for autoremoval from testing
+Message-ID: <E1pxKYs-00FjXm-1Z@respighi.debian.org>
+
+r-cran-qgraph 1.9.3-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:21 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-randomglm is marked for autoremoval from testing
+Message-ID: <E1pxKYr-00FjXi-SJ@respighi.debian.org>
+
+r-cran-randomglm 1.10-1-1 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:22 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-prophet is marked for autoremoval from testing
+Message-ID: <E1pxKYs-00FjXr-6v@respighi.debian.org>
+
+r-cran-prophet 1.0+dfsg-4 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:22 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-plot3d is marked for autoremoval from testing
+Message-ID: <E1pxKYs-00FjY2-NB@respighi.debian.org>
+
+r-cran-plot3d 1.4-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:22 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-profvis is marked for autoremoval from testing
+Message-ID: <E1pxKYs-00FjXv-CF@respighi.debian.org>
+
+r-cran-profvis 0.3.7+dfsg-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri May 12 05:39:22 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 12 May 2023 04:39:22 +0000
+Subject: [R-pkg-team] r-cran-plotly is marked for autoremoval from testing
+Message-ID: <E1pxKYs-00FjXz-HY@respighi.debian.org>
+
+r-cran-plotly 4.10.1+dfsg-2 is marked for autoremoval from testing on 2023-06-16
+
+It (build-)depends on packages with these RC bugs:
+1035428: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+ https://bugs.debian.org/1035428
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From ftpmaster at ftp-master.debian.org  Mon May 15 10:19:28 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 15 May 2023 09:19:28 +0000
+Subject: [R-pkg-team] Processing of r-cran-shiny_1.7.4+dfsg-3_source.changes
+Message-ID: <E1pyUMa-001qnj-2Z@usper.debian.org>
+
+r-cran-shiny_1.7.4+dfsg-3_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-shiny_1.7.4+dfsg-3.dsc
+  r-cran-shiny_1.7.4+dfsg-3.debian.tar.xz
+  r-cran-shiny_1.7.4+dfsg-3_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon May 15 10:33:50 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 15 May 2023 09:33:50 +0000
+Subject: [R-pkg-team] r-cran-shiny_1.7.4+dfsg-3_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1pyUaU-007Bqc-Mh@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 15 May 2023 10:50:45 +0200
+Source: r-cran-shiny
+Architecture: source
+Version: 1.7.4+dfsg-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 1035428
+Changes:
+ r-cran-shiny (1.7.4+dfsg-3) unstable; urgency=medium
+ .
+   * Fix link for normalize.css
+     Closes: #1035428
+Checksums-Sha1:
+ ab004d988c23de09a5ce16a95a0328d162c2946a 2753 r-cran-shiny_1.7.4+dfsg-3.dsc
+ a57e372382c82812149bf73d89af00f5c16ac952 139964 r-cran-shiny_1.7.4+dfsg-3.debian.tar.xz
+ 431934b0b338e1edfebecb10870ae8503619d48a 12932 r-cran-shiny_1.7.4+dfsg-3_amd64.buildinfo
+Checksums-Sha256:
+ 217676904b33a771f688a12d058d7e5048bd5f009463b0add8a57893fd3e564b 2753 r-cran-shiny_1.7.4+dfsg-3.dsc
+ 5ee4edfd775550205029fccedeb0ccdd8a4d5f9e3cdd5832ee90910f947fc27e 139964 r-cran-shiny_1.7.4+dfsg-3.debian.tar.xz
+ 34dc6d1ce97d3a47920716915ffbe1e0296952f27b5f72bd884e761daf7dc7d9 12932 r-cran-shiny_1.7.4+dfsg-3_amd64.buildinfo
+Files:
+ 9b04fe0179dd51716e9267245261c0fe 2753 gnu-r optional r-cran-shiny_1.7.4+dfsg-3.dsc
+ a20d7ca33e9e5532bfbf04a3eb9b70e5 139964 gnu-r optional r-cran-shiny_1.7.4+dfsg-3.debian.tar.xz
+ 08f7a15a4ad2ab11c8ca6bec9b303cfb 12932 gnu-r optional r-cran-shiny_1.7.4+dfsg-3_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmRh9dgRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtF6sw/8Dd3e+qIa88T73KvEA0ZdfXXK7c993mIz
+/gw0/xy3qHCc+X4RdcQgfxEs5UbSL7bpoktRHiyd0vQpbTIn7Gk67x7zljDkRAKK
+ATzCJ4uKELwe40XgTLN1iyaF+zPIx3h0712/OmrPew87fk4OJJM3NjcQx98Mc7cI
+l88PQVXOBB8tZrqd8flQt1jbDrMgb/qoVtFJnu/qJxDeldNm9xFyih/LHahqIOvb
+0TNepNw98HMHxlhFL83y6X7vcYp1gor094B2yqYctYAyiLvdjsRZyLqBKJlxUZbV
+jpTUs/H6z+keOaruq0riZCZhi3/xInik2qT+CvCbBSzuINNnOPhsinVMtIFHHSAM
+B8OD3eu/+WKW7LTIFCSmxRX2jVEVMegVLY+l097F922WlabZXBuQ8hGwEkJq4Hmh
+PaMpqmFyPyvZguO3cw5P21nUpDCdMOS3390qu2iml96XHR8GaCDafvNy8J7CPYEH
+W6UHls0xZjklnhOTdJq5awRu51SQhBhkOkJX6CO3jbEZ+SlqGV17j1PEhaRKcQJ3
+Ox53l1Brv7dNSL/KV2u+4pPG9D/Z68xS7Rr+YJm5glCydnvLW9mb4caBrPP8q32t
+MAK/k+vBl68JZkNk1SO1ygxh9BQeELaFtrRDirkp3O9NeOj4qK0xSPqeSpoNwqLS
+Poxsb2aMdTw=
+=W5P7
+-----END PGP SIGNATURE-----
+
+
+
+From owner at bugs.debian.org  Mon May 15 10:36:05 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 15 May 2023 09:36:05 +0000
+Subject: [R-pkg-team] Bug#1035428: marked as done (r-cran-shiny: broken
+ symlink:
+ /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css
+ -> ../../../../../../../nodejs/normalize.css/normalize.css)
+References: <E1pyUaU-007Bqm-Om@fasolo.debian.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <handler.1035428.D1035428.16841432351171539.ackdone@bugs.debian.org>
+
+Your message dated Mon, 15 May 2023 09:33:50 +0000
+with message-id <E1pyUaU-007Bqm-Om at fasolo.debian.org>
+and subject line Bug#1035428: fixed in r-cran-shiny 1.7.4+dfsg-3
+has caused the Debian Bug report #1035428,
+regarding r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1035428: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1035428
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+Date: Wed, 03 May 2023 11:46:27 +0200
+Size: 2915
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230515/ba43c3bf/attachment.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#1035428: fixed in r-cran-shiny 1.7.4+dfsg-3
+Date: Mon, 15 May 2023 09:33:50 +0000
+Size: 6445
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230515/ba43c3bf/attachment-0001.eml>
+
+From andreas at an3as.eu  Tue May 16 14:01:10 2023
+From: andreas at an3as.eu (Andreas Tille)
+Date: Tue, 16 May 2023 15:01:10 +0200
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+References: <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+
+Hi,
+
+when fixing bug #1035428 I realised test suite issues with
+
+  r-cran-thematic [1]
+   -> Error in `svglite_(filename, bg, width, height, pointsize, standalone, 
+      always_valid)`: Graphics API version mismatch
+
+  r-cran-treescape [2]
+  r-cran-treespace [3]
+   -> error is given if lambda is outside of [0,1] ---
+      `medTree(trees, -1)` did not throw an error.
+
+As far as I can guess at least the first type of error (Graphics API
+version mismatch) is caused by the fact that a new upstream version of
+r-base (4.3.0-1) was uploaded to unstable (changelog[4] says to
+experimental so it seems by accident).
+
+I wonder what might be the most sensible strategy to fix this.  Since
+an epoch is considered ugly I've seen some kind of
+    4.3.0+really+4.2.2.20221110
+version number.  However, in case of R it might not be the best idea
+to use this kind of fake version in a stable release.
+
+Kind regards
+    Andreas.
+
+[1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+[2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+[3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+[4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+
+-- 
+http://fam-tille.de
+
+
+From edd at debian.org  Tue May 16 14:26:21 2023
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Tue, 16 May 2023 08:26:21 -0500
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <25699.33917.528310.687221@rob.eddelbuettel.com>
+
+
+On 16 May 2023 at 15:01, Andreas Tille wrote:
+| Hi,
+| 
+| when fixing bug #1035428 I realised test suite issues with
+| 
+|   r-cran-thematic [1]
+|    -> Error in `svglite_(filename, bg, width, height, pointsize, standalone, 
+|       always_valid)`: Graphics API version mismatch
+| 
+|   r-cran-treescape [2]
+|   r-cran-treespace [3]
+|    -> error is given if lambda is outside of [0,1] ---
+|       `medTree(trees, -1)` did not throw an error.
+| 
+| As far as I can guess at least the first type of error (Graphics API
+| version mismatch) is caused by the fact that a new upstream version of
+| r-base (4.3.0-1) was uploaded to unstable (changelog[4] says to
+| experimental so it seems by accident).
+
+Yes. It was very much by accident, and my bad.
+
+When the freeze hardened and I switched uploading from unstable to
+experimental (on March 15 per my mail folder of installer replies, and
+coincidentally with the R 4.2.3-1 upload), I managed to update the
+distribution field (often using 'C-x d' in the handy Emacs mode) in the
+debian/changelog file each and every time --- with the one exception of
+the next update of r-base to the 4.3.0 release :-/
+ 
+| I wonder what might be the most sensible strategy to fix this.  Since
+| an epoch is considered ugly I've seen some kind of
+|     4.3.0+really+4.2.2.20221110
+| version number.  However, in case of R it might not be the best idea
+| to use this kind of fake version in a stable release.
+
+I think we shouldn't. Apart from this test issue, the binary sits in unstable
+and will remain in unstable.
+
+The change is graphics format is a repeat of previous micro-API changes from
+upstream where Paul Murrell (who is the one taking care of the graphics
+device) enhances its capabilities (often in quite meaningful ways).  The R
+Core team does not consider this a breaking change, and does recommend or
+mandate rebuilds of the nearly 20k CRAN packages. I happen to concur.
+
+However, when a package built with such a graphics api version 'A' is loaded
+by R of version 'B' (and it usually happens to us the other way) the package
+load simply errors out with a message.  This is not fatal -- it is just a
+hint to rebuild the package under the R version used.  I have always been of
+the pragmatic view that is indeed good enough. (Johannes of the back-porters
+team disagrees, he reminded me of a simple search for the one code line doing
+the check. Running that at the GitHub mirror of CRAN (which is a superset as
+it includes packages that once were on CRAN but are no longer) I identified
+ten packages of which about half or more are no longer on CRAN.  For us it is
+likely `ragg` and `svglite`. I can dig out the details from my reply to
+Johannes.)
+
+Note that none of this affects the release. My recommendation is temporarily
+suspend the autopkgtest in those affected packages.  They did their job and
+found the mismatch with the R 4.3.0 in unstable that shouldn't have been
+uploaded there. Out the about fifty package uploads I made since I switched
+to experimental, one went to wrong repo. That was not intentional but I think
+we can manage.
+
+Best, Dirk
+
+-- 
+dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From nilesh at nileshpatra.info  Tue May 16 14:55:15 2023
+From: nilesh at nileshpatra.info (Nilesh Patra)
+Date: Tue, 16 May 2023 19:25:15 +0530
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+
+Hi
+
+On Tue, May 16, 2023 at 03:01:10PM +0200, Andreas Tille wrote:
+> when fixing bug #1035428 I realised test suite issues with
+> 
+>   r-cran-thematic [1]
+>    -> Error in `svglite_(filename, bg, width, height, pointsize, standalone, 
+>       always_valid)`: Graphics API version mismatch
+> 
+>   r-cran-treescape [2]
+>   r-cran-treespace [3]
+>    -> error is given if lambda is outside of [0,1] ---
+>       `medTree(trees, -1)` did not throw an error.
+> 
+> As far as I can guess at least the first type of error (Graphics API
+> version mismatch) is caused by the fact that a new upstream version of
+> r-base (4.3.0-1) was uploaded to unstable (changelog[4] says to
+> experimental so it seems by accident).
+
+I can think of two ways:
+
+1. r-cran-shiny is an arch:all package, so the package itself being
+built against r-base 4.3.0 is not an issue. The issue is the
+"r-base-core (>= 4.3.0-1)" that dh-r injects, which is being pulled in
+the autopkgtests of its reverse-depends.
+Changing that to "r-base-core (>= 4.2.2.20221110-2)" manually should do
+the trick.
+
+Something on the lines of:
+
+override_dh_gencontrol:
+	dh_gencontrol
+	sed "s/r-base-core (>= 4.3.0-1)/r-base-core (>= 4.2.2.20221110-2)" -i debian/r-cran-shiny/DEBIAN/control
+
+Ofcourse, the hard-coding of 4.3.0-1 can be converted to some better
+regular expression.
+
+2. It makes a valid and strong case to use t-p-u (see here[5])
+for such an upload, as it isn't a possibility to build against R in
+testing.
+You might want to ask release team about it, by filing a bug for
+release.d.o pseudo-package and/or asking in #debian-release on OFTC.
+
+I personally prefer "1" over 2 as it is less noise (and effort).
+
+Let me know what you think.
+
+> [1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+> [2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+> [3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+> [4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+[5] https://wiki.debian.org/TestingProposedUpdates
+
+-- 
+Best,
+Nilesh
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/06437dcd/attachment.sig>
+
+From nilesh at debian.org  Tue May 16 14:57:48 2023
+From: nilesh at debian.org (Nilesh Patra)
+Date: Tue, 16 May 2023 19:27:48 +0530
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <25699.33917.528310.687221@rob.eddelbuettel.com>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <25699.33917.528310.687221@rob.eddelbuettel.com>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <20230516135748.4hiayvoxjhiqybyu@office.mailbox.org>
+
+On Tue, May 16, 2023 at 08:26:21AM -0500, Dirk Eddelbuettel wrote:
+> Note that none of this affects the release. My recommendation is temporarily
+> suspend the autopkgtest in those affected packages. 
+
+No, don't do that as they indicate a new r-base being pulled as one of
+the dependencies (which would be incorrect for a package). In this case,
+r-cran-shiny has a hard-dependency on r-base.
+
+Once that is fixed, rest of the things should be sorted out.
+
+-- 
+Best,
+Nilesh
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/05871cac/attachment.sig>
+
+From edd at debian.org  Tue May 16 15:10:37 2023
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Tue, 16 May 2023 09:10:37 -0500
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <25699.36573.457919.257680@rob.eddelbuettel.com>
+
+
+On 16 May 2023 at 19:25, Nilesh Patra wrote:
+| On Tue, May 16, 2023 at 03:01:10PM +0200, Andreas Tille wrote:
+| > when fixing bug #1035428 I realised test suite issues with
+| > 
+| >   r-cran-thematic [1]
+| >    -> Error in `svglite_(filename, bg, width, height, pointsize, standalone, 
+| >       always_valid)`: Graphics API version mismatch
+| > 
+| >   r-cran-treescape [2]
+| >   r-cran-treespace [3]
+| >    -> error is given if lambda is outside of [0,1] ---
+| >       `medTree(trees, -1)` did not throw an error.
+| > 
+| > As far as I can guess at least the first type of error (Graphics API
+| > version mismatch) is caused by the fact that a new upstream version of
+| > r-base (4.3.0-1) was uploaded to unstable (changelog[4] says to
+| > experimental so it seems by accident).
+| 
+| I can think of two ways:
+| 
+| 1. r-cran-shiny is an arch:all package, so the package itself being
+| built against r-base 4.3.0 is not an issue. The issue is the
+| "r-base-core (>= 4.3.0-1)" that dh-r injects, which is being pulled in
+| the autopkgtests of its reverse-depends.
+| Changing that to "r-base-core (>= 4.2.2.20221110-2)" manually should do
+| the trick.
+| 
+| Something on the lines of:
+| 
+| override_dh_gencontrol:
+| 	dh_gencontrol
+| 	sed "s/r-base-core (>= 4.3.0-1)/r-base-core (>= 4.2.2.20221110-2)" -i debian/r-cran-shiny/DEBIAN/control
+|
+| Ofcourse, the hard-coding of 4.3.0-1 can be converted to some better
+| regular expression.
+
+Nice catch and suggestion!  
+
+On 16 May 2023 at 19:27, Nilesh Patra wrote:
+| On Tue, May 16, 2023 at 08:26:21AM -0500, Dirk Eddelbuettel wrote:
+| > Note that none of this affects the release. My recommendation is temporarily
+| > suspend the autopkgtest in those affected packages. 
+| 
+| No, don't do that as they indicate a new r-base being pulled as one of
+| the dependencies (which would be incorrect for a package). In this case,
+| r-cran-shiny has a hard-dependency on r-base.
+| 
+| Once that is fixed, rest of the things should be sorted out.
+
+I agree.  Thanks for pointing that out.
+
+Dirk
+
+-- 
+dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From nilesh at nileshpatra.info  Tue May 16 15:19:55 2023
+From: nilesh at nileshpatra.info (Nilesh Patra)
+Date: Tue, 16 May 2023 19:49:55 +0530
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+
+On Tue, May 16, 2023 at 07:25:15PM +0530, Nilesh Patra wrote:
+> I personally prefer "1" over 2 as it is less noise (and effort).
+
+On second thoughts, I think sending it via testing-proposed-updates
+would be a better thing to do, as this case perfectly fits the problem.
+
+It's be same effort in both cases (one upload + filing a bug with release team).
+
+> Let me know what you think.
+
+> > [1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+> > [2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+> > [3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+> > [4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+> [5] https://wiki.debian.org/TestingProposedUpdates
+
+-- 
+Best,
+Nilesh
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/bfca33e9/attachment.sig>
+
+From edd at debian.org  Tue May 16 15:31:20 2023
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Tue, 16 May 2023 09:31:20 -0500
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <25699.37816.667475.836327@rob.eddelbuettel.com>
+
+
+On 16 May 2023 at 19:49, Nilesh Patra wrote:
+| On Tue, May 16, 2023 at 07:25:15PM +0530, Nilesh Patra wrote:
+| > I personally prefer "1" over 2 as it is less noise (and effort).
+| 
+| On second thoughts, I think sending it via testing-proposed-updates
+| would be a better thing to do, as this case perfectly fits the problem.
+| 
+| It's be same effort in both cases (one upload + filing a bug with release team).
+
+Reading 'https://wiki.debian.org/TestingProposedUpdates' does indeed suggest
+that this may be one of those situations.  I can easily prepare a 4.3.0-2
+with that destination but would prefer if someone from the release could
+'nod', maybe in reply to this email.
+
+Dirk
+
+-- 
+dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From tille at debian.org  Tue May 16 15:31:37 2023
+From: tille at debian.org (Andreas Tille)
+Date: Tue, 16 May 2023 16:31:37 +0200
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <ZGOTyXzdrgmtcB+q@an3as.eu>
+
+Am Tue, May 16, 2023 at 07:49:55PM +0530 schrieb Nilesh Patra:
+> On Tue, May 16, 2023 at 07:25:15PM +0530, Nilesh Patra wrote:
+> > I personally prefer "1" over 2 as it is less noise (and effort).
+> 
+> On second thoughts, I think sending it via testing-proposed-updates
+> would be a better thing to do, as this case perfectly fits the problem.
+
+Seems to be an appropriate solution - given we should stick to smallest
+changes in packaging if possible.
+ 
+> It's be same effort in both cases (one upload + filing a bug with release team).
+
+Since I will not manage to do so in the next 16 hours I'd be happy if
+someone might beat me in doing so.  Otherwise I can catch up tomorrow.
+
+Thanks a lot for your hint
+   Andreas.
+ 
+> > Let me know what you think.
+> 
+> > > [1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+> > > [2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+> > > [3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+> > > [4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+> > [5] https://wiki.debian.org/TestingProposedUpdates
+> 
+> -- 
+> Best,
+> Nilesh
+
+
+
+-- 
+http://fam-tille.de
+
+
+From nilesh at nileshpatra.info  Tue May 16 15:43:50 2023
+From: nilesh at nileshpatra.info (Nilesh Patra)
+Date: Tue, 16 May 2023 20:13:50 +0530
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <25699.37816.667475.836327@rob.eddelbuettel.com>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <25699.37816.667475.836327@rob.eddelbuettel.com>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <20230516144350.bawgf6nm2cup564s@office.mailbox.org>
+
+On Tue, May 16, 2023 at 09:31:20AM -0500, Dirk Eddelbuettel wrote:
+> 
+> On 16 May 2023 at 19:49, Nilesh Patra wrote:
+> | On Tue, May 16, 2023 at 07:25:15PM +0530, Nilesh Patra wrote:
+> | > I personally prefer "1" over 2 as it is less noise (and effort).
+> | 
+> | On second thoughts, I think sending it via testing-proposed-updates
+> | would be a better thing to do, as this case perfectly fits the problem.
+> | 
+> | It's be same effort in both cases (one upload + filing a bug with release team).
+> 
+> Reading 'https://wiki.debian.org/TestingProposedUpdates' does indeed suggest
+> that this may be one of those situations.  I can easily prepare a 4.3.0-2
+> with that destination but would prefer if someone from the release could
+> 'nod', maybe in reply to this email.
+
+Uh, no. Maybe you misunderstood my suggestion. The t-p-u way was for
+r-cran-shiny not the r-base package.
+This is because r-cran-shiny would want to build against r-base in
+testing (and not unstable).
+
+Uploading a 4.3.0-2 of r-base would mean uploading a new r-base to
+testing without a proper transition and without re-compilation of
+API-incompatible graphics related packages -- that'd be quite the havoc
+in testing (and eventually next stable). It also violates some of the
+rules of t-p-u -- more details here[1] in case
+you are interested.
+
+r-base can continue to stay where it already is at the moment :)
+
+[1]: https://www.debian.org/doc/manuals/developers-reference/pkgs.en.html#t-p-u
+
+-- 
+Best,
+Nilesh
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/80e4dc74/attachment.sig>
+
+From edd at debian.org  Tue May 16 20:56:47 2023
+From: edd at debian.org (Dirk Eddelbuettel)
+Date: Tue, 16 May 2023 14:56:47 -0500
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230516144350.bawgf6nm2cup564s@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <25699.37816.667475.836327@rob.eddelbuettel.com>
+ <20230516144350.bawgf6nm2cup564s@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <25699.57343.463192.188626@rob.eddelbuettel.com>
+
+
+On 16 May 2023 at 20:13, Nilesh Patra wrote:
+| Uh, no. Maybe you misunderstood my suggestion. The t-p-u way was for
+
+Indeed!
+
+| r-base can continue to stay where it already is at the moment :)
+
+Yep.
+
+Dirk
+
+-- 
+dirk.eddelbuettel.com | @eddelbuettel | edd at debian.org
+
+
+From andreas at fam-tille.de  Wed May 17 07:58:58 2023
+From: andreas at fam-tille.de (Andreas Tille)
+Date: Wed, 17 May 2023 08:58:58 +0200
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <ZGR7MpS9xCA9eD1I@an3as.eu>
+
+Hi again,
+
+Am Tue, May 16, 2023 at 07:49:55PM +0530 schrieb Nilesh Patra:
+> On Tue, May 16, 2023 at 07:25:15PM +0530, Nilesh Patra wrote:
+> > I personally prefer "1" over 2 as it is less noise (and effort).
+> 
+> On second thoughts, I think sending it via testing-proposed-updates
+> would be a better thing to do, as this case perfectly fits the problem.
+
+I hope I was following developers reference about t-p-u[6] correctly
+and pushed
+
+$ git diff HEAD^
+diff --git a/debian/changelog b/debian/changelog
+index 21d12c3..a2b6c26 100644
+--- a/debian/changelog
++++ b/debian/changelog
+@@ -1,3 +1,10 @@
++r-cran-shiny (1.7.4+dfsg-3~deb12u1) bookworm; urgency=medium
++
++  * Upload to testing-proposed-updates "bookworm" due to the fact that
++    there was an accidental upload of a new version of r-base to unstable
++
++ -- Andreas Tille <tille at debian.org>  Wed, 17 May 2023 07:56:25 +0200
++
+ r-cran-shiny (1.7.4+dfsg-3) unstable; urgency=medium
+ 
+   * Fix link for normalize.css
+
+
+to git.  I've choosen the version 1.7.4+dfsg-3~deb12u1 to match
+the requirement that the version is lower than in unstable
+
+$ if dpkg --compare-versions 1.7.4+dfsg-3 gt 1.7.4+dfsg-3~deb12u1 ; then echo "OK" ; else echo "hmmm" ; fi
+OK
+
+I wonder whether dput is working with target distribution bookworm since
+lintian  throws an error.  Release team is in CC - do you think I should
+file a bug right now or just after an upload?
+
+Kind regards
+    Andreas. 
+ 
+> > > [1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+> > > [2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+> > > [3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+> > > [4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+> > [5] https://wiki.debian.org/TestingProposedUpdates
+[6] https://www.debian.org/doc/manuals/developers-reference/pkgs.en.html#t-p-u
+
+
+-- 
+http://fam-tille.de
+
+
+From nilesh at nileshpatra.info  Wed May 17 09:37:22 2023
+From: nilesh at nileshpatra.info (Nilesh Patra)
+Date: Wed, 17 May 2023 14:07:22 +0530
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <ZGR7MpS9xCA9eD1I@an3as.eu>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <ZGR7MpS9xCA9eD1I@an3as.eu>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <20230517083722.wnsriouryy7zauqc@office.mailbox.org>
+
+On Wed, May 17, 2023 at 08:58:58AM +0200, Andreas Tille wrote:
+> Am Tue, May 16, 2023 at 07:49:55PM +0530 schrieb Nilesh Patra:
+> > On Tue, May 16, 2023 at 07:25:15PM +0530, Nilesh Patra wrote:
+> > > I personally prefer "1" over 2 as it is less noise (and effort).
+> > 
+> > On second thoughts, I think sending it via testing-proposed-updates
+> > would be a better thing to do, as this case perfectly fits the problem.
+> 
+> I hope I was following developers reference about t-p-u[6] correctly
+> and pushed
+> I've choosen the version 1.7.4+dfsg-3~deb12u1 to match
+> the requirement that the version is lower than in unstable
+
+I guess this should be alright. But as per devref, you may want to choose
+"1.7.4+dfsg-2+deb12u1".
+
+> I wonder whether dput is working with target distribution bookworm since
+> lintian  throws an error. 
+
+It probably should. There's a d/ch entry I found for argon2 package
+here[7] in case that helps you.
+
+> Release team is in CC - do you think I should
+> file a bug right now or just after an upload?
+
+devref says "Ask for authorization for uploading from the release
+managers."
+
+So I suppose it makes sense to file a bug before you upload and ping
+them back again once you upload as per
+
+"After uploading and successful build on all platforms, contact the
+release team at debian-release at lists.debian.org and ask them to approve
+your upload."
+
+> > > > [1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+> > > > [2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+> > > > [3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+> > > > [4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+> > > [5] https://wiki.debian.org/TestingProposedUpdates
+> [6] https://www.debian.org/doc/manuals/developers-reference/pkgs.en.html#t-p-u
+[7] https://tracker.debian.org/news/1429925/accepted-argon2-020171227-03deb12u1-source-into-testing-proposed-updates/
+
+-- 
+Best,
+Nilesh
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/6d7a5497/attachment.sig>
+
+From andreas at fam-tille.de  Wed May 17 10:58:42 2023
+From: andreas at fam-tille.de (Andreas Tille)
+Date: Wed, 17 May 2023 11:58:42 +0200
+Subject: [R-pkg-team] Bug#1035428: Test suite issues due to new upstream
+ version of r-core in unstable (Was: r-cran-shiny: broken symlink: ...)
+In-Reply-To: <20230517083722.wnsriouryy7zauqc@office.mailbox.org>
+References: <ZGN+lnrSK9iOhAPZ@an3as.eu>
+ <20230516135515.l6j5jknrsgxdd6hd@office.mailbox.org>
+ <20230516141955.yl23w3bqr7em4gmh@office.mailbox.org>
+ <ZGR7MpS9xCA9eD1I@an3as.eu>
+ <20230517083722.wnsriouryy7zauqc@office.mailbox.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <ZGSlUomBeyAceBwm@an3as.eu>
+
+Am Wed, May 17, 2023 at 02:07:22PM +0530 schrieb Nilesh Patra:
+> On Wed, May 17, 2023 at 08:58:58AM +0200, Andreas Tille wrote:
+> > I hope I was following developers reference about t-p-u[6] correctly
+> > and pushed
+> > I've choosen the version 1.7.4+dfsg-3~deb12u1 to match
+> > the requirement that the version is lower than in unstable
+> 
+> I guess this should be alright. But as per devref, you may want to choose
+> "1.7.4+dfsg-2+deb12u1".
+
+This was my first consideration.  However, the changes simply fit to
+1.7.4+dfsg-3 and by using the '~' separator the "smaller version than in
+unstable" is fulfilled as well.  I don't mind much actually - just to
+explain my choice.
+ 
+> > I wonder whether dput is working with target distribution bookworm since
+> > lintian  throws an error. 
+> 
+> It probably should. There's a d/ch entry I found for argon2 package
+> here[7] in case that helps you.
+
+Thanks for confirming.
+ 
+> > Release team is in CC - do you think I should
+> > file a bug right now or just after an upload?
+> 
+> devref says "Ask for authorization for uploading from the release
+> managers."
+> 
+> So I suppose it makes sense to file a bug before you upload and ping
+> them back again once you upload as per
+
+Yepp, I'll do so and will ask what they consider the more sensible
+version number.
+ 
+> "After uploading and successful build on all platforms, contact the
+> release team at debian-release at lists.debian.org and ask them to approve
+> your upload."
+
+Will do so.
+
+Kind regards
+   Andreas.
+
+> > > > > [1] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-thematic/33619891/log.gz
+> > > > > [2] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treescape/33619892/log.gz
+> > > > > [3] https://ci.debian.net/data/autopkgtest/testing/amd64/r/r-cran-treespace/33619893/log.gz
+> > > > > [4] https://tracker.debian.org/news/1429562/accepted-r-base-430-1-source-into-unstable/
+> > > > [5] https://wiki.debian.org/TestingProposedUpdates
+> > [6] https://www.debian.org/doc/manuals/developers-reference/pkgs.en.html#t-p-u
+> [7] https://tracker.debian.org/news/1429925/accepted-argon2-020171227-03deb12u1-source-into-testing-proposed-updates/
+> 
+> -- 
+> Best,
+> Nilesh
+
+
+
+-- 
+http://fam-tille.de
+
+
+From tille at debian.org  Wed May 17 18:48:41 2023
+From: tille at debian.org (Andreas Tille)
+Date: Wed, 17 May 2023 19:48:41 +0200
+Subject: [R-pkg-team] Bug#1036227: bookworm-pu: package
+ r-cran-shiny/1.7.4+dfsg-3~deb12u1
+Message-ID: <168434572131.2632552.15530998611359527736.reportbug@energija.fam-tille.de>
+
+Package: release.debian.org
+Severity: normal
+Tags: bookworm
+User: release.debian.org at packages.debian.org
+Usertags: pu
+X-Debbugs-Cc: r-cran-shiny at packages.debian.org, 1035428 at bugs.debian.org, debian-r at lists.debian.org
+Control: affects -1 + src:r-cran-shiny
+
+I'd like to announce an upload to testing-proposed-updates
+
+[ Reason ]
+As discussed on the mailing list debian-release at l.d.o[1] the
+accidental upload of r-base prevents r-cran-shiny from migrating
+to testing since it has some failing tests due to the r-base
+version conflict.  Thus an upload to testing-proposed-updates
+seems an appropriate solution for this and this bug report is
+about asking you for confirmation about this solution.
+
+[ Impact ]
+R-cran-shiny has an RC bug and is in danger to be not released
+with bookworm.  It has quite some dependencies that would be
+affected.
+
+[ Tests ]
+There is just a fixed symlink in the upload to fix the RC bug.
+All tests are passing as usual.
+
+[ Risks ]
+The change to the package is minimal.
+
+[ Checklist ]
+  [x] *all* changes are documented in the d/changelog
+  [x] I reviewed all changes and I approve them
+  [ ] attach debdiff against the package in (old)stable
+      --> will be attached once uploaded
+  [x] the issue is verified as fixed in unstable
+
+[ Changes ]
+
+I propose to upload the following change to t-p-u:
+
+$ git diff HEAD^
+diff --git a/debian/changelog b/debian/changelog
+index 21d12c3..a2b6c26 100644
+--- a/debian/changelog
++++ b/debian/changelog
+@@ -1,3 +1,10 @@
++r-cran-shiny (1.7.4+dfsg-3~deb12u1) bookworm; urgency=medium
++
++  * Upload to testing-proposed-updates "bookworm" due to the fact that
++    there was an accidental upload of a new version of r-base to unstable
++
++ -- Andreas Tille <tille at debian.org>  Wed, 17 May 2023 07:56:25 +0200
++
+ r-cran-shiny (1.7.4+dfsg-3) unstable; urgency=medium
+
+
+Nilesh Patra suggested to use version 1.7.4+dfsg-2+deb12u1 but I
+personally regard my version suggestion more logical (long explanation
+given in [2]).
+
+
+[ Other info ]
+
+Please confirm that I should upload to t-p-u (and raise your opinion
+about the most sensible version in your eyes).
+
+Kind regards and thanks for working as release team
+   Andreas.
+
+
+[1] https://lists.debian.org/debian-release/2023/05/msg00623.html
+
+
+From noreply at release.debian.org  Fri May 19 05:39:05 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 19 May 2023 04:39:05 +0000
+Subject: [R-pkg-team] r-cran-pander is marked for autoremoval from testing
+Message-ID: <E1pzrtR-006pdW-T3@respighi.debian.org>
+
+r-cran-pander 0.6.5+dfsg-2 is marked for autoremoval from testing on 2023-06-23
+
+It is affected by these RC bugs:
+1035855: r-cran-pander: broken symlink: /usr/lib/R/site-library/pander/includes/javascripts/jquery-1.7.2.min.js -> ../../../../../../share/nodejs/jquery-ui/ui/jquery-1-7.min.js
+ https://bugs.debian.org/1035855
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From ftpmaster at ftp-master.debian.org  Fri May 19 11:55:39 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 19 May 2023 10:55:39 +0000
+Subject: [R-pkg-team] Processing of r-cran-pander_0.6.5+dfsg-3_source.changes
+Message-ID: <E1pzxlr-006YH9-5I@usper.debian.org>
+
+r-cran-pander_0.6.5+dfsg-3_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-pander_0.6.5+dfsg-3.dsc
+  r-cran-pander_0.6.5+dfsg-3.debian.tar.xz
+  r-cran-pander_0.6.5+dfsg-3_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri May 19 12:09:23 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 19 May 2023 11:09:23 +0000
+Subject: [R-pkg-team] r-cran-pander_0.6.5+dfsg-3_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1pzxz9-0085EG-Dj@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 19 May 2023 12:38:06 +0200
+Source: r-cran-pander
+Architecture: source
+Version: 0.6.5+dfsg-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 1035855
+Changes:
+ r-cran-pander (0.6.5+dfsg-3) unstable; urgency=medium
+ .
+   * Provide source and compressed JS of jquery 1.7.2 since it is not
+     provided by any other package any more
+     Closes: #1035855
+Checksums-Sha1:
+ 59229df25144fd7d7d42768c4756621bbd37acae 2128 r-cran-pander_0.6.5+dfsg-3.dsc
+ 167badc7339c9637a80d98954b95b461dea87ff6 113936 r-cran-pander_0.6.5+dfsg-3.debian.tar.xz
+ 3825d376a5ef33f11f5540f1fbfddb7bf361d3d9 12044 r-cran-pander_0.6.5+dfsg-3_amd64.buildinfo
+Checksums-Sha256:
+ 92fc6fe6c998cd3dcbfe6a7d2069cdc48d3b23bd0f90d071d1cee08d7a767a31 2128 r-cran-pander_0.6.5+dfsg-3.dsc
+ 70450a1b9805a7b72cead6354f22d6a1cf5e9e18d4d54a9a0d8e64a7d6173f93 113936 r-cran-pander_0.6.5+dfsg-3.debian.tar.xz
+ fd3ec3a97047d6c94df6889dc7cf585aae7ce27cb3d9cd73e8a9d9ae87a9a6ec 12044 r-cran-pander_0.6.5+dfsg-3_amd64.buildinfo
+Files:
+ 1251e7f06a968745b46465da00923354 2128 gnu-r optional r-cran-pander_0.6.5+dfsg-3.dsc
+ 01850cc5609841e5cc7031e8d7bafa50 113936 gnu-r optional r-cran-pander_0.6.5+dfsg-3.debian.tar.xz
+ 56746f252c7ff527fa9e49f2f2fc7807 12044 gnu-r optional r-cran-pander_0.6.5+dfsg-3_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmRnU8kRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFrqw/+IzWeJL7SfLy3YPYFCWUDVi3wLUmlXIOO
+RdNQRSJTz53QAivqYNgWYdiRlTE5u3xoywiiT0rIqin2/5qTkCqKpu6BrmSryrTT
+/CxXnqjqrlmsRFod8PMPm/l9iB4Tr2JeGusBSib3CKZehgnxc8d1CV02+Ujc3OEn
+/2MQt5M6szf2wo2bHdKWBL1xtWI+Lhu3pOUr65Js69yStt3HidPJOM2cSrxvsgl/
+J+06LrFIjmeuYpHN5/98JAzUI9j+CZ50wliM7Gck2aJVCqHMkHm7zqAV66pfIXFQ
+pPgDx+bZjTVzxBPjx5blv2JDdVKlip38tRACOboA8BRB8biuqG3Al2Vlz1Wc2Yzn
+Ned3o4H+sZOuf/IDOohg4ToEyjgCFWNqeiDfeD7ggd9+40kjhCv9XtdSk+XKzaAf
+IFnYFTqEMSxNBqcqQ9Zf20KqtNsWVPOKPzB7aApQnmX5FW1u/jaQMn76rxynLR+l
+cX8l3V3iw/SRXLGMZd6O0y5LOUF2oODrzAs9MshPB82boE7bKqo32sxcnZYgNBuS
+tJdKMTuTBTlMnkDyr+zjx7SQvz8B1HaD7SvV6jSvmgg862Nk4pg2Ao+hkErqMBxz
+zFRezSHWrAKVh1chlFEBHAJFiK+UcrzBxU6P3FObsMih0aBklx8Etty+cShdiXP6
+q5MgeEs7Y8c=
+=zU9d
+-----END PGP SIGNATURE-----
+
+
+
+From owner at bugs.debian.org  Fri May 19 12:12:03 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 19 May 2023 11:12:03 +0000
+Subject: [R-pkg-team] Bug#1035855: marked as done (r-cran-pander: broken
+ symlink:
+ /usr/lib/R/site-library/pander/includes/javascripts/jquery-1.7.2.min.js ->
+ ../../../../../../share/nodejs/jquery-ui/ui/jquery-1-7.min.js)
+References: <E1pzxz9-0085EL-FW@fasolo.debian.org>
+ <168370821007.933102.9214705327817259061.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <handler.1035855.D1035855.16844945674146998.ackdone@bugs.debian.org>
+
+Your message dated Fri, 19 May 2023 11:09:23 +0000
+with message-id <E1pzxz9-0085EL-FW at fasolo.debian.org>
+and subject line Bug#1035855: fixed in r-cran-pander 0.6.5+dfsg-3
+has caused the Debian Bug report #1035855,
+regarding r-cran-pander: broken symlink: /usr/lib/R/site-library/pander/includes/javascripts/jquery-1.7.2.min.js -> ../../../../../../share/nodejs/jquery-ui/ui/jquery-1-7.min.js
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1035855: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1035855
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-cran-pander: broken symlink: /usr/lib/R/site-library/pander/includes/javascripts/jquery-1.7.2.min.js -> ../../../../../../share/nodejs/jquery-ui/ui/jquery-1-7.min.js
+Date: Wed, 10 May 2023 10:43:30 +0200
+Size: 2495
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230519/8ab09a53/attachment.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#1035855: fixed in r-cran-pander 0.6.5+dfsg-3
+Date: Fri, 19 May 2023 11:09:23 +0000
+Size: 6545
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230519/8ab09a53/attachment-0001.eml>
+
+From anbe at debian.org  Tue May 23 09:03:51 2023
+From: anbe at debian.org (Andreas Beckmann)
+Date: Tue, 23 May 2023 10:03:51 +0200
+Subject: [R-pkg-team] Bug#1036600: r-cran-amelia: broken symlink:
+ /usr/share/doc/r-cran-amelia/amelia.pdf ->
+ ../../../lib/R/site-library/Amelia/doc/amelia.pdf
+Message-ID: <168482903165.1336446.11172865449732017998.reportbug@zam504.zam.kfa-juelich.de>
+
+Package: r-cran-amelia
+Version: 1.8.1-1
+Severity: normal
+User: debian-qa at lists.debian.org
+Usertags: piuparts
+
+Hi,
+
+during a test with piuparts I noticed your package ships (or creates)
+a broken symlink:
+
+2m56.8s ERROR: FAIL: Broken symlinks:
+  /usr/share/doc/r-cran-amelia/amelia.pdf -> ../../../lib/R/site-library/Amelia/doc/amelia.pdf (r-cran-amelia)
+
+
+cheers,
+
+Andreas
+
+
+From ftpmaster at ftp-master.debian.org  Tue May 23 18:00:15 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 23 May 2023 17:00:15 +0000
+Subject: [R-pkg-team] r-cran-memisc_0.99.31.6+dfsg-1_amd64.changes ACCEPTED
+ into unstable
+Message-ID: <E1q1VMt-00BOzQ-7S@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sat, 11 Mar 2023 10:40:56 +0100
+Source: r-cran-memisc
+Binary: r-cran-memisc r-cran-memisc-dbgsym
+Architecture: source amd64
+Version: 0.99.31.6+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-memisc - GNU R management of survey data and presentation of analysis resu
+Closes: 1031990
+Changes:
+ r-cran-memisc (0.99.31.6+dfsg-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #1031990)
+Checksums-Sha1:
+ 0ba1d75fccd828c2c2bde9dd85442ed8f370605b 2182 r-cran-memisc_0.99.31.6+dfsg-1.dsc
+ 92b52ef5e50dd8223e642bf82419c2d3b00b0ac0 345032 r-cran-memisc_0.99.31.6+dfsg.orig.tar.xz
+ 95cbe5645f3dca2aac845f85d86b6798f766b0d3 2416 r-cran-memisc_0.99.31.6+dfsg-1.debian.tar.xz
+ e017b3b784ccdc36b305019bdeada1e766773699 111156 r-cran-memisc-dbgsym_0.99.31.6+dfsg-1_amd64.deb
+ f03b18b20ffa9979d6bfae78994dd0ba2750bf8b 10969 r-cran-memisc_0.99.31.6+dfsg-1_amd64.buildinfo
+ 1180cb3c0cd6cee85d0dadbf89bd8a781e77d7fa 1670044 r-cran-memisc_0.99.31.6+dfsg-1_amd64.deb
+Checksums-Sha256:
+ 2ee162a0e052ce57bf157d89fa8c0df1d278986f8a5aadb1f60a2bb393c4e978 2182 r-cran-memisc_0.99.31.6+dfsg-1.dsc
+ a7b7a8a900c0536ba2ad7d4ff473ec03984eaf2f3313a4f743956afa9a0706b0 345032 r-cran-memisc_0.99.31.6+dfsg.orig.tar.xz
+ eece9e4d944f792ef34fb453c5535ea054fcaf0ce3cc7003cf9e1d43b420275b 2416 r-cran-memisc_0.99.31.6+dfsg-1.debian.tar.xz
+ 05759bc55fce44b08748accb19d6e8d34309d679bfa82801467c2fbe930f62c2 111156 r-cran-memisc-dbgsym_0.99.31.6+dfsg-1_amd64.deb
+ f81dd43aaa252706da7d7f2ecc4611523b7356956b5681f0ab7b62341ed67933 10969 r-cran-memisc_0.99.31.6+dfsg-1_amd64.buildinfo
+ 9dbfb6f802c686746857fb43163a29106833b80a349297584ed1288b70a40d1a 1670044 r-cran-memisc_0.99.31.6+dfsg-1_amd64.deb
+Files:
+ 3891e935c31f3b31c951a5ef774bfdad 2182 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-1.dsc
+ e091171af96ceddf37f92f143105d7be 345032 gnu-r optional r-cran-memisc_0.99.31.6+dfsg.orig.tar.xz
+ a4e218854fa60b91c0250f53b2d9a870 2416 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-1.debian.tar.xz
+ 6f3a340e8a4828a0e8ba6666b24580d5 111156 debug optional r-cran-memisc-dbgsym_0.99.31.6+dfsg-1_amd64.deb
+ 587cd03c70e4ee9d518c91616903dc27 10969 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-1_amd64.buildinfo
+ c5e84636abec20e584de463bca49623d 1670044 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmQMTiMRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtGj2g/8CR5sgwBeOJfwAO4hTmsknxN3cyQZfQDR
+2SyKvul78wExDajBm6wNo4/rAAVvIc3yC8NVJyb+cIV1H/JEzFjetwHnILz7KnSc
+MMQ/CqTsGWmPG05qGyFdTMCOMOqd6PDf5hGFyt6Dne+RSL0Ja/trN1GfIZrwBun/
+QvMZrA579qjOFSP9a+xbBg9m/wy4gOdjiEcCfU6468EGOzqnZPvW8/FzwcbDMWbQ
+yP9YksOSYx7dc4SwCZcUGWSuFp80MW1yvaDC7Wa1dU7duD+zjqXFl3WatkNCGKdq
+d75AfmIHtA++hQKDzcckam3frafFWIwRSCZ0ZLtW+V1Th4Pb1q1xzGj0/nMwfEYJ
++1tFaaRrWSaZAiVdzZBlJ92lo6y2/N9OZMgHk6Z8Ln4JnAKDgLV6Sdg4jE5AKuxG
+epMAPJMnIWiNtRhOZdl+IZdBlIR7pLMma0RYkJbuznd2ruM1i3MRptrGUGWtjkOL
+FhyhytCBCiGZcZ0i6H2YfTvzG6blCAZMEEXD6ISGXHgGwaYaPRqnPIKlj3Ws7Z6x
+TB8e15eQOgbdt408mniu2/PnI/BpyYvl+khfnrztSaon6vU8h2mVPUnlTC68R8gw
+g8x9SS4AoNxj39FJkFwZFzu5LLjoWgr/0iGP5W1Ghscd40YHEXWBZKS373Zq8Pux
+L4J9FqO5wqU=
+=zR3A
+-----END PGP SIGNATURE-----
+
+
+
+From ftpmaster at ftp-master.debian.org  Tue May 23 19:58:27 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 23 May 2023 18:58:27 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.changes
+Message-ID: <E1q1XDH-00BbMp-6J@usper.debian.org>
+
+r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-shiny_1.7.4+dfsg-2+deb12u1.dsc
+  r-cran-shiny_1.7.4+dfsg-2+deb12u1.debian.tar.xz
+  r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue May 23 20:07:10 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 23 May 2023 19:07:10 +0000
+Subject: [R-pkg-team] r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.changes
+ ACCEPTED into testing-proposed-updates
+Message-ID: <E1q1XLi-00BgxH-4i@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+Mapping bookworm to testing.
+Mapping testing to testing-proposed-updates.
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 17 May 2023 07:56:25 +0200
+Source: r-cran-shiny
+Architecture: source
+Version: 1.7.4+dfsg-2+deb12u1
+Distribution: bookworm
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 1035428
+Changes:
+ r-cran-shiny (1.7.4+dfsg-2+deb12u1) bookworm; urgency=medium
+ .
+   * Upload to testing-proposed-updates "bookworm" due to the fact that
+     there was an accidental upload of a new version of r-base to unstable
+   * Fix link for normalize.css
+     Closes: #1035428
+Checksums-Sha1:
+ 14ad0f8759b482b600ee5b23885e78a4b9b57344 2781 r-cran-shiny_1.7.4+dfsg-2+deb12u1.dsc
+ 189e6d52a78258a03c3c8d3bba23d2dfa9a6ba61 140092 r-cran-shiny_1.7.4+dfsg-2+deb12u1.debian.tar.xz
+ 12a035d6ccdae947ad6b6fc2ee87ff886a48925e 22224 r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.buildinfo
+Checksums-Sha256:
+ 885ad84430bac509de90da95adbcb74d5def48236411b909d2db701bd352d5ba 2781 r-cran-shiny_1.7.4+dfsg-2+deb12u1.dsc
+ 6012589287e0dae2590c0efc8b1724053cec3e780b5e7654132f69e464d5b82b 140092 r-cran-shiny_1.7.4+dfsg-2+deb12u1.debian.tar.xz
+ b712df698d2485b85f79791f284344efe2b65a74f81779e8f2d7bfef87c82010 22224 r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.buildinfo
+Files:
+ 471aeb995369cac8cfd7a7090209d3ff 2781 gnu-r optional r-cran-shiny_1.7.4+dfsg-2+deb12u1.dsc
+ c29c81027bc22ad613cf223bb9312a03 140092 gnu-r optional r-cran-shiny_1.7.4+dfsg-2+deb12u1.debian.tar.xz
+ 86f4d5816013fc2b74d305ab30d846da 22224 gnu-r optional r-cran-shiny_1.7.4+dfsg-2+deb12u1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJCBAEBCgAsFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmRs+rkOHHRpbGxlYUBy
+a2kuZGUACgkQV4oElNHGRtHZzA/+OeLV4/aDQ4eQaATyFGTBRokExDJBlWjMnwZB
+xeDZoSbcF1PfJI/GG7dhxcexvLut52x89g42czJwKYSM5IgaaNs4KaSnPysIYZCt
+ngGpCDNrELScZ8kma+/mQXDDADLn6b6jZiC6By8n5RX0mDW9JGe+2ZiaZwJWPcun
+fMP9wXUDMR86u2uYCA4Bg7Sy+yJFY2NUO6/SXiVuVo+RTD0BK3z3kVu1XTAY+G5Q
+0loqxDBH8KIdvWB8g4YKIJJsgIoqocm3U1u0xjtEPpFEaiitKOdtNBJINlhebr1f
+mNiMl9i/Wyt6lY9TiAGDqz0TMmgLsWqTrRKzN2fTkB6kkRfQOi3A/CLt7pvi/txj
+2eRBBWYHkfWTNnFkjqWXovw15+NWOaUvCKFFir09RsIkDfvs3F9BYaUso71ZN5aL
+debkXeYhHB36el+0e6rcL1SlAUgAYAzjiO1G8M6cMxNttIXLGjwd9Rlav422Sexr
+lFB8G5CH2wROHjqEGPX351qv8h8otp4+wa66sDD0+dWTQ7lx8m39WhkstOj2qulK
+qPbcSb8JxnUsa3cJNOCpfRwi7hrPE8XID8eKrAHMoHuvJtksEhPs3HVIc4zOP09L
++Km236lfF/2d5ZhjQQuQNiMN2TYl/jliKE68zR3rVGfIQfTjy3H28Rvs3iVQ8K5h
+y5SFckE=
+=75BB
+-----END PGP SIGNATURE-----
+
+
+
+From owner at bugs.debian.org  Tue May 23 20:09:04 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Tue, 23 May 2023 19:09:04 +0000
+Subject: [R-pkg-team] Bug#1035428: marked as done (r-cran-shiny: broken
+ symlink:
+ /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css
+ -> ../../../../../../../nodejs/normalize.css/normalize.css)
+References: <E1q1XLi-00BgxM-6S@fasolo.debian.org>
+ <168310718734.339285.3529523350865050939.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <handler.1035428.D1035428.16848688342983782.ackdone@bugs.debian.org>
+
+Your message dated Tue, 23 May 2023 19:07:10 +0000
+with message-id <E1q1XLi-00BgxM-6S at fasolo.debian.org>
+and subject line Bug#1035428: fixed in r-cran-shiny 1.7.4+dfsg-2+deb12u1
+has caused the Debian Bug report #1035428,
+regarding r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1035428: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1035428
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-cran-shiny: broken symlink: /usr/lib/R/site-library/shiny/www/shared/ionrangeslider/css/normalize.css -> ../../../../../../../nodejs/normalize.css/normalize.css
+Date: Wed, 03 May 2023 11:46:27 +0200
+Size: 2915
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230523/d9212212/attachment.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#1035428: fixed in r-cran-shiny 1.7.4+dfsg-2+deb12u1
+Date: Tue, 23 May 2023 19:07:10 +0000
+Size: 6730
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230523/d9212212/attachment-0001.eml>
+
+From ftpmaster at ftp-master.debian.org  Wed May 24 07:27:28 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 May 2023 06:27:28 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-memisc_0.99.31.6+dfsg-2_source.changes
+Message-ID: <E1q1hy4-00C9CH-Rl@usper.debian.org>
+
+r-cran-memisc_0.99.31.6+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-memisc_0.99.31.6+dfsg-2.dsc
+  r-cran-memisc_0.99.31.6+dfsg-2.debian.tar.xz
+  r-cran-memisc_0.99.31.6+dfsg-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed May 24 07:34:00 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 May 2023 06:34:00 +0000
+Subject: [R-pkg-team] r-cran-memisc_0.99.31.6+dfsg-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1q1i4O-00E8K8-Vb@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 24 May 2023 08:15:21 +0200
+Source: r-cran-memisc
+Architecture: source
+Version: 0.99.31.6+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-cran-memisc (0.99.31.6+dfsg-2) unstable; urgency=medium
+ .
+   * Source only upload
+Checksums-Sha1:
+ 3ee5c38ecbf955762df42640190537be015c6add 2182 r-cran-memisc_0.99.31.6+dfsg-2.dsc
+ f3757497d8d73a3da2d6450a900a4aab7a2f8b59 2448 r-cran-memisc_0.99.31.6+dfsg-2.debian.tar.xz
+ a8aeb98e36588a51d51b2d57f59ac19cb6bf1623 11296 r-cran-memisc_0.99.31.6+dfsg-2_amd64.buildinfo
+Checksums-Sha256:
+ 4f5dce8355372c143b92a1079a57708b23fb3f03c7ae29068dcc838cf4b30fbd 2182 r-cran-memisc_0.99.31.6+dfsg-2.dsc
+ 53c383a2bf5cfe58e241255ee07a7b5e8459f60b272b22f6482785f7f080f2d5 2448 r-cran-memisc_0.99.31.6+dfsg-2.debian.tar.xz
+ 88e93a24b06ea5d1f7793a76ab813899ccf85e93ca5fab28c38228a887f97258 11296 r-cran-memisc_0.99.31.6+dfsg-2_amd64.buildinfo
+Files:
+ 6b2b87421b22c8557c48ecf9b7d50921 2182 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-2.dsc
+ 545e24579126ef15e878b0797ac25a92 2448 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-2.debian.tar.xz
+ a9655ea4b3daaa1868e1126c6165fed4 11296 gnu-r optional r-cran-memisc_0.99.31.6+dfsg-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmRtrE8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFp7g/6A1U0Rsj1TegkW2lkCHCLTMJ6SKPVMBPL
+lhGrCqapEKUQf3POH/bhwUa0B5CI7cLHeqYwu8yVbHK9PjS8xCOhyqadq0BfexLU
+ismipIM9mVfhZVQ/mE+oI+mqp2cPTkYRnk12yT4AVaW5zDo4IEtNa4ijLJZj9xyH
+8CD8fp/MkQ32uGTWchMPNUUeA31u9hiiCPvPF4kOg52fOtM2o4AWCQZW2kGqDVS3
+ZSrvnuyZ+CsdfhLWjDCcmXhKx789bEyjNo1QjQaodbQKLEraJamy737Q9yLhF8E5
+wwRGbp8DBzu7ly0PM1KsMAmahYawYV7ECUMytqtyO84IhQCOH4MFIGZUx5pvYq++
+XEh0iXHTl+JYPP588Q8e3SMAb6BSsUOGYSr3L+DhxQ96scneEj9iBPC/FTqshzPT
+KGH3cm6UWmWXrJbK43t9Lg4R6CA28NSCDehamx2QhV29ULxQm7oIToS7+RYcsUEA
+N4iK/gzcrpoJcBKTHCgKKGc3+surCCM/QNLQycLnn7PCHElFF/iP1ICJh5hZK0tW
+trXUJywkCd0sUINBwb7tICc+DskSF1hwqFWFwIAs63Eif6K3oN3DHIZpKAN6oaQ8
+ZJTjOCXgCBZANdJWy0iB/GWxJR0F2394DK/Q/8BGBDEP2daBfOWHvBhfu+uLohWC
+ahX4fm81bYg=
+=WyWa
+-----END PGP SIGNATURE-----
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed May 24 15:36:21 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 May 2023 14:36:21 +0000
+Subject: [R-pkg-team] Processing of r-cran-amelia_1.8.1-2_source.changes
+Message-ID: <E1q1pbB-00CY09-GG@usper.debian.org>
+
+r-cran-amelia_1.8.1-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-amelia_1.8.1-2.dsc
+  r-cran-amelia_1.8.1-2.debian.tar.xz
+  r-cran-amelia_1.8.1-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed May 24 16:06:18 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 24 May 2023 15:06:18 +0000
+Subject: [R-pkg-team] r-cran-amelia_1.8.1-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1q1q4A-00G0xO-7r@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 24 May 2023 09:56:43 +0200
+Source: r-cran-amelia
+Architecture: source
+Version: 1.8.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 1036600
+Changes:
+ r-cran-amelia (1.8.1-2) unstable; urgency=medium
+ .
+   * Do not symlink PDF.  R users know where to find docs anyway.
+     Closes: #1036600
+   * Standards-Version: 4.6.2 (routine-update)
+Checksums-Sha1:
+ 4b47acbd0056e1c74b12ba242ff7a3a9e52b034f 2126 r-cran-amelia_1.8.1-2.dsc
+ 356ec1a870d3c9d4f661df3efa507dce70ed5f32 4184 r-cran-amelia_1.8.1-2.debian.tar.xz
+ 36b799407f3ed826b4382c46ff49b38df74a193f 11249 r-cran-amelia_1.8.1-2_amd64.buildinfo
+Checksums-Sha256:
+ eaadb2cc9a2f24bc6d1c27beef0200a49507ab34c5d1242998b5c7a7f9853690 2126 r-cran-amelia_1.8.1-2.dsc
+ 7962bcd12e3dd823da98882ad1e502ce04d80c1867b984eb30fba855389b3cf3 4184 r-cran-amelia_1.8.1-2.debian.tar.xz
+ af99cc4e9d15647e614756eacc821f97d7e308581f963a26e64ff73627d2dd8e 11249 r-cran-amelia_1.8.1-2_amd64.buildinfo
+Files:
+ 5927b5271aec212e94da4ae5967e5777 2126 gnu-r optional r-cran-amelia_1.8.1-2.dsc
+ cbfcf2ddd6b34e201fbbf203c0834130 4184 gnu-r optional r-cran-amelia_1.8.1-2.debian.tar.xz
+ 1236994c157a3947c1f04b2ce29ecd7e 11249 gnu-r optional r-cran-amelia_1.8.1-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmRuHywRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtEtZBAAm0ak5kmm2+qBnCne2p+egC/5w4gDsAXj
+XiW6bSOUuTV6C0eIDe4rPYaO5dSYbbDpxWdVICPK9vpHUuw3el/Sm00t36Y+h9Cr
+rXWFjr3itdD6Dbvoo4BfAT56wl+p28+7UlaPalWDgWzIosh5t2ocjfWCAt6KYJGp
+VKahTuOdCK5gp4gqLn2rCvVfpV3YQbQXKFK1uT7xQ2fcIxVba2j9ypQa1yGTTQXW
+L3zgCoOvrLVFZ4JafSsr9HMWK/czNF/ZtCUY8DpG2h1fuzMtCcm2BMkJDBp0YlVG
+DQ2ByxwCMLw1qMS0goIzFPV3kpUpZD4oQ6lsCyV0WCvoRpBY/jPMbCnn/n80yD3u
+YONrFAYqzyZRoudDrs4ODTnWw/NRaZFi6eXEzoGYyjjbtIIomlKz1PtKlVuLmZZ8
+ZRNPY38Ejxz2VaU9elGSggy+1/eO5Je8MhDFhBZv5D5cCS6FECZL+7xumNq2EG+1
+n7++e9/Ew0O+uOJHcxBEQdRgDdvJb46Ve1gMYwiL4qNlOEDBV3hsfpMqSrOF4KCO
+ET1CsB0HUMDcSJw2lrvreVScBI+/T3NDwd1Xf2Lf950J4i8LSISlRlxrO8RR1Vod
+2Inja3l/ED1Is+BtkbsthkWCnTiomaT1tCEMq+NI13SPxsI3Bo1/GJit/jhhQN3o
+/pLjsN4ryUs=
+=WFE0
+-----END PGP SIGNATURE-----
+
+
+
+From owner at bugs.debian.org  Wed May 24 16:09:04 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Wed, 24 May 2023 15:09:04 +0000
+Subject: [R-pkg-team] Bug#1036600: marked as done (r-cran-amelia: broken
+ symlink: /usr/share/doc/r-cran-amelia/amelia.pdf ->
+ ../../../lib/R/site-library/Amelia/doc/amelia.pdf)
+References: <E1q1q4A-00G0xT-9n@fasolo.debian.org>
+ <168482903165.1336446.11172865449732017998.reportbug@zam504.zam.kfa-juelich.de>
+Message-ID: <handler.1036600.D1036600.16849407813569239.ackdone@bugs.debian.org>
+
+Your message dated Wed, 24 May 2023 15:06:18 +0000
+with message-id <E1q1q4A-00G0xT-9n at fasolo.debian.org>
+and subject line Bug#1036600: fixed in r-cran-amelia 1.8.1-2
+has caused the Debian Bug report #1036600,
+regarding r-cran-amelia: broken symlink: /usr/share/doc/r-cran-amelia/amelia.pdf -> ../../../lib/R/site-library/Amelia/doc/amelia.pdf
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1036600: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1036600
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andreas Beckmann <anbe at debian.org>
+Subject: r-cran-amelia: broken symlink: /usr/share/doc/r-cran-amelia/amelia.pdf -> ../../../lib/R/site-library/Amelia/doc/amelia.pdf
+Date: Tue, 23 May 2023 10:03:51 +0200
+Size: 2337
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230524/a2f7363f/attachment.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#1036600: fixed in r-cran-amelia 1.8.1-2
+Date: Wed, 24 May 2023 15:06:18 +0000
+Size: 6443
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230524/a2f7363f/attachment-0001.eml>
+
+From noreply at release.debian.org  Thu May 25 05:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 25 May 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-shiny 1.7.4+dfsg-2+deb12u1 MIGRATED to testing
+Message-ID: <E1q22km-00EImo-Tz@respighi.debian.org>
+
+FYI: The status of the r-cran-shiny source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.7.4+dfsg-2
+  Current version:  1.7.4+dfsg-2+deb12u1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From sergmate at mailmate.top  Tue May 16 10:17:38 2023
+From: sergmate at mailmate.top (From mailmate)
+Date: Tue, 16 May 2023 09:17:38 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <6437004b-5ab6-406f-91cb-8237fc43b1cb@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/25860b3c/attachment.htm>
+
+From sergmate at mailmate.top  Tue May 16 11:17:30 2023
+From: sergmate at mailmate.top (From mailmate)
+Date: Tue, 16 May 2023 10:17:30 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <e50ad2c1-494d-4b4d-82a3-bf030dae1ca6@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/78642a62/attachment.htm>
+
+From sergmate at mailmate.top  Tue May 16 12:31:19 2023
+From: sergmate at mailmate.top (From mailmate)
+Date: Tue, 16 May 2023 11:31:19 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <f2f50dad-921a-4b7b-b73c-5335e612654a@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/f2fb6863/attachment.htm>
+
+From sergmate at mailmate.top  Tue May 16 15:43:08 2023
+From: sergmate at mailmate.top (From mailmate)
+Date: Tue, 16 May 2023 14:43:08 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <a26f9f8b-9f30-4339-bd82-5a006ece8a47@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/02157932/attachment.htm>
+
+From sergmate at mailmate.top  Tue May 16 15:43:53 2023
+From: sergmate at mailmate.top (From mailmate)
+Date: Tue, 16 May 2023 14:43:53 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <e11a6999-cecb-4517-9810-afaac2e74211@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/2ef1b04c/attachment.htm>
+
+From search at mailmate.top  Wed May 17 01:21:21 2023
+From: search at mailmate.top (From mailmate)
+Date: Wed, 17 May 2023 00:21:21 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <c54ed74c-c37c-4572-a5c3-5ad9567d312b@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/48b9bcfc/attachment-0001.htm>
+
+From sergmate at mailmate.top  Tue May 16 16:29:40 2023
+From: sergmate at mailmate.top (From mailmate)
+Date: Tue, 16 May 2023 15:29:40 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <73efab73-8949-4b94-abc2-93a209ff2390@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230516/43cf76cf/attachment.htm>
+
+From search at mailmate.top  Wed May 17 02:19:45 2023
+From: search at mailmate.top (From mailmate)
+Date: Wed, 17 May 2023 01:19:45 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <4781ccfa-aa47-421a-ae44-cbfc2e3530d4@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/c84c73f4/attachment.htm>
+
+From search at mailmate.top  Wed May 17 02:23:35 2023
+From: search at mailmate.top (From mailmate)
+Date: Wed, 17 May 2023 01:23:35 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <9b3afa22-2cdc-42f4-a5e7-59989fc208da@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/4534dda9/attachment.htm>
+
+From search at mailmate.top  Wed May 17 02:29:44 2023
+From: search at mailmate.top (From mailmate)
+Date: Wed, 17 May 2023 01:29:44 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <260e3ef7-ad1f-4320-9dc9-e913eda710a3@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/08ebb326/attachment.htm>
+
+From search at mailmate.top  Wed May 17 02:50:19 2023
+From: search at mailmate.top (From mailmate)
+Date: Wed, 17 May 2023 01:50:19 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <7cf14a06-c7ce-4c17-8946-f09fc6b63205@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/4d284789/attachment.htm>
+
+From search at mailmate.top  Wed May 17 03:18:52 2023
+From: search at mailmate.top (From mailmate)
+Date: Wed, 17 May 2023 02:18:52 +0000
+Subject: [R-pkg-team] =?utf-8?q?=F0=9F=91=8D_Search_Mate_-_Promote_your_s?=
+ =?utf-8?q?ervice_for_=241/day?=
+Message-ID: <c2b59af1-f4d4-48e7-a8ca-42c819dda1ab@rp.postal.mailmate.top>
+
+Hey, this is Search Mate, the most powerful Darknet Search Engine.
+We've already crawled 150+ million onion pages.
+And now we are presenting our promotional tools for onion services:
+?- banner advertising
+?- keyword advertising
+?- top websites promotion
+?- test + image advertising
+
+Generally, we provide really useful promotional tools, just like
+Google or any other big clearnet ecosystems.
+And about prices: they are really attractive at the moment: from
+$1/day.
+
+Just take a look:
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion/
+
+Feel free to ask any questions on search at mailmate.top
+
+Regards,
+Search Mate
+http://matesea7myfqb62sbjtpx3dfchalnpf2b4ppw52lzuxwvlbtj2kb3nqd.onion
+?
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230517/0ffd9428/attachment-0001.htm>
+
+From lourdes.wong at essalud.gob.pe  Wed May 31 07:37:10 2023
+From: lourdes.wong at essalud.gob.pe (lourdes.wong at essalud.gob.pe)
+Date: Wed, 31 May 2023 07:37:10 +0100
+Subject: [R-pkg-team] mailto:eugdler3@gmail.com voor details
+Message-ID: <20230531063026.B64B467932954@correo.essalud.gob.pe>
+
+ Eerlijke hulp nodig om 50.000.000 te verhuizen uit een beveiligde elektronische kluis. U krijgt 35 procent. mail naar : eugdler3 at gmail.com   - Can I rely on you to transfer 50.000.000 from a secure e-vault.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230531/67a574ca/attachment.htm>
+

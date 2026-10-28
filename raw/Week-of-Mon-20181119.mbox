@@ -1,0 +1,2167 @@
+From noreply at release.debian.org  Mon Nov 19 04:39:12 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-ensembldb is marked for autoremoval from testing
+Message-ID: <E1gObL6-0004Y4-Js@respighi.debian.org>
+
+r-bioc-ensembldb 2.6.1+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:13 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-gviz is marked for autoremoval from testing
+Message-ID: <E1gObL7-0004YJ-3s@respighi.debian.org>
+
+r-bioc-gviz 1.26.0-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:12 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-genomicfeatures is marked for autoremoval from
+ testing
+Message-ID: <E1gObL6-0004Y9-Ov@respighi.debian.org>
+
+r-bioc-genomicfeatures 1.34.1+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:13 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-rtracklayer is marked for autoremoval from
+ testing
+Message-ID: <E1gObL7-0004YO-93@respighi.debian.org>
+
+r-bioc-rtracklayer 1.40.6-1 is marked for autoremoval from testing on 2018-12-25
+
+It is affected by these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:13 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-tfbstools is marked for autoremoval from testing
+Message-ID: <E1gObL7-0004YY-Jp@respighi.debian.org>
+
+r-bioc-tfbstools 1.18.0+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:13 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-cummerbund is marked for autoremoval from
+ testing
+Message-ID: <E1gObL7-0004Yd-Ox@respighi.debian.org>
+
+r-bioc-cummerbund 2.24.0-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shinydashboard is marked for autoremoval from
+ testing
+Message-ID: <E1gObL8-0004Ys-7w@respighi.debian.org>
+
+r-cran-shinydashboard 0.7.1-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shinybs is marked for autoremoval from testing
+Message-ID: <E1gObL8-0004Yx-Cz@respighi.debian.org>
+
+r-cran-shinybs 0.61-3 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-bioc-interactivedisplaybase is marked for
+ autoremoval from testing
+Message-ID: <E1gObL8-0004Z2-I5@respighi.debian.org>
+
+r-bioc-interactivedisplaybase 1.20.0+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:12 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-biovizbase is marked for autoremoval from
+ testing
+Message-ID: <E1gObL6-0004Xz-EP@respighi.debian.org>
+
+r-bioc-biovizbase 1.30.0-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-colourpicker is marked for autoremoval from
+ testing
+Message-ID: <E1gObL9-0004ZH-1B@respighi.debian.org>
+
+r-cran-colourpicker 1.0+dfsg-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing
+Message-ID: <E1gObL9-0004ZW-GH@respighi.debian.org>
+
+r-cran-rlumshiny 0.2.1-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:12 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-bsgenome is marked for autoremoval from testing
+Message-ID: <E1gObL6-0004YE-Up@respighi.debian.org>
+
+r-bioc-bsgenome 1.50.0-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-adephylo is marked for autoremoval from testing
+Message-ID: <E1gObL9-0004Zg-QD@respighi.debian.org>
+
+r-cran-adephylo 1.1-11-3 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:13 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-variantannotation is marked for autoremoval
+ from testing
+Message-ID: <E1gObL7-0004YT-EZ@respighi.debian.org>
+
+r-bioc-variantannotation 1.28.1-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:16 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-reprex is marked for autoremoval from testing
+Message-ID: <E1gObLA-0004a2-3u@respighi.debian.org>
+
+r-cran-reprex 0.2.1-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:13 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:13 +0000
+Subject: [R-pkg-team] r-bioc-cner is marked for autoremoval from testing
+Message-ID: <E1gObL7-0004Yi-UA@respighi.debian.org>
+
+r-bioc-cner 1.16.1+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shinyjs is marked for autoremoval from testing
+Message-ID: <E1gObL8-0004Yn-2x@respighi.debian.org>
+
+r-cran-shinyjs 1.0-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:16 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-plotly is marked for autoremoval from testing
+Message-ID: <E1gObLA-0004aa-E7@respighi.debian.org>
+
+r-cran-plotly 4.8.0+dfsg-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-crosstalk is marked for autoremoval from testing
+Message-ID: <E1gObL8-0004Z7-NB@respighi.debian.org>
+
+r-cran-crosstalk 1.0.0+dfsg-3 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:14 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shiny is marked for autoremoval from testing
+Message-ID: <E1gObL8-0004ZC-SH@respighi.debian.org>
+
+r-cran-shiny 1.1.0+dfsg-2 is marked for autoremoval from testing on 2018-12-25
+
+It is affected by these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:16 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-miniui is marked for autoremoval from testing
+Message-ID: <E1gObLA-0004ar-JF@respighi.debian.org>
+
+r-cran-miniui 0.1.1.1-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-rmarkdown is marked for autoremoval from testing
+Message-ID: <E1gObL9-0004ZM-6H@respighi.debian.org>
+
+r-cran-rmarkdown 1.10+dfsg-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:16 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-adegenet is marked for autoremoval from testing
+Message-ID: <E1gObLA-0004bQ-Tf@respighi.debian.org>
+
+r-cran-adegenet 2.1.1-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:17 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-dt is marked for autoremoval from testing
+Message-ID: <E1gObLB-0004by-7d@respighi.debian.org>
+
+r-cran-dt 0.4+dfsg1-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:15 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:15 +0000
+Subject: [R-pkg-team] r-cran-rglwidget is marked for autoremoval from testing
+Message-ID: <E1gObL9-0004Zl-VB@respighi.debian.org>
+
+r-cran-rglwidget 0.2.1-3 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:17 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:17 +0000
+Subject: [R-pkg-team] r-bioc-annotationhub is marked for autoremoval from
+ testing
+Message-ID: <E1gObLB-0004cm-MS@respighi.debian.org>
+
+r-bioc-annotationhub 2.14.1+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:17 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-ggvis is marked for autoremoval from testing
+Message-ID: <E1gObLB-0004cT-HZ@respighi.debian.org>
+
+r-cran-ggvis 0.4.4+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:16 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:16 +0000
+Subject: [R-pkg-team] r-cran-mertools is marked for autoremoval from testing
+Message-ID: <E1gObLA-0004b9-OV@respighi.debian.org>
+
+r-cran-mertools 0.4.1-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:18 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 19 Nov 2018 04:39:18 +0000
+Subject: [R-pkg-team] r-bioc-cner 1.18.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1gObLC-0004eR-F8@respighi.debian.org>
+
+FYI: The status of the r-bioc-cner source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.16.1+dfsg-1
+  Current version:  1.18.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:18 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:18 +0000
+Subject: [R-pkg-team] r-cran-tidyverse is marked for autoremoval from testing
+Message-ID: <E1gObLC-0004df-5G@respighi.debian.org>
+
+r-cran-tidyverse 1.2.1-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:18 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:18 +0000
+Subject: [R-pkg-team] r-cran-treespace is marked for autoremoval from testing
+Message-ID: <E1gObLC-0004eA-CY@respighi.debian.org>
+
+r-cran-treespace 1.1.3+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:18 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:18 +0000
+Subject: [R-pkg-team] r-cran-treescape is marked for autoremoval from testing
+Message-ID: <E1gObLC-0004dv-AG@respighi.debian.org>
+
+r-cran-treescape 1.10.18+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:18 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:18 +0000
+Subject: [R-pkg-team] r-cran-threejs is marked for autoremoval from testing
+Message-ID: <E1gObLC-0004dN-0G@respighi.debian.org>
+
+r-cran-threejs 0.3.1+dfsg-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:17 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-heatmaply is marked for autoremoval from testing
+Message-ID: <E1gObLB-0004cG-CY@respighi.debian.org>
+
+r-cran-heatmaply 0.15.2+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From noreply at release.debian.org  Mon Nov 19 04:39:17 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Mon, 19 Nov 2018 04:39:17 +0000
+Subject: [R-pkg-team] r-cran-shinythemes is marked for autoremoval from
+ testing
+Message-ID: <E1gObLB-0004d3-RO@respighi.debian.org>
+
+r-cran-shinythemes 1.1.1+dfsg-2 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913534: r-cran-shiny: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+
+
+
+From ftpmaster at ftp-master.debian.org  Mon Nov 19 07:05:58 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 19 Nov 2018 07:05:58 +0000
+Subject: [R-pkg-team] Processing of r-cran-shiny_1.1.0+dfsg-3_source.changes
+Message-ID: <E1gOdd8-00016E-Nn@usper.debian.org>
+
+r-cran-shiny_1.1.0+dfsg-3_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-shiny_1.1.0+dfsg-3.dsc
+  r-cran-shiny_1.1.0+dfsg-3.debian.tar.xz
+  r-cran-shiny_1.1.0+dfsg-3_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Nov 19 07:19:55 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 19 Nov 2018 07:19:55 +0000
+Subject: [R-pkg-team] r-cran-shiny_1.1.0+dfsg-3_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gOdqd-0009jU-QX@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 19 Nov 2018 07:51:43 +0100
+Source: r-cran-shiny
+Binary: r-cran-shiny
+Architecture: source
+Version: 1.1.0+dfsg-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-cran-shiny - GNU R web application framework
+Closes: 913534
+Changes:
+ r-cran-shiny (1.1.0+dfsg-3) unstable; urgency=medium
+ .
+   * Team upload.
+   * Update d/links to reflect change in libjs-twitter-bootstrap-datepicker
+       Closes: #913534
+   * Add Testsuite: autopkgtest-pkg-r
+Checksums-Sha1:
+ 5a583e17f31f9107c504fa27a7d0976368e90cb1 2484 r-cran-shiny_1.1.0+dfsg-3.dsc
+ 53f2ffae0ed3407badee9709dbf942cb453637ac 141220 r-cran-shiny_1.1.0+dfsg-3.debian.tar.xz
+ afaedf8866f458be704233df2cd4a25db888347f 10915 r-cran-shiny_1.1.0+dfsg-3_amd64.buildinfo
+Checksums-Sha256:
+ 0ddae9ef1f8cbfdb02abaa7f24d875bc3317827fdd14219fccd66db8c028484e 2484 r-cran-shiny_1.1.0+dfsg-3.dsc
+ 72ba70939146e175eea7efd834ed2dcf1a1fb51041bc0c14c65dc56ccd8facf2 141220 r-cran-shiny_1.1.0+dfsg-3.debian.tar.xz
+ 82fa968ae2470be5d15b18a2aac8ff8a77bb34a1e834a69d40de4d988ac0617b 10915 r-cran-shiny_1.1.0+dfsg-3_amd64.buildinfo
+Files:
+ 8c2dd235c2cc67a6fdfd9876aadc9edc 2484 gnu-r optional r-cran-shiny_1.1.0+dfsg-3.dsc
+ 7aaef5594d82fb697a1f4d5e10f46b31 141220 gnu-r optional r-cran-shiny_1.1.0+dfsg-3.debian.tar.xz
+ 75eecb1c55a05c19c5380dbd60e8fe3e 10915 gnu-r optional r-cran-shiny_1.1.0+dfsg-3_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlvyXwkSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UIEIP/RKTpqBo1e2ds+Zy+GzmlK6tr3rEaZRy
+Fyn2jZrHqDrw3JU4HP0vvyVp5ikeXCrPtFVRbH891/vdJLERW8lBO3Xx5IGJzIFt
+TOtTbIxg9Zr9P2YRKGGhrijsXD1HqEINoKAIGK7SiqYiiv4atrJHshrHn5GdAJqr
+Cz5j2Ig5K1Vrrw+ZsZZR08+WhgPwkThHOxbKi18mLLaUv217ts4grQgSg5PWfOHv
+l515rK1ht0+TrW3KOZTPhGH4bqsGxrmqdt6J+xGmeZIMhcK/wF3ZRcreNI16HJXV
+LY4trSeLB889VyBYq53cTJRwxiTF7qaSsPyA8kqzByAsPB5ltir/4KFPyVlCyFn9
+eW6NpvT7RLoUZ3DoNblZUZQg5OTYNkEHIiv8RMkmnM7oPprAAcMe16AVxSvWozV1
+PiW5QQci6/Xz7NAxM//bfXBVYzaf3A9D+vlLjy37d19BP+i64obD0dbZqJbPEQdx
+YgSr4O42REEZLYQWs1FkGBiz7U1Qc40GbAeiFimXVmVSsn6Mt1N0K+V4puTXXGb6
+7Hc9LOwD9ThQRsPxLrOS+vuy/Yb5k98JxE9bBbgISgc88oG2BvgoNQS8Py7YFgME
+lAii108zi7bA2ZDel3ndseAnV0Gar6uYfKJgrh0EX+ugBEXr2C1GZABn1HisrIhD
+JAD2BZkGw8MZ
+=4VBl
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Mon Nov 19 07:21:05 2018
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Mon, 19 Nov 2018 07:21:05 +0000
+Subject: [R-pkg-team] Bug#913534: marked as done (r-cran-shiny FTBFS with
+ latest libjs-twitter-bootstrap-datepicker)
+References: <E1gOdqd-0009je-St@fasolo.debian.org>
+ <154197486566.22388.5396719288764056512.reportbug@localhost>
+Message-ID: <handler.913534.D913534.15426119991425.ackdone@bugs.debian.org>
+
+Your message dated Mon, 19 Nov 2018 07:19:55 +0000
+with message-id <E1gOdqd-0009je-St at fasolo.debian.org>
+and subject line Bug#913534: fixed in r-cran-shiny 1.1.0+dfsg-3
+has caused the Debian Bug report #913534,
+regarding r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+913534: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913534
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Adrian Bunk <bunk at debian.org>
+Subject: r-cran-shiny FTBFS with latest libjs-twitter-bootstrap-datepicker
+Date: Mon, 12 Nov 2018 00:21:05 +0200
+Size: 2307
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20181119/dd68ac46/attachment-0002.mht>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: =?utf-8?q?Dylan_A=C3=AFssi?= <daissi at debian.org>
+Subject: Bug#913534: fixed in r-cran-shiny 1.1.0+dfsg-3
+Date: Mon, 19 Nov 2018 07:19:55 +0000
+Size: 5390
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20181119/dd68ac46/attachment-0003.mht>
+
+From cadenillasordinola at gmail.com  Mon Nov 19 15:47:38 2018
+From: cadenillasordinola at gmail.com (Richard Cadenillas)
+Date: Mon, 19 Nov 2018 12:47:38 -0300
+Subject: [R-pkg-team] install ape error
+Message-ID: <16a0b549-af50-0cf7-ac48-2bd0367c4146@gmail.com>
+
+Dear APE team,
+
+May name is Richard Cadenillas, today I try to install APE, but I have 
+this problem, please let me know how to fix it.
+
+I use Ubuntu 18.04
+
+
+Error : object ‘warnErrList’ is not exported by 'namespace:utils'
+ERROR: lazy loading failed for package ‘BPEC’
+
+
+ > install.packages("ape", dependencies = TRUE)
+Installing package into ‘/home/richard/R/x86_64-pc-linux-gnu-library/3.4’
+(as ‘lib’ is unspecified)
+trying URL 'https://cloud.r-project.org/src/contrib/ape_5.2.tar.gz'
+Content type 'application/x-gzip' length 790069 bytes (771 KB)
+==================================================
+downloaded 771 KB
+
+* installing *source* package ‘ape’ ...
+** package ‘ape’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c BIONJ.c -o BIONJ.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c NNI.c -o NNI.o
+g++  -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c SPR.c -o SPR.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c TBR.c -o TBR.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c additive.c -o additive.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c ape.c -o ape.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c bNNI.c -o bNNI.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c bionjs.c -o bionjs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c bipartition.c -o bipartition.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c bitsplits.c -o bitsplits.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c delta_plot.c -o delta_plot.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c dist_dna.c -o dist_dna.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c dist_nodes.c -o dist_nodes.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c ewLasso.c -o ewLasso.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c heap.c -o heap.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c mat_expo.c -o mat_expo.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c me.c -o me.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c me_balanced.c -o me_balanced.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c me_ols.c -o me_ols.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c mvr.c -o mvr.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c mvrs.c -o mvrs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c nj.c -o nj.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c njs.c -o njs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c pic.c -o pic.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c plot_phylo.c -o plot_phylo.o
+g++  -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c prop_part.cpp -o prop_part.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c rTrait.c -o rTrait.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c read_dna.c -o read_dna.o
+g++  -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c reorder_Rcpp.cpp -o reorder_Rcpp.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c reorder_phylo.c -o reorder_phylo.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c treePop.c -o treePop.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c tree_build.c -o tree_build.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c tree_phylo.c -o tree_phylo.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c triangMtd.c -o triangMtd.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c triangMtds.c -o triangMtds.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG 
+-I"/home/richard/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include" -fpic  
+-g -O2 -fdebug-prefix-map=/build/r-base-AitvI6/r-base-3.4.4=. 
+-fstack-protector-strong -Wformat -Werror=format-security -Wdate-time 
+-D_FORTIFY_SOURCE=2 -g  -c ultrametric.c -o ultrametric.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o 
+ape.so BIONJ.o NNI.o RcppExports.o SPR.o TBR.o additive.o ape.o bNNI.o 
+bionjs.o bipartition.o bitsplits.o delta_plot.o dist_dna.o dist_nodes.o 
+ewLasso.o heap.o mat_expo.o me.o me_balanced.o me_ols.o mvr.o mvrs.o 
+nj.o njs.o pic.o plot_phylo.o prop_part.o rTrait.o read_dna.o 
+reorder_Rcpp.o reorder_phylo.o treePop.o tree_build.o tree_phylo.o 
+triangMtd.o triangMtds.o ultrametric.o -llapack -lblas -lgfortran -lm 
+-lquadmath -L/usr/lib/R/lib -lR
+installing to /home/richard/R/x86_64-pc-linux-gnu-library/3.4/ape/libs
+** R
+** data
+** inst
+** preparing package for lazy loading
+Error : object ‘warnErrList’ is not exported by 'namespace:utils'
+ERROR: lazy loading failed for package ‘ape’
+* removing ‘/home/richard/R/x86_64-pc-linux-gnu-library/3.4/ape’
+* restoring previous ‘/home/richard/R/x86_64-pc-linux-gnu-library/3.4/ape’
+Warning in install.packages :
+   installation of package ‘ape’ had non-zero exit status
+
+The downloaded source packages are in
+     ‘/tmp/Rtmpn6tuhY/downloaded_packages’
+
+
+
+From noreply at release.debian.org  Tue Nov 20 04:39:06 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 20 Nov 2018 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-cner is marked for autoremoval from testing
+Message-ID: <E1gOxoY-0002fa-4c@respighi.debian.org>
+
+r-bioc-cner 1.18.1+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Tue Nov 20 04:39:21 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Tue, 20 Nov 2018 04:39:21 +0000
+Subject: [R-pkg-team] r-bioc-pcamethods 1.74.0-1 MIGRATED to testing
+Message-ID: <E1gOxon-0002ot-QD@respighi.debian.org>
+
+FYI: The status of the r-bioc-pcamethods source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.72.0-1
+  Current version:  1.74.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Nov 21 04:39:12 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 21 Nov 2018 04:39:12 +0000
+Subject: [R-pkg-team] r-bioc-tfbstools 1.20.0+dfsg-1 MIGRATED to testing
+Message-ID: <E1gPKIC-0002Hx-Vn@respighi.debian.org>
+
+FYI: The status of the r-bioc-tfbstools source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.18.0+dfsg-1
+  Current version:  1.20.0+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From daissi at debian.org  Wed Nov 21 07:27:39 2018
+From: daissi at debian.org (Dylan =?UTF-8?Q?A=C3=AFssi?=)
+Date: Wed, 21 Nov 2018 08:27:39 +0100
+Subject: [R-pkg-team] Bug#913305: Bug#913305: r-bioc-s4vectors breaks
+ multiple autopkgtests
+In-Reply-To: <20181112122500.5m3oqnd6qdqdjeyw@an3as.eu>
+References: <20181109131709.un7yu56e45c45x6f@an3as.eu>
+ <98145f05-9d46-0279-5444-bfb2c92fd67a@debian.org>
+ <707e5d18-8bc8-630c-bdc4-fec1bf97fb43@debian.org>
+ <9d67eb58-2896-e559-9bc9-63d2255150cd@debian.org>
+ <CA+6XHwR-nFDOmUPZbB6KkY9xF9MDKaVz6+2mz5deUgnXsOJhXg@mail.gmail.com>
+ <20181112122500.5m3oqnd6qdqdjeyw@an3as.eu>
+ <98145f05-9d46-0279-5444-bfb2c92fd67a@debian.org>
+Message-ID: <CA+6XHwR3Z+L4WEcmEYTHt3K-L7g_UHC5=CmXpp3eAc7MmXnVHw@mail.gmail.com>
+
+Hi,
+
+Le lun. 12 nov. 2018 à 13:25, Andreas Tille <tille at debian.org> a écrit :
+>
+> On Mon, Nov 12, 2018 at 11:07:36AM +0100, Dylan Aďssi wrote:
+> >
+> > As it's not recommended mixing BioC packages from different BioC
+> > releases, maybe we can introduce (for next BioC release?) a mechanism
+> > similar to the virtual r-api-3.5 package i.e. r-api-bioc-3.8 (provided
+> > by r-bioc-biocgenerics).
+>
+> I think that's a pretty sensible solution and if you don't mind we could
+> add this even to this BioC release.  It might involve dh-r hacking
+> thought.
+
+I have implemented it into dh-r [1]. As I am not very confident with
+my perl skills, it would be nice if someone could check if there is no
+big mistake.
+I have tested those changes to build some packages and it works. So, I
+will start to deploy this in the next days.
+
+Best,
+Dylan
+
+[1] https://salsa.debian.org/r-pkg-team/dh-r/merge_requests/1/diffs
+
+
+From williamjohnson48571 at yahoo.com  Wed Nov 21 12:14:11 2018
+From: williamjohnson48571 at yahoo.com (Lumir)
+Date: Wed, 21 Nov 2018 12:14:11 +0000 (UTC)
+Subject: [R-pkg-team] BEL VALVES GROUP INT'L Uk
+References: <1247838369.725238.1542802451362.ref@mail.yahoo.com>
+Message-ID: <1247838369.725238.1542802451362@mail.yahoo.com>
+
+
+
+I am Maria lumar Adee the Financial Controller BEL VALVES GROUP INT'L Uk.
+We are currently preparing the final lists of staff due for
+retirement in our entire branches and each of them are
+entitled to the sum of £800,000 GB Pounds Gratuity/Payoff
+Allow me to include your name in the pay roll
+and get paid within 5 business days,as i find a modality
+to make it work.
+
+If you are interested contact me with my private email( lumirlumir005 at gmail.com), quickly get back to me for more details,you will offer me 60% (£480,000 GB Pounds) of the money as soon as it gets into your custody while you take 40% (£320,000 GB Pounds).I crave for your sincere corporation
+
+as i await your response here.
+
+Best wishes,
+Maria lumar Adee
+FINANCIAL CONTROLLER.
+BEL VALVES GROUP INT'L.
+ lumirlumir005 at gmail.com
+
+
+From noreply at release.debian.org  Thu Nov 22 04:39:03 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Thu, 22 Nov 2018 04:39:03 +0000
+Subject: [R-pkg-team] r-bioc-tfbstools is marked for autoremoval from testing
+Message-ID: <E1gPglb-0008Fg-Dw@respighi.debian.org>
+
+r-bioc-tfbstools 1.20.0+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From ftpmaster at ftp-master.debian.org  Thu Nov 22 06:45:33 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 22 Nov 2018 06:45:33 +0000
+Subject: [R-pkg-team] Processing of r-cran-sjmisc_2.7.6-1_source.changes
+Message-ID: <E1gPik1-0002sx-Om@usper.debian.org>
+
+r-cran-sjmisc_2.7.6-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-sjmisc_2.7.6-1.dsc
+  r-cran-sjmisc_2.7.6.orig.tar.gz
+  r-cran-sjmisc_2.7.6-1.debian.tar.xz
+  r-cran-sjmisc_2.7.6-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Nov 22 06:57:15 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 22 Nov 2018 06:57:15 +0000
+Subject: [R-pkg-team] r-cran-sjmisc_2.7.6-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gPivL-000Fqj-RK@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 22 Nov 2018 07:24:47 +0100
+Source: r-cran-sjmisc
+Binary: r-cran-sjmisc
+Architecture: source
+Version: 2.7.6-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-cran-sjmisc - GNU R data and variable transformation functions
+Changes:
+ r-cran-sjmisc (2.7.6-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+Checksums-Sha1:
+ 75f09d9c662b97cadd96feab6d5ec3eb94dc9f21 2228 r-cran-sjmisc_2.7.6-1.dsc
+ 0abb062754b560c1031d50c9c4f546d4e43ab307 199341 r-cran-sjmisc_2.7.6.orig.tar.gz
+ 293567919ac578e7ac798242e5a7da8bad8b03ff 1844 r-cran-sjmisc_2.7.6-1.debian.tar.xz
+ d1b415566ef2247048848861f3a05bb64e941ba3 10297 r-cran-sjmisc_2.7.6-1_amd64.buildinfo
+Checksums-Sha256:
+ 9ad3289da812d501a9b76e5c9d8b5ac6e4bd70e8dbfe685e7a1eff31425cdea0 2228 r-cran-sjmisc_2.7.6-1.dsc
+ 350ae632420b25afd44e946288e5948f9aa731c427ee2e47566d5e39e38b19ca 199341 r-cran-sjmisc_2.7.6.orig.tar.gz
+ 6155b9bdd8e710183ed5b843ff845925300b0dc412e85fdbd9b71d1056630331 1844 r-cran-sjmisc_2.7.6-1.debian.tar.xz
+ e6a96e5a797fa3b7c1a246d39999a1af6c81e49371ec57521bd1747cf6f74331 10297 r-cran-sjmisc_2.7.6-1_amd64.buildinfo
+Files:
+ a4729b35c053c6f0197fd482c5049a3c 2228 gnu-r optional r-cran-sjmisc_2.7.6-1.dsc
+ b786199004e0de14f14b7d3b0c6b8b4d 199341 gnu-r optional r-cran-sjmisc_2.7.6.orig.tar.gz
+ de6fa8b786d9694521d5313f9436e70b 1844 gnu-r optional r-cran-sjmisc_2.7.6-1.debian.tar.xz
+ f766de8a9d25a649a0857b9eb3e44889 10297 gnu-r optional r-cran-sjmisc_2.7.6-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv2TkISHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UuI0P/28IqZzD29q7IFT4KwdCuTW3iLWte/id
+MxCTBNHl0/HMo0PfUz6+ZfROYU2crUPhjKNaD9G3hRLVnPKw9w7FTkPtY3qFbRge
+VMRCvu3uMNVwtNx7BDL2L2DgrHR9ouvdTBaC6DPWVC1u1PFkWhljoyvB2/b37s5I
+LGrvlCKSkhguIMsNqJkHiuG+LKk+PUvK6Q5TeyVr0G1+9reAz7YnzGNA+4ajeURa
+vw2S7fA76vC0yYKdDrmrE2Zz7K3WnyZP6kqZUgx+Fa0nJ2KB/gwOc7rrfaV21+ec
+lL7Jent+K3884K7JU8CPSk9EBKiaxvWtefbNiSmzWDeu0XP6sSmdkqZFcaWIAXyM
+rbkEt3LcgB02DgXXwzwIpIqIjLSyvceCMhzpHoVPCKkVwfynfwWPg3wFNkxXGrwP
+DQenzl8SLr0wM2MYtwSAr/FZUDv1FAcB82/yzPtNfLPb6rIfnx9dwqnusiC0ybjQ
+lgMRQ+yGmHGckvAnGjUglKKwvNXGzfF/F18ey55g8JOVd6U0xDv5jz5tcpX9P7nj
+8dsgvhggqW6hrShQI7DVgm4xq+Q2SXixgmLYZh+/y+e1h7O35ZIjslunv4LUi6Gg
+558OhYfppyFpmMDfgKvDeGVnjk2znaE1uBbZDaXTLcreADRH6Bc8LRGlgBaXfhhT
+DwLyVSzrf2Og
+=vmbS
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Thu Nov 22 07:00:39 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 22 Nov 2018 07:00:39 +0000
+Subject: [R-pkg-team] Processing of r-cran-sjstats_0.17.2-1_source.changes
+Message-ID: <E1gPiyd-0003gU-LW@usper.debian.org>
+
+r-cran-sjstats_0.17.2-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-sjstats_0.17.2-1.dsc
+  r-cran-sjstats_0.17.2.orig.tar.gz
+  r-cran-sjstats_0.17.2-1.debian.tar.xz
+  r-cran-sjstats_0.17.2-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Nov 22 07:25:44 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 22 Nov 2018 07:25:44 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-spatstat.utils_1.13-0-1_source.changes
+Message-ID: <E1gPjMu-000502-0q@usper.debian.org>
+
+r-cran-spatstat.utils_1.13-0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-spatstat.utils_1.13-0-1.dsc
+  r-cran-spatstat.utils_1.13-0.orig.tar.gz
+  r-cran-spatstat.utils_1.13-0-1.debian.tar.xz
+  r-cran-spatstat.utils_1.13-0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Nov 22 09:00:12 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 22 Nov 2018 09:00:12 +0000
+Subject: [R-pkg-team] r-cran-sjstats_0.17.2-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gPkqK-0000lM-3C@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 22 Nov 2018 07:36:42 +0100
+Source: r-cran-sjstats
+Binary: r-cran-sjstats
+Architecture: source
+Version: 0.17.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-cran-sjstats - GNU R collection of convenient functions for statistical computat
+Changes:
+ r-cran-sjstats (0.17.2-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * dh-update-R to update Build-Depends
+Checksums-Sha1:
+ fbe7de33451406a098e7026f630042a1deb3a020 2358 r-cran-sjstats_0.17.2-1.dsc
+ 92eb9b9a15db917bc907224567be3f7310ab511c 395942 r-cran-sjstats_0.17.2.orig.tar.gz
+ b48b14d6e374efe5259fbce14cf88b8fd5c5c78b 2264 r-cran-sjstats_0.17.2-1.debian.tar.xz
+ 899f8d5c1834df4ac1738bb90d6229485dd69879 11442 r-cran-sjstats_0.17.2-1_amd64.buildinfo
+Checksums-Sha256:
+ fdcae57b7c3a8ad57a19b3526610cda10f895ac023c30e414283400844424aa9 2358 r-cran-sjstats_0.17.2-1.dsc
+ 99081819731da4c6da3ef7e20b335f5e9e47b5f3413e7021f539e5637719ef30 395942 r-cran-sjstats_0.17.2.orig.tar.gz
+ cbedc7a2c1f9e0c33473044d8bc405898523cf2297a8d19f1432772e5be48aa7 2264 r-cran-sjstats_0.17.2-1.debian.tar.xz
+ 5386c33081fb0a3e1506d7e3eba45546a57947042a68c8bd86ed60e6db423e06 11442 r-cran-sjstats_0.17.2-1_amd64.buildinfo
+Files:
+ cceeea3ff460693ef208c47f4f7566d5 2358 gnu-r optional r-cran-sjstats_0.17.2-1.dsc
+ 4b1a52ee226ec35566e896650e7ed389 395942 gnu-r optional r-cran-sjstats_0.17.2.orig.tar.gz
+ 918f977e094a1b845ea882b85c94580d 2264 gnu-r optional r-cran-sjstats_0.17.2-1.debian.tar.xz
+ ac19017c569cc839441a1caa7d549f5a 11442 gnu-r optional r-cran-sjstats_0.17.2-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv2UpoSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UiJwP/0uhcqgpzAJDW5BGUPR2VSf7cpGIllgu
+iycKr1Kcy5thAM7qfrCXqrVg/5Sxxb5OB5sEWL6kWnWs+2DzRV+daMzQhhZ8dwhC
+acaCvGqPo9BJny57LIjhUd70dCZJ5ijaQrH6RJhV5Ar+h6t27vrRORForZa1MB7I
+AMO/5U/vTmahEa1BhzOac3B3p7f9ZZWXaa5aXwqH4Z63TiXSxv3/1E16j0kfSycz
+aTFdMtA+hMJeITieE15jJ9Pjq0wXQVOMMl+PiQXO2p/vdDJW9oR+ebY7DtC4ywU5
+cIQVMprjE2+l9W/Wm6WqCwyNw+f1bbARLw/tzSBqmeyMQv4B/27QjNSDupthatPq
+gjo1LfvVCeScd3FdtQbeaXjpl6Mii5E/segY6VMN0wDizu62XnOUJmEN4YYPSDW/
+l5QHBWNDTi+r2WQmGldXdKkWUhdIyo5H4DWAScIEdu5JNb4Kqn+vhJbtSBpJyZbG
+wg5HUL5E/DpYQrJf+MMVzvyylIrNGu/c0RFPV9SH6bxoVcjfgVxwBa/SKD/fp2F1
+3ZA/ZJnAnLbZHkG5iABe2dPA83AULvWTBMIQ4aVWQAfh1sTNetqklgp7hdXohl+R
+SuH0lMwr3gGgYyETotgHG7f/LJO21DvPMso77i33nlbcFNCFsa1ndkWGkkXtNQJu
+WEmNO4SrWx71
+=jtut
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Thu Nov 22 09:00:21 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 22 Nov 2018 09:00:21 +0000
+Subject: [R-pkg-team] r-cran-spatstat.utils_1.13-0-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1gPkqT-0000ml-8A@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Thu, 22 Nov 2018 07:58:47 +0100
+Source: r-cran-spatstat.utils
+Binary: r-cran-spatstat.utils
+Architecture: source
+Version: 1.13-0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-cran-spatstat.utils - GNU R utility functions for r-cran-spatstat
+Changes:
+ r-cran-spatstat.utils (1.13-0-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+Checksums-Sha1:
+ a2c103ecca6b8f83637ab7f27841007243bcb318 2130 r-cran-spatstat.utils_1.13-0-1.dsc
+ ee0185997c8281ea937c5b91ee57a5a8d517a751 65106 r-cran-spatstat.utils_1.13-0.orig.tar.gz
+ 4c82622e7b8c6db26bb36402e5f8381c2d428e92 1856 r-cran-spatstat.utils_1.13-0-1.debian.tar.xz
+ 3aa5a173cf965bd99c42d127f93777e998967a62 9552 r-cran-spatstat.utils_1.13-0-1_amd64.buildinfo
+Checksums-Sha256:
+ 22afdc027d4afa381976dc38b89a7cf6e1a0091d0a5484be70859ef2445e4850 2130 r-cran-spatstat.utils_1.13-0-1.dsc
+ 81a26d2e1542b8de241512b4c0d267d039847415415c2d9c2e7fd7eac48a3272 65106 r-cran-spatstat.utils_1.13-0.orig.tar.gz
+ f78baad7165f91e3a6dc8b8687d6daebe930f41a1b5f9733eb79f5de8a7870ad 1856 r-cran-spatstat.utils_1.13-0-1.debian.tar.xz
+ 2bc7f8c393b943a604deb8147f0ed7dfadf8ddb4be7561f10292e10dac550789 9552 r-cran-spatstat.utils_1.13-0-1_amd64.buildinfo
+Files:
+ dfdf67c2568706c596c2738a8246527a 2130 gnu-r optional r-cran-spatstat.utils_1.13-0-1.dsc
+ 3a8dccc54e02296259ebb1e95a10980b 65106 gnu-r optional r-cran-spatstat.utils_1.13-0.orig.tar.gz
+ cfbebd5ec6d35f17b5cd1665ac697cec 1856 gnu-r optional r-cran-spatstat.utils_1.13-0-1.debian.tar.xz
+ 5aafd2a17c5ec39944af1ffdb48fb6df 9552 gnu-r optional r-cran-spatstat.utils_1.13-0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv2WBgSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UV2gP/RZ2+J4J6QCVKB2iJ0SQ/IcpYVMS044H
+NhVX7YsyZU6nR8qKYcWLPYKhKA3CzvBqevZ0TgdB5MJh+f0FKlJVIQCfOB8CAde7
+lkimcnvY3ahDSBjLy++vMdi5eLD0LgWIxWJYXwXK7aycZEXjKFDz8Vu3XbiBd1es
+R0UaL7wLeA8dkQb/+/ihoeQbaUtIjzjijJQHihYIacKq3Ux/JlJYuhnAXcFx/FQ8
+THhSrWzd8c4n8/RA43DbFkGxa53zz7HODmHohbPwdamFrIzeFChyupB8V92+L2Zi
+mvx7oYh/AMxy6B99ekAbcsHSL1NwixPd7hI9eepUuPkzwp88yXxlukGd0n3xfsbt
+DhYWxMj+ac27WcHlL5bH2HJ8d+y7A5OGK9IXxbIMX5Zjq4pLxOC9Mf3ZLakF3Vlw
+CWFwSFYEyI9FQbU5IiXnYTZFrHnXx64zHRD70c7xOH9i/qRaPZsyh3eb1sgRw/4A
+CfvopWZt3LJqWb+ELkV8xL1x/dz15uAyGnywjyofor3bN4N7LIPqn/Y5Q9zrhs4X
+C4twGs4d07W0SQHH5rkAPIBBaKsHk+3FvHd+FTIeRcVww453ymuu1qdnOvDPaog2
+5ezLH1Uonyw7E7K9iSQNpNtyN4aazbpmNehC0rVvcrJx5gJmlTSpTjEabq2+DVk0
+gc55OrnFj8IJ
+=uf0T
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From noreply at release.debian.org  Fri Nov 23 04:39:24 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 23 Nov 2018 04:39:24 +0000
+Subject: [R-pkg-team] r-bioc-ensembldb 2.6.2+dfsg-1 MIGRATED to testing
+Message-ID: <E1gQ3FU-0005fI-AJ@respighi.debian.org>
+
+FYI: The status of the r-bioc-ensembldb source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.6.1+dfsg-1
+  Current version:  2.6.2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 23 06:55:42 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 23 Nov 2018 06:55:42 +0000
+Subject: [R-pkg-team] Processing of dh-r_20181123_source.changes
+Message-ID: <E1gQ5NO-0001Xh-Rx@usper.debian.org>
+
+dh-r_20181123_source.changes uploaded successfully to localhost
+along with the files:
+  dh-r_20181123.dsc
+  dh-r_20181123.tar.xz
+  dh-r_20181123_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 23 07:04:55 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 23 Nov 2018 07:04:55 +0000
+Subject: [R-pkg-team] dh-r_20181123_source.changes ACCEPTED into unstable
+Message-ID: <E1gQ5WJ-000FKL-Tp@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 23 Nov 2018 07:42:57 +0100
+Source: dh-r
+Binary: dh-r pkg-r-autopkgtest
+Architecture: source
+Version: 20181123
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ dh-r       - Debian helper tools for packaging R libraries
+ pkg-r-autopkgtest - Script for the automatic testing of R packages
+Changes:
+ dh-r (20181123) unstable; urgency=medium
+ .
+   * Team upload
+ .
+   [ Andreas Tille ]
+   * Detect LGPL-2+
+ .
+   [ Dylan Aïssi ]
+   * Add initial support of virtual r-api-bioc-xxx package.
+      dh-r automatically add a virtual r-api-bioc-xxx into the provide field
+      of r-bioc-biocgenerics.
+      All other bioconductor packages will depend on this r-api-bioc-xxx to
+      ensure they come from the same bioconductor release.
+Checksums-Sha1:
+ 30880bb11ca884187adf027594d0d7cecf6ee121 1700 dh-r_20181123.dsc
+ 395d5bcd8fe4ea1468419ba1fa542890bb1d799d 33524 dh-r_20181123.tar.xz
+ 49e717051fc97a11b711ac4b6df8e032948620be 5627 dh-r_20181123_amd64.buildinfo
+Checksums-Sha256:
+ d10a20024b4696881a0e6ec350f92c5e4deecdb35f31405e265397b4024f69a4 1700 dh-r_20181123.dsc
+ 0b01a764ec315168a521b1513eb21a443aa19ee1801dfb1e1622e62d9b24a2fa 33524 dh-r_20181123.tar.xz
+ bb85f4411c9db3946b9778572d1cffbf5d5757441e3fbb995abee3a4270f6385 5627 dh-r_20181123_amd64.buildinfo
+Files:
+ 894853f87410f26ab9e8cadc90b8cacb 1700 science optional dh-r_20181123.dsc
+ 37ea2738ca9a888f0b72cc4c2c98e04c 33524 science optional dh-r_20181123.tar.xz
+ 13833ff68d12ec14ae239038a1def589 5627 science optional dh-r_20181123_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv3ovwSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UYccQAKBkwS/Zh6JjMVCxjCgSUpCZIwl0OyRD
+lKgtdWFHwY0NrH3RJOCKFIH7309o443Wv4AnMonJk9cUdXGErE9qKsemc4AwY5vv
+jKQ6IOa7ZFrYjVgm5R3865PK3Bs6rY7rav1igU3yyBYq4DzXUwdx2GqleGU3PsYm
+ZiEdsqZ1t4dZ1VHs1kz5LghQjswSG8IF8AANNUqlL4Gj66TC7YKXpGLEJqeEKSYS
+Cc1wpfcq6Sd2cnSiRlleRUBOE7l6rrP9I8RBZCJzFTaKv2p64G15y4zZ5gho4uSC
+ZRmStTN6CsIzWU5YlBw6CKpUSAgFdwy/h4OU3lG3AGMmCQAHT6n9PbLw+eXM/poR
+J6OtOume9yLaztavN/hyuR5uTqEl3NS9D6a9qvlfsZeVqjSsBE34SopXhWbhP4lY
+t/8a69w8nSuwEzddKWpXZQVX57sksW7hcFmuJ/i0vgutWirnSVp/VPDvHfcziHGE
+IXQc3TBapb3rNptpO6QG3fFs3Ia/BOkp9arayQRrtJccuDP253YVmFPS66k7bsmZ
+nVL0Kh1jpWYfwaqU7y1bEEhq8aK+QbhLoejLd6VObIg0ilEi5HfQy4Sb474ZUXni
+QvWP0r9z/N/0UaftM1xpyEsIPNGGZ0+JaWP0jogDbSL3uFQvDtzB4Y6LpVHo0Vzw
+1MxzpBEo+5cB
+=pQOs
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 23 07:05:50 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 23 Nov 2018 07:05:50 +0000
+Subject: [R-pkg-team] Processing of r-cran-spatstat_1.57-1-1_source.changes
+Message-ID: <E1gQ5XC-00024K-QV@usper.debian.org>
+
+r-cran-spatstat_1.57-1-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-spatstat_1.57-1-1.dsc
+  r-cran-spatstat_1.57-1.orig.tar.gz
+  r-cran-spatstat_1.57-1-1.debian.tar.xz
+  r-cran-spatstat_1.57-1-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 23 07:20:13 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 23 Nov 2018 07:20:13 +0000
+Subject: [R-pkg-team] r-cran-spatstat_1.57-1-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gQ5l7-000Hrs-6k@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 23 Nov 2018 07:33:15 +0100
+Source: r-cran-spatstat
+Binary: r-cran-spatstat
+Architecture: source
+Version: 1.57-1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-cran-spatstat - GNU R Spatial Point Pattern analysis, model-fitting, simulation,
+Changes:
+ r-cran-spatstat (1.57-1-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * Standards-Version: 4.2.1
+   * Remove trailing whitespace in debian/copyright
+Checksums-Sha1:
+ 1909b959399100e24f85d0536f5ddae15e2f8daf 2327 r-cran-spatstat_1.57-1-1.dsc
+ c060fc3cf95e7e543c0cb0b0521f444cdddd90e4 7026722 r-cran-spatstat_1.57-1.orig.tar.gz
+ 8b7fc35ad4e11b412c2cccc5f709b32e2207032e 4512 r-cran-spatstat_1.57-1-1.debian.tar.xz
+ 8d952be1c6778e36216e052ef3b9fb0fce001144 9884 r-cran-spatstat_1.57-1-1_amd64.buildinfo
+Checksums-Sha256:
+ f6abbf587f474b82a746778cc57676d12d6e6a682796f8b3d863d40162bd7d22 2327 r-cran-spatstat_1.57-1-1.dsc
+ 79ffe4bde48c5e196dedc4347deccb4daa6703d72672c851a9e24af18a81fcd6 7026722 r-cran-spatstat_1.57-1.orig.tar.gz
+ a49a40c239239510e269848235803f1768ae15503f5b3367d7843a7722f6b76f 4512 r-cran-spatstat_1.57-1-1.debian.tar.xz
+ 33f2e853e3dd1ae027a9049f96da770c18b4e6b78a49f43b177d60b3956007c9 9884 r-cran-spatstat_1.57-1-1_amd64.buildinfo
+Files:
+ 6ec96bb82e9705b7cef164310d16f370 2327 gnu-r optional r-cran-spatstat_1.57-1-1.dsc
+ e67cb3e5d188ead03c6461872270cf03 7026722 gnu-r optional r-cran-spatstat_1.57-1.orig.tar.gz
+ b2334d971c07f38ab8cedb96c14a2b6c 4512 gnu-r optional r-cran-spatstat_1.57-1-1.debian.tar.xz
+ 6dc111e60ced2f2b3ad74bf641fb6e7b 9884 gnu-r optional r-cran-spatstat_1.57-1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv3pR0SHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UfFIP/iYeV8XeouB2sj9HvqGfuZKn/FRLwaIe
+ZBWMynvXSeamW0fxZ165jum262mFxFXp8KqgI7+YDjrP81oQTnS5ibYysV/H/p12
+Lo3ydQcDX6vdmKvZ4OO1EqOOYIS6SjYkzGpqaHmXdTk43mh4RJ9upon6LOb74EyG
++ySJBa7/MzbiTbjSaSLIEvqMQ5fvvgeALM0HX3ydECUISLmvq0hniHCFVuu26I1X
+HrTsuRr0bzs+kdyzKpJ3w+gmxWhEdQDdjN1DBEm+vd7qYULPWkBaFKk+pHRnx5bI
+KjEkjCF5NKo5m+HQlEfKbow9/TqVNmZ/m6FbpYIRcAMR6K3+E8gZhnSFZ7zNG+IO
+p1tFyYu3CWWxWd7S3EPR/NjUknFqlOK3/NbIxajjMxsNWhQJHGFtN6XYS57koYDp
+YdufdHiEnYoSbXRkgiTwiA6J5oVGbOlvZL0TA53ZB64t8dmTnE6wbXyASOwNPEAZ
+nm/z22rH3RrHUmQIszoIwjGu8bZCOX20Em4dGdJmD2Hlryw8qqHBDBBTv3WVSXFF
++peF+NXECQPbZw8Veo24dpWHpg0tVYaZmkqd8gvIOPMcKTOPGq35KTPvBf3cMOf3
+Ik45KcoS8bqhd6KWwOUWtri1K1FwVSeT1SEfs/S3Ua2XRnBERxefNxHWoyAUtdNK
+bb6HTZXa3qGu
+=qJZ4
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 23 07:20:56 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 23 Nov 2018 07:20:56 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-biocgenerics_0.28.0-2_source.changes
+Message-ID: <E1gQ5lo-0002rK-EL@usper.debian.org>
+
+r-bioc-biocgenerics_0.28.0-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-biocgenerics_0.28.0-2.dsc
+  r-bioc-biocgenerics_0.28.0-2.debian.tar.xz
+  r-bioc-biocgenerics_0.28.0-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 23 07:49:45 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 23 Nov 2018 07:49:45 +0000
+Subject: [R-pkg-team] r-bioc-biocgenerics_0.28.0-2_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1gQ6Dh-0002As-Iq@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 23 Nov 2018 08:02:16 +0100
+Source: r-bioc-biocgenerics
+Binary: r-bioc-biocgenerics
+Architecture: source
+Version: 0.28.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-bioc-biocgenerics - generic functions for Bioconductor
+Changes:
+ r-bioc-biocgenerics (0.28.0-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Add Provides: ${R:Provides} to get r-api-bioc-xxx from dh-r.
+   * Add build-depends to dh-r (>= 20181123) to ensure to be built
+      with a dh-r version which support r-api-bioc.
+Checksums-Sha1:
+ 3795c22febdbaaf0908cd2b37d78489e86a5a3e3 2153 r-bioc-biocgenerics_0.28.0-2.dsc
+ ba5e792add1948f791268d5b94d4dfd6bb35e858 5668 r-bioc-biocgenerics_0.28.0-2.debian.tar.xz
+ 325e7df0d8587e1e3119b0959f694ae18ee1c7df 9219 r-bioc-biocgenerics_0.28.0-2_amd64.buildinfo
+Checksums-Sha256:
+ 7939f927cb4736faedbf950595b5fcb7866a9f7c625f4f0b324849e5a9ba6492 2153 r-bioc-biocgenerics_0.28.0-2.dsc
+ 20a0cd0c1091da0d682f1a257dc1d19cecf55591426e3b8c52dd6d637743cbe6 5668 r-bioc-biocgenerics_0.28.0-2.debian.tar.xz
+ 15f044028439005d37e40f5eee8ec1866ae229406596bcd41ca051c57bf8bf27 9219 r-bioc-biocgenerics_0.28.0-2_amd64.buildinfo
+Files:
+ 58a9036ccdc4eacc61c9dbc8c354d524 2153 gnu-r optional r-bioc-biocgenerics_0.28.0-2.dsc
+ 92959d538b797f58a60ccb77892ed927 5668 gnu-r optional r-bioc-biocgenerics_0.28.0-2.debian.tar.xz
+ 0510a6994b3256a3dc4db6caa54f1779 9219 gnu-r optional r-bioc-biocgenerics_0.28.0-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv3qD8SHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UmnAP/2Q/QLvRXLBsP7WyH2FF9ZdVjMkpe76i
+aMgcNtyqMZfw/Io04Dbx8cEQcNqaEDRXDMJ00qsKprkQP2xu8DI/YyGadg2s4mpl
+7P108C18bkwyyrPkkmP29LZzcnSrPkxsw2IliJIXm75IWmHPaIq30kVgB+z224Ci
+uBlV2LgSAA9JTnG5WSaMW7kDxLVBiIVGjeZSs/YCUal0SS8PP7D7vVKMAXxTvsLj
+FCceaIc1agJthvLN8XgzdUnUal4JcYfjIXux9uhJZS9SNtOgGGc5MReFX/T3T+QL
+R+XAxWfM3gl93a1ewpTbECzDFXF6ebdyXEZMWQyRsV+0CHR6Mj8RjHREmCWRdQAk
+wPZjD9sUCg4Jf4tXjx42EBQA5L76+d40ImkB1s04P7mrCHUbyDUOESMMWcvmwcj7
+CAC6IEQebxeMB3YW9aseQWfDwRBvqIAfCnxC4JpZWQcSailuxXoTYdXstGyEhnLR
+db1cyv0I+k6OmQjioJOB+aI6KWA4lcOnIUX0D6xI9A8fj5MWYDuvG4yH5sV7Fk0U
+7RD+VtAIlbh5wba56fqL1tAx6tJbEJ6F2VLwnX+4An4E40fKfdDjelu5fCtqT4Re
+04jS+mzi5GRi4IO9FqwxFpETu8rMh4x9tXLsr2Xxu9UejJcfjvxNEDrwoRjJsGi3
+BKYD1XMGNBSE
+=0xog
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From bintoudeme177 at yahoo.com  Fri Nov 23 09:33:32 2018
+From: bintoudeme177 at yahoo.com (Antolnette Gross)
+Date: Fri, 23 Nov 2018 09:33:32 +0000 (UTC)
+Subject: [R-pkg-team] Von Antoinette
+References: <1736370304.1579610.1542965612451.ref@mail.yahoo.com>
+Message-ID: <1736370304.1579610.1542965612451@mail.yahoo.com>
+
+
+
+Hallo mein Geliebter.
+
+Ich grüße dich mit dem Namen unseres Herrn Jesus Christus. Es ist wahr, dass dieser Brief als Überraschung zu dir kommen kann. Dennoch bitte ich Sie demütig, mir Ihre Aufmerksamkeit zu schenken und mich gut zu hören. Mein Name ist Frau Antonette Gross
+aus den Vereinigten Staaten von Amerika. Ich bin mit Mr. Anthony Gross verheiratet
+Er arbeitete im Jahr 2002 mit unserer Botschaft in Deutschland und arbeitete 16 Jahre lang in einer Botschaft in London, bevor er starb.
+
+Wir waren 25 Jahre ohne Kind verheiratet, bevor er nach kurzer Krankheit starb. Seit seinem Tod entschied ich mich aufgrund meines religiösen Glaubens nicht wieder zu heiraten. Als mein verstorbener Ehemann noch am Leben war, hinterlegte er eine Summe von 10.500.000 US-Dollar (zehn Millionen fünftausend US-Dollar amerikanischer Dollar) bei einer Bank hier in Amerika. Zurzeit befindet sich dieses Geld noch in der Obhut der Bank. Kürzlich sagte mir mein Doktor, dass ich wegen meiner Krebserkrankung für die nächsten vier Monate nicht durchhalten würde.
+
+Nachdem ich meinen Zustand gekannt habe, habe ich beschlossen, dieses Geld an Kirchen, Organisationen oder gute Menschen zu spenden, die dieses Geld nutzen werden, so wie ich es hier unterrichten werde.
+
+Ich möchte, dass Sie dieses Geld für Kirchen, Wohltätigkeitsorganisationen, Waisenhäuser, Witwen und andere Bedürftige verwenden. Ich habe diese Entscheidung getroffen, weil ich kein Kind habe, das dieses Geld erbt. Außerdem sind die Verwandten meines Mannes mir nicht nahe, da ich ein Krebsproblem habe und es ihr Wunsch war, mich tot zu sehen, um seinen Reichtum zu erben, da wir kein Kind haben. Diese Leute sind dieses Erbe nicht wert. Aus diesem Grund nehme ich die Entscheidung, dich zu kontaktieren und spende diesen Fond an dich, damit du ihn für die Wohltätigkeitsarbeit verwenden kannst.
+
+Sobald ich Ihre Antwort erhalten habe, werde ich Ihnen den Kontakt der Bank hier in den Vereinigten Staaten von Amerika geben, wo dieses Geld hinterlegt ist. Ich werde der Bank auch ein Bewilligungsschreiben ausstellen, das Ihnen den gegenwärtigen Begünstigten dieses Geldes beweisen wird. Ich möchte auch, dass du mich immer in deine Gebete bringst.
+
+Jede Verzögerung in Ihrer Antwort kann mir Raum geben, nach einem anderen guten Menschen zu diesem Zweck zu suchen. Bitte versichern Sie mir, dass Sie sich wie oben beschrieben verhalten werden.
+
+Danke und verbleibe gesegnet.
+
+Deine Schwester im Herrn,
+Frau Antonette Gross.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:06 2018
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sat, 24 Nov 2018 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-ensembldb is marked for autoremoval from testing
+Message-ID: <E1gQPik-0001ip-SG@respighi.debian.org>
+
+r-bioc-ensembldb 2.6.2+dfsg-1 is marked for autoremoval from testing on 2018-12-25
+
+It (build-)depends on packages with these RC bugs:
+913527: r-bioc-rtracklayer: r-bioc-rtracklayer FTBFS with r-bioc-s4vectors 0.20
+
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-dimred 0.2.2-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qQ-Lp@respighi.debian.org>
+
+FYI: The status of the r-cran-dimred source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.1.0-2
+  Current version:  0.2.2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-sjmisc 2.7.6-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qk-Sf@respighi.debian.org>
+
+FYI: The status of the r-cran-sjmisc source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.7.5-1
+  Current version:  2.7.6-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-biocmanager 1.30.4+dfsg-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qL-K5@respighi.debian.org>
+
+FYI: The status of the r-cran-biocmanager source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.30.3+dfsg-1
+  Current version:  1.30.4+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-spatstat.utils 1.13-0-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qu-Vt@respighi.debian.org>
+
+FYI: The status of the r-cran-spatstat.utils source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.12-0-1
+  Current version:  1.13-0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-bioc-genomeinfodb 1.18.1-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qG-IR@respighi.debian.org>
+
+FYI: The status of the r-bioc-genomeinfodb source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.18.0-1
+  Current version:  1.18.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shiny 1.1.0+dfsg-3 MIGRATED to testing
+Message-ID: <E1gQPis-0001qf-Qx@respighi.debian.org>
+
+FYI: The status of the r-cran-shiny source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1.0+dfsg-2
+  Current version:  1.1.0+dfsg-3
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-sjstats 0.17.2-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qp-UL@respighi.debian.org>
+
+FYI: The status of the r-cran-sjstats source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.17.1-1
+  Current version:  0.17.2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-epir 0.9-99-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qV-NK@respighi.debian.org>
+
+FYI: The status of the r-cran-epir source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.9-97-1
+  Current version:  0.9-99-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Nov 24 04:39:14 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 24 Nov 2018 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-roxygen2 6.1.1-1 MIGRATED to testing
+Message-ID: <E1gQPis-0001qa-PS@respighi.debian.org>
+
+FYI: The status of the r-cran-roxygen2 source package
+in Debian's testing distribution has changed.
+
+  Previous version: 6.1.0-1
+  Current version:  6.1.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 13:08:58 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 13:08:58 +0000
+Subject: [R-pkg-team] Processing of r-bioc-s4vectors_0.20.1-2_source.changes
+Message-ID: <E1gQXgA-0003C4-Ls@usper.debian.org>
+
+r-bioc-s4vectors_0.20.1-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-s4vectors_0.20.1-2.dsc
+  r-bioc-s4vectors_0.20.1-2.debian.tar.xz
+  r-bioc-s4vectors_0.20.1-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 13:21:21 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 13:21:21 +0000
+Subject: [R-pkg-team] r-bioc-s4vectors_0.20.1-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gQXs9-00089i-1L@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 24 Nov 2018 13:52:03 +0100
+Source: r-bioc-s4vectors
+Binary: r-bioc-s4vectors
+Architecture: source
+Version: 0.20.1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-bioc-s4vectors - BioConductor S4 implementation of vectors and lists
+Closes: 913305
+Changes:
+ r-bioc-s4vectors (0.20.1-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Bump version of broken packages. (Closes: #913305)
+      Breaks: r-bioc-genomicalignments (<< 1.18~)
+              r-bioc-iranges (<< 2.16~)
+              r-bioc-shortread (<< 1.40~)
+              r-bioc-variantannotation (<< 1.28~)
+Checksums-Sha1:
+ 546337989ed0c95dce1371aab2a85dc882020271 2177 r-bioc-s4vectors_0.20.1-2.dsc
+ 9db2102775352504efbf0169ff69d5a8e620eb32 4308 r-bioc-s4vectors_0.20.1-2.debian.tar.xz
+ 6cb9825a97c9c3efe84a634f793b785de08a06f7 9551 r-bioc-s4vectors_0.20.1-2_amd64.buildinfo
+Checksums-Sha256:
+ 4892aae21c1fbbaba086830fe72e1e6e0adb993df045b2180fa879eb2f3b1974 2177 r-bioc-s4vectors_0.20.1-2.dsc
+ b7276cfdc4fc4de56166944488ae6e03a309bacc8659d6144dcd3e1830fced47 4308 r-bioc-s4vectors_0.20.1-2.debian.tar.xz
+ c44f6171af06f939eefae584d4c0bb35dc68559f5cac80bae60b7512a07ece3b 9551 r-bioc-s4vectors_0.20.1-2_amd64.buildinfo
+Files:
+ 49f80cdc0987df04c771634b57a0e54d 2177 gnu-r optional r-bioc-s4vectors_0.20.1-2.dsc
+ 0bfd27c38a45e375fb063657cd3d5971 4308 gnu-r optional r-bioc-s4vectors_0.20.1-2.debian.tar.xz
+ 9909b8f8381bb2dbc9b6bf926ed29029 9551 gnu-r optional r-bioc-s4vectors_0.20.1-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv5SqwSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9UaIsP/1WeseU0/+qls7Hx3PjRd1/92fo3yxD3
+9tBoLIWeafvIknQIxZn1Cg1MyKqkDJbSDFKLeCPrz3qz6j70NzzSyvZSeKGXTMow
+V5JexNtPMj794omDocLeVxTEiCuuOAeLGPJ8bSj0pEYcRIpT6sdmrcQnyuOQihce
+9qrnNxk/kTRVZWCplPQBsYFhFNdtn6YspLRgFpGrQAAJfd3FuBUUViXIUH7klBpo
+nS1LLZJjjfgvZWDVr2RAHtL3n1XWrSXqMWGQrC24FXuLhhLmC2/40d4TzEN+VOQc
+0LuyCihg3ewTpN8f2yfjatPyANjz2GzTpLhJkYPnNb4biO+e6A25E3nVEtjahze2
+sThBdH3OR42btqF32uv4kL0k5hUjY2pfrh/Pu+dyznj0xWx9m8Xj78MGIMH9R9RF
+npP7vQhwEDoPIEL3edo+3lnFTA45KgDPJBsyJLWjaeZfUyfkgAtzRQXSwAB13jCk
+YaDstSJSaeV2Glbr/eY7Q1EEzUXPZ/HWWINFCgjt34iP1t/XKXTTWG90E37FrfI1
+ORZGOuAEsjd1PBkm8xEbzqx4+px8oeU0gtwcK8BvYSFpvlYAIPSZr0Xn7ciLnLSQ
+33mFOZPgRoyIrXeElLHvmA85Ac0SkhkVnJiFWYoqUCbB3Ukftk3cNbGfGreA7TYV
+5z8so9UU+czs
+=EIvq
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From owner at bugs.debian.org  Sat Nov 24 13:24:03 2018
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Sat, 24 Nov 2018 13:24:03 +0000
+Subject: [R-pkg-team] Bug#913305: marked as done (r-bioc-s4vectors breaks
+ multiple autopkgtests)
+References: <E1gQXs9-00089s-3d@fasolo.debian.org>
+ <98145f05-9d46-0279-5444-bfb2c92fd67a@debian.org>
+Message-ID: <handler.913305.D913305.154306568329675.ackdone@bugs.debian.org>
+
+Your message dated Sat, 24 Nov 2018 13:21:21 +0000
+with message-id <E1gQXs9-00089s-3d at fasolo.debian.org>
+and subject line Bug#913305: fixed in r-bioc-s4vectors 0.20.1-2
+has caused the Debian Bug report #913305,
+regarding r-bioc-s4vectors breaks multiple autopkgtests
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+913305: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=913305
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Paul Gevers <elbrus at debian.org>
+Subject: r-bioc-s4vectors breaks multiple autopkgtests
+Date: Fri, 9 Nov 2018 12:09:45 +0100
+Size: 10478
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20181124/c725c426/attachment.mht>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: =?utf-8?q?Dylan_A=C3=AFssi?= <daissi at debian.org>
+Subject: Bug#913305: fixed in r-bioc-s4vectors 0.20.1-2
+Date: Sat, 24 Nov 2018 13:21:21 +0000
+Size: 5503
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20181124/c725c426/attachment-0001.mht>
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 13:34:05 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 13:34:05 +0000
+Subject: [R-pkg-team] Processing of
+ r-bioc-variantannotation_1.28.2-1_source.changes
+Message-ID: <E1gQY4T-0004Vq-Gk@usper.debian.org>
+
+r-bioc-variantannotation_1.28.2-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-variantannotation_1.28.2-1.dsc
+  r-bioc-variantannotation_1.28.2.orig.tar.gz
+  r-bioc-variantannotation_1.28.2-1.debian.tar.xz
+  r-bioc-variantannotation_1.28.2-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 13:44:08 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 13:44:08 +0000
+Subject: [R-pkg-team] Processing of r-bioc-rbgl_1.58.1+dfsg-1_source.changes
+Message-ID: <E1gQYEC-00059n-BS@usper.debian.org>
+
+r-bioc-rbgl_1.58.1+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-rbgl_1.58.1+dfsg-1.dsc
+  r-bioc-rbgl_1.58.1+dfsg.orig.tar.xz
+  r-bioc-rbgl_1.58.1+dfsg-1.debian.tar.xz
+  r-bioc-rbgl_1.58.1+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 13:49:42 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 13:49:42 +0000
+Subject: [R-pkg-team] r-bioc-rbgl_1.58.1+dfsg-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gQYJa-000Ck8-Vh@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 24 Nov 2018 14:26:33 +0100
+Source: r-bioc-rbgl
+Binary: r-bioc-rbgl
+Architecture: source
+Version: 1.58.1+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-bioc-rbgl - R interface to the graph algorithms contained in the BOOST librar
+Changes:
+ r-bioc-rbgl (1.58.1+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+Checksums-Sha1:
+ d4f14390b1f503e3b1b38a19a8cdb9696269fcf7 2126 r-bioc-rbgl_1.58.1+dfsg-1.dsc
+ 9073018b8cf5c74724b531cc81a836c6c779acca 375388 r-bioc-rbgl_1.58.1+dfsg.orig.tar.xz
+ 0a209ca743d285d44b959d9cc6dd83c47d900eee 6744 r-bioc-rbgl_1.58.1+dfsg-1.debian.tar.xz
+ d4b18cc2f2f42ab458bb57fa7d45010d5c05f31d 9666 r-bioc-rbgl_1.58.1+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ 434e7e09255ac6f2950852936e3836d2d0f0272604efdc198ed44c54fdd4f100 2126 r-bioc-rbgl_1.58.1+dfsg-1.dsc
+ b739e77fdd74c9d8b31581ea230716b47371badf1d6ec8b5080b9c84217a599e 375388 r-bioc-rbgl_1.58.1+dfsg.orig.tar.xz
+ 03dafb27da8c1ca56443a889639d0b51ecfb0f76ad89e6a16ab77ac0e4f06248 6744 r-bioc-rbgl_1.58.1+dfsg-1.debian.tar.xz
+ eb584c2d75fcc59d7543d4166b6ebc40fe871a3ed5d3716aea09b4d42fc054cc 9666 r-bioc-rbgl_1.58.1+dfsg-1_amd64.buildinfo
+Files:
+ 4cff6142b4072bfab11f800fb2e35e3d 2126 gnu-r optional r-bioc-rbgl_1.58.1+dfsg-1.dsc
+ b2d42e74670bb9defdb7733545bb5925 375388 gnu-r optional r-bioc-rbgl_1.58.1+dfsg.orig.tar.xz
+ 26739f926686834750d94fe5107ffcaa 6744 gnu-r optional r-bioc-rbgl_1.58.1+dfsg-1.debian.tar.xz
+ a301d38f5efaaa5d0b156e216195c2c7 9666 gnu-r optional r-bioc-rbgl_1.58.1+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv5UzMSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9Ue9MQAKawZxQbpko1r2rP91Ni0Tkk4zLHNh5m
+jI98puDiFENsiz9lrcskDAFN9AOgvv8NgcWm2B3XqOzpaSGXt56ndJU0fZpTx8Vj
+yiXkcEUdpRRIBJha1xVW5AEZGqslwUrkJarcYg9xkYDIImJZDWo/xK1WwUX54pgP
+aEXGr8+P9AlAo0EYIbeMrv1PG5SvYWzikCSQ3HrXQR89P0rKeQusI0qUpU8QaAEP
+My13BHnMV0Yo8RuivB2621kluMyOCEMtkPUUqQ9mEnyT8khM+f3cfuHjsRX5eD1X
+zINOkvp+YbW2PdYwubNa5WjDJaGZ2YmdRiN7kZvfEB/FrOXhlEa349mhwzDTSNur
+d+yraSrm1IGi9QsPZc8KArwaIPOZ3IXAbaNZkPhrTOAjtbhxeEivBJXKaNfcSzlp
+s7tE4tAQoaXiNGaNi5QVtpfOAWrcnxuwtxyrekovW/Tg4MQs/ox6Yj3rybJ7t71U
+2SSxwopiW3awtDBbLARk/8jvIceXMFA/TGmk/sR8L0jlSA8eWDee2yNdOXm2aBcB
+aNwLXB3eQQ0+wwlGyxHOp6Te98TzBfNkdWfRPzGvr/AoD6GivEFBWRwf+XC40Q25
+PPrOuaHdrABrPYnzqkqdvyfgrzTRu57JTGDspwaJXZAC/oUWJVB+B61uGNWF4Rrq
+rKFcdRenJ0Zx
+=xkgM
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 13:49:54 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 13:49:54 +0000
+Subject: [R-pkg-team] r-bioc-variantannotation_1.28.2-1_source.changes
+ ACCEPTED into unstable
+Message-ID: <E1gQYJm-000CmX-CN@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 24 Nov 2018 14:00:25 +0100
+Source: r-bioc-variantannotation
+Binary: r-bioc-variantannotation
+Architecture: source
+Version: 1.28.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-bioc-variantannotation - BioConductor annotation of genetic variants
+Changes:
+ r-bioc-variantannotation (1.28.2-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * Remove trailing whitespace in debian/copyright
+Checksums-Sha1:
+ 58bf24bd4da1681ca48c68f08e9cb2c41a7e00bc 2683 r-bioc-variantannotation_1.28.2-1.dsc
+ 50c412e6f94c968c32ccb5a0140d04eb6e9b894a 1723261 r-bioc-variantannotation_1.28.2.orig.tar.gz
+ 8fe271831935f08b99050dd91948889cf1d12aa4 7708 r-bioc-variantannotation_1.28.2-1.debian.tar.xz
+ 9cf5cfc6203ad382df2b8fa75fae156c6b4bd8af 14399 r-bioc-variantannotation_1.28.2-1_amd64.buildinfo
+Checksums-Sha256:
+ fce93543feaeb293a0f67cc4207aae72fd75f9dda6a7859dadaf552ed88f45de 2683 r-bioc-variantannotation_1.28.2-1.dsc
+ fc6ffc2af7356bcc13b9e0b54d85f772b0bdd94ba971f29650d73b2636ec3076 1723261 r-bioc-variantannotation_1.28.2.orig.tar.gz
+ 94519a79a9d46106f058170cbd66989e7896386bdec6bd3ae690ec76d2846b17 7708 r-bioc-variantannotation_1.28.2-1.debian.tar.xz
+ a1ab37507988c9d30fe584265a7bfb9d16d298cec8de146d530f1c1206feb891 14399 r-bioc-variantannotation_1.28.2-1_amd64.buildinfo
+Files:
+ 37ce8e9b64ab698153f9fa449d75dfc2 2683 gnu-r optional r-bioc-variantannotation_1.28.2-1.dsc
+ de1f4a47a2b801be26ee0a64cc45cc82 1723261 gnu-r optional r-bioc-variantannotation_1.28.2.orig.tar.gz
+ 102290071b6d178862e523e6a6565232 7708 gnu-r optional r-bioc-variantannotation_1.28.2-1.debian.tar.xz
+ 5fdb3d333d40c046a48f71d3840a7451 14399 gnu-r optional r-bioc-variantannotation_1.28.2-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv5UIESHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9U5mwP/RzrWeQQ7uJy6rTvNYkwZ2y72DiGfefT
+kPfDsUUiPuNhEC+EDPbJYLyiIr0+U9XVYVDodswh3FTRndg5lWiFunne4CcB2kF9
+M3pyTdBR4ZnFQGCxo21LL3PwMm9QAxToD2pLptGiY7M8mlYk/QnT8Hz2qrNvgS2Y
+5SMUSgY+bCz0fCHS+8ulI7m6pZG3ssIauoT4E+7r3lJGfDdfEif9wdvJXK/YA4Si
+kV/Vz8KM3HXFAIwjRQsmGT+XYyUDH5l5bwUzmhpGlrl9Qy2YEUMGvTaqj8Z0AmxO
+88yCW2s+usaEZ3kbJ8ye1KbZzRH5W99CYr+NTQWSBvLYl6ZC8maFRwUuRcBR4LmM
+1Kg9V9DQER0v6SD/LH+i6qgC8Wwd2obl2W/UE9nfkQdsGrquZyiSI/q8PcLlMhKn
+k/4KCaYKQNIwnBXBr5VqMSms1mLgkDopg7UrgUQdMxUkTC5maXqq42jhn2/WTTvS
+OKFWHjW6ewwMU1akIhd4nQ4oRWw9y0s/w1Bbzjp8oMFxuN29OhJkKUvrkVyVoemX
+4dIC+213b8mArbDAW6HJeNUNC4NMQJZlGOBOXUzOiI+FgTId3pt4gsMqbhYssRy1
+UedGo38cdDzNP5KRnj4RoXkDJqSTQY5jS1j43SNzTj08NyrPxOHf3k77U6wRYCvT
+TG4gn9YRU3gu
+=aYFN
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 14:04:12 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 14:04:12 +0000
+Subject: [R-pkg-team] Processing of r-bioc-gviz_1.26.1-1_source.changes
+Message-ID: <E1gQYXc-0006I2-4W@usper.debian.org>
+
+r-bioc-gviz_1.26.1-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-gviz_1.26.1-1.dsc
+  r-bioc-gviz_1.26.1.orig.tar.gz
+  r-bioc-gviz_1.26.1-1.debian.tar.xz
+  r-bioc-gviz_1.26.1-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sat Nov 24 14:51:29 2018
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 24 Nov 2018 14:51:29 +0000
+Subject: [R-pkg-team] r-bioc-gviz_1.26.1-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1gQZHN-000BZD-Bv@fasolo.debian.org>
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 24 Nov 2018 14:38:10 +0100
+Source: r-bioc-gviz
+Binary: r-bioc-gviz
+Architecture: source
+Version: 1.26.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Dylan Aïssi <daissi at debian.org>
+Description:
+ r-bioc-gviz - Plotting data and annotation information along genomic coordinate
+Changes:
+ r-bioc-gviz (1.26.1-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+Checksums-Sha1:
+ c8d8bb8cac0f5c30a5d6ac25dfe1c4ac4a99247d 2609 r-bioc-gviz_1.26.1-1.dsc
+ 270945b108ef993fc2d1ac419d31cc64d77549f8 3475980 r-bioc-gviz_1.26.1.orig.tar.gz
+ 2582e627894289e2aa037ee90ed861ae950dae9c 6552 r-bioc-gviz_1.26.1-1.debian.tar.xz
+ 4be4b8e736945a9c67cbdf5afbead10f30d50fc4 13137 r-bioc-gviz_1.26.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 496195f9386e71a99e06a629122eceba99954744f2af4f2084af04d4265f45db 2609 r-bioc-gviz_1.26.1-1.dsc
+ b37c29e1b899555709f43ccc53a7311410be174bb3d6c4d6ecccd991f214d6dd 3475980 r-bioc-gviz_1.26.1.orig.tar.gz
+ bc4d2337a4fdbe31129807a3956d2d58ae8e1520c04b3a6b412e382f30c92077 6552 r-bioc-gviz_1.26.1-1.debian.tar.xz
+ b86a4e7e605b42ccd4fed017c360ddfff47a5fde16c9de22d69d03d90d61c541 13137 r-bioc-gviz_1.26.1-1_amd64.buildinfo
+Files:
+ 1e38ab1d7b7bc9208a24904ac6ed0aee 2609 gnu-r optional r-bioc-gviz_1.26.1-1.dsc
+ 80a60ef2dac6357d51cf3839d976df64 3475980 gnu-r optional r-bioc-gviz_1.26.1.orig.tar.gz
+ 1d5b6115954ab3aabaa6a666073c63c3 6552 gnu-r optional r-bioc-gviz_1.26.1-1.debian.tar.xz
+ 66b21582ccf5510973e0d5aab156a9ff 13137 gnu-r optional r-bioc-gviz_1.26.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEmjwHvQbeL0FugTpdYS7xYT4FD1QFAlv5V5QSHGRhaXNzaUBk
+ZWJpYW4ub3JnAAoJEGEu8WE+BQ9Uy0AQAKWl0RspRaU3jZSWuTYPo2/HELYdFOwG
+tRl2Tbd0K0PsSWw7wcs2Vu4bMGxm5rSuA2YnLli/At3i/6suP1pSLVuVOy0b0BBT
+Ej9a6buLXehseQqGpLdzim/KBn0BsiZWD1fe1l2g7v4J87F5u3GeYsoFfiBjXDzt
+wYjlCOMK7Kq6D+E7nbuUeKSDMc3vOfY/j/DNIPvr7C268vxKpPXy01AhdWgijFtq
+F2vfe46ZKTngmdxBqvCm6klKyKPdZECuVAWq1tDJ5A8Igtd248PBvDAs8tygrTCY
+DJB4ZvK125zQQew2DpfpC0NxzxNejCYfjqnv3eCW15niI4Ukjs8OAJ4zgsYXNJ1T
+OhgmMBUtwgGjg+81SXeKx6RFbXFqXej7bsfI9+nfmCJHxGa2XfgP674XtfjrBXdX
+7l6jhZzIWY3V2zZGYJcyxu3z+pvILB2L6YSm5ubc6VjrvZIWlmChoJPbSrCDbBgd
+CYFLChRsWlfyJfOvCCqHCMi7cey3kbHsIQqcMCnMBVX24rSUAu6/HVTe6NE+8kNx
++zNY/YM1knN4Gwt7N+nyWgcx/57NPMCjzcTmGGSfdN7M8+0hd9vWdhMjtJQOxgIL
+PWl/gk/9iMRABwDBzjykLtOpbxOmBO4hVy8st0HIRUSFLGG3SXtFiG8lE40N/Eyh
+jUxY5G5ML3NR
+=g77W
+-----END PGP SIGNATURE-----
+
+
+Thank you for your contribution to Debian.
+
+
+From noreply at release.debian.org  Sun Nov 25 04:39:20 2018
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sun, 25 Nov 2018 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-spatstat 1.57-1-1 MIGRATED to testing
+Message-ID: <E1gQmCW-0000CI-UZ@respighi.debian.org>
+
+FYI: The status of the r-cran-spatstat source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.56-1-1
+  Current version:  1.57-1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+

@@ -1,0 +1,2369 @@
+From andreas at an3as.eu  Wed Mar  1 08:15:49 2023
+From: andreas at an3as.eu (Andreas Tille)
+Date: Wed, 1 Mar 2023 09:15:49 +0100
+Subject: [R-pkg-team] r-cran-memisc_0.99.31.3+dfsg-1_amd64.changes
+ REJECTED
+In-Reply-To: <E1pX5JJ-00BATj-Se@fasolo.debian.org>
+References: <E1pX5JJ-00BATj-Se@fasolo.debian.org>
+Message-ID: <Y/8JtQa8waq9qOVD@an3as.eu>
+
+Control: forwarded -1 https://github.com/melff/memisc/issues/63
+
+Hi,
+
+Am Tue, Feb 28, 2023 at 07:06:49PM +0000 schrieb Thorsten Alteholz:
+> this package mixes software that is licensed under GPL-2 with software that is licensed under GPL-3+.
+> Please explain in your debian/copyright why this should be possible.
+> 
+> Thanks!
+>  Thorsten
+> 
+> [1] https://www.gnu.org/licenses/gpl-faq.html#AllCompatibility
+
+I've forwarded this question upstream[1].
+
+Kind regards
+     Andreas.
+
+[1] https://github.com/melff/memisc/issues/63
+
+-- 
+http://fam-tille.de
+
+
+From ftpmaster at ftp-master.debian.org  Wed Mar  1 11:05:40 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 01 Mar 2023 11:05:40 +0000
+Subject: [R-pkg-team] Processing of r-cran-rslurm_0.6.2+dfsg-1_source.changes
+Message-ID: <E1pXKHE-004gyx-UU@usper.debian.org>
+
+r-cran-rslurm_0.6.2+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rslurm_0.6.2+dfsg-1.dsc
+  r-cran-rslurm_0.6.2+dfsg.orig.tar.xz
+  r-cran-rslurm_0.6.2+dfsg-1.debian.tar.xz
+  r-cran-rslurm_0.6.2+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Mar  1 11:15:49 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 01 Mar 2023 11:15:49 +0000
+Subject: [R-pkg-team] Processing of
+ r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_source.changes
+Message-ID: <E1pXKR3-004hU7-LY@usper.debian.org>
+
+r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.dsc
+  r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg.orig.tar.xz
+  r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.debian.tar.xz
+  r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Mar  1 11:22:20 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 01 Mar 2023 11:22:20 +0000
+Subject: [R-pkg-team] r-cran-rslurm_0.6.2+dfsg-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1pXKXM-00Euca-8H@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 01 Mar 2023 11:55:31 +0100
+Source: r-cran-rslurm
+Architecture: source
+Version: 0.6.2+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-cran-rslurm (0.6.2+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * Standards-Version: 4.6.2 (routine-update)
+   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+Checksums-Sha1:
+ 3266edc010f756c2294867a28737af780f4225fa 2142 r-cran-rslurm_0.6.2+dfsg-1.dsc
+ a70c767a66a7d7fe7d78abe3815e96b25a3932c1 92804 r-cran-rslurm_0.6.2+dfsg.orig.tar.xz
+ d5cd9d274759a747716e16153447818a411e84ae 2616 r-cran-rslurm_0.6.2+dfsg-1.debian.tar.xz
+ ee2e55a7574bd03af0e6afe61a372e4c7e336c31 10790 r-cran-rslurm_0.6.2+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ cc0769c9ad92d5a79db2d1808e01279ed2a084e2a8aa9afb41be89a4c3fe469d 2142 r-cran-rslurm_0.6.2+dfsg-1.dsc
+ 30f4a274c63f86f35e89563261eb70c96b8348f1a3dedc71eda14eb358407f47 92804 r-cran-rslurm_0.6.2+dfsg.orig.tar.xz
+ cceba159a33d005ec2e05c41909c6fd27f052f2ad332ab8094a089b3cfb38328 2616 r-cran-rslurm_0.6.2+dfsg-1.debian.tar.xz
+ 5262102cc25a5a43d7dc5076095decc8eca77e75f7f74b1c2ca16d7bc760e953 10790 r-cran-rslurm_0.6.2+dfsg-1_amd64.buildinfo
+Files:
+ 9197513f0eebe0aeac062e7855b0b2f1 2142 gnu-r optional r-cran-rslurm_0.6.2+dfsg-1.dsc
+ b3450bfebc85db4460d54a984a26e60a 92804 gnu-r optional r-cran-rslurm_0.6.2+dfsg.orig.tar.xz
+ 5a06b57d7e1b349b007ebd9eda841df2 2616 gnu-r optional r-cran-rslurm_0.6.2+dfsg-1.debian.tar.xz
+ 7b80f4d9ebdfd2db9f45849fa7194a56 10790 gnu-r optional r-cran-rslurm_0.6.2+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmP/L+QRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtFV2Q/9ExjDsMUMdvmqZww2gyMQsKsP+C4GQxbs
+tA1mqqQKgIxFWrM6CBimFNDHDWGPmQPyW6y7izK4EyFRPXZS8TEl72+VbxMeFtCg
+qO8ihNUl24rfD9R7o87u2EL4Q/1xmYmNxKDu9kY3Ajg+Oo4Hz4CzE3ktLTLfilch
+eKNPz/BQREjHn7Qvwl7faW0ADvXu9ZURvekp40wCi5S0MnUGWwKEHhokQ8L66qVN
++rLcjLXGN17cuvqvAorDoGjfG8p5Jb2icvfXb/C/iWV8gBPC6ZZVpZywLn+eJfBF
+ceUS+3WhYK3pPijfVs2jTqeB6WZx4H10xJh006X4JvkqGCpUkWqIyKyiV3ZgYXYN
+Spq3A7K1dbTwdysNibdYs7pQV/WFOgXXiU3INHThObUZZo4nsGA7akdwPqRUtHIp
+0XuIRaH+89HAFOaRPN83P55PbWjTliWDt9BGIa7lUPHRcc0DtYLXHNdPqT5ZZ4um
+21TO0or3mL1sA7guNnX356Gr66d1kv2EIPxJGIlOCo9uua/vTHwt3sJnB7YJc9Og
+O4kgShnFJQ6wYmvTckRTLCAokW+LmJaWONR+IIhb98nJdOi28qL0yqyNETazVhIw
+ng79Gdw4JE2Is/MZFbKEN0Dex332KzDUgg1oX1qdLhjd/XDOUtkPn9yT5HMW1TYP
+WzNl58vas0g=
+=yBsa
+-----END PGP SIGNATURE-----
+
+
+
+From ftpmaster at ftp-master.debian.org  Wed Mar  1 11:22:31 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 01 Mar 2023 11:22:31 +0000
+Subject: [R-pkg-team]
+ r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_source.changes
+ ACCEPTED into unstable
+Message-ID: <E1pXKXX-00Eue0-4t@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 27 Feb 2023 21:39:27 +0100
+Source: r-other-disgenet2r
+Architecture: source
+Version: 0.99.2+git20230223.f2214db+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-other-disgenet2r (0.99.2+git20230223.f2214db+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version
+   * Standards-Version: 4.6.2 (routine-update)
+   * Set upstream metadata fields: Repository.
+   * Drop documentation that included compressed JS without source from upstream
+     tarball
+Checksums-Sha1:
+ 254251da1756f88c66538cbcbd20ae556c8506b2 2504 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.dsc
+ 3218b63db1704ff94d3ac44f82c583333389a375 1035076 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg.orig.tar.xz
+ 5bf919ebf99fcdd3171c4110f9f084e740efb484 2748 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.debian.tar.xz
+ 17f9a2420cc459cc07db3b3d18de03091ef15087 15816 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ f6f5f634757708f1664a293113728d4a4e045c015961579fbe5f42eab27998a7 2504 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.dsc
+ c2855b9fda0b3a7430f03e7514e159afb77203481082afe500257dd572f80180 1035076 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg.orig.tar.xz
+ 062a6fede2e2a2a28c62f88dd5ef5a982f4b3370560505fecbb58370f778e532 2748 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.debian.tar.xz
+ 68d5ba63e14353ad0f2218c52a56ee9f7966d0e204bd0cae1b1efc1a83053e15 15816 r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_amd64.buildinfo
+Files:
+ 9c0f4cf9e8485a611ecf9c091ebc55ae 2504 gnu-r optional r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.dsc
+ 39efffe1f7f8b5d12de0ce23f1390c17 1035076 gnu-r optional r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg.orig.tar.xz
+ c8091d35a4ce95c58ada2b8d09aea931 2748 gnu-r optional r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1.debian.tar.xz
+ 65ffbce8cb88e4afd5233f155d92fe75 15816 gnu-r optional r-other-disgenet2r_0.99.2+git20230223.f2214db+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmP/Mg4RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtEWYg/+JfiNuElMm0Viu4d2gZtS38NRM+w4vLIz
+6XgcttWCGfZrbj69w7+rdWzdMlptsKlqd/pBWLStjvK8gvDOgToIXemSqrHCMeZL
+dkhIkw2Z5/pgR2eqA7E7i9ktJ4X9eJIdvivqXxA4dQ+PRfXWwL83W8ujIJtc9VpU
+at6UH7JotQ1ba4V1hNEPzKi3zCVTzF2GvhkcuGdXY6RSZzL+YN6+8XTaEHBPq0u9
+7cv8hnS6FDsUXUuHMKNwQIBTgaNkTDKcKmyxC5gc50anHU2PlQhCJy9xlptr0nDL
+vLJ8Zd7CASZT0P4EXtjheEynpGBlXchP2hPv5wausT22JgulYyaNrG/oh6bzA/dB
+qRJ3OBJ034LP/ZAt7NzOnjYq/M6TYKG64kJjzWW80dWSN2rrwxZlRTlIShIzI3u7
+7KOMBLERvRRxnz5IPFWTf7kj4FtFet1uY8uFhM5Km7YvCvu4RJ7CyvUTfeM9800c
+v4UmfduloycAnrC+7ncE2qk0y7X5/yo02qAgsWizvC+W3VNiS/TYA5NRnMXpteR4
+p7Qk7tjawXfdzxEvmD/oTnuTO0SHeyrjb9pjLbQulmiLmBVv3zVnIUmaaz4gDX9L
+l4TiO07d14nuIWdsn2hAGVgAuYiqPDVoLQXlopFn/soh15BSzyHRrwBK7d6oIeaD
+IWeOBR3BIrY=
+=+I61
+-----END PGP SIGNATURE-----
+
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-argparse 2.2.2+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4cy-AN@respighi.debian.org>
+
+FYI: The status of the r-cran-argparse source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.2.1+dfsg-1
+  Current version:  2.2.2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-bioc-variantannotation 1.44.1-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4cq-7n@respighi.debian.org>
+
+FYI: The status of the r-bioc-variantannotation source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.44.0-1
+  Current version:  1.44.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-ggplot2 3.4.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dB-GI@respighi.debian.org>
+
+FYI: The status of the r-cran-ggplot2 source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.4.0+dfsg-2
+  Current version:  3.4.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-actuar 3.3-2-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4cu-95@respighi.debian.org>
+
+FYI: The status of the r-cran-actuar source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.3-1-1
+  Current version:  3.3-2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-fs 1.6.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4d7-Ek@respighi.debian.org>
+
+FYI: The status of the r-cran-fs source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.6.0+dfsg-1
+  Current version:  1.6.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-bioc-tximeta 1.16.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4cl-66@respighi.debian.org>
+
+FYI: The status of the r-bioc-tximeta source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.16.0+dfsg-1
+  Current version:  1.16.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-brglm2 0.9+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4d1-Bj@respighi.debian.org>
+
+FYI: The status of the r-cran-brglm2 source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.8.2+dfsg-2
+  Current version:  0.9+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-pcict 0.5-4.4-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dV-OI@respighi.debian.org>
+
+FYI: The status of the r-cran-pcict source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.5-4.3-1
+  Current version:  0.5-4.4-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-filehash 2.4-5-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4d4-DQ@respighi.debian.org>
+
+FYI: The status of the r-cran-filehash source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.4-3-1
+  Current version:  2.4-5-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-gmp 0.7-1-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dH-Iu@respighi.debian.org>
+
+FYI: The status of the r-cran-gmp source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.6-10-1
+  Current version:  0.7-1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-lubridate 1.9.2+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dS-N2@respighi.debian.org>
+
+FYI: The status of the r-cran-lubridate source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.9.1+dfsg-1
+  Current version:  1.9.2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-httpuv 1.6.9+dfsg-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dL-KF@respighi.debian.org>
+
+FYI: The status of the r-cran-httpuv source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.6.8+dfsg-1
+  Current version:  1.6.9+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-ggpubr 0.6.0-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dE-Hb@respighi.debian.org>
+
+FYI: The status of the r-cran-ggpubr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.5.0-1
+  Current version:  0.6.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-pdftools 3.3.3-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dY-PV@respighi.debian.org>
+
+FYI: The status of the r-cran-pdftools source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.3.2-1
+  Current version:  3.3.3-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  2 04:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 02 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-lavaan 0.6.14-1 MIGRATED to testing
+Message-ID: <E1pXaii-00E4dP-LW@respighi.debian.org>
+
+FYI: The status of the r-cran-lavaan source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.6.13-1
+  Current version:  0.6.14-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar  2 10:59:08 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 02 Mar 2023 10:59:08 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-classint_0.4-9+dfsg-1_source.changes
+Message-ID: <E1pXgeS-0061Yk-K0@usper.debian.org>
+
+r-cran-classint_0.4-9+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-classint_0.4-9+dfsg-1.dsc
+  r-cran-classint_0.4-9+dfsg.orig.tar.xz
+  r-cran-classint_0.4-9+dfsg-1.debian.tar.xz
+  r-cran-classint_0.4-9+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar  2 11:05:42 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 02 Mar 2023 11:05:42 +0000
+Subject: [R-pkg-team] r-cran-classint_0.4-9+dfsg-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1pXgko-002jCX-5S@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 02 Mar 2023 11:41:55 +0100
+Source: r-cran-classint
+Architecture: source
+Version: 0.4-9+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-cran-classint (0.4-9+dfsg-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Standards-Version: 4.6.2 (routine-update)
+   * Set upstream metadata fields: Bug-Database, Bug-Submit.
+Checksums-Sha1:
+ e4f6887039cb6a7145ba6e63f698b721718d6d45 2157 r-cran-classint_0.4-9+dfsg-1.dsc
+ 547c207d6c20fe5ee58c513f2412fb7310504235 31128 r-cran-classint_0.4-9+dfsg.orig.tar.xz
+ 91ccf857785f79e4192b38a280a2731596540b1c 2804 r-cran-classint_0.4-9+dfsg-1.debian.tar.xz
+ e518f32e1ac1c92ed0b0d1a227f690da60ed3ef8 10929 r-cran-classint_0.4-9+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ a10ea8bb70106dfe34d6efe6f2d3c3351bda810171a16689579c00cdecb650e6 2157 r-cran-classint_0.4-9+dfsg-1.dsc
+ 797d52618bd0837659a7e805e4f791929a958efb503113b81e934eb32c1ada0e 31128 r-cran-classint_0.4-9+dfsg.orig.tar.xz
+ 84fda379e5ad3764cc0f237736c60719bc2f22e926319ed8808fb334ac4daa43 2804 r-cran-classint_0.4-9+dfsg-1.debian.tar.xz
+ f4f9de5719ed131bc979060cab28a8b0b02297104bc28af5afb81d3d7b55a645 10929 r-cran-classint_0.4-9+dfsg-1_amd64.buildinfo
+Files:
+ 3b28d0a1d0abe77e0ddca89047ae80cd 2157 gnu-r optional r-cran-classint_0.4-9+dfsg-1.dsc
+ 03d7705d08138c839987d85673264c81 31128 gnu-r optional r-cran-classint_0.4-9+dfsg.orig.tar.xz
+ 65e2c81618bd23be37592af40c218022 2804 gnu-r optional r-cran-classint_0.4-9+dfsg-1.debian.tar.xz
+ ddf7cfeff706ba1b82ee440380dc8174 10929 gnu-r optional r-cran-classint_0.4-9+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmQAfpcRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtHevA//WrjF/9SEcrXIFW4P89osStnKdRfNv5pu
+Xbt2EAyipnyDHLUXdHiI8x64XB/Ln4ZClXYd/OWOp/AV2+ZTe8MVbMdBTfwBwt9H
+nTD/I47lylxj1bWfopGtreA8K+ru064tYBzF2pzllGnZLk3rbqkzeW1j+Fy1Ex/z
+NR1WK2PonknfwF5Uf2O+lNXL4i82dWgod8NZMVrPqtLfF5YEcjdCmBr7GPmrCgby
+oyTE+WBnleSrKqYorRWNgDtVJ8pKx0bPN9kZfza9z4m9NtrDvXNTd5DfqxNm8Mm4
+BsNF5Njza3JCCBguCtBR+5KGe5By6HH9qaAerE+Xu2bYZuPU6uk7MdIFZDG987OU
+wi2oT1p934oGAhqusw7us4hvPY4Yo3tVMXQ1qRl3RYDmCk1txJHMywsOv75zBoyz
+TdIeswdr75RdgSsXy8UwP7T9iUHKBu6tI4AWEDc9ic9Q43kUsoGOiGbaFcBbNl3v
+0bdh/PuhRcFAcfLHV4v83GJY1bNw0UIGYEZNS0b95xbmrYIZElKNSql37wNmrF0i
+gRQe1auD865lXXxIdDWKOjcvkk+lYUa53Jg+0y88TiWZD0aBSzejnh9QcRkpUlVJ
+lTXqbrSs89Y3aYIf30MWx8gUxe9dCUvI8QRBffAv9cpCv+I4WC1Ks4gLtHDhQBLL
+7oNn86gg/Xs=
+=UCnx
+-----END PGP SIGNATURE-----
+
+
+
+From tille at debian.org  Fri Mar  3 08:29:54 2023
+From: tille at debian.org (Andreas Tille)
+Date: Fri, 03 Mar 2023 09:29:54 +0100
+Subject: [R-pkg-team] Bug#1032297: ITP: r-cran-conflicted -- GNU R
+ alternative conflict resolution strategy
+Message-ID: <167783219416.457140.3536471781502404424.reportbug@energija.fam-tille.de>
+
+Package: wnpp
+Severity: wishlist
+
+Subject: ITP: r-cran-conflicted -- GNU R alternative conflict resolution strategy
+Package: wnpp
+Owner: Andreas Tille <tille at debian.org>
+Severity: wishlist
+
+* Package name    : r-cran-conflicted
+  Version         : 1.2.0
+  Upstream Author : Hadley Wickham,
+* URL             : https://cran.r-project.org/package=conflicted
+* License         : MIT
+  Programming Lang: GNU R
+  Description     : GNU R alternative conflict resolution strategy
+ R's default conflict management system gives the most
+ recently loaded package precedence. This can make it hard to detect
+ conflicts, particularly when they arise because a package update
+ creates ambiguity that did not previously exist. 'conflicted' takes a
+ different approach, making every conflict an error and forcing you to
+ choose which function to use.
+
+Remark: This package is maintained by Debian R Packages Maintainers at
+   https://salsa.debian.org/r-pkg-team/r-cran-conflicted
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar  3 10:15:21 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 03 Mar 2023 10:15:21 +0000
+Subject: [R-pkg-team] Processing of r-cran-conflicted_1.2.0-1_amd64.changes
+Message-ID: <E1pY2Rd-0079EQ-F3@usper.debian.org>
+
+r-cran-conflicted_1.2.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-conflicted_1.2.0-1.dsc
+  r-cran-conflicted_1.2.0.orig.tar.gz
+  r-cran-conflicted_1.2.0-1.debian.tar.xz
+  r-cran-conflicted_1.2.0-1_all.deb
+  r-cran-conflicted_1.2.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Mar  3 10:20:26 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 03 Mar 2023 10:20:26 +0000
+Subject: [R-pkg-team] r-cran-conflicted_1.2.0-1_amd64.changes is NEW
+Message-ID: <E1pY2WY-0080Mx-0t@fasolo.debian.org>
+
+binary:r-cran-conflicted is NEW.
+binary:r-cran-conflicted is NEW.
+source:r-cran-conflicted is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From noreply at release.debian.org  Sat Mar  4 04:39:06 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Sat, 04 Mar 2023 04:39:06 +0000
+Subject: [R-pkg-team] r-bioc-tximeta is marked for autoremoval from testing
+Message-ID: <E1pYJfm-00Ghtr-Q2@respighi.debian.org>
+
+r-bioc-tximeta 1.16.1+dfsg-1 is marked for autoremoval from testing on 2023-04-02
+
+It (build-)depends on packages with these RC bugs:
+1031456: r-cran-shiny: FTBFS: make[1]: *** [debian/rules:28: override_dh_install] Error 254
+ https://bugs.debian.org/1031456
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Sat Mar  4 04:39:14 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 04 Mar 2023 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-shiny 1.7.4+dfsg-2 MIGRATED to testing
+Message-ID: <E1pYJfu-00Ghxd-9U@respighi.debian.org>
+
+FYI: The status of the r-cran-shiny source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.7.4+dfsg-1
+  Current version:  1.7.4+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Mar  4 04:39:14 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 04 Mar 2023 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-pander 0.6.5+dfsg-2 MIGRATED to testing
+Message-ID: <E1pYJfu-00Ghxa-80@respighi.debian.org>
+
+FYI: The status of the r-cran-pander source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.6.5+dfsg-1
+  Current version:  0.6.5+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Mon Mar  6 04:12:07 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 06 Mar 2023 04:12:07 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-sets_1.0.23+ds-1~exp1_source.changes
+Message-ID: <E1pZ2Cl-00AGWf-8B@usper.debian.org>
+
+r-cran-sets_1.0.23+ds-1~exp1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-sets_1.0.23+ds-1~exp1.dsc
+  r-cran-sets_1.0.23+ds.orig.tar.xz
+  r-cran-sets_1.0.23+ds-1~exp1.debian.tar.xz
+  r-cran-sets_1.0.23+ds-1~exp1_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Mar  6 04:20:05 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 06 Mar 2023 04:20:05 +0000
+Subject: [R-pkg-team] r-cran-sets_1.0.23+ds-1~exp1_source.changes ACCEPTED
+ into experimental
+Message-ID: <E1pZ2KT-0051ec-DU@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 05 Mar 2023 23:00:00 -0500
+Source: r-cran-sets
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0.23+ds-1~exp1
+Distribution: experimental
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Doug Torrance <dtorrance at debian.org>
+Changes:
+ r-cran-sets (1.0.23+ds-1~exp1) experimental; urgency=medium
+ .
+   * New upstream release.
+   * Upload to experimental because of bookworm freeze.
+Checksums-Sha1:
+ fa557d6a26cdee6ed7e7e46631caaa08f3608988 2203 r-cran-sets_1.0.23+ds-1~exp1.dsc
+ 0ef64e11cd1a66ca713184645da5f9a327a7cd50 72656 r-cran-sets_1.0.23+ds.orig.tar.xz
+ 812225b019ec7ae02ce145a61e234eefbe4ba8b8 4380 r-cran-sets_1.0.23+ds-1~exp1.debian.tar.xz
+ 7953754be7ca5e9b34245c8cac11f2653ca199d4 15034 r-cran-sets_1.0.23+ds-1~exp1_source.buildinfo
+Checksums-Sha256:
+ dfdda4a68b605dd6c0687c32c979d29d2a22ce4379969468807faa5d4d43b0b9 2203 r-cran-sets_1.0.23+ds-1~exp1.dsc
+ 7d8950e050df75f43ee001663e188031739f73b9617e4951a69f8b206f129319 72656 r-cran-sets_1.0.23+ds.orig.tar.xz
+ 1f3b2dff1bd70d11473c797b8281d565bb3d0b8a3dff0f419538170d6247908e 4380 r-cran-sets_1.0.23+ds-1~exp1.debian.tar.xz
+ 142992ae0046165e5a8aa4abc722b4ffefb0833f82a9e7af1dc15b6292d63c7a 15034 r-cran-sets_1.0.23+ds-1~exp1_source.buildinfo
+Files:
+ 8007ade8e557fc2cdaf4c14cf2866697 2203 gnu-r optional r-cran-sets_1.0.23+ds-1~exp1.dsc
+ 1b38928bcca04603002f6895b18fa6ab 72656 gnu-r optional r-cran-sets_1.0.23+ds.orig.tar.xz
+ c57f6b7ec99442cc0f4cd651aba728d0 4380 gnu-r optional r-cran-sets_1.0.23+ds-1~exp1.debian.tar.xz
+ 77c00d4420ce6fb63782c8d2a1b70578 15034 gnu-r optional r-cran-sets_1.0.23+ds-1~exp1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEupghwS4HiU+y5K0AkdxKd57FyRAFAmQFZXUVHGR0b3JyYW5j
+ZUBkZWJpYW4ub3JnAAoJEJHcSneexckQKWwP/1TtJfUqT7z3fWQnb76zxWGRFRRC
+r5oDS4bhwtr7IkI6/EmOsPB3jSKu1CV6DgMUOS12txZb2KTHEfGw3NxDhtm3KXmD
+kdAhYJSfOeb9TuqFj/FWbWMBBS+PCiqlGkZy+9E/IsJwTwOisW8YJc1OsjiVYjAm
+5M2x4l5T9kt/utzZkh8x6tXF4/KjqNcad7XWVHPp3RiDO+aacj+NN6cXHtXkQDx3
+tShO0VVcm3TWGRMLd57l+PfPMiDUhk9IJdFADGe2oLnB3FMVBazHGJGL0HnoOnVX
+qMzI3o3LhZLPzRhIQHiMK3D6iP76FVQs7FIOOSmkaoqIyx9Ea5E2ECmJEXv57w/X
+ukm+Es02K9rzfOyn24ZkKlRUWf9OwuWZRvcAgw9qnWxrpxnPWQ/xTgMwTU/dexrK
+AqMY7Rn0Ad6P8fvwrlQOj9z8SOUR005O5D/f3kPdugBFW4t266OAK0VbnRT6x9fF
+zbpI31WHqjy6ZcHlJE3ZxsEGxKK2o6yuE1+ykEGLdADFzgKg9JfGMZP2nRIy4Gej
+Mqpd2YSWMkzaNUkM0nMHuFxImmOy2WGj1uIQM6jU6JJ+BhGpRpWdxKGABjedQwRm
+HoeMohdOL99HkrFklS5Po2dBEYwgIb/+2dElYLh7gh1CuGgffHrtNp36H/jLdF1s
+2fie9v09mLjwT2B1
+=2mXi
+-----END PGP SIGNATURE-----
+
+
+
+From noreply at release.debian.org  Mon Mar  6 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 06 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-bioc-biocfilecache 2.6.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZ2cw-001lDq-0A@respighi.debian.org>
+
+FYI: The status of the r-bioc-biocfilecache source package
+in Debian's testing distribution has changed.
+
+  Previous version: 2.6.0+dfsg-2
+  Current version:  2.6.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Mon Mar  6 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 06 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-bioc-bsgenome 1.66.3-1 MIGRATED to testing
+Message-ID: <E1pZ2cw-001lDt-1M@respighi.debian.org>
+
+FYI: The status of the r-bioc-bsgenome source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.66.2-1
+  Current version:  1.66.3-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-ape 5.7-1 MIGRATED to testing
+Message-ID: <E1pZla2-004PbG-Hj@respighi.debian.org>
+
+FYI: The status of the r-cran-ape source package
+in Debian's testing distribution has changed.
+
+  Previous version: 5.6-2-1
+  Current version:  5.7-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-ggalluvial 0.12.5-2 MIGRATED to testing
+Message-ID: <E1pZla2-004PbV-NM@respighi.debian.org>
+
+FYI: The status of the r-cran-ggalluvial source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.12.3-1
+  Current version:  0.12.5-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-phytools 1.5-1-1 MIGRATED to testing
+Message-ID: <E1pZla2-004Pbj-T7@respighi.debian.org>
+
+FYI: The status of the r-cran-phytools source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.2-0-1
+  Current version:  1.5-1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-mvnfast 0.2.8+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla2-004Pbd-Qa@respighi.debian.org>
+
+FYI: The status of the r-cran-mvnfast source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.2.7+dfsg-1
+  Current version:  0.2.8+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:11 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-susier 0.12.35+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla3-004Pc7-6M@respighi.debian.org>
+
+FYI: The status of the r-cran-susier source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.12.27+dfsg-1
+  Current version:  0.12.35+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:11 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-rsdmx 1:0.6-2+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla3-004Pbx-2W@respighi.debian.org>
+
+FYI: The status of the r-cran-rsdmx source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1:0.6-1+dfsg-1
+  Current version:  1:0.6-2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-data.table 1.14.8+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla2-004PbO-Kc@respighi.debian.org>
+
+FYI: The status of the r-cran-data.table source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.14.6+dfsg-1
+  Current version:  1.14.8+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-eipack 0.2-2-1 MIGRATED to testing
+Message-ID: <E1pZla2-004PbS-Lv@respighi.debian.org>
+
+FYI: The status of the r-cran-eipack source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.2-1-1
+  Current version:  0.2-2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-bioc-gviz 1.42.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla2-004PbD-GS@respighi.debian.org>
+
+FYI: The status of the r-bioc-gviz source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.42.0+dfsg-1
+  Current version:  1.42.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:11 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-rpostgresql 0.7-5+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla3-004Pbu-1G@respighi.debian.org>
+
+FYI: The status of the r-cran-rpostgresql source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.7-4+dfsg-1
+  Current version:  0.7-5+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-gh 1.4.0-1 MIGRATED to testing
+Message-ID: <E1pZla2-004PbZ-Ot@respighi.debian.org>
+
+FYI: The status of the r-cran-gh source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.1-1
+  Current version:  1.4.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-rpact 3.3.4-1 MIGRATED to testing
+Message-ID: <E1pZla2-004Pbr-WF@respighi.debian.org>
+
+FYI: The status of the r-cran-rpact source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.3.2-1
+  Current version:  3.3.4-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:11 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-spatstat.linnet 3.0-6-1 MIGRATED to testing
+Message-ID: <E1pZla3-004Pc0-3p@respighi.debian.org>
+
+FYI: The status of the r-cran-spatstat.linnet source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.0-4-1
+  Current version:  3.0-6-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-biocmanager 1.30.20+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla2-004PbK-J9@respighi.debian.org>
+
+FYI: The status of the r-cran-biocmanager source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.30.19+dfsg-1
+  Current version:  1.30.20+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-officer 0.6.0+dfsg-1 MIGRATED to testing
+Message-ID: <E1pZla2-004Pbg-Ru@respighi.debian.org>
+
+FYI: The status of the r-cran-officer source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.5.2+dfsg-1
+  Current version:  0.6.0+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-pkgmaker 0.32.8-1 MIGRATED to testing
+Message-ID: <E1pZla2-004Pbn-UR@respighi.debian.org>
+
+FYI: The status of the r-cran-pkgmaker source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.32.7-1
+  Current version:  0.32.8-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Mar  8 04:39:11 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 08 Mar 2023 04:39:11 +0000
+Subject: [R-pkg-team] r-cran-spatstat.model 3.2-1-1 MIGRATED to testing
+Message-ID: <E1pZla3-004Pc3-57@respighi.debian.org>
+
+FYI: The status of the r-cran-spatstat.model source package
+in Debian's testing distribution has changed.
+
+  Previous version: 3.1-2-1
+  Current version:  3.2-1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From lucas at debian.org  Wed Mar  8 20:30:38 2023
+From: lucas at debian.org (Lucas Nussbaum)
+Date: Wed, 8 Mar 2023 21:30:38 +0100
+Subject: [R-pkg-team] =?utf-8?q?Bug=231032545=3A_r-cran-qpdf=3A_FTBFS_in_?=
+ =?utf-8?b?dGVzdGluZzogUVBERi5oaDoxNTY5OjM2OiBlcnJvcjog4oCYc3RkOjpzdHJp?=
+ =?utf-8?q?ng=5Fview=E2=80=99_has_not_been_declared?=
+Message-ID: <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+
+Source: r-cran-qpdf
+Version: 1.3.0+dfsg-1
+Severity: serious
+Justification: FTBFS
+Tags: bookworm sid ftbfs
+User: lucas at debian.org
+Usertags: ftbfs-20230307 ftbfs-bookworm
+
+Hi,
+
+During a rebuild of all packages in testing (bookworm), your package failed
+to build on amd64.
+
+
+Relevant part (hopefully):
+> g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -I/usr/include/qpdf/ -I'/usr/lib/R/site-library/Rcpp/include'   -fvisibility=hidden -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c bindings.cpp -o bindings.o
+> In file included from /usr/include/qpdf/Buffer.hh:26,
+>                  from /usr/include/qpdf/QPDF.hh:38,
+>                  from bindings.cpp:1:
+> /usr/include/qpdf/PointerHolder.hh:31:3: warning: #warning "POINTERHOLDER_TRANSITION is not defined -- see qpdf/PointerHolder.hh" [-Wcpp]
+>    31 | # warning "POINTERHOLDER_TRANSITION is not defined -- see qpdf/PointerHolder.hh"
+>       |   ^~~~~~~
+> /usr/include/qpdf/QPDF.hh:1569:36: error: ?std::string_view? has not been declared
+>  1569 |     void linearizationWarning(std::string_view);
+>       |                                    ^~~~~~~~~~~
+> In file included from bindings.cpp:3:
+> /usr/include/qpdf/QPDFWriter.hh:557:27: error: ?std::string_view? has not been declared
+>   557 |     void writeString(std::string_view str);
+>       |                           ^~~~~~~~~~~
+> /usr/include/qpdf/QPDFWriter.hh:559:30: error: ?std::string_view? has not been declared
+>   559 |     void writeStringQDF(std::string_view str);
+>       |                              ^~~~~~~~~~~
+> /usr/include/qpdf/QPDFWriter.hh:560:32: error: ?std::string_view? has not been declared
+>   560 |     void writeStringNoQDF(std::string_view str);
+>       |                                ^~~~~~~~~~~
+> make[1]: *** [/usr/lib/R/etc/Makeconf:178: bindings.o] Error 1
+
+
+The full build log is available from:
+http://qa-logs.debian.net/2023/03/07/r-cran-qpdf_1.3.0+dfsg-1_testing.log
+
+All bugs filed during this archive rebuild are listed at:
+https://bugs.debian.org/cgi-bin/pkgreport.cgi?tag=ftbfs-20230307;users=lucas at debian.org
+or:
+https://udd.debian.org/bugs/?release=na&merged=ign&fnewerval=7&flastmodval=7&fusertag=only&fusertagtag=ftbfs-20230307&fusertaguser=lucas at debian.org&allbugs=1&cseverity=1&ctags=1&caffected=1#results
+
+A list of current common problems and possible solutions is available at
+http://wiki.debian.org/qa.debian.org/FTBFS . You're welcome to contribute!
+
+If you reassign this bug to another package, please mark it as 'affects'-ing
+this package. See https://www.debian.org/Bugs/server-control#affects
+
+If you fail to reproduce this, please provide a build log and diff it with mine
+so that we can identify if something relevant changed in the meantime.
+
+
+From noreply at release.debian.org  Thu Mar  9 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 09 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-xts 0.13.0-1 MIGRATED to testing
+Message-ID: <E1pa83a-005jIp-Rv@respighi.debian.org>
+
+FYI: The status of the r-cran-xts source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.12.2-2
+  Current version:  0.13.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  9 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 09 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-webfakes 1.1.7-1 MIGRATED to testing
+Message-ID: <E1pa83a-005jIb-Nj@respighi.debian.org>
+
+FYI: The status of the r-cran-webfakes source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1.6-1
+  Current version:  1.1.7-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  9 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 09 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-xslt 1.4.4-1 MIGRATED to testing
+Message-ID: <E1pa83a-005jIj-QT@respighi.debian.org>
+
+FYI: The status of the r-cran-xslt source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.4.3-1
+  Current version:  1.4.4-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  9 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 09 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-tikzdevice 0.12.4-1 MIGRATED to testing
+Message-ID: <E1pa83a-005jIR-K6@respighi.debian.org>
+
+FYI: The status of the r-cran-tikzdevice source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.12.3.1-4
+  Current version:  0.12.4-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  9 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 09 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-webgestaltr 0.4.5-1 MIGRATED to testing
+Message-ID: <E1pa83a-005jIe-P2@respighi.debian.org>
+
+FYI: The status of the r-cran-webgestaltr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.4.4-1
+  Current version:  0.4.5-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Thu Mar  9 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 09 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-tinytest 1.4.1-1 MIGRATED to testing
+Message-ID: <E1pa83a-005jIU-LH@respighi.debian.org>
+
+FYI: The status of the r-cran-tinytest source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.1-1
+  Current version:  1.4.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From andreas at an3as.eu  Thu Mar  9 20:13:02 2023
+From: andreas at an3as.eu (Andreas Tille)
+Date: Thu, 9 Mar 2023 21:13:02 +0100
+Subject: [R-pkg-team] =?utf-8?q?Bug=231032545=3A_r-cran-qpdf=3A_FTBFS_in_?=
+ =?utf-8?b?dGVzdGluZzogUVBERi5oaDoxNTY5OjM2OiBlcnJvcjog4oCYc3RkOjpzdHJp?=
+ =?utf-8?q?ng=5Fview=E2=80=99_has_not_been_declared?=
+In-Reply-To: <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+References: <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+ <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+Message-ID: <ZAo9zuIvFLhUEdB9@an3as.eu>
+
+Hi,
+
+Am Wed, Mar 08, 2023 at 09:30:38PM +0100 schrieb Lucas Nussbaum:
+> > /usr/include/qpdf/QPDF.hh:1569:36: error: ?std::string_view? has not been declared
+> >  1569 |     void linearizationWarning(std::string_view);
+> >       |                                    ^~~~~~~~~~~
+> > In file included from bindings.cpp:3:
+> > /usr/include/qpdf/QPDFWriter.hh:557:27: error: ?std::string_view? has not been declared
+> >   557 |     void writeString(std::string_view str);
+> >       |                           ^~~~~~~~~~~
+> > /usr/include/qpdf/QPDFWriter.hh:559:30: error: ?std::string_view? has not been declared
+> >   559 |     void writeStringQDF(std::string_view str);
+> >       |                              ^~~~~~~~~~~
+> > /usr/include/qpdf/QPDFWriter.hh:560:32: error: ?std::string_view? has not been declared
+> >   560 |     void writeStringNoQDF(std::string_view str);
+> >       |                                ^~~~~~~~~~~
+> > make[1]: *** [/usr/lib/R/etc/Makeconf:178: bindings.o] Error 1
+
+This error occures due to the upgrade of qpdf from 11.2.0 to 11.3.0.
+r-cran-qpdf ships with a code copy of 11.2.0 which was removed in favour
+of dynamic linking.  The only way I see to fix this bug while keeping
+the same r-cran-qpdf version is to keep the original upstream tarball
+and link against the code copy.
+
+What do you think?
+
+Kind regards
+    Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From sramacher at debian.org  Thu Mar  9 21:08:02 2023
+From: sramacher at debian.org (Sebastian Ramacher)
+Date: Thu, 9 Mar 2023 22:08:02 +0100
+Subject: [R-pkg-team] =?utf-8?q?Bug=231032545=3A_r-cran-qpdf=3A_FTBFS_in_?=
+ =?utf-8?b?dGVzdGluZzogUVBERi5oaDoxNTY5OjM2OiBlcnJvcjog4oCYc3RkOjpzdHJp?=
+ =?utf-8?q?ng=5Fview=E2=80=99_has_not_been_declared?=
+In-Reply-To: <ZAo9zuIvFLhUEdB9@an3as.eu>
+References: <ZAjwbjjiZxxPFoIf@xanadu.blop.info> <ZAo9zuIvFLhUEdB9@an3as.eu>
+ <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+Message-ID: <ZApKsujL+Z8gxkpl@ramacher.at>
+
+On 2023-03-09 21:13:02 +0100, Andreas Tille wrote:
+> Hi,
+> 
+> Am Wed, Mar 08, 2023 at 09:30:38PM +0100 schrieb Lucas Nussbaum:
+> > > /usr/include/qpdf/QPDF.hh:1569:36: error: ?std::string_view? has not been declared
+> > >  1569 |     void linearizationWarning(std::string_view);
+> > >       |                                    ^~~~~~~~~~~
+> > > In file included from bindings.cpp:3:
+> > > /usr/include/qpdf/QPDFWriter.hh:557:27: error: ?std::string_view? has not been declared
+> > >   557 |     void writeString(std::string_view str);
+> > >       |                           ^~~~~~~~~~~
+> > > /usr/include/qpdf/QPDFWriter.hh:559:30: error: ?std::string_view? has not been declared
+> > >   559 |     void writeStringQDF(std::string_view str);
+> > >       |                              ^~~~~~~~~~~
+> > > /usr/include/qpdf/QPDFWriter.hh:560:32: error: ?std::string_view? has not been declared
+> > >   560 |     void writeStringNoQDF(std::string_view str);
+> > >       |                                ^~~~~~~~~~~
+> > > make[1]: *** [/usr/lib/R/etc/Makeconf:178: bindings.o] Error 1
+> 
+> This error occures due to the upgrade of qpdf from 11.2.0 to 11.3.0.
+> r-cran-qpdf ships with a code copy of 11.2.0 which was removed in favour
+> of dynamic linking.  The only way I see to fix this bug while keeping
+> the same r-cran-qpdf version is to keep the original upstream tarball
+> and link against the code copy.
+> 
+> What do you think?
+
+std::string_view was introduced in C++17, but r-cran-qpdf is building
+with C++11. Have you tried bumping the C++ version?
+
+Cheers
+-- 
+Sebastian Ramacher
+
+
+From info at rfoesco.com  Thu Mar  9 21:41:36 2023
+From: info at rfoesco.com (Foesco)
+Date: Thu, 09 Mar 2023 22:41:36 +0100
+Subject: [R-pkg-team] =?utf-8?q?Marzo_Foesco_2023?=
+Message-ID: <16f8e32a1352b7550f6560d86241cdbd@None>
+
+Buenos d?as  
+  
+  
+  
+Os informamos que ya se encuentra abierto el plazo de inscripci?n de los Cursos 100% Bonificables con cargo al Cr?dito de Formaci?n 2023 (Marzo 2023).  
+  
+  
+?Precis?is que os hagamos llegar la informaci?n para inscribir a vuestros empleados??  
+  
+?  
+Quedamos a la espera de vuestra respuesta.  
+  
+?  
+Saludos cordiales.  
+?  
+?  
+Alex Pons  
+Director  
+?  
+FOESCO - Formaci?n Estatal Continua  
+Empresa inscrita en el Registro de empresas de Formaci?n  
+  
+Departamento de Formaci?n Bonificable  
+www .foesco. com  
+Tel : 910 323 794 (Horario de lunes a viernes de 9h a 15h y de 17h a 20h)  
+  
+FOESCO ofrece formaci?n a empresas y trabajadores en activo a trav?s de cursos bonificados por la Fundaci?n Estatal para la Formaci?n en el Empleo (antiguo FORCEM) que gestiona las acciones formativas de FORMACI?N CONTINUA para trabajadores y se rige por la ley 30/2015 de 9 de septiembre.  
+  
+  
+Darme de baja
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230309/e9f2c277/attachment.htm>
+
+From andreas at an3as.eu  Thu Mar  9 21:40:50 2023
+From: andreas at an3as.eu (Andreas Tille)
+Date: Thu, 9 Mar 2023 22:40:50 +0100
+Subject: [R-pkg-team] =?utf-8?q?Bug=231032545=3A_r-cran-qpdf=3A_FTBFS_in_?=
+ =?utf-8?b?dGVzdGluZzogUVBERi5oaDoxNTY5OjM2OiBlcnJvcjog4oCYc3RkOjpzdHJp?=
+ =?utf-8?q?ng=5Fview=E2=80=99_has_not_been_declared?=
+In-Reply-To: <ZApKsujL+Z8gxkpl@ramacher.at>
+References: <ZAjwbjjiZxxPFoIf@xanadu.blop.info> <ZAo9zuIvFLhUEdB9@an3as.eu>
+ <ZAjwbjjiZxxPFoIf@xanadu.blop.info> <ZApKsujL+Z8gxkpl@ramacher.at>
+ <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+Message-ID: <ZApSYrwrg3c+X4ER@an3as.eu>
+
+Am Thu, Mar 09, 2023 at 10:08:02PM +0100 schrieb Sebastian Ramacher:
+> > What do you think?
+> 
+> std::string_view was introduced in C++17, but r-cran-qpdf is building
+> with C++11. Have you tried bumping the C++ version?
+
+Ahhh, right.  Thanks a lot for the hint.  Just uploaded a fix.
+
+I guess I need to file an unblock request for the just uploaded
+r-cran-qpdf 1.3.0+dfsg-2?
+
+Kind regards
+   Andreas.
+
+-- 
+http://fam-tille.de
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar  9 21:47:04 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 09 Mar 2023 21:47:04 +0000
+Subject: [R-pkg-team] Processing of r-cran-qpdf_1.3.0+dfsg-2_source.changes
+Message-ID: <E1paO6K-00Ea3g-MQ@usper.debian.org>
+
+r-cran-qpdf_1.3.0+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-qpdf_1.3.0+dfsg-2.dsc
+  r-cran-qpdf_1.3.0+dfsg-2.debian.tar.xz
+  r-cran-qpdf_1.3.0+dfsg-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar  9 22:07:40 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 09 Mar 2023 22:07:40 +0000
+Subject: [R-pkg-team] r-cran-qpdf_1.3.0+dfsg-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1paOQG-00BJic-Mg@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Thu, 09 Mar 2023 22:36:36 +0100
+Source: r-cran-qpdf
+Architecture: source
+Version: 1.3.0+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Closes: 1032545
+Changes:
+ r-cran-qpdf (1.3.0+dfsg-2) unstable; urgency=medium
+ .
+   * Disable reprotest
+   * Force C++17 ABI
+     Closes: #1032545
+Checksums-Sha1:
+ a61ee6238087d29855413d5251e3a85896056f01 2153 r-cran-qpdf_1.3.0+dfsg-2.dsc
+ 9353ebb929c2f5247133515cd23c875d0974995e 2828 r-cran-qpdf_1.3.0+dfsg-2.debian.tar.xz
+ d5013a79c3f946260f11ba3057d193131ec86165 10980 r-cran-qpdf_1.3.0+dfsg-2_amd64.buildinfo
+Checksums-Sha256:
+ 365740cfadc11b43980bd013dd2574bb7a390f3aea10417aeb0da53e336da816 2153 r-cran-qpdf_1.3.0+dfsg-2.dsc
+ 752053f5fb1eb226d01022b886b5ec1d6b0652b51a4997c07443d6f28b3d6f85 2828 r-cran-qpdf_1.3.0+dfsg-2.debian.tar.xz
+ b92c3c16dabdd3d238801e460a1144578dff29535cc64a145ebae63d8c5d5975 10980 r-cran-qpdf_1.3.0+dfsg-2_amd64.buildinfo
+Files:
+ 22a8ba83814b644c269a62c13a60b455 2153 gnu-r optional r-cran-qpdf_1.3.0+dfsg-2.dsc
+ 780e01eb0e8ee162cb6a1554a80e917c 2828 gnu-r optional r-cran-qpdf_1.3.0+dfsg-2.debian.tar.xz
+ e3f8176cdba23e8fa2cf683004dcc32b 10980 gnu-r optional r-cran-qpdf_1.3.0+dfsg-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCAAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmQKUdYRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtH2EQ/+JKKEpSan50asbf6+WBHmwvPuQMTNBl2z
+0uZAhAZdEbz98D3jJwPIKbDeZpVxsVoG1+lo5ZvknjbJkMYQ3akYeYrWmzsiRS6X
+P9TZYgjcn/CSK3a0PmGxrNsKwDqAHdrL61MjmNT82x++9o3pzBZt2oio5nY73IGL
+QY2BrJ9vSkyMHI3tYqXb3ez0A5omzKq/ZQax86qH5ocAPrqB2/UmiNze7ah4ztGx
+2jtUuezVjMWfu/rb4kBScSNNeCFDpx+DEIn+WM+JF2pb0xc2eBK1JGVqEuwYDV9y
+lnoeEskZg8h+bqomxmQKdBnrILkLv0fV7zi7d8E6NHM+8wtVzknI84dHy4FwXVcH
+iBnC84RIh9Bjwzx0l7THW8fX5mDI2LmhC0z2m/q9B3lOywAkGGV8WVncWrE2V4Jk
+lG46bKy2AforqmNry6IR99tqvhxeJMIxDLYW2pZuiyRt1wOx7pUGQfQr7K4FVzNb
+sPOdO4L7bFofCEaevytDc0S6E2W+6tYQbtB33Tuht485fgXmvFP+uehxvtEdj+Rg
+G8fX2/vLR5MdLKPYvjWfuCr3DBGBfLo3LJNgppG1c1Pzq0Lfo0LfgR+clV8GHP+R
+pUX0tHuzcMOvMo0Jl5xHiU8+X+yKNoWCk9VpV/okTF2aB7U8hBdJ96rGDPyADmnN
+vg8fk9yerRc=
+=H2dG
+-----END PGP SIGNATURE-----
+
+
+
+From owner at bugs.debian.org  Thu Mar  9 22:09:03 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Thu, 09 Mar 2023 22:09:03 +0000
+Subject: [R-pkg-team] =?utf-8?q?Bug=231032545=3A_marked_as_done_=28r-cran?=
+ =?utf-8?q?-qpdf=3A_FTBFS_in_testing=3A_QPDF=2Ehh=3A1569=3A36=3A_error=3A_?=
+ =?utf-8?b?4oCYc3RkOjpzdHJpbmdfdmlld+KAmSAgaGFzIG5vdCBiZWVuIGRlY2xhcmVk?=
+ =?utf-8?q?=29?=
+References: <E1paOQG-00BJih-Ok@fasolo.debian.org>
+ <ZAjwbjjiZxxPFoIf@xanadu.blop.info>
+Message-ID: <handler.1032545.D1032545.16783996631491341.ackdone@bugs.debian.org>
+
+Your message dated Thu, 09 Mar 2023 22:07:40 +0000
+with message-id <E1paOQG-00BJih-Ok at fasolo.debian.org>
+and subject line Bug#1032545: fixed in r-cran-qpdf 1.3.0+dfsg-2
+has caused the Debian Bug report #1032545,
+regarding r-cran-qpdf: FTBFS in testing: QPDF.hh:1569:36: error: ?std::string_view? has not been declared
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1032545: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1032545
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Lucas Nussbaum <lucas at debian.org>
+Subject: r-cran-qpdf: FTBFS in testing: QPDF.hh:1569:36: error: ?std::string_view? has not been declared
+Date: Wed, 8 Mar 2023 21:30:38 +0100
+Size: 5592
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230309/f572d236/attachment-0002.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#1032545: fixed in r-cran-qpdf 1.3.0+dfsg-2
+Date: Thu, 09 Mar 2023 22:07:40 +0000
+Size: 6363
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230309/f572d236/attachment-0003.eml>
+
+From noreply at release.debian.org  Fri Mar 10 04:39:09 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-ggeffects 1.2.0+dfsg-1 MIGRATED to testing
+Message-ID: <E1paUX7-0073Bv-SX@respighi.debian.org>
+
+FYI: The status of the r-cran-ggeffects source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1.5+dfsg-1
+  Current version:  1.2.0+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:09 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-future.batchtools 0.12.0+dfsg-1 MIGRATED to
+ testing
+Message-ID: <E1paUX7-0073Br-Qy@respighi.debian.org>
+
+FYI: The status of the r-cran-future.batchtools source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.11.0+dfsg-1
+  Current version:  0.12.0+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:09 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-fastmap 1.1.1-1 MIGRATED to testing
+Message-ID: <E1paUX7-0073Bo-Pf@respighi.debian.org>
+
+FYI: The status of the r-cran-fastmap source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.1.0-1
+  Current version:  1.1.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:09 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-lava 1.7.2.1+dfsg-1 MIGRATED to testing
+Message-ID: <E1paUX7-0073C2-VN@respighi.debian.org>
+
+FYI: The status of the r-cran-lava source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.7.1+dfsg-1
+  Current version:  1.7.2.1+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-matchit 4.5.1-1 MIGRATED to testing
+Message-ID: <E1paUX8-0073C5-0T@respighi.debian.org>
+
+FYI: The status of the r-cran-matchit source package
+in Debian's testing distribution has changed.
+
+  Previous version: 4.5.0-1
+  Current version:  4.5.1-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:09 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-httr 1.4.5+dfsg-1 MIGRATED to testing
+Message-ID: <E1paUX7-0073Bz-U0@respighi.debian.org>
+
+FYI: The status of the r-cran-httr source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.4.4+dfsg-1
+  Current version:  1.4.5+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:10 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:10 +0000
+Subject: [R-pkg-team] r-cran-posterior 1.4.0+dfsg-1 MIGRATED to testing
+Message-ID: <E1paUX8-0073C8-1t@respighi.debian.org>
+
+FYI: The status of the r-cran-posterior source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.1+dfsg-1
+  Current version:  1.4.0+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Fri Mar 10 04:39:09 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Fri, 10 Mar 2023 04:39:09 +0000
+Subject: [R-pkg-team] r-cran-cachem 1.0.7-1 MIGRATED to testing
+Message-ID: <E1paUX7-0073Bl-OK@respighi.debian.org>
+
+FYI: The status of the r-cran-cachem source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.0.6-1
+  Current version:  1.0.7-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Mar 11 04:39:12 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 11 Mar 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-cran-rslurm 0.6.2+dfsg-1 MIGRATED to testing
+Message-ID: <E1par0i-008MSQ-RH@respighi.debian.org>
+
+FYI: The status of the r-cran-rslurm source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.6.1+dfsg-1
+  Current version:  0.6.2+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Sat Mar 11 04:39:12 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sat, 11 Mar 2023 04:39:12 +0000
+Subject: [R-pkg-team] r-other-disgenet2r 0.99.2+git20230223.f2214db+dfsg-1
+ MIGRATED to testing
+Message-ID: <E1par0i-008MST-Se@respighi.debian.org>
+
+FYI: The status of the r-other-disgenet2r source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.99.2+git20210805.8d8ce37-2
+  Current version:  0.99.2+git20230223.f2214db+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Sat Mar 11 09:59:20 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 11 Mar 2023 09:59:20 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-memisc_0.99.31.6+dfsg-1_amd64.changes
+Message-ID: <E1paw0W-00GHZV-Vd@usper.debian.org>
+
+r-cran-memisc_0.99.31.6+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-memisc_0.99.31.6+dfsg-1.dsc
+  r-cran-memisc_0.99.31.6+dfsg.orig.tar.xz
+  r-cran-memisc_0.99.31.6+dfsg-1.debian.tar.xz
+  r-cran-memisc-dbgsym_0.99.31.6+dfsg-1_amd64.deb
+  r-cran-memisc_0.99.31.6+dfsg-1_amd64.buildinfo
+  r-cran-memisc_0.99.31.6+dfsg-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Sat Mar 11 10:04:50 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sat, 11 Mar 2023 10:04:50 +0000
+Subject: [R-pkg-team] r-cran-memisc_0.99.31.6+dfsg-1_amd64.changes is NEW
+Message-ID: <E1paw5q-001xBJ-1w@fasolo.debian.org>
+
+binary:r-cran-memisc is NEW.
+binary:r-cran-memisc is NEW.
+source:r-cran-memisc is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+
+
+From noreply at release.debian.org  Sun Mar 12 04:39:23 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Sun, 12 Mar 2023 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-classint 0.4-9+dfsg-1 MIGRATED to testing
+Message-ID: <E1pbDUR-009eax-5G@respighi.debian.org>
+
+FYI: The status of the r-cran-classint source package
+in Debian's testing distribution has changed.
+
+  Previous version: 0.4-8+dfsg-1
+  Current version:  0.4-9+dfsg-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From andreas at an3as.eu  Wed Mar 15 12:50:52 2023
+From: andreas at an3as.eu (Andreas Tille)
+Date: Wed, 15 Mar 2023 13:50:52 +0100
+Subject: [R-pkg-team] r-cran-memisc_0.99.31.3+dfsg-1_amd64.changes
+ REJECTED
+In-Reply-To: <Y/8JtQa8waq9qOVD@an3as.eu>
+References: <E1pX5JJ-00BATj-Se@fasolo.debian.org> <Y/8JtQa8waq9qOVD@an3as.eu>
+Message-ID: <ZBG/LK5tsac4dWXu@an3as.eu>
+
+Hi Thorsten,
+
+after discussing things with upstream copyright was (hopefully) fixed
+and the package re-uploaded.
+
+Kind regards and thanks for your work as ftpmaster
+
+     Andreas.
+
+Am Wed, Mar 01, 2023 at 09:15:49AM +0100 schrieb Andreas Tille:
+> Control: forwarded -1 https://github.com/melff/memisc/issues/63
+> 
+> Hi,
+> 
+> Am Tue, Feb 28, 2023 at 07:06:49PM +0000 schrieb Thorsten Alteholz:
+> > this package mixes software that is licensed under GPL-2 with software that is licensed under GPL-3+.
+> > Please explain in your debian/copyright why this should be possible.
+> > 
+> > Thanks!
+> >  Thorsten
+> > 
+> > [1] https://www.gnu.org/licenses/gpl-faq.html#AllCompatibility
+> 
+> I've forwarded this question upstream[1].
+> 
+> Kind regards
+>      Andreas.
+> 
+> [1] https://github.com/melff/memisc/issues/63
+> 
+> -- 
+> http://fam-tille.de
+> 
+> _______________________________________________
+> R-pkg-team mailing list
+> R-pkg-team at alioth-lists.debian.net
+> https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/r-pkg-team
+> 
+
+-- 
+http://fam-tille.de
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar 16 19:09:41 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 16 Mar 2023 19:09:41 +0000
+Subject: [R-pkg-team] r-cran-conflicted_1.2.0-1_amd64.changes ACCEPTED into
+ unstable
+Message-ID: <E1pcsyr-00CU2H-47@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 03 Mar 2023 09:33:45 +0100
+Source: r-cran-conflicted
+Binary: r-cran-conflicted
+Architecture: source all
+Version: 1.2.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Description:
+ r-cran-conflicted - GNU R alternative conflict resolution strategy
+Closes: 1032297
+Changes:
+ r-cran-conflicted (1.2.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #1032297)
+Checksums-Sha1:
+ 9fd8fab87d94539beaa8a6b0deb1d3bafae66771 2285 r-cran-conflicted_1.2.0-1.dsc
+ 7ed111de086af2afd4dfb28416dd133aa2da97bf 17071 r-cran-conflicted_1.2.0.orig.tar.gz
+ 6f93661e0f55e1a8adf033df00737859b1a2ca19 2676 r-cran-conflicted_1.2.0-1.debian.tar.xz
+ 483655d82b7a9652c62d375dd98c2eaf8cef9f0a 61240 r-cran-conflicted_1.2.0-1_all.deb
+ 663bb03f56e33f10d8599dd74dd2c6df6ae81a05 10892 r-cran-conflicted_1.2.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 6a1d7b62f4f91a5462db006c8caaad7a3ddf0d093206238d4f9593471fb5644f 2285 r-cran-conflicted_1.2.0-1.dsc
+ c99b86bb52da3e7d1f4d96d70c77304d0434db5bd906edd8d743e89ac9223088 17071 r-cran-conflicted_1.2.0.orig.tar.gz
+ 84148eab05ea1e58e10320a9f188f445d206b57e56273236993f81701d59d2ce 2676 r-cran-conflicted_1.2.0-1.debian.tar.xz
+ f64ca8e27cd029080b2176b67572400f19e13f4160164042348a9a75a0052114 61240 r-cran-conflicted_1.2.0-1_all.deb
+ 291f919f9570073a3614521f933d5257b90db96d6d43be1040969de1d91185cf 10892 r-cran-conflicted_1.2.0-1_amd64.buildinfo
+Files:
+ 74ab377b52c8433cc5dd280bbf34da62 2285 gnu-r optional r-cran-conflicted_1.2.0-1.dsc
+ 22c2c1253ab5868c846cb19a481cc2e9 17071 gnu-r optional r-cran-conflicted_1.2.0.orig.tar.gz
+ d0f6a8ed91764a45344d47ec3e5470c9 2676 gnu-r optional r-cran-conflicted_1.2.0-1.debian.tar.xz
+ e3948b15cabeb22841df788c386c5335 61240 gnu-r optional r-cran-conflicted_1.2.0-1_all.deb
+ 1b8cb88582e409103ab3203e150bd791 10892 gnu-r optional r-cran-conflicted_1.2.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmQBxz8RHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtESsA//WpDZWqbdu0gSiEsh9hwhIPruGMQxB/4q
+OncUMinfxfYo7kNCoXkEzl+LxsSYdemzQ9p+C/reLEHbq1nD6c8J6FsC/m+Rmqxi
+l4hMJ4PlvAX16UNI7MwvyWVX1nyvGdS/KJObeFsZe8UICE3Vug28k9PfqS5IWekj
+7uqHyuHp45HDTZCY5BwvsKhyYgjdO6tbbum7AqpyIZfvraIXRHkEw98IZ2taAQ7t
+tYUoKlDAkZ3lvXirNf10QW2spWbcHwOlFPQZG0IFYj4lHDL2XEDOuRVLgzGweEhk
+8pEB3LAqc29JIK4UwEOER1Qr6PJPr1sjD1xWYWLuGFid/b9xfRSeMulQ822DHN6s
+Y6Y4W09tBn9v12aeDYDcdgLXelTvvbSdvzrzCvQz+296XGNL+7sSfs9eVhS290BN
+8aBJ33kmXI2sjBSRUFcSZ+09nVNT7RhAavPm4Yo+LELw6I5fBbwj7OkmGbJL+xRU
+BbnA/LL+l+MwyA5qP74qzOhp93YcKwuji3yiekedWT087QWa5mAPflAExoRWEyYn
+skC4Ct9Icyb8JOp6T9nsVzkK21CUnJmhGk9+ANx9vz+jjc/96ANaaw6IWAZ0uSvX
+Vx9tKAYr2B2XHuqyss1hdKY6/3zSngvTVQ21vFUL1zk4MvxhMQ393vcEZA8zqwhF
+6qEBEEKaaJ8=
+=4n2E
+-----END PGP SIGNATURE-----
+
+
+
+From noreply at release.debian.org  Fri Mar 17 04:39:38 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 17 Mar 2023 04:39:38 +0000
+Subject: [R-pkg-team] r-cran-pdftools is marked for autoremoval from testing
+Message-ID: <E1pd1sQ-00G5p8-Ee@respighi.debian.org>
+
+r-cran-pdftools 3.3.3-1 is marked for autoremoval from testing on 2023-04-21
+
+It (build-)depends on packages with these RC bugs:
+1032545: r-cran-qpdf: FTBFS in testing: QPDF.hh:1569:36: error: ???std::string_view??? has not been declared
+ https://bugs.debian.org/1032545
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Fri Mar 17 04:39:38 2023
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Fri, 17 Mar 2023 04:39:38 +0000
+Subject: [R-pkg-team] r-cran-qpdf is marked for autoremoval from testing
+Message-ID: <E1pd1sQ-00G5pC-K5@respighi.debian.org>
+
+r-cran-qpdf 1.3.0+dfsg-1 is marked for autoremoval from testing on 2023-04-21
+
+It is affected by these RC bugs:
+1032545: r-cran-qpdf: FTBFS in testing: QPDF.hh:1569:36: error: ???std::string_view??? has not been declared
+ https://bugs.debian.org/1032545
+
+
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From jmm at inutil.org  Fri Mar 17 13:55:28 2023
+From: jmm at inutil.org (Moritz =?UTF-8?Q?M=C3=BChlenhoff?=)
+Date: Fri, 17 Mar 2023 14:55:28 +0100
+Subject: [R-pkg-team] Bug#1033112: r-cran-commonmark: CVE-2023-22483
+ CVE-2023-22484 CVE-2023-22485 CVE-2023-22486
+Message-ID: <ZBRxUDGL7SKc8kZ6@pisco.westfalen.local>
+
+Source: r-cran-commonmark
+X-Debbugs-CC: team at security.debian.org
+Severity: important
+Tags: security
+
+Hi,
+
+The following vulnerabilities were published for r-cran-commonmark.
+
+CVE-2023-22483[0]:
+| cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and
+| rendering library and program in C. Versions prior to 0.29.0.gfm.7 are
+| subject to several polynomial time complexity issues in cmark-gfm that
+| may lead to unbounded resource exhaustion and subsequent denial of
+| service. Various commands, when piped to cmark-gfm with large values,
+| cause the running time to increase quadratically. These
+| vulnerabilities have been patched in version 0.29.0.gfm.7.
+
+https://github.com/github/cmark-gfm/security/advisories/GHSA-29g3-96g3-jg6c
+
+CVE-2023-22484[1]:
+| cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and
+| rendering library and program in C. Versions prior to 0.29.0.gfm.7 are
+| subject to a polynomial time complexity issue in cmark-gfm that may
+| lead to unbounded resource exhaustion and subsequent denial of
+| service. This vulnerability has been patched in 0.29.0.gfm.7.
+
+https://github.com/github/cmark-gfm/security/advisories/GHSA-24f7-9frr-5h2r
+
+CVE-2023-22485[2]:
+| cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and
+| rendering library and program in C. In versions prior 0.29.0.gfm.7, a
+| crafted markdown document can trigger an out-of-bounds read in the
+| `validate_protocol` function. We believe this bug is harmless in
+| practice, because the out-of-bounds read accesses `malloc` metadata
+| without causing any visible damage.This vulnerability has been patched
+| in 0.29.0.gfm.7.
+
+https://github.com/github/cmark-gfm/security/advisories/GHSA-c944-cv5f-hpvr
+
+CVE-2023-22486[3]:
+| cmark-gfm is GitHub's fork of cmark, a CommonMark parsing and
+| rendering library and program in C. Versions prior to 0.29.0.gfm.7
+| contain a polynomial time complexity issue in handle_close_bracket
+| that may lead to unbounded resource exhaustion and subsequent denial
+| of service. This vulnerability has been patched in 0.29.0.gfm.7.
+
+https://github.com/github/cmark-gfm/security/advisories/GHSA-r572-jvj2-3m8p
+
+If you fix the vulnerabilities please also make sure to include the
+CVE (Common Vulnerabilities & Exposures) ids in your changelog entry.
+
+For further information see:
+
+[0] https://security-tracker.debian.org/tracker/CVE-2023-22483
+    https://www.cve.org/CVERecord?id=CVE-2023-22483
+[1] https://security-tracker.debian.org/tracker/CVE-2023-22484
+    https://www.cve.org/CVERecord?id=CVE-2023-22484
+[2] https://security-tracker.debian.org/tracker/CVE-2023-22485
+    https://www.cve.org/CVERecord?id=CVE-2023-22485
+[3] https://security-tracker.debian.org/tracker/CVE-2023-22486
+    https://www.cve.org/CVERecord?id=CVE-2023-22486
+
+Please adjust the affected versions in the BTS as needed.
+
+
+From owner at bugs.debian.org  Fri Mar 17 17:03:05 2023
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 17 Mar 2023 17:03:05 +0000
+Subject: [R-pkg-team] Processed: tagging 1033110, tagging 1033111,
+ tagging 1033112, tagging 1033113
+References: <1679072343-3421-bts-carnil@debian.org>
+Message-ID: <handler.s.C.1679072348789789.transcript@bugs.debian.org>
+
+Processing commands for control at bugs.debian.org:
+
+> tags 1033110 + upstream
+Bug #1033110 [src:cmark-gfm] cmark-gfm: CVE-2023-22483 CVE-2023-22484 CVE-2023-22485 CVE-2023-22486
+Added tag(s) upstream.
+> tags 1033111 + upstream
+Bug #1033111 [src:python-cmarkgfm] python-cmarkgfm: CVE-2023-22483 CVE-2023-22484 CVE-2023-22485 CVE-2023-22486
+Added tag(s) upstream.
+> tags 1033112 + upstream
+Bug #1033112 [src:r-cran-commonmark] r-cran-commonmark: CVE-2023-22483 CVE-2023-22484 CVE-2023-22485 CVE-2023-22486
+Added tag(s) upstream.
+> tags 1033113 + upstream
+Bug #1033113 [src:ruby-commonmarker] ruby-commonmarker: CVE-2023-22483 CVE-2023-22484 CVE-2023-22485 CVE-2023-22486
+Added tag(s) upstream.
+> thanks
+Stopping processing here.
+
+Please contact me if you need assistance.
+-- 
+1033110: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033110
+1033111: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033111
+1033112: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033112
+1033113: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033113
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar 23 01:57:51 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 Mar 2023 01:57:51 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-sets_1.0.24+ds-1~exp1_source.changes
+Message-ID: <E1pfAD9-00C3VA-Qb@usper.debian.org>
+
+r-cran-sets_1.0.24+ds-1~exp1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-sets_1.0.24+ds-1~exp1.dsc
+  r-cran-sets_1.0.24+ds.orig.tar.xz
+  r-cran-sets_1.0.24+ds-1~exp1.debian.tar.xz
+  r-cran-sets_1.0.24+ds-1~exp1_source.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Thu Mar 23 02:39:08 2023
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Thu, 23 Mar 2023 02:39:08 +0000
+Subject: [R-pkg-team] r-cran-sets_1.0.24+ds-1~exp1_source.changes ACCEPTED
+ into experimental
+Message-ID: <E1pfAr6-00746P-Gk@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 22 Mar 2023 21:43:34 -0400
+Source: r-cran-sets
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 1.0.24+ds-1~exp1
+Distribution: experimental
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Doug Torrance <dtorrance at debian.org>
+Changes:
+ r-cran-sets (1.0.24+ds-1~exp1) experimental; urgency=medium
+ .
+   * New upstream release.
+   * Upload to experimental because of bookworm freeze.
+Checksums-Sha1:
+ d7f409a7ea028d7a392d1b17189ac5f637c24a57 2203 r-cran-sets_1.0.24+ds-1~exp1.dsc
+ 770ecc61bc0eef91aa2e9a9f753453acacc3e537 72720 r-cran-sets_1.0.24+ds.orig.tar.xz
+ 38fdb2232db592a1b77943d319a0fa1acee18ff0 4384 r-cran-sets_1.0.24+ds-1~exp1.debian.tar.xz
+ 805637dd65eccf678473f7efa138ea67006d07d5 15036 r-cran-sets_1.0.24+ds-1~exp1_source.buildinfo
+Checksums-Sha256:
+ 8c50e675687faf280e26b7411a3260570f78284a2fd4c71b25c957c93204f404 2203 r-cran-sets_1.0.24+ds-1~exp1.dsc
+ 4a268ee1c6f37ac7017109d977fa3de2c534ae7e1975f5c60fcc6d94addda65c 72720 r-cran-sets_1.0.24+ds.orig.tar.xz
+ 5013f23e1f70ecdedf45a329f58c4849acb72028970e2345ec36f10fa26c78db 4384 r-cran-sets_1.0.24+ds-1~exp1.debian.tar.xz
+ 2aef13f756cc6193150edbc148d421fca435efdeb10921229d419c34af0d6149 15036 r-cran-sets_1.0.24+ds-1~exp1_source.buildinfo
+Files:
+ ab05d3efb33a3b0b2b2d65a32ee148ba 2203 gnu-r optional r-cran-sets_1.0.24+ds-1~exp1.dsc
+ 89572c31f5ae089d529fb95216683b56 72720 gnu-r optional r-cran-sets_1.0.24+ds.orig.tar.xz
+ fd785800283d7df24006dbed7f3f1d6e 4384 gnu-r optional r-cran-sets_1.0.24+ds-1~exp1.debian.tar.xz
+ aaa5d66b5a92e47f0dd5360fabaf8cdc 15036 gnu-r optional r-cran-sets_1.0.24+ds-1~exp1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJJBAEBCgAzFiEEupghwS4HiU+y5K0AkdxKd57FyRAFAmQbryoVHGR0b3JyYW5j
+ZUBkZWJpYW4ub3JnAAoJEJHcSneexckQeMMP/1lY8DQAckXNDuipVps8RyQORbcP
+RaulJZ1rWapeYklDbY+xEKY40u1MLC62GhDis1/YamXFTA/83ENFslmeeFgCo3KS
+Y/HzdcEsnnDW2K2OiXOB0y1nZH+souxjQHi4YfveXiZUCK6I5PC7sUvyy/xJUmNV
+qURW5QFc5DD/OocXX23QE0wAGesEeLTVXIXqEHl0WWXOX5JVKu8MHHZK+yJoaTex
+GFiksgZFAa8IEp+xWFJbdAIprJvRFomOeDfDn0yjeu/V2kond0+cN8H+r7aQ7RN4
+PwQpYGZ10ZaOMeqX9ArN2Lx4/hgEnJeufY2AbmrWcxxE34FhWYnuB0kfAiHJ54Qq
+O0Cmut5VZ/2dyl2J09qD3GKU/gfQ1fsSP1fV6JeWGOXfNu7hxY5WH3r/49wvb6gA
+ToA7NOEFMTiBZ4MYBL3532fEm3imPZ07N4J15EarbQrrDUxU1Vmo1DwdBKrKPNEa
+Nc93hl8CjUYueSeNhmgi6SCxuGachDDZaiLpeFxe5Qvx08A4ojYzk3Fda0bGLpeL
+YtxnwlpXBUT8izvGYIjiwMA4937wUFd87JQR+PZUeZ3UWaMpJZcf5Dl4CegOB8xw
+nYJ01wbhT/4VexhntWksiHP+VjBDZaIe5gEd5i0J/wYnpOQM0xNylh57UuQq8hrt
+owXtk0dWS5aWF178
+=DwXf
+-----END PGP SIGNATURE-----
+
+
+
+From elbrus at debian.org  Thu Mar 23 19:03:59 2023
+From: elbrus at debian.org (Paul Gevers)
+Date: Thu, 23 Mar 2023 20:03:59 +0100
+Subject: [R-pkg-team] Bug#1033371: r-cran-projpred: autopkgtest timeouts on
+ i386
+Message-ID: <92131977-1164-74e0-298e-1da2f793f9c5@debian.org>
+
+Source: r-cran-projpred
+Version: 2.3.0+dfsg-1
+Severity: important
+User: debian-ci at lists.debian.org
+Usertags: timeout
+
+Dear maintainer(s),
+
+Your package has an autopkgtest, great. However, it fails on i386. 
+What's worse, it fails because it seems to hang and eventually times out 
+due to autopkgtest. Can you please investigate the situation and fix it? 
+I copied some of the output at the bottom of this report.
+
+Tests that time out (while normally running in much less time) are bad 
+for our infrastructure. I have added your package to our reject_list and 
+will remove it once this bug is closed.
+
+More information about this bug and the reason for filing it can be 
+found on 
+https://wiki.debian.org/ContinuousIntegration/RegressionEmailInformation
+
+Paul
+
+https://ci.debian.net/data/autopkgtest/testing/i386/r/r-cran-projpred/32302618/log.gz
+
+autopkgtest [17:11:50]: test run-unit-test: [-----------------------
+BEGIN TEST testthat.R
+
+R version 4.2.2 Patched (2022-11-10 r83330) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: i686-pc-linux-gnu (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+ > library(testthat)
+ > library(projpred)
+This is projpred version 2.3.0.
+ >
+ > test_check("projpred")
+dpkg-architecture: warning: cannot determine CC system type, falling 
+back to default (native compilation)
+dpkg-architecture: warning: cannot determine CC system type, falling 
+back to default (native compilation)
+autopkgtest [19:58:30]: ERROR: timed out on command "su -s /bin/bash 
+debci -c set -e; export USER=`id -nu`; . /etc/profile >/dev/null 2>&1 || 
+true;  . ~/.profile >/dev/null 2>&1 || true; 
+buildtree="/tmp/autopkgtest-lxc.u1ifin30/downtmp/build.wVL/src"; mkdir 
+-p -m 1777 -- 
+"/tmp/autopkgtest-lxc.u1ifin30/downtmp/run-unit-test-artifacts"; export 
+AUTOPKGTEST_ARTIFACTS="/tmp/autopkgtest-lxc.u1ifin30/downtmp/run-unit-test-artifacts"; 
+export ADT_ARTIFACTS="$AUTOPKGTEST_ARTIFACTS"; mkdir -p -m 755 
+"/tmp/autopkgtest-lxc.u1ifin30/downtmp/autopkgtest_tmp"; export 
+AUTOPKGTEST_TMP="/tmp/autopkgtest-lxc.u1ifin30/downtmp/autopkgtest_tmp"; 
+export ADTTMP="$AUTOPKGTEST_TMP"; export DEBIAN_FRONTEND=noninteractive; 
+export LANG=C.UTF-8; export DEB_BUILD_OPTIONS=parallel=2; unset LANGUAGE 
+LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE   LC_MONETARY LC_MESSAGES 
+LC_PAPER LC_NAME LC_ADDRESS   LC_TELEPHONE LC_MEASUREMENT 
+LC_IDENTIFICATION LC_ALL;cd "$buildtree"; chmod +x 
+/tmp/autopkgtest-lxc.u1ifin30/downtmp/build.wVL/src/debian/tests/run-unit-test; 
+exec /tmp/autopkgtest-lxc.u1ifin30/downtmp/wrapper.sh 
+--script-pid-file=/tmp/autopkgtest_script_pid 
+--stderr=/tmp/autopkgtest-lxc.u1ifin30/downtmp/run-unit-test-stderr 
+--stdout=/tmp/autopkgtest-lxc.u1ifin30/downtmp/run-unit-test-stdout -- 
+/tmp/autopkgtest-lxc.u1ifin30/downtmp/build.wVL/src/debian/tests/run-unit-test 
+;" (kind: test)
+autopkgtest [19:58:31]: test run-unit-test: -----------------------]
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: OpenPGP_signature
+Type: application/pgp-signature
+Size: 495 bytes
+Desc: OpenPGP digital signature
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230323/92f78a7b/attachment.sig>
+
+From PilarskyWRL at t-online.de  Thu Mar 30 02:32:27 2023
+From: PilarskyWRL at t-online.de (Volant Trading)
+Date: 29 Mar 2023 18:32:27 -0700
+Subject: [R-pkg-team] Did you receive the message i sent yesterday
+Message-ID: <20230329183226.80C6543AEC5B5BB7@volantrading.com>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20230329/8aaff74f/attachment.htm>
+
+From noreply at release.debian.org  Thu Mar 30 05:39:08 2023
+From: noreply at release.debian.org (Debian testing watch)
+Date: Thu, 30 Mar 2023 04:39:08 +0000
+Subject: [R-pkg-team] r-cran-qpdf 1.3.0+dfsg-2 MIGRATED to testing
+Message-ID: <E1phk44-00FA0B-0d@respighi.debian.org>
+
+FYI: The status of the r-cran-qpdf source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.3.0+dfsg-1
+  Current version:  1.3.0+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
