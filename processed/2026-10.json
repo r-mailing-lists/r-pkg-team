@@ -6168,6 +6168,124 @@
       "thread_id": "thread-df2362c2e38a",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-e079bbf023cc",
+      "message_id": "<mailman.462.1793204975.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-28T16:29:32Z",
+      "subject": "[R-pkg-team] Processing of r-cran-markdown_2.1-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-markdown_2.1-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-markdown_2.1-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-markdown_2.1-1.dsc\n  r-cran-markdown_2.1.orig.tar.gz\n  r-cran-markdown_2.1-1.debian.tar.xz\n  r-cran-markdown_2.1-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-markdown_2.1-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-markdown_2.1-1.dsc\n  r-cran-markdown_2.1.orig.tar.gz\n  r-cran-markdown_2.1-1.debian.tar.xz\n  r-cr",
+      "thread_id": "thread-e079bbf023cc",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-3d7c3484e53a",
+      "message_id": "<E1xM6cm-00000006fqY-0oDs@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-28T16:35:40Z",
+      "subject": "[R-pkg-team] r-cran-markdown_2.1-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-markdown_2.1-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 28 Oct 2026 17:12:09 +0100\nSource: r-cran-markdown\nArchitecture: source\nVersion: 2.1-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Andreas Tille <tille at debian.org>\nChanges:\n r-cran-markdown (2.1-1) unstable; urgency=medium\n .\n   * Team upload.\n   * New upstream version\n   * d/watch: version=5\n   * No non-free files in upstream source any more\nChecksums-Sha1:\n fc73b8f7e1eaecf8bcea8ca40567b4e591722122 2302 r-cran-markdown_2.1-1.dsc\n 289bbd2086e0e3a2ad29a813399077ee12b6e715 21362 r-cran-markdown_2.1.orig.tar.gz\n a887cb9b044ead0578182faa99c6e149ac99b2ee 15096 r-cran-markdown_2.1-1.debian.tar.xz\n e793124e4308c37345abc53a4611011c3d00e9d8 11325 r-cran-markdown_2.1-1_amd64.buildinfo\nChecksums-Sha256:\n 80871d3a04dd31188ae571c986a28dcfe97afc6fcd03e7d52335b82170e8aa01 2302 r-cran-markdown_2.1-1.dsc\n dbac75f985c945a70981ad1bfb4640bd4b765af83365643dbf7774357026a6cb 21362 r-cran-markdown_2.1.orig.tar.gz\n 052cbac70734ba236332462d9d459e61a078baf40be3539cc40a9b702579d350 15096 r-cran-markdown_2.1-1.debian.tar.xz\n 2c44fdd9469db435c7d0d97d658e2fba2f6e53b168f9031789ddd032e24173a2 11325 r-cran-markdown_2.1-1_amd64.buildinfo\nFiles:\n 964c746c51cb1e6cc9ec6f6237f40975 2302 gnu-r optional r-cran-markdown_2.1-1.dsc\n 2a14dbda86be03981a4a0245606dcc50 21362 gnu-r optional r-cran-markdown_2.1.orig.tar.gz\n 5d4b2a2f1cf311e10d79262148b0d02c 15096 gnu-r optional r-cran-markdown_2.1-1.debian.tar.xz\n f6a616becb01bb1c66c50e8fdb1d19f8 11325 gnu-r optional r-cran-markdown_2.1-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmriIEYRHHRpbGxlQGRl\nYmlhbi5vcmcACgkQV4oElNHGRtHh7Q//Wadiam+olRowF9BDspYvZkhOlpW2WA7C\nU5oLhM/8zsKVTyeA+3gmVQ+RF/v440W0h5kx8KoF5zeCAdDrHui0h9qvhjoLKktw\nS8tvdexkX0I305spB+ltaY1SG5LRropD9A0ToVqljFBePJRWXIDQpECMHdMTY3g9\n2XZ6jMOewZe3MAfuqk/JZuT1e6DAXrWADH37MlYTKrIksXIgHcPQOrK8SdGkVkr1\nSDyht31mGMCy2PitprLQCPr2e33hBv0P7ujJpRu4FzEtzmopFx6lVvgQgmQ/iBvm\n5LJidR1Opm/DFS5khcwAJIxYMxO5oLO6IIL0UmXNWFSA43jwgdKMsaRjP63cZ3Wu\nna56dvOu+kPLJJO261QIHnw2fKKZhlhWx31ipPMOU/o60/fHsPBOGBOUQuB7r/cV\nt7kx+C7j3IKjLtDR4f4ws6B09Al1n3+astz9ik+XRxXcz7IGrUwCHVLvMT6C7PaY\nwssi/RngimTkqMutG9hZtpYuFPJbWzTE+i9wLo8mJh8kfgxszt3CAtQkCGbjKVZx\nQNme2k7ZtEP1KZomjJAZgM8+7QuiAvjS3IRY6Y29bSxd6+cCctz4AdrZxD24msKW\nr7wdNfvJ1DCWRKAp9Q1ShIH89cwsVRBMzplyGa9oVcPsQ+isbjXfUGuwNz+o1bHu\nln9N4xRe7As=\n=XVj/\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261028/a6ab5d4d/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 28 Oct 2026 17:12:09 +0100\nSource: r-cran-markdown\nArchitecture: source",
+      "thread_id": "thread-3d7c3484e53a",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-8def039c8bcb",
+      "message_id": "<mailman.468.1793207128.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-28T17:05:25Z",
+      "subject": "[R-pkg-team] Processing of r-cran-rmarkdown_2.32+dfsg-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-rmarkdown_2.32+dfsg-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-rmarkdown_2.32+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-rmarkdown_2.32+dfsg-1.dsc\n  r-cran-rmarkdown_2.32+dfsg.orig.tar.xz\n  r-cran-rmarkdown_2.32+dfsg-1.debian.tar.xz\n  r-cran-rmarkdown_2.32+dfsg-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-rmarkdown_2.32+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-rmarkdown_2.32+dfsg-1.dsc\n  r-cran-rmarkdown_2.32+dfsg.orig.tar.xz\n  r-cran-rmarkdown_2.32",
+      "thread_id": "thread-8def039c8bcb",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-ff23fe96220e",
+      "message_id": "<E1xM7Fn-00000006liJ-3PSM@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-28T17:15:59Z",
+      "subject": "[R-pkg-team] r-cran-rmarkdown_2.32+dfsg-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-rmarkdown_2.32+dfsg-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 28 Oct 2026 17:47:01 +0100\nSource: r-cran-rmarkdown\nArchitecture: source\nVersion: 2.32+dfsg-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Andreas Tille <tille at debian.org>\nCloses: 1151343\nChanges:\n r-cran-rmarkdown (2.32+dfsg-1) unstable; urgency=medium\n .\n   * New upstream version\n   * Mark upstream version repackaged\n   * Exclude Ubuntu.ttf from upstream source, Depends fonts-open-sans instead\n     Closes: #1151343\n   * Reformat the Last-Update date as ISO YYYY-MM-DD.\n   * Trim trailing whitespace.\nChecksums-Sha1:\n c1e55b56ba2f53a62863d609709d9ee4257f2422 2728 r-cran-rmarkdown_2.32+dfsg-1.dsc\n 69c69ee11b546303ab73ebe494f1ac221ee3d513 859308 r-cran-rmarkdown_2.32+dfsg.orig.tar.xz\n ee33d7ef0933fe5df5381166f5db310602d59da7 41760 r-cran-rmarkdown_2.32+dfsg-1.debian.tar.xz\n b767b1a025d7846b77d3fbb686dffa8b8724603f 12439 r-cran-rmarkdown_2.32+dfsg-1_amd64.buildinfo\nChecksums-Sha256:\n a64a33a4ffee14ef52d21ac5c38180908d9c0e33e8b0e968a59afd1d9b00ed8b 2728 r-cran-rmarkdown_2.32+dfsg-1.dsc\n 9102b4c99fd9699b89f9cd0f7a6b70674b1124253ee84a334a5d11b71f9668d0 859308 r-cran-rmarkdown_2.32+dfsg.orig.tar.xz\n 48e88f2e3a2d90ee3ab23ae6323314d577972e01b84c458a5a9ec6635ec04aa2 41760 r-cran-rmarkdown_2.32+dfsg-1.debian.tar.xz\n 5f00b83af236ad1c321dd16c56cc4eb7b4310c65d7f748d5e3d428f02cd75e47 12439 r-cran-rmarkdown_2.32+dfsg-1_amd64.buildinfo\nFiles:\n c7c18590d86df21329d0e11b1ea41230 2728 gnu-r optional r-cran-rmarkdown_2.32+dfsg-1.dsc\n 6de3e052600b6495aaab5751594bfed4 859308 gnu-r optional r-cran-rmarkdown_2.32+dfsg.orig.tar.xz\n b4162679c045f0b066a9058419d7aad3 41760 gnu-r optional r-cran-rmarkdown_2.32+dfsg-1.debian.tar.xz\n a2c566d540308f5f336e23303f720786 12439 gnu-r optional r-cran-rmarkdown_2.32+dfsg-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmriKVkRHHRpbGxlQGRl\nYmlhbi5vcmcACgkQV4oElNHGRtGFvA/9EqkijaVE+YUvtlExqHb/2jat6I0CB2a0\nCS6f2CMeANMVdw4d0w1IkXgO4T3qOgIeqPHdAwrIcX/FPRlIDKuBUBiPNqi4/U3J\n/LcsljzDgy0br+ifEUneE4ImvdkEO1+Ybb1DXLnZgzGl/MJSuIcZvGs195aJ7/Zj\ndZHrAwh5d9u9CNmgg0T8UH3ZtDN+5yEdSQCEGeHU6FrjOmUQdPFkQl+3T0SAsOut\na9Er3Vq/+UAnP6saH2HGAdwevoly/nUPTeCtECv+vtfFQNpuB/pm3PYE/AkqUSOd\ncwx+i4Fb6yAjfZ/MDkGIjVU+9GGQYGRvLgAnNghFtA9/t2cMaTkVRNwaslK/DtgJ\n098njedhKZc4IQK6tphC+kumm62MIrijClYnrmaJjB0F/qQf+AB3JKr0yBQ4AJvP\nS4S7o3UYx98/oLv3BoEqS5yFEKdmqrS2UUbWIyohe+10aGd0avkwXrd6EYTVkm7q\nehAZ8/FMRRsrpw08tUGap2Mi7N1Vyl/Pas3aK5ajPUAuVUK1rkffn2KxOZWFr1wB\n0AP+fNyoZh0dp4gKl48U+J2piWJQ1FoLfdz9kB2Twybrv0DyKVvjIiGihtrNMruK\njYAmNoaInOMxxCC2d6H8z5R26tIWGYhboZx5Fhp+G7Kt/bmnsxrSOe4kjIezRVn4\nHX/Rjhe00DU=\n=HLx1\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261028/64cd7cbc/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 28 Oct 2026 17:47:01 +0100\nSource: r-cran-rmarkdown\nArchitecture: sourc",
+      "thread_id": "thread-ff23fe96220e",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-ff2a4c386eb0",
+      "message_id": "<handler.1151343.D1151343.17932077623697042.ackdone@bugs.debian.org>",
+      "from_name": "Debian Bug Tracking System",
+      "from_email_hash": "2d46c3e23dc44cd4de45c3b79dcde354bfb3c6b52facbc8a1c8114050146e8aa",
+      "date": "2026-10-28T17:19:04Z",
+      "subject": "[R-pkg-team] Bug#1151343: marked as done (r-cran-rmarkdown: Contains non-free Ubuntu font)",
+      "subject_clean": "[R-pkg-team] Bug#1151343: marked as done (r-cran-rmarkdown: Contains non-free Ubuntu font)",
+      "in_reply_to": null,
+      "references": [
+        "<E1xM7Fn-00000006liS-3ix4@fasolo.debian.org>",
+        "<179244515786.687517.5259100335793637252.reportbug@duagon-BXN3S64.localdomain>"
+      ],
+      "body_plain": "Your message dated Wed, 28 Oct 2026 17:15:59 +0000\nwith message-id <E1xM7Fn-00000006liS-3ix4 at fasolo.debian.org>\nand subject line Bug#1151343: fixed in r-cran-rmarkdown 2.32+dfsg-1\nhas caused the Debian Bug report #1151343,\nregarding r-cran-rmarkdown: Contains non-free Ubuntu font\nto be marked as done.\n\nThis means that you claim that the problem has been dealt with.\nIf this is not the case it is now your responsibility to reopen the\nBug report if necessary, and/or fix the problem forthwith.\n\n(NB: If you are a system administrator and have no idea what this\nmessage is talking about, this may indicate a serious mail system\nmisconfiguration somewhere. Please contact owner at bugs.debian.org\nimmediately.)\n\n\n-- \n1151343: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1151343\nDebian Bug Tracking System\nContact owner at bugs.debian.org with problems\n-------------- next part --------------\nAn embedded message was scrubbed...\nFrom: Bastian Germann <bage at debian.org>\nSubject: r-cran-rmarkdown: Contains non-free Ubuntu font\nDate: Mon, 19 Oct 2026 23:25:57 +0200\nSize: 2765\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261028/93bf1864/attachment-0002.eml>\n-------------- next part --------------\nAn embedded message was scrubbed...\nFrom: Debian FTP Masters <ftpmaster at ftp-master.debian.org>\nSubject: Bug#1151343: fixed in r-cran-rmarkdown 2.32+dfsg-1\nDate: Wed, 28 Oct 2026 17:15:59 +0000\nSize: 7301\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261028/93bf1864/attachment-0003.eml>",
+      "body_snippet": "Your message dated Wed, 28 Oct 2026 17:15:59 +0000\nwith message-id <E1xM7Fn-00000006liS-3ix4 at fasolo.debian.org>\nand subject line Bug#1151343: fixed in r-cran-rmarkdown 2.32+dfsg-1\nhas caused the De",
+      "thread_id": "thread-f58b7ec9de3f",
+      "thread_depth": 1,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-08f3e423d2e3",
+      "message_id": "<179321294913.30485.15340983740421558632@debian.org>",
+      "from_name": "Paul Gevers",
+      "from_email_hash": "093a4f0ef6192cec642aa578379d5f40320e8143b61ab66a46ef78184273e40b",
+      "date": "2026-10-28T18:36:11Z",
+      "subject": "[R-pkg-team] Bug#1152396: src:r-cran-guerry: fails to migrate to testing for too long",
+      "subject_clean": "[R-pkg-team] Bug#1152396: src:r-cran-guerry: fails to migrate to testing for too long",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Source: r-cran-guerry\nVersion: 1.8.3-2\nSeverity: serious\nControl: close -1 1.8.5-1\nTags: sid forky\nUser: release.debian.org at packages.debian.org\nUsertags: out-of-sync\n\nDear maintainer(s),\n\nThe Release Team considers packages that are out-of-sync between testing and unstable for more than 30 days as having a Release Critical bug in testing [1]. Your package src:r-cran-guerry has been trying to migrate for 31 days [2], hence this bug report. The current output of the migration software for this package is copied to the bottom of this report and should list the reason why the package is blocked. Regularly, reporting issues against reverse (build/test/regular) dependencies is what needs to happen. If this has already been done, than this bug is just for tracking purposes.\n\nIf a package is out of sync between unstable and testing for a longer period, this usually means that bugs in the package in testing cannot be fixed via unstable. Blocked packages can have impact on other packages, which makes preparing for the release more difficult. The situation that caused this bug report might even be the result of such an issue. We expect maintainers to fix issues that hamper the migration of their package in a timely manner. If your package in this situation due to another package, consider helping out.\n\nThis bug will trigger auto-removal when appropriate. As with all new bugs, there will be at least 30 days before the package is auto-removed.\n\nThis bug submission immediately closes the bug with the version in unstable, so if that version or a later version migrates, this bug will no longer affect testing. This bug is also tagged to only affect sid and forky, so it doesn't affect (old-)stable.\n\nIf you believe your package is unable to migrate to testing due to issues beyond your control, don't hesitate to contact the Release Team.\n\nThis bug report has been automatically generated. If you have any comments with regards to the content or the process, please reach out to me.\n\nPaul\n\n[1] https://lists.debian.org/debian-devel-announce/2023/06/msg00001.html\n[2] https://qa.debian.org/excuses.php?package=r-cran-guerry\n\nCurrent text from [2]:\nMigration status for r-cran-guerry (1.8.3-2 to 1.8.5-1): BLOCKED: Rejected/violates migration policy/introduces a regression\nIssues preventing migration:\n? ? Reproducibility regression on amd64: r-cran-guerry\n? ? Reproducibility regression on arm64: r-cran-guerry\n? ? Reproducibility regression on armhf: r-cran-guerry\n? ? Reproducibility regression on i386: r-cran-guerry\n? ? Not built on buildd: arch all binaries uploaded by plessy, a new source-only upload is needed to allow migration\nAdditional info (not blocking):\n? ? Piuparts tested OK - https://piuparts.debian.org/sid/source/r/r-cran-guerry.html\n? ? Autopkgtest skipped on armhf: not installable (which is allowed)\n? ? Autopkgtest skipped on i386: not installable (which is allowed)\n? ? Autopkgtest skipped on s390x: not installable (which is allowed)\n? ? Autopkgtest for r-cran-guerry/1.8.5-1: amd64: Pass, arm64: Pass, ppc64el: Pass, riscv64: Pass\n? ? Required age reduced by 3 days because of autopkgtest\n? ? 31 days old (needed 2 days)",
+      "body_snippet": "Source: r-cran-guerry\nVersion: 1.8.3-2\nSeverity: serious\nControl: close -1 1.8.5-1\nTags: sid forky\nUser: release.debian.org at packages.debian.org\nUsertags: out-of-sync\n\nDear maintainer(s),\n\nThe Relea",
+      "thread_id": "thread-08f3e423d2e3",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-a32874a8879e",
+      "message_id": "<handler.s.B.17932129513750049.transcript@bugs.debian.org>",
+      "from_name": "Debian Bug Tracking System",
+      "from_email_hash": "2d46c3e23dc44cd4de45c3b79dcde354bfb3c6b52facbc8a1c8114050146e8aa",
+      "date": "2026-10-28T18:43:11Z",
+      "subject": "[R-pkg-team] Processed: src:r-cran-guerry: fails to migrate to testing for too long",
+      "subject_clean": "[R-pkg-team] Processed: src:r-cran-guerry: fails to migrate to testing for too long",
+      "in_reply_to": null,
+      "references": [
+        "<179321294913.30485.15340983740421558632@debian.org>",
+        "<179321294913.30485.15340983740421558632@debian.org>"
+      ],
+      "body_plain": "Processing control commands:\n\n> close -1 1.8.5-1\nBug #1152396 [src:r-cran-guerry] src:r-cran-guerry: fails to migrate to testing for too long\nMarked as fixed in versions r-cran-guerry/1.8.5-1.\nBug #1152396 [src:r-cran-guerry] src:r-cran-guerry: fails to migrate to testing for too long\nMarked Bug as done\n\n-- \n1152396: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1152396\nDebian Bug Tracking System\nContact owner at bugs.debian.org with problems",
+      "body_snippet": "Processing control commands:\n\n> close -1 1.8.5-1\nBug #1152396 [src:r-cran-guerry] src:r-cran-guerry: fails to migrate to testing for too long\nMarked as fixed in versions r-cran-guerry/1.8.5-1.\nBug #11",
+      "thread_id": "thread-08f3e423d2e3",
+      "thread_depth": 1,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -9246,12 +9364,13 @@
     {
       "id": "thread-f58b7ec9de3f",
       "subject": "[R-pkg-team] Bug#1151343: r-cran-rmarkdown: Contains non-free Ubuntu font",
-      "message_count": 1,
+      "message_count": 2,
       "participants": [
-        "Bastian Germann"
+        "Bastian Germann",
+        "Debian Bug Tracking System"
       ],
       "started": "2026-10-19T21:25:57Z",
-      "last_reply": "2026-10-19T21:25:57Z",
+      "last_reply": "2026-10-28T17:19:04Z",
       "root_message_id": "msg-f58b7ec9de3f"
     },
     {
@@ -10320,6 +10439,62 @@
       "started": "2026-10-28T04:40:26Z",
       "last_reply": "2026-10-28T04:40:26Z",
       "root_message_id": "msg-df2362c2e38a"
+    },
+    {
+      "id": "thread-e079bbf023cc",
+      "subject": "[R-pkg-team] Processing of r-cran-markdown_2.1-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-28T16:29:32Z",
+      "last_reply": "2026-10-28T16:29:32Z",
+      "root_message_id": "msg-e079bbf023cc"
+    },
+    {
+      "id": "thread-3d7c3484e53a",
+      "subject": "[R-pkg-team] r-cran-markdown_2.1-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-28T16:35:40Z",
+      "last_reply": "2026-10-28T16:35:40Z",
+      "root_message_id": "msg-3d7c3484e53a"
+    },
+    {
+      "id": "thread-8def039c8bcb",
+      "subject": "[R-pkg-team] Processing of r-cran-rmarkdown_2.32+dfsg-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-28T17:05:25Z",
+      "last_reply": "2026-10-28T17:05:25Z",
+      "root_message_id": "msg-8def039c8bcb"
+    },
+    {
+      "id": "thread-ff23fe96220e",
+      "subject": "[R-pkg-team] r-cran-rmarkdown_2.32+dfsg-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-28T17:15:59Z",
+      "last_reply": "2026-10-28T17:15:59Z",
+      "root_message_id": "msg-ff23fe96220e"
+    },
+    {
+      "id": "thread-08f3e423d2e3",
+      "subject": "[R-pkg-team] Bug#1152396: src:r-cran-guerry: fails to migrate to testing for too long",
+      "message_count": 2,
+      "participants": [
+        "Debian Bug Tracking System",
+        "Paul Gevers"
+      ],
+      "started": "2026-10-28T18:36:11Z",
+      "last_reply": "2026-10-28T18:43:11Z",
+      "root_message_id": "msg-08f3e423d2e3"
     }
   ]
 }
