@@ -6286,6 +6286,150 @@
       "thread_id": "thread-08f3e423d2e3",
       "thread_depth": 1,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-90198c776439",
+      "message_id": "<bb28bb35b265c2c71439de993de1d130@qhlksg.com>",
+      "from_name": "Tesco Rewards Operations",
+      "from_email_hash": "add1667fd8269cc06d37e569cdc2abd8143839758494b49aaf8c026ced193478",
+      "date": "2026-10-30T08:40:21Z",
+      "subject": "[R-pkg-team] 3,147 earned points entering final validity period",
+      "subject_clean": "[R-pkg-team] 3,147 earned points entering final validity period",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Member User,  Please be advised that the account associated with the email address (r-pkg-team at alioth-lists.debian.net) currently has 3,147 Tesco Clubcard points scheduled to expire soon. Please review your balance and take action before the expiration date. You can easily turn these points into valuable vouchers to use on your grocery shopping or exchange them for amazing treats with our Reward Partners. Click Here to Check and Redeem Don't want to miss out? Click the button above to visit the official website and redeem your gifts now! Best regards,The Tesco Clubcard Team This is an automated system notification sent to r-pkg-team at alioth-lists.debian.net. Please do not reply directly to this email.We respect your privacy. To update your communication preferences, view our Privacy Policy or Unsubscribe from these notifications at any time.? 2026 Tesco Stores Limited. All rights reserved.\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261030/9d052f0b/attachment.htm>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: 1si4y.png\nType: image/png\nSize: 3291 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261030/9d052f0b/attachment.png>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: r83TMzV2BNM.png\nType: image/png\nSize: 6919 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261030/9d052f0b/attachment-0001.png>",
+      "body_snippet": "Dear Member User,  Please be advised that the account associated with the email address (r-pkg-team at alioth-lists.debian.net) currently has 3,147 Tesco Clubcard points scheduled to expire soon. Plea",
+      "thread_id": "thread-90198c776439",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-6a0e22935263",
+      "message_id": "<mailman.635.1793355801.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-30T10:23:17Z",
+      "subject": "[R-pkg-team] Processing of r-cran-fields_18.0-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-fields_18.0-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-fields_18.0-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-fields_18.0-1.dsc\n  r-cran-fields_18.0.orig.tar.gz\n  r-cran-fields_18.0-1.debian.tar.xz\n  r-cran-fields_18.0-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-fields_18.0-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-fields_18.0-1.dsc\n  r-cran-fields_18.0.orig.tar.gz\n  r-cran-fields_18.0-1.debian.tar.xz\n  r-cran-f",
+      "thread_id": "thread-6a0e22935263",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-7bb4a8224946",
+      "message_id": "<E1xMjw1-0000000Dct8-1bNa@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-30T10:34:09Z",
+      "subject": "[R-pkg-team] r-cran-fields_18.0-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-fields_18.0-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Fri, 30 Oct 2026 19:06:10 +0900\nSource: r-cran-fields\nArchitecture: source\nVersion: 18.0-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-cran-fields (18.0-1) unstable; urgency=medium\n .\n   * Team upload.\n   * Packaging update (routine-update)\n   * Use uscan v5 $template template. (routine-update)\n   * New upstream version\n   * Restrict to R packages team core architectures (routine-update)\n   * Replace FSF postal address with a reference to\n     https://www.gnu.org/licenses/.\nChecksums-Sha1:\n 1389a993cdc93b730e455fe1a016b140f38f7f3e 2182 r-cran-fields_18.0-1.dsc\n b3129153a4c9848260450a437df919fdaeb6be10 4065912 r-cran-fields_18.0.orig.tar.gz\n 42399ddeed014316d88702af8bfb25014eac4410 5044 r-cran-fields_18.0-1.debian.tar.xz\n be077755fc131a7d15fbf8f24fc249eb5c311c71 11519 r-cran-fields_18.0-1_amd64.buildinfo\nChecksums-Sha256:\n 0b6437c394c82f3d29cc3a072f833e26d0d38b14946655d619c0c0200e804360 2182 r-cran-fields_18.0-1.dsc\n d564cd5309c738cc5dba51ee12eceb7333f107f1739792b07f636202a6714f07 4065912 r-cran-fields_18.0.orig.tar.gz\n dc9285e13413020659e01745572e5200ae31115efd134658870296e1d8a59ce9 5044 r-cran-fields_18.0-1.debian.tar.xz\n 29ba23bdd80c2f6a8f14e11ce8345cf32359b8a6d625972da115b41e2248353b 11519 r-cran-fields_18.0-1_amd64.buildinfo\nFiles:\n a8f9a2ee7248978bd0e8bbc3242afe73 2182 gnu-r optional r-cran-fields_18.0-1.dsc\n e709ac0d3f815a854f86c35cf8b7b3e9 4065912 gnu-r optional r-cran-fields_18.0.orig.tar.gz\n 15cc740dfca812f562bcdd065d8487d6 5044 gnu-r optional r-cran-fields_18.0-1.debian.tar.xz\n 52b683a0a3fb79fc3c5b4949dfbf4d95 11519 gnu-r optional r-cran-fields_18.0-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrkbakSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCLXgP/A7GDMML3RGboHexIWoRfYbPWk+RFh7z\nsfgxwf9CR1B4EQaglzJsHZySR9G2n390Zf3UjWoaM3VigET2N6iujRwprnepwu/A\n/E3H8yAKg6ExCSJDKfvjEi8bZpYA62meg037ebpMYdP9M3bTamFjWzzc5ZNJcdi9\nthiGlD41yUoYF61Rl1aQavtGPd3tY+xl+ffyTNIpawac8TnQ83KLELswhowt7bGk\nI/iuqEkTsyw9Xj2D8GqXl9/m7ppJN1kJKHnGxEyJbY4U9xProeRwKw7gIRnVN0MJ\nTO/F4+AIJHC0/hD0Cwu2oxgo9B1CLhUrQiUHr1Qy9UJdLxyYuNghFwlv4yPLvdIi\nF34zk/tBrVcC4072hiylx0bDlQJAJFnZMAlXwQlgzB1uFDSL/s0lcXuetFk1ZuTX\ne9iUUOTwkG2n93bztNvdjEoLDKlMHBOiLK0S77r65HlEGnd4186hVSw1boxf2FGq\nsEFWs1r53NmGy2h55YB35rcobT7Y4Q3q5yWQvQgqZ9oX6cm7cd7woDioPkCVfYFZ\nqRgCqUy3I/QpM8BkngP/B7lqUye1tF7hoT0arI0f12qOwRH+XP6s+WCB4VYmcVMN\nlzA0AfD7WKF7gzrGjg91G1ZBPRbaxW1Su9nhI7wr+FltsqP1ljPAbmM4lmjHB3Ph\nACBu58ak7H4i\n=ZPLJ\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261030/51deca83/attachment-0001.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Fri, 30 Oct 2026 19:06:10 +0900\nSource: r-cran-fields\nArchitecture: source\nV",
+      "thread_id": "thread-7bb4a8224946",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-17601b76eb33",
+      "message_id": "<E1xN0rw-00000001XtV-0RiT@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-10-31T04:39:04Z",
+      "subject": "[R-pkg-team] r-bioc-ebseq is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-bioc-ebseq is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-bioc-ebseq 2.10.0-1 is marked for autoremoval from testing on 2026-10-30\n\nIt (build-)depends on packages with these RC bugs:\n1148078: r-cran-diffobj: fails to migrate to testing for too long\n https://bugs.debian.org/1148078\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-bioc-ebseq 2.10.0-1 is marked for autoremoval from testing on 2026-10-30\n\nIt (build-)depends on packages with these RC bugs:\n1148078: r-cran-diffobj: fails to migrate to testing for too long\n https:",
+      "thread_id": "thread-17601b76eb33",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-8ee34427dc74",
+      "message_id": "<E1xN0sB-00000001Y46-0y8A@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-10-31T04:39:19Z",
+      "subject": "[R-pkg-team] r-cran-irkernel 1.3.2+git20240429.124f234-3 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-irkernel 1.3.2+git20240429.124f234-3 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-irkernel source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.3.2+git20240429.124f234-3\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-irkernel source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.3.2+git20240429.124f234-3\n\n-- \nThis emai",
+      "thread_id": "thread-8ee34427dc74",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-374565421952",
+      "message_id": "<E1xN0sJ-00000001Y7a-1f6J@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-10-31T04:39:27Z",
+      "subject": "[R-pkg-team] r-cran-shinystan is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-shinystan is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-shinystan 2.7.0-1 is marked for autoremoval from testing on 2026-11-15\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n https://bugs.debian.org/1149738\n1150839: r-cran-xts: fails to migrate to testing for too long\n https://bugs.debian.org/1150839\n1151343: r-cran-rmarkdown: Contains non-free Ubuntu font\n https://bugs.debian.org/1151343\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-shinystan 2.7.0-1 is marked for autoremoval from testing on 2026-11-15\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n ht",
+      "thread_id": "thread-374565421952",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-96f1dd6a24d6",
+      "message_id": "<E1xN0sJ-00000001Y7W-0rQ0@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-10-31T04:39:27Z",
+      "subject": "[R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-rlumshiny 0.2.3-2 is marked for autoremoval from testing on 2026-11-15\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n https://bugs.debian.org/1149738\n1151343: r-cran-rmarkdown: Contains non-free Ubuntu font\n https://bugs.debian.org/1151343\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-rlumshiny 0.2.3-2 is marked for autoremoval from testing on 2026-11-15\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n ht",
+      "thread_id": "thread-96f1dd6a24d6",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-eb3ed43b6e35",
+      "message_id": "<E1xN0sM-00000001Y7l-1Diu@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-10-31T04:39:30Z",
+      "subject": "[R-pkg-team] r-cran-dt is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-dt is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-dt 0.34.0+dfsg-1 is marked for autoremoval from testing on 2026-11-15\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n https://bugs.debian.org/1149738\n1151343: r-cran-rmarkdown: Contains non-free Ubuntu font\n https://bugs.debian.org/1151343\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-dt 0.34.0+dfsg-1 is marked for autoremoval from testing on 2026-11-15\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n htt",
+      "thread_id": "thread-eb3ed43b6e35",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-b141cd1b892f",
+      "message_id": "<E1xN0uK-00000001YHu-2qNJ@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-10-31T04:41:32Z",
+      "subject": "[R-pkg-team] r-cran-multidimbio is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-multidimbio is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-multidimbio 1.2.5-1 is marked for autoremoval from testing on 2026-12-02\n\nIt (build-)depends on packages with these RC bugs:\n1102465: petsc: PETSc was configured with one MPICH/Open MPI mpi.h version but now appears to be compiling using an older version\n https://bugs.debian.org/1102465\n1151343: r-cran-rmarkdown: Contains non-free Ubuntu font\n https://bugs.debian.org/1151343\n1151443: petsc: fails to migrate to testing for too long\n https://bugs.debian.org/1151443\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-multidimbio 1.2.5-1 is marked for autoremoval from testing on 2026-12-02\n\nIt (build-)depends on packages with these RC bugs:\n1102465: petsc: PETSc was configured with one MPICH/Open MPI mpi.h v",
+      "thread_id": "thread-b141cd1b892f",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -10495,6 +10639,105 @@
       "started": "2026-10-28T18:36:11Z",
       "last_reply": "2026-10-28T18:43:11Z",
       "root_message_id": "msg-08f3e423d2e3"
+    },
+    {
+      "id": "thread-90198c776439",
+      "subject": "[R-pkg-team] 3,147 earned points entering final validity period",
+      "message_count": 1,
+      "participants": [
+        "Tesco Rewards Operations"
+      ],
+      "started": "2026-10-30T08:40:21Z",
+      "last_reply": "2026-10-30T08:40:21Z",
+      "root_message_id": "msg-90198c776439"
+    },
+    {
+      "id": "thread-6a0e22935263",
+      "subject": "[R-pkg-team] Processing of r-cran-fields_18.0-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-30T10:23:17Z",
+      "last_reply": "2026-10-30T10:23:17Z",
+      "root_message_id": "msg-6a0e22935263"
+    },
+    {
+      "id": "thread-7bb4a8224946",
+      "subject": "[R-pkg-team] r-cran-fields_18.0-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-30T10:34:09Z",
+      "last_reply": "2026-10-30T10:34:09Z",
+      "root_message_id": "msg-7bb4a8224946"
+    },
+    {
+      "id": "thread-17601b76eb33",
+      "subject": "[R-pkg-team] r-bioc-ebseq is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-10-31T04:39:04Z",
+      "last_reply": "2026-10-31T04:39:04Z",
+      "root_message_id": "msg-17601b76eb33"
+    },
+    {
+      "id": "thread-8ee34427dc74",
+      "subject": "[R-pkg-team] r-cran-irkernel 1.3.2+git20240429.124f234-3 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-10-31T04:39:19Z",
+      "last_reply": "2026-10-31T04:39:19Z",
+      "root_message_id": "msg-8ee34427dc74"
+    },
+    {
+      "id": "thread-374565421952",
+      "subject": "[R-pkg-team] r-cran-shinystan is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-10-31T04:39:27Z",
+      "last_reply": "2026-10-31T04:39:27Z",
+      "root_message_id": "msg-374565421952"
+    },
+    {
+      "id": "thread-96f1dd6a24d6",
+      "subject": "[R-pkg-team] r-cran-rlumshiny is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-10-31T04:39:27Z",
+      "last_reply": "2026-10-31T04:39:27Z",
+      "root_message_id": "msg-96f1dd6a24d6"
+    },
+    {
+      "id": "thread-eb3ed43b6e35",
+      "subject": "[R-pkg-team] r-cran-dt is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-10-31T04:39:30Z",
+      "last_reply": "2026-10-31T04:39:30Z",
+      "root_message_id": "msg-eb3ed43b6e35"
+    },
+    {
+      "id": "thread-b141cd1b892f",
+      "subject": "[R-pkg-team] r-cran-multidimbio is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-10-31T04:41:32Z",
+      "last_reply": "2026-10-31T04:41:32Z",
+      "root_message_id": "msg-b141cd1b892f"
     }
   ]
 }
