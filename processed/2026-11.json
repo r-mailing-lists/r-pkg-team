@@ -1,0 +1,306 @@
+{
+  "list": "r-pkg-team",
+  "description": "",
+  "month": "2026-11",
+  "messages": [
+    {
+      "id": "msg-d04eee009ccf",
+      "message_id": "<E1xNJ4H-00000002VFT-0p8i@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-01T00:05:01Z",
+      "subject": "[R-pkg-team] r-bioc-geoquery_2.80.1+dfsg-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-bioc-geoquery_2.80.1+dfsg-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Sun, 01 Nov 2026 08:27:17 +0900\nSource: r-bioc-geoquery\nArchitecture: source\nVersion: 2.80.1+dfsg-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-bioc-geoquery (2.80.1+dfsg-1) unstable; urgency=medium\n .\n   * Team upload.\n   * Packaging update (routine-update)\n   * Use uscan v5 $template template. (routine-update)\n   * New upstream version\n   * Remove skip-not-installable in d/t/autopkgtest-pkg-r.conf (routine-\n     update)\nChecksums-Sha1:\n 465b75a51a4f009d2e97b60060a2c3e84835c4d4 2404 r-bioc-geoquery_2.80.1+dfsg-1.dsc\n 619493363ba477fa247521ce608316a673ed91e4 13455676 r-bioc-geoquery_2.80.1+dfsg.orig.tar.xz\n 59b5c7e3cbea3ff9d554bddc9306e835122ea2a3 3400 r-bioc-geoquery_2.80.1+dfsg-1.debian.tar.xz\n 8fe21a8b0333ff4352bf9aaf0e656ea4cf3912a0 13078 r-bioc-geoquery_2.80.1+dfsg-1_amd64.buildinfo\nChecksums-Sha256:\n a85520e75c2d6ab70819311f0226eec9a5f59433728ebc9448a3be1164dc8f6f 2404 r-bioc-geoquery_2.80.1+dfsg-1.dsc\n 86630e53539d6a5bfd435b3c7e9ef1df40d994133e9f6bc3eab509e651f2c157 13455676 r-bioc-geoquery_2.80.1+dfsg.orig.tar.xz\n af2055f80977d5fe8f7fdc107f367d6f91555276402cf11d1fa164abb3e8992b 3400 r-bioc-geoquery_2.80.1+dfsg-1.debian.tar.xz\n 4a5997ec23d726569a157d59f599d5d6ec49822987c9c817ccc2df1e9c1d7c70 13078 r-bioc-geoquery_2.80.1+dfsg-1_amd64.buildinfo\nFiles:\n 6c4c44b5a415c864262cede4c69c6f26 2404 gnu-r optional r-bioc-geoquery_2.80.1+dfsg-1.dsc\n ec29a35dafb8e1d1b127a3cce1882c4f 13455676 gnu-r optional r-bioc-geoquery_2.80.1+dfsg.orig.tar.xz\n 87f2df042c0e17e2cf66721ec4fd7779 3400 gnu-r optional r-bioc-geoquery_2.80.1+dfsg-1.debian.tar.xz\n b5642e269de518d80e9bba3a47dcf537 13078 gnu-r optional r-bioc-geoquery_2.80.1+dfsg-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrmfGMSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUC5qIQAKJqKA2YBSIxnAgf3bnXjcEaUH8khTT+\nbh8tF3NDEPfHR2lBscPryQE1J7/08hNhSRWnbOMX51UWv10E5ZvuKQxucGjo33HF\nJESjKzA18L50QdKhORlKI1TwFeA2mBODsZALEbwq3NYHZXZFU4BJ8Ptr7CDkypRV\nHKyJxtG8GnOe2ZPbiNVwu+S0TfxEgUiL2OdJNM4I4hv1wAluQpvDJGQK8rjI4A18\nue106WVk5P3odf2pq9YRQdWy5ZQJsIFpfugWuMVsCxoXVUEFix/y5wWh1pZfv9hL\nbv+9BlcwJsTwqCvmhZ9PQIMZN8m304c6rmDNsTXEMwuGOmQ3fouCOancfbjEz0KF\ng5QmD4rVW9JHd13moKorqepqjkSkpYyY39fYya6K/7oqG8C8UUid6xBQ9lvlk/oP\nEj+p8Dq2UGr3Wi967a4qt/StfprBfP0i3j72yo3Kgv7zMlO4KLNbX8LtJYfc2HbN\nQofnB5or3uwghBVbO7S9/08fSDIEojTbdy1Uqm0SSDh7SNP40qI6ouIu0lHB/FDr\nooMmleCpy2QmpfyNYgL8u3Wf2u3hvjF5oga+NdvsUN6GBf1SMYN/ahPTxcKW1ijH\nLLdDto40KVn2lkrMxccJhI0jbfN4Rtlp9eer3CQQpDzSQu0uCuuBmrt+SPgVssC2\nwCfLNQN/3ws8\n=Don3\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261101/77ba805e/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Sun, 01 Nov 2026 08:27:17 +0900\nSource: r-bioc-geoquery\nArchitecture: source",
+      "thread_id": "thread-d04eee009ccf",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-02f182a2139a",
+      "message_id": "<E1xNNLh-00000002sq6-2I9o@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-testthat REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-testthat REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-testthat source package\nin Debian's testing distribution has changed.\n\n  Previous version: 3.3.2-3\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-testthat source package\nin Debian's testing distribution has changed.\n\n  Previous version: 3.3.2-3\n  Current version:  (not in testing)\n  Hint: <https://release.debian.or",
+      "thread_id": "thread-02f182a2139a",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-0a449d87c2ee",
+      "message_id": "<E1xNNLh-00000002spz-1vvp@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-mockery REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-mockery REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-mockery source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.4.5+dfsg-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-mockery source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.4.5+dfsg-1\n  Current version:  (not in testing)\n  Hint: <https://release.debia",
+      "thread_id": "thread-0a449d87c2ee",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-292b350b5636",
+      "message_id": "<E1xNNLh-00000002sps-1XJM@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-diffobj REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-diffobj REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-diffobj source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.3.6-2\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-diffobj source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.3.6-2\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org",
+      "thread_id": "thread-292b350b5636",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-8e09efa037c6",
+      "message_id": "<E1xNNLh-00000002spv-1jnY@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-httptest2 REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-httptest2 REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-httptest2 source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.2.2+ds-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-httptest2 source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.2.2+ds-1\n  Current version:  (not in testing)\n  Hint: <https://release.debia",
+      "thread_id": "thread-8e09efa037c6",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-92f56caa1cf0",
+      "message_id": "<E1xNNLh-00000002sqE-2dr3@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-vdiffr REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-vdiffr REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-vdiffr source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.0.9-3\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-vdiffr source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.0.9-3\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/",
+      "thread_id": "thread-92f56caa1cf0",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-99e736e962b0",
+      "message_id": "<E1xNNLh-00000002spj-1BYD@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-bioc-ebseq REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-bioc-ebseq REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-bioc-ebseq source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.10.0-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-bioc-ebseq source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.10.0-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/",
+      "thread_id": "thread-99e736e962b0",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-9d1e9bdf215c",
+      "message_id": "<E1xNNLh-00000002spo-1LxF@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-dbitest REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-dbitest REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-dbitest source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.8.3-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-dbitest source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.8.3-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org",
+      "thread_id": "thread-9d1e9bdf215c",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-ca34792593c4",
+      "message_id": "<E1xNNLh-00000002sqI-2pEx@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-waldo REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-waldo REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-waldo source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.6.2-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-waldo source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.6.2-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/b",
+      "thread_id": "thread-ca34792593c4",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-ccf8feba96aa",
+      "message_id": "<E1xNNLh-00000002sqA-2SZV@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-unitizer REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-unitizer REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-unitizer source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.4.24-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-unitizer source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.4.24-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.o",
+      "thread_id": "thread-ccf8feba96aa",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-e9d4da3030c1",
+      "message_id": "<E1xNNLh-00000002sq3-26pK@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-01T04:39:17Z",
+      "subject": "[R-pkg-team] r-cran-patrick REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-patrick REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-patrick source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.3.1-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1148078 in r-cran-diffobj\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-patrick source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.3.1-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org",
+      "thread_id": "thread-e9d4da3030c1",
+      "thread_depth": 0,
+      "month": "2026-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d04eee009ccf",
+      "subject": "[R-pkg-team] r-bioc-geoquery_2.80.1+dfsg-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-01T00:05:01Z",
+      "last_reply": "2026-11-01T00:05:01Z",
+      "root_message_id": "msg-d04eee009ccf"
+    },
+    {
+      "id": "thread-02f182a2139a",
+      "subject": "[R-pkg-team] r-cran-testthat REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-02f182a2139a"
+    },
+    {
+      "id": "thread-0a449d87c2ee",
+      "subject": "[R-pkg-team] r-cran-mockery REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-0a449d87c2ee"
+    },
+    {
+      "id": "thread-292b350b5636",
+      "subject": "[R-pkg-team] r-cran-diffobj REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-292b350b5636"
+    },
+    {
+      "id": "thread-8e09efa037c6",
+      "subject": "[R-pkg-team] r-cran-httptest2 REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-8e09efa037c6"
+    },
+    {
+      "id": "thread-92f56caa1cf0",
+      "subject": "[R-pkg-team] r-cran-vdiffr REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-92f56caa1cf0"
+    },
+    {
+      "id": "thread-99e736e962b0",
+      "subject": "[R-pkg-team] r-bioc-ebseq REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-99e736e962b0"
+    },
+    {
+      "id": "thread-9d1e9bdf215c",
+      "subject": "[R-pkg-team] r-cran-dbitest REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-9d1e9bdf215c"
+    },
+    {
+      "id": "thread-ca34792593c4",
+      "subject": "[R-pkg-team] r-cran-waldo REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-ca34792593c4"
+    },
+    {
+      "id": "thread-ccf8feba96aa",
+      "subject": "[R-pkg-team] r-cran-unitizer REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-ccf8feba96aa"
+    },
+    {
+      "id": "thread-e9d4da3030c1",
+      "subject": "[R-pkg-team] r-cran-patrick REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-01T04:39:17Z",
+      "last_reply": "2026-11-01T04:39:17Z",
+      "root_message_id": "msg-e9d4da3030c1"
+    }
+  ]
+}

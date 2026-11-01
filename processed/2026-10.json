@@ -6430,6 +6430,57 @@
       "thread_id": "thread-b141cd1b892f",
       "thread_depth": 0,
       "month": "2026-10"
+    },
+    {
+      "id": "msg-ae8e66ac2f8a",
+      "message_id": "<179343872091.47523.3374282820958204803@debian.org>",
+      "from_name": "Paul Gevers",
+      "from_email_hash": "093a4f0ef6192cec642aa578379d5f40320e8143b61ab66a46ef78184273e40b",
+      "date": "2026-10-31T09:13:26Z",
+      "subject": "[R-pkg-team] Bug#1152681: src:r-cran-matchit: fails to migrate to testing for too long",
+      "subject_clean": "[R-pkg-team] Bug#1152681: src:r-cran-matchit: fails to migrate to testing for too long",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Source: r-cran-matchit\nVersion: 4.7.2-1\nSeverity: serious\nControl: close -1 4.8.1-1\nTags: sid forky\nUser: release.debian.org at packages.debian.org\nUsertags: out-of-sync\n\nDear maintainer(s),\n\nThe Release Team considers packages that are out-of-sync between testing and unstable for more than 30 days as having a Release Critical bug in testing [1]. Your package src:r-cran-matchit has been trying to migrate for 32 days [2], hence this bug report. The current output of the migration software for this package is copied to the bottom of this report and should list the reason why the package is blocked. Regularly, reporting issues against reverse (build/test/regular) dependencies is what needs to happen. If this has already been done, than this bug is just for tracking purposes.\n\nIf a package is out of sync between unstable and testing for a longer period, this usually means that bugs in the package in testing cannot be fixed via unstable. Blocked packages can have impact on other packages, which makes preparing for the release more difficult. The situation that caused this bug report might even be the result of such an issue. We expect maintainers to fix issues that hamper the migration of their package in a timely manner. If your package in this situation due to another package, consider helping out.\n\nThis bug will trigger auto-removal when appropriate. As with all new bugs, there will be at least 30 days before the package is auto-removed.\n\nThis bug submission immediately closes the bug with the version in unstable, so if that version or a later version migrates, this bug will no longer affect testing. This bug is also tagged to only affect sid and forky, so it doesn't affect (old-)stable.\n\nIf you believe your package is unable to migrate to testing due to issues beyond your control, don't hesitate to contact the Release Team.\n\nThis bug report has been automatically generated. If you have any comments with regards to the content or the process, please reach out to me.\n\nPaul\n\n[1] https://lists.debian.org/debian-devel-announce/2023/06/msg00001.html\n[2] https://qa.debian.org/excuses.php?package=r-cran-matchit\n\nCurrent text from [2]:\nMigration status for r-cran-matchit (4.7.2-1 to 4.8.1-1): BLOCKED: Rejected/violates migration policy/introduces a regression\nIssues preventing migration:\n? ? Updating r-cran-matchit would introduce bugs in testing: #1151586\n? ? Autopkgtest for r-cran-matchit/4.8.1-1: amd64: Regression ? (reference ?), arm64: Regression ? (reference ?), loong64: Regression ? (reference ?), ppc64el: Regression ? (reference ?)\n? ? Missing build on riscv64\n? ? Autopkgtest deferred on riscv64: missing arch:riscv64 build\n? ? Lintian check waiting for test results on riscv64 - info\nAdditional info (not blocking):\n? ? Piuparts tested OK - https://piuparts.debian.org/sid/source/r/r-cran-matchit.html\n? ? Reproduced on amd64 - info\n? ? Reproduced on arm64 - info\n? ? Reproduced on armhf - info\n? ? Reproduced on i386 - info\n? ? 32 days old (needed 5 days)",
+      "body_snippet": "Source: r-cran-matchit\nVersion: 4.7.2-1\nSeverity: serious\nControl: close -1 4.8.1-1\nTags: sid forky\nUser: release.debian.org at packages.debian.org\nUsertags: out-of-sync\n\nDear maintainer(s),\n\nThe Rele",
+      "thread_id": "thread-ae8e66ac2f8a",
+      "thread_depth": 0,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-6ddb1641e457",
+      "message_id": "<handler.s.B.17934387231745143.transcript@bugs.debian.org>",
+      "from_name": "Debian Bug Tracking System",
+      "from_email_hash": "2d46c3e23dc44cd4de45c3b79dcde354bfb3c6b52facbc8a1c8114050146e8aa",
+      "date": "2026-10-31T09:27:04Z",
+      "subject": "[R-pkg-team] Processed: src:r-cran-matchit: fails to migrate to testing for too long",
+      "subject_clean": "[R-pkg-team] Processed: src:r-cran-matchit: fails to migrate to testing for too long",
+      "in_reply_to": null,
+      "references": [
+        "<179343872091.47523.3374282820958204803@debian.org>",
+        "<179343872091.47523.3374282820958204803@debian.org>"
+      ],
+      "body_plain": "Processing control commands:\n\n> close -1 4.8.1-1\nBug #1152681 [src:r-cran-matchit] src:r-cran-matchit: fails to migrate to testing for too long\nMarked as fixed in versions r-cran-matchit/4.8.1-1.\nBug #1152681 [src:r-cran-matchit] src:r-cran-matchit: fails to migrate to testing for too long\nMarked Bug as done\n\n-- \n1152681: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1152681\nDebian Bug Tracking System\nContact owner at bugs.debian.org with problems",
+      "body_snippet": "Processing control commands:\n\n> close -1 4.8.1-1\nBug #1152681 [src:r-cran-matchit] src:r-cran-matchit: fails to migrate to testing for too long\nMarked as fixed in versions r-cran-matchit/4.8.1-1.\nBug ",
+      "thread_id": "thread-ae8e66ac2f8a",
+      "thread_depth": 1,
+      "month": "2026-10"
+    },
+    {
+      "id": "msg-c73bf3f858c7",
+      "message_id": "<mailman.822.1793490685.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-10-31T23:51:21Z",
+      "subject": "[R-pkg-team] Processing of r-bioc-geoquery_2.80.1+dfsg-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-bioc-geoquery_2.80.1+dfsg-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-bioc-geoquery_2.80.1+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-geoquery_2.80.1+dfsg-1.dsc\n  r-bioc-geoquery_2.80.1+dfsg.orig.tar.xz\n  r-bioc-geoquery_2.80.1+dfsg-1.debian.tar.xz\n  r-bioc-geoquery_2.80.1+dfsg-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-bioc-geoquery_2.80.1+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-geoquery_2.80.1+dfsg-1.dsc\n  r-bioc-geoquery_2.80.1+dfsg.orig.tar.xz\n  r-bioc-geoquery_2.",
+      "thread_id": "thread-c73bf3f858c7",
+      "thread_depth": 0,
+      "month": "2026-10"
     }
   ],
   "threads": [
@@ -10738,6 +10789,29 @@
       "started": "2026-10-31T04:41:32Z",
       "last_reply": "2026-10-31T04:41:32Z",
       "root_message_id": "msg-b141cd1b892f"
+    },
+    {
+      "id": "thread-ae8e66ac2f8a",
+      "subject": "[R-pkg-team] Bug#1152681: src:r-cran-matchit: fails to migrate to testing for too long",
+      "message_count": 2,
+      "participants": [
+        "Debian Bug Tracking System",
+        "Paul Gevers"
+      ],
+      "started": "2026-10-31T09:13:26Z",
+      "last_reply": "2026-10-31T09:27:04Z",
+      "root_message_id": "msg-ae8e66ac2f8a"
+    },
+    {
+      "id": "thread-c73bf3f858c7",
+      "subject": "[R-pkg-team] Processing of r-bioc-geoquery_2.80.1+dfsg-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-10-31T23:51:21Z",
+      "last_reply": "2026-10-31T23:51:21Z",
+      "root_message_id": "msg-c73bf3f858c7"
     }
   ]
 }
