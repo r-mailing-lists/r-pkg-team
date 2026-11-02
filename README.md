@@ -14,4 +14,4 @@ Automated mbox archive. Updated daily via GitHub Actions.
 
 ## Viewer
 
-Browse these archives at [r-mailing-lists.thecoatlessprofessor.com](https://r-mailing-lists.thecoatlessprofessor.com/lists/r-pkg-team/)
+This list is not shown on [archives.rstats.dev](https://archives.rstats.dev/): its mail is mostly automatic notices about uploads and bug reports rather than discussion. The archive here is kept up to date like any other.
