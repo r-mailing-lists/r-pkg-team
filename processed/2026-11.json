@@ -706,6 +706,86 @@
       "thread_id": "thread-fa70869f2125",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-c9688d9e0ab4",
+      "message_id": "<CAGfyUnZ+oWmHSCLQQBM6Harnm6HgbitxiVq02jAQHKQ0pVEZig@mail.gmail.com>",
+      "from_name": "Farhan Faruqui",
+      "from_email_hash": "f33a52b46181e26e643dac5a1f8d077cbcd94bf89f9a70fa515378adcf3f39aa",
+      "date": "2026-11-02T13:45:53Z",
+      "subject": "[R-pkg-team] (no subject)",
+      "subject_clean": "[R-pkg-team] (no subject)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I?ve made several attempts to contact you.\n\n\n\nFarhan Faruqui\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261102/b67b49b6/attachment.htm>",
+      "body_snippet": "I?ve made several attempts to contact you.\n\n\n\nFarhan Faruqui\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attach",
+      "thread_id": "thread-c9688d9e0ab4",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-7a9c74c442a4",
+      "message_id": "<mailman.1017.1793638193.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Anthropic",
+      "from_email_hash": "0b203435227d2614ba1d67caa730d142b5fbddeb8a2c4558866540d29b3258a0",
+      "date": "2026-11-02T16:29:49Z",
+      "subject": "[R-pkg-team] We couldn’t renew your Claude Pro subscription",
+      "subject_clean": "[R-pkg-team] We couldn’t renew your Claude Pro subscription",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261102/f67d4438/attachment.htm>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261102/f67d4438/attachment.htm>",
+      "thread_id": "thread-7a9c74c442a4",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-4e293e29d761",
+      "message_id": "<E1xO6Ix-00000005XnL-2yUa@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-03T04:39:27Z",
+      "subject": "[R-pkg-team] r-cran-waldo 0.6.2-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-waldo 0.6.2-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-waldo source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  0.6.2-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-waldo source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  0.6.2-1\n\n-- \nThis email is automatically gene",
+      "thread_id": "thread-4e293e29d761",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-51d57ead889d",
+      "message_id": "<E1xO6Ix-00000005XnD-2ajy@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-03T04:39:27Z",
+      "subject": "[R-pkg-team] r-cran-rmarkdown 2.32+dfsg-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-rmarkdown 2.32+dfsg-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-rmarkdown source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.31+dfsg-1\n  Current version:  2.32+dfsg-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-rmarkdown source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.31+dfsg-1\n  Current version:  2.32+dfsg-1\n\n-- \nThis email is automatically g",
+      "thread_id": "thread-51d57ead889d",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-5e457d210684",
+      "message_id": "<E1xO6Ix-00000005XnH-2mZP@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-03T04:39:27Z",
+      "subject": "[R-pkg-team] r-cran-unitizer 1.4.24-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-unitizer 1.4.24-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-unitizer source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.4.24-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-unitizer source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.4.24-1\n\n-- \nThis email is automatically ",
+      "thread_id": "thread-5e457d210684",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -1192,6 +1272,61 @@
       "started": "2026-11-02T07:05:14Z",
       "last_reply": "2026-11-02T07:05:14Z",
       "root_message_id": "msg-fa70869f2125"
+    },
+    {
+      "id": "thread-c9688d9e0ab4",
+      "subject": "[R-pkg-team] (no subject)",
+      "message_count": 1,
+      "participants": [
+        "Farhan Faruqui"
+      ],
+      "started": "2026-11-02T13:45:53Z",
+      "last_reply": "2026-11-02T13:45:53Z",
+      "root_message_id": "msg-c9688d9e0ab4"
+    },
+    {
+      "id": "thread-7a9c74c442a4",
+      "subject": "[R-pkg-team] We couldn’t renew your Claude Pro subscription",
+      "message_count": 1,
+      "participants": [
+        "Anthropic"
+      ],
+      "started": "2026-11-02T16:29:49Z",
+      "last_reply": "2026-11-02T16:29:49Z",
+      "root_message_id": "msg-7a9c74c442a4"
+    },
+    {
+      "id": "thread-4e293e29d761",
+      "subject": "[R-pkg-team] r-cran-waldo 0.6.2-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-03T04:39:27Z",
+      "last_reply": "2026-11-03T04:39:27Z",
+      "root_message_id": "msg-4e293e29d761"
+    },
+    {
+      "id": "thread-51d57ead889d",
+      "subject": "[R-pkg-team] r-cran-rmarkdown 2.32+dfsg-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-03T04:39:27Z",
+      "last_reply": "2026-11-03T04:39:27Z",
+      "root_message_id": "msg-51d57ead889d"
+    },
+    {
+      "id": "thread-5e457d210684",
+      "subject": "[R-pkg-team] r-cran-unitizer 1.4.24-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-03T04:39:27Z",
+      "last_reply": "2026-11-03T04:39:27Z",
+      "root_message_id": "msg-5e457d210684"
     }
   ]
 }
