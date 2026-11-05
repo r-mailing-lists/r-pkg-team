@@ -962,6 +962,102 @@
       "thread_id": "thread-cc748658fc9e",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-db01f9884987",
+      "message_id": "<mailman.1274.1793838315.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-05T00:25:13Z",
+      "subject": "[R-pkg-team] Processing of r-bioc-s4vectors_0.50.3+dfsg-2_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-bioc-s4vectors_0.50.3+dfsg-2_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-bioc-s4vectors_0.50.3+dfsg-2_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-s4vectors_0.50.3+dfsg-2.dsc\n  r-bioc-s4vectors_0.50.3+dfsg-2.debian.tar.xz\n  r-bioc-s4vectors_0.50.3+dfsg-2_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-bioc-s4vectors_0.50.3+dfsg-2_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-s4vectors_0.50.3+dfsg-2.dsc\n  r-bioc-s4vectors_0.50.3+dfsg-2.debian.tar.xz\n  r-bioc-s4ve",
+      "thread_id": "thread-db01f9884987",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-75531bf38d00",
+      "message_id": "<E1xOlS0-00000001z1Q-3Dj9@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-05T00:35:32Z",
+      "subject": "[R-pkg-team] r-bioc-s4vectors_0.50.3+dfsg-2_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-bioc-s4vectors_0.50.3+dfsg-2_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Thu, 05 Nov 2026 09:06:54 +0900\nSource: r-bioc-s4vectors\nArchitecture: source\nVersion: 0.50.3+dfsg-2\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-bioc-s4vectors (0.50.3+dfsg-2) unstable; urgency=medium\n .\n   * Restrict autopkgtests to amd64 for this upload only (transient).\nChecksums-Sha1:\n a93aeb621d91eaaa28d042609914ee861264305b 2218 r-bioc-s4vectors_0.50.3+dfsg-2.dsc\n 07fcf6cbe219868acd9febf1124aa09de23b43dc 5992 r-bioc-s4vectors_0.50.3+dfsg-2.debian.tar.xz\n bcaef1d8e42c17ad71b025418421893ab831582e 11500 r-bioc-s4vectors_0.50.3+dfsg-2_amd64.buildinfo\nChecksums-Sha256:\n 931cf3c84071e77439783aa1da8fa493898281394749be5f0269aab1a19bd0b8 2218 r-bioc-s4vectors_0.50.3+dfsg-2.dsc\n a4b42bb6500b4e0b53130e86e90f3aaa5987c952a9b4206d5fe630e81bb8e34f 5992 r-bioc-s4vectors_0.50.3+dfsg-2.debian.tar.xz\n 278939d1e903f79c1aba680d312f05f333224fbbbb2aedae71ce8d46ff066b0d 11500 r-bioc-s4vectors_0.50.3+dfsg-2_amd64.buildinfo\nFiles:\n 6a26ffef4d4e9bb4e7a40c2377c35118 2218 gnu-r optional r-bioc-s4vectors_0.50.3+dfsg-2.dsc\n 09f17ea0da5bd35dc450b86864347522 5992 gnu-r optional r-bioc-s4vectors_0.50.3+dfsg-2.debian.tar.xz\n 2adec9683948864b94089cf63d276b7a 11500 gnu-r optional r-bioc-s4vectors_0.50.3+dfsg-2_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrry0ESHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCkAMQAKC70NaIGMWnYGwS/DkGJ2oYgrX5zKak\nGHY9I9FRUm6+sAOoDkBO99BXxRjBLfDcMF9aAqW1pKlRi0hItYutO05vdGjLhLFw\n9A2MZ21MQFbJxMTFTSl3WavgQfwByPXT9FYKMhX5DOYXaQKd8cll2C3+hmER7RbE\n3rEuYOkuKKboiJCrMHh8I9ExEYs6utri2b/q3EGqhfeny46lW/w6X8GAJVniN5EX\ndSM4tyDE8WBSwbFh2f5++eqYAvwngE5KJ8747h3NqoizcKo62ZIdxfDEfiKP2EkB\n9c54lBwtQr3n+MViZXqF45NnG1E4ZXfVrIai89VKQdqoV5D+e2Qu7g5i1zPaqDdr\navl+OWM4jw1ozL+Rvu3buY1WbXdtWpLIJ0V0riEKsDDIas/ghp7Wb8buPMslvdn1\nzzxm+hdLBAFD26mjZPnj4/duOj9bdwpNH5dDPMDPxSJv/Mo1fXJS6X0CaRXEv+BX\nfirfp5TkesTRXByZNQ/ToIZV9b3vlx4gVr60am4N4oewecT+apyfz+hlq9WZUMs6\nyoLqcGUSsQ7ZslQYAqcmrvk2AqF85anrG1FPlZCGs3SlmcEJM5SjlPxq1KkFDtCJ\nFg9kLVQ8FhYVeQ9b5uy0rqCJj5LFiBtJOQkMwNeyFeBBpF5OIgcAiU7FLVffpuSM\nuuVY1R7dG0v3\n=YOiI\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261105/1eee7298/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Thu, 05 Nov 2026 09:06:54 +0900\nSource: r-bioc-s4vectors\nArchitecture: sourc",
+      "thread_id": "thread-75531bf38d00",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-bcc8c0fcc129",
+      "message_id": "<mailman.1275.1793841645.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-05T01:20:41Z",
+      "subject": "[R-pkg-team] Processing of r-bioc-tximportdata_1.40.0+ds1-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-bioc-tximportdata_1.40.0+ds1-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-bioc-tximportdata_1.40.0+ds1-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-tximportdata_1.40.0+ds1-1.dsc\n  r-bioc-tximportdata_1.40.0+ds1.orig.tar.xz\n  r-bioc-tximportdata_1.40.0+ds1-1.debian.tar.xz\n  r-bioc-tximportdata_1.40.0+ds1-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-bioc-tximportdata_1.40.0+ds1-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-tximportdata_1.40.0+ds1-1.dsc\n  r-bioc-tximportdata_1.40.0+ds1.orig.tar.xz\n  r-bioc-tx",
+      "thread_id": "thread-bcc8c0fcc129",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-2710ed07e6ec",
+      "message_id": "<E1xOmN6-000000027tS-2AEz@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-05T01:34:32Z",
+      "subject": "[R-pkg-team] r-bioc-tximportdata_1.40.0+ds1-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-bioc-tximportdata_1.40.0+ds1-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Thu, 05 Nov 2026 10:08:22 +0900\nSource: r-bioc-tximportdata\nArchitecture: source\nVersion: 1.40.0+ds1-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-bioc-tximportdata (1.40.0+ds1-1) unstable; urgency=medium\n .\n   * Team upload.\n .\n   [ Steffen Moeller ]\n   * Fixed lintian errors by correctng time of package creation of 1.40.0-1.\n .\n   [ Charles Plessy ]\n   * Repack (+ds1) keeping a small subset of inst/extdata (salmon_dm/SRR1197474\n     and alevin/mouse1_LPS2_50, 1.4 MB compressed) with Files-Included, so\n     that the autopkgtests of r-bioc-tximeta can find their input files.\nChecksums-Sha1:\n 77b6d9e54b2fa0fafb9eeafe5edf8d2a34871cbb 2219 r-bioc-tximportdata_1.40.0+ds1-1.dsc\n 267870298e50d6defcacd50f8a5151fd84ac0816 1366132 r-bioc-tximportdata_1.40.0+ds1.orig.tar.xz\n f9cf6ac6ba827f39730d109153e27dfb386d52bb 3036 r-bioc-tximportdata_1.40.0+ds1-1.debian.tar.xz\n 9ff3fc2a53c2aac6e8604fe9e28acc2e632290c8 11115 r-bioc-tximportdata_1.40.0+ds1-1_amd64.buildinfo\nChecksums-Sha256:\n 8117c55d51b1b0d1326e9d2a91dde61827a2d14e4a6dcd7c712d285ed304b9ea 2219 r-bioc-tximportdata_1.40.0+ds1-1.dsc\n e2c3f93e8da9a162e6071a6bf0cbea24455a164f819fab2401a1fc4ba52cf5be 1366132 r-bioc-tximportdata_1.40.0+ds1.orig.tar.xz\n 7ea577612e3d5d487b3ccad30c2806bf3cbe824d289db778b548227285a00194 3036 r-bioc-tximportdata_1.40.0+ds1-1.debian.tar.xz\n 1695736ce22f5785784c60d64a9c9f580ffd2514df95453e9341fa77ed79e28c 11115 r-bioc-tximportdata_1.40.0+ds1-1_amd64.buildinfo\nFiles:\n 1c2c1b4d4388cff6d208f2e575115337 2219 gnu-r optional r-bioc-tximportdata_1.40.0+ds1-1.dsc\n 9411e5c0446acac20f08ff5b257c31ba 1366132 gnu-r optional r-bioc-tximportdata_1.40.0+ds1.orig.tar.xz\n 46790b9098f25030aaed901fc0c529d0 3036 gnu-r optional r-bioc-tximportdata_1.40.0+ds1-1.debian.tar.xz\n f3575ea42ec43b483329519e920cc01d 11115 gnu-r optional r-bioc-tximportdata_1.40.0+ds1-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrr2IQSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCgiIQAKSf9ENxB18KUai/+Ic+dYsyPIr2djj2\nSL+nW/ecrIc76+m8FEV3uSbSm6nnnLGPjCQ/uqnfsm3Kn7yA6bS7jX4t23OH5J7a\nUplh5SWLpKB+MbRFcheS7Ga+y8EqwvhrTZhmLDqjQ+i1Sp8XXS8TjhdrkUvWS+xo\nljwqX4VoeMsCW2Og5ZvuFHCO3Ckjm05ah/sMLvzUoi9lO9qnuApcAlDUuwk/3FUv\nwQVw+vl+eEF7vv4cTjYzNhohGbhoFAIzEqG6R70MBXFYt8b4cop/9diCZt/+kPt5\nLQQkfnft+amVy77Z40er3/50EgUL1tyjw9U//6cCbIOKsh+VQDM9c8Vhu2veMwGL\nPGW77KCUStQRENjhDdpNuAnkqZpUSqX5Cum82fxtxiBr7DKrqE8N4Sv6/P55lTkk\nwB6ulv/YFwL9XU2HtDav0ZPa507DEfGmVk39dIfEIWWDJVQ5cjOP6SoB/HnGwnE4\nWgce8T7EUyhH+g/nDv9DA3Dgv8FcZsP9+hwetUjXb/pi8fpIp+H9/yVF58H9+U8K\n3KaTqHt3p2giuebrONt9MSGJd0kmSa0R7t60njOkVBTLT7cBIlwYZZE67FLYmgIA\nNSvOBtNM448kcc8sl4A3EsqUWoiCzjWsc78UaVgbjfiweB5+0kbmLZHhqDYwCtgB\nth/Gg7pSVYKq\n=+RBp\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261105/5a75c4fe/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Thu, 05 Nov 2026 10:08:22 +0900\nSource: r-bioc-tximportdata\nArchitecture: so",
+      "thread_id": "thread-2710ed07e6ec",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-3af0cbc2e752",
+      "message_id": "<mailman.1279.1793847373.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-05T02:56:08Z",
+      "subject": "[R-pkg-team] Processing of r-cran-rjags_5-4-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-rjags_5-4-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-rjags_5-4-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-rjags_5-4-1.dsc\n  r-cran-rjags_5-4.orig.tar.gz\n  r-cran-rjags_5-4-1.debian.tar.xz\n  r-cran-rjags_5-4-1_source.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-rjags_5-4-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-rjags_5-4-1.dsc\n  r-cran-rjags_5-4.orig.tar.gz\n  r-cran-rjags_5-4-1.debian.tar.xz\n  r-cran-rjags_5-4",
+      "thread_id": "thread-3af0cbc2e752",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-c3c722135acc",
+      "message_id": "<E1xOnmT-00000002X4j-43Gp@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-05T03:04:49Z",
+      "subject": "[R-pkg-team] r-cran-rjags_5-4-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-rjags_5-4-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 04 Nov 2026 21:37:35 -0500\nSource: r-cran-rjags\nArchitecture: source\nVersion: 1:5-4-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Chris Lawrence <lawrencc at debian.org>\nChanges:\n r-cran-rjags (1:5-4-1) unstable; urgency=medium\n .\n   * New upstream release.\n   * Uploading to unstable for jags 5.x release.\nChecksums-Sha1:\n c63ecab45afecedd2a070d1645e384c610a4c2c3 2094 r-cran-rjags_5-4-1.dsc\n 0d9844ee8f0db6a0e61f9165339ef35ea6f10031 80150 r-cran-rjags_5-4.orig.tar.gz\n b41d390ac6db3d094762525b2b97fcd73aeeddcd 3272 r-cran-rjags_5-4-1.debian.tar.xz\n 1f1468fdf440e62afcbd6db994cfcd742a772f55 11757 r-cran-rjags_5-4-1_source.buildinfo\nChecksums-Sha256:\n 0e985b1be50d9dd233a69e95e743db14531ec884fc0f092255da3908edd6136c 2094 r-cran-rjags_5-4-1.dsc\n 8adcc759003620f5eb1d46bed77baba090d8068a98556d99aa49272141b3089d 80150 r-cran-rjags_5-4.orig.tar.gz\n 49769b93e20becbc17d8659fd67218e0a0e8a134c3062d2192bcf0dfdf0fe869 3272 r-cran-rjags_5-4-1.debian.tar.xz\n a38acf6e248996dce715491469fb4ce9bbe08c46aca8a9f67e701f053dbdc394 11757 r-cran-rjags_5-4-1_source.buildinfo\nFiles:\n 399bf81df497677d7696c80482721bba 2094 gnu-r optional r-cran-rjags_5-4-1.dsc\n ea6051179c52223aba3acac9e1bd2f6a 80150 gnu-r optional r-cran-rjags_5-4.orig.tar.gz\n 868cdabd166cf5ab4bc9ac7c2c39cc67 3272 gnu-r optional r-cran-rjags_5-4-1.debian.tar.xz\n a5adb233a700a34c322d7741a473b27b 11757 gnu-r optional r-cran-rjags_5-4-1_source.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAEBCgAdFiEEaVikEA0YMJeLPay2yfxBuPmMZs8FAmrr7YgACgkQyfxBuPmM\nZs9YUBAApyhaB2TMAuRgVomMg4QBAoejpDpHwCWJZ+ywviNCOaKgCwrF59P0tONG\nDDmFYH58coy2PyNTjKokfOFSufzgu/Pld6ZvAQkxSwXixeBrTrC5V2sNAp+MP7/l\n6wT2kv1+CBaIMSHErG029A4Eb868MsMwUsl7483FsIil9stZrc301Xy92nzj3AtE\n2P32SioTkxQt1+RMnXAjRT24xUT788dBaOgLEnDryF6isbLv0MQJlOwdy+S+KGWw\nw36YcVjcqeOblkuY8L0X/+H31YJGIi8FJn6bpWGjqPv3WpodheBHkhu5Jgy4XfUd\nGt+3FZxNtYZG1ULGQ8Gcgr3I/eAhriZS0m9K106zGb/1vtPEO/n3O1ZQ0iCDxl2J\n7eag5LunNfF2TzCCMJXx3tJ/g3EC8LKR9Ns/rfjQMMipKRYPsMDqRRiq2q7TX8di\nAwMaXY0ZXglEYS/h0f2FyIDTM67Oqo/6BF7nea2/e1SkxcJi5D5PpE1SDeq3aoJk\n1LJ+kjcCI+JIfq9LBVSfdby8wsPTfN9BvorBPQ6HhyUGAi/bQF9B7wmR6v29SKjq\nvjRmXk6xkWJDZKvgycbNI+86Z+Pc5WDYuJbvyg6g64p+Lqg0mats6uoY93SV6rFK\nVYCa1ZeV3AVyvfgGxIe3htkgetu6z6eZdZbDRulmwhnF1+zmX4M=\n=SLnP\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261105/48f024fe/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 04 Nov 2026 21:37:35 -0500\nSource: r-cran-rjags\nArchitecture: source\nVe",
+      "thread_id": "thread-c3c722135acc",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -1624,6 +1720,72 @@
       "started": "2026-11-04T04:39:59Z",
       "last_reply": "2026-11-04T04:39:59Z",
       "root_message_id": "msg-cc748658fc9e"
+    },
+    {
+      "id": "thread-db01f9884987",
+      "subject": "[R-pkg-team] Processing of r-bioc-s4vectors_0.50.3+dfsg-2_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-05T00:25:13Z",
+      "last_reply": "2026-11-05T00:25:13Z",
+      "root_message_id": "msg-db01f9884987"
+    },
+    {
+      "id": "thread-75531bf38d00",
+      "subject": "[R-pkg-team] r-bioc-s4vectors_0.50.3+dfsg-2_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-05T00:35:32Z",
+      "last_reply": "2026-11-05T00:35:32Z",
+      "root_message_id": "msg-75531bf38d00"
+    },
+    {
+      "id": "thread-bcc8c0fcc129",
+      "subject": "[R-pkg-team] Processing of r-bioc-tximportdata_1.40.0+ds1-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-05T01:20:41Z",
+      "last_reply": "2026-11-05T01:20:41Z",
+      "root_message_id": "msg-bcc8c0fcc129"
+    },
+    {
+      "id": "thread-2710ed07e6ec",
+      "subject": "[R-pkg-team] r-bioc-tximportdata_1.40.0+ds1-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-05T01:34:32Z",
+      "last_reply": "2026-11-05T01:34:32Z",
+      "root_message_id": "msg-2710ed07e6ec"
+    },
+    {
+      "id": "thread-3af0cbc2e752",
+      "subject": "[R-pkg-team] Processing of r-cran-rjags_5-4-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-05T02:56:08Z",
+      "last_reply": "2026-11-05T02:56:08Z",
+      "root_message_id": "msg-3af0cbc2e752"
+    },
+    {
+      "id": "thread-c3c722135acc",
+      "subject": "[R-pkg-team] r-cran-rjags_5-4-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-05T03:04:49Z",
+      "last_reply": "2026-11-05T03:04:49Z",
+      "root_message_id": "msg-c3c722135acc"
     }
   ]
 }
