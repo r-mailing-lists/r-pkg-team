@@ -1058,6 +1058,102 @@
       "thread_id": "thread-c3c722135acc",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-aa52b59ef2b6",
+      "message_id": "<179391753137.1450031.14599834115600551202.reportbug@duagon-BXN3S64.localdomain>",
+      "from_name": "Bastian Germann",
+      "from_email_hash": "1e2c56d3bc9a19fb5f7436580df6356645403caddafe3ab91ac157a1ded5a452",
+      "date": "2026-11-05T22:25:31Z",
+      "subject": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "subject_clean": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Source: rapache\nVersion: 1.2.12-1\nSeverity: normal\n\nPlease consider removing this leaf package to enable removing libapreq2.\nIt has a very low popcon, so there are probably only a few users.",
+      "body_snippet": "Source: rapache\nVersion: 1.2.12-1\nSeverity: normal\n\nPlease consider removing this leaf package to enable removing libapreq2.\nIt has a very low popcon, so there are probably only a few users.",
+      "thread_id": "thread-aa52b59ef2b6",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-c73075ca0762",
+      "message_id": "<mailman.1423.1793923663.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-06T00:07:39Z",
+      "subject": "[R-pkg-team] Processing of r-bioc-tximeta_1.30.1+dfsg-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-bioc-tximeta_1.30.1+dfsg-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-bioc-tximeta_1.30.1+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-tximeta_1.30.1+dfsg-1.dsc\n  r-bioc-tximeta_1.30.1+dfsg.orig.tar.xz\n  r-bioc-tximeta_1.30.1+dfsg-1.debian.tar.xz\n  r-bioc-tximeta_1.30.1+dfsg-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-bioc-tximeta_1.30.1+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-tximeta_1.30.1+dfsg-1.dsc\n  r-bioc-tximeta_1.30.1+dfsg.orig.tar.xz\n  r-bioc-tximeta_1.30.1",
+      "thread_id": "thread-c73075ca0762",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-4fd776d73460",
+      "message_id": "<E1xP7fm-00000006DYg-0wQL@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-06T00:19:14Z",
+      "subject": "[R-pkg-team] r-bioc-tximeta_1.30.1+dfsg-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-bioc-tximeta_1.30.1+dfsg-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Thu, 05 Nov 2026 09:29:43 +0900\nSource: r-bioc-tximeta\nArchitecture: source\nVersion: 1.30.1+dfsg-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-bioc-tximeta (1.30.1+dfsg-1) unstable; urgency=medium\n .\n   * Team upload.\n   * Packaging update (routine-update)\n   * Use uscan v5 $template template. (routine-update)\n   * New upstream version\n   * Remove skip-not-installable in d/t/autopkgtest-pkg-r.conf (routine-\n     update)\n   * Restrict to R packages team core architectures (routine-update)\n   * Drop 'Rules-Requires-Root: no' from d/control (routine-update)\n   * Test-depend on r-bioc-tximportdata (>= 1.40.0+ds1), which ships the\n     example files needed by the alevin and skipMeta tests.\n   * Skip the oarfish mixed-reference test, whose data is not shipped.\n   * Correct the description of skip-test-with-invalid-json.patch.\nChecksums-Sha1:\n c1c41b4e20c804c701d8fd3b5c214fd663d7b0e4 2476 r-bioc-tximeta_1.30.1+dfsg-1.dsc\n 9d0bf604b8c786b8a1cc12c83636e64301b43189 531948 r-bioc-tximeta_1.30.1+dfsg.orig.tar.xz\n c1190050bd67891eff1e3feb6aba622de9f3df6b 4132 r-bioc-tximeta_1.30.1+dfsg-1.debian.tar.xz\n d5bd725540272399e69addf433b600a11cc5fa96 14413 r-bioc-tximeta_1.30.1+dfsg-1_amd64.buildinfo\nChecksums-Sha256:\n 5927752a932884765eeaa6fb35361a02b998eda4290f0345892035937a6aa1b9 2476 r-bioc-tximeta_1.30.1+dfsg-1.dsc\n 7ea86dbf20f8364b9459df17d83f830374bec6be6d6fa8ca878bd9a04f60bf1c 531948 r-bioc-tximeta_1.30.1+dfsg.orig.tar.xz\n 5318786af93e672be2984bca286e6bf3dcfa632e349e4ed140b3384495091ba4 4132 r-bioc-tximeta_1.30.1+dfsg-1.debian.tar.xz\n 9939835d5455a91bb1d57fda58d3c1f752f8fa4eb72e45dd4d863f80ca55dfdb 14413 r-bioc-tximeta_1.30.1+dfsg-1_amd64.buildinfo\nFiles:\n 9044c33f0cc1b17d5167787632c5f3b5 2476 gnu-r optional r-bioc-tximeta_1.30.1+dfsg-1.dsc\n 9ffc9012834c58c4de531463f70498ee 531948 gnu-r optional r-bioc-tximeta_1.30.1+dfsg.orig.tar.xz\n d5c02e5864acf843563feb89bcc564ca 4132 gnu-r optional r-bioc-tximeta_1.30.1+dfsg-1.debian.tar.xz\n 4b15d29ba8814245de89838774e14dcf 14413 gnu-r optional r-bioc-tximeta_1.30.1+dfsg-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrtGBESHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCwWEQAKHdvkzujl9ljwYt/44e3VbAGtw0UIWH\nOYuagvG4wYiAFCgpLaCVsqFIZUc+QHVKWqChuL5Qm/YNjbcDKGsFTmbtXZES4+Ud\nodKNGZPWMrsPi0VVEab5yEAe4X6u19r82IVHJY7HbE1iRu2/Ic0ObPLtHysThR7i\ncMeB3gh0rbEe5qmSaqMPuuWCikaZ7v1eDM88XWhnD9Un3K/VDV8irQK6kBKdftyA\nuYGCdVOTR8k7HcYWdcsu+O4OR90jcHO4JrN0E30amk6oiM/ktQ3L8dhgYc18lo3O\n4BtMVgtQu4PXUr3qMjNLLFYQ2/ZymnsoAAtfd5MAwP6e9OsHPzzG3lx+XiNGrm1T\n2CWms5A5kndSaewvw+71tJHa1NWoLfQtHgagy6XjATyixfG0Rstrwf81dv8QQ2cp\nrowmMQoaasbyJ4rb/p8S3NUQtSskwOK675/K+8kPKAmsRz8cG1gZSx7ChxuryYea\n+wf65JjymUBmgS9Dc/7HBc37vIX9ingS/oeMUnPDax+53bPdrkctDmMnWOZNz0Q6\nu4G7JH4oLYTSHKpmhjDQA729tYFQF+qL0l252Fg4wDtkMRAS1W/PfDMLNJ48/FiQ\n2ptSYA5XQYOK/mxpjgTbPRBLz4Mu/OhslKab0AOf2tFoi2Hqlm5HuPa2H58H8RIO\nbAeqBFSuXWiW\n=3xSP\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261106/bfa91149/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Thu, 05 Nov 2026 09:29:43 +0900\nSource: r-bioc-tximeta\nArchitecture: source\n",
+      "thread_id": "thread-4fd776d73460",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-b623f587e82d",
+      "message_id": "<E1xPBjU-00000003grc-3uEg@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-06T04:39:20Z",
+      "subject": "[R-pkg-team] r-bioc-stringdb 2.24.2-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-bioc-stringdb 2.24.2-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-bioc-stringdb source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.24.1-1\n  Current version:  2.24.2-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-bioc-stringdb source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.24.1-1\n  Current version:  2.24.2-1\n\n-- \nThis email is automatically generate",
+      "thread_id": "thread-b623f587e82d",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-edcc8c9c62dd",
+      "message_id": "<E1xPBjU-00000003grh-472Q@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-06T04:39:20Z",
+      "subject": "[R-pkg-team] r-cran-datawizard 1.4.1+dfsg-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-datawizard 1.4.1+dfsg-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-datawizard source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.4.0+dfsg-1\n  Current version:  1.4.1+dfsg-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-datawizard source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.4.0+dfsg-1\n  Current version:  1.4.1+dfsg-1\n\n-- \nThis email is automaticall",
+      "thread_id": "thread-edcc8c9c62dd",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-f026cec5ef8e",
+      "message_id": "<E1xPBl5-00000003h5r-1srb@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-06T04:40:59Z",
+      "subject": "[R-pkg-team] r-cran-guerry is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-guerry is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-guerry 1.8.3-2 is marked for autoremoval from testing on 2026-12-11\n\nIt is affected by these RC bugs:\n1152396: r-cran-guerry: fails to migrate to testing for too long\n https://bugs.debian.org/1152396\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-guerry 1.8.3-2 is marked for autoremoval from testing on 2026-12-11\n\nIt is affected by these RC bugs:\n1152396: r-cran-guerry: fails to migrate to testing for too long\n https://bugs.debian.org/1",
+      "thread_id": "thread-f026cec5ef8e",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -1786,6 +1882,72 @@
       "started": "2026-11-05T03:04:49Z",
       "last_reply": "2026-11-05T03:04:49Z",
       "root_message_id": "msg-c3c722135acc"
+    },
+    {
+      "id": "thread-aa52b59ef2b6",
+      "subject": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "message_count": 1,
+      "participants": [
+        "Bastian Germann"
+      ],
+      "started": "2026-11-05T22:25:31Z",
+      "last_reply": "2026-11-05T22:25:31Z",
+      "root_message_id": "msg-aa52b59ef2b6"
+    },
+    {
+      "id": "thread-c73075ca0762",
+      "subject": "[R-pkg-team] Processing of r-bioc-tximeta_1.30.1+dfsg-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-06T00:07:39Z",
+      "last_reply": "2026-11-06T00:07:39Z",
+      "root_message_id": "msg-c73075ca0762"
+    },
+    {
+      "id": "thread-4fd776d73460",
+      "subject": "[R-pkg-team] r-bioc-tximeta_1.30.1+dfsg-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-06T00:19:14Z",
+      "last_reply": "2026-11-06T00:19:14Z",
+      "root_message_id": "msg-4fd776d73460"
+    },
+    {
+      "id": "thread-b623f587e82d",
+      "subject": "[R-pkg-team] r-bioc-stringdb 2.24.2-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-06T04:39:20Z",
+      "last_reply": "2026-11-06T04:39:20Z",
+      "root_message_id": "msg-b623f587e82d"
+    },
+    {
+      "id": "thread-edcc8c9c62dd",
+      "subject": "[R-pkg-team] r-cran-datawizard 1.4.1+dfsg-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-06T04:39:20Z",
+      "last_reply": "2026-11-06T04:39:20Z",
+      "root_message_id": "msg-edcc8c9c62dd"
+    },
+    {
+      "id": "thread-f026cec5ef8e",
+      "subject": "[R-pkg-team] r-cran-guerry is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-11-06T04:40:59Z",
+      "last_reply": "2026-11-06T04:40:59Z",
+      "root_message_id": "msg-f026cec5ef8e"
     }
   ]
 }

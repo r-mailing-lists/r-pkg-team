@@ -3,9 +3,9 @@
     "name": "Debian FTP Masters",
     "slug": "debian-ftp-masters",
     "emailHash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
-    "messageCount": 30703,
+    "messageCount": 30705,
     "firstDate": "2018-05-04T08:59:01Z",
-    "lastDate": "2026-11-05T03:04:49Z",
+    "lastDate": "2026-11-06T00:19:14Z",
     "yearlyActivity": {
       "2018": 2865,
       "2019": 2894,
@@ -15,16 +15,16 @@
       "2023": 3268,
       "2024": 3202,
       "2025": 1833,
-      "2026": 4167
+      "2026": 4169
     }
   },
   {
     "name": "Debian testing watch",
     "slug": "debian-testing-watch",
     "emailHash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
-    "messageCount": 23248,
+    "messageCount": 23251,
     "firstDate": "2018-05-06T04:39:24Z",
-    "lastDate": "2026-11-04T04:39:59Z",
+    "lastDate": "2026-11-06T04:40:59Z",
     "yearlyActivity": {
       "2018": 1228,
       "2019": 986,
@@ -34,7 +34,7 @@
       "2023": 2494,
       "2024": 2839,
       "2025": 3719,
-      "2026": 4817
+      "2026": 4820
     }
   },
   {
@@ -522,6 +522,18 @@
     }
   },
   {
+    "name": "Bastian Germann",
+    "slug": "bastian-germann",
+    "emailHash": "1e2c56d3bc9a19fb5f7436580df6356645403caddafe3ab91ac157a1ded5a452",
+    "messageCount": 12,
+    "firstDate": "2025-04-03T09:41:10Z",
+    "lastDate": "2026-11-05T22:25:31Z",
+    "yearlyActivity": {
+      "2025": 4,
+      "2026": 8
+    }
+  },
+  {
     "name": "Bark Team",
     "slug": "bark-team",
     "emailHash": "7666fb5cc0f07a750590a6d3b25371ebc95bb33c8af85ec133ec986df8933227",
@@ -557,18 +569,6 @@
       "2021": 2,
       "2022": 1,
       "2026": 1
-    }
-  },
-  {
-    "name": "Bastian Germann",
-    "slug": "bastian-germann",
-    "emailHash": "1e2c56d3bc9a19fb5f7436580df6356645403caddafe3ab91ac157a1ded5a452",
-    "messageCount": 11,
-    "firstDate": "2025-04-03T09:41:10Z",
-    "lastDate": "2026-10-19T21:25:57Z",
-    "yearlyActivity": {
-      "2025": 4,
-      "2026": 7
     }
   },
   {
