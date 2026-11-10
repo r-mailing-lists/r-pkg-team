@@ -3,9 +3,9 @@
     "name": "Debian FTP Masters",
     "slug": "debian-ftp-masters",
     "emailHash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
-    "messageCount": 30705,
+    "messageCount": 30710,
     "firstDate": "2018-05-04T08:59:01Z",
-    "lastDate": "2026-11-06T00:19:14Z",
+    "lastDate": "2026-11-09T18:00:26Z",
     "yearlyActivity": {
       "2018": 2865,
       "2019": 2894,
@@ -15,16 +15,16 @@
       "2023": 3268,
       "2024": 3202,
       "2025": 1833,
-      "2026": 4169
+      "2026": 4174
     }
   },
   {
     "name": "Debian testing watch",
     "slug": "debian-testing-watch",
     "emailHash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
-    "messageCount": 23271,
+    "messageCount": 23276,
     "firstDate": "2018-05-06T04:39:24Z",
-    "lastDate": "2026-11-08T04:40:20Z",
+    "lastDate": "2026-11-10T04:39:18Z",
     "yearlyActivity": {
       "2018": 1228,
       "2019": 986,
@@ -34,7 +34,7 @@
       "2023": 2494,
       "2024": 2839,
       "2025": 3719,
-      "2026": 4840
+      "2026": 4845
     }
   },
   {
@@ -1155,6 +1155,17 @@
     }
   },
   {
+    "name": "dfsg-team at debian.org",
+    "slug": "dfsg-team-at-debian-org",
+    "emailHash": "2e200826d35d3dac084a4fa27a61386775eb2c722bf7e4d1765548637c1c5c40",
+    "messageCount": 3,
+    "firstDate": "2026-05-12T18:31:09Z",
+    "lastDate": "2026-11-09T12:03:06Z",
+    "yearlyActivity": {
+      "2026": 3
+    }
+  },
+  {
     "name": "DKB AG | Deutsche Kreditbank",
     "slug": "dkb-ag-deutsche-kreditbank",
     "emailHash": "346f52ce31551163db795d73a1411bada7b839bcee3c79e7fe716c08560826ad",
@@ -1484,17 +1495,6 @@
     "lastDate": "2024-10-13T12:19:16Z",
     "yearlyActivity": {
       "2024": 2
-    }
-  },
-  {
-    "name": "dfsg-team at debian.org",
-    "slug": "dfsg-team-at-debian-org",
-    "emailHash": "2e200826d35d3dac084a4fa27a61386775eb2c722bf7e4d1765548637c1c5c40",
-    "messageCount": 2,
-    "firstDate": "2026-05-12T18:31:09Z",
-    "lastDate": "2026-10-21T12:03:15Z",
-    "yearlyActivity": {
-      "2026": 2
     }
   },
   {
