@@ -3419,3 +3419,650 @@ later changes on the next day.
 See https://release.debian.org/testing-watch/ for more information.
 
 
+From ftpmaster at ftp-master.debian.org  Tue Nov 10 14:39:14 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 10 Nov 2026 14:39:14 +0000
+Subject: [R-pkg-team] Processing of r-cran-estimatr_2.0.1-1_source.changes
+Message-ID: <mailman.1865.1794321558.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-estimatr_2.0.1-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-estimatr_2.0.1-1.dsc
+  r-cran-estimatr_2.0.1.orig.tar.gz
+  r-cran-estimatr_2.0.1-1.debian.tar.xz
+  r-cran-estimatr_2.0.1-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 10 14:49:16 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 10 Nov 2026 14:49:16 +0000
+Subject: [R-pkg-team] r-cran-estimatr_2.0.1-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xQn9w-00000008gQQ-0JNV@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 10 Nov 2026 14:37:55 +0100
+Source: r-cran-estimatr
+Architecture: source
+Version: 2.0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andreas Tille <tille at debian.org>
+Changes:
+ r-cran-estimatr (2.0.1-1) unstable; urgency=medium
+ .
+   * New upstream version
+   * Use uscan v5 $template template. (routine-update)
+   * Standards-Version: 4.7.4 (routine-update)
+   * Remove Rules-Requires-Root: no
+   * Adapt autopkgtest to new upstream version
+   * Skip the extract() goodness-of-fit test when texreg is absent
+Checksums-Sha1:
+ d34e3f855d6fcbcfc16edc12a3d98b70d620295b 2444 r-cran-estimatr_2.0.1-1.dsc
+ c1bb3738299d4ba3cdfcb3637d18bc5ed4058424 494813 r-cran-estimatr_2.0.1.orig.tar.gz
+ b4b6096603a0ec7db31cc86fc6b5f07948b55eb2 3900 r-cran-estimatr_2.0.1-1.debian.tar.xz
+ 0c26fbe1b8ec575283eca2e3361c4c0debf42556 12046 r-cran-estimatr_2.0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 55b6ab6d691f4240d717042c3cec889649fe9148fb0f2d6bb88cadab3a20f2b0 2444 r-cran-estimatr_2.0.1-1.dsc
+ fcd5584066480fd472c33fc6048df9d0b7fa24c42d55283111085ab5fe7ac72e 494813 r-cran-estimatr_2.0.1.orig.tar.gz
+ fb3626285a8dfc242e2af2bae868c791ceff695887a82182bb71ccf92f87bd72 3900 r-cran-estimatr_2.0.1-1.debian.tar.xz
+ 8c2a5883a9a5ffb03b8d05250b159973d5f3955bcc4c0813ec0404749da46d0d 12046 r-cran-estimatr_2.0.1-1_amd64.buildinfo
+Files:
+ ec74ce432598da09a1c7304d260dbb3f 2444 gnu-r optional r-cran-estimatr_2.0.1-1.dsc
+ 01c3802204417161962a6557030ec383 494813 gnu-r optional r-cran-estimatr_2.0.1.orig.tar.gz
+ 6bfc1d1cfd4f7e18db1787647ac16d31 3900 gnu-r optional r-cran-estimatr_2.0.1-1.debian.tar.xz
+ c21da9c06e2808955312040ef38373a8 12046 gnu-r optional r-cran-estimatr_2.0.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAEBCgAvFiEE8fAHMgoDVUHwpmPKV4oElNHGRtEFAmrzKdMRHHRpbGxlQGRl
+Ymlhbi5vcmcACgkQV4oElNHGRtGwSQ/9Ey7Z1ndc+ex4BZqWQftu/s4b4zs1lpCG
+nr4ZHcHppW8XdIr3dyjNvi1yQ4vpcQri3uT+4ns1pWvO3nkB86lEQAhJSr9u7Dyy
+6yy7Yx04eXngPAEIduwnMEIJZieRjQDlcQByCbGQjK41UqHF/GMOH/BKw7aT5aiy
+myLhMLVAh1SYDA96xNXaYSMtQ4ji9V53QivJVxwbQwRm3mEV9pHnARRgNeQ47/2e
+eRhmbM6eYbODvvSwmpDPIjw1Td+oCWXbHe4PW6EIp+m0cLZgMpeB9Px263Ho1Kbj
+IREnUGzypqAcHezbI6/VlssEp6ijGPrNlKMwdLh/S2bOrD/wH8p1dFbXEWatC70/
+P8fGjPFdGd5GAmuImu45V1JO/f6VXqOxKEzmyk/WBxL35VjZ+p3thSXDFmSPr6x3
+7yBwNA8ehSb6/mQlmXdUlZsMC9qXpgjyjeRVfogcO/zAdWOYwGq9YbnkIhIM12RA
+lawA0QingKPjDrsActTISiHidM9E17HJXnrxbfd92T0MZPTcd5TszFkPILbpVMmK
+gDWYpeIhxMsofQKb+HD6GWIS4fkXBJKpF4fK591hDdDA9B1uPwBdBLErgYHMSXBN
+21P2HTXnS84Cu0HY4Rod+XpNybEfds4DHKTBqIU9EcTr8LiWDZVR+H5UYLbyGCA+
+FSWoULmFgJ0=
+=Max+
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261110/ddd1eef0/attachment.sig>
+
+From plessy at debian.org  Tue Nov 10 23:27:05 2026
+From: plessy at debian.org (Charles Plessy)
+Date: Wed, 11 Nov 2026 08:27:05 +0900
+Subject: [R-pkg-team] Bug#1153684: RM: r-bioc-savr -- ROM; Removed upstream
+Message-ID: <179435322501.3031279.5454212005693978736.reportbug@grsu-plessy-xps.oist.jp>
+
+Package: ftp.debian.org
+Severity: normal
+X-Debbugs-Cc: r-bioc-savr at packages.debian.org, debian-r at lists.debian.org, debian-med at lists.debian.org, plessy at debian.org
+Control: affects -1 + src:r-bioc-savr
+User: ftp.debian.org at packages.debian.org
+Usertags: remove
+
+Dear Archives Operation Team and everyone,
+
+it is time to remove r-bioc-savr from Debian.  It was removed upstream
+from the Bioconductor distribution since a couple of years already.
+
+Have a nice day,
+
+Charles
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 10 23:42:00 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 10 Nov 2026 23:42:00 +0000
+Subject: [R-pkg-team] Processing of r-bioc-stringdb_2.24.3-1_source.changes
+Message-ID: <mailman.1930.1794354123.631.r-pkg-team@alioth-lists.debian.net>
+
+r-bioc-stringdb_2.24.3-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-bioc-stringdb_2.24.3-1.dsc
+  r-bioc-stringdb_2.24.3.orig.tar.gz
+  r-bioc-stringdb_2.24.3-1.debian.tar.xz
+  r-bioc-stringdb_2.24.3-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 10 23:47:01 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 10 Nov 2026 23:47:01 +0000
+Subject: [R-pkg-team] Processing of r-cran-dharma_0.5.1-1_source.changes
+Message-ID: <mailman.1931.1794354423.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-dharma_0.5.1-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-dharma_0.5.1-1.dsc
+  r-cran-dharma_0.5.1.orig.tar.gz
+  r-cran-dharma_0.5.1-1.debian.tar.xz
+  r-cran-dharma_0.5.1-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 11 00:02:07 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 11 Nov 2026 00:02:07 +0000
+Subject: [R-pkg-team] Processing of r-cran-factominer_2.18-1_source.changes
+Message-ID: <mailman.1933.1794355334.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-factominer_2.18-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-factominer_2.18-1.dsc
+  r-cran-factominer_2.18.orig.tar.gz
+  r-cran-factominer_2.18-1.debian.tar.xz
+  r-cran-factominer_2.18-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 11 00:07:52 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 11 Nov 2026 00:07:52 +0000
+Subject: [R-pkg-team] r-bioc-stringdb_2.24.3-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xQvsW-0000000A85G-0W9d@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 11 Nov 2026 08:29:00 +0900
+Source: r-bioc-stringdb
+Architecture: source
+Version: 2.24.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-bioc-stringdb (2.24.3-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * New upstream version
+Checksums-Sha1:
+ a5cabaa94d6cc8be1c7fa007bb86c6ddff661326 2241 r-bioc-stringdb_2.24.3-1.dsc
+ f4c44759367c367736abd142eeced60078e5a70d 4264012 r-bioc-stringdb_2.24.3.orig.tar.gz
+ 0431ceb879a5e828d879c08f82945f841ad75b5d 3400 r-bioc-stringdb_2.24.3-1.debian.tar.xz
+ 7f34fd81f2e0d34f1ff11030f361815c33ad71f6 12514 r-bioc-stringdb_2.24.3-1_amd64.buildinfo
+Checksums-Sha256:
+ 2d70683b53239b9865248f8ed874ee654465ff57ed46d5d8a544f5a50196fa62 2241 r-bioc-stringdb_2.24.3-1.dsc
+ 56a0727ea1f74a03b42a0619bf02b6a95e23ada5d6444ddbb836a6507b0d8fee 4264012 r-bioc-stringdb_2.24.3.orig.tar.gz
+ 813be6854a7bb8d1cb82d1bfde03c03bc1d3c91a1723da3e8e11861a83ff6987 3400 r-bioc-stringdb_2.24.3-1.debian.tar.xz
+ fbba550aef761380f76fb72a9496f93bbc965497b8dd89e4e3c72b170d71e634 12514 r-bioc-stringdb_2.24.3-1_amd64.buildinfo
+Files:
+ 8e9cc028a1a982e4147eb075ca106254 2241 gnu-r optional r-bioc-stringdb_2.24.3-1.dsc
+ fed28cbfa8b15d44f393b3d0ed0478c0 4264012 gnu-r optional r-bioc-stringdb_2.24.3.orig.tar.gz
+ c6a6aecfc101d97191b569ac620766ea 3400 gnu-r optional r-bioc-stringdb_2.24.3-1.debian.tar.xz
+ 9a1e6d58e9e569101a88805c7fae135a 12514 gnu-r optional r-bioc-stringdb_2.24.3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrzqeYSHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCRYQP/07lQNCAzHkKc3ww+/Uf0Nbm6fn+gNlr
+0pi0TvXhFHwPduOn/oRXKNdIr42HiN2NLAu6uM9TRg/ihz8ldHCQo5NLWC5Se6c4
+OCg1ZiNnz9ym0jXNYrix8zbROerYSZPlN8WU0RRF3P0RiR/AKDOzVJ+Jzvi/FmTp
+UJfhmtT/ysPX3wENBfkebsSVHkCkcxmx7gUfpQgy1dDDR5o/RYaRsP4GJ9BPIRNH
+ayQ95qnXgyH2x8i/hStGUirTq7qLE7ey9soLod9PiWAJI9pOhLauNk5gcarnLEJm
+REW+0DZPfsM4MbJMNX0CIl5F8Wogl9IisvHky4VtMHpEkOKWdnlVb7StDGZ9JXHY
+Jk950Fy0Q308L7t1/w5xJhqCbF1tR3duU5rQKmApFJ18SecQN+6kXPs7S5nC8964
+pwlQs3i6Pxau7FwTOgKrO66bAngeuhFebgjIxy/OJZDHeJSIubM7WPpayHJiD8rc
+40aRoHe8EnHY6FotMzmIDkSan+5NoBBTjxVdU3v2243cJfA7wLRLhbe5ZW6FXkPD
+qYxwsJYsc4ps3/PoEwsrsIBqewwP4TBsprVWAfqBUieVqFmRh3Bu7aQseTFv1k9D
+fPykckCqW9ncH2IaEiIZ9mll4v/Gy669SH3pOGuZxpxgBVSmLkGrqs4s90fkz2Kk
+U2sUE3aLFjRZ
+=mmvS
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/8d92754b/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 11 00:07:58 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 11 Nov 2026 00:07:58 +0000
+Subject: [R-pkg-team] r-cran-dharma_0.5.1-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xQvsc-0000000A85m-14Ym@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 11 Nov 2026 08:34:55 +0900
+Source: r-cran-dharma
+Architecture: source
+Version: 0.5.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-dharma (0.5.1-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * New upstream version
+Checksums-Sha1:
+ 60b2879be153d1841655b21b4a30b1914335b1c5 2330 r-cran-dharma_0.5.1-1.dsc
+ e343667ca1e04a08bcd62dd02161e652486ca139 4105367 r-cran-dharma_0.5.1.orig.tar.gz
+ b7b793db3b423b2e776baba4b0b50823d99ae4a0 3724 r-cran-dharma_0.5.1-1.debian.tar.xz
+ c51bececb629e75a5aaa8d14dfed317e7f0384bf 15251 r-cran-dharma_0.5.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 6b28c2a2d5befb407a115d9164b5b5ea05f401b1e32ddbd46e5a4b0eb505485c 2330 r-cran-dharma_0.5.1-1.dsc
+ db4463dfa37f1e65ec31f6be5ab8d18ff86e3f2d14c94dcfa5c2ab83b4e0f7c4 4105367 r-cran-dharma_0.5.1.orig.tar.gz
+ f31538e023d2c3279e694f7165e83a5af0b01919fcb42682269b53097d8a1495 3724 r-cran-dharma_0.5.1-1.debian.tar.xz
+ 17625b361ec6d195747ded3c6725a87ade16607c9f915dbf3d02d37544bd0831 15251 r-cran-dharma_0.5.1-1_amd64.buildinfo
+Files:
+ d5cd9a78f98665709d23b48efa5ea4e1 2330 gnu-r optional r-cran-dharma_0.5.1-1.dsc
+ f3513971c8c37d7079fde869af6047cf 4105367 gnu-r optional r-cran-dharma_0.5.1.orig.tar.gz
+ 327028393b59563d018929455ff79e4b 3724 gnu-r optional r-cran-dharma_0.5.1-1.debian.tar.xz
+ 86986550861e5a0d86d9a552a61021a4 15251 gnu-r optional r-cran-dharma_0.5.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrzqrUSHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCS9cQAKKTZ2ZDqSYYd+Bfq//4BSaLvwPWuyIq
+k78IKGC0/B471+Ie79zNotmiDS0zEIb0B0scCiBKOhYAN9uc1jSd9loO0LXzJ64I
+qMqcUShVnGF8mUs4v0pg5i4T0DSZ5Y7aBVeWR3wbjCR8Oz6xuwCTrIRq6LbvGt5U
+6q/7PtpN/2owoi9VFro5y5AFx7OfnAJd5/c4jVPBWn4dRF916JbRDOHviTJPx4iY
+DFR1Mq53aB8/+iI5imOS2pV+w5XQ4EoxFTWHf9pjTr7582yQTeTClorQVUCLxkxC
+zSaNAfDxGFXRcn+V7aMdQQ4uQFHjmYf19gEuFoA9Cw+Z/KLC4bpmegcCk0z+/9Ae
+59x3EjeNkmch4QAY+WZaRJTkcKtRCsXG22vxHDzLBvcdj1KKvKY5o3mlcilYc2Bo
+ZaEk8Iy5biVIMW6g5LvqAt49a7dk9fkryVnl4OqDZVb2lRqOahzfwNbuBQbvsy0q
+dj9GleSoxSnWGI0bemJQT+CfejG8RnzX5s3AqoJ8+f+tZgQkoNYqDc6FZMcfW9gO
+pu7gNCsWqYaaTzcAPeGSNrsMuNDwosaIN4jlyPv7xn3Pu982P9CX/x6JXiv4RKLZ
+bFH4/10JNBi0mpjqn+aqSjBnWCaV64Ta3DnbKlJiDsZK0WPOUXN3FO0zINN74Q7n
+YLLd12Fy2rLC
+=hGW1
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/d9f79f0e/attachment-0001.sig>
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 11 00:08:04 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 11 Nov 2026 00:08:04 +0000
+Subject: [R-pkg-team] r-cran-factominer_2.18-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xQvsi-0000000A86L-2TsY@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 11 Nov 2026 08:44:56 +0900
+Source: r-cran-factominer
+Architecture: source
+Version: 2.18-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-factominer (2.18-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * New upstream version
+   * Remove duplicate values for fields Repository-Browse, Repository-Browse,
+     Repository-Browse in debian/upstream/metadata.
+   * Set upstream metadata fields: Repository-Browse.
+Checksums-Sha1:
+ d143697ad5d5967977266f553fc27f8479710d8b 2449 r-cran-factominer_2.18-1.dsc
+ ca0e1695951ffe39f557f04fdd0b39369b2a6844 2852442 r-cran-factominer_2.18.orig.tar.gz
+ 2551818b2faead0cc617fe9987b6630d886384ae 4652 r-cran-factominer_2.18-1.debian.tar.xz
+ 50ebe208ab1e2d6b31ba7cf2b4d6d8f13391b48b 17383 r-cran-factominer_2.18-1_amd64.buildinfo
+Checksums-Sha256:
+ 4ef068d46851075be2397214daf0c11c8e9f96ddb24f8b5f036064fc93eae6fc 2449 r-cran-factominer_2.18-1.dsc
+ 10fcdde8f685c30c2403e1037c3ccc3a35bddf1090e11d346a8bf20964c55f8e 2852442 r-cran-factominer_2.18.orig.tar.gz
+ 98c2610603310d1cc0152272a084469ca7bd4f9c8132e3dfe768f66c457db86d 4652 r-cran-factominer_2.18-1.debian.tar.xz
+ 3b11e0eb1f6fdfd6851c2630e947f42a24b7274d4f38b6efed7d4467ec967a8b 17383 r-cran-factominer_2.18-1_amd64.buildinfo
+Files:
+ 6f6113c486eba7d21b3968a3600615bc 2449 gnu-r optional r-cran-factominer_2.18-1.dsc
+ ade29739293386f19282c0d4ce3cff38 2852442 gnu-r optional r-cran-factominer_2.18.orig.tar.gz
+ 80f836365322815d6a98954a8fb9da7e 4652 gnu-r optional r-cran-factominer_2.18-1.debian.tar.xz
+ 1e33f6980d7fe0d6922e0bd3d60d4a12 17383 gnu-r optional r-cran-factominer_2.18-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrzro0SHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCVckP/2ydJnGE7oQ5Y/VKqOv1mLM8glG4wH8E
+pnE2XZkikVuWFU2fEBFtvYYSxr9dUzwTtrLS9b9Cj71rGQgN3H+mmEKrmoaeSkrE
+Vnq+vP9AiuagBQ1nYBWs8eYccmp0Wu5p3StUwybLU9/80QWQCLaeEoe+8yYBBHFi
+E4cWm0dbZVIPS+nb+qWgMV0l7wakt5Nhg4rgbn7KT+eEoez3G8QGPDcnuQAa3Lzk
+hxW1/OYbfq8/OuwR6kI3Wxa16Le3OkvXKAHHcV14/O6/E1P+6HsTBFAbCQ6B3KM2
+YEDi1XPySpoQqQf038sGt7J7RMKGKc94bi/3/K9fi1rI27f228RHrLbw+xrERWM0
+a9NZeIOMq2ftDJV1iCrTDXTXa653OCe9/oKlSkWbFgT1/0etfqDRI0T5Uy9ffuBE
+Ev3Tal9xD73kH0/UWfkqMXefy7TPmyHUFU4JXq05rWuSfYCCx3uSo3L16TMK9nZw
+fe+Dl9vuEo2N+5Bno33VuDH1F2We7sgjNRMHCPZ21TGIs0rNPXq/SWntdxg4gHjl
+SJthBIQ50OSCBTH6RhtPRe2apbpcSp+qS5qTZhzrN05KulrSn+Kp8dB4fdfYg2Z+
+rzcVcm7fRxZGhmXze0ig23VEKncWP6+20oHM38ZEyGtI7JUqo6qHrMXNA7/H1Bmv
+R67y214Gkvcn
+=0IfJ
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/2680f7b2/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 11 02:50:51 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 11 Nov 2026 02:50:51 +0000
+Subject: [R-pkg-team] Processing of r-cran-gdtools_0.5.3-1_source.changes
+Message-ID: <mailman.1949.1794365457.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-gdtools_0.5.3-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-gdtools_0.5.3-1.dsc
+  r-cran-gdtools_0.5.3.orig.tar.gz
+  r-cran-gdtools_0.5.3-1.debian.tar.xz
+  r-cran-gdtools_0.5.3-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 11 03:09:03 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 11 Nov 2026 03:09:03 +0000
+Subject: [R-pkg-team] r-cran-gdtools_0.5.3-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xQyhr-0000000AoXk-26Xz@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 11 Nov 2026 09:29:24 +0900
+Source: r-cran-gdtools
+Architecture: source
+Version: 0.5.3-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-gdtools (0.5.3-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * New upstream version
+Checksums-Sha1:
+ e5a67c13fe81f005e21dc4c8c52d6e316b1b5f88 2278 r-cran-gdtools_0.5.3-1.dsc
+ 73aadf560273d08f59b1b3ce824debaf2de628b8 91897 r-cran-gdtools_0.5.3.orig.tar.gz
+ cbc748f9f02db6460c370b4088f0fce127a37d32 3100 r-cran-gdtools_0.5.3-1.debian.tar.xz
+ 057c7265331c261c8e00a88df1a426f2381ae247 11919 r-cran-gdtools_0.5.3-1_amd64.buildinfo
+Checksums-Sha256:
+ c7a2afe668788d5ef64e7f3b823ffbc567de9c27f9b08f80af81b00bc0f72ec4 2278 r-cran-gdtools_0.5.3-1.dsc
+ e5a8531fd839f8ea7017ed37426fef30809ddf8066666df8ed62108367af159e 91897 r-cran-gdtools_0.5.3.orig.tar.gz
+ 77a607335b6fdad5aa2d4996509e609f3047123300f90fee22a8fdb2ac17bfce 3100 r-cran-gdtools_0.5.3-1.debian.tar.xz
+ d0b7169988d08f5d35c45a9845028911d8c005363a96043b3295fc38cfdfabc4 11919 r-cran-gdtools_0.5.3-1_amd64.buildinfo
+Files:
+ 9379ece32dc08c620e652f5216fafa30 2278 gnu-r optional r-cran-gdtools_0.5.3-1.dsc
+ a013d03fb7f73640b0ef5aebd3b26e2e 91897 gnu-r optional r-cran-gdtools_0.5.3.orig.tar.gz
+ cf5255fc4a5a8d9ad4383428c125bc96 3100 gnu-r optional r-cran-gdtools_0.5.3-1.debian.tar.xz
+ d02e0b4967b9ae7f52546a1e0fbdf547 11919 gnu-r optional r-cran-gdtools_0.5.3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmrz1fESHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUC24cP/ifLSBNAzUevVLFQk/rBdCcjqR+m4u1W
+DtdD1tMi434cGYlvo/i4tmZI2LxvuJn3IUlqT00EEa0H5YcBt9hElrKCemLn8VzT
+3LuwJ+FN2Hg8XQjdSisRWpGI3OfHAvtmouwBHSqcYb7sKMLL0ob46FQysD0Z1qjh
+RdsnOSPOwSId2pS6b7ebwl2sB7YIzyNRvhAOGfPDXEXyPW9ysUlafc3yM5LovlRz
+kQXeSRceekfNn3WBqPyI0VF6AxaQ3AkjeFeLK6+v5UL6o34ysqgbrNJSDIMbRYXo
+Wpf2WQbbsIqG0MXCbg/4uqE7tVt+xnrMhnFI47xIGqESz1VtV1WPtfLGH5Hhq9G7
+cm4DBBpzVr6m7nLVPDGNGVlC5BG+UFiXdYxWgPsa4fyB8mqVolq8nFx+uBFZrZPa
+iaIPmcGQyW4NrPdIcoRJuLlSuHLWWjnn10J+RsQO7v+Savz3NXgN96Dt3g05l+tV
+vqayFi8dD0BVrwjzkDZzELkpv9snuLWhWirOAYM+w7PWA7y493txiVeq1m7ThffO
+64ORBOT1Jxe01gh+iQzWXolACoCYc64W3OwR5M+GjE1cArc+NetFrfWz0/tuJpGh
+fG/1Nos6LVi1qKZV2C8LArOQPiiUzjqzQ0vAUhbs5zoSlNq1uRxAKmuWOhOkjtdu
+jmvEyrrHaqht
+=kyyk
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/bed5fd77/attachment.sig>
+
+From noreply at release.debian.org  Wed Nov 11 04:39:14 2026
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 11 Nov 2026 04:39:14 +0000
+Subject: [R-pkg-team] r-cran-bbmisc 1.13.2-1 MIGRATED to testing
+Message-ID: <E1xR078-00000001bR7-42kh@respighi.debian.org>
+
+FYI: The status of the r-cran-bbmisc source package
+in Debian's testing distribution has changed.
+
+  Previous version: 1.13.1-1
+  Current version:  1.13.2-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Wed Nov 11 04:39:27 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 11 Nov 2026 04:39:27 +0000
+Subject: [R-pkg-team] r-cran-prophet is marked for autoremoval from testing
+Message-ID: <E1xR07L-00000001bVC-3wOi@respighi.debian.org>
+
+r-cran-prophet 1.1.7+dfsg-1 is marked for autoremoval from testing on 2026-11-26
+
+It (build-)depends on packages with these RC bugs:
+1150839: r-cran-xts: fails to migrate to testing for too long
+ https://bugs.debian.org/1150839
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Wed Nov 11 04:39:28 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 11 Nov 2026 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-gstat is marked for autoremoval from testing
+Message-ID: <E1xR07M-00000001bVJ-1657@respighi.debian.org>
+
+r-cran-gstat 2.1-6-1 is marked for autoremoval from testing on 2026-11-26
+
+It (build-)depends on packages with these RC bugs:
+1150839: r-cran-xts: fails to migrate to testing for too long
+ https://bugs.debian.org/1150839
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Wed Nov 11 04:39:28 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 11 Nov 2026 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-spacetime is marked for autoremoval from testing
+Message-ID: <E1xR07M-00000001bVR-2SNE@respighi.debian.org>
+
+r-cran-spacetime 1.3-4-1 is marked for autoremoval from testing on 2026-11-26
+
+It (build-)depends on packages with these RC bugs:
+1150839: r-cran-xts: fails to migrate to testing for too long
+ https://bugs.debian.org/1150839
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Wed Nov 11 04:39:29 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 11 Nov 2026 04:39:29 +0000
+Subject: [R-pkg-team] r-cran-xts is marked for autoremoval from testing
+Message-ID: <E1xR07N-00000001bVf-0Goc@respighi.debian.org>
+
+r-cran-xts 0.14.2-4 is marked for autoremoval from testing on 2026-11-26
+
+It is affected by these RC bugs:
+1150839: r-cran-xts: fails to migrate to testing for too long
+ https://bugs.debian.org/1150839
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Wed Nov 11 04:39:28 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 11 Nov 2026 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-dygraphs is marked for autoremoval from testing
+Message-ID: <E1xR07M-00000001bVb-3nH6@respighi.debian.org>
+
+r-cran-dygraphs 1.1.1.6+dfsg-5 is marked for autoremoval from testing on 2026-11-26
+
+It (build-)depends on packages with these RC bugs:
+1150839: r-cran-xts: fails to migrate to testing for too long
+ https://bugs.debian.org/1150839
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Wed Nov 11 04:39:28 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Wed, 11 Nov 2026 04:39:28 +0000
+Subject: [R-pkg-team] r-cran-smoother is marked for autoremoval from testing
+Message-ID: <E1xR07M-00000001bVU-380V@respighi.debian.org>
+
+r-cran-smoother 1.3-2 is marked for autoremoval from testing on 2026-11-26
+
+It (build-)depends on packages with these RC bugs:
+1150839: r-cran-xts: fails to migrate to testing for too long
+ https://bugs.debian.org/1150839
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
