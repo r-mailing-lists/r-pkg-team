@@ -3,9 +3,9 @@
     "name": "Debian FTP Masters",
     "slug": "debian-ftp-masters",
     "emailHash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
-    "messageCount": 30720,
+    "messageCount": 30722,
     "firstDate": "2018-05-04T08:59:01Z",
-    "lastDate": "2026-11-11T03:09:03Z",
+    "lastDate": "2026-11-11T08:38:44Z",
     "yearlyActivity": {
       "2018": 2865,
       "2019": 2894,
@@ -15,16 +15,16 @@
       "2023": 3268,
       "2024": 3202,
       "2025": 1833,
-      "2026": 4184
+      "2026": 4186
     }
   },
   {
     "name": "Debian testing watch",
     "slug": "debian-testing-watch",
     "emailHash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
-    "messageCount": 23283,
+    "messageCount": 23284,
     "firstDate": "2018-05-06T04:39:24Z",
-    "lastDate": "2026-11-11T04:39:29Z",
+    "lastDate": "2026-11-12T04:39:15Z",
     "yearlyActivity": {
       "2018": 1228,
       "2019": 986,
@@ -34,7 +34,7 @@
       "2023": 2494,
       "2024": 2839,
       "2025": 3719,
-      "2026": 4852
+      "2026": 4853
     }
   },
   {
@@ -60,9 +60,9 @@
     "name": "Andreas Tille",
     "slug": "andreas-tille",
     "emailHash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
-    "messageCount": 731,
+    "messageCount": 733,
     "firstDate": "2018-05-06T07:27:37Z",
-    "lastDate": "2026-02-21T16:29:28Z",
+    "lastDate": "2026-11-11T16:12:11Z",
     "yearlyActivity": {
       "2018": 142,
       "2019": 166,
@@ -72,7 +72,7 @@
       "2023": 61,
       "2024": 26,
       "2025": 9,
-      "2026": 3
+      "2026": 5
     }
   },
   {
@@ -4703,6 +4703,17 @@
     "lastDate": "2019-04-02T11:08:55Z",
     "yearlyActivity": {
       "2019": 1
+    }
+  },
+  {
+    "name": "Tesco Clubcard",
+    "slug": "tesco-clubcard",
+    "emailHash": "6b5fd4c967311f1191aaa91927df6f4c42407368728bf034bff082aec4a6c90a",
+    "messageCount": 1,
+    "firstDate": "2026-11-11T08:44:11Z",
+    "lastDate": "2026-11-11T08:44:11Z",
+    "yearlyActivity": {
+      "2026": 1
     }
   },
   {

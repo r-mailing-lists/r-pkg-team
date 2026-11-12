@@ -1973,6 +1973,106 @@
       "thread_id": "thread-4fc004d0ebfa",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-3156263221d5",
+      "message_id": "<mailman.1957.1794384333.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-11T08:05:28Z",
+      "subject": "[R-pkg-team] Processing of r-bioc-savr_1.37.0-10_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-bioc-savr_1.37.0-10_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-bioc-savr_1.37.0-10_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-savr_1.37.0-10.dsc\n  r-bioc-savr_1.37.0-10.debian.tar.xz\n  r-bioc-savr_1.37.0-10_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-bioc-savr_1.37.0-10_source.changes uploaded successfully to localhost\nalong with the files:\n  r-bioc-savr_1.37.0-10.dsc\n  r-bioc-savr_1.37.0-10.debian.tar.xz\n  r-bioc-savr_1.37.0-10_amd64.buildinfo\n",
+      "thread_id": "thread-3156263221d5",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-99ad95f53b38",
+      "message_id": "<E1xR3qu-0000000Bq2E-33yz@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-11T08:38:44Z",
+      "subject": "[R-pkg-team] r-bioc-savr_1.37.0-10_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-bioc-savr_1.37.0-10_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 11 Nov 2026 16:52:50 +0900\nSource: r-bioc-savr\nArchitecture: source\nVersion: 1.37.0-10\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-bioc-savr (1.37.0-10) unstable; urgency=medium\n .\n   * Team upload.\n   * Explain in debian/watch that the package is not in Bioconductor anymore.\nChecksums-Sha1:\n 324eb0d4b1d84e91508c72aff47b0fbdb1db7e84 2139 r-bioc-savr_1.37.0-10.dsc\n 99e4323a885cb1f3db65a11a025719ed3b7ebe58 14692 r-bioc-savr_1.37.0-10.debian.tar.xz\n 9b68493db200eafa7f634262c3910f94d81e89cc 11805 r-bioc-savr_1.37.0-10_amd64.buildinfo\nChecksums-Sha256:\n 805cd76f44ec0f871a0626d56a037242edae866604833cece1ab5864f467977e 2139 r-bioc-savr_1.37.0-10.dsc\n 5694cc0e16d413132ba8a6eb478433505518daac8591dc878d664becedcc327a 14692 r-bioc-savr_1.37.0-10.debian.tar.xz\n 3c059189192995358645a5903b7f243b0cda747eeed42f3dc58dab14f6668fdc 11805 r-bioc-savr_1.37.0-10_amd64.buildinfo\nFiles:\n e4bc443c851cf63cd3a224355d3b8644 2139 gnu-r optional r-bioc-savr_1.37.0-10.dsc\n 00bac290fc73e40f5646a07f8dfc2402 14692 gnu-r optional r-bioc-savr_1.37.0-10.debian.tar.xz\n d99d07b1f0e8b2a27933889e4b62ec55 11805 gnu-r optional r-bioc-savr_1.37.0-10_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr0H7ISHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCDUMP+QGF2KKnc9t1e6NHipB+oMIuKEktc90J\nqC1sEbDK1/Cj2rXndQpOZYcdUOOAxT3IH2vdpIUSTHiwtc0sz4x1Cg690UJEDasR\nLEVbJ7kzteg6/5Jw+z7MZ3f6LsFA2MYZDRe3wpZFUwGwqv0R1vdvOyi3gR5zY9cX\nUV4WoNR9XLpUqrpqOg+mK5h+LWR5yHUw3CKD9lVOXkxS1ZEB1NOVJ2VAw08BeskJ\nRsqO4VqWi8DlP0lzAPGMOZizO732gxd+SGa6DLUbaT0rClr+WY9Qq7LoqrqG5EPn\n/uXFoRPuX3uTY1etH8sgnabTWngMHg1V9x0ZqqLHmL7c5zhPmRKLXrEXypCMAGca\nh07jd13TcB5Rv92k39DJ8mNGtHbbEC6+lBCfVpw37TsViZDp+/Am+bcrFvbFf9Pn\ne3gWQc1Q+iGrZ3TR+5G9MYpTVUZKAi2Udot4WVVbe4pSSSh81vEGtVzezgV1WuCU\nrYQ6gWFOTnUA1J2mA7wWo+EeGiNO7bJypLSaAwCRlcEdos+MP7yzVje2nGdOBeq3\nbDpd3HFU1KL1abRZPxNNw1lCBCBZn5PutoiwhnlzmQWOZvvti5fy7ThleOW6ms1T\nof8DDa6aY0LDM7Q01gD5uzm9tf0MccDcoCgSuHAs7Hy1Xiu4XfhW5Jr10u5EOtb8\n8g/ZSYL6/ob2\n=hA9y\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/b63c73ce/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Wed, 11 Nov 2026 16:52:50 +0900\nSource: r-bioc-savr\nArchitecture: source\nVer",
+      "thread_id": "thread-99ad95f53b38",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-0a3d8dd0593e",
+      "message_id": "<8f9769e8eb0e659ec2966f3f1984edcd@hzqqy.com>",
+      "from_name": "Tesco Clubcard",
+      "from_email_hash": "6b5fd4c967311f1191aaa91927df6f4c42407368728bf034bff082aec4a6c90a",
+      "date": "2026-11-11T08:44:11Z",
+      "subject": "[R-pkg-team] Final Call: Redeem 3, 147 Clubcard points before cutoff date",
+      "subject_clean": "[R-pkg-team] Final Call: Redeem 3, 147 Clubcard points before cutoff date",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear Member User,  System notice for account r-pkg-team at alioth-lists.debian.net: You currently have 3,147 Tesco Clubcard points scheduled to expire soon. Unredeemed points will be cleared upon expiration and cannot be restored. You can convert these points into shopping vouchers or use them across our Reward Partners. Redeem Your Points Now Regards,Tesco Clubcard Services This is an automated administrative notification sent to r-pkg-team at alioth-lists.debian.net. Please do not reply.View our Privacy Policy or Unsubscribe.? 2026 Tesco Stores Limited. All rights reserved.\n-------------- next part --------------\nAn HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/559a5bcc/attachment-0001.htm>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: fTOXNeO5.png\nType: image/png\nSize: 3291 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/559a5bcc/attachment-0002.png>\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: dF44blJKqnzEf.png\nType: image/png\nSize: 6919 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261111/559a5bcc/attachment-0003.png>",
+      "body_snippet": "Dear Member User,  System notice for account r-pkg-team at alioth-lists.debian.net: You currently have 3,147 Tesco Clubcard points scheduled to expire soon. Unredeemed points will be cleared upon expi",
+      "thread_id": "thread-0a3d8dd0593e",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-87c1e761541d",
+      "message_id": "<179440405644.324070.16967485774907607366.reportbug@energija.fam-tille.de>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
+      "date": "2026-11-11T13:34:16Z",
+      "subject": "[R-pkg-team] Bug#1153736: r-mathlib: libRmath.so.1.0.0 is shipped without a SONAME since R 4.6",
+      "subject_clean": "[R-pkg-team] Bug#1153736: r-mathlib: libRmath.so.1.0.0 is shipped without a SONAME since R 4.6",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Source: r-base\nVersion: 4.6.2-1\nSeverity: important\nX-Debbugs-Cc: 1153729 at bugs.debian.org, r-pkg-team at alioth-lists.debian.net\n\nHi,\n\nThis bug report is a consequence from #1153729 which was basically\ncaused by the issue described below.  I was able to work around by an\nexplicit Depends: r-mathlib but this was not needed before and could be\nunnecessary if you follow the suggested approach.\n\nSince the R 4.6.x packages, the standalone Rmath shared library shipped in\nr-mathlib has NO embedded SONAME.  This is a regression against r-base\n4.5.0-3, whose libRmath.so.1.0.0 carries `SONAME libRmath.so.1`.\n\nConcrete consequence: downstream packages that link with -lRmath get the\n*unversioned* filename `libRmath.so` as their DT_NEEDED entry instead of\n`libRmath.so.1`.  dpkg-shlibdeps cannot map that name to a package\n(r-mathlib only ships shlibs data under the libRmath.so.1 soname), so the\ngenerated r-mathlib dependency silently disappears.  This is exactly the\nfailure reported in fastqtl's autopkgtest regression (Bug#1153729):\nfastQTL then starts without r-mathlib installed and dies with\n\n    fastQTL: error while loading shared libraries: libRmath.so:\n    cannot open shared object file: No such file or directory\n\nEvidence\n--------\n\n1. SONAME delta in the shipped binaries (readelf):\n\n   r-mathlib 4.5.0-3 (trixie):  0x0e (SONAME) Library soname: [libRmath.so.1]\n   r-mathlib 4.6.1-9 (forky):   (no SONAME entry)\n   r-mathlib 4.6.2-1 (sid):     (no SONAME entry)\n\n2. The soname flag IS still passed by debian/rules to the standalone make\n   (identical in 4.5.0-3 and 4.6.x, e.g. current rules line 387):\n\n       libRmath_la_LDFLAGS=-Wl,-soname,libRmath.so.$(somaj) \\\n       shared static)\n\n   and the upstream build files are unchanged: src/nmath/standalone/Makefile.in\n   is byte-identical between 4.5.0-3 and 4.6.1-9 (same sha256 a476b184...),\n   and etc/Makeconf.in only differs by the removal of the CXX11/CXX14 blocks\n   (DYLIB_LINK = $(DYLIB_LD) $(DYLIB_LDFLAGS) $(LDFLAGS) unchanged).\n\n3. Buildd logs show the flag reaching the link in 4.5.0-3 but NOT in 4.6.1-9:\n\n   r-base_4.5.0-3 amd64 build log, line 4911 (the link command):\n       gcc -shared -fopenmp -Wl,-z,relro -o libRmath.so\n           -Wl,-soname,libRmath.so.1 mlutils.lo ... std_unif.lo -lm\n\n   r-base_4.6.1-9 amd64 build log, line 5257 (the link command):\n       x86_64-linux-gnu-gcc -shared -fopenmp -Wl,-z,relro -o libRmath.so\n           mlutils.lo ... std_unif.lo\n\n   (logs: https://buildd.debian.org/fetch.php?pkg=r-base&arch=amd64&ver=4.5.0-3&stamp=1745967329&raw=1\n         https://buildd.debian.org/fetch.php?pkg=r-base&arch=amd64&ver=4.6.1-9&stamp=1792175046&raw=1 )\n\n   In 4.6.1-9 the `-Wl,-soname,libRmath.so.1` argument is gone AND `$(LIBM)`\n   (i.e. -lm) is gone too, even though both are on the same link recipe as in\n   4.5.0-3.  So the recipe ran with libRmath_la_LDFLAGS and LIBM both empty.\n\nAnalysis / what changed\n-----------------------\n\nThe 4.6.x debian/rules started passing `MAKEFLAGS=\"$(makeflags)\"` (=-j6 on\nthe buildds) into every make invocation, including the standalone one; this\nis absent in 4.5.0-3 (its build log contains no MAKEFLAGS at all):\n\n   r-base_4.6.1-9 build log lines 4878-4879 (the standalone invocation):\n       MAKEFLAGS=\"-j6\"                \\\n       libRmath_la_LDFLAGS=-Wl,-soname,libRmath.so.1 \\\n       shared static )\n\nOverriding MAKEFLAGS wholesale replaces the MAKEFLAGS that GNU make would\notherwise export to the nested `$(MAKE)` runs inside src/nmath/standalone\n(the `shared` target runs `$(MAKE) libRmath.so`), and command-line variable\ndefinitions are forwarded to sub-makes *through* MAKEFLAGS.  With MAKEFLAGS\nforced to a bare \"-j6\" the libRmath_la_LDFLAGS assignment no longer reaches\nthe make instance that executes the `$(libRmath_la)` link recipe, so the\nlibrary is linked without a soname.\n\n(A minimal GNU make 4.4.1 replica of that packaging idiom does propagate the\nvariable, so the loss happens specifically inside R's parallel -j6 build\ntopology; the two buildd logs above pinpoint it empirically.)\n\nSuggested fix (make the soname independent of make variable forwarding)\n----------------------------------------------------------------------\n\nBest: set the soname in the makefile itself rather than injecting it as a\nfragile command-line override.  In src/nmath/standalone/Makefile.in, replace\nthe empty definition with the real value:\n\n    -libRmath_la_LDFLAGS =\n    +libRmath_la_LDFLAGS = -Wl,-soname,libRmath.so\n\n(or hard-code the full `-Wl,-soname,libRmath.so.1`; the major number is\nalready managed by debian/rules' $(somaj) for the installed symlink names).\nThis matches the existing packaged file names (libRmath.so.1.0.0 /\nlibRmath.so.1 / libRmath.so) and is robust regardless of MAKEFLAGS handling.\nIt can be applied as a Debian patch or forwarded upstream.\n\nAlternatively stop setting MAKEFLAGS for the standalone make call so GNU\nmake's automatic command-line-variable forwarding keeps working, or pass\nthe soname flag through a location that is not a make command-line\nvariable (it must survive into the nested `make libRmath.so`).\n\nOnce the SONAME is back on libRmath.so.1.0.0, the normal shlibs handling\nships r-mathlib as a dependency of -lRmath consumers again (as it did with\n4.5.0-3) and the fastqtl autopkgtest regression (Bug#1153729) is resolved at\nthe root.\n\nThanks for maintaining r-base\n     Andreas.\n\n\n-- System Information:\nDebian Release: forky/sid\n  APT prefers testing\n  APT policy: (501, 'testing'), (50, 'buildd-unstable'), (50, 'unstable'), (5, 'experimental'), (1, 'buildd-experimental')\nArchitecture: amd64 (x86_64)\n\nKernel: Linux 7.2.9+deb14-amd64 (SMP w/4 CPU threads; PREEMPT)\nKernel taint flags: TAINT_CPU_OUT_OF_SPEC\nLocale: LANG=de_DE.UTF-8, LC_CTYPE=de_DE.UTF-8 (charmap=UTF-8), LANGUAGE=de_DE:de\nShell: /bin/sh linked to /usr/bin/dash\nInit: systemd (via /run/systemd/system)\nLSM: AppArmor: enabled",
+      "body_snippet": "Source: r-base\nVersion: 4.6.2-1\nSeverity: important\nX-Debbugs-Cc: 1153729 at bugs.debian.org, r-pkg-team at alioth-lists.debian.net\n\nHi,\n\nThis bug report is a consequence from #1153729 which was basic",
+      "thread_id": "thread-87c1e761541d",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-8b967af90bb4",
+      "message_id": "<avST20I7V2Yw2Bje@an3as.eu>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "206a78bece3e29051e1ae94ad2e8083d96cfc2349adf15109b8da7f1061d2977",
+      "date": "2026-11-11T16:12:11Z",
+      "subject": "[R-pkg-team] Bug#1153736: r-mathlib: libRmath.so.1.0.0 is shipped without a SONAME since R 4.6",
+      "subject_clean": "[R-pkg-team] Bug#1153736: r-mathlib: libRmath.so.1.0.0 is shipped without a SONAME since R 4.6",
+      "in_reply_to": "<27380.36676.230395.569522@paul.eddelbuettel.com>",
+      "references": [
+        "<179440405644.324070.16967485774907607366.reportbug@energija.fam-tille.de>",
+        "<27380.34104.465968.199863@paul.eddelbuettel.com>",
+        "<27380.36676.230395.569522@paul.eddelbuettel.com>"
+      ],
+      "body_plain": "Hi Dirk,\n\nAm Wed, Nov 11, 2026 at 09:52:36AM -0600 schrieb Dirk Eddelbuettel:\n> \n> Your PR proposal worked fine, thanks again for the idea:\n> \n>   root at c606e5daf0a8:/work# dpkg -s r-mathlib | grep Version\n>   Version: 4.6.2-1\n>   root at c606e5daf0a8:/work# readelf -d /usr/lib/libRmath.so | grep SONAME\n>   root at c606e5daf0a8:/work#\n>   root at c606e5daf0a8:/work# dpkg -i ./r-mathlib_4.6.2-2_amd64.deb \n>   (Reading database? 19722 files and directories currently installed.)\n>   Preparing to unpack ./r-mathlib_4.6.2-2_amd64.deb?\n>   Unpacking r-mathlib (4.6.2-2) over (4.6.2-1)?\n>   Setting up r-mathlib (4.6.2-2)?\n>   root at c606e5daf0a8:/work# readelf -d /usr/lib/libRmath.so | grep SONAME\n>    0x000000000000000e (SONAME)             Library soname: [libRmath.so]\n>   root at c606e5daf0a8:/work# \n> \n> No soname in 4.6.2-1 (current) but soname in upcoming -2 release.\n\nCool.  Thanks a lot.\n\n> Rebuilding as I forgot a newline at the end of debian/patches/series, then\n> uploading. \n\nJust take your time.\n\nThanks a lot for your cooperation\n    Andreas.\n\n\n-- \nhttps://fam-tille.de",
+      "body_snippet": "Hi Dirk,\n\nAm Wed, Nov 11, 2026 at 09:52:36AM -0600 schrieb Dirk Eddelbuettel:\n> \n> Your PR proposal worked fine, thanks again for the idea:\n> \n>   root at c606e5daf0a8:/work# dpkg -s r-mathlib | grep ",
+      "thread_id": "thread-8b967af90bb4",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-e96b86e8e99e",
+      "message_id": "<E1xRMah-00000002vTi-02w5@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-12T04:39:15Z",
+      "subject": "[R-pkg-team] r-cran-texreg 1.40+ds-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-texreg 1.40+ds-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-texreg source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.40+ds-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-texreg source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.40+ds-1\n\n-- \nThis email is automatically g",
+      "thread_id": "thread-e96b86e8e99e",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -3318,6 +3418,72 @@
       "started": "2026-11-11T04:39:29Z",
       "last_reply": "2026-11-11T04:39:29Z",
       "root_message_id": "msg-4fc004d0ebfa"
+    },
+    {
+      "id": "thread-3156263221d5",
+      "subject": "[R-pkg-team] Processing of r-bioc-savr_1.37.0-10_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-11T08:05:28Z",
+      "last_reply": "2026-11-11T08:05:28Z",
+      "root_message_id": "msg-3156263221d5"
+    },
+    {
+      "id": "thread-99ad95f53b38",
+      "subject": "[R-pkg-team] r-bioc-savr_1.37.0-10_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-11T08:38:44Z",
+      "last_reply": "2026-11-11T08:38:44Z",
+      "root_message_id": "msg-99ad95f53b38"
+    },
+    {
+      "id": "thread-0a3d8dd0593e",
+      "subject": "[R-pkg-team] Final Call: Redeem 3, 147 Clubcard points before cutoff date",
+      "message_count": 1,
+      "participants": [
+        "Tesco Clubcard"
+      ],
+      "started": "2026-11-11T08:44:11Z",
+      "last_reply": "2026-11-11T08:44:11Z",
+      "root_message_id": "msg-0a3d8dd0593e"
+    },
+    {
+      "id": "thread-87c1e761541d",
+      "subject": "[R-pkg-team] Bug#1153736: r-mathlib: libRmath.so.1.0.0 is shipped without a SONAME since R 4.6",
+      "message_count": 1,
+      "participants": [
+        "Andreas Tille"
+      ],
+      "started": "2026-11-11T13:34:16Z",
+      "last_reply": "2026-11-11T13:34:16Z",
+      "root_message_id": "msg-87c1e761541d"
+    },
+    {
+      "id": "thread-8b967af90bb4",
+      "subject": "[R-pkg-team] Bug#1153736: r-mathlib: libRmath.so.1.0.0 is shipped without a SONAME since R 4.6",
+      "message_count": 1,
+      "participants": [
+        "Andreas Tille"
+      ],
+      "started": "2026-11-11T16:12:11Z",
+      "last_reply": "2026-11-11T16:12:11Z",
+      "root_message_id": "msg-8b967af90bb4"
+    },
+    {
+      "id": "thread-e96b86e8e99e",
+      "subject": "[R-pkg-team] r-cran-texreg 1.40+ds-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-12T04:39:15Z",
+      "last_reply": "2026-11-12T04:39:15Z",
+      "root_message_id": "msg-e96b86e8e99e"
     }
   ]
 }
