@@ -2185,6 +2185,86 @@
       "thread_id": "thread-23bf3a31155f",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-a4c99759933f",
+      "message_id": "<mailman.2130.1794557344.631.r-pkg-team@alioth-lists.debian.net>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-13T08:09:00Z",
+      "subject": "[R-pkg-team] Processing of r-cran-gargle_1.7.0-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-gargle_1.7.0-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-gargle_1.7.0-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-gargle_1.7.0-1.dsc\n  r-cran-gargle_1.7.0.orig.tar.gz\n  r-cran-gargle_1.7.0-1.debian.tar.xz\n  r-cran-gargle_1.7.0-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-gargle_1.7.0-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-gargle_1.7.0-1.dsc\n  r-cran-gargle_1.7.0.orig.tar.gz\n  r-cran-gargle_1.7.0-1.debian.tar.xz\n  r-cr",
+      "thread_id": "thread-a4c99759933f",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-7e754584c52e",
+      "message_id": "<E1xRmmu-00000002ffO-0bPv@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-13T08:37:36Z",
+      "subject": "[R-pkg-team] r-cran-gargle_1.7.0-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-gargle_1.7.0-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Fri, 13 Nov 2026 16:54:55 +0900\nSource: r-cran-gargle\nArchitecture: source\nVersion: 1.7.0-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-cran-gargle (1.7.0-1) unstable; urgency=medium\n .\n   * Team upload.\n   * Packaging update (routine-update)\n   * Use uscan v5 $template template. (routine-update)\n   * New upstream version\n   * Standards-Version: 4.7.4 (routine-update)\n   * Drop 'Rules-Requires-Root: no' from d/control (routine-update)\nChecksums-Sha1:\n 886b6246b51d4fa6cb416e387922abcef019860d 2389 r-cran-gargle_1.7.0-1.dsc\n f98e0bb7a7f454639823aef6daa4be87e54db70b 639560 r-cran-gargle_1.7.0.orig.tar.gz\n 3a49cc649bfe32ddd5b7b6c38fc3d6a29ad16e2b 4100 r-cran-gargle_1.7.0-1.debian.tar.xz\n 0f4995d1341a63ce743af919d58bd549d29f9e98 11497 r-cran-gargle_1.7.0-1_amd64.buildinfo\nChecksums-Sha256:\n 731f238ba9eb86b8a72e9d01dacab053c1259efb2ea8591eeca37ceeb3ddf86c 2389 r-cran-gargle_1.7.0-1.dsc\n 41f3d61cc735299fdf128a9f8380cf9fdd5597ec3eb259ed067613e8854272c8 639560 r-cran-gargle_1.7.0.orig.tar.gz\n 21f0e2536c2d00d6b17de696682320a59aee61a69fca9240c5c8e113a2b58249 4100 r-cran-gargle_1.7.0-1.debian.tar.xz\n c938fce8f585f1fc6b1081e8b37bf3fd52f3fadbd398c79166839fb02c19eed0 11497 r-cran-gargle_1.7.0-1_amd64.buildinfo\nFiles:\n bf50f0097aaad9fe94900c14a284239d 2389 gnu-r optional r-cran-gargle_1.7.0-1.dsc\n a9fa47dd8abb7187360f09c9a48261ab 639560 gnu-r optional r-cran-gargle_1.7.0.orig.tar.gz\n 60f0fae572b1a42615e79c268a4e5f16 4100 gnu-r optional r-cran-gargle_1.7.0-1.debian.tar.xz\n 3458f0571e449a037922a5d3e080066b 11497 gnu-r optional r-cran-gargle_1.7.0-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr2wuwSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCqpgP/3xhJfbSIfWul4/SAHqFu1bJppfxhElr\n3KIpm7TkaMrc75MF8z1MQ7gNo03+VMKBRj5cwBYBSn//Cu1edT2OEn0QxJ296R6U\nqytojmk5FaW+2uuAIgF+NS/poVFXduygw4js6BpeQT2960ikAXbMgDq/jR40hnCd\n357H2eMMpA3H6N/TAN5skorBujPXZkHB2+s8jSBrIXncgIKHOpCDqKi04vxbbeIg\ngAk05ZKNOsuL2OYXFDdrFQkP+hzMCKAw+F8Ufr+OxlU7cSSkYSRAZlAVYCCEwdwU\nfcezAICbIN5uN0vhvkQtH3KA6VBD/zqbEmf7OxynqbhOQSXayMsJqLY7UdmH4rDb\nNkOoKhzuZ/MrXJbN1vsRhlBPPwVjIbo7sxICeMftAcJ1hxy5fmdj2tpvhexc08ES\nlhpYJijokFSdPTukfh+VcBkPEzhuCFjmLgL5VV14cAizGhNzVuVbSnKMeWzmceRz\nIjNy7Dv0kdSejZX/38XMYPtNINyjc9DKSO1KxL4Re9HZP2j1kUX+wRsuebs2pwor\n2AuZ7Ig7gUXltbFDRhRb8Z3hz5/YaDg0B4T+37QrOo2q7ADmQuUbTH+QflHENVar\nAcGFPMRy/Aeip5Lu4g6B7HxVh9SwDNkIR40u+Y4ZBMEBSSrfSEyDdNvlC6d5RMaQ\nlLRrZI6M6taw\n=wlm4\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261113/f9cf362d/attachment-0001.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Fri, 13 Nov 2026 16:54:55 +0900\nSource: r-cran-gargle\nArchitecture: source\nV",
+      "thread_id": "thread-7e754584c52e",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-38fdb1df372b",
+      "message_id": "<E1xS5Y8-00000005YmD-1zWT@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-14T04:39:36Z",
+      "subject": "[R-pkg-team] r-cran-stablelearner is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-stablelearner is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-stablelearner 0.1-8+dfsg-1 is marked for autoremoval from testing on 2026-11-29\n\nIt (build-)depends on packages with these RC bugs:\n1151044: r-cran-party: autopkgtest regression in testing\n https://bugs.debian.org/1151044\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-stablelearner 0.1-8+dfsg-1 is marked for autoremoval from testing on 2026-11-29\n\nIt (build-)depends on packages with these RC bugs:\n1151044: r-cran-party: autopkgtest regression in testing\n htt",
+      "thread_id": "thread-38fdb1df372b",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-463b2dfb641f",
+      "message_id": "<E1xS5Y8-00000005YmG-2i30@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-14T04:39:36Z",
+      "subject": "[R-pkg-team] r-cran-party is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-party is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-party 1.3-20-1 is marked for autoremoval from testing on 2026-11-29\n\nIt is affected by these RC bugs:\n1151044: r-cran-party: autopkgtest regression in testing\n https://bugs.debian.org/1151044\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-party 1.3-20-1 is marked for autoremoval from testing on 2026-11-29\n\nIt is affected by these RC bugs:\n1151044: r-cran-party: autopkgtest regression in testing\n https://bugs.debian.org/1151044\n\n",
+      "thread_id": "thread-463b2dfb641f",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-d89fcb68b7c7",
+      "message_id": "<E1xS5YF-00000005Yn9-2cI8@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-14T04:39:43Z",
+      "subject": "[R-pkg-team] r-cran-factominer is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-factominer is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-factominer 2.18-1 is marked for autoremoval from testing on 2026-12-01\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n https://bugs.debian.org/1149738\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-factominer 2.18-1 is marked for autoremoval from testing on 2026-12-01\n\nIt (build-)depends on packages with these RC bugs:\n1149738: datatables-extensions: FTBFS: /bin/sh: 2: sass: not found\n ht",
+      "thread_id": "thread-d89fcb68b7c7",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -3673,6 +3753,61 @@
       "started": "2026-11-13T06:48:59Z",
       "last_reply": "2026-11-13T06:48:59Z",
       "root_message_id": "msg-23bf3a31155f"
+    },
+    {
+      "id": "thread-a4c99759933f",
+      "subject": "[R-pkg-team] Processing of r-cran-gargle_1.7.0-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-13T08:09:00Z",
+      "last_reply": "2026-11-13T08:09:00Z",
+      "root_message_id": "msg-a4c99759933f"
+    },
+    {
+      "id": "thread-7e754584c52e",
+      "subject": "[R-pkg-team] r-cran-gargle_1.7.0-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-13T08:37:36Z",
+      "last_reply": "2026-11-13T08:37:36Z",
+      "root_message_id": "msg-7e754584c52e"
+    },
+    {
+      "id": "thread-38fdb1df372b",
+      "subject": "[R-pkg-team] r-cran-stablelearner is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-11-14T04:39:36Z",
+      "last_reply": "2026-11-14T04:39:36Z",
+      "root_message_id": "msg-38fdb1df372b"
+    },
+    {
+      "id": "thread-463b2dfb641f",
+      "subject": "[R-pkg-team] r-cran-party is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-11-14T04:39:36Z",
+      "last_reply": "2026-11-14T04:39:36Z",
+      "root_message_id": "msg-463b2dfb641f"
+    },
+    {
+      "id": "thread-d89fcb68b7c7",
+      "subject": "[R-pkg-team] r-cran-factominer is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-11-14T04:39:43Z",
+      "last_reply": "2026-11-14T04:39:43Z",
+      "root_message_id": "msg-d89fcb68b7c7"
     }
   ]
 }
