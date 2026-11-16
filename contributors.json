@@ -3,9 +3,9 @@
     "name": "Debian FTP Masters",
     "slug": "debian-ftp-masters",
     "emailHash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
-    "messageCount": 30728,
+    "messageCount": 30744,
     "firstDate": "2018-05-04T08:59:01Z",
-    "lastDate": "2026-11-13T08:37:36Z",
+    "lastDate": "2026-11-16T06:19:57Z",
     "yearlyActivity": {
       "2018": 2865,
       "2019": 2894,
@@ -15,7 +15,7 @@
       "2023": 3268,
       "2024": 3202,
       "2025": 1833,
-      "2026": 4192
+      "2026": 4208
     }
   },
   {
@@ -882,6 +882,17 @@
     }
   },
   {
+    "name": "dfsg-team at debian.org",
+    "slug": "dfsg-team-at-debian-org",
+    "emailHash": "2e200826d35d3dac084a4fa27a61386775eb2c722bf7e4d1765548637c1c5c40",
+    "messageCount": 4,
+    "firstDate": "2026-05-12T18:31:09Z",
+    "lastDate": "2026-11-16T04:03:21Z",
+    "yearlyActivity": {
+      "2026": 4
+    }
+  },
+  {
     "name": "Lara Martínez",
     "slug": "lara-mart-nez",
     "emailHash": "3323637c2b9a90c4b99265a2f2ab2ca5351edf4f8ea8608dd1d9808d60227b19",
@@ -1152,17 +1163,6 @@
     "lastDate": "2021-12-03T23:36:40Z",
     "yearlyActivity": {
       "2021": 3
-    }
-  },
-  {
-    "name": "dfsg-team at debian.org",
-    "slug": "dfsg-team-at-debian-org",
-    "emailHash": "2e200826d35d3dac084a4fa27a61386775eb2c722bf7e4d1765548637c1c5c40",
-    "messageCount": 3,
-    "firstDate": "2026-05-12T18:31:09Z",
-    "lastDate": "2026-11-09T12:03:06Z",
-    "yearlyActivity": {
-      "2026": 3
     }
   },
   {
@@ -6650,6 +6650,17 @@
     "lastDate": "2019-12-11T16:03:39Z",
     "yearlyActivity": {
       "2019": 1
+    }
+  },
+  {
+    "name": "Pfizer Supply Chain Belgium",
+    "slug": "pfizer-supply-chain-belgium",
+    "emailHash": "c401d444bbf565ba65320e47155e17d8f372b9c63279957783be32d9ff45cb5e",
+    "messageCount": 1,
+    "firstDate": "2026-11-15T21:42:07Z",
+    "lastDate": "2026-11-15T21:42:07Z",
+    "yearlyActivity": {
+      "2026": 1
     }
   },
   {
