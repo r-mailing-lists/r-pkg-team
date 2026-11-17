@@ -5766,3 +5766,696 @@ Size: 6047 bytes
 Desc: not available
 URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261115/448f7c6b/attachment-0001.png>
 
+From ftpmaster at ftp-master.debian.org  Mon Nov 16 10:41:09 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Nov 2026 10:41:09 +0000
+Subject: [R-pkg-team] Processing of r-cran-suntools_1.1.0-1_amd64.changes
+Message-ID: <mailman.2819.1794825672.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-suntools_1.1.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-suntools_1.1.0-1.dsc
+  r-cran-suntools_1.1.0.orig.tar.gz
+  r-cran-suntools_1.1.0-1.debian.tar.xz
+  r-cran-suntools_1.1.0-1_all.deb
+  r-cran-suntools_1.1.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Mon Nov 16 10:50:44 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Mon, 16 Nov 2026 10:50:44 +0000
+Subject: [R-pkg-team] r-cran-suntools_1.1.0-1_amd64.changes is NEW
+Message-ID: <E1xSuIO-0000000GJnA-3Pfj@fasolo.debian.org>
+
+binary:r-cran-suntools is NEW.
+binary:r-cran-suntools is NEW.
+source:r-cran-suntools is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261116/bf06ea93/attachment.sig>
+
+From dfsg-team at debian.org  Mon Nov 16 12:03:34 2026
+From: dfsg-team at debian.org (dfsg-team at debian.org)
+Date: Mon, 16 Nov 2026 12:03:34 +0000
+Subject: [R-pkg-team] Debian NEW: automated review of r-cran-suntools 1.1.0-1
+Message-ID: <mailman.2827.1794830616.631.r-pkg-team@alioth-lists.debian.net>
+
+Hi,
+
+Your upload of r-cran-suntools 1.1.0-1 to the NEW queue has had an automated review: an LLM-based check of its licensing and packaging, run by the DFSG team using the Debian Inference service. It is not a decision on the package, and - like other LLM-based work - it can be wrong.
+
+It found 0 blocker, 1 important, 1 minor issues:
+
+  - [important] [packaging] DESCRIPTION does not depend on sp although four files register methods for sp's SpatialPoints class
+  - [minor] [packaging] Standards-Version 4.6.2 is older than the current Policy 4.7.4.1
+
+You can read the full review here:
+
+    https://dfsg-new-queue.debian.org/reviews/r-cran-suntools#assistant-report
+
+Please look at it, and respond by visiting the link below (you'll be asked to authenticate with Salsa first):
+
+    https://dfsg-new-queue.debian.org/llm-review/hPNKngDqVIunM_YL0tiobbOaoIJ7T4FJ
+
+There you may choose to reject the upload yourself, while you fix issues and re-upload, or add comments to clarify or dispute the review.
+
+Your comments are for the DFSG team member who reviews the package, not for the LLM: it will not read them or reply. Tell the reviewer where you think the automated review is right or wrong, and why. Comments are public and shown with the review; you may use markdown, e.g. to link to clarifying information.
+
+If you have any questions, please reply to this e-mail and someone from the
+team will respond.
+
+If you would rather not be e-mailed about these reviews, log in at https://dfsg-new-queue.debian.org
+and say so on your profile page.
+
+Thanks!
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 01:14:40 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 01:14:40 +0000
+Subject: [R-pkg-team] Processing of r-cran-xfun_0.62+dfsg-1_source.changes
+Message-ID: <mailman.2898.1794878085.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-xfun_0.62+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-xfun_0.62+dfsg-1.dsc
+  r-cran-xfun_0.62+dfsg.orig.tar.xz
+  r-cran-xfun_0.62+dfsg-1.debian.tar.xz
+  r-cran-xfun_0.62+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 01:19:28 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 01:19:28 +0000
+Subject: [R-pkg-team] r-cran-xfun_0.62+dfsg-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xT7r6-00000001H9D-2NHS@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Nov 2026 09:59:52 +0900
+Source: r-cran-xfun
+Architecture: source
+Version: 0.62+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-xfun (0.62+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * New upstream version
+Checksums-Sha1:
+ 5b2be56408b5fd33863fb98634e1846130411095 2295 r-cran-xfun_0.62+dfsg-1.dsc
+ c53ab783b4032e76abf7a32db3ffa409c8fab1de 154028 r-cran-xfun_0.62+dfsg.orig.tar.xz
+ 29ec27368cce22e7dae1ba05c2bad0782f604bc4 3772 r-cran-xfun_0.62+dfsg-1.debian.tar.xz
+ 868b756675aa0cacf8c710bf6a4432a66efb40bb 11315 r-cran-xfun_0.62+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ ae91054ec363647f84d4504ef57d8611babd66095881527d7165993cf792dd1b 2295 r-cran-xfun_0.62+dfsg-1.dsc
+ 564384c6574aca5f5065ffa7b375ac09aa4dc72a4d1ee2f4222551444a89a0e3 154028 r-cran-xfun_0.62+dfsg.orig.tar.xz
+ 986f85f2d2753b8a70a43b028cdb90df471e21a3844d14f81fcba6f1eb1a4b56 3772 r-cran-xfun_0.62+dfsg-1.debian.tar.xz
+ 3e2ca889f7fe63257db96292c39e3351b35bb49771e90f17e0590449f88c2bda 11315 r-cran-xfun_0.62+dfsg-1_amd64.buildinfo
+Files:
+ 9c1f48929296e191a54070e7453c8a24 2295 gnu-r optional r-cran-xfun_0.62+dfsg-1.dsc
+ e64c33bd91b1274275e60055bfa9a8e8 154028 gnu-r optional r-cran-xfun_0.62+dfsg.orig.tar.xz
+ c30bd063c0febf4e660232fdbffb2f65 3772 gnu-r optional r-cran-xfun_0.62+dfsg-1.debian.tar.xz
+ 08a4004cbb0b8bc73499da5f0e156730 11315 gnu-r optional r-cran-xfun_0.62+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr7p/ASHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCXpIQAJLugiFzzDFyRZ5RfGXY57y9XqSbssAC
+95zV08Sepn4u6ebgpJ18Fz9zIBY4S+NaJDwPOTu3C7TvsV562dSizNuUDGEM7k7g
+LsCKDaPW+N0FWbUpm0yWl5/ANnCOV6GL+l/3JR/EooIydCT6AwjtI0mrUi5be6q3
+rNIilz8u8IP7LXkegBcjGlCtPbiGm2pQ+gEwkqlwES46kg14gIXy//VqERUAh3XH
+TzrNkF8Gr0COz8volml4hqO14JrmfwDQPA8M4h8RHcwnm53S6jUpQsJpt84WofdV
+qkTOJUy94yHRspW+axB8jqEO9SUjhogtea8NA8Yz1vKfzw+cAoR29n5zkM10ARZ9
+x6d5Fst6H0MYjSmZ0BATvaq307iwdS+wsHmxVOrOxbKdd/P5tHEstloDYdnmNXOT
+zPA8U9uWDEuVeCxlfZ5R+7lcRjn4KUfzH4prOFij/wzHBPrDJVnhOdQT8nsDvIvh
+wBjvVZR87v1dMaTxE40mqXlcQr9BNHINB9RTLPU1k2cEBxfoQfTL0yhv2XjIdAsO
+tgEHMp28bTXzREOT/GH5sYgSm180dc2t1itJkIKPo/3msC3qAVKwzaCQsnKiNRks
+W1/72+ggoD6khjeWJxb1APmY30rYYSSZa1eWWxMM9I3aSbEbBKMn1hPGMBiJD2Vy
+ysYTq6ysSSGe
+=43Y4
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261117/ccb6701d/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 02:15:09 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 02:15:09 +0000
+Subject: [R-pkg-team] Processing of
+ r-cran-poorman_0.3.0+dfsg-1_source.changes
+Message-ID: <mailman.2900.1794881713.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-poorman_0.3.0+dfsg-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-poorman_0.3.0+dfsg-1.dsc
+  r-cran-poorman_0.3.0+dfsg.orig.tar.xz
+  r-cran-poorman_0.3.0+dfsg-1.debian.tar.xz
+  r-cran-poorman_0.3.0+dfsg-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 02:21:49 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 02:21:49 +0000
+Subject: [R-pkg-team] r-cran-poorman_0.3.0+dfsg-1_source.changes ACCEPTED
+ into unstable
+Message-ID: <E1xT8pR-00000001daK-3GSf@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Nov 2026 11:03:12 +0900
+Source: r-cran-poorman
+Architecture: source
+Version: 0.3.0+dfsg-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-poorman (0.3.0+dfsg-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * New upstream version
+   * Remove leading article from Description synopsis.
+Checksums-Sha1:
+ 0466802dfce65cc142644f8402c26955e4c006e1 2216 r-cran-poorman_0.3.0+dfsg-1.dsc
+ 77122c0e20727b819ef7638738eea5b79f645a7b 158048 r-cran-poorman_0.3.0+dfsg.orig.tar.xz
+ d7975f8442bd940c86864ce5c630e0fd419e5cc8 2832 r-cran-poorman_0.3.0+dfsg-1.debian.tar.xz
+ 16bf0ec5da6a6b020808c10755a25001fc3cc062 11087 r-cran-poorman_0.3.0+dfsg-1_amd64.buildinfo
+Checksums-Sha256:
+ de1ab986c0947b06c92de5d0a4438673b0954b2a86fa8a53c90810e791574a3b 2216 r-cran-poorman_0.3.0+dfsg-1.dsc
+ 6c2f0fddf330b70bda510220f9604d6c867c67a606e33b5229d33f47392f9d9a 158048 r-cran-poorman_0.3.0+dfsg.orig.tar.xz
+ 3dedff13cec1284b5c6bb8e04f57659411fea4a896ec851b23ba97004c73fe5a 2832 r-cran-poorman_0.3.0+dfsg-1.debian.tar.xz
+ 6053e7584cdc1c1d274e66a0c467c5fd36964fde28462b0c4d332f5e33649f88 11087 r-cran-poorman_0.3.0+dfsg-1_amd64.buildinfo
+Files:
+ f5d4e6af84c33c7c291d54600acce08d 2216 gnu-r optional r-cran-poorman_0.3.0+dfsg-1.dsc
+ 30be6108ff1ebc1c7980842f5f5a0c2f 158048 gnu-r optional r-cran-poorman_0.3.0+dfsg.orig.tar.xz
+ 376b3172a8e446e5403bbae63d6ceb41 2832 gnu-r optional r-cran-poorman_0.3.0+dfsg-1.debian.tar.xz
+ 6cd8910bb36e6d0ea3e7a87c1f95a139 11087 gnu-r optional r-cran-poorman_0.3.0+dfsg-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr7tp4SHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCrKYQAKjJjii3fvnxR4+U3RG8oSV+W61HTGzn
+Et2LHwIhKNFVOWJKN7A3erN3D0BIFDwhTMhUOn5dvXrxxQ8BmtGPiGRzNAPB5A4R
+aIK1a5EjeDR1RifTOpWG+yV8U1YKTDDthS0AOBy7RxipHCr3dLlmQAzgttvuOlns
+dLhWU/25U3Dr2C6SONZUGY8JpJnbX2rZZPYAZ4kbP1fY5G6r/8A6TqZpO5e4lNWq
+EG1lfmYvuQ/3bombMHWkaPbo9IEfhjDtgoTHST4tmhl5E+LqFwIFLuHbcM2qsj07
+3vjnEOq50PmftESG/RxWLRHX/Tyqd84CvbxE3rUiuctmJJI8pLuz3TmDrIKjDdUu
+/kySsmBAXq/9OCKHPy4OwuBwcbe7eq0UXet4mtFX+MJQKDOl+DJiTog+XxfqdIE5
+GEmwpZDHeWZcstFYL8Vv2VpCBfbnMC9KgVhBNc5XFMLqXO3HPwyBobYyLw1hBZbQ
+7SOxHx7LZNlvJyZfCd1b64AagN4Bkpllm/2ZitfFJCN3bhTNd/NGVTNVU0K00CZv
+KYd535mWwAMddB8ltnZBbcT+DHYBlyEBID6X87shNdLATc6WxCZFkTyM9XH4lpfp
+WCY5GXvCEEyqprSM5CMVKwRG/tj71gE5BASsFcv5UejmTPmQnpkBpGb3utwEsnTI
+gO6+qx4skTY2
+=Ebbg
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261117/4e5b5b47/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 03:41:07 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 03:41:07 +0000
+Subject: [R-pkg-team] Processing of r-cran-yardstick_1.4.0-1_amd64.changes
+Message-ID: <mailman.2908.1794886870.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-yardstick_1.4.0-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-yardstick_1.4.0-1.dsc
+  r-cran-yardstick_1.4.0.orig.tar.gz
+  r-cran-yardstick_1.4.0-1.debian.tar.xz
+  r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb
+  r-cran-yardstick_1.4.0-1_amd64.buildinfo
+  r-cran-yardstick_1.4.0-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 03:49:10 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 03:49:10 +0000
+Subject: [R-pkg-team] r-cran-yardstick_1.4.0-1_amd64.changes is NEW
+Message-ID: <E1xTABy-00000001qdz-0z6E@fasolo.debian.org>
+
+binary:r-cran-yardstick is NEW.
+binary:r-cran-yardstick is NEW.
+source:r-cran-yardstick is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261117/729c9b8b/attachment-0001.sig>
+
+From dfsg-team at debian.org  Tue Nov 17 04:15:28 2026
+From: dfsg-team at debian.org (dfsg-team at debian.org)
+Date: Tue, 17 Nov 2026 04:15:28 +0000
+Subject: [R-pkg-team] Debian NEW: automated review of r-cran-yardstick
+ 1.4.0-1
+Message-ID: <mailman.2911.1794888937.631.r-pkg-team@alioth-lists.debian.net>
+
+Hi,
+
+Your upload of r-cran-yardstick 1.4.0-1 to the NEW queue has had an automated review: an LLM-based check of its licensing and packaging, run by the DFSG team using the Debian Inference service. It is not a decision on the package, and - like other LLM-based work - it can be wrong.
+
+It found 1 blocker, 0 important, 0 minor issues:
+
+  - [blocker] [licensing] Files: * declares MIT for the three R/import-standalone-*.R files, which are Unlicense
+
+You can read the full review here:
+
+    https://dfsg-new-queue.debian.org/reviews/r-cran-yardstick#assistant-report
+
+Please look at it, and respond by visiting the link below (you'll be asked to authenticate with Salsa first):
+
+    https://dfsg-new-queue.debian.org/llm-review/PXZEu8uuLzLlG2YVsMBCRHcSskf4PbgQ
+
+There you may choose to reject the upload yourself, while you fix issues and re-upload, or add comments to clarify or dispute the review.
+
+Your comments are for the DFSG team member who reviews the package, not for the LLM: it will not read them or reply. Tell the reviewer where you think the automated review is right or wrong, and why. Comments are public and shown with the review; you may use markdown, e.g. to link to clarifying information.
+
+If you have any questions, please reply to this e-mail and someone from the
+team will respond.
+
+If you would rather not be e-mailed about these reviews, log in at https://dfsg-new-queue.debian.org
+and say so on your profile page.
+
+Thanks!
+
+
+From noreply at release.debian.org  Tue Nov 17 04:39:20 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 17 Nov 2026 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-plm is marked for autoremoval from testing
+Message-ID: <E1xTAyW-00000000tua-44fn@respighi.debian.org>
+
+r-cran-plm 2.6-7-1 is marked for autoremoval from testing on 2026-12-22
+
+It (build-)depends on packages with these RC bugs:
+1153399: r-cran-maxlik: fails to migrate to testing for too long
+ https://bugs.debian.org/1153399
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From noreply at release.debian.org  Tue Nov 17 04:39:21 2026
+From: noreply at release.debian.org (Debian testing autoremoval watch)
+Date: Tue, 17 Nov 2026 04:39:21 +0000
+Subject: [R-pkg-team] r-cran-maxlik is marked for autoremoval from testing
+Message-ID: <E1xTAyX-00000000tut-0Z2O@respighi.debian.org>
+
+r-cran-maxlik 1.5-2.2-1 is marked for autoremoval from testing on 2026-12-22
+
+It is affected by these RC bugs:
+1153399: r-cran-maxlik: fails to migrate to testing for too long
+ https://bugs.debian.org/1153399
+
+
+
+For more information on the autoremoval process, including hints to prevent
+autoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval
+
+This mail is generated by:
+https://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl
+
+Autoremoval data is generated by:
+https://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 05:46:32 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 05:46:32 +0000
+Subject: [R-pkg-team] Processing of r-cran-rcpproll_0.4.0-1_source.changes
+Message-ID: <mailman.2914.1794894397.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-rcpproll_0.4.0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-rcpproll_0.4.0-1.dsc
+  r-cran-rcpproll_0.4.0.orig.tar.gz
+  r-cran-rcpproll_0.4.0-1.debian.tar.xz
+  r-cran-rcpproll_0.4.0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 05:49:20 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 05:49:20 +0000
+Subject: [R-pkg-team] r-cran-rcpproll_0.4.0-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xTC4G-0000000281V-3Bbe@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Nov 2026 12:31:46 +0900
+Source: r-cran-rcpproll
+Architecture: source
+Version: 0.4.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-rcpproll (0.4.0-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * Use uscan v5 $template template. (routine-update)
+   * New upstream version
+   * Restrict to R packages team core architectures (routine-update)
+   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+     Repository-Browse.
+Checksums-Sha1:
+ 1a33ff83de420ccee9d3046151a73e3db8dcf906 2153 r-cran-rcpproll_0.4.0-1.dsc
+ 36d27e6927e4eee046d7c7b06fdcc2617c916fe8 38950 r-cran-rcpproll_0.4.0.orig.tar.gz
+ fac77bd3b2c9243a6848033207d6e2ea0e35fe47 2540 r-cran-rcpproll_0.4.0-1.debian.tar.xz
+ 16eacf8d8415ba71ea33f4146a7891ced1e7ec6e 11373 r-cran-rcpproll_0.4.0-1_amd64.buildinfo
+Checksums-Sha256:
+ a441f3a3b847eca588e449b3e20bdabc195b61031d12d850ebf83541cc83d528 2153 r-cran-rcpproll_0.4.0-1.dsc
+ d47c60ce5f34c33ac3ef148d65bab127033c417d24d1bb143eadbe1fad93ebd6 38950 r-cran-rcpproll_0.4.0.orig.tar.gz
+ fbf301d68464a31317c0ceb3c4752f06c678b40610eb74d838c32ed8785faec4 2540 r-cran-rcpproll_0.4.0-1.debian.tar.xz
+ 0f3f5d663d2973a44fde8442d35e9bb422e304ab3cd42406c5236a22a85baece 11373 r-cran-rcpproll_0.4.0-1_amd64.buildinfo
+Files:
+ 37f47bce82faf06ff9355df26c50b456 2153 gnu-r optional r-cran-rcpproll_0.4.0-1.dsc
+ e4a8163da6cbbee15e2bc17d970cb9d8 38950 gnu-r optional r-cran-rcpproll_0.4.0.orig.tar.gz
+ 088df6fe0c7810dfbf4c2b6de0f565ad 2540 gnu-r optional r-cran-rcpproll_0.4.0-1.debian.tar.xz
+ 7d3dd5529b307ac8de239d9a0fcf94c6 11373 gnu-r optional r-cran-rcpproll_0.4.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr754oSHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCJWwP/13Jg/mT0Yyabjv+KrTh8x0i3vdnodkx
+Y2nsvmKwrM+BbRA/I/hRGYa8hO25T5D0fj7ASvSIvkFPqPtdIw7kRisxIfw4eR7k
+0oWxSvW8Kayf7p9sQLAoEEhC31tZEoHLuNh/PK4uNKj/stBgGmLpvA5QZj+cTCqx
+Qg8pHdrP6evChqW2C2PXZpnac/hbNgVxnP4h4eglxj0wsFURJcl+8bBncl1wGS1C
+fJOS5H1oNA33I3GtUBmfCFskrVSwqFddy97Uy49Vp/HjJt74Tb+ZdhpbgrdVFj3O
+u4dZYeiaT8OGzylvWV4VTT8d3WxlhUznw9R9hFSMHhJZNs3MjxyyxWu4GXhhqtTM
+41MRzr4k2UbyE8frSi60Z/ZuXmtD7BsDc04VvC/MPXU9geMsL5QkvA62IrD1mf3/
+tYUQb7IJFOGu4r7aTluQmXuaGc1MVuT2rhYmI4SK4LtW8MsuT9/v3fb+ru+4RH2Q
+cJK8XsZHJGnmmKzIQhim7A/CgnXbSn2GfA8N9Um37ie3QXzLZbD/jbuxRQJFlbJh
+1hhfQO0NHz7FE//NSEf+b4HNM/DXFDZuQtZofw4mCeTG/dXPInQyFNRCT/658nOS
+7NJy/kt9Gzx7V6veJyxZaE6TMLCLUStCuGgfDNxFXPHENFhUhbmtVvE+zqVmbOFi
+uSlD8N8jt1OC
+=Ef26
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261117/47a03a69/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 05:51:33 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 05:51:33 +0000
+Subject: [R-pkg-team] Processing of r-cran-pcapp_2.0-7-1_source.changes
+Message-ID: <mailman.2915.1794894695.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-pcapp_2.0-7-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-pcapp_2.0-7-1.dsc
+  r-cran-pcapp_2.0-7.orig.tar.gz
+  r-cran-pcapp_2.0-7-1.debian.tar.xz
+  r-cran-pcapp_2.0-7-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 06:06:02 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 06:06:02 +0000
+Subject: [R-pkg-team] r-cran-pcapp_2.0-7-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xTCKQ-00000002AHO-2XsG@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Nov 2026 14:40:00 +0900
+Source: r-cran-pcapp
+Architecture: source
+Version: 2.0-7-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-pcapp (2.0-7-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * Use uscan v5 $template template. (routine-update)
+   * New upstream version
+   * Standards-Version: 4.7.4 (routine-update)
+   * Restrict to R packages team core architectures (routine-update)
+   * Drop 'Rules-Requires-Root: no' from d/control (routine-update)
+Checksums-Sha1:
+ f28e2962a70d0e67869cc899c659d9e06ce6429c 2130 r-cran-pcapp_2.0-7-1.dsc
+ 5c7a61b5fa067561542fd3fe17556708eb274681 170601 r-cran-pcapp_2.0-7.orig.tar.gz
+ d14ff1d3253ffc5c0d975e7dac43ea9e3b6fe228 3736 r-cran-pcapp_2.0-7-1.debian.tar.xz
+ d0c020cb8175f2a5c3d96d68feb44de02752245f 11363 r-cran-pcapp_2.0-7-1_amd64.buildinfo
+Checksums-Sha256:
+ d1a525195b200ce16269283a5f422faa6400b7cde365f380fcd092ec9ce2d603 2130 r-cran-pcapp_2.0-7-1.dsc
+ e75f6bbe7f8d8f8d3ed1a155f850898b48b478368118d6f6e568d2541148159c 170601 r-cran-pcapp_2.0-7.orig.tar.gz
+ faab53d332f37184f12e1d07c71e9e45d829a79e80cc8d6e7c8e66c3b1985322 3736 r-cran-pcapp_2.0-7-1.debian.tar.xz
+ 5204ae9e05f3011befefbe64d6267f952937022bf1fce9091fcb69238fb1e3f8 11363 r-cran-pcapp_2.0-7-1_amd64.buildinfo
+Files:
+ 653050b4397efa5ebd67b160db207bc4 2130 gnu-r optional r-cran-pcapp_2.0-7-1.dsc
+ fb46d195fb5f0573cf2b8a0ea4bbe4dd 170601 gnu-r optional r-cran-pcapp_2.0-7.orig.tar.gz
+ fd972bb959ebe10d8544d9e1be279f59 3736 gnu-r optional r-cran-pcapp_2.0-7-1.debian.tar.xz
+ e525c23a6b81b5170d41483037e65560 11363 gnu-r optional r-cran-pcapp_2.0-7-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr76YISHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCYpgQAIfTQ/Qr3Cl39j9Yj0itCNYgysJyvKF3
+skc5RJaoIrEQx1hb3jN/0G8mYMJGZiO2k26ne9HDtEfYj7mvjq8OsVVfwbxlZ1pw
+llVKktoCtmpWRevWQSjcKQ6pF7KzYJM03AjO3mggPhjd3ZMFPjo0GrQk9rqSwwsW
+o8XchUNJxByvZJvyDbPi1vWLwazr8rDtH1ImDwRM28w0FtrxeHQYNRSzmS++xSsi
+nVRZlpy5wnSI9yAC4JXxHV3WrxFFYqOlLxIn0TmCzgDvJ6Qzucr3yYkjvd+5pjCL
+tSDD1DRfda/AhoeOuf0nmaj72wPO6E64c0+6IIThSjXNiMus+iD3BJeaVrXKG6ws
+z3CmSH4ctqD3qMPhlEkdafFEdeHEb/TCSbNni11csisCpTR2399esMyxSnCTUvHs
+VKaojOpPZK0fN7EKe2KP2LjFaZ5+nU2acOqq8RTwQN/kXPsiFNCH+Ep27posBbRp
+mRPL5T9yOSnxzQTohby5U7b4yXcKyCgO1LVgsbLEzxwISokseM/K094fgEj5CJKX
+rRzmZHlaj0JzZyiAg1izKDXPb307ZyFCfZHBF/ONx857lB1VyUddEs4jQj05BU1U
+j5Rgy99dV2oZLgODtgVMswTrkS8k5xvPc3KvcMeYHOfXP2i5ogsaMXolSpKjrJ1S
+nYOSnmtpcyWD
+=ztHc
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261117/3d0cc587/attachment-0001.sig>
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 07:37:01 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 07:37:01 +0000
+Subject: [R-pkg-team] Processing of r-cran-permute_0.10-0-1_source.changes
+Message-ID: <mailman.2917.1794901025.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-permute_0.10-0-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-permute_0.10-0-1.dsc
+  r-cran-permute_0.10-0.orig.tar.gz
+  r-cran-permute_0.10-0-1.debian.tar.xz
+  r-cran-permute_0.10-0-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Tue Nov 17 07:50:08 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Tue, 17 Nov 2026 07:50:08 +0000
+Subject: [R-pkg-team] r-cran-permute_0.10-0-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xTDxA-00000002PMb-3OwQ@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Nov 2026 15:43:50 +0900
+Source: r-cran-permute
+Architecture: source
+Version: 0.10-0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-permute (0.10-0-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * Use uscan v5 $template template. (routine-update)
+   * New upstream version
+   * Standards-Version: 4.7.4 (routine-update)
+   * Reflow Uploaders field (cme)
+   * Restrict to R packages team core architectures (routine-update)
+   * Drop 'Rules-Requires-Root: no' from d/control (routine-update)
+Checksums-Sha1:
+ 662edd455853a9ab8084d9b3ed5be1d635fd3307 2222 r-cran-permute_0.10-0-1.dsc
+ 0905d97a9e71ff81b39cc1fee599efcd3bebb23a 471436 r-cran-permute_0.10-0.orig.tar.gz
+ 602827b8c60d1aa1e09df2cbf854a7a20bd62846 3920 r-cran-permute_0.10-0-1.debian.tar.xz
+ 38cdeb094bf2a4475edf1bef330fbdaa537d06d8 11055 r-cran-permute_0.10-0-1_amd64.buildinfo
+Checksums-Sha256:
+ 865abd88c91bc18a44c1a42e9729c274f83bd35fb38bf7a5183f944d8a28135a 2222 r-cran-permute_0.10-0-1.dsc
+ 43710727fad3836c6c46b92867017565efadb6af178676fe2f437962581c929c 471436 r-cran-permute_0.10-0.orig.tar.gz
+ 25eddc8e730196dac04bf54a1869529d6ced6f4290b9ff51b96fbe7598c3dfa9 3920 r-cran-permute_0.10-0-1.debian.tar.xz
+ 5a77318be2b46d62617a480097a21709816c98b3d898b586bc74303271570404 11055 r-cran-permute_0.10-0-1_amd64.buildinfo
+Files:
+ 1722a1ba00008f12a0affb3fe3e642bf 2222 gnu-r optional r-cran-permute_0.10-0-1.dsc
+ adeaa5f1517f5de7fab9df51d7c90bb1 471436 gnu-r optional r-cran-permute_0.10-0.orig.tar.gz
+ 59d8f8ef5b7322c8dc78ca7c72ed9962 3920 gnu-r optional r-cran-permute_0.10-0-1.debian.tar.xz
+ 42ac1b2061124c3daa2da61b083a73b1 11055 gnu-r optional r-cran-permute_0.10-0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr8AiASHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCYFAP/32TOPLYUDMRaQaqFQzjChpvqTErzDBg
+QtTbtS0j6UfQsAF8kCC9/en0cti6kfTHX9LBDPcSrXcYe8kKL7+TYOONYKHjrlk5
+h7DumhPq4Dgdoh/X10JDCkmtBtHQpO5k7joVI3IBYINmzM5WB2MlH1k7WcZE93KV
+N7TYbW9o1CWDbmn7HqmCdQTcFjqN9FM6RDXw6h+ySTU3C2yytxSudz3VgQ5qhJyl
+eR2HbGnrCgEEAtn/OGoPnrqys4l2GTtcT+seTVKgl2l3sMok4FsO+3sMh3sdcdjc
+JMTM9e19ScmBW821k3+rpUagfAQsDxsSIFhc4w99l2Nw4GHgzpFFwrMlzHFvH2bE
+sZWG852ZBeE/czgbUbtRVItTrS5F+er0D2/upr9yLvUOjzKdqqneyJGttO1kmHmP
+iIdxo71QNLdw4v4jQT30s15GwApdaFa6EUAxfjKCW3N/c5YeBJVHJBz5Q+A5HhNF
+5QtxULlLppuvqzpz2Vi01hp2PmgwqiAkvpwr5rsC3JhR71SkpYyHLpy/1Jy6foCq
+nVtNsdvKukCTWZJEryUutBtlmTXJIZ4nJ+B5OvkoOpra1cyBnLCisycuG5mwP/dG
+sVDxwqjrP20Urnvqtk8vZnOy1U7Cx78OXboghQULBulhOAfHFmeAOgp0jw6owsvw
+AdPZgcnPrQuE
+=RWqN
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261117/f14f3056/attachment.sig>
+

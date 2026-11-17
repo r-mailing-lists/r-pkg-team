@@ -3,9 +3,9 @@
     "name": "Debian FTP Masters",
     "slug": "debian-ftp-masters",
     "emailHash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
-    "messageCount": 30744,
+    "messageCount": 30758,
     "firstDate": "2018-05-04T08:59:01Z",
-    "lastDate": "2026-11-16T06:19:57Z",
+    "lastDate": "2026-11-17T07:50:08Z",
     "yearlyActivity": {
       "2018": 2865,
       "2019": 2894,
@@ -15,16 +15,16 @@
       "2023": 3268,
       "2024": 3202,
       "2025": 1833,
-      "2026": 4208
+      "2026": 4222
     }
   },
   {
     "name": "Debian testing watch",
     "slug": "debian-testing-watch",
     "emailHash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
-    "messageCount": 23296,
+    "messageCount": 23298,
     "firstDate": "2018-05-06T04:39:24Z",
-    "lastDate": "2026-11-15T04:39:20Z",
+    "lastDate": "2026-11-17T04:39:21Z",
     "yearlyActivity": {
       "2018": 1228,
       "2019": 986,
@@ -34,7 +34,7 @@
       "2023": 2494,
       "2024": 2839,
       "2025": 3719,
-      "2026": 4865
+      "2026": 4867
     }
   },
   {
@@ -715,6 +715,17 @@
     }
   },
   {
+    "name": "dfsg-team at debian.org",
+    "slug": "dfsg-team-at-debian-org",
+    "emailHash": "2e200826d35d3dac084a4fa27a61386775eb2c722bf7e4d1765548637c1c5c40",
+    "messageCount": 6,
+    "firstDate": "2026-05-12T18:31:09Z",
+    "lastDate": "2026-11-17T04:15:28Z",
+    "yearlyActivity": {
+      "2026": 6
+    }
+  },
+  {
     "name": "Nilesh Patra",
     "slug": "nilesh-patra",
     "emailHash": "43c0226df7217f37b94b5650f6313686735e15175ebda88b2e04f8c3ad959a6d",
@@ -879,17 +890,6 @@
     "lastDate": "2021-03-29T17:58:28Z",
     "yearlyActivity": {
       "2021": 5
-    }
-  },
-  {
-    "name": "dfsg-team at debian.org",
-    "slug": "dfsg-team-at-debian-org",
-    "emailHash": "2e200826d35d3dac084a4fa27a61386775eb2c722bf7e4d1765548637c1c5c40",
-    "messageCount": 4,
-    "firstDate": "2026-05-12T18:31:09Z",
-    "lastDate": "2026-11-16T04:03:21Z",
-    "yearlyActivity": {
-      "2026": 4
     }
   },
   {
