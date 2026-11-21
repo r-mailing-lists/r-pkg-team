@@ -7092,3 +7092,300 @@ later changes on the next day.
 See https://release.debian.org/testing-watch/ for more information.
 
 
+From noreply at salsa.debian.org  Fri Nov 20 09:15:06 2026
+From: noreply at salsa.debian.org (Charles Plessy)
+Date: Fri, 20 Nov 2026 09:15:06 +0000
+Subject: [R-pkg-team] Bug#1151041: marked as pending in r-cran-gert
+References: <179214955249.215150.14290646243485070099.reportbug@fenchel>
+Message-ID: <6b000f9a5d492_5b812207756f@godard.mail>
+
+Control: tag -1 pending
+
+Hello,
+
+Bug #1151041 in r-cran-gert reported by you has been fixed in the
+Git repository and is awaiting an upload. You can see the commit
+message below and you can check the diff of the fix at:
+
+https://salsa.debian.org/r-pkg-team/r-cran-gert/-/commit/c2b391ff41eb6d07fa90d30bc5d6fd6ef756159d
+
+------------------------------------------------------------------------
+Remove unreproducible documentation
+
+Closes: #1151041
+------------------------------------------------------------------------
+
+(this message was generated automatically)
+-- 
+Greetings
+
+https://bugs.debian.org/1151041
+
+
+From owner at bugs.debian.org  Fri Nov 20 09:17:01 2026
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 20 Nov 2026 09:17:01 +0000
+Subject: [R-pkg-team] Processed: Bug#1151041 marked as pending in r-cran-gert
+References: <6b000f9a5d492_5b812207756f@godard.mail>
+ <179214955249.215150.14290646243485070099.reportbug@fenchel>
+Message-ID: <handler.s.U1151041.17951661092265416.transcript@bugs.debian.org>
+
+Processing control commands:
+
+> tag -1 pending
+Bug #1151041 [src:r-cran-gert] r-cran-gert fails to reproduce, blocked from testing migration
+Added tag(s) pending.
+
+-- 
+1151041: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1151041
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 20 09:22:21 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 20 Nov 2026 09:22:21 +0000
+Subject: [R-pkg-team] Processing of r-cran-gert_2.5.0+dfsg-2_source.changes
+Message-ID: <mailman.3182.1795166546.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-gert_2.5.0+dfsg-2_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-gert_2.5.0+dfsg-2.dsc
+  r-cran-gert_2.5.0+dfsg-2.debian.tar.xz
+  r-cran-gert_2.5.0+dfsg-2_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 20 09:35:02 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 20 Nov 2026 09:35:02 +0000
+Subject: [R-pkg-team] r-cran-gert_2.5.0+dfsg-2_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xUL1K-0000000Fcec-0etk@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Nov 2026 17:43:20 +0900
+Source: r-cran-gert
+Architecture: source
+Version: 2.5.0+dfsg-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Closes: 1151041
+Changes:
+ r-cran-gert (2.5.0+dfsg-2) unstable; urgency=medium
+ .
+   * Team upload.
+   * Remove unreproducible documentation.  Closes: #1151041.
+Checksums-Sha1:
+ 56a0ac5908ea5f47f16f8799b0a0616c51d37bea 2345 r-cran-gert_2.5.0+dfsg-2.dsc
+ b188d9ad3859ca170c93f7c168e6e393852e9998 3728 r-cran-gert_2.5.0+dfsg-2.debian.tar.xz
+ 0ce118602081cb8de51336b6671e47bf3f74aff8 12473 r-cran-gert_2.5.0+dfsg-2_amd64.buildinfo
+Checksums-Sha256:
+ cfbd9739cb74115f602f001ac2c09c89e892b630080c52d565b10c7d8d633072 2345 r-cran-gert_2.5.0+dfsg-2.dsc
+ 666885e080f1ebd752cac407b7c3b0285bff4d3f2cba6ac09ecb25ac0216b6d8 3728 r-cran-gert_2.5.0+dfsg-2.debian.tar.xz
+ 6f835109ed39c061c2249e171ed0dc396e4e52514d219e71d76c261fc48a399e 12473 r-cran-gert_2.5.0+dfsg-2_amd64.buildinfo
+Files:
+ 7d608ebdd4e4ea6120f21b4c7ec6b69d 2345 gnu-r optional r-cran-gert_2.5.0+dfsg-2.dsc
+ e17052aefb0e5965b152ae37f7e0cade 3728 gnu-r optional r-cran-gert_2.5.0+dfsg-2.debian.tar.xz
+ be1495b848ef656fdefe1a9c57dda3d9 12473 gnu-r optional r-cran-gert_2.5.0+dfsg-2_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmsAD4cSHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCAWQP/jB5QbO8B8jT7iCpZrbD9wjWCgzpZjfp
+jJ7jOe5TUSfHJq/8Tu6DRu9KOUjwnY9ySc14MzJuCOU4Kihtx3UaI7bN2uMcLxEv
+IjF0rbxxs3wvSWewTSneT5xqYiq3+pKegx1nsJWmlFMBc2tlP8qXJwvfYeKLD5+5
+YcxwcHUAX/Q9sFkxttbvCzLzt1vMwcN+j4mMvweQIAWmytEfQ5lc38csOlQijkg4
+5i7djj+zxNtx+d40lXqWCENPBO1bLL2s+RLqX0mjDkrJcWtflRggyxBm+q7QTE1w
+kbZOSyCSRpr02ukCWJXXRGSeW4WlOTnW+UlgaFfj5sATPmDGE9hTk830Z73aZFZ9
++6VToMePrgddfJxul2ced7CCi6Qvwo25WqdXLeSPJhf5vwJyZRjIimGbJDGta+pv
+upmNyLyxcQiPzK2Ao7VRHry6vFpgiGBdONlPz2pxL7sSLYRx9Z5OmdIjCfe/cFkd
+JaIfvghAgL2V8sO7FGPJ9lteGZANsQoDsmSsMAGZTJdpOr1l1llnX04OrOGSbluh
+SDpBlstBmuMvOi/EZUqgv0Y11MGLRl1bmETQJaT1h8xLNhi9er0m17S4PdpgKjMI
+fVn9XiXdn+BPmQacv49qwqwd41dxTGlX8mcMzjZY8cfpU1M9GxO5GfhOZhO8O6H7
+DNubF+3h7RTj
+=SeZ/
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261120/5dacf9e3/attachment-0001.sig>
+
+From owner at bugs.debian.org  Fri Nov 20 09:37:02 2026
+From: owner at bugs.debian.org (Debian Bug Tracking System)
+Date: Fri, 20 Nov 2026 09:37:02 +0000
+Subject: [R-pkg-team] Bug#1151041: marked as done (r-cran-gert fails to
+ reproduce, blocked from testing migration)
+References: <E1xUL1K-0000000Fcel-0xr4@fasolo.debian.org>
+ <179214955249.215150.14290646243485070099.reportbug@fenchel>
+Message-ID: <handler.1151041.D1151041.17951673052278804.ackdone@bugs.debian.org>
+
+Your message dated Fri, 20 Nov 2026 09:35:02 +0000
+with message-id <E1xUL1K-0000000Fcel-0xr4 at fasolo.debian.org>
+and subject line Bug#1151041: fixed in r-cran-gert 2.5.0+dfsg-2
+has caused the Debian Bug report #1151041,
+regarding r-cran-gert fails to reproduce, blocked from testing migration
+to be marked as done.
+
+This means that you claim that the problem has been dealt with.
+If this is not the case it is now your responsibility to reopen the
+Bug report if necessary, and/or fix the problem forthwith.
+
+(NB: If you are a system administrator and have no idea what this
+message is talking about, this may indicate a serious mail system
+misconfiguration somewhere. Please contact owner at bugs.debian.org
+immediately.)
+
+
+-- 
+1151041: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1151041
+Debian Bug Tracking System
+Contact owner at bugs.debian.org with problems
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Jochen Sprickerhof <jspricke at debian.org>
+Subject: r-cran-gert fails to reproduce, blocked from testing migration
+Date: Fri, 16 Oct 2026 13:19:12 +0200
+Size: 3364
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261120/e1621593/attachment.eml>
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Debian FTP Masters <ftpmaster at ftp-master.debian.org>
+Subject: Bug#1151041: fixed in r-cran-gert 2.5.0+dfsg-2
+Date: Fri, 20 Nov 2026 09:35:02 +0000
+Size: 6746
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261120/e1621593/attachment-0001.eml>
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 20 10:54:20 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 20 Nov 2026 10:54:20 +0000
+Subject: [R-pkg-team] Processing of r-cran-mclust_6.1.4-1_source.changes
+Message-ID: <mailman.3194.1795172063.631.r-pkg-team@alioth-lists.debian.net>
+
+r-cran-mclust_6.1.4-1_source.changes uploaded successfully to localhost
+along with the files:
+  r-cran-mclust_6.1.4-1.dsc
+  r-cran-mclust_6.1.4.orig.tar.gz
+  r-cran-mclust_6.1.4-1.debian.tar.xz
+  r-cran-mclust_6.1.4-1_amd64.buildinfo
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Fri Nov 20 11:05:29 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Fri, 20 Nov 2026 11:05:29 +0000
+Subject: [R-pkg-team] r-cran-mclust_6.1.4-1_source.changes ACCEPTED into
+ unstable
+Message-ID: <E1xUMQr-0000000FrGi-2GAA@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 20 Nov 2026 19:23:09 +0900
+Source: r-cran-mclust
+Architecture: source
+Version: 6.1.4-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Changes:
+ r-cran-mclust (6.1.4-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * Packaging update (routine-update)
+   * Use uscan v5 $template template. (routine-update)
+   * New upstream version
+Checksums-Sha1:
+ e66cfad3d262550836b0369b2c3402efac5a561e 2151 r-cran-mclust_6.1.4-1.dsc
+ b63213a46ce67674bdffea2d726c5a2990d8a33b 2782934 r-cran-mclust_6.1.4.orig.tar.gz
+ c86098cab4c76314029f08eb191dfe7c6dbe8a19 3236 r-cran-mclust_6.1.4-1.debian.tar.xz
+ 88f5ebec86974dbdc7fa5eb25d5904a5d29cbfb5 11358 r-cran-mclust_6.1.4-1_amd64.buildinfo
+Checksums-Sha256:
+ 86baa1efe48ed7c82ea98a9d6ffa7bc0ef3b0c4d435a807025b4ed28647de2df 2151 r-cran-mclust_6.1.4-1.dsc
+ e65b518e31421071c806230849be570ee8e7263ead6fddc9845ee3db1f805217 2782934 r-cran-mclust_6.1.4.orig.tar.gz
+ baea5b63f33d054fa603607f698bdc00cb57c372317246b1b3de6b3331617765 3236 r-cran-mclust_6.1.4-1.debian.tar.xz
+ 936ef11c676772c086a1c5c2d4ff562387e7a6793edaebe9e4a64a240a23b9d9 11358 r-cran-mclust_6.1.4-1_amd64.buildinfo
+Files:
+ 7d9594ad1c58109c35602fccfcf4d060 2151 gnu-r optional r-cran-mclust_6.1.4-1.dsc
+ 02aaeaf4337a3c1f2e45e300db4434de 2782934 gnu-r optional r-cran-mclust_6.1.4.orig.tar.gz
+ 3229b3e17151871c87a463954e4997bd 3236 gnu-r optional r-cran-mclust_6.1.4-1.debian.tar.xz
+ c9a02aede67bb782d5b7f12e36dff727 11358 gnu-r optional r-cran-mclust_6.1.4-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmsAI7gSHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCp1oP/306fR8Ay9XzUEyxq0k0Uj4ojGiwGwgJ
+shigRLu0TQWnmJaM46qDlHdj6uwlqBQBMVAuT/I74xSgnW/xGvG6naFlP1l5dN07
+osYF2XnnN2PLPAxq7PnO7PJLWm46EqwwGX4KQGYeL7TgEJKQMMpHl+ptpjJuDhTM
+yjxyJ0P1wo9n+fIRGphGbsi7G55TGS8yiCM8F6WGk9R15ZMNUxGSB7Rr7oAbIo3T
+YUWF1W6gyukgyw0CqT54ZaLBKdmOgoHPOvExFUBhlkZSe/Mc5iv5tJEh8MMc0gDN
+ZvbwfYslVb3PlIm01cHq9q6sFJZoEkm6Y0qmXtQgk4JiC6eCadCG9uGD8ybXptnf
+dy3XiI+6+oqo2QmlnAyn3cdF7XkV8iajN1++oHxY1fJx2A9CQOcuCFgigh7D+rkq
+5/uUsIu9uTXzAezueL2npY95BPbj1Wv3dj0cCGdW0pySDzoatZ+8ll69RNpLwF07
+l3a60c+0m3RmbADWCzCl4I3Y0DlKYC5d0Z5e//NLM5v2Kli0/kxIpFLpNseh2WxS
+ovsSaUbn6HsCtQOXUWqCJiCFtYenH+Bkq9qtnL/SsolF+aHIoDaD2PYnr+4gas88
+US2lLZQOd8lFYGuBroQNC1gNFaY+0Hm2boRi8HKd4l1/qwkLUkU6mLGEvJzb9F1Y
+E0GPESmUwyHd
+=Z/8x
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261120/b66d7a84/attachment.sig>
+
+From info at webmail.flcgil.it  Sat Nov 21 01:13:52 2026
+From: info at webmail.flcgil.it (Patrick & Frances Connolly)
+Date: Sat, 21 Nov 2026 02:13:52 +0100
+Subject: [R-pkg-team] Reminder
+Message-ID: <e6a1f9261748df4173bc0d89cece7858@webmail.flcgil.it>
+
+-- 
+Hello,
+
+We hope this message finds you well.
+
+Our names are Patrick & Frances Connolly.
+
+We have awarded you a part of our won fortune, reply for further
+details.
+
+Warm regards,
+
+Patrick & Frances Connolly.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261121/708b6a52/attachment.htm>
+
