@@ -3,9 +3,9 @@
     "name": "Debian FTP Masters",
     "slug": "debian-ftp-masters",
     "emailHash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
-    "messageCount": 30770,
+    "messageCount": 30773,
     "firstDate": "2018-05-04T08:59:01Z",
-    "lastDate": "2026-11-20T11:05:29Z",
+    "lastDate": "2026-11-22T21:02:45Z",
     "yearlyActivity": {
       "2018": 2865,
       "2019": 2894,
@@ -15,16 +15,16 @@
       "2023": 3268,
       "2024": 3202,
       "2025": 1833,
-      "2026": 4234
+      "2026": 4237
     }
   },
   {
     "name": "Debian testing watch",
     "slug": "debian-testing-watch",
     "emailHash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
-    "messageCount": 23315,
+    "messageCount": 23317,
     "firstDate": "2018-05-06T04:39:24Z",
-    "lastDate": "2026-11-22T04:39:21Z",
+    "lastDate": "2026-11-23T04:39:20Z",
     "yearlyActivity": {
       "2018": 1228,
       "2019": 986,
@@ -34,7 +34,7 @@
       "2023": 2494,
       "2024": 2839,
       "2025": 3719,
-      "2026": 4884
+      "2026": 4886
     }
   },
   {
@@ -2481,6 +2481,17 @@
     "lastDate": "2022-07-08T18:16:12Z",
     "yearlyActivity": {
       "2022": 1
+    }
+  },
+  {
+    "name": "Lifesum",
+    "slug": "lifesum",
+    "emailHash": "107ae41a0dc5955c84413ec29a23193eeb13f629edbac31ca9461eb798a9940b",
+    "messageCount": 1,
+    "firstDate": "2026-11-23T01:03:43Z",
+    "lastDate": "2026-11-23T01:03:43Z",
+    "yearlyActivity": {
+      "2026": 1
     }
   },
   {

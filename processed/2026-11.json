@@ -3489,6 +3489,102 @@
       "thread_id": "thread-ea82b105e486",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-82000fbb2856",
+      "message_id": "<179536330968.1884803.10251839367506540384@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-22T16:01:49Z",
+      "subject": "[R-pkg-team] r-cran-suntools_1.1.0-1_amd64.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-suntools_1.1.0-1_amd64.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Mon, 16 Nov 2026 05:01:18 -0500\nSource: r-cran-suntools\nBinary: r-cran-suntools\nArchitecture: source all\nVersion: 1.1.0-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Andrius Merkys <merkys at debian.org>\nDescription:\n r-cran-suntools - Calculate Sun Position, Sunrise, Sunset, Solar Noon and Twilight\nCloses: 1154143\nChanges:\n r-cran-suntools (1.1.0-1) unstable; urgency=medium\n .\n   * Initial release (closes: #1154143)\nChecksums-Sha1:\n b5d8c67f9b7bd752ee958b78dba8f2580b71167e 1445 r-cran-suntools_1.1.0-1.dsc\n ab19b0cb8d163f6f2c4d9dce73139580f19752b8 16327 r-cran-suntools_1.1.0.orig.tar.gz\n cd1d988eae13cbc78427a625bf1983d758f80303 1768 r-cran-suntools_1.1.0-1.debian.tar.xz\n 695662b5496e5223227b9f40b86e52384a3d0db9 80188 r-cran-suntools_1.1.0-1_all.deb\n 1a6f3d28bd4e797af40cd67e06aa8cf35dca3caa 17691 r-cran-suntools_1.1.0-1_amd64.buildinfo\nChecksums-Sha256:\n 7950594501b3af944ac464d33d803dcd7559d2d82100c28e624974d70ee072fd 1445 r-cran-suntools_1.1.0-1.dsc\n a85c875d60fba4fe02a71759598cb5f845ceae9d63a3551e81b4c7586c9c9cd1 16327 r-cran-suntools_1.1.0.orig.tar.gz\n 6aac31f388f28868ec48b0de66715dfbb03ecb1e54ffc722817774a5c92532e9 1768 r-cran-suntools_1.1.0-1.debian.tar.xz\n 122a12bfe597f58ac39946c93b128481e338fea7c96eac04c77d2c5b1ba41b29 80188 r-cran-suntools_1.1.0-1_all.deb\n 7289ce3895a9287cbd2417d98abfb326a30f1e9021e591dfe90f475e8c879967 17691 r-cran-suntools_1.1.0-1_amd64.buildinfo\nFiles:\n 3ed75d7843e3906ec06597741ad29e06 1445 gnu-r optional r-cran-suntools_1.1.0-1.dsc\n 04a0c4a665c6fc20fbfba0399305edb3 16327 gnu-r optional r-cran-suntools_1.1.0.orig.tar.gz\n ac5c5fef710fa6b9c71118c2353986a0 1768 gnu-r optional r-cran-suntools_1.1.0-1.debian.tar.xz\n 6c933a034485b8c72b30d0fb8116c7f3 80188 gnu-r optional r-cran-suntools_1.1.0-1_all.deb\n 0e053514deb320894180ca7fa30fc4c6 17691 gnu-r optional r-cran-suntools_1.1.0-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niHUEARYKAB0WIQQ9mT++eHAQdiuDyvHYokBlilUePQUCavrcLQAKCRDYokBlilUe\nPUR4AQDhMG1ejz2AGhKVn+dEA5oV7uEopqrQimdHkNhC7873zQEAy+/EXVVcpDFB\nFdqlyIwmPtioNKwSuwxR5sj2XSnOrQc=\n=5wnj\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261122/e8886116/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Mon, 16 Nov 2026 05:01:18 -0500\nSource: r-cran-suntools\nBinary: r-cran-sunto",
+      "thread_id": "thread-82000fbb2856",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-d852fe60e05a",
+      "message_id": "<179538136486.2121988.6899255404499457517@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-22T21:02:44Z",
+      "subject": "[R-pkg-team] r-cran-pkgsearch_3.1.5-1_amd64.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-pkgsearch_3.1.5-1_amd64.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Mon, 16 Nov 2026 10:38:17 +0900\nSource: r-cran-pkgsearch\nBinary: r-cran-pkgsearch\nArchitecture: source all\nVersion: 3.1.5-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nDescription:\n r-cran-pkgsearch - Search and Query CRAN R Packages\nChanges:\n r-cran-pkgsearch (3.1.5-1) unstable; urgency=medium\n .\n   * Initial release (needed by r-cran-pak, to be packaged)\nChecksums-Sha1:\n fb226eedba2e9212b60a26ef8c71d5548dabb438 2337 r-cran-pkgsearch_3.1.5-1.dsc\n 7cccd3df6c18740040ef12f0d7a26159497b9ed6 59377 r-cran-pkgsearch_3.1.5.orig.tar.gz\n 97f62794101847cd60e2435dd3ae9d5004c95c2c 2528 r-cran-pkgsearch_3.1.5-1.debian.tar.xz\n c5cbadd24eb5d9947d721d665dcda2d2d9c377e2 211236 r-cran-pkgsearch_3.1.5-1_all.deb\n f67a3b2fe9a1828d279879d7bcbe7d5af429e81b 11131 r-cran-pkgsearch_3.1.5-1_amd64.buildinfo\nChecksums-Sha256:\n a36e3050a091e08cd3f06808ef79925c2f09e64447afcf33c3c0645b2aed178a 2337 r-cran-pkgsearch_3.1.5-1.dsc\n d147502b813d7d4edb18d8c3a76901f332763e5c044c47cfb2f170f93a70d296 59377 r-cran-pkgsearch_3.1.5.orig.tar.gz\n 1fb41ed597f0ac8d3ab7b22e36758fbc35be192b11531bb78b40049ec1167ca3 2528 r-cran-pkgsearch_3.1.5-1.debian.tar.xz\n 92e4d5e336e946216ae3a58e54908ed6193fdd41ee09a9b5814a6e0fdd640ef0 211236 r-cran-pkgsearch_3.1.5-1_all.deb\n 01b0be41c06b82c9da173d49e639a18626d5d5ca4b08c40a4626abfc8f80b860 11131 r-cran-pkgsearch_3.1.5-1_amd64.buildinfo\nFiles:\n 96f530205b664ef8591bf6911cb7ddb1 2337 gnu-r optional r-cran-pkgsearch_3.1.5-1.dsc\n 390ae87ab02521712f8a6aa4489d6d83 59377 gnu-r optional r-cran-pkgsearch_3.1.5.orig.tar.gz\n b9c5336de765004ec4675737458a256d 2528 gnu-r optional r-cran-pkgsearch_3.1.5-1.debian.tar.xz\n 500567f5987a720b7e805f9460bbdd50 211236 gnu-r optional r-cran-pkgsearch_3.1.5-1_all.deb\n 683be816d6e1dc85733b594a62cf00e6 11131 gnu-r optional r-cran-pkgsearch_3.1.5-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr6X14SHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCaVsQAILZUVhFSX8kcf7aZS3JmKgMwCwyf1TN\nw9A7uz9qf8dUZ2lw20cG+ZbKj+xd637AKG2XZh0j5BWJ4YABNBvFgDN1xa/NXtkO\nRuVGWMKT35524IeAYbUUULapHWB9o2A155ordbJ2R0JUAL28uC+Gvp6Mn5TYhc/5\nqYWqj8ehlmuum1aWDEkpX9sbsluaAbmh371hYoKDh0FoE+2F2/lX2tBBWCMxB6c4\nZmUc/4OpwppYBwRgBGeHli44vluiwXuRRjHgutXvOFtd8TxIHNBq6DVtbR4IItgu\n/OO0lw1x+ox0cPGi5cOXGtWJ+P5OdJLqawWxk6NsecJiMVzJw2gV1hSLt+ZJEiIV\nLPbhVrJby96VHmkMJ2MTs54QQivNbkDUgwI2lBLeLfVlmGx8/Q24zJsTq+euq2b6\n6lSlPSStfAN0Qgj1xelBJ5cKLVwCeRFtQXkHD3q4MD9ILWcNokT4Axq1vm/H+afl\nttnwV3B299WbBMtz22gEoxi1KzAugwXvlkM8TISubEf7LA3HTKyM+/Kta5199mCt\n7P0QBmC6N3aefrMweG13WCN/K5ntPN8CNMdfIeXMaZLI1gFegAzmGZAWUSzbNDl8\nfDZ01va10ODakDDd9ASM5R0X0cFTVKXdVhOjkkQtMtEoHOjvqW+W2NUDPC01cC57\nXfVHnhgC5rX1\n=4URO\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261122/623d7cfb/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Mon, 16 Nov 2026 10:38:17 +0900\nSource: r-cran-pkgsearch\nBinary: r-cran-pkgs",
+      "thread_id": "thread-d852fe60e05a",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-17915bb4f565",
+      "message_id": "<179538136524.2121988.8096221066574339109@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-22T21:02:45Z",
+      "subject": "[R-pkg-team] r-cran-yardstick_1.4.0-1_amd64.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-yardstick_1.4.0-1_amd64.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 17 Nov 2026 11:01:07 +0900\nSource: r-cran-yardstick\nBinary: r-cran-yardstick r-cran-yardstick-dbgsym\nArchitecture: source amd64\nVersion: 1.4.0-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nDescription:\n r-cran-yardstick - Tidy Characterizations of Model Performance\nChanges:\n r-cran-yardstick (1.4.0-1) unstable; urgency=medium\n .\n   * Initial release (needed by r-cran-caret)\nChecksums-Sha1:\n 97f0bc8659220409198e83a46d7d6b370932739f 2439 r-cran-yardstick_1.4.0-1.dsc\n f4e7d39dad82919ea752e6279b4573dbf555ea76 1633475 r-cran-yardstick_1.4.0.orig.tar.gz\n b878a41cd29bc5718585cb919ada1e71d3058f57 2868 r-cran-yardstick_1.4.0-1.debian.tar.xz\n 54ac6e7b21e7a9857d755940bc1128e1189b3053 5600 r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb\n 8d8a15560d3097d090a6f26ea40a15ee767cea7a 11895 r-cran-yardstick_1.4.0-1_amd64.buildinfo\n 9bfb1f9d9ba73db90edce69effee9c3e017556c5 1916936 r-cran-yardstick_1.4.0-1_amd64.deb\nChecksums-Sha256:\n 48252690e03632f5b602a01ffd617f682ac5aa987c5d80ad9120135df173508b 2439 r-cran-yardstick_1.4.0-1.dsc\n 579f2b3db310297ddd9413aa076fe4d0d74e4fbd87784a4597ac84718c74888b 1633475 r-cran-yardstick_1.4.0.orig.tar.gz\n fb6e8403df4ea52479cdbe0bf2d77fe0cd181a3a2fc3947f1a4bae3fa9ece872 2868 r-cran-yardstick_1.4.0-1.debian.tar.xz\n 0d98ded03b65a373f2c18b0160c842652767f208fef93a58e76161b95dca1347 5600 r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb\n badc627ec98f4d62e9b7f265cefd6a9b2755af318f26b861254de44aa7c41606 11895 r-cran-yardstick_1.4.0-1_amd64.buildinfo\n 5b8d870e67f415dc9484dc0999b3b4bec79c639f488d7e37b999dffef31cb34c 1916936 r-cran-yardstick_1.4.0-1_amd64.deb\nFiles:\n 3bd3dc4344abdda36e1e28257d24d562 2439 gnu-r optional r-cran-yardstick_1.4.0-1.dsc\n d475fe630be7b265ebb47f56b7d8870c 1633475 gnu-r optional r-cran-yardstick_1.4.0.orig.tar.gz\n dfc79c45b782a809db88328ffb482fb7 2868 gnu-r optional r-cran-yardstick_1.4.0-1.debian.tar.xz\n 36095271c8a198f39b2ed180257ad4db 5600 debug optional r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb\n bc7bc1e57c27ba873f5e993f260f5f52 11895 gnu-r optional r-cran-yardstick_1.4.0-1_amd64.buildinfo\n d5172aff920ae4ffea91739a6ab1e348 1916936 gnu-r optional r-cran-yardstick_1.4.0-1_amd64.deb\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr7yrASHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCaTkQAJRaP5dTs9+mlUcrp5HYBHTM3EfmIdg6\ndiSvMs501vXk5Pcbq0Iu3nHNwspXiuct604HEljsgirjpxtw9LFYNTdae+pZGuCT\nUgJf1cfFwOWm2NtPXCwDoiYwEXkRpbqgkPbFPq94gwfAO099CIMAROtuV+/D21Rh\nIeC7D9CyXcCpM6VdNKaYehsb217CQX4EU7U8B2v51RycpO5bvfIg2pZpthy/m7B1\nMjqRYsf2PTM4mGZwWObtNruXrawtGhmDz8nL1Jq2N99gSw81FnLMLq+eW8/DDVsV\nf9XAohfR590e6WUFNnBXAegpy7Hk1wOyb9nTQJqK54eSF5q6mtsosYkaVT7cyONy\n2jsbux9i3rZJqTIHqnzEXwWQrodStGGdpB1R0zVPe4M6jyS4dyjFSlT7GNWgcZ2t\nq/kLPHgb5egTJzr0fUH+79+SMg3t6isQcCSyplYmF+uF9Fnh+kHA0QANvK2tMYQD\n6B564ktkMEMVm8pROp6StRi22zH16mnJvPeLM8BAePCwTpOFlVE0d1ZNiw3UYC8H\ngW3cHMsrmVUCwW6DoVz+Xtdw2CnHRzuL2P91AAbf6WT14yGWS69mj6nAb+zDnDlI\n7hItFWg2Q5D9AuhVDRRBpKcx5nA/peB+1H1IvAzB0IB7UeBwEKri5XBMGztYowkf\nDmQjegq7Dzo/\n=7Zgw\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261122/436ef0bd/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 17 Nov 2026 11:01:07 +0900\nSource: r-cran-yardstick\nBinary: r-cran-yard",
+      "thread_id": "thread-17915bb4f565",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-b018365e01ae",
+      "message_id": "<011301a205ee295e-b9bf2b57-2ed0-4ebd-8ec2-59085b5e9cd9-000000@eu-west-3.amazonses.com>",
+      "from_name": "Lifesum",
+      "from_email_hash": "107ae41a0dc5955c84413ec29a23193eeb13f629edbac31ca9461eb798a9940b",
+      "date": "2026-11-23T01:03:43Z",
+      "subject": "[R-pkg-team] Verify your email to secure your Lifesum account",
+      "subject_clean": "[R-pkg-team] Verify your email to secure your Lifesum account",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261123/40d4c451/attachment-0001.htm>",
+      "body_snippet": "An HTML attachment was scrubbed...\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261123/40d4c451/attachment-0001.htm>",
+      "thread_id": "thread-b018365e01ae",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-226f4b3e09a2",
+      "message_id": "<E1xVLpo-00000008rNv-3GhG@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-23T04:39:20Z",
+      "subject": "[R-pkg-team] r-cran-gert 2.5.0+dfsg-2 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-gert 2.5.0+dfsg-2 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-gert source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  2.5.0+dfsg-2\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-gert source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  2.5.0+dfsg-2\n\n-- \nThis email is automatically ",
+      "thread_id": "thread-226f4b3e09a2",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-c54a03ffeecf",
+      "message_id": "<E1xVLpo-00000008rNz-3SKU@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-23T04:39:20Z",
+      "subject": "[R-pkg-team] r-cran-mclust 6.1.4-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-mclust 6.1.4-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-mclust source package\nin Debian's testing distribution has changed.\n\n  Previous version: 6.1.3-1\n  Current version:  6.1.4-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-mclust source package\nin Debian's testing distribution has changed.\n\n  Previous version: 6.1.3-1\n  Current version:  6.1.4-1\n\n-- \nThis email is automatically generated on",
+      "thread_id": "thread-c54a03ffeecf",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -5868,6 +5964,72 @@
       "started": "2026-11-22T04:39:21Z",
       "last_reply": "2026-11-22T04:39:21Z",
       "root_message_id": "msg-ea82b105e486"
+    },
+    {
+      "id": "thread-82000fbb2856",
+      "subject": "[R-pkg-team] r-cran-suntools_1.1.0-1_amd64.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-22T16:01:49Z",
+      "last_reply": "2026-11-22T16:01:49Z",
+      "root_message_id": "msg-82000fbb2856"
+    },
+    {
+      "id": "thread-d852fe60e05a",
+      "subject": "[R-pkg-team] r-cran-pkgsearch_3.1.5-1_amd64.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-22T21:02:44Z",
+      "last_reply": "2026-11-22T21:02:44Z",
+      "root_message_id": "msg-d852fe60e05a"
+    },
+    {
+      "id": "thread-17915bb4f565",
+      "subject": "[R-pkg-team] r-cran-yardstick_1.4.0-1_amd64.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-22T21:02:45Z",
+      "last_reply": "2026-11-22T21:02:45Z",
+      "root_message_id": "msg-17915bb4f565"
+    },
+    {
+      "id": "thread-b018365e01ae",
+      "subject": "[R-pkg-team] Verify your email to secure your Lifesum account",
+      "message_count": 1,
+      "participants": [
+        "Lifesum"
+      ],
+      "started": "2026-11-23T01:03:43Z",
+      "last_reply": "2026-11-23T01:03:43Z",
+      "root_message_id": "msg-b018365e01ae"
+    },
+    {
+      "id": "thread-226f4b3e09a2",
+      "subject": "[R-pkg-team] r-cran-gert 2.5.0+dfsg-2 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-23T04:39:20Z",
+      "last_reply": "2026-11-23T04:39:20Z",
+      "root_message_id": "msg-226f4b3e09a2"
+    },
+    {
+      "id": "thread-c54a03ffeecf",
+      "subject": "[R-pkg-team] r-cran-mclust 6.1.4-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-23T04:39:20Z",
+      "last_reply": "2026-11-23T04:39:20Z",
+      "root_message_id": "msg-c54a03ffeecf"
     }
   ]
 }

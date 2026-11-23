@@ -7465,3 +7465,276 @@ later changes on the next day.
 See https://release.debian.org/testing-watch/ for more information.
 
 
+From ftpmaster at ftp-master.debian.org  Sun Nov 22 16:01:49 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 22 Nov 2026 16:01:49 +0000
+Subject: [R-pkg-team] r-cran-suntools_1.1.0-1_amd64.changes ACCEPTED into
+ unstable
+Message-ID: <179536330968.1884803.10251839367506540384@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 16 Nov 2026 05:01:18 -0500
+Source: r-cran-suntools
+Binary: r-cran-suntools
+Architecture: source all
+Version: 1.1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Andrius Merkys <merkys at debian.org>
+Description:
+ r-cran-suntools - Calculate Sun Position, Sunrise, Sunset, Solar Noon and Twilight
+Closes: 1154143
+Changes:
+ r-cran-suntools (1.1.0-1) unstable; urgency=medium
+ .
+   * Initial release (closes: #1154143)
+Checksums-Sha1:
+ b5d8c67f9b7bd752ee958b78dba8f2580b71167e 1445 r-cran-suntools_1.1.0-1.dsc
+ ab19b0cb8d163f6f2c4d9dce73139580f19752b8 16327 r-cran-suntools_1.1.0.orig.tar.gz
+ cd1d988eae13cbc78427a625bf1983d758f80303 1768 r-cran-suntools_1.1.0-1.debian.tar.xz
+ 695662b5496e5223227b9f40b86e52384a3d0db9 80188 r-cran-suntools_1.1.0-1_all.deb
+ 1a6f3d28bd4e797af40cd67e06aa8cf35dca3caa 17691 r-cran-suntools_1.1.0-1_amd64.buildinfo
+Checksums-Sha256:
+ 7950594501b3af944ac464d33d803dcd7559d2d82100c28e624974d70ee072fd 1445 r-cran-suntools_1.1.0-1.dsc
+ a85c875d60fba4fe02a71759598cb5f845ceae9d63a3551e81b4c7586c9c9cd1 16327 r-cran-suntools_1.1.0.orig.tar.gz
+ 6aac31f388f28868ec48b0de66715dfbb03ecb1e54ffc722817774a5c92532e9 1768 r-cran-suntools_1.1.0-1.debian.tar.xz
+ 122a12bfe597f58ac39946c93b128481e338fea7c96eac04c77d2c5b1ba41b29 80188 r-cran-suntools_1.1.0-1_all.deb
+ 7289ce3895a9287cbd2417d98abfb326a30f1e9021e591dfe90f475e8c879967 17691 r-cran-suntools_1.1.0-1_amd64.buildinfo
+Files:
+ 3ed75d7843e3906ec06597741ad29e06 1445 gnu-r optional r-cran-suntools_1.1.0-1.dsc
+ 04a0c4a665c6fc20fbfba0399305edb3 16327 gnu-r optional r-cran-suntools_1.1.0.orig.tar.gz
+ ac5c5fef710fa6b9c71118c2353986a0 1768 gnu-r optional r-cran-suntools_1.1.0-1.debian.tar.xz
+ 6c933a034485b8c72b30d0fb8116c7f3 80188 gnu-r optional r-cran-suntools_1.1.0-1_all.deb
+ 0e053514deb320894180ca7fa30fc4c6 17691 gnu-r optional r-cran-suntools_1.1.0-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQ9mT++eHAQdiuDyvHYokBlilUePQUCavrcLQAKCRDYokBlilUe
+PUR4AQDhMG1ejz2AGhKVn+dEA5oV7uEopqrQimdHkNhC7873zQEAy+/EXVVcpDFB
+FdqlyIwmPtioNKwSuwxR5sj2XSnOrQc=
+=5wnj
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261122/e8886116/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Sun Nov 22 21:02:44 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 22 Nov 2026 21:02:44 +0000
+Subject: [R-pkg-team] r-cran-pkgsearch_3.1.5-1_amd64.changes ACCEPTED into
+ unstable
+Message-ID: <179538136486.2121988.6899255404499457517@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Mon, 16 Nov 2026 10:38:17 +0900
+Source: r-cran-pkgsearch
+Binary: r-cran-pkgsearch
+Architecture: source all
+Version: 3.1.5-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Description:
+ r-cran-pkgsearch - Search and Query CRAN R Packages
+Changes:
+ r-cran-pkgsearch (3.1.5-1) unstable; urgency=medium
+ .
+   * Initial release (needed by r-cran-pak, to be packaged)
+Checksums-Sha1:
+ fb226eedba2e9212b60a26ef8c71d5548dabb438 2337 r-cran-pkgsearch_3.1.5-1.dsc
+ 7cccd3df6c18740040ef12f0d7a26159497b9ed6 59377 r-cran-pkgsearch_3.1.5.orig.tar.gz
+ 97f62794101847cd60e2435dd3ae9d5004c95c2c 2528 r-cran-pkgsearch_3.1.5-1.debian.tar.xz
+ c5cbadd24eb5d9947d721d665dcda2d2d9c377e2 211236 r-cran-pkgsearch_3.1.5-1_all.deb
+ f67a3b2fe9a1828d279879d7bcbe7d5af429e81b 11131 r-cran-pkgsearch_3.1.5-1_amd64.buildinfo
+Checksums-Sha256:
+ a36e3050a091e08cd3f06808ef79925c2f09e64447afcf33c3c0645b2aed178a 2337 r-cran-pkgsearch_3.1.5-1.dsc
+ d147502b813d7d4edb18d8c3a76901f332763e5c044c47cfb2f170f93a70d296 59377 r-cran-pkgsearch_3.1.5.orig.tar.gz
+ 1fb41ed597f0ac8d3ab7b22e36758fbc35be192b11531bb78b40049ec1167ca3 2528 r-cran-pkgsearch_3.1.5-1.debian.tar.xz
+ 92e4d5e336e946216ae3a58e54908ed6193fdd41ee09a9b5814a6e0fdd640ef0 211236 r-cran-pkgsearch_3.1.5-1_all.deb
+ 01b0be41c06b82c9da173d49e639a18626d5d5ca4b08c40a4626abfc8f80b860 11131 r-cran-pkgsearch_3.1.5-1_amd64.buildinfo
+Files:
+ 96f530205b664ef8591bf6911cb7ddb1 2337 gnu-r optional r-cran-pkgsearch_3.1.5-1.dsc
+ 390ae87ab02521712f8a6aa4489d6d83 59377 gnu-r optional r-cran-pkgsearch_3.1.5.orig.tar.gz
+ b9c5336de765004ec4675737458a256d 2528 gnu-r optional r-cran-pkgsearch_3.1.5-1.debian.tar.xz
+ 500567f5987a720b7e805f9460bbdd50 211236 gnu-r optional r-cran-pkgsearch_3.1.5-1_all.deb
+ 683be816d6e1dc85733b594a62cf00e6 11131 gnu-r optional r-cran-pkgsearch_3.1.5-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr6X14SHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCaVsQAILZUVhFSX8kcf7aZS3JmKgMwCwyf1TN
+w9A7uz9qf8dUZ2lw20cG+ZbKj+xd637AKG2XZh0j5BWJ4YABNBvFgDN1xa/NXtkO
+RuVGWMKT35524IeAYbUUULapHWB9o2A155ordbJ2R0JUAL28uC+Gvp6Mn5TYhc/5
+qYWqj8ehlmuum1aWDEkpX9sbsluaAbmh371hYoKDh0FoE+2F2/lX2tBBWCMxB6c4
+ZmUc/4OpwppYBwRgBGeHli44vluiwXuRRjHgutXvOFtd8TxIHNBq6DVtbR4IItgu
+/OO0lw1x+ox0cPGi5cOXGtWJ+P5OdJLqawWxk6NsecJiMVzJw2gV1hSLt+ZJEiIV
+LPbhVrJby96VHmkMJ2MTs54QQivNbkDUgwI2lBLeLfVlmGx8/Q24zJsTq+euq2b6
+6lSlPSStfAN0Qgj1xelBJ5cKLVwCeRFtQXkHD3q4MD9ILWcNokT4Axq1vm/H+afl
+ttnwV3B299WbBMtz22gEoxi1KzAugwXvlkM8TISubEf7LA3HTKyM+/Kta5199mCt
+7P0QBmC6N3aefrMweG13WCN/K5ntPN8CNMdfIeXMaZLI1gFegAzmGZAWUSzbNDl8
+fDZ01va10ODakDDd9ASM5R0X0cFTVKXdVhOjkkQtMtEoHOjvqW+W2NUDPC01cC57
+XfVHnhgC5rX1
+=4URO
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261122/623d7cfb/attachment.sig>
+
+From ftpmaster at ftp-master.debian.org  Sun Nov 22 21:02:45 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Sun, 22 Nov 2026 21:02:45 +0000
+Subject: [R-pkg-team] r-cran-yardstick_1.4.0-1_amd64.changes ACCEPTED into
+ unstable
+Message-ID: <179538136524.2121988.8096221066574339109@fasolo.debian.org>
+
+Thank you for your contribution to Debian.
+
+
+
+Accepted:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 17 Nov 2026 11:01:07 +0900
+Source: r-cran-yardstick
+Binary: r-cran-yardstick r-cran-yardstick-dbgsym
+Architecture: source amd64
+Version: 1.4.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>
+Changed-By: Charles Plessy <plessy at debian.org>
+Description:
+ r-cran-yardstick - Tidy Characterizations of Model Performance
+Changes:
+ r-cran-yardstick (1.4.0-1) unstable; urgency=medium
+ .
+   * Initial release (needed by r-cran-caret)
+Checksums-Sha1:
+ 97f0bc8659220409198e83a46d7d6b370932739f 2439 r-cran-yardstick_1.4.0-1.dsc
+ f4e7d39dad82919ea752e6279b4573dbf555ea76 1633475 r-cran-yardstick_1.4.0.orig.tar.gz
+ b878a41cd29bc5718585cb919ada1e71d3058f57 2868 r-cran-yardstick_1.4.0-1.debian.tar.xz
+ 54ac6e7b21e7a9857d755940bc1128e1189b3053 5600 r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb
+ 8d8a15560d3097d090a6f26ea40a15ee767cea7a 11895 r-cran-yardstick_1.4.0-1_amd64.buildinfo
+ 9bfb1f9d9ba73db90edce69effee9c3e017556c5 1916936 r-cran-yardstick_1.4.0-1_amd64.deb
+Checksums-Sha256:
+ 48252690e03632f5b602a01ffd617f682ac5aa987c5d80ad9120135df173508b 2439 r-cran-yardstick_1.4.0-1.dsc
+ 579f2b3db310297ddd9413aa076fe4d0d74e4fbd87784a4597ac84718c74888b 1633475 r-cran-yardstick_1.4.0.orig.tar.gz
+ fb6e8403df4ea52479cdbe0bf2d77fe0cd181a3a2fc3947f1a4bae3fa9ece872 2868 r-cran-yardstick_1.4.0-1.debian.tar.xz
+ 0d98ded03b65a373f2c18b0160c842652767f208fef93a58e76161b95dca1347 5600 r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb
+ badc627ec98f4d62e9b7f265cefd6a9b2755af318f26b861254de44aa7c41606 11895 r-cran-yardstick_1.4.0-1_amd64.buildinfo
+ 5b8d870e67f415dc9484dc0999b3b4bec79c639f488d7e37b999dffef31cb34c 1916936 r-cran-yardstick_1.4.0-1_amd64.deb
+Files:
+ 3bd3dc4344abdda36e1e28257d24d562 2439 gnu-r optional r-cran-yardstick_1.4.0-1.dsc
+ d475fe630be7b265ebb47f56b7d8870c 1633475 gnu-r optional r-cran-yardstick_1.4.0.orig.tar.gz
+ dfc79c45b782a809db88328ffb482fb7 2868 gnu-r optional r-cran-yardstick_1.4.0-1.debian.tar.xz
+ 36095271c8a198f39b2ed180257ad4db 5600 debug optional r-cran-yardstick-dbgsym_1.4.0-1_amd64.deb
+ bc7bc1e57c27ba873f5e993f260f5f52 11895 gnu-r optional r-cran-yardstick_1.4.0-1_amd64.buildinfo
+ d5172aff920ae4ffea91739a6ab1e348 1916936 gnu-r optional r-cran-yardstick_1.4.0-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmr7yrASHHBsZXNzeUBk
+ZWJpYW4ub3JnAAoJEMW9bI8ildUCaTkQAJRaP5dTs9+mlUcrp5HYBHTM3EfmIdg6
+diSvMs501vXk5Pcbq0Iu3nHNwspXiuct604HEljsgirjpxtw9LFYNTdae+pZGuCT
+UgJf1cfFwOWm2NtPXCwDoiYwEXkRpbqgkPbFPq94gwfAO099CIMAROtuV+/D21Rh
+IeC7D9CyXcCpM6VdNKaYehsb217CQX4EU7U8B2v51RycpO5bvfIg2pZpthy/m7B1
+MjqRYsf2PTM4mGZwWObtNruXrawtGhmDz8nL1Jq2N99gSw81FnLMLq+eW8/DDVsV
+f9XAohfR590e6WUFNnBXAegpy7Hk1wOyb9nTQJqK54eSF5q6mtsosYkaVT7cyONy
+2jsbux9i3rZJqTIHqnzEXwWQrodStGGdpB1R0zVPe4M6jyS4dyjFSlT7GNWgcZ2t
+q/kLPHgb5egTJzr0fUH+79+SMg3t6isQcCSyplYmF+uF9Fnh+kHA0QANvK2tMYQD
+6B564ktkMEMVm8pROp6StRi22zH16mnJvPeLM8BAePCwTpOFlVE0d1ZNiw3UYC8H
+gW3cHMsrmVUCwW6DoVz+Xtdw2CnHRzuL2P91AAbf6WT14yGWS69mj6nAb+zDnDlI
+7hItFWg2Q5D9AuhVDRRBpKcx5nA/peB+1H1IvAzB0IB7UeBwEKri5XBMGztYowkf
+DmQjegq7Dzo/
+=7Zgw
+-----END PGP SIGNATURE-----
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261122/436ef0bd/attachment.sig>
+
+From noreply at news.lifesum.com  Mon Nov 23 01:03:43 2026
+From: noreply at news.lifesum.com (Lifesum)
+Date: Mon, 23 Nov 2026 01:03:43 +0000
+Subject: [R-pkg-team] =?utf-8?q?Verify_your_email_to_secure_your_Lifesum_?=
+ =?utf-8?q?account?=
+Message-ID: <011301a205ee295e-b9bf2b57-2ed0-4ebd-8ec2-59085b5e9cd9-000000@eu-west-3.amazonses.com>
+
+An HTML attachment was scrubbed...
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261123/40d4c451/attachment-0001.htm>
+
+From noreply at release.debian.org  Mon Nov 23 04:39:20 2026
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 23 Nov 2026 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-mclust 6.1.4-1 MIGRATED to testing
+Message-ID: <E1xVLpo-00000008rNz-3SKU@respighi.debian.org>
+
+FYI: The status of the r-cran-mclust source package
+in Debian's testing distribution has changed.
+
+  Previous version: 6.1.3-1
+  Current version:  6.1.4-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From noreply at release.debian.org  Mon Nov 23 04:39:20 2026
+From: noreply at release.debian.org (Debian testing watch)
+Date: Mon, 23 Nov 2026 04:39:20 +0000
+Subject: [R-pkg-team] r-cran-gert 2.5.0+dfsg-2 MIGRATED to testing
+Message-ID: <E1xVLpo-00000008rNv-3GhG@respighi.debian.org>
+
+FYI: The status of the r-cran-gert source package
+in Debian's testing distribution has changed.
+
+  Previous version: (not in testing)
+  Current version:  2.5.0+dfsg-2
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
