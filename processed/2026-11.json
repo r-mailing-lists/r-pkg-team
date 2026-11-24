@@ -3585,6 +3585,134 @@
       "thread_id": "thread-c54a03ffeecf",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-7fe9a89edb25",
+      "message_id": "<157f4708bb3560c41aa70dc6dd1b60da@usper.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-24T00:29:48Z",
+      "subject": "[R-pkg-team] Processing of r-cran-admisc_0.42-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-admisc_0.42-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-admisc_0.42-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-admisc_0.42-1.dsc\n  r-cran-admisc_0.42.orig.tar.gz\n  r-cran-admisc_0.42-1.debian.tar.xz\n  r-cran-admisc_0.42-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-admisc_0.42-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-admisc_0.42-1.dsc\n  r-cran-admisc_0.42.orig.tar.gz\n  r-cran-admisc_0.42-1.debian.tar.xz\n  r-cran-a",
+      "thread_id": "thread-7fe9a89edb25",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-dd371180c597",
+      "message_id": "<179548099691.3275917.397099971884521933@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-24T00:43:16Z",
+      "subject": "[R-pkg-team] r-cran-admisc_0.42-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-admisc_0.42-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 24 Nov 2026 09:11:33 +0900\nSource: r-cran-admisc\nArchitecture: source\nVersion: 0.42-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-cran-admisc (0.42-1) unstable; urgency=medium\n .\n   * Team upload.\n   * Packaging update (routine-update)\n   * New upstream version\nChecksums-Sha1:\n 5f8d0d8ea131abc40b526ab816b6de853cf900c3 2064 r-cran-admisc_0.42-1.dsc\n 668c4b14777857833d918ba88c71e45b98955b19 109569 r-cran-admisc_0.42.orig.tar.gz\n 4856337c9cb827a746129f871a28061dd39b940e 2664 r-cran-admisc_0.42-1.debian.tar.xz\n 344d557aa6e76c21e36c0718ab61b645c3a99508 11338 r-cran-admisc_0.42-1_amd64.buildinfo\nChecksums-Sha256:\n 5815590e678e39370419b0832bbe4817d6778d473b16b9e7f8bbd46b255d2e10 2064 r-cran-admisc_0.42-1.dsc\n f6e6272a8f154f5e13ef47c1013f2e63a6442b6cd633836380d24e1520de10d1 109569 r-cran-admisc_0.42.orig.tar.gz\n 84777717f28e3c4d15a38ab8e6b18e18dd9fc2442cbca4403bd94432466e2679 2664 r-cran-admisc_0.42-1.debian.tar.xz\n bee63ed1d84dbdd567e2d1317ae1ee2661da2c6683a02b4169878e528e30f57f 11338 r-cran-admisc_0.42-1_amd64.buildinfo\nFiles:\n abee5bb6fc86bb9e6291e26d00169e12 2064 gnu-r optional r-cran-admisc_0.42-1.dsc\n d9031a05b1a8c95e9bf1a2767e7ddc1b 109569 gnu-r optional r-cran-admisc_0.42.orig.tar.gz\n 89763480f646ced2dd893353279843bb 2664 gnu-r optional r-cran-admisc_0.42-1.debian.tar.xz\n cba902422d34164b258e1245452c4236 11338 gnu-r optional r-cran-admisc_0.42-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmsE11MSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUC8Z0P/i2Zp9WU8DNbbeLp3jj9/8px/2trZRCP\nHKtoBlM5SKKEZQY0tGyvLmtQuc6s5fDkQUt7mAt7avJO+gBYgh0FAp2oIETmF9qB\n+wDnrfbw4X38FudF0DqWLeYkk+SxeUyK8HAnknLRvdi1MUO/ZZ44uKh/O1LyNyqi\nzflRm59E54ufggmlqy2iiMxr+H4V+5L1YCfdEfzHU11qPpoHXFi3evRMGl91szDq\n6ePw0DeZ53zHHnx09MuZTwiD2dNSBi9xUWIT66UBO+m8G3fUP4Pgqh2ExdJb8cB7\n+3ceEjnapyoOepO3PJThemhgLtEq9yQ3x8oGf6vbweIGdMau3oQtE5nYbzgztS0T\nhg0ZLghm9PSsLO/myjpEUr07WHWEhRe+/gGfmKUdRMKjxXvw4zvRm4rLh3lDaGtl\nrhSSApw4nszitAJ7W8iZOcj+ebAabG9vIBwG1mo3/19wPLGA9s4BQ7qYWZALynrN\nkFYQviREo7Bvd12lu6H012ZnzelIEyMpgv86CcIlA36YtDlGwYewbgM/D6WoNEtG\nzqdyNZQbdaOVdu0DVu/rkS7DGqb3Y64WuihuaYdGe58eX0BDoMZrHLjQmSnbD/Ma\nsQVLrf4mU097HaVR+PMCz8HLqFwb5nQ0Gv0wHPn/IXao3RoUUkhGdfCkhMKybCSO\nFtiJlZvEw/Od\n=XMxj\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261124/293de8e8/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 24 Nov 2026 09:11:33 +0900\nSource: r-cran-admisc\nArchitecture: source\nV",
+      "thread_id": "thread-dd371180c597",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-9688ea6845a0",
+      "message_id": "<2eac9e12b396b3b218e25ab4f7569ece@usper.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-24T02:56:36Z",
+      "subject": "[R-pkg-team] Processing of r-cran-arm_1.15-4-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-arm_1.15-4-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-arm_1.15-4-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-arm_1.15-4-1.dsc\n  r-cran-arm_1.15-4.orig.tar.gz\n  r-cran-arm_1.15-4-1.debian.tar.xz\n  r-cran-arm_1.15-4-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-arm_1.15-4-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-arm_1.15-4-1.dsc\n  r-cran-arm_1.15-4.orig.tar.gz\n  r-cran-arm_1.15-4-1.debian.tar.xz\n  r-cran-arm_1",
+      "thread_id": "thread-9688ea6845a0",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-45adc1c1f062",
+      "message_id": "<179548951102.3407021.4497997396898926698@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-24T03:05:11Z",
+      "subject": "[R-pkg-team] r-cran-arm_1.15-4-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-arm_1.15-4-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 24 Nov 2026 11:32:41 +0900\nSource: r-cran-arm\nArchitecture: source\nVersion: 1.15-4-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-cran-arm (1.15-4-1) unstable; urgency=medium\n .\n   * Team upload.\n   * New upstream version\n   * Restrict to R packages team core architectures (routine-update)\n   * Refresh autopkgtests\nChecksums-Sha1:\n bcd3fec98e5a117c2f8bd546fc360582028d8225 2212 r-cran-arm_1.15-4-1.dsc\n b2bb233b62a6139b36802076106b241fc0030440 207893 r-cran-arm_1.15-4.orig.tar.gz\n 23c32d16376229f670622ecec8521d8b90745261 3008 r-cran-arm_1.15-4-1.debian.tar.xz\n 13984118c8cb49babac2ee34736018b1e634afac 11601 r-cran-arm_1.15-4-1_amd64.buildinfo\nChecksums-Sha256:\n 1fc551ca0581551eae95d89591b1c17bd16149a2a8a3583b8325d4eba97076d9 2212 r-cran-arm_1.15-4-1.dsc\n c6e7bc57ae45f9450088933c1bd4b00d7c0daaf356433522e3f256ffe7a3a0cc 207893 r-cran-arm_1.15-4.orig.tar.gz\n 42a5444307b260a67745c054711e9d164ccecbd0a43c7171635d05e8bce37fab 3008 r-cran-arm_1.15-4-1.debian.tar.xz\n e2751961024cb825359955679073b577c3168da294306bf7219f3c4bfe0ba6e0 11601 r-cran-arm_1.15-4-1_amd64.buildinfo\nFiles:\n fc1acd8b1256e7e051e05c717bd2964e 2212 gnu-r optional r-cran-arm_1.15-4-1.dsc\n ae810ed285c94b868bc5b169520c4282 207893 gnu-r optional r-cran-arm_1.15-4.orig.tar.gz\n 6f97b41c0c0a764f4462bef1a90cc6f2 3008 gnu-r optional r-cran-arm_1.15-4-1.debian.tar.xz\n 98ee345827c7325f46a501e5a9c843d6 11601 gnu-r optional r-cran-arm_1.15-4-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmsE+pgSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUC1a4P/2fCm/ip/ESmz4me3uUFTTHmdCCW7xgm\nmJCpajqB9TFXvfTL73TXcCC8NXz/AchJpLQKtWVjc2BIWFzpvOHwveOZDTxz+ntc\njxB5EYlMUkzLxRou0AhBvhHnFahpKrujsFNJ+MFPK+uXe6LwW+xBru8u4D3sVqiv\nRDpGOWLds4oUkyT6TbgHpJIXIG9/6N1rCBPm9b5bkIN1Ifdgrz8+dC8Od2CfnIXC\nNLEbPm/jt+0NXjXluwV6VBBrP570yEs1cYqDUMxfLFE9DMJpXSowuKIsGjOJwvdo\nnQPJCEyb4AcRp8ffqOtThQZPk+lx7QflQ9I4lpYmmZy97lCaKwgVycIOSjtHHjEh\nAB2OkYjVF1ARxWv8+MlFBZcdJIKah11V8rYBjo7r7G2os1fNKRXIcrB7q5aTpP7+\n3ntoSdmZQRTIDGtH7Dgz15cgr6wdfTJVdL1klV5JZK0jsTNQywvvdqyvb0h4n0pg\nQyxg6adHWUnTGHX/LkaC+H2kYxtMvLhM3hUJqrgBk5dxOUYRYfUOIWYWZjPRmNry\n//k5iKzj4yVqu3pBCDmKiLIpxsouWZiwddjrMm2BNrBzvEf+IqIDCtus/xJ/Tgry\nHF2DipZUctXgv+Oib76IpoHQuNmeIIYckGe+wnj2bHoIOoDSBGNvg/Ts69N9n1yr\nYZVcgtANfEp0\n=MtJ3\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261124/5b998742/attachment.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 24 Nov 2026 11:32:41 +0900\nSource: r-cran-arm\nArchitecture: source\nVers",
+      "thread_id": "thread-45adc1c1f062",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-5cccc036996d",
+      "message_id": "<E1xViJL-0000000ACYJ-0hdR@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-24T04:39:19Z",
+      "subject": "[R-pkg-team] r-cran-covr 4.0.0+dfsg-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-covr 4.0.0+dfsg-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-covr source package\nin Debian's testing distribution has changed.\n\n  Previous version: 3.6.5+dfsg2-1\n  Current version:  4.0.0+dfsg-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-covr source package\nin Debian's testing distribution has changed.\n\n  Previous version: 3.6.5+dfsg2-1\n  Current version:  4.0.0+dfsg-1\n\n-- \nThis email is automatically gen",
+      "thread_id": "thread-5cccc036996d",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-5dc99b9e126b",
+      "message_id": "<E1xViJL-0000000ACYO-0ufI@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-24T04:39:19Z",
+      "subject": "[R-pkg-team] r-cran-openssl 2.6.0+dfsg-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-openssl 2.6.0+dfsg-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-openssl source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.4.2+dfsg-1\n  Current version:  2.6.0+dfsg-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-openssl source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.4.2+dfsg-1\n  Current version:  2.6.0+dfsg-1\n\n-- \nThis email is automatically g",
+      "thread_id": "thread-5dc99b9e126b",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-2179f8c1943c",
+      "message_id": "<5815d5655ff40e14030971982f96bed4@usper.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-24T08:43:19Z",
+      "subject": "[R-pkg-team] Processing of r-cran-caret_7.1-0+dfsg-1_source.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-caret_7.1-0+dfsg-1_source.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-caret_7.1-0+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-caret_7.1-0+dfsg-1.dsc\n  r-cran-caret_7.1-0+dfsg.orig.tar.xz\n  r-cran-caret_7.1-0+dfsg-1.debian.tar.xz\n  r-cran-caret_7.1-0+dfsg-1_amd64.buildinfo\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-caret_7.1-0+dfsg-1_source.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-caret_7.1-0+dfsg-1.dsc\n  r-cran-caret_7.1-0+dfsg.orig.tar.xz\n  r-cran-caret_7.1-0+dfsg-1.debi",
+      "thread_id": "thread-2179f8c1943c",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-0c5aa25d2b37",
+      "message_id": "<179551015551.3654392.5815012744864599164@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-24T08:49:15Z",
+      "subject": "[R-pkg-team] r-cran-caret_7.1-0+dfsg-1_source.changes ACCEPTED into unstable",
+      "subject_clean": "[R-pkg-team] r-cran-caret_7.1-0+dfsg-1_source.changes ACCEPTED into unstable",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 24 Nov 2026 17:27:22 +0900\nSource: r-cran-caret\nArchitecture: source\nVersion: 7.1-0+dfsg-1\nDistribution: unstable\nUrgency: medium\nMaintainer: Debian R Packages Maintainers <r-pkg-team at alioth-lists.debian.net>\nChanged-By: Charles Plessy <plessy at debian.org>\nChanges:\n r-cran-caret (7.1-0+dfsg-1) unstable; urgency=medium\n .\n   * Team upload.\n   * New upstream version\n   * Use uscan v5 $template template. (routine-update)\n   * Standards-Version: 4.7.4 (routine-update)\n   * Remove obsolete tests.\n   * Restrict to R packages team core architectures (routine-update)\n   * Drop 'Rules-Requires-Root: no' from d/control (routine-update)\nChecksums-Sha1:\n 463df75bc499c755571284f11a0773209b36d3bb 2727 r-cran-caret_7.1-0+dfsg-1.dsc\n b762998a52b78dcde815b2e3a37ca3e8866a0512 2091680 r-cran-caret_7.1-0+dfsg.orig.tar.xz\n 302b69e878cb6741c053ea625fc99b047d1f7a91 7252 r-cran-caret_7.1-0+dfsg-1.debian.tar.xz\n a1c840a68468ea798de3b958efa5d926664fb4cf 13599 r-cran-caret_7.1-0+dfsg-1_amd64.buildinfo\nChecksums-Sha256:\n 5f9c87c99c872d5c88a5957a4f4728f2b4ff492b28fcc671293e0bfe10e03dac 2727 r-cran-caret_7.1-0+dfsg-1.dsc\n d5beeef8651eb4726dd0a40301d1f8e97405f4dc25d3f8000bab991f40d48529 2091680 r-cran-caret_7.1-0+dfsg.orig.tar.xz\n 80cfc66c0c3325946e2aef97d31be7b33d070ba906b12313aa56d4875361c140 7252 r-cran-caret_7.1-0+dfsg-1.debian.tar.xz\n e49d2808895c0146a82ec63e74ced115d40a9d2f6adca88d94164994384bac2b 13599 r-cran-caret_7.1-0+dfsg-1_amd64.buildinfo\nFiles:\n db852534a8aa3b53c536fba5e1cb846c 2727 gnu-r optional r-cran-caret_7.1-0+dfsg-1.dsc\n 26ac68f48c1c7e9ed9080168d4f7012b 2091680 gnu-r optional r-cran-caret_7.1-0+dfsg.orig.tar.xz\n 15f5279da2c3c7a4ad2429cf110bf44b 7252 gnu-r optional r-cran-caret_7.1-0+dfsg-1.debian.tar.xz\n 6791aa05557e8054442d12ad3782996e 13599 gnu-r optional r-cran-caret_7.1-0+dfsg-1_amd64.buildinfo\n\n-----BEGIN PGP SIGNATURE-----\n\niQJGBAEBCgAwFiEEc0cUmcxg7Z7ugFlGxb1sjyKV1QIFAmsFS0oSHHBsZXNzeUBk\nZWJpYW4ub3JnAAoJEMW9bI8ildUCs7sP/2hYdoezU+TCRGRW9snQuIFMZG8AgZjN\n/S2k1QqKCbCHKBdM+X2OOwvvvbPCSFJmfdke0hgjOWm8viS186gs8bl+p53sK4Du\nMACLogsNxCO+CqWsY/i050hZeJiWCsDfzB+O4XdneNKtn/AQmJs+2LfE5y+JYR8t\nlLA7831Fq1+LOULphXAXusaqKYkqg2JlbynLg1rLaTkGFTKp8nQkZV6hpyfIkqdq\n4HxxGTWhsp2HzI0EYNZ1eOXJt/YD7T9XzAJR5wEOO1I3HXdPr4gnrtPNxtjHCxdX\n2KbIti7XjkttO2imcoFlXH4vt738LK5X4REjWsbCYE4YhRczAjDnhfLebxPfBe5K\nIOu+sXwzQweZUKkbLKmJda23v4qqB6WE8rhCHhQCutFhiqs++XIrjSnuhAcE5vYw\nkEzbErA6Np0iC/aghelNNs+TTjHJwSb3DioUP2ylJGIietggJ0EKsS7DUe366trN\neVp0UvXAMbqxqvdHRQg08fGGdadO2lK9PGB3+IFPezibhXZ3IFgl/tWRszTPdeoe\nTcitWwiNxuNbjM25S9U0Q4TngySdri07dkO9ItaBR38UNkUuz4xPaRm6PHSOMTMb\n9qFMEUNKYvlVhX9AJH+0GBL2OduwcSF6whJHAC25mb8vbbfdLB/uLOOLJ6bqI1qv\nYW+cirwPhMjM\n=NLYb\n-----END PGP SIGNATURE-----\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261124/246f32d6/attachment-0001.sig>",
+      "body_snippet": "Thank you for your contribution to Debian.\n\n\n\nAccepted:\n\n-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA512\n\nFormat: 1.8\nDate: Tue, 24 Nov 2026 17:27:22 +0900\nSource: r-cran-caret\nArchitecture: source\nVe",
+      "thread_id": "thread-0c5aa25d2b37",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -6030,6 +6158,94 @@
       "started": "2026-11-23T04:39:20Z",
       "last_reply": "2026-11-23T04:39:20Z",
       "root_message_id": "msg-c54a03ffeecf"
+    },
+    {
+      "id": "thread-7fe9a89edb25",
+      "subject": "[R-pkg-team] Processing of r-cran-admisc_0.42-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-24T00:29:48Z",
+      "last_reply": "2026-11-24T00:29:48Z",
+      "root_message_id": "msg-7fe9a89edb25"
+    },
+    {
+      "id": "thread-dd371180c597",
+      "subject": "[R-pkg-team] r-cran-admisc_0.42-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-24T00:43:16Z",
+      "last_reply": "2026-11-24T00:43:16Z",
+      "root_message_id": "msg-dd371180c597"
+    },
+    {
+      "id": "thread-9688ea6845a0",
+      "subject": "[R-pkg-team] Processing of r-cran-arm_1.15-4-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-24T02:56:36Z",
+      "last_reply": "2026-11-24T02:56:36Z",
+      "root_message_id": "msg-9688ea6845a0"
+    },
+    {
+      "id": "thread-45adc1c1f062",
+      "subject": "[R-pkg-team] r-cran-arm_1.15-4-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-24T03:05:11Z",
+      "last_reply": "2026-11-24T03:05:11Z",
+      "root_message_id": "msg-45adc1c1f062"
+    },
+    {
+      "id": "thread-5cccc036996d",
+      "subject": "[R-pkg-team] r-cran-covr 4.0.0+dfsg-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-24T04:39:19Z",
+      "last_reply": "2026-11-24T04:39:19Z",
+      "root_message_id": "msg-5cccc036996d"
+    },
+    {
+      "id": "thread-5dc99b9e126b",
+      "subject": "[R-pkg-team] r-cran-openssl 2.6.0+dfsg-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-24T04:39:19Z",
+      "last_reply": "2026-11-24T04:39:19Z",
+      "root_message_id": "msg-5dc99b9e126b"
+    },
+    {
+      "id": "thread-2179f8c1943c",
+      "subject": "[R-pkg-team] Processing of r-cran-caret_7.1-0+dfsg-1_source.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-24T08:43:19Z",
+      "last_reply": "2026-11-24T08:43:19Z",
+      "root_message_id": "msg-2179f8c1943c"
+    },
+    {
+      "id": "thread-0c5aa25d2b37",
+      "subject": "[R-pkg-team] r-cran-caret_7.1-0+dfsg-1_source.changes ACCEPTED into unstable",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-24T08:49:15Z",
+      "last_reply": "2026-11-24T08:49:15Z",
+      "root_message_id": "msg-0c5aa25d2b37"
     }
   ]
 }
