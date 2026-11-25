@@ -8054,3 +8054,73 @@ Size: 228 bytes
 Desc: not available
 URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261124/246f32d6/attachment-0001.sig>
 
+From noreply at release.debian.org  Wed Nov 25 04:39:23 2026
+From: noreply at release.debian.org (Debian testing watch)
+Date: Wed, 25 Nov 2026 04:39:23 +0000
+Subject: [R-pkg-team] r-cran-suntools 1.1.0-1 MIGRATED to testing
+Message-ID: <E1xW4mx-000000013Uj-1srM@respighi.debian.org>
+
+FYI: The status of the r-cran-suntools source package
+in Debian's testing distribution has changed.
+
+  Previous version: (not in testing)
+  Current version:  1.1.0-1
+
+-- 
+This email is automatically generated once a day.  As the installation of
+new packages into testing happens multiple times a day you will receive
+later changes on the next day.
+See https://release.debian.org/testing-watch/ for more information.
+
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 25 07:47:48 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 25 Nov 2026 07:47:48 +0000
+Subject: [R-pkg-team] Processing of r-cran-pak_0.11.1+dfsg-1_amd64.changes
+Message-ID: <2eef58e2370edaa1b8e34d488aae484f@usper.debian.org>
+
+r-cran-pak_0.11.1+dfsg-1_amd64.changes uploaded successfully to localhost
+along with the files:
+  r-cran-pak_0.11.1+dfsg-1.dsc
+  r-cran-pak_0.11.1+dfsg.orig.tar.xz
+  r-cran-pak_0.11.1+dfsg-1.debian.tar.xz
+  r-cran-pak_0.11.1+dfsg-1_amd64.buildinfo
+  r-cran-pak_0.11.1+dfsg-1_amd64.deb
+
+Greetings,
+
+	Your Debian queue daemon (running on host usper.debian.org)
+
+
+From ftpmaster at ftp-master.debian.org  Wed Nov 25 08:37:13 2026
+From: ftpmaster at ftp-master.debian.org (Debian FTP Masters)
+Date: Wed, 25 Nov 2026 08:37:13 +0000
+Subject: [R-pkg-team] r-cran-pak_0.11.1+dfsg-1_amd64.changes is NEW
+Message-ID: <179559583324.928327.16900317829076793286@fasolo.debian.org>
+
+binary:r-cran-pak is NEW.
+binary:r-cran-pak is NEW.
+source:r-cran-pak is NEW.
+
+Your package has been put into the NEW queue, which requires manual action
+from the ftpteam to process. The upload was otherwise valid (it had a good
+OpenPGP signature and file hashes are valid), so please be patient.
+
+Packages are routinely processed through to the archive, and do feel
+free to browse the NEW queue[1].
+
+If there is an issue with the upload, you will receive an email from a
+member of the ftpteam.
+
+If you have any questions, you may reply to this email.
+
+[1]: https://ftp-master.debian.org/new.html
+     or https://ftp-master.debian.org/backports-new.html for *-backports
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 228 bytes
+Desc: not available
+URL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261125/6c64142b/attachment.sig>
+

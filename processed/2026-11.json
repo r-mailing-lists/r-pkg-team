@@ -3713,6 +3713,54 @@
       "thread_id": "thread-0c5aa25d2b37",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-9f532f58c1af",
+      "message_id": "<E1xW4mx-000000013Uj-1srM@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-25T04:39:23Z",
+      "subject": "[R-pkg-team] r-cran-suntools 1.1.0-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-suntools 1.1.0-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-suntools source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.1.0-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-suntools source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.1.0-1\n\n-- \nThis email is automatically g",
+      "thread_id": "thread-9f532f58c1af",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-303cee89e7d6",
+      "message_id": "<2eef58e2370edaa1b8e34d488aae484f@usper.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-25T07:47:48Z",
+      "subject": "[R-pkg-team] Processing of r-cran-pak_0.11.1+dfsg-1_amd64.changes",
+      "subject_clean": "[R-pkg-team] Processing of r-cran-pak_0.11.1+dfsg-1_amd64.changes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-pak_0.11.1+dfsg-1_amd64.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-pak_0.11.1+dfsg-1.dsc\n  r-cran-pak_0.11.1+dfsg.orig.tar.xz\n  r-cran-pak_0.11.1+dfsg-1.debian.tar.xz\n  r-cran-pak_0.11.1+dfsg-1_amd64.buildinfo\n  r-cran-pak_0.11.1+dfsg-1_amd64.deb\n\nGreetings,\n\n\tYour Debian queue daemon (running on host usper.debian.org)",
+      "body_snippet": "r-cran-pak_0.11.1+dfsg-1_amd64.changes uploaded successfully to localhost\nalong with the files:\n  r-cran-pak_0.11.1+dfsg-1.dsc\n  r-cran-pak_0.11.1+dfsg.orig.tar.xz\n  r-cran-pak_0.11.1+dfsg-1.debian.ta",
+      "thread_id": "thread-303cee89e7d6",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-695ac4f55039",
+      "message_id": "<179559583324.928327.16900317829076793286@fasolo.debian.org>",
+      "from_name": "Debian FTP Masters",
+      "from_email_hash": "0aa57d4ccb965fdaec87288efe8a1b920f90abe49463addcaf3770ac56938312",
+      "date": "2026-11-25T08:37:13Z",
+      "subject": "[R-pkg-team] r-cran-pak_0.11.1+dfsg-1_amd64.changes is NEW",
+      "subject_clean": "[R-pkg-team] r-cran-pak_0.11.1+dfsg-1_amd64.changes is NEW",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "binary:r-cran-pak is NEW.\nbinary:r-cran-pak is NEW.\nsource:r-cran-pak is NEW.\n\nYour package has been put into the NEW queue, which requires manual action\nfrom the ftpteam to process. The upload was otherwise valid (it had a good\nOpenPGP signature and file hashes are valid), so please be patient.\n\nPackages are routinely processed through to the archive, and do feel\nfree to browse the NEW queue[1].\n\nIf there is an issue with the upload, you will receive an email from a\nmember of the ftpteam.\n\nIf you have any questions, you may reply to this email.\n\n[1]: https://ftp-master.debian.org/new.html\n     or https://ftp-master.debian.org/backports-new.html for *-backports\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: application/pgp-signature\nSize: 228 bytes\nDesc: not available\nURL: <http://alioth-lists.debian.net/pipermail/r-pkg-team/attachments/20261125/6c64142b/attachment.sig>",
+      "body_snippet": "binary:r-cran-pak is NEW.\nbinary:r-cran-pak is NEW.\nsource:r-cran-pak is NEW.\n\nYour package has been put into the NEW queue, which requires manual action\nfrom the ftpteam to process. The upload was ot",
+      "thread_id": "thread-695ac4f55039",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -6246,6 +6294,39 @@
       "started": "2026-11-24T08:49:15Z",
       "last_reply": "2026-11-24T08:49:15Z",
       "root_message_id": "msg-0c5aa25d2b37"
+    },
+    {
+      "id": "thread-9f532f58c1af",
+      "subject": "[R-pkg-team] r-cran-suntools 1.1.0-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-25T04:39:23Z",
+      "last_reply": "2026-11-25T04:39:23Z",
+      "root_message_id": "msg-9f532f58c1af"
+    },
+    {
+      "id": "thread-303cee89e7d6",
+      "subject": "[R-pkg-team] Processing of r-cran-pak_0.11.1+dfsg-1_amd64.changes",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-25T07:47:48Z",
+      "last_reply": "2026-11-25T07:47:48Z",
+      "root_message_id": "msg-303cee89e7d6"
+    },
+    {
+      "id": "thread-695ac4f55039",
+      "subject": "[R-pkg-team] r-cran-pak_0.11.1+dfsg-1_amd64.changes is NEW",
+      "message_count": 1,
+      "participants": [
+        "Debian FTP Masters"
+      ],
+      "started": "2026-11-25T08:37:13Z",
+      "last_reply": "2026-11-25T08:37:13Z",
+      "root_message_id": "msg-695ac4f55039"
     }
   ]
 }
