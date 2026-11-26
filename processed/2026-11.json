@@ -3761,6 +3761,94 @@
       "thread_id": "thread-695ac4f55039",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-56e415ffcc9e",
+      "message_id": "<awcS9B1hvwfQfAkD@an3as.eu>",
+      "from_name": "Andreas Tille",
+      "from_email_hash": "ab075941c22f2fbbd1316821ef8188ebb6dd72d786db971a8d133fd6f7f3531f",
+      "date": "2026-11-25T16:55:16Z",
+      "subject": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "subject_clean": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "in_reply_to": "<179391753137.1450031.14599834115600551202.reportbug@duagon-BXN3S64.localdomain>",
+      "references": [
+        "<179391753137.1450031.14599834115600551202.reportbug@duagon-BXN3S64.localdomain>",
+        "<179391753137.1450031.14599834115600551202.reportbug@duagon-BXN3S64.localdomain>"
+      ],
+      "body_plain": "Am Thu, Nov 05, 2026 at 11:25:31PM +0100 schrieb Bastian Germann:\n> Source: rapache\n> Version: 1.2.12-1\n> Severity: normal\n> \n> Please consider removing this leaf package to enable removing libapreq2.\n> It has a very low popcon, so there are probably only a few users.\n\nFine for me if its a blocker for others\n   Andreas. \n\n-- \nhttps://fam-tille.de",
+      "body_snippet": "Am Thu, Nov 05, 2026 at 11:25:31PM +0100 schrieb Bastian Germann:\n> Source: rapache\n> Version: 1.2.12-1\n> Severity: normal\n> \n> Please consider removing this leaf package to enable removing libapreq2.",
+      "thread_id": "thread-aa52b59ef2b6",
+      "thread_depth": 1,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-e6ccdf5ed91a",
+      "message_id": "<awccT2HVGg7RLaNv@duagon-BXN3S64.localdomain>",
+      "from_name": "Bastian Germann",
+      "from_email_hash": "1e2c56d3bc9a19fb5f7436580df6356645403caddafe3ab91ac157a1ded5a452",
+      "date": "2026-11-25T17:35:11Z",
+      "subject": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "subject_clean": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "in_reply_to": null,
+      "references": [
+        "<179391753137.1450031.14599834115600551202.reportbug@duagon-BXN3S64.localdomain>"
+      ],
+      "body_plain": "Control: reassign -1 ftp.debian.org\n\nPlease remove rapache. It depends on abandoned libapreq2.",
+      "body_snippet": "Control: reassign -1 ftp.debian.org\n\nPlease remove rapache. It depends on abandoned libapreq2.",
+      "thread_id": "thread-aa52b59ef2b6",
+      "thread_depth": 1,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-068f92013c17",
+      "message_id": "<handler.s.B1153134.17956281183401829.transcript@bugs.debian.org>",
+      "from_name": "Debian Bug Tracking System",
+      "from_email_hash": "2d46c3e23dc44cd4de45c3b79dcde354bfb3c6b52facbc8a1c8114050146e8aa",
+      "date": "2026-11-25T17:37:03Z",
+      "subject": "[R-pkg-team] Processed: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "subject_clean": "[R-pkg-team] Processed: RM: rapache -- RoQA; depends on abandonded libapreq2",
+      "in_reply_to": null,
+      "references": [
+        "<awccT2HVGg7RLaNv@duagon-BXN3S64.localdomain>",
+        "<179391753137.1450031.14599834115600551202.reportbug@duagon-BXN3S64.localdomain>"
+      ],
+      "body_plain": "Processing control commands:\n\n> reassign -1 ftp.debian.org\nBug #1153134 [src:rapache] RM: rapache -- RoQA; depends on abandonded libapreq2\nBug reassigned from package 'src:rapache' to 'ftp.debian.org'.\nNo longer marked as found in versions rapache/1.2.12-1.\nIgnoring request to alter fixed versions of bug #1153134 to the same values previously set\n\n-- \n1153134: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1153134\nDebian Bug Tracking System\nContact owner at bugs.debian.org with problems",
+      "body_snippet": "Processing control commands:\n\n> reassign -1 ftp.debian.org\nBug #1153134 [src:rapache] RM: rapache -- RoQA; depends on abandonded libapreq2\nBug reassigned from package 'src:rapache' to 'ftp.debian.org'",
+      "thread_id": "thread-aa52b59ef2b6",
+      "thread_depth": 1,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-5eea5732f55b",
+      "message_id": "<E1xWRGD-00000002NZl-1epq@respighi.debian.org>",
+      "from_name": "Debian testing autoremoval watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-26T04:39:05Z",
+      "subject": "[R-pkg-team] r-cran-guerry is marked for autoremoval from testing",
+      "subject_clean": "[R-pkg-team] r-cran-guerry is marked for autoremoval from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "r-cran-guerry 1.8.3-2 is marked for autoremoval from testing on 2026-12-11\n\nIt is affected by these RC bugs:\n1152396: r-cran-guerry: fails to migrate to testing for too long\n https://bugs.debian.org/1152396\n\n\n\nFor more information on the autoremoval process, including hints to prevent\nautoremoval can be found on the wiki: https://wiki.debian.org/Autoremoval\n\nThis mail is generated by:\nhttps://salsa.debian.org/release-team/release-tools/-/blob/master/mailer/mail_autoremovals.pl\n\nAutoremoval data is generated by:\nhttps://salsa.debian.org/qa/udd/-/blob/master/udd/testing_autoremovals_gatherer.pl",
+      "body_snippet": "r-cran-guerry 1.8.3-2 is marked for autoremoval from testing on 2026-12-11\n\nIt is affected by these RC bugs:\n1152396: r-cran-guerry: fails to migrate to testing for too long\n https://bugs.debian.org/1",
+      "thread_id": "thread-5eea5732f55b",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-27256e197fe2",
+      "message_id": "<E1xWRGJ-00000002Ng6-2DdH@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-26T04:39:11Z",
+      "subject": "[R-pkg-team] r-cran-arm 1.15-4-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-arm 1.15-4-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-arm source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.15-3-1\n  Current version:  1.15-4-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-arm source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.15-3-1\n  Current version:  1.15-4-1\n\n-- \nThis email is automatically generated onc",
+      "thread_id": "thread-27256e197fe2",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -4493,12 +4581,14 @@
     {
       "id": "thread-aa52b59ef2b6",
       "subject": "[R-pkg-team] Bug#1153134: RM: rapache -- RoQA; depends on abandonded libapreq2",
-      "message_count": 1,
+      "message_count": 4,
       "participants": [
-        "Bastian Germann"
+        "Andreas Tille",
+        "Bastian Germann",
+        "Debian Bug Tracking System"
       ],
       "started": "2026-11-05T22:25:31Z",
-      "last_reply": "2026-11-05T22:25:31Z",
+      "last_reply": "2026-11-25T17:37:03Z",
       "root_message_id": "msg-aa52b59ef2b6"
     },
     {
@@ -6327,6 +6417,28 @@
       "started": "2026-11-25T08:37:13Z",
       "last_reply": "2026-11-25T08:37:13Z",
       "root_message_id": "msg-695ac4f55039"
+    },
+    {
+      "id": "thread-5eea5732f55b",
+      "subject": "[R-pkg-team] r-cran-guerry is marked for autoremoval from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing autoremoval watch"
+      ],
+      "started": "2026-11-26T04:39:05Z",
+      "last_reply": "2026-11-26T04:39:05Z",
+      "root_message_id": "msg-5eea5732f55b"
+    },
+    {
+      "id": "thread-27256e197fe2",
+      "subject": "[R-pkg-team] r-cran-arm 1.15-4-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-26T04:39:11Z",
+      "last_reply": "2026-11-26T04:39:11Z",
+      "root_message_id": "msg-27256e197fe2"
     }
   ]
 }
