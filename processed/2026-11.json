@@ -3849,6 +3849,54 @@
       "thread_id": "thread-27256e197fe2",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-04312a0720bf",
+      "message_id": "<E1xWnk4-00000003hFn-3Fbx@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-27T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-yardstick 1.4.0-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-yardstick 1.4.0-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-yardstick source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.4.0-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-yardstick source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  1.4.0-1\n\n-- \nThis email is automatically ",
+      "thread_id": "thread-04312a0720bf",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-717af9c5258d",
+      "message_id": "<E1xWnk4-00000003hFd-2oz9@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-27T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-admisc 0.42-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-admisc 0.42-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-admisc source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.41-1\n  Current version:  0.42-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-admisc source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.41-1\n  Current version:  0.42-1\n\n-- \nThis email is automatically generated once",
+      "thread_id": "thread-717af9c5258d",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-e250f2c367b3",
+      "message_id": "<E1xWnk4-00000003hFh-32Gr@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-27T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-pkgsearch 3.1.5-1 MIGRATED to testing",
+      "subject_clean": "[R-pkg-team] r-cran-pkgsearch 3.1.5-1 MIGRATED to testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-pkgsearch source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  3.1.5-1\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-pkgsearch source package\nin Debian's testing distribution has changed.\n\n  Previous version: (not in testing)\n  Current version:  3.1.5-1\n\n-- \nThis email is automatically ",
+      "thread_id": "thread-e250f2c367b3",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -6439,6 +6487,39 @@
       "started": "2026-11-26T04:39:11Z",
       "last_reply": "2026-11-26T04:39:11Z",
       "root_message_id": "msg-27256e197fe2"
+    },
+    {
+      "id": "thread-04312a0720bf",
+      "subject": "[R-pkg-team] r-cran-yardstick 1.4.0-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-27T04:39:24Z",
+      "last_reply": "2026-11-27T04:39:24Z",
+      "root_message_id": "msg-04312a0720bf"
+    },
+    {
+      "id": "thread-717af9c5258d",
+      "subject": "[R-pkg-team] r-cran-admisc 0.42-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-27T04:39:24Z",
+      "last_reply": "2026-11-27T04:39:24Z",
+      "root_message_id": "msg-717af9c5258d"
+    },
+    {
+      "id": "thread-e250f2c367b3",
+      "subject": "[R-pkg-team] r-cran-pkgsearch 3.1.5-1 MIGRATED to testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-27T04:39:24Z",
+      "last_reply": "2026-11-27T04:39:24Z",
+      "root_message_id": "msg-e250f2c367b3"
     }
   ]
 }
