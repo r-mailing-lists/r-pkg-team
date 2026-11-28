@@ -3897,6 +3897,134 @@
       "thread_id": "thread-e250f2c367b3",
       "thread_depth": 0,
       "month": "2026-11"
+    },
+    {
+      "id": "msg-07fe9a59df81",
+      "message_id": "<E1xXADc-00000005018-1wQ8@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-gstat REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-gstat REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-gstat source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.1-6-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1150839 in r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-gstat source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.1-6-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/b",
+      "thread_id": "thread-07fe9a59df81",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-08a43965dade",
+      "message_id": "<E1xXADc-0000000501X-2mz7@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-shinystan REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-shinystan REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-shinystan source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.7.0-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1149738,1150839 in datatables-extensions,r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-shinystan source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.7.0-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.o",
+      "thread_id": "thread-08a43965dade",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-523e19525717",
+      "message_id": "<E1xXADc-0000000501c-2yGX@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-smoother REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-smoother REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-smoother source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.3-2\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1150839 in r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-smoother source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.3-2\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/",
+      "thread_id": "thread-523e19525717",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-83d1216f3bfc",
+      "message_id": "<E1xXADc-0000000501U-2cN1@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-rstanarm REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-rstanarm REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-rstanarm source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.32.2-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1149738,1150839 in datatables-extensions,r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-rstanarm source package\nin Debian's testing distribution has changed.\n\n  Previous version: 2.32.2-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.o",
+      "thread_id": "thread-83d1216f3bfc",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-b2e63bb08523",
+      "message_id": "<E1xXADc-0000000501B-26ps@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-prophet REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-prophet REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-prophet source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.1.7+dfsg-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1150839 in r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-prophet source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.1.7+dfsg-1\n  Current version:  (not in testing)\n  Hint: <https://release.debia",
+      "thread_id": "thread-b2e63bb08523",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-b9a186219c9a",
+      "message_id": "<E1xXADc-0000000501q-3VM0@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-xts REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-xts REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-xts source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.14.2-4\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1150839\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-xts source package\nin Debian's testing distribution has changed.\n\n  Previous version: 0.14.2-4\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/br",
+      "thread_id": "thread-b9a186219c9a",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-c0f152ca32ae",
+      "message_id": "<E1xXADc-00000005011-1nW1@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-dygraphs REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-dygraphs REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-dygraphs source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.1.1.6+dfsg-5\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1150839 in r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-dygraphs source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.1.1.6+dfsg-5\n  Current version:  (not in testing)\n  Hint: <https://release.de",
+      "thread_id": "thread-c0f152ca32ae",
+      "thread_depth": 0,
+      "month": "2026-11"
+    },
+    {
+      "id": "msg-faae39d8b3d5",
+      "message_id": "<E1xXADc-0000000501i-38xS@respighi.debian.org>",
+      "from_name": "Debian testing watch",
+      "from_email_hash": "dbef4eb05dec82265dd5753ab46d3c521eb2f576c0696d92c74fb073765b3e77",
+      "date": "2026-11-28T04:39:24Z",
+      "subject": "[R-pkg-team] r-cran-spacetime REMOVED from testing",
+      "subject_clean": "[R-pkg-team] r-cran-spacetime REMOVED from testing",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "FYI: The status of the r-cran-spacetime source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.3-4-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.org/britney/hints/auto-removals>\n    # 1150839 in r-cran-xts\n\nThe script that generates this mail tries to extract removal\nreasons from comments in the britney hint files. Those comments\nwere not originally meant to be machine readable, so if the\nreason for removing your package seems to be nonsense, it is\nprobably the reporting script that got confused. Please check the\nactual hints file before you complain about meaningless removals.\n\n-- \nThis email is automatically generated once a day.  As the installation of\nnew packages into testing happens multiple times a day you will receive\nlater changes on the next day.\nSee https://release.debian.org/testing-watch/ for more information.",
+      "body_snippet": "FYI: The status of the r-cran-spacetime source package\nin Debian's testing distribution has changed.\n\n  Previous version: 1.3-4-1\n  Current version:  (not in testing)\n  Hint: <https://release.debian.o",
+      "thread_id": "thread-faae39d8b3d5",
+      "thread_depth": 0,
+      "month": "2026-11"
     }
   ],
   "threads": [
@@ -6520,6 +6648,94 @@
       "started": "2026-11-27T04:39:24Z",
       "last_reply": "2026-11-27T04:39:24Z",
       "root_message_id": "msg-e250f2c367b3"
+    },
+    {
+      "id": "thread-07fe9a59df81",
+      "subject": "[R-pkg-team] r-cran-gstat REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-07fe9a59df81"
+    },
+    {
+      "id": "thread-08a43965dade",
+      "subject": "[R-pkg-team] r-cran-shinystan REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-08a43965dade"
+    },
+    {
+      "id": "thread-523e19525717",
+      "subject": "[R-pkg-team] r-cran-smoother REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-523e19525717"
+    },
+    {
+      "id": "thread-83d1216f3bfc",
+      "subject": "[R-pkg-team] r-cran-rstanarm REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-83d1216f3bfc"
+    },
+    {
+      "id": "thread-b2e63bb08523",
+      "subject": "[R-pkg-team] r-cran-prophet REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-b2e63bb08523"
+    },
+    {
+      "id": "thread-b9a186219c9a",
+      "subject": "[R-pkg-team] r-cran-xts REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-b9a186219c9a"
+    },
+    {
+      "id": "thread-c0f152ca32ae",
+      "subject": "[R-pkg-team] r-cran-dygraphs REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-c0f152ca32ae"
+    },
+    {
+      "id": "thread-faae39d8b3d5",
+      "subject": "[R-pkg-team] r-cran-spacetime REMOVED from testing",
+      "message_count": 1,
+      "participants": [
+        "Debian testing watch"
+      ],
+      "started": "2026-11-28T04:39:24Z",
+      "last_reply": "2026-11-28T04:39:24Z",
+      "root_message_id": "msg-faae39d8b3d5"
     }
   ]
 }
